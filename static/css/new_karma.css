@@ -622,7 +622,7 @@ body {
     .details-container{
         display: flex;
         height: 15px;
-        gap: 10px;
+        gap: 8px;
         align-items: center;
 }
     .right-ranking{
