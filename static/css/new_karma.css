@@ -467,6 +467,9 @@ body {
     .neutral {
     color: #fc672b;
     }
+    .stable{
+        color: gray;
+    }
     
     span[class="rank-change neutral"]
     {
