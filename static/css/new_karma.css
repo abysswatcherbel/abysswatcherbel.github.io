@@ -6,7 +6,7 @@ body {
     .container {   
         color: #fff;
         width: 930px;
-        height: 2300px;
+        height: 2365px;
         background-color: #18407f;
         display: flex;
         flex-direction: column;
@@ -210,7 +210,7 @@ body {
     .episode-container {
     background-color: #335993;
     }
-    .row {margin-top: -1px;height: 141px;display: flex;flex-direction: row;}
+    .row {margin-top: -1px;height: 145px;display: flex;flex-direction: row;}
     .episode-container > .divider {
     height: 10px;
     width: 877px;
@@ -514,15 +514,15 @@ body {
         box-shadow: 0 0 13px 1px #6ec1df; 
     }
     .rightSide {
-        margin-left: -10px;
+        margin-left: -15px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         filter: drop-shadow(2px 6px 1px rgba(0, 0, 0, 0.8));
     }
     .rightSide > .rightBanner {
-        width: 300px;
-        height: 130px;
+        width: 305px;
+        height: 135px;
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
         box-shadow: inset 20px 0px 20px 6px rgba(0, 0, 0, 1);
     }
