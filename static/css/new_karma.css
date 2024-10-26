@@ -522,7 +522,7 @@ body {
     }
     .rightSide > .rightBanner {
         width: 305px;
-        height: 135px;
+        height: 140px;
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
         box-shadow: inset 20px 0px 20px 6px rgba(0, 0, 0, 1);
     }
