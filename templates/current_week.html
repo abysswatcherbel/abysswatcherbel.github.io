@@ -10,8 +10,8 @@
 
     <nav>
         <a href="{{ url_for('current_week') }}">Home</a>
-        <a href="{{ url_for('winter_week_4') }}">Previous Charts</a>
-        <a href="{{ url_for('current_chart') }}">Current Chart</a>
+        <a href="{{ url_for('winter_week_5') }}">Week {{ current_week_id-1 }} Chart</a>
+        <a href="{{ url_for('current_chart') }}">Week {{ current_week_id }} Chart</a>
     </nav>
     <h1>Current Week (Week {{ current_week_id }})</h1>
     
