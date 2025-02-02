@@ -105,7 +105,7 @@ def karma_rank():
 
 @app.route('/2025/winter/week_5.html', endpoint='winter_week_5')
 def week_4():
-    return render_template('/2025/winter/week_4.html')
+    return render_template('/2025/winter/week_5.html')
 
 
 
