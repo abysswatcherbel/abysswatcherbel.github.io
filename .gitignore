@@ -1,3 +1,7 @@
 .env
 /src/logs/*
 /*/__pycache__
+*.pyc
+*.pyo
+src/*.ipynb
+*.ipynb
