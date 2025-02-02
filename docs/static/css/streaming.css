@@ -1,0 +1,124 @@
+.Crunchyroll{
+    background-color: rgb(244, 117, 33) !important; 
+} 
+.Hidive{
+    background-color: rgb(0, 174, 240) !important; 
+}
+.Netflix{
+    background: rgb(219, 0, 0) !important;
+}
+.Hulu{
+    background-color: rgb(102, 170, 51) !important;
+}
+.Disney{
+    background-color: #113CCF !important;
+}
+.Prime{
+    background-color: rgb(60, 120, 180) !important;
+}
+.Twitter{
+    background-color: rgb(20,23,26) !important;
+}
+.Max{
+    background-color: #870AB2 !important;
+}
+.None{
+    background-color: black;
+}
+.Studio{
+    background-color: white !important;
+}
+
+
+.Prime-logo {
+    padding: 9px 7px !important;
+    background-color: rgb(60, 120, 180);
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.Crunchyroll-logo {
+    padding: 9px 7px !important;
+    background-color: rgb(244, 117, 33);
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}
+.Hidive-logo {
+    padding: 9px 7px !important;
+    background-color: rgb(0, 174, 240);
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}
+.Netflix-logo {
+    padding: 9px 7px !important;
+    background-color: rgb(219, 0, 0) ;
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}
+.Disney-logo {
+    padding: 9px 7px !important;
+    background-color: #113CCF;
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}
+.Max-logo {
+    padding: 9px 7px !important;
+    background-color: #701c7c;
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}
+.None-logo {
+    padding: 9px 7px !important;
+    background-color: #000000;
+    display: flex;
+    width: 39px;
+    font-size: 8px;
+    height: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 358px !important;
+    border-bottom-right-radius: 0px !important;
+    align-items: center;
+    justify-content: center;
+}

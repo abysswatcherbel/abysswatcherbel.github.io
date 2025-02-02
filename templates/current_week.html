@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Karma Ranks</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+
+    </head>
+<body>
+
+    <nav>
+        <a href="{{ url_for('current_week') }}">Home</a>
+        <a href="{{ url_for('previous_weeks') }}">History</a>
+        <a href="{{ url_for('current_chart') }}">Charts</a>
+    </nav>
+    <h1>Current Week (Week {{ current_week_id }})</h1>
+    
+    <h2>{{ airing_details.airing_period }}</h2>
+    
+    <div class="current-week-table-container">
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Episode</th>
+                <th>Karma</th>
+                <th>Comments</th>
+                <th>Karma Change</th>
+                <th>Rank Change</th>
+                <th>Reddit Link</th>
+            </tr>
+            {% for show in current_shows %}
+            <tr>
+                <td>{{ show.title }}</td>
+                <td>{{ show.episode }}</td>
+                <td>{{ show.karma }}</td>
+                <td>{{ show.comments }}</td>
+                <td>{{ show.karma_change }}</td>
+                <td>{{ show.rank_change }}</td>
+                <td><a href="{{ show.url }}" target="_blank">Link</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+      </div>
+    <h2>Queued Shows</h2>
+    <table border="1">
+        <tr>
+            <th>Post_id</th>
+            <th>Scheduled Processing Time (UTC)</th>
+        </tr>
+        {% for show in queued_shows %}
+        <tr>
+            <td>{{ show._id }}</td>
+            <td>{{ show.scheduled_time.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
