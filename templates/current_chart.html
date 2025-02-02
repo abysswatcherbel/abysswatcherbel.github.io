@@ -79,7 +79,7 @@
                         {% else %}
                             <span class="rank-change {% if left.rank_change | int > 0 %}positive{% elif left.rank_change | int < 0 %}negative{% else %}stable{% endif %}" style="display: initial;">
                                 <span style="display: {% if left.rank_change | int == 0 %}none{% else %}initial{% endif %};">
-                                    <svg class="arrow {% if left.rank_change | int < 0 %}positive{% elif left.rank_change | int > 0 %}negative{% else %}neutral{% endif %}" viewBox="0 0 117.7 110">
+                                    <svg class="arrow {% if left.rank_change | int > 0 %}positive{% elif left.rank_change | int < 0 %}negative{% else %}neutral{% endif %}" viewBox="0 0 117.7 110">
                                         <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
                                     </svg>
                                 </span>
@@ -94,9 +94,8 @@
                     <div class="details" style="background-image: url('{{ left.default_banner }}'); background-position: 0px 0px;">
                         <div class="part-1">
                             <span class="karma-change" style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">
-                                <svg class="caret {% if left.karma_change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>
-                                {{ left.karma_change | abs }}
-                            </span>
+                            <svg class="caret {% if left.karma_change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>
+                            {{ left.karma_change | abs }}</span>
                             <span class="karma">{{ left.karma }}</span>
                         </div>
                         <div class="part-2">
@@ -149,9 +148,9 @@
                                         {% elif right.rank_change | int == 0 %}
                                             <span class="right-rank-change stable">&mdash;</span>
                                         {% else %}
-                                            <span class="right-rank-change {% if right.rank_change | int < 0 %}positive{% else %}negative{% endif %}" style="display: initial;">
+                                            <span class="right-rank-change {% if right.rank_change | int > 0 %}positive{% else %}negative{% endif %}" style="display: initial;">
                                                 <span style="display: initial;">
-                                                    <svg class="arrow {% if right.rank_change | int > 0 %}negative{% else %}positive{% endif %}" viewBox="0 0 117.7 110">
+                                                    <svg class="arrow {% if right.rank_change | int < 0 %}negative{% else %}positive{% endif %}" viewBox="0 0 117.7 110">
                                                         <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
                                                     </svg>
                                                 </span>

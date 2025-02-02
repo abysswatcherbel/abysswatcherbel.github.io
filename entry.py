@@ -30,26 +30,25 @@ def current_week():
     total_karma = sum([show['karma'] for show in current_shows[:15]])
 
     
-    # Fetch queued shows from scheduler jobs
-    scheduler_db = client.scheduler
-    apscheduler_jobs = scheduler_db.jobs
-    queued_jobs = list(apscheduler_jobs.find(
-        {'next_run_time': {'$ne': None}},
-        {'name': 1, 'next_run_time': 1}
-    ))
+    # # Fetch queued shows from scheduler jobs
+    # scheduler_db = client.scheduler
+    # apscheduler_jobs = scheduler_db.jobs
+    # queued_jobs = list(apscheduler_jobs.find(
+    #     {'next_run_time': {'$ne': None}},
+    #     {'name': 1, 'next_run_time': 1}
+    # ))
     
-    # Convert next_run_time to datetime
-    for job in queued_jobs:
-        if 'next_run_time' in job:
-            job['scheduled_time'] = datetime.fromtimestamp(job['next_run_time'], tz=timezone.utc)
-            job['_id'] = job['_id'].split('_')[-1]
+    # # Convert next_run_time to datetime
+    # for job in queued_jobs:
+    #     if 'next_run_time' in job:
+    #         job['scheduled_time'] = datetime.fromtimestamp(job['next_run_time'], tz=timezone.utc)
+    #         job['_id'] = job['_id'].split('_')[-1]
        
     
     client.close()
     return render_template(
         'current_week.html',
         current_shows=current_shows,
-        queued_shows=queued_jobs,
         current_week_id=current_week_id,
         airing_details=airing_details
     )
@@ -121,4 +120,11 @@ def karma_rank():
 
 
 if __name__ == "__main__":
-    freezer.freeze()
+    import sys
+
+    if "freeze" in sys.argv:
+        # Generate static files
+        freezer.freeze()
+    else:
+        # Run Flask app for local debugging
+        app.run(debug=True)

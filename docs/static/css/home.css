@@ -86,9 +86,9 @@ a:hover {
     }
 }
 
-/* Container for the current week table */
+
 .current-week-table-container {
-    max-height: 400px;      /* Adjust the max height as needed */
+    max-height: 400px;      
     overflow-y: auto;       /* Enable vertical scrolling */
     width: 90%;
     margin: 2rem auto;
@@ -96,13 +96,13 @@ a:hover {
     background-color: #fff;
 }
 
-/* Ensure the table takes full width of the container */
+
 .current-week-table-container table {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* Table cell styles for both header and body */
+
 .current-week-table-container th,
 .current-week-table-container td {
     padding: 12px 15px;
@@ -110,22 +110,51 @@ a:hover {
     border: 1px solid #ddd;
 }
 
-/* Sticky Table Header */
+
 .current-week-table-container th {
     position: sticky;
     top: 0;
-    background-color: #2980b9;  /* Same as the header background */
+    background-color: #2980b9;  
     color: #fff;
-    z-index: 2;                 /* Ensure header stays on top */
+    z-index: 2;             
 }
 
-/* Optional: Zebra striping for table rows */
+
 .current-week-table-container tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Optional: Hover effect on table rows */
+
 .current-week-table-container tr:hover {
     background-color: #e9f5ff;
+}
+
+nav {
+    background-color: #333;  /* Dark background */
+    padding: 10px 20px;  /* Add some padding */
+    display: flex;
+    justify-content: center;  /* Center links */
+    align-items: center;
+    gap: 20px;  /* Space between links */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;  /* Slightly rounded corners */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);  /* Light hover effect */
+    transform: translateY(-2px);  /* Slight lift */
+}
+
+nav a:active {
+    transform: translateY(0px);
 }
 

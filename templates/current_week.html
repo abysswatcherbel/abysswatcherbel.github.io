@@ -41,18 +41,6 @@
             {% endfor %}
         </table>
       </div>
-    <h2>Queued Shows</h2>
-    <table border="1">
-        <tr>
-            <th>Post_id</th>
-            <th>Scheduled Processing Time (UTC)</th>
-        </tr>
-        {% for show in queued_shows %}
-        <tr>
-            <td>{{ show._id }}</td>
-            <td>{{ show.scheduled_time.strftime('%Y-%m-%d %H:%M:%S') }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+   
 </body>
 </html>
