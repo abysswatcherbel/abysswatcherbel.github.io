@@ -73,6 +73,7 @@ def get_weekly_change():
             "studio": "$studios.name",
             "score": "$reddit_karma.mal_stats.score",
             "streaming_on": 1,
+            "url": "$reddit_karma.url",
             "mal_id": 1
             
         }}
@@ -160,22 +161,48 @@ def process_stats(data: dict, current_week):
 
     mal_id = data.get('id')
     # Transform API response into the correct statistics format
+
+    client = MongoClient(os.getenv('MONGO_URI'))
+    db = client.anime
+    col = db.winter_2025
+
+    mal_score = data.get('mean')
+    mal_members = data.get('num_list_users')
+    mal_scoring_members = data.get('num_scoring_users')
+
+    col.update_one(
+        {"mal_id": mal_id},
+        {"$set": 
+         {
+            "score": mal_score,
+            "members": mal_members,
+            "scored_by": mal_scoring_members
+           }
+        }
+    )
+
     new_statistic = {
         
-        'score': data.get('mean'),
-        'members' : data.get('num_list_users'),
-        'scoring_members': data.get('num_scoring_users'),
+        'score': mal_score,
+        'members' : mal_members,
+        'scoring_members': mal_scoring_members,
         'extra_stats': data['statistics']['status']
         
     }
 
     pipeline = {"mal_id": mal_id, "reddit_karma.week_id": current_week, "mal_stats": new_statistic}
 
-    client = MongoClient(os.getenv('MONGO_URI'))
-    db = client.anime
-    col = db.winter_2025
-    result = col.update_one({"mal_id": mal_id, "reddit_karma.week_id": current_week},{"$set": {"reddit_karma.$.mal_stats": new_statistic}})
-    print(f"Updated {result.modified_count} entries")
+   
+    col.update_one(
+        {
+            "mal_id": mal_id,
+            "reddit_karma.week_id": current_week},
+        {"$set": 
+         {
+            "reddit_karma.$.mal_stats": new_statistic
+          }
+         }
+    )
     client.close()
     
 

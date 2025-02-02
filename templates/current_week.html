@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Karma Ranks</title>
+        <title>Karma Ranks</title>
         <meta name="description" content="">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 
@@ -10,8 +10,8 @@
 
     <nav>
         <a href="{{ url_for('current_week') }}">Home</a>
-        <a href="{{ url_for('previous_weeks') }}">History</a>
-        <a href="{{ url_for('current_chart') }}">Charts</a>
+        <a href="{{ url_for('winter_week_4') }}">Previous Charts</a>
+        <a href="{{ url_for('current_chart') }}">Current Chart</a>
     </nav>
     <h1>Current Week (Week {{ current_week_id }})</h1>
     
@@ -20,6 +20,7 @@
     <div class="current-week-table-container">
         <table>
             <tr>
+                <th>Rank</th>
                 <th>Title</th>
                 <th>Episode</th>
                 <th>Karma</th>
@@ -28,9 +29,11 @@
                 <th>Rank Change</th>
                 <th>Reddit Link</th>
             </tr>
+            {% if current_shows %}
             {% for show in current_shows %}
             <tr>
-                <td>{{ show.title }}</td>
+                <td>{{ show.current_rank }}</td>
+                <td>{% if show.title_english %}{{ show.title_english }}{% else %} {{ show.title }}{% endif %}</td>
                 <td>{{ show.episode }}</td>
                 <td>{{ show.karma }}</td>
                 <td>{{ show.comments }}</td>
@@ -39,6 +42,7 @@
                 <td><a href="{{ show.url }}" target="_blank">Link</a></td>
             </tr>
             {% endfor %}
+            {% endif %}
         </table>
       </div>
    

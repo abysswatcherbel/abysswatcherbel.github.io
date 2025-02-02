@@ -220,6 +220,7 @@ def insert_mongo(post_details: dict, client: MongoClient = MongoClient(os.getenv
     romaji = title_info.get("romaji")
     english = title_info.get("english")
     mal_id = post_details.get("mal_id")
+    reddit_id = post_details.get("post_id")
 
     episode_data = {
         "week_id": post_details["week_id"],
@@ -227,7 +228,7 @@ def insert_mongo(post_details: dict, client: MongoClient = MongoClient(os.getenv
         "karma": post_details["karma"],
         "comments": post_details["comments"],
         "upvote_ratio": post_details["upvote_ratio"],
-        "reddit_id": post_details["post_id"],
+        "reddit_id": reddit_id,
         "url": post_details["url"]
     }
 
@@ -255,7 +256,7 @@ def insert_mongo(post_details: dict, client: MongoClient = MongoClient(os.getenv
     else:
         col = db.new_entries
         insert_result = col.insert_one(episode_data)
-        logger.info(f"Created new document: {insert_result.upserted_id}")
+        logger.info(f"Created new document: for the post {reddit_id} MAL ID: {mal_id} with the ID: {insert_result.inserted_id}")
 
 def get_season(month_int):
     if month_int in range(1, 4):
@@ -296,10 +297,17 @@ def get_week_id(schedule_type: str = 'episodes', post_time: datetime = datetime.
         schedule_path = os.path.join('src/season_references', str(year), season, 'post.csv')
 
     schedule_df = pd.read_csv(schedule_path)
+    
+    # Convert start_date and end_date to full datetime (UTC timezone-aware)
+    schedule_df['start_date'] = pd.to_datetime(schedule_df['start_date'], utc=True)
+    schedule_df['end_date'] = pd.to_datetime(schedule_df['end_date'], utc=True)
+
+    # Ensure post_time is also timezone-aware (convert if needed)
+    if post_time.tzinfo is None:
+        post_time = post_time.replace(tzinfo=timezone.utc)
+
     for _, row in schedule_df.iterrows():
-        start_date = datetime.fromisoformat(row['start_date']).date()
-        end_date = datetime.fromisoformat(row['end_date']).date()
-        if start_date <= post_day <= end_date:
+        if row['start_date'] <= post_time <= row['end_date']:
             return row['week_id']
     return None
 

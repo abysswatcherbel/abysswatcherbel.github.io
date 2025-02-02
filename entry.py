@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from pymongo import MongoClient
 from datetime import datetime, timezone
 import os
-from src.reddit_api import get_week_id, get_season, main  # Import necessary functions
+from src.reddit_api import get_week_id, main  # Import necessary functions
 from src.rank_processing import get_weekly_change, get_airing_period
 from static.assets import back_symbol, new_entry, right_new_entry
 from itertools import zip_longest
@@ -24,26 +24,10 @@ def current_week():
     client = MongoClient(os.getenv('MONGO_URI'))
     
 
-
     current_shows = get_weekly_change()
     airing_details = get_airing_period()
-    total_karma = sum([show['karma'] for show in current_shows[:15]])
+    
 
-    
-    # # Fetch queued shows from scheduler jobs
-    # scheduler_db = client.scheduler
-    # apscheduler_jobs = scheduler_db.jobs
-    # queued_jobs = list(apscheduler_jobs.find(
-    #     {'next_run_time': {'$ne': None}},
-    #     {'name': 1, 'next_run_time': 1}
-    # ))
-    
-    # # Convert next_run_time to datetime
-    # for job in queued_jobs:
-    #     if 'next_run_time' in job:
-    #         job['scheduled_time'] = datetime.fromtimestamp(job['next_run_time'], tz=timezone.utc)
-    #         job['_id'] = job['_id'].split('_')[-1]
-       
     
     client.close()
     return render_template(
@@ -119,12 +103,18 @@ def karma_rank():
     )
 
 
+@app.route('/2025/winter/week_4.html', endpoint='winter_week_4')
+def week_4():
+    return render_template('/2025/winter/week_4.html')
+
+
+
 if __name__ == "__main__":
     import sys
 
     if "freeze" in sys.argv:
         # Generate static files
         freezer.freeze()
-    else:
+    elif "run" in sys.argv:
         # Run Flask app for local debugging
-        app.run(debug=True)
+        main()
