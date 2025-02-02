@@ -118,3 +118,5 @@ if __name__ == "__main__":
     elif "run" in sys.argv:
         # Run Flask app for local debugging
         main()
+    else:
+        app.run(debug=True)

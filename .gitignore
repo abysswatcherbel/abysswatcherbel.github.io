@@ -5,3 +5,4 @@
 *.pyo
 src/*.ipynb
 *.ipynb
+*.sh
