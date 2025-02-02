@@ -77,7 +77,7 @@
                         {% elif left.rank_change == 'new' %}
                             {{ new_entry | safe }}
                         {% else %}
-                            <span class="rank-change {% if left.rank_change | int < 0 %}positive{% elif left.rank_change | int > 0 %}negative{% else %}stable{% endif %}" style="display: initial;">
+                            <span class="rank-change {% if left.rank_change | int > 0 %}positive{% elif left.rank_change | int < 0 %}negative{% else %}stable{% endif %}" style="display: initial;">
                                 <span style="display: {% if left.rank_change | int == 0 %}none{% else %}initial{% endif %};">
                                     <svg class="arrow {% if left.rank_change | int < 0 %}positive{% elif left.rank_change | int > 0 %}negative{% else %}neutral{% endif %}" viewBox="0 0 117.7 110">
                                         <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
