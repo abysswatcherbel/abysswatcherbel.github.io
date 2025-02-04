@@ -69,14 +69,19 @@ def setup_scheduler(mongo_uri=os.getenv('MONGO_URI'), mongo_database="scheduler"
 
     # Only pass the reddit instance as an argument (not the scheduler)
     reddit_instance = setup_reddit_instance()
-    scheduler.add_job(
-        update_scheduler, 
-        'cron', 
-        args=[reddit_instance], 
-        hour=13, minute=21, 
-        name='Daily update'
+    job_id = "daily_update"
 
-    )
+    if not scheduler.get_job(job_id):
+        # Skip if job already exist
+        scheduler.add_job(
+            update_scheduler, 
+            'cron', 
+            args=[reddit_instance], 
+            hour=23, minute=00, 
+            name='Daily update',
+            id="daily_update"
+
+        )
     return scheduler
 
 def setup_reddit_instance(reddit_id=os.getenv('REDDIT_ID'), reddit_secret=os.getenv('REDDIT_SECRET'), reddit_username=os.getenv('REDDIT_USERNAME')):
