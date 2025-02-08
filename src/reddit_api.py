@@ -291,7 +291,7 @@ def get_week_id(schedule_type: str = 'episodes', post_time: datetime = datetime.
     if schedule_type not in ('post', 'episodes'):
         raise ValueError("Invalid schedule_type. Must be either 'post' or 'episodes'.")
 
-    post_day = post_time.date()
+    
     year = post_time.year
     month = post_time.month
     season = get_season_name(month)
