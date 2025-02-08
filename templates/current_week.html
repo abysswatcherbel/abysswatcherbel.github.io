@@ -30,16 +30,14 @@
 
   <!-- Main Content -->
   <main>
-    <section class="week-info">
-      <h2>Current Week (Week {{ current_week_id }})</h2>
-      <p>{{ airing_details.airing_period }}</p>
-    </section>
 
     <!-- Rank Section with Two Equal Tables -->
     <section class="rank-tables">
       <div class="rank-table">
-        <h3>Current Week Rank</h3>
+        
+      
         <table>
+            <caption>{{ airing_details.airing_period }}</caption>
           <thead>
             <tr>
               <th>Rank</th>
@@ -77,9 +75,10 @@
         </table>
       </div>
 
-      <div class="rank-table">
-        <h3>Average Rank</h3>
+      <div class="rank-table averages-rank">
+        
         <table>
+            <caption>Season Average</caption>
           <thead>
             <tr>
               <th>Rank</th>
@@ -92,16 +91,26 @@
           </thead>
           <tbody>
             {% if average_shows %}
+                
               {% for show in average_shows %}
                 <tr>
-                  <td>{{ show.average_rank }}</td>
+                  <td>{{ loop.index }}</td>
+                   
                   <td>
                     <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
                          onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
                     <span style="display:none;">{{ show.title_english or show.title }}</span>
-                  </td>
-                  <td>{{ show.average_karma }}</td>
-                  <td>{{ show.average_comments }}</td>
+                    <td>
+                        {% if show.average_karma %} 
+                            {{ "%.2f"|format(show.average_karma) if show.average_karma % 1 != 0 else show.average_karma|int }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if show.average_comments %} 
+                            {{ "%.2f"|format(show.average_comments) if show.average_comments % 1 != 0 else show.average_comments|int }}
+                        {% endif %}
+                    </td>
+                    
                   <td>{{ show.max_karma }}</td>
                   <td>{{ show.min_karma }}</td>
                 </tr>
