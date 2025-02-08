@@ -151,7 +151,7 @@ def fetch_mal_score(mal_ids: list[int], headers: dict = {"X-MAL-CLIENT-ID": os.g
             if response.status_code == 200:
                 data = response.json()
                 process_stats(data, current_week)
-                time.sleep(1)
+                
                 
             else:
                 print(f"Error with ID {mal_id}: {response.status_code}")
@@ -313,3 +313,38 @@ def get_season_averages(season: str, year: int):
         print(e)
         client.close()
         return
+
+def update_mal_numbers(week_id: int):
+    # 1. Connect to your MongoDB
+    client = MongoClient(os.getenv('MONGO_URI'))
+    
+    # 2. Get your specific database and collection
+    db = client.anime
+    collection = db.winter_2025
+    try:
+        db.validate_collection(collection)
+    except OperationFailure:
+        return
+    
+    pipeline = [
+        {
+            '$match': {
+                'reddit_karma': {
+                    '$elemMatch': {
+                        'week_id': week_id
+                    }
+                }
+            }
+        },
+        {
+            '$project': {
+                '_id': 0,
+                'mal_id': 1
+            }
+        }
+    ]
+
+    mal_ids = list(collection.aggregate(pipeline))
+    mal_ids = [entry['mal_id'] for entry in mal_ids]
+    client.close()
+    fetch_mal_score(mal_ids)
