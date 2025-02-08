@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from datetime import datetime, timezone
 import os
 from src.reddit_api import get_week_id, main  # Import necessary functions
-from src.rank_processing import get_weekly_change, get_airing_period
+from src.rank_processing import get_weekly_change, get_airing_period, get_season_averages
 from static.assets import back_symbol, new_entry, right_new_entry
 from itertools import zip_longest
 from flask_frozen import Freezer
@@ -26,6 +26,10 @@ def current_week():
 
     current_shows = get_weekly_change()
     airing_details = get_airing_period()
+    season_averages = get_season_averages(
+        season=airing_details['season'],
+        year=current_time.year
+    )
     
 
     
@@ -34,7 +38,8 @@ def current_week():
         'current_week.html',
         current_shows=current_shows,
         current_week_id=current_week_id,
-        airing_details=airing_details
+        airing_details=airing_details,
+        average_shows=season_averages,
     )
 
 @app.route('/previous_weeks.html' ,endpoint='previous_weeks')

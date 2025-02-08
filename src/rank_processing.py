@@ -293,6 +293,9 @@ def get_season_averages(season: str, year: int):
             '$project': {
                 '_id': 0,
                 'mal_id': 1,
+                "title": 1,
+                "title_english": 1,
+                'images': 1,
                 'average_karma': {'$avg': '$reddit_karma.karma'},
                 'average_comments': {'$avg': '$reddit_karma.comments'},
                 'max_karma': {'$max': '$reddit_karma.karma'},
@@ -304,6 +307,7 @@ def get_season_averages(season: str, year: int):
     try:
         season_averages = list(collection.aggregate(pipeline))
         client.close()
+        season_averages = sorted(season_averages, key=lambda x: x['average_karma'], reverse=True)
         return season_averages
     except Exception as e:
         print(e)

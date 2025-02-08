@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Karma Ranks</title>
-  <meta name="description" content="Anime karma ranks from r/anime subreddit">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Link your custom stylesheet -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <meta charset="UTF-8">
+    <title>Karma Ranks</title>
+    <meta name="description" content="Anime karma ranks from r/anime subreddit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <script src="{{ url_for('static', filename='scripts/synposis.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/theme-switch.js') }}"></script>
 </head>
 <body>
 
-  <!-- Header with site title and navigation -->
+  <!-- Header -->
   <header>
     <div class="logo">
       <h1>Karma Ranks</h1>
@@ -22,112 +23,132 @@
         <li><a href="{{ url_for('current_chart') }}">Week {{ current_week_id }} Chart</a></li>
       </ul>
     </nav>
+    <div class="theme-switcher">
+      <button id="theme-button">🌙 Dark Mode</button>
+    </div>
   </header>
-  
-  <!-- Main content area -->
+
+  <!-- Main Content -->
   <main>
-    <!-- Hero / Title Section -->
-    <section class="hero">
+    <section class="week-info">
       <h2>Current Week (Week {{ current_week_id }})</h2>
       <p>{{ airing_details.airing_period }}</p>
     </section>
 
-    <!-- Rank Section -->
-    <section class="rank-table-container">
-      <table>
-        <div class="rank-header">
-            <thead>
+    <!-- Rank Section with Two Equal Tables -->
+    <section class="rank-tables">
+      <div class="rank-table">
+        <h3>Current Week Rank</h3>
+        <table>
+          <thead>
             <tr>
-                <th>Rank</th>
-                <th>Show</th>
-                <th>Episode</th>
-                <th>Karma</th>
-                <th>Comments</th>
-                <th>Karma Change</th>
-                <th>Rank Change</th>
-                <th>Reddit Link</th>
+              <th>Rank</th>
+              <th>Show</th>
+              <th>Episode</th>
+              <th>Karma</th>
+              <th>Comments</th>
+              <th>Karma Change</th>
+              <th>Rank Change</th>
+              <th>Reddit Link</th>
             </tr>
-            </thead>
-        </div>
-        <tbody>
-          {% if current_shows %}
-            
-            <div class="show-container">
-            {% for show in current_shows %}
+          </thead>
+          <tbody>
+            {% if current_shows %}
+              {% for show in current_shows %}
+                <tr>
+                  <td>{{ show.current_rank }}</td>
+                  <td>
+                    <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                    <span style="display:none;">{{ show.title_english or show.title }}</span>
+                  </td>
+                  <td>{{ show.episode }}</td>
+                  <td>{{ show.karma }}</td>
+                  <td>{{ show.comments }}</td>
+                  <td>{{ show.karma_change }}</td>
+                  <td>{{ show.rank_change }}</td>
+                  <td><a href="{{ show.url }}" target="_blank">Link</a></td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="8">No shows to display this week</td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="rank-table">
+        <h3>Average Rank</h3>
+        <table>
+          <thead>
             <tr>
-                <td>{{ show.current_rank }}</td>
-                <td>
-                    
-                      <img 
-                        src="{{ show.images.webp.image_url }}"
-                        alt="{{ show.title_english or show.title }}"
-                        onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
-                      <span style="display:none;">{{ show.title_english or show.title }}</span>
-                    
-                </td>
-                <td>{{ show.episode }}</td>
-                <td>{{ show.karma }}</td>
-                <td>{{ show.comments }}</td>
-                <td>{{ show.karma_change }}</td>
-                <td>{{ show.rank_change }}</td>
-                <td><a href="{{ show.url }}" target="_blank">Link</a></td>
+              <th>Rank</th>
+              <th>Show</th>
+              <th>Average Karma</th>
+              <th>Average Comments</th>
+              <th>Max Karma</th>
+              <th>Min Karma</th>
             </tr>
-        {% endfor %}
-        </div>
-            
-          {% else %}
-            <tr>
-              <td colspan="8">No shows to display this week</td>
-            </tr>
-          {% endif %}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {% if average_shows %}
+              {% for show in average_shows %}
+                <tr>
+                  <td>{{ show.average_rank }}</td>
+                  <td>
+                    <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                    <span style="display:none;">{{ show.title_english or show.title }}</span>
+                  </td>
+                  <td>{{ show.average_karma }}</td>
+                  <td>{{ show.average_comments }}</td>
+                  <td>{{ show.max_karma }}</td>
+                  <td>{{ show.min_karma }}</td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="6">No average rankings available</td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
     </section>
-    
+
     <!-- Featured Show -->
     {% if current_shows and current_shows|length > 0 %}
       {% set featured_show = current_shows[0] %}
       <section class="featured-show">
-        <h2>Featured Show (Rank #1)</h2>
+        <h2>Featured Week Rank #1</h2>
         <div class="featured-content">
-          <!-- Show image (with fallback) -->
           <div class="featured-image">
-            <img 
-              src="{{ featured_show.images.jpg.image_url }}" 
-              alt="{{ featured_show.title_english or featured_show.title }}"
-              onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
+            <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
+                 onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
             <span style="display:none;">{{ featured_show.title_english or featured_show.title }}</span>
           </div>
-          <!-- Additional data: e.g. synonyms, synopsis, embed trailer -->
           <div class="featured-info">
             <h3>{{ featured_show.title_english or featured_show.title }}</h3>
-            <!-- Example: synopsis -->
-            <p class="synopsis">{{ featured_show.synopsis }}</p>
-
-            <!-- If a trailer embed is available -->
+            <div class="synopsis-container">
+                <button class="synopsis-toggle">
+                   Synopsis
+                </button>
+                <p class="synopsis-content">
+                  {{ featured_show.synopsis }}
+                </p>
+            </div>
+              
             {% if featured_show.trailer and featured_show.trailer.embed_url %}
               <div class="trailer-container">
-                <iframe 
-                  width="560" 
-                  height="315" 
-                  src="{{ featured_show.trailer.embed_url }}" 
-                  frameborder="0" 
-                  allowfullscreen>
-                </iframe>
+                <iframe width="560" height="315" src="{{ featured_show.trailer.embed_url }}" frameborder="0" allowfullscreen></iframe>
               </div>
             {% endif %}
-
           </div>
         </div>
       </section>
     {% endif %}
 
-
-
-
   </main>
 
-  <!-- Footer with placeholder info -->
+  <!-- Footer -->
   <footer>
     <p>by u/abysswatcherbel</p>
     <p>Data collected weekly from r/anime subreddit.</p>
