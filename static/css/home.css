@@ -1,160 +1,111 @@
-/* General Styles */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Basic reset and styling */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
     color: #333;
-}
-
-/* Headings */
-h1, h2, h3 {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-h1 {
-    color: #2c3e50;
-    margin-top: 2rem;
-}
-
-h2 {
-    color: #34495e;
-}
-
-h3 a {
-    color: #2980b9;
-    text-decoration: none;
-}
-
-h3 a:hover {
-    text-decoration: underline;
-}
-
-/* Table Styles */
-table {
-    width: 90%;
-    margin: 2rem auto;
-    border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-}
-
-table th,
-table td {
-    padding: 12px 15px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-table th {
-    background-color: #2980b9;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+  
+  /* Header and Navigation */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    padding: 1rem 2rem;
+  }
+  
+  header .logo h1 {
     color: #fff;
-    font-weight: bold;
-}
-
-/* Zebra striping for table rows */
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Hover effect on table rows */
-table tr:hover {
-    background-color: #e9f5ff;
-}
-
-/* Link styles */
-a {
-    color: #2980b9;
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
     text-decoration: none;
-}
-
-a:hover {
+    font-weight: 500;
+  }
+  
+  nav a:hover {
     text-decoration: underline;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    table {
-        width: 100%;
-    }
-    
-    table th,
-    table td {
-        padding: 10px;
-    }
-}
-
-
-.current-week-table-container {
-    max-height: 400px;      
-    overflow-y: auto;       /* Enable vertical scrolling */
-    width: 90%;
-    margin: 2rem auto;
-    border: 1px solid #ddd;
+  }
+  
+  /* Hero / Title Section */
+  .hero {
     background-color: #fff;
-}
-
-
-.current-week-table-container table {
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Table Section */
+  .rank-table-container {
+    margin: 2rem auto;
+    padding: 0 2rem;
+    max-width: 1000px;
+    
+  }
+  
+  table {
     width: 100%;
     border-collapse: collapse;
-}
-
-
-.current-week-table-container th,
-.current-week-table-container td {
-    padding: 12px 15px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-
-.current-week-table-container th {
-    position: sticky;
-    top: 0;
-    background-color: #2980b9;  
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background-color: #272727;
     color: #fff;
-    z-index: 2;             
-}
-
-
-.current-week-table-container tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-
-.current-week-table-container tr:hover {
-    background-color: #e9f5ff;
-}
-
-nav {
-    background-color: #333;  /* Dark background */
-    padding: 10px 20px;  /* Add some padding */
-    display: flex;
-    justify-content: center;  /* Center links */
-    align-items: center;
-    gap: 20px;  /* Space between links */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
-}
-
-nav a {
-    color: white;
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  a {
+    color: #0066cc;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 10px 15px;
-    border-radius: 5px;  /* Slightly rounded corners */
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);  /* Light hover effect */
-    transform: translateY(-2px);  /* Slight lift */
-}
-
-nav a:active {
-    transform: translateY(0px);
-}
-
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  

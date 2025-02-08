@@ -1,39 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Karma Ranks</title>
-        <meta name="description" content="">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
-
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Karma Ranks</title>
+  <meta name="description" content="Anime karma ranks from r/anime subreddit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link your custom stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
 <body>
 
+  <!-- Header with site title and navigation -->
+  <header>
+    <div class="logo">
+      <h1>Karma Ranks</h1>
+    </div>
     <nav>
-        <a href="{{ url_for('current_week') }}">Home</a>
-        <a href="{{ url_for('winter_week_5') }}">Week {{ current_week_id-1 }} Chart</a>
-        <a href="{{ url_for('current_chart') }}">Week {{ current_week_id }} Chart</a>
+      <ul>
+        <li><a href="{{ url_for('current_week') }}">Home</a></li>
+        <li><a href="{{ url_for('winter_week_5') }}">Week {{ current_week_id - 1 }} Chart</a></li>
+        <li><a href="{{ url_for('current_chart') }}">Week {{ current_week_id }} Chart</a></li>
+      </ul>
     </nav>
-    <h1>Current Week (Week {{ current_week_id }})</h1>
-    
-    <h2>{{ airing_details.airing_period }}</h2>
-    
-    <div class="current-week-table-container">
-        <table>
-            <tr>
-                <th>Rank</th>
-                <th>Title</th>
-                <th>Episode</th>
-                <th>Karma</th>
-                <th>Comments</th>
-                <th>Karma Change</th>
-                <th>Rank Change</th>
-                <th>Reddit Link</th>
-            </tr>
-            {% if current_shows %}
+  </header>
+  
+  <!-- Main content area -->
+  <main>
+    <!-- Hero / Title Section -->
+    <section class="hero">
+      <h2>Current Week (Week {{ current_week_id }})</h2>
+      <p>{{ airing_details.airing_period }}</p>
+    </section>
+
+    <!-- Table Section -->
+    <section class="rank-table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Show</th>
+            <th>Episode</th>
+            <th>Karma</th>
+            <th>Comments</th>
+            <th>Karma Change</th>
+            <th>Rank Change</th>
+            <th>Reddit Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% if current_shows %}
             {% for show in current_shows %}
             <tr>
                 <td>{{ show.current_rank }}</td>
-                <td>{% if show.title_english %}{{ show.title_english }}{% else %} {{ show.title }}{% endif %}</td>
+                <td>
+                    <div class="show-container">
+                      <img 
+                        src="{{ show.small_banner }}"
+                        alt="{{ show.title_english or show.title }}"
+                        onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                      <span style="display:none;">{{ show.title_english or show.title }}</span>
+                    </div>
+                </td>
                 <td>{{ show.episode }}</td>
                 <td>{{ show.karma }}</td>
                 <td>{{ show.comments }}</td>
@@ -42,9 +69,21 @@
                 <td><a href="{{ show.url }}" target="_blank">Link</a></td>
             </tr>
             {% endfor %}
-            {% endif %}
-        </table>
-      </div>
-   
+          {% else %}
+            <tr>
+              <td colspan="8">No shows to display this week</td>
+            </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer with placeholder info -->
+  <footer>
+    <p>&copy; 2025 Karma Ranks. All rights reserved.</p>
+    <p>Data collected weekly from r/anime subreddit.</p>
+  </footer>
+
 </body>
 </html>

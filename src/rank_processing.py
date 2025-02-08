@@ -70,6 +70,7 @@ def get_weekly_change():
             "comments": "$reddit_karma.comments",
             "week_id": "$reddit_karma.week_id",
             "default_banner": "$images.jpg.large_image_url",
+            "small_banner": "$images.webp.image_url",
             "studio": "$studios.name",
             "score": "$reddit_karma.mal_stats.score",
             "streaming_on": 1,
