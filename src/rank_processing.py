@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from pymongo.errors import OperationFailure
 from datetime import datetime, timezone
 import os
 from src.reddit_api import *
@@ -69,13 +70,14 @@ def get_weekly_change():
             "karma": "$reddit_karma.karma",
             "comments": "$reddit_karma.comments",
             "week_id": "$reddit_karma.week_id",
-            "default_banner": "$images.jpg.large_image_url",
-            "small_banner": "$images.webp.image_url",
+            'images': 1,
             "studio": "$studios.name",
             "score": "$reddit_karma.mal_stats.score",
             "streaming_on": 1,
             "url": "$reddit_karma.url",
-            "mal_id": 1
+            "mal_id": 1,
+            'synopsis': 1,
+            'trailer': 1
             
         }}
     ]))
@@ -256,3 +258,54 @@ def get_airing_period():
 
     # Return the formatted airing period
     return airing_details
+
+def get_season_averages(season: str, year: int):
+    # 1. Connect to your MongoDB
+    client = MongoClient(os.getenv('MONGO_URI'))
+    
+    # 2. Get your specific database and collection
+    db = client.anime
+    collection = db[f'{season}_{year}']
+    try:
+        db.validate_collection(collection)
+    except OperationFailure:
+        return
+    
+    pipeline = [
+        {
+            '$match': {
+                'reddit_karma': {
+                    '$exists': True,
+                    '$type': 'array'
+                }
+            }
+        },
+        {
+            '$match': {
+                '$expr': {
+                    '$gte': [
+                        {'$size': '$reddit_karma'}, 3
+                    ]
+                }
+            }
+        },
+        {
+            '$project': {
+                '_id': 0,
+                'mal_id': 1,
+                'average_karma': {'$avg': '$reddit_karma.karma'},
+                'average_comments': {'$avg': '$reddit_karma.comments'},
+                'max_karma': {'$max': '$reddit_karma.karma'},
+                'min_karma': {'$min': '$reddit_karma.karma'}
+            }
+        }
+    ]
+
+    try:
+        season_averages = list(collection.aggregate(pipeline))
+        client.close()
+        return season_averages
+    except Exception as e:
+        print(e)
+        client.close()
+        return

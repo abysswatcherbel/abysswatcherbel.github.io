@@ -32,34 +32,38 @@
       <p>{{ airing_details.airing_period }}</p>
     </section>
 
-    <!-- Table Section -->
+    <!-- Rank Section -->
     <section class="rank-table-container">
       <table>
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Show</th>
-            <th>Episode</th>
-            <th>Karma</th>
-            <th>Comments</th>
-            <th>Karma Change</th>
-            <th>Rank Change</th>
-            <th>Reddit Link</th>
-          </tr>
-        </thead>
+        <div class="rank-header">
+            <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Show</th>
+                <th>Episode</th>
+                <th>Karma</th>
+                <th>Comments</th>
+                <th>Karma Change</th>
+                <th>Rank Change</th>
+                <th>Reddit Link</th>
+            </tr>
+            </thead>
+        </div>
         <tbody>
           {% if current_shows %}
+            
+            <div class="show-container">
             {% for show in current_shows %}
             <tr>
                 <td>{{ show.current_rank }}</td>
                 <td>
-                    <div class="show-container">
+                    
                       <img 
-                        src="{{ show.small_banner }}"
+                        src="{{ show.images.webp.image_url }}"
                         alt="{{ show.title_english or show.title }}"
                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
                       <span style="display:none;">{{ show.title_english or show.title }}</span>
-                    </div>
+                    
                 </td>
                 <td>{{ show.episode }}</td>
                 <td>{{ show.karma }}</td>
@@ -68,7 +72,9 @@
                 <td>{{ show.rank_change }}</td>
                 <td><a href="{{ show.url }}" target="_blank">Link</a></td>
             </tr>
-            {% endfor %}
+        {% endfor %}
+        </div>
+            
           {% else %}
             <tr>
               <td colspan="8">No shows to display this week</td>
@@ -77,11 +83,53 @@
         </tbody>
       </table>
     </section>
+    
+    <!-- Featured Show -->
+    {% if current_shows and current_shows|length > 0 %}
+      {% set featured_show = current_shows[0] %}
+      <section class="featured-show">
+        <h2>Featured Show (Rank #1)</h2>
+        <div class="featured-content">
+          <!-- Show image (with fallback) -->
+          <div class="featured-image">
+            <img 
+              src="{{ featured_show.images.jpg.image_url }}" 
+              alt="{{ featured_show.title_english or featured_show.title }}"
+              onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
+            <span style="display:none;">{{ featured_show.title_english or featured_show.title }}</span>
+          </div>
+          <!-- Additional data: e.g. synonyms, synopsis, embed trailer -->
+          <div class="featured-info">
+            <h3>{{ featured_show.title_english or featured_show.title }}</h3>
+            <!-- Example: synopsis -->
+            <p class="synopsis">{{ featured_show.synopsis }}</p>
+
+            <!-- If a trailer embed is available -->
+            {% if featured_show.trailer and featured_show.trailer.embed_url %}
+              <div class="trailer-container">
+                <iframe 
+                  width="560" 
+                  height="315" 
+                  src="{{ featured_show.trailer.embed_url }}" 
+                  frameborder="0" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+            {% endif %}
+
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+
+
+
   </main>
 
   <!-- Footer with placeholder info -->
   <footer>
-    <p>&copy; 2025 Karma Ranks. All rights reserved.</p>
+    <p>by u/abysswatcherbel</p>
     <p>Data collected weekly from r/anime subreddit.</p>
   </footer>
 
