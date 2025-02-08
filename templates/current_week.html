@@ -126,9 +126,9 @@
     <!-- Featured Show -->
     {% if current_shows and current_shows|length > 0 %}
       {% set featured_show = current_shows[0] %}
-      <section class="featured-show">
-        <h2>Featured Week Rank #1</h2>
+      <section class="bottom-container">
         <div class="featured-content">
+        <h2>Featured Week Rank #1</h2>
           <div class="featured-image">
             <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
                  onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
