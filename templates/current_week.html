@@ -126,16 +126,18 @@
     <!-- Featured Show -->
     {% if current_shows and current_shows|length > 0 %}
       {% set featured_show = current_shows[0] %}
-      <section class="bottom-container">
-        <div class="featured-content">
-        <h2>Featured Week Rank #1</h2>
+      <section>
+      <div class="featured-content">
+          <h3>Featured Week Rank #1 - {{ featured_show.title_english or featured_show.title }}</h3>
+        <div class="featured-winner">
+        
           <div class="featured-image">
             <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
                  onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
             <span style="display:none;">{{ featured_show.title_english or featured_show.title }}</span>
           </div>
           <div class="featured-info">
-            <h3>{{ featured_show.title_english or featured_show.title }}</h3>
+            
             <div class="synopsis-container">
                 <button class="synopsis-toggle">
                    Synopsis
@@ -147,13 +149,53 @@
               
             {% if featured_show.trailer and featured_show.trailer.embed_url %}
               <div class="trailer-container">
-                <iframe width="560" height="315" src="{{ featured_show.trailer.embed_url }}" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="50%" src="{{ featured_show.trailer.embed_url }}" frameborder="0" allowfullscreen></iframe>
               </div>
             {% endif %}
           </div>
         </div>
+      </div>
       </section>
     {% endif %}
+
+    <section title="Active Discussions">
+    <table>
+          <caption>Active Discussions</caption>
+          <thead>
+            <tr>
+              <th>Show</th>
+              <th>Episode</th>
+              <th>Karma</th>
+              <th>Comments</th>
+              <th>Streaming At</th>
+              <th>Reddit Post</th>
+              <th>Time Left</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% if active_discussions %}
+              {% for show in active_discussions %}
+                <tr>
+                  <td>
+                    <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                    <span style="display:none;">{{ show.title_english or show.title }}</span>
+                  </td>
+                  <td>{{ show.episode }}</td>
+                  <td>{{ show.karma }}</td>
+                  <td>{{ show.comments }}</td>
+                  <td>{{ show.streaming_at }}</td>
+                  <td><a href="{{ show.url }}" target="_blank">Link</a></td>
+                  <td>{{ show.time_left }}</td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="7">No active discussions available</td></tr>
+            {% endif %}
+          </tbody>
+    
+    
+    </section>
 
   </main>
 

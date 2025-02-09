@@ -117,7 +117,7 @@ nav a:hover {
 
 .rank-table {
     width: 60%;
-    max-height: 600px;
+    max-height: 400px;
     overflow: auto;
     background-color: var(--table-header-bg);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -217,20 +217,30 @@ a:hover {
 
 
 .featured-content {
-    grid-area: featured-show;
+    display: flex;
+    flex-direction: column;
     justify-self: left;
+    padding: 20px;
+}
+
+.featured-winner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
 }
 
 .featured-image img {
-    max-width: 25%;
+    max-height: 100%;
     max-height: auto;
     object-fit: cover;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 .trailer-container {
+   
     margin-top: 0.2rem;
-    overflow-x: auto;
+   
 }
 
 .synopsis {

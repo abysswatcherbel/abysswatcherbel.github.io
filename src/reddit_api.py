@@ -340,6 +340,37 @@ def get_title_details(title: str):
     }
     return title_details, episode
 
+def get_active_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc):
+    user = reddit.redditor(username)
+    client = MongoClient(os.getenv('MONGO_URI'))
+    db = client.anime
+    collection = db.winter_2025 
+    posts = []
+    two_days_ago = datetime.now(tz=default_tz) - timedelta(hours=48)
+    for submission in user.submissions.new(limit=50):
+        created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
+        if created_time > two_days_ago:
+            trigger_time = created_time + timedelta(hours=48)
+            mal_id = get_mal_id_reddit_post(submission.selftext)
+            if mal_id:
+                try:
+                    mal_id = int(mal_id)
+                    post_details = collection.find_one({"mal_id": mal_id}, {"_id": 0, 'title': 1, 'title_english': 1,'mal_id': 1})
+                except ValueError:
+                    continue
+            posts.append({
+                'id': submission.id,
+                'title': submission.title,
+                'created_utc': int(submission.created_utc),
+                'closing_at': trigger_time
+            })
+    return posts
+
+def get_mal_id_reddit_post(post_body: str):
+    mal_url = re.search(r'https://myanimelist.net/anime/(\d+)', post_body)
+    mal_id = mal_url.group(1) if mal_url else None
+    return mal_id
+
 # Example usage
 def main():
     for logger_name in ("praw", "prawcore", "pymongo", "apscheduler"):

@@ -128,4 +128,4 @@ if __name__ == "__main__":
         # Run Flask app for local debugging
         main()
     else:
-        app.run(debug=True)
+        app.run(debug=True, use_reloader=False)
