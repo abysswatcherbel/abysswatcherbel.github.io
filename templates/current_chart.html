@@ -93,7 +93,7 @@
                     </div>
                     
                     <div class="details" style="background-image: url('{{ left.images.webp.large_image_url }}'); background-position: 0px 0px;">
-                    <a href="{{ left.images.webp.large_image_url }}" target="_blank" class="image_link"></a>
+                    <a href="{{ left.images.webp.large_image_url }}" target="_blank" class="external-link"></a>
                         <div class="part-1">
                             <span class="karma-change" style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">
                             <svg class="caret {% if left.karma_change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>
@@ -115,9 +115,9 @@
                             </div>
                         </div>
                         <div class="mal-ratings">
-                            <span>{{ left.score }} <span class="neutral">M</span></span>
+                            <span>{{ left.score }} <span class="neutral">M</span><a class="external-link" href="{{ left.mal_url }} " target="_blank"></a></span>
                             <span class="Studio" style="background-color: #fff; color: #000; text-align: center;">{{ left.studio | join(',') }}</span>
-                            <span class="{{ left.streaming_on | capitalize}}">{{ left.streaming_on | capitalize}}</span>
+                            <span class="{{ left.streaming_on | capitalize}}">{{ left.streaming_on | capitalize}}<a class="external-link" href="{{ left.streams }} " target="_blank"></a></span>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                 {% if right %}
                 <div class="karma-entry rightSide">
                     <div class="details rightBanner" style="background-image: url('{{ right.images.webp.large_image_url  }}'); background-position: 0px 0px;">
-                    <a href="{{ right.images.webp.large_image_url }}" target="_blank" class="image_link"></a>
+                    <a href="{{ right.images.webp.large_image_url }}" target="_blank" class="external-link"></a>
                         <div class="part-1">
                             <span class="karma rightKarma">{{ right.karma }}</span>
                         </div>

@@ -60,27 +60,44 @@ def get_weekly_change():
 
     # Fetch current week's data
     current_data = list(seasonal_entries.aggregate([
-        {"$unwind": "$reddit_karma"},
-        {"$match": {"reddit_karma.week_id": current_week}},
-        {"$project": {
-            "_id": 0,
-            "title": 1,
-            "title_english": 1,
-            "episode": "$reddit_karma.episode",
-            "karma": "$reddit_karma.karma",
-            "comments": "$reddit_karma.comments",
-            "week_id": "$reddit_karma.week_id",
-            'images': 1,
-            "studio": "$studios.name",
-            "score": "$reddit_karma.mal_stats.score",
-            "streaming_on": 1,
-            "url": "$reddit_karma.url",
-            "mal_id": 1,
-            'synopsis': 1,
-            'trailer': 1
-            
-        }}
-    ]))
+  { "$unwind": "$reddit_karma" },
+  { "$match": { "reddit_karma.week_id": current_week } },
+  { "$project": {
+      "_id": 0,
+      "title": 1,
+      "title_english": 1,
+      "episode": "$reddit_karma.episode",
+      "karma": "$reddit_karma.karma",
+      "comments": "$reddit_karma.comments",
+      "week_id": "$reddit_karma.week_id",
+      "images": 1,
+      "studio": "$studios.name",
+      "score": "$reddit_karma.mal_stats.score",
+      "streaming_on": 1,
+      "url": "$reddit_karma.url",
+      "mal_id": 1,
+      'mal_url': '$external_links.mal',
+      "synopsis": 1,
+      "trailer": 1,
+      "streams": {
+        "$cond": {
+          "if": {
+            "$and": [
+              { "$ne": [ "$streams", None ] },
+              { "$ne": [  "$streaming_on" , None] }
+            ]
+          },
+          "then": {
+            "$getField": {
+              "field": "$streaming_on",
+              "input": "$streams"
+            }
+          },
+          "else": None
+        }
+      }
+  } }
+]))
 
     # Fetch previous week's data
     previous_data = list(seasonal_entries.aggregate([

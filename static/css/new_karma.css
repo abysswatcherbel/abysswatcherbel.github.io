@@ -378,6 +378,7 @@ body {
     font-size: 15px;
     font-weight: bold;
     padding: 4px 7px;
+    position: relative;
     }
     .poll-entry{
         background-color: #65778614;position: relative;clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);box-shadow: inset 0px 8px 15px -4px black;
@@ -713,7 +714,7 @@ span[class="right-rank-change neutral"] {
     background: none; /* or any other property you want to reset */
 }
     
-.image_link {
+.external-link {
     position: absolute;
     top: 0;
     left: 0;
