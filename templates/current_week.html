@@ -154,22 +154,21 @@
             {% endif %}
           </div>
         </div>
-      </div>
+      
       </section>
     {% endif %}
 
     <section title="Active Discussions">
-    <table>
+    <table class="active-discussions">
           <caption>Active Discussions</caption>
           <thead>
             <tr>
               <th>Show</th>
-              <th>Episode</th>
               <th>Karma</th>
               <th>Comments</th>
               <th>Streaming At</th>
               <th>Reddit Post</th>
-              <th>Time Left</th>
+              <th>Time Left (Hours)</th>
             </tr>
           </thead>
           <tbody>
@@ -181,20 +180,19 @@
                          onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
                     <span style="display:none;">{{ show.title_english or show.title }}</span>
                   </td>
-                  <td>{{ show.episode }}</td>
                   <td>{{ show.karma }}</td>
                   <td>{{ show.comments }}</td>
-                  <td>{{ show.streaming_at }}</td>
-                  <td><a href="{{ show.url }}" target="_blank">Link</a></td>
-                  <td>{{ show.time_left }}</td>
+                  <td><a href="{{ show.streaming_at }}" target="_blank">{{ show.streaming_on | capitalize}}</a></td>
+                  <td><a href="{{ show.reddit_url }}" target="_blank">Link</a></td>
+                  <td>{{ show.time_left | round(2) }}</td>
                 </tr>
               {% endfor %}
             {% else %}
               <tr><td colspan="7">No active discussions available</td></tr>
             {% endif %}
           </tbody>
-    
-    
+    </table>
+    </div>
     </section>
 
   </main>

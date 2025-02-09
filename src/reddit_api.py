@@ -340,30 +340,54 @@ def get_title_details(title: str):
     }
     return title_details, episode
 
-def get_active_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc):
+def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLovepon", default_tz=timezone.utc):
     user = reddit.redditor(username)
     client = MongoClient(os.getenv('MONGO_URI'))
     db = client.anime
     collection = db.winter_2025 
     posts = []
-    two_days_ago = datetime.now(tz=default_tz) - timedelta(hours=48)
+    current_time = datetime.now(tz=default_tz)
+    two_days_ago = current_time - timedelta(hours=48)
     for submission in user.submissions.new(limit=50):
         created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
         if created_time > two_days_ago:
             trigger_time = created_time + timedelta(hours=48)
+            time_left = trigger_time - current_time
             mal_id = get_mal_id_reddit_post(submission.selftext)
             if mal_id:
                 try:
                     mal_id = int(mal_id)
-                    post_details = collection.find_one({"mal_id": mal_id}, {"_id": 0, 'title': 1, 'title_english': 1,'mal_id': 1})
+                    post_details = collection.find_one({"mal_id": mal_id}, {"_id": 0, 'title': 1,'streaming_on': 1, 'title_english': 1,'mal_id': 1, 'images': 1,
+                        "streaming_at": {
+                        "$cond": {
+                        "if": {
+                            "$and": [
+                            { "$ne": [ "$streams", None ] },
+                            { "$ne": [  "$streaming_on" , None] }
+                            ]
+                        },
+                        "then": {
+                            "$getField": {
+                            "field": "$streaming_on",
+                            "input": "$streams"
+                            }
+                        },
+                        "else": None
+                        }
+                            }})
+                    if post_details:
+                        post_details = dict(post_details)
+                        post_details['reddit_url'] = submission.url
+                        post_details['karma'] = submission.score
+                        post_details['comments'] = submission.num_comments
+                        # Time left in hours
+                        post_details['time_left'] = time_left.total_seconds() / 3600
+                        posts.append(post_details)
                 except ValueError:
                     continue
-            posts.append({
-                'id': submission.id,
-                'title': submission.title,
-                'created_utc': int(submission.created_utc),
-                'closing_at': trigger_time
-            })
+            else:
+                continue
+    client.close()
     return posts
 
 def get_mal_id_reddit_post(post_body: str):

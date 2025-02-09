@@ -134,7 +134,12 @@ nav a:hover {
     z-index: 2;
 }
 
-.rank-table caption{
+.rank-tables table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rank-tables caption{
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -152,14 +157,18 @@ nav a:hover {
     width: 40%;
 }
 
-
-/* Tables */
-table {
+.active-discussions{
     width: 100%;
-    border-collapse: collapse;
+    background-color: var(--bg-color);
+    
 }
 
-thead {
+.active-discussions img{
+    max-width: 15%;
+}
+
+
+.rank-tables thead {
     background-color: var(--table-header-bg);
     color: #fff;
     position: sticky;
@@ -167,13 +176,13 @@ thead {
     z-index: 2;
 }
 
-th, td {
+.rank-tables th, td {
     padding: 3px 2px;
     text-align: center;
     border-bottom: 0.2px solid #ddd;
 }
 
-tbody{
+.rank-tables tbody{
     background-color: var(--week-info-bg);
 }
 
