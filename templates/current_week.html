@@ -9,6 +9,7 @@
     <script src="{{ url_for('static', filename='scripts/synposis.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/theme-switch.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/sort_tables.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
@@ -170,6 +171,7 @@
               <th>Streaming At</th>
               <th>Reddit Post</th>
               <th>Time Left (Hours)</th>
+              <th>Karma/H</th>
             </tr>
           </thead>
           <tbody>
@@ -186,6 +188,9 @@
                   <td><a href="{{ show.streaming_at }}" target="_blank">{{ show.streaming_on | capitalize}}</a></td>
                   <td><a href="{{ show.reddit_url }}" target="_blank">Link</a></td>
                   <td>{{ show.time_left | round(2) }}</td>
+                  <td>
+                    <canvas class="progression-chart" data-id="{{ show.mal_id }}" width="100" height="40"></canvas>
+                  </td>
                 </tr>
               {% endfor %}
             {% else %}

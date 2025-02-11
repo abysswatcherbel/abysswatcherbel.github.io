@@ -7,6 +7,10 @@ from src.rank_processing import get_weekly_change, get_airing_period, get_season
 from static.assets import back_symbol, new_entry, right_new_entry
 from itertools import zip_longest
 from flask_frozen import Freezer
+import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 app.config['FREEZER_RELATIVE_URLS'] = True  # For proper relative paths
@@ -22,6 +26,7 @@ def current_week():
     
     # Connect to MongoDB
     client = MongoClient(os.getenv('MONGO_URI'))
+    collection = client.anime.hourly_data
     
 
     current_shows = get_weekly_change()
@@ -32,6 +37,9 @@ def current_week():
     )
 
     active_discussions = get_active_posts()
+    progression_data = list(collection.find({'week_id': airing_details['week_id']}, {"_id": 0, "mal_id": 1, "progression": 1}))
+    with open(os.getenv('JSON_PATH'), "w") as f:
+        json.dump(progression_data, f)
     
 
     
