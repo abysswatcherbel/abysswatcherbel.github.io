@@ -2,28 +2,28 @@ document.addEventListener("DOMContentLoaded", async function () {
     const charts = document.querySelectorAll(".progression-chart");
 
     try {
-        const response = await fetch("src/season_references/2025/winter/progression_data/progression.json");
-
+        const response = await fetch("static/data/progression.json");
         if (!response.ok) {
             throw new Error(`Failed to load progression data: ${response.statusText}`);
         }
-
         const progressionData = await response.json();
 
         charts.forEach(canvas => {
-            const malId = canvas.dataset.id;
-            const data = progressionData.find(item => item.mal_id == malId);
+            // Convert the canvas data-id (a string) to a number, if needed
+            const malId = parseInt(canvas.dataset.id, 10);
+            const data = progressionData.find(item => item.mal_id === malId);
             
             if (!data || !data.progression) {
-                console.warn(`No progression data for mal_id: ${malId}`);
+                console.warn(`No progression data found for mal_id: ${malId}`);
                 return;
             }
+            
+            // Optionally, sort the progression data by hour if needed:
+            data.progression.sort((a, b) => a.hour - b.hour);
 
-            // Extract arrays for hours and karma
             const hours = data.progression.map(p => p.hour);
             const karma = data.progression.map(p => p.karma);
 
-            // Create the chart on the canvas
             new Chart(canvas.getContext("2d"), {
                 type: "line",
                 data: {
