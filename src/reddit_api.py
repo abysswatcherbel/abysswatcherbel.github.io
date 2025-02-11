@@ -351,7 +351,7 @@ def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLov
                                 '$push': {
                                     'progression':
                                       {
-                                            'hour': ceil(hours_since_post.total_seconds() / 3600), 
+                                            'hour': round(hours_since_post.total_seconds() / 3600,2), 
                                             'karma': submission.score
                                        }
                                 }

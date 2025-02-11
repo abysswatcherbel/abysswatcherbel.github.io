@@ -190,6 +190,19 @@ tbody tr:hover {
     background-color: var(--table-row-hover);
 }
 
+th {
+    cursor: pointer; /* Indicate sortable columns */
+    background-color: var(--table-header-bg); /* Light background for headers */
+  }
+  
+th.sorted-asc::after {
+    content: " ▲"; /* Up arrow */
+  }
+  
+th.sorted-desc::after {
+    content: " ▼"; /* Down arrow */
+  }
+
 /* Rank Table Images */
 .show-container {
     display: flex;

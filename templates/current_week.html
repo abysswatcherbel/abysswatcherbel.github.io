@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
     <script src="{{ url_for('static', filename='scripts/synposis.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/theme-switch.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/sort_tables.js') }}"></script>
 </head>
 <body>
 
@@ -159,7 +160,7 @@
     {% endif %}
 
     <section title="Active Discussions">
-    <table class="active-discussions">
+    <table class="active-discussions sortable">
           <caption>Active Discussions</caption>
           <thead>
             <tr>
