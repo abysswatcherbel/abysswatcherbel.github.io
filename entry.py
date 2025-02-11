@@ -2,8 +2,8 @@ from flask import Flask, render_template, request
 from pymongo import MongoClient
 from datetime import datetime, timezone
 import os
-from src.reddit_api import get_week_id, main, get_active_posts
-from src.rank_processing import get_weekly_change, get_airing_period, get_season_averages
+from src.reddit_api import main, get_active_posts
+from src.rank_processing import get_weekly_change, get_airing_period, get_season_averages, get_week_id
 from static.assets import back_symbol, new_entry, right_new_entry
 from itertools import zip_longest
 from flask_frozen import Freezer

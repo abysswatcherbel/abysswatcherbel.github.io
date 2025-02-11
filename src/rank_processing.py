@@ -2,10 +2,61 @@ from pymongo import MongoClient
 from pymongo.errors import OperationFailure
 from datetime import datetime, timezone
 import os
-from src.reddit_api import *
 import requests
 import time
+import pandas as pd
 
+def get_week_id(schedule_type: str = 'episodes', post_time: datetime = datetime.now(timezone.utc)):
+    if schedule_type not in ('post', 'episodes'):
+        raise ValueError("Invalid schedule_type. Must be either 'post' or 'episodes'.")
+
+    
+    year = post_time.year
+    month = post_time.month
+    season = get_season_name(month)
+
+    if schedule_type == 'episodes':
+        schedule_path = os.path.join('src/season_references', str(year), season, 'episodes.csv')
+    else:
+        schedule_path = os.path.join('src/season_references', str(year), season, 'post.csv')
+
+    schedule_df = pd.read_csv(schedule_path)
+    
+    # Convert start_date and end_date to full datetime (UTC timezone-aware)
+    schedule_df['start_date'] = pd.to_datetime(schedule_df['start_date'], utc=True)
+    schedule_df['end_date'] = pd.to_datetime(schedule_df['end_date'], utc=True)
+
+    # Ensure post_time is also timezone-aware (convert if needed)
+    if post_time.tzinfo is None:
+        post_time = post_time.replace(tzinfo=timezone.utc)
+
+    for _, row in schedule_df.iterrows():
+        if row['start_date'] <= post_time <= row['end_date']:
+            return row['week_id']
+    return None
+
+def get_season_name(month_int):
+    if month_int in range(1, 4):
+        return 'winter'
+    elif month_int in range(4, 7):
+        return 'spring'
+    elif month_int in range(7, 10):
+        return 'summer'
+    elif month_int in range(10, 13):
+        return 'fall'
+    else:
+        raise ValueError("Invalid month integer. Please provide a value between 1 and 12.")
+def get_season(month_int):
+    if month_int in range(1, 4):
+        return 1
+    elif month_int in range(4, 7):
+        return 2
+    elif month_int in range(7, 10):
+        return 3
+    elif month_int in range(10, 13):
+        return 4
+    else:
+        raise ValueError("Invalid month integer. Please provide a value between 1 and 12.")
 def assign_rank(sorted_entries):
     """Assign ranks to sorted entries, handling ties with 'min' method."""
     if not sorted_entries:
@@ -230,9 +281,9 @@ def process_stats(data: dict, current_week):
 
 
 
-def get_airing_period():
+def get_airing_period(current_time = datetime.now(timezone.utc)):
 
-    current_time = datetime.now(timezone.utc)
+    """Get the airing period for the current week."""
     current_year = current_time.year
     week_id = get_week_id(schedule_type='post')
     current_month = current_time.month
@@ -365,3 +416,4 @@ def update_mal_numbers(week_id: int):
     mal_ids = [entry['mal_id'] for entry in mal_ids]
     client.close()
     fetch_mal_score(mal_ids)
+

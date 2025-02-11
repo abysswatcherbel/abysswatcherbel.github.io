@@ -15,6 +15,8 @@ from pytz import utc
 from logging.handlers import RotatingFileHandler
 from calendar import month_name
 from dotenv import load_dotenv
+from src.rank_processing import get_airing_period, get_season_name, get_week_id
+from math import ceil
 
 load_dotenv()
 
@@ -263,58 +265,7 @@ def insert_mongo(post_details: dict, client: MongoClient = MongoClient(os.getenv
         insert_result = col.insert_one(episode_data)
         logger.info(f"Created new document: for the post {reddit_id} MAL ID: {mal_id} with the ID: {insert_result.inserted_id}")
 
-def get_season(month_int):
-    if month_int in range(1, 4):
-        return 1
-    elif month_int in range(4, 7):
-        return 2
-    elif month_int in range(7, 10):
-        return 3
-    elif month_int in range(10, 13):
-        return 4
-    else:
-        raise ValueError("Invalid month integer. Please provide a value between 1 and 12.")
 
-def get_season_name(month_int):
-    if month_int in range(1, 4):
-        return 'winter'
-    elif month_int in range(4, 7):
-        return 'spring'
-    elif month_int in range(7, 10):
-        return 'summer'
-    elif month_int in range(10, 13):
-        return 'fall'
-    else:
-        raise ValueError("Invalid month integer. Please provide a value between 1 and 12.")
-
-def get_week_id(schedule_type: str = 'episodes', post_time: datetime = datetime.now(timezone.utc)):
-    if schedule_type not in ('post', 'episodes'):
-        raise ValueError("Invalid schedule_type. Must be either 'post' or 'episodes'.")
-
-    
-    year = post_time.year
-    month = post_time.month
-    season = get_season_name(month)
-
-    if schedule_type == 'episodes':
-        schedule_path = os.path.join('src/season_references', str(year), season, 'episodes.csv')
-    else:
-        schedule_path = os.path.join('src/season_references', str(year), season, 'post.csv')
-
-    schedule_df = pd.read_csv(schedule_path)
-    
-    # Convert start_date and end_date to full datetime (UTC timezone-aware)
-    schedule_df['start_date'] = pd.to_datetime(schedule_df['start_date'], utc=True)
-    schedule_df['end_date'] = pd.to_datetime(schedule_df['end_date'], utc=True)
-
-    # Ensure post_time is also timezone-aware (convert if needed)
-    if post_time.tzinfo is None:
-        post_time = post_time.replace(tzinfo=timezone.utc)
-
-    for _, row in schedule_df.iterrows():
-        if row['start_date'] <= post_time <= row['end_date']:
-            return row['week_id']
-    return None
 
 def get_title_details(title: str):
     romaji_english_pattern = re.compile(r"(.*?)(?: • (.*?))? - Episode (\d+) discussion")
@@ -344,7 +295,8 @@ def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLov
     user = reddit.redditor(username)
     client = MongoClient(os.getenv('MONGO_URI'))
     db = client.anime
-    collection = db.winter_2025 
+    collection = db.winter_2025
+    hourly_data = db.hourly_data 
     posts = []
     current_time = datetime.now(tz=default_tz)
     two_days_ago = current_time - timedelta(hours=48)
@@ -353,7 +305,12 @@ def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLov
         if created_time > two_days_ago:
             trigger_time = created_time + timedelta(hours=48)
             time_left = trigger_time - current_time
+            hours_since_post = current_time - created_time
+            airing_details = get_airing_period(current_time=current_time)
+            week_id = airing_details.get('week_id')
+            season = airing_details.get('season_name')
             mal_id = get_mal_id_reddit_post(submission.selftext)
+            _,episode = get_title_details(submission.title)
             if mal_id:
                 try:
                     mal_id = int(mal_id)
@@ -383,6 +340,36 @@ def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLov
                         # Time left in hours
                         post_details['time_left'] = time_left.total_seconds() / 3600
                         posts.append(post_details)
+                        hourly_data.update_one(
+    {
+        'mal_id': mal_id,
+        'season': season,
+        'year': current_time.year
+    },
+    {
+        '$set': {
+            'mal_id': mal_id,
+            'season': season,
+            'year': current_time.year
+        },
+        '$setOnInsert': {'entries': []},  # Ensures `entries` array exists when inserting a new document
+        '$push': {
+            'entries': {
+                '$each': [{
+                    'week_id': week_id,
+                    'episode': episode,
+                    'hourly_data': [{
+                        'hour': ceil(hours_since_post.total_seconds() / 3600),
+                        'karma': submission.score
+                    }]
+                }],
+                '$position': 0,  # Ensures newest entries are prioritized
+                '$sort': {'week_id': 1, 'episode': 1}  # Keeps entries ordered
+            }
+        }
+    },
+    upsert=True
+)
                 except ValueError:
                     continue
             else:
