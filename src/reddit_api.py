@@ -15,7 +15,7 @@ from pytz import utc
 from logging.handlers import RotatingFileHandler
 from calendar import month_name
 from dotenv import load_dotenv
-from src.rank_processing import get_airing_period, get_season_name, get_week_id
+from src.rank_processing import get_airing_period, get_season_name, get_week_id, get_season
 from math import ceil
 
 load_dotenv()
@@ -340,36 +340,24 @@ def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLov
                         # Time left in hours
                         post_details['time_left'] = time_left.total_seconds() / 3600
                         posts.append(post_details)
-                        hourly_data.update_one(
-    {
-        'mal_id': mal_id,
-        'season': season,
-        'year': current_time.year
-    },
-    {
-        '$set': {
-            'mal_id': mal_id,
-            'season': season,
-            'year': current_time.year
-        },
-        '$setOnInsert': {'entries': []},  # Ensures `entries` array exists when inserting a new document
-        '$push': {
-            'entries': {
-                '$each': [{
-                    'week_id': week_id,
-                    'episode': episode,
-                    'hourly_data': [{
-                        'hour': ceil(hours_since_post.total_seconds() / 3600),
-                        'karma': submission.score
-                    }]
-                }],
-                '$position': 0,  # Ensures newest entries are prioritized
-                '$sort': {'week_id': 1, 'episode': 1}  # Keeps entries ordered
-            }
-        }
-    },
-    upsert=True
-)
+                        hourly_data.update_one({
+                                'mal_id': mal_id,
+                                'season': season,
+                                'year': current_time.year,
+                                'week_id': week_id,
+                                'episode': episode
+                            },
+                            {
+                                '$push': {
+                                    'progression':
+                                      {
+                                            'hour': ceil(hours_since_post.total_seconds() / 3600), 
+                                            'karma': submission.score
+                                       }
+                                }
+                            },
+                        upsert=True   
+                        )
                 except ValueError:
                     continue
             else:
