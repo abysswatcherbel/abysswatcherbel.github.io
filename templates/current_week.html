@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
     <script src="{{ url_for('static', filename='scripts/synposis.js') }}"></script>
-    <script src="{{ url_for('static', filename='scripts/theme-switch.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/sort_tables.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/progression_chart.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -26,19 +25,93 @@
         <li><a href="{{ url_for('current_chart') }}">Week {{ current_week_id }} Chart</a></li>
       </ul>
     </nav>
-    <div class="theme-switcher">
-      <button id="theme-button">🌙 Dark Mode</button>
-    </div>
+   
   </header>
 
   <!-- Main Content -->
-  <main>
+  <main class="page-layout">
+
+    <section class="featured-content">
+    <!-- Featured Show -->
+    {% if current_shows and current_shows|length > 0 %}
+      {% set featured_show = current_shows[0] %}
+      
+      <div class="featured-show">
+          <h3>Featured Week Rank #1 - {{ featured_show.title_english or featured_show.title }}</h3>
+        
+          <div class="featured-image">
+            <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
+                 onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
+            <span style="display:none;">{{ featured_show.title_english or featured_show.title }}</span>
+          </div>
+          <div class="featured-info">
+            
+            <div class="synopsis-container">
+                <button class="synopsis-toggle">
+                   Synopsis
+                </button>
+                <p class="synopsis-content">
+                  {{ featured_show.synopsis }}
+                </p>   
+            {% if featured_show.trailer and featured_show.trailer.embed_url %}
+              <div class="trailer-container">
+                <iframe width="100%" height="50%" src="{{ featured_show.trailer.embed_url }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+     <!-- Active Discussions Section -->
+   
+
+    <section class="active-discussions sortable">
+      <table>
+            <caption>Active Discussions</caption>
+            <thead>
+              <tr>
+                <th>Show</th>
+                <th>Karma</th>
+                <th>Comments</th>
+                <th>Streaming At</th>
+                <th>Reddit Post</th>
+                <th>Time Left (Hours)</th>
+                <th>Karma/H</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% if active_discussions %}
+                {% for show in active_discussions %}
+                  <tr>
+                    <td>
+                      <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                           onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                      <span style="display:none;">{{ show.title_english or show.title }}</span>
+                    </td>
+                    <td>{{ show.karma }}</td>
+                    <td>{{ show.comments }}</td>
+                    <td><a href="{{ show.streaming_at }}" target="_blank">{{ show.streaming_on | capitalize}}</a></td>
+                    <td><a href="{{ show.reddit_url }}" target="_blank">Link</a></td>
+                    <td>{{ show.time_left | round(2) }}</td>
+                    <td>
+                      <canvas class="progression-chart" data-id="{{ show.mal_id }}" width="90%" height="90%"></canvas>
+                    </td>
+                  </tr>
+                {% endfor %}
+              {% else %}
+                <tr><td colspan="7">No active discussions available</td></tr>
+              {% endif %}
+            </tbody>
+      </table>
+    </section>
 
     <!-- Rank Section with Two Equal Tables -->
     <section class="rank-tables">
-      <div class="rank-table">
+      <div class="rank-table collapsible">
         
-      
+        <button class="expand-btn">Expand</button>
         <table>
             <caption>{{ airing_details.airing_period }}</caption>
           <thead>
@@ -79,7 +152,7 @@
       </div>
 
       <div class="rank-table averages-rank">
-        
+        <button class="expand-btn">Expand</button>
         <table>
             <caption>Season Average</caption>
           <thead>
@@ -124,82 +197,6 @@
           </tbody>
         </table>
       </div>
-    </section>
-
-    <!-- Featured Show -->
-    {% if current_shows and current_shows|length > 0 %}
-      {% set featured_show = current_shows[0] %}
-      <section>
-      <div class="featured-content">
-          <h3>Featured Week Rank #1 - {{ featured_show.title_english or featured_show.title }}</h3>
-        <div class="featured-winner">
-        
-          <div class="featured-image">
-            <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
-                 onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
-            <span style="display:none;">{{ featured_show.title_english or featured_show.title }}</span>
-          </div>
-          <div class="featured-info">
-            
-            <div class="synopsis-container">
-                <button class="synopsis-toggle">
-                   Synopsis
-                </button>
-                <p class="synopsis-content">
-                  {{ featured_show.synopsis }}
-                </p>
-            </div>
-              
-            {% if featured_show.trailer and featured_show.trailer.embed_url %}
-              <div class="trailer-container">
-                <iframe width="100%" height="50%" src="{{ featured_show.trailer.embed_url }}" frameborder="0" allowfullscreen></iframe>
-              </div>
-            {% endif %}
-          </div>
-        </div>
-      
-      </section>
-    {% endif %}
-
-    <section title="Active Discussions">
-    <table class="active-discussions sortable">
-          <caption>Active Discussions</caption>
-          <thead>
-            <tr>
-              <th>Show</th>
-              <th>Karma</th>
-              <th>Comments</th>
-              <th>Streaming At</th>
-              <th>Reddit Post</th>
-              <th>Time Left (Hours)</th>
-              <th>Karma/H</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% if active_discussions %}
-              {% for show in active_discussions %}
-                <tr>
-                  <td>
-                    <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
-                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
-                    <span style="display:none;">{{ show.title_english or show.title }}</span>
-                  </td>
-                  <td>{{ show.karma }}</td>
-                  <td>{{ show.comments }}</td>
-                  <td><a href="{{ show.streaming_at }}" target="_blank">{{ show.streaming_on | capitalize}}</a></td>
-                  <td><a href="{{ show.reddit_url }}" target="_blank">Link</a></td>
-                  <td>{{ show.time_left | round(2) }}</td>
-                  <td>
-                    <canvas class="progression-chart" data-id="{{ show.mal_id }}" width="100" height="40"></canvas>
-                  </td>
-                </tr>
-              {% endfor %}
-            {% else %}
-              <tr><td colspan="7">No active discussions available</td></tr>
-            {% endif %}
-          </tbody>
-    </table>
-    </div>
     </section>
 
   </main>

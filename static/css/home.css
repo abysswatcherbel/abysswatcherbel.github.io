@@ -6,14 +6,13 @@
 }
 
 :root {
-    --bg-color: #f9f9f9;
+    --bg-color: #05132A;
     --text-color: #f5f5f5;
-    --header-bg: #18407f;
+    --header-bg: #082045;
     --table-header-bg: #18407f;
-    --table-row-hover: #071520;
-    --button-bg: #0066cc;
+    --table-row-hover: #2c2c2c;
+    --button-bg: #0077ff;
     --button-text: #fff;
-    --week-info-bg: #18407f;
 }
 
 /* Dark Mode */
@@ -34,26 +33,6 @@ body {
     color: var(--text-color);
     font-family: "Trebuchet Ms", sans-serif;
 }
-main{
-    flex-wrap: wrap;
-}
-
-
-
-.theme-switcher button {
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.theme-toggle button:hover {
-    opacity: 0.8;
-}
-
 
 /* Header and Navigation */
 header {
@@ -62,6 +41,7 @@ header {
     align-items: center;
     background-color: var(--header-bg);
     padding: 1rem 2rem;
+    width: 100%;
 }
 
 header .logo h1 {
@@ -85,44 +65,40 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero / Title Section */
-.week-info {
-    background-color: var(--week-info-bg);
-    padding: 2rem;
-    text-align: left;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: white;
-    
+
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.week-info h2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.week-info p {
-    font-size: 1rem;
-    color: #555;
-}
 
 /* Rank Tables Layout - Two Equal Sections */
 .rank-tables {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin: 2rem auto;
-    padding: 0 2rem;
-    width: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 2;
 }
 
 .rank-table {
-    width: 60%;
-    max-height: 400px;
-    overflow: auto;
     background-color: var(--table-header-bg);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: #B7624F 0px 5px 15px;
+    padding: 1rem;
     border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
+
+.rank-table:hover {
+    transform: scale(1.02);
+}
+
 
 .rank-table h2 {
     text-align: center;
@@ -158,6 +134,7 @@ nav a:hover {
 }
 
 .active-discussions{
+    flex: 1;
     width: 100%;
     background-color: var(--bg-color);
     
@@ -168,19 +145,21 @@ nav a:hover {
 }
 
 
-.rank-tables thead {
-    background-color: var(--table-header-bg);
+.rank-table thead {
+    background-color: var(--header-bg);
     color: #fff;
     position: sticky;
-    top: -1;
-    z-index: 2;
+    top: 0;
+}
+.hidden {
+    display: none;
+}
+.rank-table th, .rank-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
-.rank-tables th, td {
-    padding: 3px 2px;
-    text-align: center;
-    border-bottom: 0.2px solid #ddd;
-}
 
 .rank-tables tbody{
     background-color: var(--week-info-bg);
@@ -203,6 +182,22 @@ th.sorted-desc::after {
     content: " ▼"; /* Down arrow */
   }
 
+
+.expand-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+}
+.expand-btn:hover {
+    opacity: 0.8;
+}
+
 /* Base styling for progression chart canvas */
 .progression-chart {
     display: block;               /* Ensures the canvas behaves as a block element */
@@ -220,18 +215,6 @@ th.sorted-desc::after {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
 
-/* Rank Table Images */
-.show-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.show-container img {
-    max-width: 50px;
-    height: auto;
-    object-fit: cover;
-}
 
 /* Links */
 a {
@@ -244,32 +227,24 @@ a:hover {
 }
 
 
-.bottom-container{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    grid-template-areas: "featured-show recommended-show";
-    grid-auto-flow: column;
-    
-}
 /* Featured Show Layout */
 
-
 .featured-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-self: left;
     padding: 20px;
+    max-width: 25%;
+}
+.featured-show {
+    background-color: var(--table-header-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.featured-winner{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    
-}
-
-.featured-image img {
+.featured-image{
     max-height: 100%;
     max-height: auto;
     object-fit: cover;
@@ -326,30 +301,27 @@ footer {
 }
 
 .synopsis-toggle {
-    background-color: transparent;
+    background: none;
     border: none;
+    color: var(--button-bg);
     font-size: 1rem;
-    font-weight: bold;
     cursor: pointer;
-    color: #0066cc;
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    margin-top: 1rem;
 }
+
 
 .synopsis-toggle::before {
     content: "▼";
     transition: transform 0.3s ease;
 }
 
-.synopsis-toggle.active::before {
-    transform: rotate(180deg);
+.synopsis-toggle.active + .synopsis-content {
+    display: block;
 }
+
 
 .synopsis-content {
     display: none;
     margin-top: 0.5rem;
     line-height: 1.4;
-    transition: max-height 0.3s ease-out;
 }
-
