@@ -36,9 +36,9 @@
     {% if current_shows and current_shows|length > 0 %}
       {% set featured_show = current_shows[0] %}
       
-      <div class="featured-show">
+      <div class="featured-block">
           <h3>Featured Week Rank #1 - {{ featured_show.title_english or featured_show.title }}</h3>
-        
+        <div class="featured-show">
           <div class="featured-image">
             <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
                  onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
@@ -59,52 +59,49 @@
               </div>
             {% endif %}
           </div>
+          </div>
         </div>
       </div>
-    </section>
+    
     {% endif %}
-
-     <!-- Active Discussions Section -->
-   
-
-    <section class="active-discussions sortable">
-      <table>
-            <caption>Active Discussions</caption>
-            <thead>
-              <tr>
-                <th>Show</th>
-                <th>Karma</th>
-                <th>Comments</th>
-                <th>Streaming At</th>
-                <th>Reddit Post</th>
-                <th>Time Left (Hours)</th>
-                <th>Karma/H</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% if active_discussions %}
-                {% for show in active_discussions %}
-                  <tr>
-                    <td>
-                      <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
-                           onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
-                      <span style="display:none;">{{ show.title_english or show.title }}</span>
-                    </td>
-                    <td>{{ show.karma }}</td>
-                    <td>{{ show.comments }}</td>
-                    <td><a href="{{ show.streaming_at }}" target="_blank">{{ show.streaming_on | capitalize}}</a></td>
-                    <td><a href="{{ show.reddit_url }}" target="_blank">Link</a></td>
-                    <td>{{ show.time_left | round(2) }}</td>
-                    <td>
-                      <canvas class="progression-chart" data-id="{{ show.mal_id }}" width="90%" height="90%"></canvas>
-                    </td>
-                  </tr>
-                {% endfor %}
-              {% else %}
-                <tr><td colspan="7">No active discussions available</td></tr>
-              {% endif %}
-            </tbody>
-      </table>
+    <div class="active-discussions sortable">
+            <table>
+              <caption>Active Discussions</caption>
+              <thead>
+                <tr>
+                  <th>Show</th>
+                  <th>Karma</th>
+                  <th>Comments</th>
+                  <th>Streaming At</th>
+                  <th>Reddit Post</th>
+                  <th>Time Left (Hours)</th>
+                  <th>Karma/H</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% if active_discussions %}
+                  {% for show in active_discussions %}
+                    <tr>
+                      <td>
+                        <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                            onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                        <span style="display:none;">{{ show.title_english or show.title }}</span>
+                      </td>
+                      <td>{{ show.karma }}</td>
+                      <td>{{ show.comments }}</td>
+                      <td><a href="{{ show.streaming_at }}" target="_blank">{{ show.streaming_on | capitalize}}</a></td>
+                      <td><a href="{{ show.reddit_url }}" target="_blank">Link</a></td>
+                      <td>{{ show.time_left | round(2) }}</td>
+                      <td>
+                        <canvas class="progression-chart" data-id="{{ show.mal_id }}" width="90%" height="90%"></canvas>
+                      </td>
+                    </tr>
+                  {% endfor %}
+                {% else %}
+                  <tr><td colspan="7">No active discussions available</td></tr>
+                {% endif %}
+              </tbody>
+        </table>
     </section>
 
     <!-- Rank Section with Two Equal Tables -->
