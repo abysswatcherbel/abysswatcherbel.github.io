@@ -31,19 +31,18 @@
   <!-- Main Content -->
   <div class="page-layout">
 
-    <section class="featured-content">
+    <div class="featured-content">
     <!-- Featured Show -->
     {% if current_shows and current_shows|length > 0 %}
       {% set featured_show = current_shows[0] %}
-      
-      <div class="featured-block">
+      <div class="featured-show">
           <h3>Featured Week Rank #1 - {{ featured_show.title_english or featured_show.title }}</h3>
-        <div class="featured-show">
-          <div class="featured-image">
+        
+          
             <img src="{{ featured_show.images.jpg.image_url }}" alt="{{ featured_show.title_english or featured_show.title }}"
                  onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';">
             <span style="display:none;">{{ featured_show.title_english or featured_show.title }}</span>
-          </div>
+      </div>   
           <div class="featured-info">
             
             <details class="synopsis-container">
@@ -60,10 +59,9 @@
             </div>
             {% endif %}
           </div>
-          </div>
-        </div> 
+       
     {% endif %}
-    </section>
+      </div>
     <div class="active-discussions">
       <table class="sortable">
         <caption>Active Discussions</caption>
@@ -105,8 +103,8 @@
   </div>
 
     <!-- Rank Section with Two Equal Tables -->
-    <section class="rank-tables">
-      <div class="rank-table">
+    <div class="rank-tables">
+      <div >
         
       
         <table>
@@ -148,7 +146,7 @@
         </table>
       </div>
 
-      <div class="rank-table averages-rank">
+      <div >
        
         <table>
             <caption>Season Average</caption>
@@ -194,7 +192,7 @@
           </tbody>
         </table>
       </div>
-    </section>
+    </div>
 
   </div>
 

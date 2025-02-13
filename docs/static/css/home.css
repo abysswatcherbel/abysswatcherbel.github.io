@@ -32,6 +32,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: "Trebuchet Ms", sans-serif;
+    height: 100vh;
 }
 
 /* Header and Navigation */
@@ -69,71 +70,82 @@ nav a:hover {
 
 .page-layout {
     display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "featured_shows featured_shows season_ranks"
-    "featured_shows featured_shows season_ranks"
-    "active_discussions active_discussions active_discussions"; 
+    grid-template-columns: 1fr 1fr 2fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-gap: 1rem; 
+    grid-template-areas: "featured_shows featured_shows season_ranks"
+            "active_discussions active_discussions season_ranks"
+            "active_discussions active_discussions season_ranks";
+    height: 100vh;
+    padding: 1rem;
 }
-   
+
 
 
 /* Featured Show Layout */
 
 .featured-content {
-    
-
+    display: grid;
     grid-area: featured_shows;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.featured-block {
-
+    grid-template-columns: subgrid;
+    grid-template-areas: "identification summary"
+                         "identification summary"
+                        "identification video"
+                        "identification video";
+    grid-template-rows: repeat(4,25%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    max-height: 25%;
+    
 }
 
+
 .featured-show{
-    display: flex;
-    flex-direction: row;
+   grid-area: identification;
     gap: 1rem;
 }
 
-.featured-image{
-    max-height: 50%;
+.featured-content img{
+    max-height: 80%;
     object-fit: cover;
     margin: 10px;
 }
 
-.trailer-container {
-   
+.featured-content iframe {
+   grid-area: video;
     margin-top: 0.2rem;
    
 }
 
-.synopsis {
+.featured-content  summary{
     margin-top: 1rem;
     line-height: 1.4;
+}
+
+.featured-info{
+    display: grid;
+    grid-area: summary;
+    gap: 1rem;
 }
 
 
 /* Rank Tables Layout - Two Equal Sections */
 .rank-tables {
     grid-area: season_ranks;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 100px;
 
 }
 
-.rank-table {
+.rank-tables table {
     background-color: var(--table-header-bg);
     box-shadow: #B7624F 0px 5px 15px;
     padding: 1rem;
-    border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
 }
 
 .rank-table:hover {
@@ -141,20 +153,24 @@ nav a:hover {
 }
 
 
-.rank-table h2 {
+.rank-tables th {
     text-align: center;
     position: sticky;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
     color: white;
     top: 0;
     z-index: 2;
+    height: 2rem;
+    text-wrap: wrap;
 }
 
-.rank-tables table {
-    width: 100%;
-    border-collapse: collapse;
+.rank-tables thead {
+    background-color: var(--header-bg);
+    color: #fff;
+    position: sticky;
+    top: 0;
 }
+
 
 .rank-tables caption{
     font-size: 1.1rem;
@@ -165,19 +181,33 @@ nav a:hover {
 
 .rank-tables img{
 
-    max-height: 5%;
-    object-fit: cover;
-    max-width: 20%;
+    max-width: 80%;
+    padding: 1rem;
+    align-self: center;
+}
+
+.rank-table th, .rank-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.rank-tables tbody{
+    background-color: var(--week-info-bg);
+}
+
+.rank-tables tbody tr:hover {
+    background-color: var(--table-row-hover);
 }
 
 
 
+/* Active Discussions Layout  */
 .active-discussions{
-    padding: 2rem;
+    padding: 1rem;
     grid-area: active_discussions;
     background-color: var(--bg-color);
     overflow: hidden;
-    
     
 }
 
@@ -214,29 +244,13 @@ nav a:hover {
 }
 
 
-.rank-table thead {
-    background-color: var(--header-bg);
-    color: #fff;
-    position: sticky;
-    top: 0;
-}
+
 .hidden {
     display: none;
 }
-.rank-table th, .rank-table td {
-    padding: 8px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
 
 
-.rank-tables tbody{
-    background-color: var(--week-info-bg);
-}
 
-tbody tr:hover {
-    background-color: var(--table-row-hover);
-}
 
 .sortable th {
     cursor: pointer; /* Indicate sortable columns */
@@ -284,15 +298,7 @@ tbody tr:hover {
   }
 
 
-/* Links */
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
 
 /* Footer */
 footer {
@@ -316,4 +322,18 @@ footer {
 .synopsis-content {
     margin-top: 0.5rem;
     line-height: 1.4;
+}
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr 1fr; /* Adjusts to 2 columns on tablets */
+    }
+}
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single-column layout for mobile */
+    }
 }
