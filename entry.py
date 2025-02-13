@@ -38,6 +38,7 @@ def current_week():
 
     active_discussions = get_active_posts()
     progression_data = list(collection.find({'week_id': airing_details['week_id']}, {"_id": 0, "mal_id": 1, "progression": 1}))
+    
     with open(os.getenv('JSON_PATH'), "w") as f:
         json.dump(progression_data, f)
     
