@@ -91,7 +91,6 @@ nav a:hover {
 .featured-block {
     display: flex;
     flex-direction: column;
-    background-color: var(--table-header-bg);
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -282,8 +281,7 @@ tbody tr:hover {
     border-radius: 4px;           /* Rounded corners for a modern feel */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle drop shadow for depth */
     margin: 10px auto;            /* Center the element with vertical spacing */
-    width: 90% !important;
-    height: 90% !important;
+
   }
   
   /* Optional hover effect for interactivity */
@@ -319,28 +317,9 @@ footer {
     margin-top: 1rem;
 }
 
-.synopsis-toggle {
-    background: none;
-    border: none;
-    color: var(--button-bg);
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-
-
-.synopsis-toggle::before {
-    content: "▼";
-    transition: transform 0.3s ease;
-}
-
-.synopsis-toggle.active + .synopsis-content {
-    display: block;
-}
 
 
 .synopsis-content {
-    display: none;
     margin-top: 0.5rem;
     line-height: 1.4;
 }

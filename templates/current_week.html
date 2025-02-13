@@ -29,7 +29,7 @@
   </header>
 
   <!-- Main Content -->
-  <main class="page-layout">
+  <div class="page-layout">
 
     <section class="featured-content">
     <!-- Featured Show -->
@@ -46,26 +46,27 @@
           </div>
           <div class="featured-info">
             
-            <div class="synopsis-container">
-                <button class="synopsis-toggle">
+            <details class="synopsis-container">
+                <summary class="synopsis-toggle">
                    Synopsis
-                </button>
+                </summary>
                 <p class="synopsis-content">
                   {{ featured_show.synopsis }}
-                </p>   
+                </p> 
+            </details>  
             {% if featured_show.trailer and featured_show.trailer.embed_url %}
-              <div class="trailer-container">
+            <div class="trailer-container">
                 <iframe width="100%" height="50%" src="{{ featured_show.trailer.embed_url }}" frameborder="0" allowfullscreen></iframe>
-              </div>
+            </div>
             {% endif %}
           </div>
           </div>
         </div>
-      </div>
+ 
     
     {% endif %}
-    <div class="active-discussions sortable">
-            <table>
+    <div class="active-discussions">
+            <table class="sortable">
               <caption>Active Discussions</caption>
               <thead>
                 <tr>
@@ -196,7 +197,7 @@
       </div>
     </section>
 
-  </main>
+  </div>
 
   <!-- Footer -->
   <footer>
