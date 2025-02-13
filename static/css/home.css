@@ -90,8 +90,8 @@ nav a:hover {
     grid-template-columns: subgrid;
     grid-template-areas: "identification summary"
                          "identification summary"
-                        "identification video"
-                        "identification video";
+                        "identification summary"
+                        "identification summary";
     grid-template-rows: repeat(4,25%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     padding: 1rem;
@@ -112,8 +112,8 @@ nav a:hover {
 }
 
 .featured-content iframe {
-   grid-area: video;
     margin-top: 0.2rem;
+    width: 100%;
    
 }
 
@@ -123,7 +123,6 @@ nav a:hover {
 }
 
 .featured-info{
-    display: grid;
     grid-area: summary;
     gap: 1rem;
 }
@@ -146,9 +145,10 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
     border-collapse: collapse;
     border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
 }
 
-.rank-table:hover {
+.rank-tables:hover {
     transform: scale(1.02);
 }
 
@@ -182,11 +182,10 @@ nav a:hover {
 .rank-tables img{
 
     max-width: 80%;
-    padding: 1rem;
     align-self: center;
 }
 
-.rank-table th, .rank-table td {
+.rank-tables th, .rank-tables td {
     padding: 1rem;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -207,7 +206,6 @@ nav a:hover {
     padding: 1rem;
     grid-area: active_discussions;
     background-color: var(--bg-color);
-    overflow: hidden;
     
 }
 
@@ -227,6 +225,8 @@ nav a:hover {
     text-align: center;
     height: 2rem;
     font-size: 0.9rem;
+    text-wrap: wrap;
+    border-right: #ffffff solid 1px;
     
     
 }
@@ -282,19 +282,34 @@ nav a:hover {
 }
 
 /* Base styling for progression chart canvas */
+
+.chart-container {
+    /* Ensures any scaled element can overflow (won’t be clipped) */
+    position: relative;
+    overflow: visible;
+    
+
+  }
 .progression-chart {
     display: block;               /* Ensures the canvas behaves as a block element */
     background-color: #ffffff;    /* White background for clarity */
     border: 1px solid #e0e0e0;    /* Light gray border for definition */
     border-radius: 4px;           /* Rounded corners for a modern feel */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle drop shadow for depth */
-    margin: 10px auto;            /* Center the element with vertical spacing */
+    margin: 10px auto;
+    width: 100%;
+    height: 100%;
+    /* For smooth scaling and shadow transitions */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center center;
 
   }
   
-  /* Optional hover effect for interactivity */
+/* Optional hover effect for interactivity */
 .progression-chart:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: scale(8,4);
+    z-index: 999;
+    box-shadow: 0 10px 20px rgba(238, 232, 232, 0.3);
   }
 
 

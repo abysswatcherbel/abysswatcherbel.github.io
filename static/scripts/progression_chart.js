@@ -39,12 +39,13 @@ document.addEventListener("DOMContentLoaded", async function () {
                 },
                 options: {
                     responsive: false,
+                    devicePixelRatio: 2,
                     maintainAspectRatio: false,
                     scales: {
-                        x: { display: false },
+                        x: { type: "linear", display: false, min: 0, max: 48 },
                         y: { display: false }
                     },
-                    plugins: { legend: { display: false } }
+                    plugins: { legend: { display: false }, tooltip: { enabled: true, intersect: false, model: "index" }}
                 }
             });
         });
