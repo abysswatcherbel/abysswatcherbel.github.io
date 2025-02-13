@@ -68,23 +68,24 @@ nav a:hover {
 
 
 .page-layout {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(5, auto);
-    gap: 2rem;
-    margin: 2rem auto;
-    padding: 0 2rem;
-    justify-content: space-evenly;
-   
+    display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "featured_shows featured_shows season_ranks"
+    "featured_shows featured_shows season_ranks"
+    "active_discussions active_discussions active_discussions"; 
 }
+   
+
 
 /* Featured Show Layout */
 
 .featured-content {
     
-    display: grid;
-    grid-column: 1 / 3;
-    grid-row: 1 / 1;
+
+    grid-area: featured_shows;
     justify-content: space-evenly;
     padding: 20px;
 }
@@ -122,15 +123,11 @@ nav a:hover {
 
 /* Rank Tables Layout - Two Equal Sections */
 .rank-tables {
-    display: grid;
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
- 
-    gap: 1.5rem;
+    grid-area: season_ranks;
 
 }
 
-.rank-table {
+.rank-tables table {
     background-color: var(--table-header-bg);
     box-shadow: #B7624F 0px 5px 15px;
     padding: 1rem;
@@ -173,19 +170,12 @@ nav a:hover {
     max-width: 20%;
 }
 
-.averages-rank{
-    width: 40%;
-}
+
 
 .active-discussions{
     padding: 2rem;
-    display: grid;
-    grid-column: 3 / 5;
-    grid-row: 1 / 3;
-    width: 100%;
-    max-height: 20%;
+    grid-area: active_discussions;
     background-color: var(--bg-color);
-    gap: 1rem;
     overflow: hidden;
     
     
