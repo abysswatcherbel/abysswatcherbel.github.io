@@ -417,3 +417,35 @@ def update_mal_numbers(week_id: int):
     client.close()
     fetch_mal_score(mal_ids)
 
+def get_available_seasons():
+    """
+    Get all available seasons and their weeks from the docs directory.
+    
+    Returns:
+        dict: Nested dictionary of years, seasons, and their available weeks
+        Example: {
+            '2025': {
+                'winter': ['week_5', 'week_6'],
+                'spring': ['week_1', 'week_2']
+            }
+        }
+    """
+    seasons_data = {}
+    docs_path = 'templates'  # or your static files directory
+    
+    for year in os.listdir(docs_path):
+        if year.isdigit():
+            seasons_data[year] = {}
+            year_path = os.path.join(docs_path, year)
+            
+            for season in os.listdir(year_path):
+                if season in ['winter', 'spring', 'summer', 'fall']:
+                    weeks = []
+                    season_path = os.path.join(year_path, season)
+                    for file in os.listdir(season_path):
+                        if file.startswith('week_') and file.endswith('.html'):
+                            weeks.append(file.replace('.html', ''))
+                    if weeks:
+                        seasons_data[year][season] = sorted(weeks)
+    
+    return seasons_data

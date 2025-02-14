@@ -21,8 +21,26 @@
     <nav>
       <ul>
         <li><a href="{{ url_for('current_week') }}">Home</a></li>
-        <li><a href="{{ url_for('winter_week_6') }}">Week {{ current_week_id - 1 }} Chart</a></li>
-        <li><a href="{{ url_for('current_chart') }}">Week {{ current_week_id }} Chart</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Previous Weeks ▾</a>
+          <div class="dropdown-content">
+            {% for year, seasons in available_seasons.items()|reverse %}
+                {% for season, weeks in seasons.items()|reverse %}
+                    <div class="season-group">
+                        <div class="season-header">{{ year }} {{ season|capitalize }}</div>
+                        {% for week in weeks|reverse %}
+                            <a href="{{ url_for('show_week', 
+                                              year=year|int, 
+                                              season=season, 
+                                              week=week|replace('week_', '')|int) }}">
+                                Week {{ week|replace('week_', '') }}
+                            </a>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+      </li>
       </ul>
     </nav>
    

@@ -1,19 +1,22 @@
-from flask import Flask, render_template, request
-from pymongo import MongoClient
-from datetime import datetime, timezone
+import json
 import os
-from src.reddit_api import main, get_active_posts
+from datetime import datetime, timezone
+from itertools import zip_longest
+
+from dotenv import load_dotenv
+from flask import Flask, abort, render_template, request
+from flask_frozen import Freezer
+from pymongo import MongoClient
+
 from src.rank_processing import (
-    get_weekly_change,
     get_airing_period,
+    get_available_seasons,
     get_season_averages,
     get_week_id,
+    get_weekly_change,
 )
+from src.reddit_api import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
-from itertools import zip_longest
-from flask_frozen import Freezer
-import json
-from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -25,6 +28,20 @@ freezer = Freezer(app)
 
 @app.route("/")
 def current_week():
+    """
+    Render the current week's anime karma rankings.
+
+    Retrieves and processes the current week's anime discussion posts and their karma scores.
+    Includes weekly changes, airing details, and season averages.
+
+    Returns:
+        rendered template: The current_week.html template with context containing:
+            - current_shows: List of shows with their karma data
+            - current_week_id: Identifier for the current week
+            - airing_details: Information about the current airing period
+            - average_shows: Season-wide averages for shows
+            - active_discussions: Currently active discussion posts on r/anime (under the 48 hours rule)
+    """
     # Calculate current week_id
     current_time = datetime.now(timezone.utc)
     current_week_id = get_week_id("post", current_time)
@@ -38,7 +55,7 @@ def current_week():
     season_averages = get_season_averages(
         season=airing_details["season"], year=current_time.year
     )
-
+    available_seasons = get_available_seasons()
     active_discussions = get_active_posts()
     progression_data = list(
         collection.find(
@@ -51,6 +68,7 @@ def current_week():
         json.dump(progression_data, f)
 
     client.close()
+    print(f"Available seasons: {available_seasons}")  # Debug print
     return render_template(
         "current_week.html",
         current_shows=current_shows,
@@ -58,53 +76,25 @@ def current_week():
         airing_details=airing_details,
         average_shows=season_averages,
         active_discussions=active_discussions,
-    )
-
-
-@app.route("/previous_weeks.html", endpoint="previous_weeks")
-def previous_weeks():
-    client = MongoClient(os.getenv("MONGO_URI"))
-    db = client.anime
-    seasonal_entries = db.seasonal_entries
-
-    # Get all distinct week_ids
-    pipeline = [
-        {"$unwind": "$reddit_karma"},
-        {"$group": {"_id": "$reddit_karma.week_id"}},
-        {"$sort": {"_id": -1}},
-    ]
-    week_ids = [week["_id"] for week in seasonal_entries.aggregate(pipeline)]
-
-    selected_week = request.args.get("week")
-    selected_data = []
-    if selected_week:
-        selected_week = int(selected_week)
-        pipeline = [
-            {"$unwind": "$reddit_karma"},
-            {"$match": {"reddit_karma.week_id": selected_week}},
-            {
-                "$project": {
-                    "title": 1,
-                    "episode": "$reddit_karma.episode",
-                    "karma": "$reddit_karma.karma",
-                    "comments": "$reddit_karma.comments",
-                    "url": "$reddit_karma.url",
-                }
-            },
-        ]
-        selected_data = list(seasonal_entries.aggregate(pipeline))
-
-    client.close()
-    return render_template(
-        "previous_weeks.html",
-        week_ids=week_ids,
-        selected_week=selected_week,
-        selected_data=selected_data,
+        available_seasons=available_seasons,
     )
 
 
 @app.route("/current_chart.html", endpoint="current_chart")
 def karma_rank():
+    """
+    Render the current karma rankings chart.
+
+    Shows the top 30 anime of the current week, split into two columns.
+    Includes total karma calculation for top 15 shows.
+
+    Returns:
+        rendered template: The current_chart.html template with context containing:
+            - complete_rankings: Paired rankings for left and right columns
+            - airing_details: Current airing period information
+            - sum_karma: Total karma for top 15 shows
+            - Various symbols for UI elements
+    """
 
     current_shows = get_weekly_change()
     airing_details = get_airing_period()
@@ -130,14 +120,25 @@ def karma_rank():
     )
 
 
-@app.route("/2025/winter/week_5.html", endpoint="winter_week_5")
-def week_5():
-    return render_template("/2025/winter/week_5.html")
+@app.route("/<int:year>/<season>/week_<int:week>.html", endpoint="show_week")
+def show_week(year, season, week):
+    """
+    Dynamically render a specific week's chart.
 
+    Args:
+        year (int): The year of the chart
+        season (str): The season (winter, spring, summer, fall)
+        week (int): The week number
 
-@app.route("/2025/winter/week_6.html", endpoint="winter_week_6")
-def week_6():
-    return render_template("/2025/winter/week_6_fixed.html")
+    Returns:
+        rendered template: The specific week's chart template
+    """
+    # Validate season
+    if season.lower() not in ["winter", "spring", "summer", "fall"]:
+        abort(404)
+    template_path = f"{year}/{season}/week_{week}.html"
+    print(f"Looking for template at: {template_path}")  # Debug print
+    return render_template(template_path)
 
 
 if __name__ == "__main__":
