@@ -309,7 +309,7 @@ def get_active_posts(reddit: Reddit = setup_reddit_instance(), username="AutoLov
             hours_since_post = current_time - created_time
             airing_details = get_airing_period(current_time=current_time)
             week_id = airing_details.get('week_id')
-            season = airing_details.get('season_name')
+            season = airing_details.get('season')
             mal_id = get_mal_id_reddit_post(submission.selftext)
             _,episode = get_title_details(submission.title)
             if mal_id:

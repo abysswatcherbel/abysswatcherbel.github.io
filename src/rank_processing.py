@@ -281,7 +281,7 @@ def process_stats(data: dict, current_week):
 
 
 
-def get_airing_period(current_time = datetime.now(timezone.utc)):
+def get_airing_period(current_time = datetime.now(timezone.utc), schedule_type: str = 'episodes'):
 
     """Get the airing period for the current week."""
     current_year = current_time.year
