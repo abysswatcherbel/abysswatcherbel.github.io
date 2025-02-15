@@ -71,6 +71,7 @@ def setup_scheduler(mongo_uri=os.getenv('MONGO_URI'), mongo_database="scheduler"
 
     # Only pass the reddit instance as an argument (not the scheduler)
     reddit_instance = setup_reddit_instance()
+    update_scheduler(reddit_instance)
     job_id = "daily_update"
 
     if not scheduler.get_job(job_id):
