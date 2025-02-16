@@ -16,7 +16,7 @@ from src.rank_processing import (
     get_weekly_change,
     update_mal_numbers
 )
-from src.reddit_api import get_active_posts, main
+from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
 
 load_dotenv()
