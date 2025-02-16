@@ -314,6 +314,7 @@ body {
     .karma-entry .details .part-2 .title > span {
     padding: 1px;
     display: -webkit-box;
+    line-clamp: 3;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -428,6 +429,7 @@ body {
     .poll-entry .details .title {
     max-height: 40px;
     display: -webkit-box;
+    line-clamp: 3;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;

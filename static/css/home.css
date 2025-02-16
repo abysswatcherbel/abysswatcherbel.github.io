@@ -179,6 +179,8 @@ nav a:hover {
 }
 
 .rank-tables table {
+    max-width: 70%;
+    table-layout: fixed;
     background-color: var(--table-header-bg);
     box-shadow: #B7624F 0px 5px 15px;
     padding: 1rem;
@@ -354,17 +356,6 @@ nav a:hover {
   }
 
 
-
-
-/* Footer */
-footer {
-    background-color: var(--header-bg);
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-}
 
 
 
