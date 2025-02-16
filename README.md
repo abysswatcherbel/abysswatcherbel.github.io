@@ -36,52 +36,58 @@ This project was created to automate the tracking and ranking of anime discussio
 
 ## Project Structure
 
-├── docs `Github Pages Static Site`
-├── entry.py `Main Flask application with endpoints and command-line logic.`
-├── README.md `This file`
-├── requirements.txt `Python dependencies`
-├── src
-│   ├── database.py `SQLite database setup and utility functions.`
-│   ├── post_processing.py `Functions for Reddit post retrieval, scheduling, and insertion into MongoDB.`
-│   ├── rank_processing.py `Functions for ranking calculations, weekly changes, and MAL integration.`
-│   ├── season_references `Season reference files, as start and end dates for each week of the season`
-│   │   └── 2025
-│   │       └── winter
-│   │           ├── episodes.csv `CSV file with the start and end date for each given week of the season`
-│   │           ├── post.csv `CSV file with the post id, title, and url for each post in the season`
-│   │           └── winter_2025.yaml `YAML file with the season details from the r/anime mod team on the [GitHub Repo](https://github.com/r-anime/holo/tree/master/season_configs)`
-├── static `Static assets for the website`
-│   ├── assets `Static assets for the website`
+Here’s the corrected Markdown structure that will render properly on GitHub:
+
+```
+├── docs/                  # GitHub Pages Static Site
+├── entry.py               # Main Flask application with endpoints and command-line logic
+├── README.md              # This file
+├── requirements.txt       # Python dependencies
+├── src/
+│   ├── database.py        # SQLite database setup and utility functions
+│   ├── post_processing.py # Functions for Reddit post retrieval, scheduling, and insertion into MongoDB
+│   ├── rank_processing.py # Functions for ranking calculations, weekly changes, and MAL integration
+│   ├── season_references/ # Season reference files, as start and end dates for each week of the season
+│   │   └── 2025/
+│   │       └── winter/
+│   │           ├── episodes.csv      # CSV file with the start and end date for each given week of the season
+│   │           ├── post.csv          # CSV file with the post id, title, and url for each post in the season
+│   │           └── winter_2025.yaml  # YAML file with the season details from the r/anime mod team
+│   │                                   [GitHub Repo](https://github.com/r-anime/holo/tree/master/season_configs)
+├── static/                # Static assets for the website
+│   ├── assets/
 │   │   ├── back_svg.py
 │   │   ├── __init__.py
 │   │   ├── new_entry.py
-│   ├── css `CSS files for the website`
+│   ├── css/               # CSS files for the website
 │   │   ├── home.css
 │   │   ├── new_karma.css
 │   │   └── streaming.css
-│   ├── data `Data files for the website`
+│   ├── data/              # Data files for the website
 │   │   └── progression.json
-│   └── scripts `JavaScript files for the website`
+│   └── scripts/           # JavaScript files for the website
 │       ├── progression_chart.js
 │       ├── reddit_fallback.js
 │       ├── sort_tables.js
 │       └── theme-switch.js
-├── templates `Templates to be rendered by Flask`
-│   ├── 2024 `Previous seasons`
-│   │   └── fall
+├── templates/             # Templates to be rendered by Flask
+│   ├── 2024/              # Previous seasons
+│   │   └── fall/
 │   │       ├── week_1.html
 │   │       ├── week_2.html
 │   │       ├── week_3.html
 │   │       ├── week_4.html
 │   │       └── week_5.html
-│   ├── 2025 
-│   │   └── winter
+│   ├── 2025/  
+│   │   └── winter/
 │   │       ├── week_4.html
 │   │       ├── week_5.html
 │   │       ├── week_6.html
 │   │       └── week_7.html
-│   ├── current_chart.html `Current chart page`
-│   └──current_week.html `Home page`
+│   ├── current_chart.html  # Current chart page
+│   └── current_week.html   # Home page
+```
+
  
 ## Recommended Projects & Resources
 
