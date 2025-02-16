@@ -12,7 +12,7 @@ from apscheduler.jobstores.mongodb import MongoDBJobStore
 import logging
 from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
 from pytz import utc
-from logging.handlers import RotatingFileHandler
+from logging.handlers import  TimedRotatingFileHandler
 from calendar import month_name
 from dotenv import load_dotenv
 from src.rank_processing import (
@@ -39,8 +39,8 @@ def setup_logging(logger: str):
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, f"{logger}.log")
 
-    file_handler = RotatingFileHandler(
-        log_file, maxBytes=5 * 1024 * 1024, backupCount=3
+    file_handler = TimedRotatingFileHandler(
+        log_file, when="midnight", interval=1, backupCount=3, utc=True
     )
     formatter = logging.Formatter(
         "%(asctime)s.%(msecs)03d , %(levelname)s , %(message)s", datefmt="%H:%M:%S"

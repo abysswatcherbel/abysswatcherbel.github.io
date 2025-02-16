@@ -14,6 +14,7 @@ from src.rank_processing import (
     get_season_averages,
     get_week_id,
     get_weekly_change,
+    update_mal_numbers
 )
 from src.reddit_api import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
@@ -146,6 +147,8 @@ if __name__ == "__main__":
 
     if "freeze" in sys.argv:
         # Generate static files
+        week_id = get_week_id("post")
+        update_mal_numbers(week_id)
         freezer.freeze()
     elif "run" in sys.argv:
         # Run Flask app for local debugging

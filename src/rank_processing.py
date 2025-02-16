@@ -7,9 +7,15 @@ import time
 import pandas as pd
 
 
-def get_week_id(
-    schedule_type: str = "episodes", post_time: datetime = datetime.now(timezone.utc)
-):
+from datetime import datetime, timezone
+import os
+import pandas as pd
+
+
+def get_week_id(schedule_type: str = "episodes", post_time: datetime = None):
+    if post_time is None:
+        post_time = datetime.now(timezone.utc)
+
     if schedule_type not in ("post", "episodes"):
         raise ValueError("Invalid schedule_type. Must be either 'post' or 'episodes'.")
 
@@ -28,11 +34,15 @@ def get_week_id(
 
     schedule_df = pd.read_csv(schedule_path)
 
-    # Convert start_date and end_date to full datetime (UTC timezone-aware)
+    # Convert start_date and end_date to timezone-aware datetimes (UTC)
     schedule_df["start_date"] = pd.to_datetime(schedule_df["start_date"], utc=True)
     schedule_df["end_date"] = pd.to_datetime(schedule_df["end_date"], utc=True)
+    # Adjust end_date to cover the entire day by setting it to 23:59:59.999999
+    schedule_df["end_date"] = (
+        schedule_df["end_date"] + pd.Timedelta(days=1) - pd.Timedelta(microseconds=1)
+    )
 
-    # Ensure post_time is also timezone-aware (convert if needed)
+    # Ensure post_time is timezone-aware (convert if needed)
     if post_time.tzinfo is None:
         post_time = post_time.replace(tzinfo=timezone.utc)
 
