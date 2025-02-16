@@ -98,7 +98,7 @@ def karma_rank():
     """
 
     current_shows = get_weekly_change()
-    airing_details = get_airing_period()
+    airing_details = get_airing_period(schedule_type="post")
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
 

@@ -218,6 +218,7 @@ body {
     position: relative;
     clip-path: polygon(0% 0%, 75% 0%, 77% 50%, 75% 100%, 0% 100%);
     box-shadow: inset 0px 8px 15px -4px black;
+    
     }
     .episode-container > .divider:last-of-type {
     width: 100%;
@@ -283,7 +284,7 @@ body {
     left: 0px;
     bottom: 0;
     right: 0;
-    background: radial-gradient(circle, transparent 55%, black 95%);
+    background: radial-gradient(circle, transparent 80%, black 95%);
     }
     .karma-entry .details > * {
     z-index: 1;
@@ -539,6 +540,7 @@ body {
         height: 140px;
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
         box-shadow: inset 20px 0px 20px 6px rgba(0, 0, 0, 1);
+        
     }
     .rightSide > .details > .part-1 > .rightKarma {
         font-size: 26px;
@@ -721,6 +723,6 @@ span[class="right-rank-change neutral"] {
     width: 100%;
     height: 100%;
     display: block;
-    z-index: 2 !important;
+    z-index: 5 !important;
 
 }
