@@ -21,7 +21,7 @@ This project was created to automate the tracking and ranking of anime discussio
   Example functions: `get_weekly_change()`, `assign_rank()`, and `get_season_averages()`.
 
 - **MyAnimeList Integration:**  
-  Fetch statistics from MyAnimeList (MAL) via API calls to update rankings with additional metadata.
+  Fetch statistics from MyAnimeList (MAL) via the JIKAN API with calls to update rankings with additional metadata.
 
 - **Flask Web Application:**  
   - Dynamic endpoints for the current week (`/`) and the current chart (`/current_chart.html`).
