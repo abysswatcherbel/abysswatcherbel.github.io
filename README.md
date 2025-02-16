@@ -53,7 +53,7 @@ Here’s the corrected Markdown structure that will render properly on GitHub:
 │   │           ├── episodes.csv      # CSV file with the start and end date for each given week of the season
 │   │           ├── post.csv          # CSV file with the post id, title, and url for each post in the season
 │   │           └── winter_2025.yaml  # YAML file with the season details from the r/anime mod team
-│   │                                   [GitHub Repo](https://github.com/r-anime/holo/tree/master/season_configs)
+│   │                                  
 ├── static/                # Static assets for the website
 │   ├── assets/
 │   │   ├── back_svg.py
