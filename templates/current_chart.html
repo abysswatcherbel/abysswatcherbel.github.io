@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>{{ airing_details.season }} Karma Ranks</title>
-    <meta name="description" content="">
+    <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/new_karma.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/streaming.css') }}">
+    <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
 </head>
 
 <body>
@@ -112,7 +113,23 @@
                             <div class="comments">
                                 <span>{{ left.comments }}</span>
                                 <div style="width: 100%; height: 7px;"></div>
+                                {% if left.url %}
+                                <a href="{{ left.url }}"
+                                    target="_blank"
+                                    class="external-link"
+                                    data-title-english="{{ left.title_english or left.title }}">
+                                </a>
+                                {% else %}
+                                <!-- If there's no URL, just use # (or leave it empty) so we know to fallback -->
+                                <a href="#"
+                                    target="_blank"
+                                    class="external-link"
+                                    data-check-fallback="true"
+                                    data-title-english="{{ left.title_english or left.title }}">
+                                </a>
+                                {% endif %}
                             </div>
+                            
                         </div>
                         <div class="mal-ratings">
                             <span>{{ left.score }} <span class="neutral">M</span><a class="external-link" href="{{ left.mal_url }} " target="_blank"></a></span>
