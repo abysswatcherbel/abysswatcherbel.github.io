@@ -165,21 +165,81 @@ nav a:hover {
 
 .featured-info{
     grid-area: summary;
-    gap: 1rem;
+        gap: 1rem;
+    }
+.rank-tables{
+    grid-area: season_ranks;
+    overflow: hidden;
+    grid-template-rows: subgrid;
+    grid-template-areas: "current_week"
+                          "season_averages";
+    
+    display: grid;
+    height: 100%;
+    
+ 
 }
-
 
 /* Rank Tables Layout - Two Equal Sections */
-.rank-tables {
-    grid-area: season_ranks;
-    margin-top: 1rem;
-    width: 100%;
-    border-radius: 100px;
+.table-container {
+    margin-bottom: 2rem;
+    grid-area: current_week;
+    overflow: hidden;
 
 }
 
-.rank-tables table {
-    max-width: 70%;
+.table-container.season-averages{
+    grid-area: season_averages;
+    overflow: visible;
+}
+.table-wrapper {
+    max-height: 100%;
+    width: 100%;
+    transition: max-height 0.5s ease; 
+   
+}
+
+.table-container.expanded .table-wrapper {
+    max-height: none;
+  }
+
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; /* Height of gradient effect */
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+
+/* Hide the overlay when expanded */
+.table-container.expanded .gradient-overlay {
+    opacity: 0;
+  }
+
+/* Expand Button styling */
+.expand-btn {
+    margin-top: -20px;  /* Adjust if you want the button to slightly overlap the gradient */
+    z-index: 2;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+.expand-btn:hover {
+    background-color: #005fcc; /* Slightly darker shade */
+  }
+
+.table-container table {
+    max-width: 90%;
+    height: 100%;
     table-layout: fixed;
     background-color: var(--table-header-bg);
     box-shadow: #B7624F 0px 5px 15px;
@@ -189,14 +249,16 @@ nav a:hover {
     border-collapse: collapse;
     border-bottom: 1px solid #ddd;
     border-collapse: collapse;
+    margin: 0 auto;
+
 }
 
-.rank-tables:hover {
+.table-container:hover {
     transform: scale(1.02);
 }
 
 
-.rank-tables th {
+.table-container th {
     text-align: center;
     position: sticky;
     margin-bottom: 1rem;
@@ -207,7 +269,7 @@ nav a:hover {
     text-wrap: wrap;
 }
 
-.rank-tables thead {
+.table-container thead {
     background-color: var(--header-bg);
     color: #fff;
     position: sticky;
@@ -215,30 +277,30 @@ nav a:hover {
 }
 
 
-.rank-tables caption{
+.table-container caption{
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.rank-tables img{
+.table-container img{
 
     max-width: 80%;
     align-self: center;
 }
 
-.rank-tables th, .rank-tables td {
+.table-container th, .table-container td {
     padding: 1rem;
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
 
-.rank-tables tbody{
+.table-container tbody{
     background-color: var(--week-info-bg);
 }
 
-.rank-tables tbody tr:hover {
+.table-container tbody tr:hover {
     background-color: var(--table-row-hover);
 }
 
@@ -309,20 +371,6 @@ nav a:hover {
   }
 
 
-.expand-btn {
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-    display: block;
-}
-.expand-btn:hover {
-    opacity: 0.8;
-}
 
 /* Base styling for progression chart canvas */
 

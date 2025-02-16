@@ -121,99 +121,105 @@
         </tbody>
     </table>
   </div>
-
-    <!-- Rank Section with Two Equal Tables -->
     <div class="rank-tables">
-      <div >
-        
-      
-        <table>
-            <caption>{{ airing_details.airing_period }}</caption>
-          <thead>
-            <tr>
-              <th>Rank</th>
-              <th>Show</th>
-              <th>Episode</th>
-              <th>Karma</th>
-              <th>Comments</th>
-              <th>Karma Change</th>
-              <th>Rank Change</th>
-              <th>Reddit Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% if current_shows %}
-              {% for show in current_shows %}
-                <tr>
-                  <td>{{ show.current_rank }}</td>
-                  <td>
-                    <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
-                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
-                    <span style="display:none;">{{ show.title_english or show.title }}</span>
-                  </td>
-                  <td>{{ show.episode }}</td>
-                  <td>{{ show.karma }}</td>
-                  <td>{{ show.comments }}</td>
-                  <td>{{ show.karma_change }}</td>
-                  <td>{{ show.rank_change }}</td>
-                  <td><a href="{{ show.url }}" target="_blank">Link</a></td>
-                </tr>
-              {% endfor %}
-            {% else %}
-              <tr><td colspan="8">No shows to display this week</td></tr>
-            {% endif %}
-          </tbody>
-        </table>
-      </div>
-
-      <div >
-       
-        <table>
-            <caption>Season Average</caption>
-          <thead>
-            <tr>
-              <th>Rank</th>
-              <th>Show</th>
-              <th>Average Karma</th>
-              <th>Average Comments</th>
-              <th>Max Karma</th>
-              <th>Min Karma</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% if average_shows %}
+        <!-- Rank Section with Two Equal Tables -->
+        <div class="table-container">
+          <div class="table-wrapper">
+              <table>
+                  <caption>{{ airing_details.airing_period }}</caption>
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Show</th>
+                    <th>Episode</th>
+                    <th>Karma</th>
+                    <th>Comments</th>
+                    <th>Karma Change</th>
+                    <th>Rank Change</th>
+                    <th>Reddit Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% if current_shows %}
+                    {% for show in current_shows %}
+                      <tr>
+                        <td>{{ show.current_rank }}</td>
+                        <td>
+                          <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                              onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                          <span style="display:none;">{{ show.title_english or show.title }}</span>
+                        </td>
+                        <td>{{ show.episode }}</td>
+                        <td>{{ show.karma }}</td>
+                        <td>{{ show.comments }}</td>
+                        <td>{{ show.karma_change }}</td>
+                        <td>{{ show.rank_change }}</td>
+                        <td><a href="{{ show.url }}" target="_blank">Link</a></td>
+                      </tr>
+                    {% endfor %}
+                  {% else %}
+                    <tr><td colspan="8">No shows to display this week</td></tr>
+                  {% endif %}
+                </tbody>
+              </table>
                 
-              {% for show in average_shows %}
+          </div> 
+        
+           
+          </div>
+          <div class="table-container season-averages">
+          <div class="table-wrapper">
+          
+            <table>
+                <caption>Season Average</caption>
+              <thead>
                 <tr>
-                  <td>{{ loop.index }}</td>
-                   
-                  <td>
-                    <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
-                         onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
-                    <span style="display:none;">{{ show.title_english or show.title }}</span>
-                    <td>
-                        {% if show.average_karma %} 
-                            {{ "%.2f"|format(show.average_karma) if show.average_karma % 1 != 0 else show.average_karma|int }}
-                        {% endif %}
-                    </td>
-                    <td>
-                        {% if show.average_comments %} 
-                            {{ "%.2f"|format(show.average_comments) if show.average_comments % 1 != 0 else show.average_comments|int }}
-                        {% endif %}
-                    </td>
-                    
-                  <td>{{ show.max_karma }}</td>
-                  <td>{{ show.min_karma }}</td>
+                  <th>Rank</th>
+                  <th>Show</th>
+                  <th>Average Karma</th>
+                  <th>Average Comments</th>
+                  <th>Max Karma</th>
+                  <th>Min Karma</th>
                 </tr>
-              {% endfor %}
-            {% else %}
-              <tr><td colspan="6">No average rankings available</td></tr>
-            {% endif %}
-          </tbody>
-        </table>
-      </div>
+              </thead>
+              <tbody>
+                {% if average_shows %}
+                    
+                  {% for show in average_shows %}
+                    <tr>
+                      <td>{{ loop.index }}</td>
+                      
+                      <td>
+                        <img src="{{ show.images.webp.image_url }}" alt="{{ show.title_english or show.title }}"
+                            onerror="this.onerror=null;this.nextElementSibling.style.display='inline-block';this.style.display='none';"/>
+                        <span style="display:none;">{{ show.title_english or show.title }}</span>
+                        <td>
+                            {% if show.average_karma %} 
+                                {{ "%.2f"|format(show.average_karma) if show.average_karma % 1 != 0 else show.average_karma|int }}
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if show.average_comments %} 
+                                {{ "%.2f"|format(show.average_comments) if show.average_comments % 1 != 0 else show.average_comments|int }}
+                            {% endif %}
+                        </td>
+                        
+                      <td>{{ show.max_karma }}</td>
+                      <td>{{ show.min_karma }}</td>
+                    </tr>
+                  {% endfor %}
+                {% else %}
+                  <tr><td colspan="6">No average rankings available</td></tr>
+                {% endif %}
+              </tbody>
+            </table>
+            
+          </div>
+          
+        </div>
+ 
     </div>
-
+    </div>
   </div>
 
 
