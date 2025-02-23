@@ -44,7 +44,6 @@ Here’s the corrected Markdown structure that will render properly on GitHub:
 ├── README.md              # This file
 ├── requirements.txt       # Python dependencies
 ├── src/
-│   ├── database.py        # SQLite database setup and utility functions
 │   ├── post_processing.py # Functions for Reddit post retrieval, scheduling, and insertion into MongoDB
 │   ├── rank_processing.py # Functions for ranking calculations, weekly changes, and MAL integration
 │   ├── season_references/ # Season reference files, as start and end dates for each week of the season
@@ -73,17 +72,12 @@ Here’s the corrected Markdown structure that will render properly on GitHub:
 ├── templates/             # Templates to be rendered by Flask
 │   ├── 2024/              # Previous seasons
 │   │   └── fall/
-│   │       ├── week_1.html
-│   │       ├── week_2.html
-│   │       ├── week_3.html
-│   │       ├── week_4.html
-│   │       └── week_5.html
+│   │       ├── week_x.html
+│   │       └── week_x+1.html
 │   ├── 2025/  
 │   │   └── winter/
-│   │       ├── week_4.html
-│   │       ├── week_5.html
-│   │       ├── week_6.html
-│   │       └── week_7.html
+│   │       ├── week_x.html
+│   │       └── week_x+1.html
 │   ├── current_chart.html  # Current chart page
 │   └── current_week.html   # Home page
 ```
