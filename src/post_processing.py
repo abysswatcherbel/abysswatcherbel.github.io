@@ -42,6 +42,7 @@ from apscheduler.jobstores.base import ConflictingIdError
 from apscheduler.triggers.date import DateTrigger
 from apscheduler.jobstores.mongodb import MongoDBJobStore
 import logging
+from logging.handlers import SysLogHandler
 from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
 from pytz import utc
 from logging.handlers import TimedRotatingFileHandler
@@ -65,35 +66,15 @@ scheduler_instance = None
 
 
 def setup_logging(logger: str):
-    """
-    Sets up logging configuration for a given logger name.
-
-    This function creates a logging setup with the following characteristics:
-    - Creates dated directory structure for log files (year/season/month/day)
-    - Uses TimedRotatingFileHandler for daily log rotation
-    - Formats logs with timestamp, level and message
-    - Sets appropriate log levels (DEBUG for apscheduler, INFO for others)
-    - Prevents log propagation to parent loggers
-
-    Args:
-        logger (str): Name of the logger to configure
-
-    Returns:
-        Logger: Configured logging instance
-
-    Example:
-        >>> logger = setup_logging("process_post")
-        >>> logger.info("Starting post processing")
-        2024-01-15 13:45:23.456 , INFO , Starting post processing
-    """
     today = datetime.now(tz=utc)
     season = get_season_name(today.month)
     month = month_name[today.month]
-    log_dir = f"src/logs/{today.year}/{season}/{month}/{today.day}"
+    log_dir = f"/home/joaompessoa/karma_track/src/logs/{today.year}/{season}/{month}/{today.day}"
 
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, f"{logger}.log")
 
+    # Create File Handler
     file_handler = TimedRotatingFileHandler(
         log_file, when="midnight", interval=1, backupCount=3, utc=True
     )
@@ -102,14 +83,22 @@ def setup_logging(logger: str):
     )
     file_handler.setFormatter(formatter)
 
+    # Create Stream Handler for system logs
+    stream_handler = logging.StreamHandler()  # Logs to stdout (visible in systemd)
+    stream_handler.setFormatter(formatter)
+
+    syslog_handler = SysLogHandler(address="/dev/log")
+    syslog_handler.setFormatter(formatter)
+
     logger_instance = logging.getLogger(logger)
     logger_instance.addHandler(file_handler)
+    logger_instance.addHandler(syslog_handler)
+    logger_instance.addHandler(stream_handler)  # Add this handler
     logger_instance.setLevel(logging.DEBUG if logger == "apscheduler" else logging.INFO)
     logger_instance.propagate = False
 
     logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
     return logger_instance
-
 
 def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"):
     """

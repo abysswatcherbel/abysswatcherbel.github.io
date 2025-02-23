@@ -2,12 +2,10 @@ import json
 import os
 from datetime import datetime, timezone
 from itertools import zip_longest
-
 from dotenv import load_dotenv
 from flask import Flask, abort, render_template, request
 from flask_frozen import Freezer
 from pymongo import MongoClient
-
 from src.rank_processing import (
     get_airing_period,
     get_available_seasons,
