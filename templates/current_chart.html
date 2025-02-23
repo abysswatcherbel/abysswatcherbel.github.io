@@ -84,12 +84,12 @@
                                     <svg class="arrow {% if left.rank_change | int > 0 %}positive{% elif left.rank_change | int < 0 %}negative{% else %}neutral{% endif %}" viewBox="0 0 117.7 110">
                                         <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
                                     </svg>
-                                </span>
-                                {% if left.rank_change | int == 0 %}
-                                    &mdash;
-                                {% elif left.rank_change | int is number %}
+                                    {% if left.rank_change | int == 0 %}
+                                    {% elif left.rank_change | int is number %}
                                     {{ left.rank_change | int | abs }}
-                                {% endif %}
+                                    {% endif %}
+                                </span>
+                               
                             </span>
                         {% endif %}
                     </div>
