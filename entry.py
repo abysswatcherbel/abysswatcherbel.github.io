@@ -145,8 +145,8 @@ if __name__ == "__main__":
 
     if "freeze" in sys.argv:
         # Generate static files
-        week_id = get_week_id("post")
-        update_mal_numbers(week_id)
+        # week_id = get_week_id("post")
+        # update_mal_numbers(week_id)
         freezer.freeze()
     elif "run" in sys.argv:
         # Run Flask app for local debugging
