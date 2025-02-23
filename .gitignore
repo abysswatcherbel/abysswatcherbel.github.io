@@ -6,4 +6,5 @@
 src/*.ipynb
 *.ipynb
 *.sh
+*.service
 project_structure.md
