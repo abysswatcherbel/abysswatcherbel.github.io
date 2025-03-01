@@ -117,8 +117,8 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
     client = MongoClient(mongo_uri)
     jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}
     executors = {
-        "default": ThreadPoolExecutor(20),
-        "processpool": ProcessPoolExecutor(5),
+        "default": ThreadPoolExecutor(10),
+        "processpool": ProcessPoolExecutor(3),
     }
     job_defaults = {"coalesce": False, "max_instances": 3}
     scheduler = BackgroundScheduler(
