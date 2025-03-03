@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Karma Rankings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6a5acd;
+            --primary-light: #9f94e8;
+            --primary-dark: #483d8b;
+            --accent: #ff6b6b;
+            --text: #333;
+            --text-light: #777;
+            --bg: #f9f9fa;
+            --bg-card: #fff;
+            --border: #e0e0e0;
+            --shadow: rgba(0, 0, 0, 0.05);
+            
+            /* Dark mode variables */
+            --dark-primary: #8a7ce0;
+            --dark-primary-light: #b0a7eb;
+            --dark-accent: #ff8585;
+            --dark-text: #e0e0e0;
+            --dark-text-light: #aaaaaa;
+            --dark-bg: #1a1a2e;
+            --dark-bg-card: #222138;
+            --dark-border: #444;
+            --dark-shadow: rgba(0, 0, 0, 0.2);
+        }
+
+        .dark-theme {
+            --primary: var(--dark-primary);
+            --primary-light: var(--dark-primary-light);
+            --accent: var(--dark-accent);
+            --text: var(--dark-text);
+            --text-light: var(--dark-text-light);
+            --bg: var(--dark-bg);
+            --bg-card: var(--dark-bg-card);
+            --border: var(--dark-border);
+            --shadow: var(--dark-shadow);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            transition: all 0.3s ease;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            box-shadow: 0 2px 10px var(--shadow);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text);
+            cursor: pointer;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            color: var(--primary);
+        }
+
+        .season-select {
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            background-color: var(--bg-card);
+            color: var(--text);
+            font-size: 0.9rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+
+        .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab {
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            color: var(--text-light);
+            cursor: pointer;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        .tab.active {
+            color: var(--primary);
+        }
+
+        .tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--primary);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px var(--shadow);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text);
+        }
+
+        .last-updated {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            font-weight: 600;
+            color: var(--text-light);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        th:hover {
+            color: var(--primary);
+        }
+
+        th.sort-asc::after {
+            content: ' ↑';
+            color: var(--primary);
+        }
+
+        th.sort-desc::after {
+            content: ' ↓';
+            color: var(--primary);
+        }
+
+        tbody tr {
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background-color: var(--shadow);
+        }
+
+        .anime-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .anime-img {
+            width: 50px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .anime-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .anime-name {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+            color: var(--text);
+        }
+
+        .episode {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .karma {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .karma-change {
+            font-size: 0.85rem;
+            padding-left: 0.25rem;
+        }
+
+        .karma-change.positive {
+            color: #4caf50;
+        }
+
+        .karma-change.negative {
+            color: #f44336;
+        }
+
+        .action-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .action-link {
+            padding: 0.4rem 0.6rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .reddit-link {
+            background-color: #ff4500;
+            color: white;
+        }
+
+        .reddit-link:hover {
+            background-color: #e03d00;
+        }
+
+        .stream-link {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .stream-link:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .rank {
+            font-weight: 600;
+            text-align: center;
+            min-width: 30px;
+        }
+
+        .rank-change {
+            font-size: 0.85rem;
+            padding-left: 0.25rem;
+        }
+
+        .rank-change.up {
+            color: #4caf50;
+        }
+
+        .rank-change.down {
+            color: #f44336;
+        }
+
+        .rank-change.same {
+            color: var(--text-light);
+        }
+
+        .comments {
+            font-weight: 500;
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border);
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .footer-link {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .anime-title {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .action-links {
+                flex-direction: column;
+            }
+
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+
+        /* Loading animation */
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-light);
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .empty-state p {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .empty-state span {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Anime Karma Rankings</span>
+            </div>
+            <div class="controls">
+                <select class="season-select" id="season-select">
+                    <option value="winter_2025" selected>Winter 2025</option>
+                    <option value="fall_2024">Fall 2024</option>
+                </select>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="tabs">
+            <div class="tab active" data-tab="current-discussions">Current Discussions</div>
+            <div class="tab" data-tab="weekly-ranking">Weekly Ranking</div>
+            <div class="tab" data-tab="season-averages">Season Averages</div>
+        </div>
+
+        <!-- Current Discussions Tab -->
+        <div class="tab-content active" id="current-discussions">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Recent Episode Discussions (Last 48 Hours)</h2>
+                    <div class="last-updated">Last updated: <span id="current-update-time">{{ current_time }}</span></div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="sort-asc">Rank</th>
+                                <th>Anime</th>
+                                <th>Karma</th>
+                                <th>Comments</th>
+                                <th>Time</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="current-discussions-table">
+                            <!-- Row 1 -->
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>
+                                    <div class="anime-title">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1167/146455.jpg" alt="A-Rank Party" class="anime-img">
+                                        <div class="anime-info">
+                                            <span class="anime-name">A-Rank Party wo Ridatsu shita Ore wa</span>
+                                            <span class="episode">Episode 5</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="karma">281</span>
+                                    <span class="karma-change positive">+15</span>
+                                </td>
+                                <td class="comments">155</td>
+                                <td>14 hours ago</td>
+                                <td>
+                                    <div class="action-links">
+                                        <a href="https://www.reddit.com/r/anime/comments/1ikr93a/arank_party_wo_ridatsu_shita_ore_wa_moto/" class="action-link reddit-link" target="_blank">Reddit</a>
+                                        <a href="https://www.crunchyroll.com/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths" class="action-link stream-link" target="_blank">Watch</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Row 2 -->
+                            <tr>
+                                <td class="rank">2</td>
+                                <td>
+                                    <div class="anime-title">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1477/146764.jpg" alt="0-saiji Start Dash" class="anime-img">
+                                        <div class="anime-info">
+                                            <span class="anime-name">0-saiji Start Dash Monogatari Season 2</span>
+                                            <span class="episode">Episode 8</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="karma">118</span>
+                                    <span class="karma-change negative">-25</span>
+                                </td>
+                                <td class="comments">35</td>
+                                <td>22 hours ago</td>
+                                <td>
+                                    <div class="action-links">
+                                        <a href="#" class="action-link reddit-link" target="_blank">Reddit</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weekly Ranking Tab -->
+        <div class="tab-content" id="weekly-ranking">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Week 7 Rankings (Feb 24 - Mar 2)</h2>
+                    <div class="last-updated">Last updated: <span id="weekly-update-time">Mar 03, 2025 12:45 PM</span></div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="sort-asc">Rank</th>
+                                <th>Anime</th>
+                                <th>Karma</th>
+                                <th>Comments</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="weekly-ranking-table">
+                            <!-- Row 1 -->
+                            <tr>
+                                <td>
+                                    <span class="rank">1</span>
+                                    <span class="rank-change up">+2</span>
+                                </td>
+                                <td>
+                                    <div class="anime-title">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1167/146455.jpg" alt="A-Rank Party" class="anime-img">
+                                        <div class="anime-info">
+                                            <span class="anime-name">A-Rank Party wo Ridatsu shita Ore wa</span>
+                                            <span class="episode">Episode 5</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="karma">281</span>
+                                    <span class="karma-change positive">+15</span>
+                                </td>
+                                <td class="comments">155</td>
+                                <td>
+                                    <div class="action-links">
+                                        <a href="https://www.reddit.com/r/anime/comments/1ikr93a/arank_party_wo_ridatsu_shita_ore_wa_moto/" class="action-link reddit-link" target="_blank">Reddit</a>
+                                        <a href="https://www.crunchyroll.com/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths" class="action-link stream-link" target="_blank">Watch</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Row 2 -->
+                            <tr>
+                                <td>
+                                    <span class="rank">2</span>
+                                    <span class="rank-change down">-1</span>
+                                </td>
+                                <td>
+                                    <div class="anime-title">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1477/146764.jpg" alt="0-saiji Start Dash" class="anime-img">
+                                        <div class="anime-info">
+                                            <span class="anime-name">0-saiji Start Dash Monogatari Season 2</span>
+                                            <span class="episode">Episode 8</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="karma">118</span>
+                                    <span class="karma-change negative">-25</span>
+                                </td>
+                                <td class="comments">35</td>
+                                <td>
+                                    <div class="action-links">
+                                        <a href="#" class="action-link reddit-link" target="_blank">Reddit</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Season Averages Tab -->
+        <div class="tab-content" id="season-averages">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Winter 2025 Season Averages</h2>
+                    <div class="last-updated">Last updated: <span id="season-update-time">Mar 03, 2025 12:45 PM</span></div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="sort-asc">Rank</th>
+                                <th>Anime</th>
+                                <th>Average Karma</th>
+                                <th>Average Comments</th>
+                                <th>Episodes</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="season-averages-table">
+                            <!-- Row 1 -->
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>
+                                    <div class="anime-title">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1167/146455.jpg" alt="A-Rank Party" class="anime-img">
+                                        <div class="anime-info">
+                                            <span class="anime-name">A-Rank Party wo Ridatsu shita Ore wa</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="karma">321.8</td>
+                                <td class="comments">172</td>
+                                <td>5</td>
+                                <td>
+                                    <div class="action-links">
+                                        <a href="https://www.crunchyroll.com/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths" class="action-link stream-link" target="_blank">Watch</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Row 2 -->
+                            <tr>
+                                <td class="rank">2</td>
+                                <td>
+                                    <div class="anime-title">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1477/146764.jpg" alt="0-saiji Start Dash" class="anime-img">
+                                        <div class="anime-info">
+                                            <span class="anime-name">0-saiji Start Dash Monogatari Season 2</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="karma">128.5</td>
+                                <td class="comments">48</td>
+                                <td>8</td>
+                                <td>
+                                    <div class="action-links">
+                                        <a href="#" class="action-link stream-link" target="_blank">Watch</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
+        <div class="footer-links">
+            <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link" target="_blank">GitHub</a>
+            <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference or use preferred color scheme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.body.classList.add('dark-theme');
+            themeIcon.classList.replace('fa-moon', 'fa-sun');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            
+            if (document.body.classList.contains('dark-theme')) {
+                themeIcon.classList.replace('fa-moon', 'fa-sun');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                themeIcon.classList.replace('fa-sun', 'fa-moon');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // Tab functionality
+        const tabs = document.querySelectorAll('.tab');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabId = tab.getAttribute('data-tab');
+                
+                // Remove active class from all tabs and contents
+                tabs.forEach(t => t.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                
+                // Add active class to current tab and content
+                tab.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+                
+                // Save active tab in localStorage
+                localStorage.setItem('activeTab', tabId);
+            });
+        });
+        
+        // Restore active tab from localStorage
+        const savedTab = localStorage.getItem('activeTab');
+        if (savedTab) {
+            tabs.forEach(tab => {
+                if (tab.getAttribute('data-tab') === savedTab) {
+                    tab.click();
+                }
+            });
+        }
+
+        // Table sorting functionality
+        document.querySelectorAll('th').forEach(headerCell => {
+            headerCell.addEventListener('click', () => {
+                const table = headerCell.closest('table');
+                const headerIndex = Array.prototype.indexOf.call(headerCell.parentElement.children, headerCell);
+                const currentIsAscending = headerCell.classList.contains('sort-asc');
+                
+                // Remove sort indicators from all headers
+                table.querySelectorAll('th').forEach(th => {
+                    th.classList.remove('sort-asc', 'sort-desc');
+                });
+                
+                // Set new sort indicator
+                headerCell.classList.toggle('sort-desc', currentIsAscending);
+                headerCell.classList.toggle('sort-asc', !currentIsAscending);
+                
+                // Get tbody and rows
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                
+                // Sort rows
+                const sortedRows = rows.sort((a, b) => {
+                    const aValue = getCellValue(a, headerIndex);
+                    const bValue = getCellValue(b, headerIndex);
+                    
+                    return (currentIsAscending ? bValue.localeCompare(aValue, undefined, {numeric: true})
+                                             : aValue.localeCompare(bValue, undefined, {numeric: true}));
+                });
+                
+                // Append sorted rows
+                tbody.append(...sortedRows);
+            });
+        });
+        
+        function getCellValue(row, index) {
+            // Get cell at index
+            const cell = row.querySelector(`td:nth-child(${index + 1})`);
+            
+            // Extract number from cell for karma or rank columns
+            if (cell.classList.contains('karma') || cell.classList.contains('rank')) {
+                const valueEl = cell.querySelector('.karma') || cell.querySelector('.rank');
+                return valueEl ? valueEl.textContent : cell.textContent;
+            }
+            
+            // Extract anime name for anime column
+            if (index === 1) {
+                const nameEl = cell.querySelector('.anime-name');
+                return nameEl ? nameEl.textContent : cell.textContent;
+            }
+            
+            // Default behavior
+            return cell.textContent.trim();
+        }
+
+        // Function to fetch and update data from JSON (to be implemented)
+        async function fetchData() {
+            try {
+                // This would be replaced with actual fetch to your JSON endpoint
+                // const response = await fetch('/static/data/karma.json');
+                // const data = await response.json();
+                
+                // For now, we'll use placeholder data
+                // updateTables(data);
+                
+                // Update timestamp
+                const now = new Date();
+                const timeString = now.toLocaleDateString('en-US', {
+                    month: 'short', 
+                    day: 'numeric', 
+                    year: 'numeric', 
+                    hour: 'numeric', 
+                    minute: '2-digit'
+                });
+                
+                document.getElementById('current-update-time').textContent = timeString;
+                document.getElementById('weekly-update-time').textContent = timeString;
+                document.getElementById('season-update-time').textContent = timeString;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                // Show error state
+            }
+        }
+
+        // Function to update tables with data (to be implemented)
+        function updateTables(data) {
+            // Clear existing data
+            document.getElementById('current-discussions-table').innerHTML = '';
+            document.getElementById('weekly-ranking-table').innerHTML = '';
+            document.getElementById('season-averages-table').innerHTML = '';
+            
+            // Populate tables with new data
+            // ...
+        }
+
+        // Season select functionality
+        document.getElementById('season-select').addEventListener('change', (e) => {
+            const season = e.target.value;
+            // Logic to change data based on selected season
+            // fetchData(season);
+            
+            // Save selected season in localStorage
+            localStorage.setItem('selectedSeason', season);
+        });
+        
+        // Restore selected season from localStorage
+        const savedSeason = localStorage.getItem('selectedSeason');
+        if (savedSeason) {
+            document.getElementById('season-select').value = savedSeason;
+        }
+        
+        // Initial data fetch
+        fetchData();
+        
+        // Set up auto-refresh every 15 minutes (900000 ms)
+        setInterval(fetchData, 900000);
+    </script>
+</body>
+</html>

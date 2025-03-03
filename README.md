@@ -29,7 +29,6 @@ This project was created to automate the tracking and ranking of anime discussio
 
 - **Data Persistence:**  
   - MongoDB is used to store detailed post information and hourly progression data.
-  - SQLite database support for alternative storage via `src/database.py`.
 
 - **Extensive Logging & Error Handling:**  
   Robust logging configured across different modules for easier debugging and historical analysis.
