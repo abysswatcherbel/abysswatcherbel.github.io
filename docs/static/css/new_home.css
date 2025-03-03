@@ -66,6 +66,13 @@ header {
     align-items: center;
 }
 
+.header-container nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -93,6 +100,16 @@ header {
 
 .theme-toggle:hover {
     color: var(--primary);
+}
+
+.current-chart-link{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #ff4500;
+    color: white;
 }
 
 .season-select {
@@ -259,13 +276,22 @@ tbody tr:hover {
 }
 
 .karma-change {
-    font-size: 0.85rem;
-    padding-left: 0.25rem;
+    font-size: 0.75rem;
+    padding-left: 0.20rem;
 }
 
 .karma-change.positive {
     color: #4caf50;
 }
+
+.karma-change.positive::before {
+    content: "+";
+}
+
+.karma-change.negative::before {
+    content: "-";
+}
+
 
 .karma-change.negative {
     color: #f44336;
@@ -310,8 +336,8 @@ tbody tr:hover {
 }
 
 .rank-change {
-    font-size: 0.85rem;
-    padding-left: 0.25rem;
+    font-size: 0.75rem;
+    padding-left: 0.20rem;
 }
 
 .rank-change.up {
@@ -320,6 +346,14 @@ tbody tr:hover {
 
 .rank-change.down {
     color: #f44336;
+}
+
+.rank-change.up::before {
+    content: "+";
+}
+
+.rank-change.down::before {
+    content: "-";
 }
 
 .rank-change.same {

@@ -7,7 +7,7 @@ import time
 import pandas as pd
 from datetime import datetime, timezone
 import os
-import pandas as pd
+
 
 
 def get_week_id(schedule_type: str = "episodes", post_time: datetime = None):
@@ -400,6 +400,7 @@ def get_season_averages(season: str, year: int):
                 "average_comments": {"$avg": "$reddit_karma.comments"},
                 "max_karma": {"$max": "$reddit_karma.karma"},
                 "min_karma": {"$min": "$reddit_karma.karma"},
+                "total_episodes": {"$size": "$reddit_karma"}
             }
         },
     ]

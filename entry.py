@@ -25,58 +25,58 @@ app.config["FREEZER_DESTINATION"] = "docs"  # GitHub Pages default folder
 freezer = Freezer(app)
 
 
-@app.route("/")
-def current_week():
-    """
-    Render the current week's anime karma rankings.
+# @app.route("/")
+# def current_week():
+#     """
+#     Render the current week's anime karma rankings.
 
-    Retrieves and processes the current week's anime discussion posts and their karma scores.
-    Includes weekly changes, airing details, and season averages.
+#     Retrieves and processes the current week's anime discussion posts and their karma scores.
+#     Includes weekly changes, airing details, and season averages.
 
-    Returns:
-        rendered template: The current_week.html template with context containing:
-            - current_shows: List of shows with their karma data
-            - current_week_id: Identifier for the current week
-            - airing_details: Information about the current airing period
-            - average_shows: Season-wide averages for shows
-            - active_discussions: Currently active discussion posts on r/anime (under the 48 hours rule)
-    """
-    # Calculate current week_id
-    current_time = datetime.now(timezone.utc)
-    current_week_id = get_week_id("post", current_time)
+#     Returns:
+#         rendered template: The current_week.html template with context containing:
+#             - current_shows: List of shows with their karma data
+#             - current_week_id: Identifier for the current week
+#             - airing_details: Information about the current airing period
+#             - average_shows: Season-wide averages for shows
+#             - active_discussions: Currently active discussion posts on r/anime (under the 48 hours rule)
+#     """
+#     # Calculate current week_id
+#     current_time = datetime.now(timezone.utc)
+#     current_week_id = get_week_id("post", current_time)
 
-    # Connect to MongoDB
-    client = MongoClient(os.getenv("MONGO_URI"))
-    collection = client.anime.hourly_data
+#     # Connect to MongoDB
+#     client = MongoClient(os.getenv("MONGO_URI"))
+#     collection = client.anime.hourly_data
 
-    current_shows = get_weekly_change()
-    airing_details = get_airing_period()
-    season_averages = get_season_averages(
-        season=airing_details["season"], year=current_time.year
-    )
-    available_seasons = get_available_seasons()
-    active_discussions = get_active_posts()
-    progression_data = list(
-        collection.find(
-            {"week_id": airing_details["week_id"]},
-            {"_id": 0, "mal_id": 1, "progression": 1},
-        )
-    )
+#     current_shows = get_weekly_change()
+#     airing_details = get_airing_period()
+#     season_averages = get_season_averages(
+#         season=airing_details["season"], year=current_time.year
+#     )
+#     available_seasons = get_available_seasons()
+#     active_discussions = get_active_posts()
+#     progression_data = list(
+#         collection.find(
+#             {"week_id": airing_details["week_id"]},
+#             {"_id": 0, "mal_id": 1, "progression": 1},
+#         )
+#     )
 
-    with open(os.getenv("JSON_PATH"), "w") as f:
-        json.dump(progression_data, f)
+#     with open(os.getenv("JSON_PATH"), "w") as f:
+#         json.dump(progression_data, f)
 
-    client.close()
-    print(f"Available seasons: {available_seasons}")  # Debug print
-    return render_template(
-        "current_week.html",
-        current_shows=current_shows,
-        current_week_id=current_week_id,
-        airing_details=airing_details,
-        average_shows=season_averages,
-        active_discussions=active_discussions,
-        available_seasons=available_seasons,
-    )
+#     client.close()
+#     print(f"Available seasons: {available_seasons}")  # Debug print
+#     return render_template(
+#         "current_week.html",
+#         current_shows=current_shows,
+#         current_week_id=current_week_id,
+#         airing_details=airing_details,
+#         average_shows=season_averages,
+#         active_discussions=active_discussions,
+#         available_seasons=available_seasons,
+#     )
 
 
 @app.route("/current_chart.html", endpoint="current_chart")
@@ -139,7 +139,7 @@ def show_week(year, season, week):
     print(f"Looking for template at: {template_path}")  # Debug print
     return render_template(template_path)
 
-@app.route("/new_home.html", endpoint="new_home")
+@app.route("/", endpoint="new_home")
 def current_week():
     """
     Render the current week's anime karma rankings.
