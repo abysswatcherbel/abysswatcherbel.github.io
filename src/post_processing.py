@@ -748,9 +748,7 @@ def get_active_posts(
                                 "week_id": week_id,
                                 "episode": episode,
                                 "url": submission.url,
-                                "updated_at": current_time.strftime(
-                                    "%Y-%m-%d %H:%M:%S"
-                                ),
+                               
                             },
                             {
                                 "$set": {
