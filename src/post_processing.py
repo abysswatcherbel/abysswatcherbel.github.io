@@ -27,7 +27,7 @@ This module serves as the core processor for Reddit discussion posts, particular
    - Integrates robust error handling, with detailed logging of failures and warnings during post fetching, scheduling, and processing.
    - Ensures that the system continues to operate smoothly even in cases of intermittent failures by logging issues and proceeding with available data.
 
-Overall, post_processing.py is integral to the application’s functionality by automating the retrieval, scheduling, and processing of Reddit posts. It bridges multiple subsystems, including logging, scheduling, the Reddit API, and MongoDB, to create a scalable and maintainable pipeline for real-time post analysis.
+Overall, post_processing.py is integral to the application's functionality by automating the retrieval, scheduling, and processing of Reddit posts. It bridges multiple subsystems, including logging, scheduling, the Reddit API, and MongoDB, to create a scalable and maintainable pipeline for real-time post analysis.
 """
 
 from praw import Reddit
@@ -41,12 +41,9 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.jobstores.base import ConflictingIdError
 from apscheduler.triggers.date import DateTrigger
 from apscheduler.jobstores.mongodb import MongoDBJobStore
-import logging
-from logging.handlers import SysLogHandler
 from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
 from pytz import utc
 from zoneinfo import ZoneInfo
-from logging.handlers import TimedRotatingFileHandler
 from calendar import month_name
 from dotenv import load_dotenv
 from src.rank_processing import (
@@ -58,7 +55,7 @@ from src.rank_processing import (
 from loguru import logger
 import sys
 
-logger.remove()
+
 load_dotenv()
 CURRENT_SEASON = get_season_name(datetime.now(tz=utc).month)
 CURRENT_YEAR = datetime.now(tz=utc).year
@@ -67,6 +64,8 @@ CURRENT_MAIN_COLLECTION = f"{CURRENT_YEAR}_{CURRENT_SEASON}"
 # Declare a global variable for the scheduler instance
 scheduler_instance = None
 
+# Remove default logger
+logger.remove()
 
 def setup_logging(logger_name: str):
     """
@@ -104,6 +103,7 @@ def setup_logging(logger_name: str):
         level=log_level,
         filter=lambda record: record["extra"].get("name") == logger_name,
         enqueue=True,  # Thread-safe logging
+        colorize=True
     )
     
     # Add stdout handler (visible in systemd)
@@ -113,24 +113,25 @@ def setup_logging(logger_name: str):
         level=log_level,
         filter=lambda record: record["extra"].get("name") == logger_name,
         enqueue=True,
+        colorize=True
     )
     
-    # Add syslog handler
-    logger.add(
-        "/dev/log",
-        format="{message}",  # Simplified format for syslog
-        level=log_level,
-        filter=lambda record: record["extra"].get("name") == logger_name,
-        backtrace=True,
-        diagnose=True,
-    )
+    # # Add syslog handler
+    # logger.add(
+    #     "/dev/log",
+    #     format="{message}",  # Simplified format for syslog
+    #     level=log_level,
+    #     filter=lambda record: record["extra"].get("name") == logger_name,
+    #     backtrace=True,
+    #     diagnose=True,
+    # )
     
     # Log initialization message
     logger_instance = logger.bind(name=logger_name)
     logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
     
     return logger_instance
-    
+
 
 def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"):
     """
@@ -146,17 +147,16 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
     Returns:
         BackgroundScheduler: A scheduler instance configured with MongoDB job store
     """
-
     # Get logger for scheduler
     log = setup_logging("scheduler")
-
+    
     client = MongoClient(mongo_uri)
     jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}
     executors = {
-        "default": ThreadPoolExecutor(5),
-        "processpool": ProcessPoolExecutor(2),
+        "default": ThreadPoolExecutor(10),
+        "processpool": ProcessPoolExecutor(3),
     }
-    job_defaults = {"coalesce": False, "max_instances": 2}
+    job_defaults = {"coalesce": False, "max_instances": 3}
     scheduler = BackgroundScheduler(
         jobstores=jobstores,
         executors=executors,
@@ -164,7 +164,6 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
         job_defaults=job_defaults,
     )
     scheduler.start()
-    log.info("Scheduler Started")
 
     # Set the global scheduler_instance so that it can be accessed later
     global scheduler_instance
@@ -186,6 +185,8 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
             name="Daily update",
             id="daily_update",
         )
+    
+    log.info("Scheduler setup completed")
     return scheduler
 
 
@@ -214,11 +215,15 @@ def setup_reddit_instance(
         >>> print(reddit.user.me())
         <Redditor u/AutoLovepon>
     """
+    log = setup_logging("reddit")
+    
     reddit = Reddit(
         client_id=reddit_id,
         client_secret=reddit_secret,
         user_agent=reddit_username,
     )
+    
+    log.info("Reddit instance initialized")
     return reddit
 
 
@@ -244,18 +249,15 @@ def update_scheduler(reddit: Reddit):
         >>> update_scheduler(reddit)
         # Fetches new posts and schedules them for processing
     """
-    # Get the logger instance for 'close_post'
-    logger = logging.getLogger("scheduler")
-    # Only set up logging if the logger doesn't already have handlers
-    if not logger.handlers:
-        logger = setup_logging("scheduler")
-    logger.info("Updating scheduler...")
+    log = setup_logging("scheduler")
+    log.info("Updating scheduler...")
+    
     try:
         new_posts = fetch_recent_posts(reddit=reddit)
         # Use the global scheduler_instance here
         schedule_post_processing(new_posts, reddit, scheduler_instance)
     except Exception as e:
-        logger.error(f"Error updating scheduler: {e}", exc_info=True)
+        log.error(f"Error updating scheduler: {e}", exc_info=True)
 
 
 def schedule_post_processing(
@@ -283,11 +285,7 @@ def schedule_post_processing(
         ConflictingIdError: If a job with the same ID already exists
         Exception: For any other errors during job scheduling
     """
-    # Get the logger instance for 'close_post'
-    logger = logging.getLogger("scheduler")
-    # Only set up logging if the logger doesn't already have handlers
-    if not logger.handlers:
-        logger = setup_logging("scheduler")
+    log = setup_logging("scheduler")
 
     for post in posts:
         trigger = DateTrigger(run_date=post["closing_at"])
@@ -305,11 +303,11 @@ def schedule_post_processing(
                 timezone="utc",
                 name=job_name,
             )
-            logger.info(f"Job scheduled for post: {post['id']}")
+            log.info(f"Job scheduled for post: {post['id']}")
         except ConflictingIdError:
-            logger.warning("Conflicting ID error")
+            log.warning(f"Conflicting ID error for job: {job_id}")
         except Exception as e:
-            logger.error(f"Error scheduling job: {e}", exc_info=True)
+            log.error(f"Error scheduling job: {e}", exc_info=True)
 
 
 def process_post(post, reddit):
@@ -335,21 +333,19 @@ def process_post(post, reddit):
     Raises:
         Exception: Any unexpected errors during post processing are caught and logged
     """
-    logger = logging.getLogger("process_post")
-    # Only set up logging if the logger doesn't already have handlers
-    if not logger.handlers:
-        logger = setup_logging("process_post")
+    log = setup_logging("process_post")
+    
     try:
         post_details = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
         if not post_details:
-            logger.warning(f"Post {post['id']} is not available")
+            log.warning(f"Post {post['id']} is not available")
             return
         insert_mongo(post_details)
-        logger.info(f"Successfully processed and inserted post: {post['id']}")
+        log.info(f"Successfully processed and inserted post: {post['id']}")
     except Exception as e:
-        logger.error(f"Error processing post {post['id']}: {e}")
+        log.error(f"Error processing post {post['id']}: {e}")
 
 
 def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc):
@@ -388,6 +384,9 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
         "Kusuriya no Hitorigoto • The Apothecary Diaries - Episode 3 discussion" 2024-04-27 15:30:00+00:00
         "Another Anime Discussion Topic" 2024-04-28 12:45:00+00:00
     """
+    log = setup_logging("fetch_posts")
+    log.info(f"Fetching recent posts from user: {username}")
+    
     user = reddit.redditor(username)
     posts = []
     two_days_ago = datetime.now(tz=default_tz) - timedelta(hours=48)
@@ -405,6 +404,8 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
                     "season": get_season(created_time.month),
                 }
             )
+    
+    log.info(f"Found {len(posts)} posts within the last 48 hours")
     return posts
 
 
@@ -431,31 +432,28 @@ def check_post_status(submission: Submission, post_id: str) -> bool:
         >>> check_post_status(submission, 'abc123')
         True
     """
+    log = setup_logging("check_post_status")
 
-    logger = logging.getLogger("check_post_status")
-    if not logger.handlers:
-        logger = setup_logging("check_post_status")
     try:
-
         if submission.removed_by_category:
-            logger.warning(
+            log.warning(
                 f"Post {post_id} was removed by moderators: {submission.removed_by_category}"
             )
-            return
+            return False
         elif submission.selftext == "[deleted]":
-            logger.warning(f"Post {post_id} was deleted by the user.")
-            return
+            log.warning(f"Post {post_id} was deleted by the user.")
+            return False
         elif submission.selftext == "[removed]":
-            logger.warning(f"Post {post_id} was removed by moderators.")
-            return
+            log.warning(f"Post {post_id} was removed by moderators.")
+            return False
         elif submission.hidden:
-            logger.warning(f"Post {post_id} is hidden by the user.")
-            return
+            log.warning(f"Post {post_id} is hidden by the user.")
+            return False
         else:
-            logger.info(f"Post {post_id} is still available.")
+            log.info(f"Post {post_id} is still available.")
             return True
     except Exception as e:
-        logger.error(f"Error fetching post: {e}")
+        log.error(f"Error fetching post: {e}")
         return False
 
 
@@ -488,14 +486,12 @@ def close_post(post_id, reddit: Reddit, week_id: int):
         No explicit exceptions, but logs any errors encountered during processing
     """
     post = Submission(reddit=reddit, id=post_id)
-    # Get the logger instance for 'close_post'
-    logger = logging.getLogger("close_post")
-    # Only set up logging if the logger doesn't already have handlers
-    if not logger.handlers:
-        logger = setup_logging("close_post")
+    log = setup_logging("close_post")
+    
     post_available = check_post_status(post, post_id)
     if not post_available:
         return {}
+    
     title_details, episode = get_title_details(post.title)
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
@@ -513,7 +509,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
     mal_doc = col.find_one(query, {"mal_id": 1})
     mal_id = mal_doc["mal_id"] if mal_doc else None
 
-    logger.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
+    log.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
 
     return {
         "mal_id": mal_id,
@@ -561,10 +557,7 @@ def insert_mongo(
     Returns:
         None
     """
-    # Get the logger instance for 'insert_mongo'
-    logger = logging.getLogger("insert_mongo")
-    if not logger.handlers:
-        logger = setup_logging("insert_mongo")
+    log = setup_logging("insert_mongo")
 
     # Get the database and collection
     db = client.anime
@@ -587,7 +580,7 @@ def insert_mongo(
         "url": post_details["url"],
     }
 
-    logger.info(f"Inserting data into MongoDB for MAL ID: {mal_id}\n{episode_data}")
+    log.info(f"Inserting data into MongoDB for MAL ID: {mal_id}\n{episode_data}")
 
     if mal_id:
         query = {"mal_id": mal_id}
@@ -602,13 +595,13 @@ def insert_mongo(
     if col.find_one(query):
         update_result = col.update_one(query, {"$push": {"reddit_karma": episode_data}})
         if update_result.upserted_id:
-            logger.info(f"Created new document: {update_result.upserted_id}")
+            log.info(f"Created new document: {update_result.upserted_id}")
         else:
-            logger.info("Added entry to existing document")
+            log.info("Added entry to existing document")
     else:
         col = db.new_entries
         insert_result = col.insert_one(episode_data)
-        logger.info(
+        log.info(
             f"Created new document: for the post {reddit_id} MAL ID: {mal_id} with the ID: {insert_result.inserted_id}"
         )
 
@@ -657,6 +650,8 @@ def get_title_details(title: str):
             ""
         )
     """
+
+    
     romaji_english_pattern = re.compile(
         r"(.*?)(?: • (.*?))? - Episode (\d+) discussion"
     )
@@ -682,6 +677,8 @@ def get_title_details(title: str):
         "english": english,
         "original_post": title,
     }
+    
+   
     return title_details, episode
 
 
@@ -712,11 +709,8 @@ def get_active_posts(
         This function filters for submissions made within the past 48 hours,
         ensuring only those posts in the active discussion period are returned.
     """
-    # Get the logger instance for 'close_post'
-    logger = logging.getLogger("hourly_data")
-    # Only set up logging if the logger doesn't already have handlers
-    if not logger.handlers:
-        logger = setup_logging("hourly_data")
+    log = setup_logging("hourly_data")
+    
 
     user = reddit.redditor(username)
     client = MongoClient(os.getenv("MONGO_URI"))
@@ -805,13 +799,13 @@ def get_active_posts(
                             upsert=True,
                         )
                     else:
-                        logger.warning(f"No post details found for MAL ID: {mal_id}")
+                        log.warning(f"No post details found for MAL ID: {mal_id}")
                         continue
                 except ValueError:
-                    logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
+                    log.error(f"Error updating hourly data for MAL ID: {mal_id}")
                     continue
             else:
-                logger.error(f"No MAL ID found for post: {submission.id}")
+                log.error(f"No MAL ID found for post: {submission.id}")
                 continue
     client.close()
     return posts
@@ -856,7 +850,3 @@ def main():
     except KeyboardInterrupt:
         print("Shutting down scheduler...")
         scheduler.shutdown()
-
-
-if __name__ == "__main__":
-    main()
