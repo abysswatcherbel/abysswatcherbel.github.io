@@ -261,6 +261,7 @@ def fetch_mal_score(
         mal_ids = [mal_ids]
     for mal_id in mal_ids:
         try:
+            print(f'Getting mal_details for id: {mal_id}')
             endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
 
             response = requests.get(url=endpoint, headers=headers)
@@ -437,6 +438,7 @@ def update_mal_numbers(week_id: int):
 
     mal_ids = list(collection.aggregate(pipeline))
     mal_ids = [entry["mal_id"] for entry in mal_ids]
+    print(f'Getting MAL data from {mal_ids}')
     client.close()
     fetch_mal_score(mal_ids)
 
