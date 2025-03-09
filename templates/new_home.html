@@ -20,8 +20,13 @@
             <a class="action-link current-chart-link" href="{{ url_for('current_chart') }}">Current Chart</a>
             <div class="controls">
                 <select class="season-select" id="season-select">
-                    <option value="winter_2025" selected>Winter 2025</option>
-                    <option value="fall_2024">Fall 2024</option>
+                    {% for year, seasons in available_seasons.items()|reverse %}
+                        {% for season, weeks in seasons.items()|reverse %}
+                            <option value="{{ season }}_{{ year }}" {% if year == current_year and season == current_season %}selected{% endif %}>
+                                {{ season|capitalize }} {{ year }}
+                            </option>
+                        {% endfor %}
+                    {% endfor %}
                 </select>
                 <button class="theme-toggle" id="theme-toggle">
                     <i class="fa-solid fa-moon"></i>
