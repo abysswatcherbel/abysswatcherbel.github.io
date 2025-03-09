@@ -1,5 +1,6 @@
 .env
 /src/logs/*
+logs
 /*/__pycache__
 *.pyc
 *.pyo
