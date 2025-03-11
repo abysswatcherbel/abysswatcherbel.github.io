@@ -148,5 +148,7 @@ if __name__ == "__main__":
         # Update MAL Scores
         week_id = get_week_id("post")
         update_mal_numbers(week_id)
+    elif "run" in sys.argv:
+        main()
     else:
         app.run(debug=True, use_reloader=False)

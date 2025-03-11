@@ -67,12 +67,13 @@ scheduler_instance = None
 # Remove default logger
 logger.remove()
 
+
 def setup_logging(logger_name: str):
     """
     Sets up logging configuration for the specified component using Loguru.
     
     This function configures Loguru with appropriate handlers and formats for 
-    different outputs (file, stdout, syslog). It creates a directory structure
+    different outputs (file, stdout). It creates a directory structure
     based on the current date and sets up the log file path.
     
     Args:
@@ -81,56 +82,57 @@ def setup_logging(logger_name: str):
     Returns:
         logger: The configured Loguru logger instance.
     """
-    today = datetime.now(tz=utc)
+    # First, remove all existing handlers to prevent duplicate logs
+    logger.remove()
+    
+    # Get the current date for log directory structure
+    today = datetime.now(tz=timezone.utc)
     month = month_name[today.month]
     log_dir = os.path.join(os.getenv('LOGS_PATH', './logs'), f'{today.year}/{month}')
 
+    # Create log directory if it doesn't exist
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, f"{logger_name}.log")
 
-    # Format for all handlers
-    log_format = "<green>{time:HH:MM:SS.SSS}</green> | <level>{level: <8}</level> | <level>{message}</level>"
+    # Format for all handlers - using different format for file vs stdout
+    file_format = "{time:HH:MM:SS.SSS} | {level: <8} | {message}"
+    stdout_format = "<green>{time:HH:MM:SS.SSS}</green> | <level>{level: <8}</level> | <level>{message}</level>"
     
     # Set log level based on logger name
     log_level = "DEBUG" if logger_name == "apscheduler" else "INFO"
     
-    # Add file handler with rotation
+    # Add file handler with rotation - no colorization for files
     logger.add(
         log_file,
         rotation="00:00",  # Rotate at midnight
         retention="7 days",  # Keep logs for 7 days
-        format=log_format,
+        format=file_format,
         level=log_level,
         filter=lambda record: record["extra"].get("name") == logger_name,
         enqueue=True,  # Thread-safe logging
-        colorize=True
+        colorize=False  # No colors in log files
     )
     
     # Add stdout handler (visible in systemd)
     logger.add(
         sys.stdout,
-        format=log_format,
+        format=stdout_format,
         level=log_level,
         filter=lambda record: record["extra"].get("name") == logger_name,
         enqueue=True,
-        colorize=True
+        colorize=True  # Colors only for terminal output
     )
     
-    # # Add syslog handler
-    # logger.add(
-    #     "/dev/log",
-    #     format="{message}",  # Simplified format for syslog
-    #     level=log_level,
-    #     filter=lambda record: record["extra"].get("name") == logger_name,
-    #     backtrace=True,
-    #     diagnose=True,
-    # )
+    # NOTE: Syslog integration is completely removed since /dev/log is not available
+    # If you need syslog in the future, check your system's syslog socket location
+    # Common locations: /dev/log (Linux), /var/run/syslog (macOS), or via TCP socket
     
-    # Log initialization message
+    # Create and return a named logger instance
     logger_instance = logger.bind(name=logger_name)
     logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
     
     return logger_instance
+
 
 
 def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"):
