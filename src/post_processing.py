@@ -123,11 +123,7 @@ def setup_logging(logger_name: str):
         colorize=True  # Colors only for terminal output
     )
     
-    # NOTE: Syslog integration is completely removed since /dev/log is not available
-    # If you need syslog in the future, check your system's syslog socket location
-    # Common locations: /dev/log (Linux), /var/run/syslog (macOS), or via TCP socket
     
-    # Create and return a named logger instance
     logger_instance = logger.bind(name=logger_name)
     logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
     
@@ -164,6 +160,7 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
         executors=executors,
         timezone=utc,
         job_defaults=job_defaults,
+        misfire_grace_time=42600, # 12 hours + 1 minute
     )
     scheduler.start()
 
@@ -304,6 +301,7 @@ def schedule_post_processing(
                 id=job_id,
                 timezone="utc",
                 name=job_name,
+                
             )
             log.info(f"Job scheduled for post: {post['id']}")
         except ConflictingIdError:
