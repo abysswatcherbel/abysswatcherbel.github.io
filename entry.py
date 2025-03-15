@@ -12,7 +12,7 @@ from src.rank_processing import (
     get_season_averages,
     get_week_id,
     get_weekly_change,
-    update_mal_numbers
+    update_mal_numbers,
 )
 from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
@@ -85,6 +85,7 @@ def show_week(year, season, week):
     print(f"Looking for template at: {template_path}")  # Debug print
     return render_template(template_path)
 
+
 @app.route("/", endpoint="new_home")
 def current_week():
     """
@@ -136,8 +137,10 @@ def current_week():
         average_shows=season_averages,
         active_discussions=active_discussions,
         available_seasons=available_seasons,
-        current_time=current_time
+        current_time=current_time,
     )
+
+
 if __name__ == "__main__":
     import sys
 
