@@ -1,0 +1,1310 @@
+<html class="no-js" lang="eng-us"><head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weekly Karma Ranking</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+
+body {
+margin: 0;
+line-height: 1;
+font-family: "Trebuchet Ms", sans-serif;
+}
+.container {color: #fff;width: 865px;height: 1795px;background-color: #18407f;display: flex;flex-direction: column;font-family: Arial, Helvetica, sans-serif;line-height: 1;}
+.snoo {position: absolute;width: 150px;left: 3px;}
+.header {
+margin-left: 397px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+position: relative;
+height: 32px;
+width: 468px;
+}
+.header .airing-period {position: absolute;background-color: #082045;font-size: 12px;font-weight: bold;font-style: italic;padding: 4px 12px;border-radius: 100px;top: 35px;margin-right: 85px;}
+.header .title {
+font-weight: bolder;
+font-size: 24px;
+display: flex;
+flex-direction: column;
+margin: auto 20px auto 0;
+margin-right: 20px;
+font-style: italic;
+line-height: 26px;
+padding: 6px 0;
+}
+
+.main-title{
+font-weight: bolder;
+font-size: 22px;
+display: flex;
+flex-direction: column;
+margin: auto 6px auto -238px;
+font-style: italic;
+line-height: 26px;
+padding: 6px 0;
+}
+
+.week-container {display: flex;flex-direction: column;min-width: 67px;position: relative;height: 57px;}
+.week {
+text-align: center;
+font-weight: bolder;
+font-size: 32px;
+flex-grow: 1;
+display: flex;
+}
+.week.winter {
+background-color: #6ec1df;
+color: #d5fefa;
+}
+.week.fall {
+background-color: #b36a1c;
+color: #80262c;
+}
+.week.summer {
+background-color: #d8c033;
+color: #cf7130;
+}
+.week.spring {
+background-color: #ace781;
+color: #61aa27;
+}
+.week > span {
+margin: auto;
+}
+.season {
+text-align: center;
+font-weight: bolder;
+font-size: 14px;
+text-transform: uppercase;
+padding: 5px;
+}
+.season.winter {
+background-color: #d6fffb;
+color: #70c2df;
+}
+.season.fall {
+background-color: #80262c;
+color: #b36a1c;
+}
+.season.summer {
+color: #d8c033;
+background-color: #cf7130;
+}
+.season.spring {
+color: #ace781;
+background-color: #61aa27;
+}
+.title span {
+align-self: flex-end;
+}
+.legend {width: 49%;margin-left: 158px;height: 30px;display: flex;gap: 3px;}
+.legend > div {margin: auto;display: flex;text-transform: uppercase;font-style: italic;font-size: 7px;font-weight: bold;align-items: center;}
+.legend > div > * {
+margin-top: auto;
+margin-bottom: auto;
+}
+.legend .icon {
+
+margin-right: 5px;
+font-style: normal;
+height: 15px;
+width: 15px;
+display: flex;
+}
+.legend .icon > span {
+margin: auto;
+font-size: 12px;
+}
+body > div > div.legend > div:nth-child(5) > div{
+background-color: #ffffffff;
+margin-right: 5px;
+font-style: normal;
+width: 15px;
+height: 15px;
+display: flex;
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.container > .divider {
+width: 100%;
+height: 25px;
+background-color: #082045;
+display: flex;
+}
+.container > .divider .contents {
+margin-left: auto;
+display: flex;
+}
+.container > .divider .total-karma {
+height: 100%;
+width: 130px;
+background-color: #18407f;
+display: flex;
+align-items: center;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
+}
+.container > .divider .total-karma .text-container > span {
+color: #6ec1df;
+margin-top: auto;
+margin-bottom: auto;
+}
+.container > .divider .total-karma .text-container {
+margin-top: -2px;
+}
+.container > .divider .pill {
+margin: auto auto;
+
+font-size: 10px;
+font-style: italic;
+   font-weight: bold;
+
+   border-radius: 100px;
+   margin-right: 15px;
+   padding: 4.5px;
+}
+.episode-container {
+background-color: #335993;
+}
+.row {margin-top: -1px;height: 105.6px;display: flex;flex-direction: row;}
+.episode-container > .divider {
+height: 10px;
+width: 770px;
+background-color: #082045;
+position: relative;
+clip-path: polygon(0% 0%, 75% 0%, 77% 50%, 75% 100%, 0% 100%);
+box-shadow: inset 0px 8px 15px -4px black;
+}
+.episode-container > .divider:last-of-type {width: 100%;clip-path: none;height: 10px;}
+.karma-entry {
+display: flex;
+height: 100%;
+}
+.karma-entry .ranking {
+width: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto 0;
+}
+.karma-entry .ranking .rank {
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 3px;
+}
+.karma-entry .ranking .rank-change {
+font-weight: bold;
+font-size: 20px;
+}
+.karma-entry .ranking .rank-change.new-entry {
+line-height: 0.7;
+font-size: 25px;
+}
+.karma-entry .ranking .rank-change svg.arrow {
+width: 15px;
+margin-right: 2px;
+}
+.karma-entry .details {
+width: 390px;
+display: flex;
+flex-direction: row;
+padding: 0px 5px;
+background-size: cover;
+background-position: center;
+height: 100%;
+position: relative;
+}
+.karma-entry .details:after {
+content: '';
+position: absolute;
+top: 0px;
+left: 0px;
+bottom: 0;
+right: 0;
+background: radial-gradient(circle, rgba(0,0,0,0.0760679271708683) 77%, rgba(0,0,0,1) 100%);
+}
+.karma-entry .details > * {
+z-index: 1;
+}
+.karma-entry .details .part-1 {
+margin: 2px 0;
+display: flex;
+flex-direction: column;
+}
+.karma-entry .details .part-1 .karma-change {
+display: flex;
+position: relative;
+font-weight: bold;
+font-style: italic;
+font-size: 14px;
+line-height: 1;
+text-shadow: 0.75px 0 0.8px black, 0 0.75px 0.8px black, -0.75px 0 0.8px black, 0 -0.75px 0.8px black;
+}
+.karma-entry .details .part-1 .karma-change .caret {
+margin-right: 5px;
+}
+.karma-entry .details .part-2 .title {max-height: 40px;text-align: end;margin-left: auto;text-transform: uppercase;font-style: italic;line-height: 1;font-size: 15px;font-weight: bold;text-shadow: 0.75px 0 0.8px black, 0 0.75px 0.8px black, -0.75px 0 0.8px black, 0 -0.75px 0.8px black;}
+.karma-entry .details .part-2 .title > span {
+padding: 1px;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.karma-entry .details .part-2 {
+margin: 0 0 2px auto;
+display: flex;
+flex-direction: column;
+margin-left: auto;
+}
+.karma-entry .details .part-1 .karma {font-style: italic;font-weight: bold;font-size: 44px;margin-right: auto;line-height: 1;margin-top: auto;margin-bottom: -5px;text-shadow: 0.75px 0 0.8px black, 0 0.75px 0.8px black, -0.75px 0 0.8px black, 0 -0.75px 0.8px black;}
+.karma-entry .details .part-2 .pod-container {
+margin-top: auto;
+margin-left: auto;
+margin-bottom: 3px;
+}
+.karma-entry .details .part-2 .episode-number {
+margin-right: 5px;
+}
+.karma-entry .details .part-2 .episode-number,
+.karma-entry .details .part-2 .poll-score {
+margin-top: auto;
+border-radius: 100px;
+font-size: 12px;
+font-weight: bold;
+padding: 1px 6px;
+background-color: rgba(25, 36, 45, 1);
+line-height: 1;
+}
+.karma-entry .details .part-2 .poll-score {
+    background-color: white;
+    color: #335993;
+}
+.karma-entry .details-2 {
+display: flex;
+width: 115px;
+}
+.karma-entry .details-2 > * {
+margin-top: auto;
+margin-bottom: auto;
+}
+.karma-entry .details-2 .comments {background-color: #fff;width: 40px;height: 30px;color: #335993;font-size: 11px;font-weight: bold;margin-left: 7px;margin-right: 9px;clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);display: flex;flex-direction: column;}
+.karma-entry .details-2 .comments-wrapper {
+filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+.karma-entry .details-2 .comments span {
+margin: auto;
+}
+.karma-entry .details-2 .mal-ratings {display: flex;flex-direction: column;gap: 7px;align-items: flex-start;}
+.karma-entry .details-2 .mal-ratings > span {background-color: rgba(25, 36, 45, 0.9);border-radius: 100px;font-size: 13px;padding: 2.5px 6px;font-weight: bolder;}
+.poll-entry {align-items: flex-end;width: 300px;margin-left: auto;display: flex;height: 105.6px;background-color: #082045;position: relative;clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);box-shadow: inset 0px 8px 15px -4px black;}
+.poll-entry > div {
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 15px;
+}
+.poll-entry .score-container {display: flex;flex-direction: column;margin: auto -6px auto 36px;}
+.poll-entry .score-container .score {
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+}
+.poll-entry .score-container .rank-change {
+margin-top: 5px;
+margin-left: auto;
+font-size: 12px;
+font-weight: bold;
+}
+.poll-entry .score-container .rank-change.new-entry {
+line-height: 0.7;
+font-size: 25px;
+}
+.poll-entry .score-container .rank-change svg.arrow {
+width: 10px;
+margin-right: 2px;
+}
+.poll-entry .details {
+max-width: 100px;
+display: flex;
+flex-direction: column;
+margin: auto 6px;
+}
+.poll-entry .image {width: 100.6px;height: 100.6px;border-radius: 100px;background-size: cover;margin-right: 2px;}
+.poll-entry .details .title {
+max-height: 40px;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+font-size: 11px;
+font-style: italic;
+text-transform: uppercase;
+}
+.poll-entry .bottom-bar {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width: 92px;
+
+}
+.poll-entry .bottom-bar > span {
+margin-top: 4px;
+border-radius: 100px;
+font-size: 11px;
+font-weight: bold;
+padding: 2px 5px;
+background-color: #061936;
+line-height: 1;
+}
+.poll-entry > .details > .bottom-bar > span.votes{
+background-color: #ffffff;
+color: #335993;
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+border-radius: 0px;
+top: 1.5px;
+position: relative;
+font-size: 10px;
+height: 14px;
+}
+.poll-entry .bottom-bar > span:first-of-type {
+margin-right: 0px;
+}
+.poll-entry .rank {
+height: 15px;
+width: 30px;
+background-color: #335993;
+position: absolute;
+bottom: 0;
+right: 0;
+clip-path: polygon(53% 0, 100% 0%, 100% 100%, 0% 100%);
+display: flex;
+}
+.poll-entry .rank span {
+font-size: 9px;
+font-weight: bold;
+margin: auto;
+}
+.neutral {
+color: #fc672b;
+}
+
+span[class="rank-change neutral"]
+{
+color: gray
+}
+
+.positive {
+color: #fc672b;
+}
+.negative {
+color: #926cca;
+}
+.poll-blue {
+color: #000;
+}
+.new-entry {
+color: #18b418;
+}
+.caret {
+width: 12px;
+filter: drop-shadow(-0.2px 0.2px 0.5px rgba(0,0,0,0.8));
+}
+.caret-up {
+fill: #fc672b;
+transform: rotate(180deg);
+}
+.caret-down {
+fill: #926cca;
+}
+svg.arrow.positive {
+fill: #fc672b;
+}
+svg.arrow.negative {
+fill: #926cca;
+transform: rotate(180deg);
+}
+#logo_streaming{
+    margin-left: -1px;
+    padding:  2px 2px;
+    font-size: 7px;
+}
+.maxHeight{
+    height: 99.3px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="airing-period">Airing Period: Nov. 10 - Nov. 16</div>
+            <div class="main-title">
+                <span>/r/anime weekly engagement ranking &amp; discussion</span>
+            </div>
+            <div class="week-container">
+                <span class="season fall">fall</span>
+                <div class="week fall"><span>7</span></div>
+            </div>
+        </div>
+        <img class="snoo" src="https://i.imgur.com/uCR75Ns.png">
+        <div class="legend">
+            <div>
+                <div class="icon" style="background-color: transparent; width: unset">
+                    <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>
+                    <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>
+                </div>
+                <span>Karma change</span>
+            </div>
+            <div>
+                <div class="icon" style="color: rgb(252, 103, 43);"><span>M</span></div>
+                <span>Myanimelist score</span>
+            </div>
+            <div>
+                <div class="icon" style="color: rgb(252, 103, 43);"><span>R</span></div>
+                <span>Redditanimelist score</span>
+            </div>
+            <div>
+                <div class="icon" style="color: #4f7dc0"><span>P</span></div>
+                <span>Poll score</span>
+            </div>
+            <div>
+                <div class="icon" style="color: #4f7dc0"><span> </span></div>
+                <span>No. of Comments </span>
+            </div>
+        </div>
+        <div class="divider">
+            <div class="contents">
+                <div class="pill">Chart: animekarmawatch.com</div>
+                <div class="pill">Data: r/anime</div>
+                <div class="pill">Poster art: animekarmalist.com</div>
+                <div class="pill">Design: /u/reddadz</div><div class="pill">Editor: /u/abysswatcherbel</div>
+                <div class="total-karma"><div style="width:32px"></div><div class="text-container"><span>K</span> 30,145</div></div>
+            </div>
+        </div>
+        <div class="episode-container">
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">1</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/qYP0Iwu.png);background-position-y: -260px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>983</span>
+                            <span class="karma">7146</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Frieren</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 10</span>&nbsp;<span class="poll-score" style="
+    display: none;
+"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>2055</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span style="
+">9.09 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-align: center;">Madhouse</span>
+                            
+                        <span style="background: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px;"></div>
+                        <div class="score-container">
+                            <span class="score">468</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/bMSNH1T.png&quot;);"><br></div></div>
+                        <div class="details">
+                            <span class="title">Dead Mount Death Play</span>
+                            <div class="bottom-bar">
+                                <span class="votes">107</span>
+                                <span class="episode-number">18</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>16</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">2</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/iH0WK4G.png);background-position-y: -273px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>184</span>
+                            <span class="karma">6216</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Jujutsu Kaisen Season 2</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 17</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>2444</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>8.88 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 12px; */">MAPPA</span>
+                            
+                        <span style="background: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">440</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>4</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/B6PSH5u.png&quot;);/* background-position: -46px 0px; */"></div></div>
+                        <div class="details">
+                            <span class="title">The Faraway Paladin Season 2</span>
+                            <div class="bottom-bar">
+                                <span class="votes">62</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>17</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">3</span>
+                                <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/Lezymaw.png);background-position: 0px 608px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                            <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>146</span>
+                            <span class="karma">2462</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title" style="
+    font-size: 14px;
+">eminence in shadow season 2</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 7</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>661</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>8.62 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-align: center;">Nexus</span>
+                            
+                        <span style="background: rgb(0, 174, 240);">Hidive</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">434</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/hXFGboZ.jpg&quot;);"></div></div>
+                        <div class="details">
+                            <span class="title">Shield Hero III</span>
+                            <div class="bottom-bar">
+                                <span class="votes">211</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>18</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">4</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/yB5V7Yv.png);background-position: 396px -46px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>148</span>
+                            <span class="karma">2447</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">The Apothecary Diaries</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>571</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>8.68 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 12px; */">Toho/OLM</span>
+                            
+                        <span style="background: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">429</span>
+                                <span class="rank-change negative"><span style="display: initial;"><svg class="arrow negative" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(https://i.imgur.com/1pARrAO.png);background-position: -41px 2px;"></div></div>
+                        <div class="details">
+                            <span class="title">Girlfriend girlfriend season 2</span>
+                            <div class="bottom-bar">
+                                <span class="votes">90</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>19</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">5</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/MHItLN1.png);background-position: 0px -27px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                            <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>84</span>
+                            <span class="karma">2118</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Spy x Family Season 2</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>367</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>8.19 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 12px; */">WIT/CLW</span>
+                            
+                        <span style="font-size: 13px; background: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">422</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(https://i.imgur.com/DcgHlDE.png);background-position: -108px -1px;"></div></div>
+                        <div class="details">
+                            <span class="title">Dark Gathering</span>
+                            <div class="bottom-bar">
+                                <span class="votes">107</span>
+                                <span class="episode-number">19</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(0, 174, 240);">Hidive</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>20</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">6</span>
+                            <span class="rank-change neutral"><span style="display: none;"><svg class="arrow negative" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>—</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/kyo8RWP.png);background-position: -472px -65px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>88</span>
+                            <span class="karma">1998</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">100 girlfriends</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>512</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.89 <span class="neutral">M</span>
+                                </span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;font-size: 12px;">Bibury</span>
+                            
+                        <span style="background: rgb(244, 117, 33); font-size: 13px;">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 48px;"></div>
+                        <div class="score-container">
+                            <span class="score">406</span>
+                                        <span class="rank-change negative"><span style="display: initial;"><svg class="arrow negative" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/4Zkfphn.png&quot;);"></div></div>
+                        <div class="details">
+                            <span class="title">Shy</span>
+                            <div class="bottom-bar">
+                                <span class="votes">77</span>
+                                <span class="episode-number">7</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>21</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">7</span>
+                                <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/d2RfDwI.png);background-position-y: -58px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>180</span>
+                            <span class="karma">1319</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Shangri-la Frontier</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 7</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>345</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>8.01 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);/* font-size: 12px; */text-align: center;">C2C</span>
+                            
+                        <span style="background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">396</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/gXuSVQa.png&quot;);"></div></div>
+                        <div class="details">
+                            <span class="title">The Ancient Magus' Bride Season 2 Part 2</span>
+                            <div class="bottom-bar">
+                                <span class="votes">107</span>
+                                <span class="episode-number">7</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>22</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">8</span>
+                                <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/d9RcoeV.png);background-position: 1px -69px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>151</span>
+                            <span class="karma">1199</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Goblin Slayer II</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>258</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.53 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 12px; */">Lidenfilms</span>
+                            
+                        <span style="background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">359</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>3</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(https://i.imgur.com/d0y9xl1.png);background-position: -39px 2px;"></div></div>
+                        <div class="details">
+                            <span class="title">16bit Sensation: Another Layer</span>
+                            <div class="bottom-bar">
+                                <span class="votes">197</span>
+                                <span class="episode-number">7</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>23</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">9</span>
+                                    <span class="rank-change neutral"><span style="display: none;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>—</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/vV2z4MY.png);background-position: 0px -66px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>93</span>
+                            <span class="karma">1192</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Undead Unluck</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>198</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.94 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 11.5px; */">DavidPro</span>
+                            
+                        <span style="background-color: #3dbb3d;">Hulu</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">342</span>
+                                    <span class="rank-change neutral"><span style="display: none;"><svg class="arrow negative" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>—</span>
+                        </div>
+                        <div><div style="background-image: url(&quot;https://i.imgur.com/TBusfLi.png&quot;);/* background-position: -28px center; */" class="image"></div></div>
+                        <div class="details">
+                            <span class="title">My Daughter Left the Nest and Returned an S-Rank Adventurer</span>
+                            <div class="bottom-bar">
+                                <span class="votes">69</span>
+                                <span class="episode-number">8</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>24</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">10</span>
+                                <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://media.discordapp.net/attachments/1020791457075957771/1175211933406871634/OwJBkTm.png?ex=656a6867&amp;is=6557f367&amp;hm=c56ff0485000743a40b73ac0614e43ac1acb067ffa39a8bb198e1e8e86556be7&amp;=&amp;width=1664&amp;height=936);background-position: -1px -676px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>16</span>
+                            <span class="karma">901</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Dr Stone: New World Part 2</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>171</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>8.40 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 11.5px; */">TMS</span>
+                            
+                        <span style="background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">317</span>
+                                <span class="rank-change neutral"><span style="display: none;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>—</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/ifMYB59.png&quot;);"><br></div></div>
+                        <div class="details">
+                            <span class="title">Arknights: Perish in Frost</span>
+                            <div class="bottom-bar">
+                                <span class="votes">90</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>25</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">11</span>
+                                    <span class="rank-change neutral"><span style="display: none;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>—</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/cW31r6t.png);background-position: 0px -235px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>134</span>
+                            <span class="karma">753</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Helck</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 19</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>180</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.13 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 11.5px; */">Satelight</span>
+                            
+                        <span style="background-color: rgb(0, 174, 240);">Hidive</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">313</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/LpjarsS.png&quot;);/* background-position: -56px center; */"></div></div>
+                        <div class="details">
+                            <span class="title">The experienced you and the inexperienced me</span>
+                            <div class="bottom-bar">
+                                <span class="votes">133</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>26</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">12</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/pX1Amx7.png);background-position-y: -21px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>15</span>
+                            <span class="karma">711</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">I am in love with the villainess</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 7</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>124</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.40 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 11.5px; */">PlatinumV.</span>
+                            
+                        <span style="background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">302</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(https://i.imgur.com/eGpnjzH.png);"></div></div>
+                        <div class="details">
+                            <span class="title">Hoshikuzu Telepath</span>
+                            <div class="bottom-bar">
+                                <span class="votes">92</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>27</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">13</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/FHvYutf.png);background-position: -15px -81px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                            <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>48</span>
+                            <span class="karma">639</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Tearmoon Empire</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>213</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.42 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 12px; */">SilverLink</span>
+                            
+                        <span style="background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">271</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>4</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.pinimg.com/originals/82/20/5c/82205c0b10d919b358e187f04037b2a3.png&quot;);"></div></div>
+                        <div class="details">
+                            <span class="title">The Saint's Magic Power is Omnipotent Season 2</span>
+                            <div class="bottom-bar">
+                                <span class="votes">170</span>
+                                <span class="episode-number">3</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>28</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">14</span>
+                                    <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>2</span>
+                    </div>
+                    <div class="details" style="background-image: url(https://i.imgur.com/N2gPlAr.png);background-position: 0px -46px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>13</span>
+                            <span class="karma">532</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Ragna Crimson</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 7</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div>
+                    <div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>165</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.52 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;/* font-size: 9px; */">SilverLink</span>
+                            
+                        <span style="background-color: rgb(0, 174, 240);">Hidive</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">245</span>
+                                        <span class="rank-change positive"><span style="display: initial;"><svg class="arrow positive" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>5</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://i.imgur.com/gAhx17g.png&quot;);"></div>
+</div>
+                        <div class="details">
+                            <span class="title">A Returner's Magic Should Be Special</span>
+                            <div class="bottom-bar">
+                                <span class="votes">58</span>
+                                <span class="episode-number">6</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>29</span>
+                        </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="karma-entry">
+                    <div class="ranking">
+                        <span class="rank">15</span>
+                            <span class="rank-change neutral"><span style="display: none;"><svg class="arrow negative" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>—</span>
+                    </div>
+                    
+                    <div class="details" style="background-image: url(https://i.imgur.com/8GjYUHY.png);background-position: -3px -13px;">
+                        <div class="part-1">
+                            <span class="karma-change" style="display: initial;">
+                                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve"> <g> <g> <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path> </g> </g> </svg>98</span>
+                            <span class="karma">512</span>
+                        </div>
+                        <div class="part-2">
+                            <span class="title">Shut-In Vampire Princess</span>
+                            <div class="pod-container">
+                                <span class="episode-number">E 6</span>&nbsp;<span class="poll-score" style="display: none;"><span class="poll-blue">P</span>N/A</span></div>
+                        </div>
+                    </div><div class="details-2">
+                        <div class="comments-wrapper">
+                            <div class="comments">
+                                <span>87</span>
+                                <div style="width: 100%; height: 7px"></div>
+                            </div>
+                        </div>
+                        <div class="mal-ratings">
+                            <span>7.30 <span class="neutral">M</span></span>
+                            
+                            <span style="display: none;"><span>undefined <span class="neutral">R</span></span></span><span style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);text-align: center;font-size: 12px;">ProjectNo.9</span>
+                            
+                        <span style="background-color: rgb(0, 174, 240);">Hidive</span></div>
+                    </div>
+                </div>
+                <div class="poll-entry">
+                        <div style="width: 71px"></div>
+                        <div class="score-container">
+                            <span class="score">227</span>
+                                        <span class="rank-change negative"><span style="display: initial;"><svg class="arrow negative" viewBox="0 0 117.7 110"><polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon></svg></span>1</span>
+                        </div>
+                        <div><div class="image" style="background-image: url(&quot;https://www.epicdope.com/wp-content/uploads/2023/01/Overtake-Visual.jpg&quot;);"></div></div>
+                        <div class="details">
+                            <span class="title">Overtake</span>
+                            <div class="bottom-bar">
+                                <span class="votes"></span>
+                                <span class="episode-number">3</span>
+                            <span class="" id="logo_streaming" style="background-image: url(&quot;&quot;); background-color: rgb(244, 117, 33);">Crunchy</span></div>
+                        </div>
+                        <div class="rank">
+                            <div style="width:11px"></div>
+                            <span>30</span>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body></html>
