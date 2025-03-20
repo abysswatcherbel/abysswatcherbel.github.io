@@ -55,81 +55,18 @@ from src.rank_processing import (
 from loguru import logger
 import sys
 from util.logger_config import logger
+from typing import (
+    Literal, Dict, List, Tuple
+)
 
 
 load_dotenv()
-CURRENT_SEASON = get_season_name(datetime.now(tz=utc).month)
-CURRENT_YEAR = datetime.now(tz=utc).year
-CURRENT_MAIN_COLLECTION = f"{CURRENT_YEAR}_{CURRENT_SEASON}"
+CURRENT_SEASON: Literal['winter','spring','summer','fall'] = get_season_name(datetime.now(tz=utc).month)
+CURRENT_YEAR: int = datetime.now(tz=utc).year
+CURRENT_MAIN_COLLECTION: str = f"{CURRENT_YEAR}_{CURRENT_SEASON}"
 
 # Declare a global variable for the scheduler instance
 scheduler_instance = None
-
-# Remove default logger
-# logger.remove()
-
-
-# def setup_logging(logger_name: str):
-#     """
-#     Sets up logging configuration for the specified component using Loguru.
-    
-#     This function configures Loguru with appropriate handlers and formats for 
-#     different outputs (file, stdout). It creates a directory structure
-#     based on the current date and sets up the log file path.
-    
-#     Args:
-#         logger_name (str): The name of the logger component.
-        
-#     Returns:
-#         logger: The configured Loguru logger instance.
-#     """
-#     # First, remove all existing handlers to prevent duplicate logs
-#     logger.remove()
-    
-#     # Get the current date for log directory structure
-#     today = datetime.now(tz=timezone.utc)
-#     month = month_name[today.month]
-#     log_dir = os.path.join(os.getenv('LOGS_PATH', './logs'), f'{today.year}/{month}')
-
-#     # Create log directory if it doesn't exist
-#     os.makedirs(log_dir, exist_ok=True)
-#     log_file = os.path.join(log_dir, f"{logger_name}.log")
-
-#     # Format for all handlers - using different format for file vs stdout
-#     file_format = "{time:HH:MM:SS.SSS} | {level: <8} | {message}"
-#     stdout_format = "<green>{time:HH:MM:SS.SSS}</green> | <level>{level: <8}</level> | <level>{message}</level>"
-    
-#     # Set log level based on logger name
-#     log_level = "DEBUG" if logger_name == "apscheduler" else "INFO"
-    
-#     # Add file handler with rotation - no colorization for files
-#     logger.add(
-#         log_file,
-#         rotation="00:00",  # Rotate at midnight
-#         retention="7 days",  # Keep logs for 7 days
-#         format=file_format,
-#         level=log_level,
-#         filter=lambda record: record["extra"].get("name") == logger_name,
-#         enqueue=True,  # Thread-safe logging
-#         colorize=False  # No colors in log files
-#     )
-    
-#     # Add stdout handler (visible in systemd)
-#     logger.add(
-#         sys.stdout,
-#         format=stdout_format,
-#         level=log_level,
-#         filter=lambda record: record["extra"].get("name") == logger_name,
-#         enqueue=True,
-#         colorize=True  # Colors only for terminal output
-#     )
-    
-    
-#     logger_instance = logger.bind(name=logger_name)
-#     logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
-    
-#     return logger_instance
-
 
 
 def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"):
@@ -194,7 +131,7 @@ def setup_reddit_instance(
     reddit_id=os.getenv("REDDIT_ID"),
     reddit_secret=os.getenv("REDDIT_SECRET"),
     reddit_username=os.getenv("REDDIT_USERNAME"),
-):
+) -> Reddit:
     """
     Sets up a Reddit API instance using the provided credentials.
 
@@ -227,7 +164,7 @@ def setup_reddit_instance(
     return reddit
 
 
-def update_scheduler(reddit: Reddit):
+def update_scheduler(reddit: Reddit) -> None:
     """
     Updates the scheduler with new Reddit discussion posts.
 
@@ -262,7 +199,7 @@ def update_scheduler(reddit: Reddit):
 
 def schedule_post_processing(
     posts: list[dict], reddit: Reddit, scheduler: BackgroundScheduler
-):
+) -> None:
     """
     Schedule post processing jobs for a list of Reddit discussion posts.
 
@@ -311,7 +248,7 @@ def schedule_post_processing(
             logger.error(f"Error scheduling job: {e}", exc_info=True)
 
 
-def process_post(post, reddit):
+def process_post(post: Dict, reddit: Reddit) -> None:
     """
     Process a Reddit post by closing it and storing its details in MongoDB.
 
@@ -349,7 +286,7 @@ def process_post(post, reddit):
         logger.error(f"Error processing post {post['id']}: {e}")
 
 
-def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc):
+def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc) -> List:
     """
     Retrieves recent Reddit posts submitted by AutoLovepon (The r/anime bot) within the last 48 hours.
 
@@ -607,7 +544,7 @@ def insert_mongo(
         )
 
 
-def get_title_details(title: str):
+def get_title_details(title: str) -> Tuple[Dict, str]:
     """
     Extracts romaji and English titles along with the episode number from the r/anime post title.
 
@@ -687,7 +624,7 @@ def get_active_posts(
     reddit: Reddit = setup_reddit_instance(),
     username="AutoLovepon",
     default_tz=timezone.utc,
-):
+) -> List:
     """
     Retrieves active discussion posts on r/anime for the karma ranking system.
     
@@ -812,7 +749,7 @@ def get_active_posts(
     return posts
 
 
-def get_mal_id_reddit_post(post_body: str):
+def get_mal_id_reddit_post(post_body: str) -> str | None:
     """
     Extracts the MyAnimeList ID from a Reddit post body.
 
