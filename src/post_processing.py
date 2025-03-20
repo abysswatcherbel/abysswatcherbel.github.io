@@ -54,6 +54,7 @@ from src.rank_processing import (
 )
 from loguru import logger
 import sys
+from util.logger_config import logger
 
 
 load_dotenv()
@@ -65,69 +66,69 @@ CURRENT_MAIN_COLLECTION = f"{CURRENT_YEAR}_{CURRENT_SEASON}"
 scheduler_instance = None
 
 # Remove default logger
-logger.remove()
+# logger.remove()
 
 
-def setup_logging(logger_name: str):
-    """
-    Sets up logging configuration for the specified component using Loguru.
+# def setup_logging(logger_name: str):
+#     """
+#     Sets up logging configuration for the specified component using Loguru.
     
-    This function configures Loguru with appropriate handlers and formats for 
-    different outputs (file, stdout). It creates a directory structure
-    based on the current date and sets up the log file path.
+#     This function configures Loguru with appropriate handlers and formats for 
+#     different outputs (file, stdout). It creates a directory structure
+#     based on the current date and sets up the log file path.
     
-    Args:
-        logger_name (str): The name of the logger component.
+#     Args:
+#         logger_name (str): The name of the logger component.
         
-    Returns:
-        logger: The configured Loguru logger instance.
-    """
-    # First, remove all existing handlers to prevent duplicate logs
-    logger.remove()
+#     Returns:
+#         logger: The configured Loguru logger instance.
+#     """
+#     # First, remove all existing handlers to prevent duplicate logs
+#     logger.remove()
     
-    # Get the current date for log directory structure
-    today = datetime.now(tz=timezone.utc)
-    month = month_name[today.month]
-    log_dir = os.path.join(os.getenv('LOGS_PATH', './logs'), f'{today.year}/{month}')
+#     # Get the current date for log directory structure
+#     today = datetime.now(tz=timezone.utc)
+#     month = month_name[today.month]
+#     log_dir = os.path.join(os.getenv('LOGS_PATH', './logs'), f'{today.year}/{month}')
 
-    # Create log directory if it doesn't exist
-    os.makedirs(log_dir, exist_ok=True)
-    log_file = os.path.join(log_dir, f"{logger_name}.log")
+#     # Create log directory if it doesn't exist
+#     os.makedirs(log_dir, exist_ok=True)
+#     log_file = os.path.join(log_dir, f"{logger_name}.log")
 
-    # Format for all handlers - using different format for file vs stdout
-    file_format = "{time:HH:MM:SS.SSS} | {level: <8} | {message}"
-    stdout_format = "<green>{time:HH:MM:SS.SSS}</green> | <level>{level: <8}</level> | <level>{message}</level>"
+#     # Format for all handlers - using different format for file vs stdout
+#     file_format = "{time:HH:MM:SS.SSS} | {level: <8} | {message}"
+#     stdout_format = "<green>{time:HH:MM:SS.SSS}</green> | <level>{level: <8}</level> | <level>{message}</level>"
     
-    # Set log level based on logger name
-    log_level = "DEBUG" if logger_name == "apscheduler" else "INFO"
+#     # Set log level based on logger name
+#     log_level = "DEBUG" if logger_name == "apscheduler" else "INFO"
     
-    # Add file handler with rotation - no colorization for files
-    logger.add(
-        log_file,
-        rotation="00:00",  # Rotate at midnight
-        retention="7 days",  # Keep logs for 7 days
-        format=file_format,
-        level=log_level,
-        filter=lambda record: record["extra"].get("name") == logger_name,
-        enqueue=True,  # Thread-safe logging
-        colorize=False  # No colors in log files
-    )
+#     # Add file handler with rotation - no colorization for files
+#     logger.add(
+#         log_file,
+#         rotation="00:00",  # Rotate at midnight
+#         retention="7 days",  # Keep logs for 7 days
+#         format=file_format,
+#         level=log_level,
+#         filter=lambda record: record["extra"].get("name") == logger_name,
+#         enqueue=True,  # Thread-safe logging
+#         colorize=False  # No colors in log files
+#     )
     
-    # Add stdout handler (visible in systemd)
-    logger.add(
-        sys.stdout,
-        format=stdout_format,
-        level=log_level,
-        filter=lambda record: record["extra"].get("name") == logger_name,
-        enqueue=True,
-        colorize=True  # Colors only for terminal output
-    )
+#     # Add stdout handler (visible in systemd)
+#     logger.add(
+#         sys.stdout,
+#         format=stdout_format,
+#         level=log_level,
+#         filter=lambda record: record["extra"].get("name") == logger_name,
+#         enqueue=True,
+#         colorize=True  # Colors only for terminal output
+#     )
     
     
-    logger_instance = logger.bind(name=logger_name)
-    logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
+#     logger_instance = logger.bind(name=logger_name)
+#     logger_instance.info(f"Logging initialized. Logs will be saved to: {log_file}")
     
-    return logger_instance
+#     return logger_instance
 
 
 
@@ -146,7 +147,7 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
         BackgroundScheduler: A scheduler instance configured with MongoDB job store
     """
     # Get logger for scheduler
-    log = setup_logging("scheduler")
+    # log = setup_logging("scheduler")
     
     client = MongoClient(mongo_uri)
     jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}
@@ -185,7 +186,7 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
             id="daily_update",
         )
     
-    log.info("Scheduler setup completed")
+    logger.info("Scheduler setup completed")
     return scheduler
 
 
@@ -214,7 +215,7 @@ def setup_reddit_instance(
         >>> print(reddit.user.me())
         <Redditor u/AutoLovepon>
     """
-    log = setup_logging("reddit")
+    # log = setup_logging("reddit")
     
     reddit = Reddit(
         client_id=reddit_id,
@@ -222,7 +223,7 @@ def setup_reddit_instance(
         user_agent=reddit_username,
     )
     
-    log.info("Reddit instance initialized")
+    logger.info("Reddit instance initialized")
     return reddit
 
 
@@ -248,15 +249,15 @@ def update_scheduler(reddit: Reddit):
         >>> update_scheduler(reddit)
         # Fetches new posts and schedules them for processing
     """
-    log = setup_logging("scheduler")
-    log.info("Updating scheduler...")
+    #log = setup_logging("scheduler")
+    logger.info("Updating scheduler...")
     
     try:
         new_posts = fetch_recent_posts(reddit=reddit)
         # Use the global scheduler_instance here
         schedule_post_processing(new_posts, reddit, scheduler_instance)
     except Exception as e:
-        log.error(f"Error updating scheduler: {e}", exc_info=True)
+        logger.error(f"Error updating scheduler: {e}", exc_info=True)
 
 
 def schedule_post_processing(
@@ -284,7 +285,7 @@ def schedule_post_processing(
         ConflictingIdError: If a job with the same ID already exists
         Exception: For any other errors during job scheduling
     """
-    log = setup_logging("scheduler")
+    # log = setup_logging("scheduler")
 
     for post in posts:
         trigger = DateTrigger(run_date=post["closing_at"])
@@ -303,11 +304,11 @@ def schedule_post_processing(
                 name=job_name,
                 
             )
-            log.info(f"Job scheduled for post: {post['id']}")
+            logger.info(f"Job scheduled for post: {post['id']}")
         except ConflictingIdError:
-            log.warning(f"Conflicting ID error for job: {job_id}")
+            logger.warning(f"Conflicting ID error for job: {job_id}")
         except Exception as e:
-            log.error(f"Error scheduling job: {e}", exc_info=True)
+            logger.error(f"Error scheduling job: {e}", exc_info=True)
 
 
 def process_post(post, reddit):
@@ -333,19 +334,19 @@ def process_post(post, reddit):
     Raises:
         Exception: Any unexpected errors during post processing are caught and logged
     """
-    log = setup_logging("process_post")
+    # log = setup_logging("process_post")
     
     try:
         post_details = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
         if not post_details:
-            log.warning(f"Post {post['id']} is not available")
+            logger.warning(f"Post {post['id']} is not available")
             return
         insert_mongo(post_details)
-        log.info(f"Successfully processed and inserted post: {post['id']}")
+        logger.info(f"Successfully processed and inserted post: {post['id']}")
     except Exception as e:
-        log.error(f"Error processing post {post['id']}: {e}")
+        logger.error(f"Error processing post {post['id']}: {e}")
 
 
 def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc):
@@ -384,8 +385,8 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
         "Kusuriya no Hitorigoto • The Apothecary Diaries - Episode 3 discussion" 2024-04-27 15:30:00+00:00
         "Another Anime Discussion Topic" 2024-04-28 12:45:00+00:00
     """
-    log = setup_logging("fetch_posts")
-    log.info(f"Fetching recent posts from user: {username}")
+    # log = setup_logging("fetch_posts")
+    logger.info(f"Fetching recent posts from user: {username}")
     
     user = reddit.redditor(username)
     posts = []
@@ -405,7 +406,7 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
                 }
             )
     
-    log.info(f"Found {len(posts)} posts within the last 48 hours")
+    logger.info(f"Found {len(posts)} posts within the last 48 hours")
     return posts
 
 
@@ -432,28 +433,28 @@ def check_post_status(submission: Submission, post_id: str) -> bool:
         >>> check_post_status(submission, 'abc123')
         True
     """
-    log = setup_logging("check_post_status")
+    # log = setup_logging("check_post_status")
 
     try:
         if submission.removed_by_category:
-            log.warning(
+            logger.warning(
                 f"Post {post_id} was removed by moderators: {submission.removed_by_category}"
             )
             return False
         elif submission.selftext == "[deleted]":
-            log.warning(f"Post {post_id} was deleted by the user.")
+            logger.warning(f"Post {post_id} was deleted by the user.")
             return False
         elif submission.selftext == "[removed]":
-            log.warning(f"Post {post_id} was removed by moderators.")
+            logger.warning(f"Post {post_id} was removed by moderators.")
             return False
         elif submission.hidden:
-            log.warning(f"Post {post_id} is hidden by the user.")
+            logger.warning(f"Post {post_id} is hidden by the user.")
             return False
         else:
-            log.info(f"Post {post_id} is still available.")
+            logger.info(f"Post {post_id} is still available.")
             return True
     except Exception as e:
-        log.error(f"Error fetching post: {e}")
+        logger.error(f"Error fetching post: {e}")
         return False
 
 
@@ -486,7 +487,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
         No explicit exceptions, but logs any errors encountered during processing
     """
     post = Submission(reddit=reddit, id=post_id)
-    log = setup_logging("close_post")
+    # log = setup_logging("close_post")
     
     post_available = check_post_status(post, post_id)
     if not post_available:
@@ -509,7 +510,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
     mal_doc = col.find_one(query, {"mal_id": 1})
     mal_id = mal_doc["mal_id"] if mal_doc else None
 
-    log.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
+    logger.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
 
     return {
         "mal_id": mal_id,
@@ -557,7 +558,7 @@ def insert_mongo(
     Returns:
         None
     """
-    log = setup_logging("insert_mongo")
+    #log = setup_logging("insert_mongo")
 
     # Get the database and collection
     db = client.anime
@@ -580,7 +581,7 @@ def insert_mongo(
         "url": post_details["url"],
     }
 
-    log.info(f"Inserting data into MongoDB for MAL ID: {mal_id}\n{episode_data}")
+    logger.info(f"Inserting data into MongoDB for MAL ID: {mal_id}\n{episode_data}")
 
     if mal_id:
         query = {"mal_id": mal_id}
@@ -595,13 +596,13 @@ def insert_mongo(
     if col.find_one(query):
         update_result = col.update_one(query, {"$push": {"reddit_karma": episode_data}})
         if update_result.upserted_id:
-            log.info(f"Created new document: {update_result.upserted_id}")
+            logger.info(f"Created new document: {update_result.upserted_id}")
         else:
-            log.info("Added entry to existing document")
+            logger.info("Added entry to existing document")
     else:
         col = db.new_entries
         insert_result = col.insert_one(episode_data)
-        log.info(
+        logger.info(
             f"Created new document: for the post {reddit_id} MAL ID: {mal_id} with the ID: {insert_result.inserted_id}"
         )
 
@@ -709,7 +710,7 @@ def get_active_posts(
         This function filters for submissions made within the past 48 hours,
         ensuring only those posts in the active discussion period are returned.
     """
-    log = setup_logging("hourly_data")
+    # log = setup_logging("hourly_data")
     
 
     user = reddit.redditor(username)
@@ -799,13 +800,13 @@ def get_active_posts(
                             upsert=True,
                         )
                     else:
-                        log.warning(f"No post details found for MAL ID: {mal_id}")
+                        logger.warning(f"No post details found for MAL ID: {mal_id}")
                         continue
                 except ValueError:
-                    log.error(f"Error updating hourly data for MAL ID: {mal_id}")
+                    logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
                     continue
             else:
-                log.error(f"No MAL ID found for post: {submission.id}")
+                logger.error(f"No MAL ID found for post: {submission.id}")
                 continue
     client.close()
     return posts
@@ -837,8 +838,7 @@ def get_mal_id_reddit_post(post_body: str):
 
 # Example usage
 def main():
-    for logger_name in ("praw", "prawcore", "pymongo", "apscheduler"):
-        setup_logging(logger_name)
+ 
 
     # Initialize the scheduler (which sets up the daily update job)
     scheduler = setup_scheduler()
