@@ -157,7 +157,7 @@ def karma_watch():
     
     # Get karma progression data for all tracked shows
     karma_data = list(collection.find(
-        {"mal_id": {"$ne" : "NaN"}},
+        {"mal_id": {"$ne" : None}},
         {"_id": 0}
     ))
     
