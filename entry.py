@@ -153,13 +153,12 @@ def karma_watch():
     """
     # Get all available shows with karma progression data
     client = MongoClient(os.getenv("MONGO_URI"))
-    collection = client.anime.hourly_data
+    collection = client.anime.karma_watch
     
     # Get karma progression data for all tracked shows
     karma_data = list(collection.find(
-        {"hourly_karma": {"$exists": True}},
-        {"_id": 0, "mal_id": 1, "reddit_id": 1, "title": 1, 
-         "episode": 1, "season": 1, "year": 1, "hourly_karma": 1}
+        {},
+        {"_id": 0}
     ))
     
     # Save the data to a JSON file for the frontend to use
