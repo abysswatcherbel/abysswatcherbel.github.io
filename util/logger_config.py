@@ -36,7 +36,7 @@ def setup_logger():
     logger.add(
         sink=sys.stdout,
         level="DEBUG",
-        colorize=False,  # Disable colors for better journalctl readability
+        colorize=True,  
         enqueue=True,
         format=f"{time_format} | {{level}} | {{file}}:{{function}}:{{line}} | {{message}}",
     )

@@ -7,6 +7,7 @@ import time
 import pandas as pd
 from datetime import datetime, timezone
 import os
+from util.logger_config import logger
 
 
 
@@ -261,18 +262,19 @@ def fetch_mal_score(
         mal_ids = [mal_ids]
     for mal_id in mal_ids:
         try:
-            print(f'Getting mal_details for id: {mal_id}')
+            logger.info(f'Getting mal_details for id: {mal_id}')
             endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
 
             response = requests.get(url=endpoint, headers=headers)
             if response.status_code == 200:
                 data = response.json()
+                logger.success(f"Got MAL data for {mal_id}")
                 process_stats(data, current_week)
 
             else:
-                print(f"Error with ID {mal_id}: {response.status_code}")
+                logger.error(f"Error with ID {mal_id}: {response.status_code}")
         except Exception as e:
-            print(f"Error with ID {mal_id}: {e}")
+            logger.error(f"Error with ID {mal_id}: {e}")
 
 
 def process_stats(data: dict, current_week):
@@ -438,7 +440,7 @@ def update_mal_numbers(week_id: int):
 
     mal_ids = list(collection.aggregate(pipeline))
     mal_ids = [entry["mal_id"] for entry in mal_ids]
-    print(f'Getting MAL data from {mal_ids}')
+    logger.info(f'Getting MAL data from {mal_ids}')
     client.close()
     fetch_mal_score(mal_ids)
 
