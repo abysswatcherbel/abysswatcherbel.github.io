@@ -140,6 +140,46 @@ def current_week():
         current_time=current_time,
     )
 
+@app.route("/karma_watch", endpoint="karma_watch")
+def karma_watch():
+    """
+    Render the Karma Watch page for comparing show karma progression.
+    
+    Allows users to select and compare different shows to visualize how
+    their karma grew over time after episode discussions were posted.
+    
+    Returns:
+        rendered template: The karma_watch.html template
+    """
+    # Get all available shows with karma progression data
+    client = MongoClient(os.getenv("MONGO_URI"))
+    collection = client.anime.hourly_data
+    
+    # Get karma progression data for all tracked shows
+    karma_data = list(collection.find(
+        {"hourly_karma": {"$exists": True}},
+        {"_id": 0, "mal_id": 1, "reddit_id": 1, "title": 1, 
+         "episode": 1, "season": 1, "year": 1, "hourly_karma": 1}
+    ))
+    
+    # Save the data to a JSON file for the frontend to use
+    karma_watch_path = os.path.join('static', 'data', 'karma_watch.json')
+    os.makedirs(os.path.dirname(karma_watch_path), exist_ok=True)
+    
+    with open(karma_watch_path, 'w') as f:
+        json.dump(karma_data, f)
+    
+    client.close()
+    
+    # Get available seasons for the navigation dropdown
+    available_seasons = get_available_seasons()
+    
+    return render_template(
+        "karma_watch.html",
+        available_seasons=available_seasons,
+        current_time=datetime.now(timezone.utc),
+    )
+
 
 if __name__ == "__main__":
     import sys

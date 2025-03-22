@@ -17,32 +17,33 @@
                 <span>Anime Karma Rankings</span>
             </div>
             <nav>
-            <a class="action-link current-chart-link" href="{{ url_for('current_chart') }}">Current Chart</a>
-            <div class="controls">
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Previous Weeks ▾</a>
-                    <div class="dropdown-content">
-                      {% for year, seasons in available_seasons.items()|reverse %}
-                          {% for season, weeks in seasons.items()|reverse %}
-                              <div class="season-group">
-                                  <div class="season-header">{{ year }} {{ season|capitalize }}</div>
-                                  {% for week in weeks|reverse %}
-                                      <a href="{{ url_for('show_week', 
-                                                        year=year|int, 
-                                                        season=season, 
-                                                        week=week|replace('week_', '')|int) }}">
-                                          Week {{ week|replace('week_', '') }}
-                                      </a>
-                                  {% endfor %}
-                              </div>
-                          {% endfor %}
-                      {% endfor %}
-                  </div>
-                </li>
-                <button class="theme-toggle" id="theme-toggle">
-                    <i class="fa-solid fa-moon"></i>
-                </button>
-            </div>
+                <a class="action-link current-chart-link" href="{{ url_for('current_chart') }}">Current Chart</a>
+                <a class="action-link" href="{{ url_for('karma_watch') }}">Karma Watch</a>
+                <div class="controls">
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Previous Weeks ▾</a>
+                        <div class="dropdown-content">
+                            {% for year, seasons in available_seasons.items()|reverse %}
+                            {% for season, weeks in seasons.items()|reverse %}
+                            <div class="season-group">
+                                <div class="season-header">{{ year }} {{ season|capitalize }}</div>
+                                {% for week in weeks|reverse %}
+                                <a href="{{ url_for('show_week', 
+                                                            year=year|int, 
+                                                            season=season, 
+                                                            week=week|replace('week_', '')|int) }}">
+                                    Week {{ week|replace('week_', '') }}
+                                </a>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
+                    </li>
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
             </nav>
         </div>
     </header>
