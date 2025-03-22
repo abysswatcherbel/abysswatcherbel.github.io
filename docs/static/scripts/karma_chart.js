@@ -1,6 +1,6 @@
 // karma_chart.js - React component for karma comparison chart
 const { useState, useEffect } = React;
-const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = Recharts;
+const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = window.Recharts;
 
 const KarmaComparisonChart = () => {
     const [availableShows, setAvailableShows] = useState([]);
@@ -20,27 +20,30 @@ const KarmaComparisonChart = () => {
         async function fetchData() {
             try {
                 // Fetch the JSON data
-                const response = await fetch('/static/database/karma_watch.json');
+                const response = await fetch('static/database/karma_watch.json');
                 if (!response.ok) {
                     throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
                 }
 
                 const data = await response.json();
+                console.log("Fetched data:", data);
 
                 // Handle the data
                 if (Array.isArray(data)) {
                     // Create a list of available shows
-                    const shows = data.map(show => ({
-                        id: show.mal_id || show.reddit_id,
-                        title: show.title,
-                        episode: show.episode,
-                        season: show.season,
-                        year: show.year
-                    }));
+                    const shows = data.map(function (show) {
+                        return {
+                            id: show.mal_id || show.reddit_id,
+                            title: show.title,
+                            episode: show.episode,
+                            season: show.season,
+                            year: show.year
+                        };
+                    });
 
                     // Create a map of show data keyed by ID
                     const showData = {};
-                    data.forEach(show => {
+                    data.forEach(function (show) {
                         showData[show.mal_id || show.reddit_id] = show;
                     });
 
@@ -79,9 +82,9 @@ const KarmaComparisonChart = () => {
 
     // Handle show selection changes
     const handleShowSelection = (showId) => {
-        setSelectedShows(prev => {
+        setSelectedShows(function (prev) {
             if (prev.includes(showId)) {
-                return prev.filter(id => id !== showId);
+                return prev.filter(function (id) { return id !== showId; });
             } else {
                 return [...prev, showId];
             }
@@ -98,10 +101,10 @@ const KarmaComparisonChart = () => {
             const hourData = { hour };
 
             // Add karma for each selected show
-            selectedShows.forEach(showId => {
+            selectedShows.forEach(function (showId) {
                 const show = karmaData[showId];
                 if (show && show.hourly_karma) {
-                    const hourKarma = show.hourly_karma.find(k => k.hour === hour);
+                    const hourKarma = show.hourly_karma.find(function (k) { return k.hour === hour; });
                     hourData[`karma_${showId}`] = hourKarma ? hourKarma.karma : null;
                 }
             });
@@ -113,141 +116,221 @@ const KarmaComparisonChart = () => {
     };
 
     if (loading) {
-        return <div className="loading-message">Loading karma data...</div>;
+        return React.createElement("div", { className: "loading-message" }, "Loading karma data...");
     }
 
     if (error) {
-        return <div className="error-message">Error: {error}</div>;
+        return React.createElement("div", { className: "error-message" }, "Error: ", error);
     }
 
     const chartData = prepareChartData();
 
-    return (
-        <div>
-            <div style={{ marginBottom: "24px" }}>
-                <h3 style={{ marginBottom: "12px", fontWeight: "600" }}>Select Shows to Compare:</h3>
-                <div style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-                    gap: "8px"
-                }}>
-                    {availableShows.map((show, index) => (
-                        <div
-                            key={show.id}
-                            style={{
+    // Find show by ID helper function
+    const findShowById = (showId) => {
+        return availableShows.find(function (s) { return s.id.toString() === showId.toString(); });
+    };
+
+    // Calculate stats safely
+    const calculateStats = (hourlyData, showId) => {
+        if (!hourlyData || hourlyData.length === 0) {
+            return null;
+        }
+
+        // Find start karma (hour 1)
+        let startKarma = 0;
+        for (let i = 0; i < hourlyData.length; i++) {
+            if (hourlyData[i].hour === 1) {
+                startKarma = hourlyData[i].karma;
+                break;
+            }
+        }
+
+        // Find end karma (hour 48 or last available)
+        let endKarma = 0;
+        for (let i = 0; i < hourlyData.length; i++) {
+            if (hourlyData[i].hour === 48) {
+                endKarma = hourlyData[i].karma;
+                break;
+            }
+        }
+
+        // If we didn't find hour 48, use the last entry
+        if (endKarma === 0 && hourlyData.length > 0) {
+            endKarma = hourlyData[hourlyData.length - 1].karma;
+        }
+
+        // Calculate max karma
+        let maxKarma = 0;
+        for (let i = 0; i < hourlyData.length; i++) {
+            if (hourlyData[i].karma > maxKarma) {
+                maxKarma = hourlyData[i].karma;
+            }
+        }
+
+        // Calculate growth
+        const karmaGrowth = endKarma - startKarma;
+        let growthPercentage = "N/A";
+        if (startKarma > 0) {
+            growthPercentage = ((endKarma / startKarma) * 100 - 100).toFixed(1);
+        }
+
+        return {
+            startKarma: startKarma,
+            endKarma: endKarma,
+            maxKarma: maxKarma,
+            karmaGrowth: karmaGrowth,
+            growthPercentage: growthPercentage
+        };
+    };
+
+    return React.createElement(
+        "div",
+        null,
+        React.createElement(
+            "div",
+            { style: { marginBottom: "24px" } },
+            React.createElement("h3", { style: { marginBottom: "12px", fontWeight: "600" } }, "Select Shows to Compare:"),
+            React.createElement(
+                "div",
+                {
+                    style: {
+                        display: "grid",
+                        gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+                        gap: "8px"
+                    }
+                },
+                availableShows.map(function (show, index) {
+                    return React.createElement(
+                        "div",
+                        {
+                            key: show.id,
+                            style: {
                                 padding: "8px",
                                 border: "1px solid",
                                 borderColor: selectedShows.includes(show.id) ? "#3b82f6" : "#d1d5db",
                                 borderRadius: "6px",
                                 backgroundColor: selectedShows.includes(show.id) ? "rgba(59, 130, 246, 0.1)" : "transparent",
                                 cursor: "pointer"
-                            }}
-                            onClick={() => handleShowSelection(show.id)}
-                        >
-                            <div style={{ fontWeight: "500" }}>{show.title}</div>
-                            <div style={{ fontSize: "0.875rem", opacity: "0.8" }}>
-                                Episode {show.episode} ({show.season} {show.year})
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+                            },
+                            onClick: function () { handleShowSelection(show.id); }
+                        },
+                        React.createElement("div", { style: { fontWeight: "500" } }, show.title),
+                        React.createElement(
+                            "div",
+                            { style: { fontSize: "0.875rem", opacity: "0.8" } },
+                            "Episode ", show.episode, " (", show.season, " ", show.year, ")"
+                        )
+                    );
+                })
+            )
+        ),
 
-            <div style={{ height: "400px", width: "100%" }}>
-                <ResponsiveContainer width="100%" height="100%">
-                    <LineChart
-                        data={chartData}
-                        margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
-                    >
-                        <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis
-                            dataKey="hour"
-                            label={{ value: 'Hours Since Thread Creation', position: 'insideBottom', offset: -10 }}
-                            ticks={[0, 6, 12, 18, 24, 30, 36, 42, 48]}
-                        />
-                        <YAxis
-                            label={{ value: 'Karma', angle: -90, position: 'insideLeft' }}
-                            domain={[0, 'dataMax + 10']}
-                        />
-                        <Tooltip
-                            formatter={(value, name) => {
-                                const showId = name.split('_')[1];
-                                const show = availableShows.find(s => s.id.toString() === showId);
-                                return [value, show ? show.title : 'Karma'];
-                            }}
-                            labelFormatter={(value) => `Hour ${value}`}
-                        />
-                        <Legend
-                            formatter={(value) => {
-                                const showId = value.split('_')[1];
-                                const show = availableShows.find(s => s.id.toString() === showId);
-                                return show ? `${show.title} (Ep ${show.episode})` : value;
-                            }}
-                        />
+        React.createElement(
+            "div",
+            { style: { height: "400px", width: "100%" } },
+            React.createElement(
+                ResponsiveContainer,
+                { width: "100%", height: "100%" },
+                React.createElement(
+                    LineChart,
+                    {
+                        data: chartData,
+                        margin: { top: 20, right: 30, left: 20, bottom: 20 }
+                    },
+                    React.createElement(CartesianGrid, { strokeDasharray: "3 3" }),
+                    React.createElement(XAxis, {
+                        dataKey: "hour",
+                        label: { value: 'Hours Since Thread Creation', position: 'insideBottom', offset: -10 },
+                        ticks: [0, 6, 12, 18, 24, 30, 36, 42, 48]
+                    }),
+                    React.createElement(YAxis, {
+                        label: { value: 'Karma', angle: -90, position: 'insideLeft' },
+                        domain: [0, 'dataMax + 10']
+                    }),
+                    React.createElement(Tooltip, {
+                        formatter: function (value, name) {
+                            const showId = name.split('_')[1];
+                            const show = findShowById(showId);
+                            return [value, show ? show.title : 'Karma'];
+                        },
+                        labelFormatter: function (value) { return `Hour ${value}`; }
+                    }),
+                    React.createElement(Legend, {
+                        formatter: function (value) {
+                            const showId = value.split('_')[1];
+                            const show = findShowById(showId);
+                            return show ? `${show.title} (Ep ${show.episode})` : value;
+                        }
+                    }),
+                    selectedShows.map(function (showId, index) {
+                        return React.createElement(Line, {
+                            key: showId,
+                            type: "monotone",
+                            dataKey: `karma_${showId}`,
+                            stroke: colors[index % colors.length],
+                            strokeWidth: 2,
+                            name: `karma_${showId}`,
+                            dot: { r: 1 },
+                            activeDot: { r: 5 },
+                            connectNulls: true
+                        });
+                    })
+                )
+            )
+        ),
 
-                        {selectedShows.map((showId, index) => (
-                            <Line
-                                key={showId}
-                                type="monotone"
-                                dataKey={`karma_${showId}`}
-                                stroke={colors[index % colors.length]}
-                                strokeWidth={2}
-                                name={`karma_${showId}`}
-                                dot={{ r: 1 }}
-                                activeDot={{ r: 5 }}
-                                connectNulls
-                            />
-                        ))}
-                    </LineChart>
-                </ResponsiveContainer>
-            </div>
-
-            {selectedShows.length > 0 && (
-                <div style={{
+        selectedShows.length > 0 && React.createElement(
+            "div",
+            {
+                style: {
                     marginTop: "24px",
                     padding: "16px",
                     backgroundColor: "rgba(0, 0, 0, 0.05)",
                     borderRadius: "8px"
-                }}>
-                    <h3 style={{ marginBottom: "12px", fontWeight: "600" }}>Key Insights:</h3>
-                    <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-                        {selectedShows.map((showId, index) => {
-                            const show = karmaData[showId];
-                            const hourlyData = show.hourly_karma || [];
+                }
+            },
+            React.createElement("h3", { style: { marginBottom: "12px", fontWeight: "600" } }, "Key Insights:"),
+            React.createElement(
+                "div",
+                { style: { display: "flex", flexDirection: "column", gap: "16px" } },
+                selectedShows.map(function (showId, index) {
+                    const show = karmaData[showId];
+                    const hourlyData = show && show.hourly_karma ? show.hourly_karma : [];
+                    const stats = calculateStats(hourlyData, showId);
 
-                            if (hourlyData.length === 0) return null;
+                    if (!stats) return null;
 
-                            const startKarma = hourlyData.find(k => k.hour === 1)?.karma || 0;
-                            const endKarma = hourlyData.find(k => k.hour === 48)?.karma ||
-                                hourlyData[hourlyData.length - 1]?.karma || 0;
-                            const maxKarma = Math.max(...hourlyData.map(item => item.karma));
-                            const karmaGrowth = endKarma - startKarma;
-                            const growthPercentage = startKarma > 0 ? ((endKarma / startKarma) * 100 - 100).toFixed(1) : "N/A";
-
-                            return (
-                                <div key={showId} style={{
-                                    borderLeft: `4px solid ${colors[index % colors.length]}`,
-                                    paddingLeft: "12px"
-                                }}>
-                                    <h4 style={{ fontWeight: "600", marginBottom: "8px" }}>{show.title} (Episode {show.episode}):</h4>
-                                    <ul style={{ listStyleType: "disc", paddingLeft: "24px", margin: 0 }}>
-                                        <li>Starting karma: {startKarma}</li>
-                                        <li>Final karma: {endKarma}</li>
-                                        <li>Total growth: {karmaGrowth} points ({growthPercentage}%)</li>
-                                        <li>Peak karma: {maxKarma}</li>
-                                    </ul>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            )}
-        </div>
+                    return React.createElement(
+                        "div",
+                        {
+                            key: showId,
+                            style: {
+                                borderLeft: `4px solid ${colors[index % colors.length]}`,
+                                paddingLeft: "12px"
+                            }
+                        },
+                        React.createElement(
+                            "h4",
+                            { style: { fontWeight: "600", marginBottom: "8px" } },
+                            show.title, " (Episode ", show.episode, "):"
+                        ),
+                        React.createElement(
+                            "ul",
+                            { style: { listStyleType: "disc", paddingLeft: "24px", margin: 0 } },
+                            React.createElement("li", null, "Starting karma: ", stats.startKarma),
+                            React.createElement("li", null, "Final karma: ", stats.endKarma),
+                            React.createElement("li", null, "Total growth: ", stats.karmaGrowth, " points (", stats.growthPercentage, "%)"),
+                            React.createElement("li", null, "Peak karma: ", stats.maxKarma)
+                        )
+                    );
+                })
+            )
+        )
     );
 };
 
 // Render the component
 ReactDOM.render(
-    <KarmaComparisonChart />,
+    React.createElement(KarmaComparisonChart, null),
     document.getElementById('karma-chart')
 );
