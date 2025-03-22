@@ -140,7 +140,7 @@ def current_week():
         current_time=current_time,
     )
 
-@app.route("/karma_watch", endpoint="karma_watch")
+@app.route("/karma_watch.html", endpoint="karma_watch")
 def karma_watch():
     """
     Render the Karma Watch page for comparing show karma progression.
