@@ -2,6 +2,7 @@
 const { useState, useEffect } = React;
 const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = window.Recharts;
 
+// Setting up the component to fetch data and render the chart
 const KarmaComparisonChart = () => {
     const [availableShows, setAvailableShows] = useState([]);
     const [selectedShows, setSelectedShows] = useState([]);
@@ -20,6 +21,7 @@ const KarmaComparisonChart = () => {
         async function fetchData() {
             try {
                 // Fetch the JSON data
+                console.log("Fetching karma data...");
                 const response = await fetch('static/data/karma_watch.json');
                 if (!response.ok) {
                     throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
