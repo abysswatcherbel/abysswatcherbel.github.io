@@ -120,15 +120,13 @@ def get_ids_current_week():
     return mal_ids
 
 
-def get_weekly_change():
+def get_weekly_change(current_time: datetime, current_week: int):
     """Calculate weekly rank and karma changes using MongoDB data."""
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     seasonal_entries = db.winter_2025
 
     # Determine current week and season
-    current_time = datetime.now(timezone.utc)
-    current_week = get_week_id(schedule_type="post", post_time=current_time)
     current_month = current_time.month
     season = get_season(current_month)
 
@@ -265,7 +263,7 @@ def fetch_mal_score(
             logger.info(f'Getting mal_details for id: {mal_id}')
             endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
 
-            response = requests.get(url=endpoint, headers=headers)
+            response = requests.get(url=endpoint, headers=headers, timeout=90)
             if response.status_code == 200:
                 data = response.json()
                 logger.success(f"Got MAL data for {mal_id}")

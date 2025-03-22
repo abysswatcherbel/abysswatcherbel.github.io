@@ -110,7 +110,7 @@ def current_week():
     client = MongoClient(os.getenv("MONGO_URI"))
     collection = client.anime.hourly_data
 
-    current_shows = get_weekly_change()
+    current_shows = get_weekly_change(current_time=current_time, current_week=current_week_id)
     airing_details = get_airing_period(schedule_type='post')
     season_averages = get_season_averages(
         season=airing_details["season"], year=current_time.year
