@@ -86,9 +86,7 @@ const KarmaComparisonChart = () => {
                         episode: data.episode,
                         season: data.season,
                         year: data.year,
-                        finalKarma: data.hourly_karma ?
-                            (data.hourly_karma.find(k => k.hour === 48)?.karma ||
-                                data.hourly_karma[data.hourly_karma.length - 1]?.karma || 0) : 0
+                        finalKarma: data.hourly_karma[data.hourly_karma.length - 1].karma || 0
                     };
 
                     setAvailableShows([show]);
