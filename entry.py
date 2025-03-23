@@ -157,9 +157,16 @@ def karma_watch():
     
     # Get karma progression data for all tracked shows
     karma_data = list(collection.find(
-        {"mal_id": {"$ne" : None}},
-        {"_id": 0}
-    ))
+    {
+        "mal_id": {"$ne": None},
+        "hourly_karma": {
+            "$not": {
+                "$elemMatch": {"karma": None}
+            }
+        }
+    },
+    {"_id": 0}
+))
     
     # Save the data to a JSON file for the frontend to use
     karma_watch_path = os.path.join('static', 'data', 'karma_watch.json')
