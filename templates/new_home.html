@@ -18,10 +18,10 @@
             </div>
             <nav>
                 <a class="action-link current-chart-link" href="{{ url_for('current_chart') }}">Current Chart</a>
-                <a class="action-link" href="{{ url_for('karma_watch') }}">Karma Watch</a>
+                <a class="action-link stream-link" href="{{ url_for('karma_watch') }}">Karma Watch</a>
                 <div class="controls">
                     <li class="dropdown">
-                        <a href="#" class="dropbtn">Previous Weeks ▾</a>
+                        <a href="#" class="action-link dropbtn">Previous Weeks ▾</a>
                         <div class="dropdown-content">
                             {% for year, seasons in available_seasons.items()|reverse %}
                             {% for season, weeks in seasons.items()|reverse %}
