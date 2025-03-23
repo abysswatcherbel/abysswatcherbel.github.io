@@ -10,12 +10,6 @@ const KarmaComparisonChart = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // Filtering state
-    const [searchTerm, setSearchTerm] = useState('');
-    const [selectedYear, setSelectedYear] = useState('');
-    const [selectedSeason, setSelectedSeason] = useState('');
-    const [karmaRange, setKarmaRange] = useState({ min: 0, max: Infinity });
-
     // Color palette for different shows
     const colors = [
         "#ff6b6b", "#4ecdc4", "#6c5ce7", "#fdcb6e",
@@ -40,24 +34,12 @@ const KarmaComparisonChart = () => {
                 if (Array.isArray(data)) {
                     // Create a list of available shows
                     const shows = data.map(function (show) {
-                        // Calculate final karma for filtering
-                        let finalKarma = 0;
-                        if (show.hourly_karma && show.hourly_karma.length > 0) {
-                            const hour48Data = show.hourly_karma.find(k => k.hour === 48);
-                            if (hour48Data) {
-                                finalKarma = hour48Data.karma;
-                            } else {
-                                finalKarma = show.hourly_karma[show.hourly_karma.length - 1].karma;
-                            }
-                        }
-
                         return {
                             id: show.mal_id || show.reddit_id,
                             title: show.title,
                             episode: show.episode,
                             season: show.season,
-                            year: show.year,
-                            finalKarma: finalKarma
+                            year: show.year
                         };
                     });
 
@@ -74,10 +56,6 @@ const KarmaComparisonChart = () => {
                     if (shows.length > 0) {
                         setSelectedShows([shows[0].id]);
                     }
-
-                    // Set initial karma range based on data
-                    const maxKarma = Math.max(...shows.map(show => show.finalKarma));
-                    setKarmaRange({ min: 0, max: maxKarma });
                 } else {
                     // If there's only one show in the JSON
                     const show = {
@@ -85,16 +63,12 @@ const KarmaComparisonChart = () => {
                         title: data.title,
                         episode: data.episode,
                         season: data.season,
-                        year: data.year,
-                        finalKarma: data.hourly_karma ?
-                            (data.hourly_karma.find(k => k.hour === 48)?.karma ||
-                                data.hourly_karma[data.hourly_karma.length - 1]?.karma || 0) : 0
+                        year: data.year
                     };
 
                     setAvailableShows([show]);
                     setKarmaData({ [show.id]: data });
                     setSelectedShows([show.id]);
-                    setKarmaRange({ min: 0, max: show.finalKarma });
                 }
 
                 setLoading(false);
@@ -118,21 +92,6 @@ const KarmaComparisonChart = () => {
             }
         });
     };
-
-    // Extract unique years and seasons for filters
-    const years = [...new Set(availableShows.map(show => show.year))].sort((a, b) => b - a);
-    const seasons = [...new Set(availableShows.map(show => show.season))].sort();
-
-    // Filter shows based on search and filters
-    const filteredShows = availableShows.filter(show => {
-        const matchesSearch = searchTerm === '' ||
-            show.title.toLowerCase().includes(searchTerm.toLowerCase());
-        const matchesYear = selectedYear === '' || show.year.toString() === selectedYear;
-        const matchesSeason = selectedSeason === '' || show.season === selectedSeason;
-        const matchesKarma = show.finalKarma >= karmaRange.min && show.finalKarma <= karmaRange.max;
-
-        return matchesSearch && matchesYear && matchesSeason && matchesKarma;
-    });
 
     // Prepare chart data
     const prepareChartData = () => {
@@ -202,19 +161,11 @@ const KarmaComparisonChart = () => {
             endKarma = hourlyData[hourlyData.length - 1].karma;
         }
 
-        // Calculate max karma in a single hour (not cumulative max)
-        let maxHourlyKarma = 0;
-        let maxHourlyKarmaHour = 0;
-        for (let i = 1; i < hourlyData.length; i++) {
-            const prevHour = hourlyData.find(h => h.hour === hourlyData[i].hour - 1);
-            const currentHour = hourlyData[i];
-
-            if (prevHour) {
-                const hourlyGain = currentHour.karma - prevHour.karma;
-                if (hourlyGain > maxHourlyKarma) {
-                    maxHourlyKarma = hourlyGain;
-                    maxHourlyKarmaHour = currentHour.hour;
-                }
+        // Calculate max karma
+        let maxKarma = 0;
+        for (let i = 0; i < hourlyData.length; i++) {
+            if (hourlyData[i].karma > maxKarma) {
+                maxKarma = hourlyData[i].karma;
             }
         }
 
@@ -228,8 +179,7 @@ const KarmaComparisonChart = () => {
         return {
             startKarma: startKarma,
             endKarma: endKarma,
-            maxHourlyKarma: maxHourlyKarma,
-            maxHourlyKarmaHour: maxHourlyKarmaHour,
+            maxKarma: maxKarma,
             karmaGrowth: karmaGrowth,
             growthPercentage: growthPercentage
         };
@@ -241,121 +191,17 @@ const KarmaComparisonChart = () => {
         React.createElement(
             "div",
             { style: { marginBottom: "24px" } },
-            React.createElement("h3", { style: { marginBottom: "12px", fontWeight: "600" } }, "Filter Shows:"),
-
-            // Search and filter controls
-            React.createElement(
-                "div",
-                {
-                    style: {
-                        display: "flex",
-                        flexWrap: "wrap",
-                        gap: "12px",
-                        marginBottom: "20px"
-                    }
-                },
-                // Search input
-                React.createElement(
-                    "div",
-                    { style: { flex: "1", minWidth: "200px" } },
-                    React.createElement("input", {
-                        type: "text",
-                        placeholder: "Search by title...",
-                        value: searchTerm,
-                        onChange: (e) => setSearchTerm(e.target.value),
-                        style: {
-                            width: "100%",
-                            padding: "8px",
-                            borderRadius: "4px",
-                            border: "1px solid #d1d5db"
-                        }
-                    })
-                ),
-
-                // Year filter
-                React.createElement(
-                    "div",
-                    { style: { width: "120px" } },
-                    React.createElement(
-                        "select",
-                        {
-                            value: selectedYear,
-                            onChange: (e) => setSelectedYear(e.target.value),
-                            style: {
-                                width: "100%",
-                                padding: "8px",
-                                borderRadius: "4px",
-                                border: "1px solid #d1d5db"
-                            }
-                        },
-                        React.createElement("option", { value: "" }, "All Years"),
-                        years.map(year =>
-                            React.createElement("option", { key: year, value: year }, year)
-                        )
-                    )
-                ),
-
-                // Season filter
-                React.createElement(
-                    "div",
-                    { style: { width: "120px" } },
-                    React.createElement(
-                        "select",
-                        {
-                            value: selectedSeason,
-                            onChange: (e) => setSelectedSeason(e.target.value),
-                            style: {
-                                width: "100%",
-                                padding: "8px",
-                                borderRadius: "4px",
-                                border: "1px solid #d1d5db"
-                            }
-                        },
-                        React.createElement("option", { value: "" }, "All Seasons"),
-                        seasons.map(season =>
-                            React.createElement("option", { key: season, value: season }, season)
-                        )
-                    )
-                ),
-
-                // Reset filters button
-                React.createElement(
-                    "button",
-                    {
-                        onClick: () => {
-                            setSearchTerm('');
-                            setSelectedYear('');
-                            setSelectedSeason('');
-                            setKarmaRange({ min: 0, max: Math.max(...availableShows.map(show => show.finalKarma)) });
-                        },
-                        style: {
-                            padding: "8px 16px",
-                            backgroundColor: "#f3f4f6",
-                            border: "1px solid #d1d5db",
-                            borderRadius: "4px",
-                            cursor: "pointer"
-                        }
-                    },
-                    "Reset Filters"
-                )
-            ),
-
-            // Shows selection grid
+            React.createElement("h3", { style: { marginBottom: "12px", fontWeight: "600" } }, "Select Shows to Compare:"),
             React.createElement(
                 "div",
                 {
                     style: {
                         display: "grid",
                         gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-                        gap: "8px",
-                        maxHeight: "300px",
-                        overflowY: "auto",
-                        padding: "8px",
-                        border: "1px solid #e5e7eb",
-                        borderRadius: "6px"
+                        gap: "8px"
                     }
                 },
-                filteredShows.length > 0 ? filteredShows.map(function (show, index) {
+                availableShows.map(function (show, index) {
                     return React.createElement(
                         "div",
                         {
@@ -375,21 +221,9 @@ const KarmaComparisonChart = () => {
                             "div",
                             { style: { fontSize: "0.875rem", opacity: "0.8" } },
                             "Episode ", show.episode, " (", show.season, " ", show.year, ")"
-                        ),
-                        React.createElement(
-                            "div",
-                            { style: { fontSize: "0.75rem", opacity: "0.7" } },
-                            "Final Karma: ", show.finalKarma.toLocaleString()
                         )
                     );
-                }) : React.createElement("div", { style: { padding: "12px", textAlign: "center" } }, "No shows match your filters")
-            ),
-
-            // Selected shows count
-            selectedShows.length > 0 && React.createElement(
-                "div",
-                { style: { marginTop: "12px", fontSize: "0.875rem" } },
-                "Selected: ", selectedShows.length, " show", selectedShows.length !== 1 ? "s" : ""
+                })
             )
         ),
 
@@ -488,15 +322,7 @@ const KarmaComparisonChart = () => {
                             React.createElement("li", null, "Starting karma: ", stats.startKarma),
                             React.createElement("li", null, "Final karma: ", stats.endKarma),
                             React.createElement("li", null, "Total growth: ", stats.karmaGrowth, " points (", stats.growthPercentage, "%)"),
-                            stats.maxHourlyKarma > 0 && React.createElement(
-                                "li",
-                                null,
-                                "Max karma gain in a single hour: ",
-                                stats.maxHourlyKarma,
-                                " (hour ",
-                                stats.maxHourlyKarmaHour,
-                                ")"
-                            )
+                            React.createElement("li", null, "Peak karma: ", stats.maxKarma)
                         )
                     );
                 })
