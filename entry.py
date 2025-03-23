@@ -161,12 +161,13 @@ def karma_watch():
         "mal_id": {"$ne": None},
         "hourly_karma": {
             "$not": {
-                "$elemMatch": {"karma": None}
+                "$elemMatch": {"karma": {"$type": "double", "$eq": float('nan')}}
             }
         }
     },
     {"_id": 0}
 ))
+
     
     # Save the data to a JSON file for the frontend to use
     karma_watch_path = os.path.join('static', 'data', 'karma_watch.json')
