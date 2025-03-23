@@ -41,7 +41,7 @@ def karma_rank():
             - Various symbols for UI elements
     """
 
-    current_shows = get_weekly_change()
+    current_shows = get_weekly_change(current_time=datetime.now(timezone.utc), current_week=get_week_id("post"))
     airing_details = get_airing_period()
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
