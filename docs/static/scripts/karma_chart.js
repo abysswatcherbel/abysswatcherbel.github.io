@@ -1,5 +1,11 @@
-// karma_chart.js - React component for karma comparison chart
-const { useState, useEffect, useCallback } = React;
+const resetFilters = () => {
+    console.log("Resetting all filters");
+    setSearchTerm('');
+    setSelectedYear('');
+    setSelectedSeason('');
+    setKarmaRange({ min: 0, max: Math.max(...availableShows.map(show => show.finalKarma)) });
+};// karma_chart.js - React component for karma comparison chart
+const { useState, useEffect } = React;
 const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = window.Recharts;
 
 // Setting up the component to fetch data and render the chart
@@ -16,54 +22,12 @@ const KarmaComparisonChart = () => {
     const [selectedSeason, setSelectedSeason] = useState('');
     const [karmaRange, setKarmaRange] = useState({ min: 0, max: Infinity });
 
-    // For debugging
-    const [debugMessage, setDebugMessage] = useState('');
-
     // Color palette for different shows
     const colors = [
         "#ff6b6b", "#4ecdc4", "#6c5ce7", "#fdcb6e",
         "#e17055", "#00cec9", "#0984e3", "#fd79a8",
         "#55efc4", "#fab1a0", "#74b9ff", "#a29bfe"
     ];
-
-    // Define event handlers with useCallback to maintain references
-    const handleSearchChange = useCallback((e) => {
-        console.log("Search changed to:", e.target.value);
-        setSearchTerm(e.target.value);
-        setDebugMessage(`Search updated to: ${e.target.value}`);
-    }, []);
-
-    const handleYearChange = useCallback((e) => {
-        console.log("Year changed to:", e.target.value);
-        setSelectedYear(e.target.value);
-        setDebugMessage(`Year filter updated to: ${e.target.value}`);
-    }, []);
-
-    const handleSeasonChange = useCallback((e) => {
-        console.log("Season changed to:", e.target.value);
-        setSelectedSeason(e.target.value);
-        setDebugMessage(`Season filter updated to: ${e.target.value}`);
-    }, []);
-
-    const handleResetFilters = useCallback(() => {
-        console.log("Resetting all filters");
-        setSearchTerm('');
-        setSelectedYear('');
-        setSelectedSeason('');
-        setKarmaRange({ min: 0, max: Math.max(...availableShows.map(show => show.finalKarma)) });
-        setDebugMessage("All filters reset");
-    }, [availableShows]);
-
-    const handleShowSelection = useCallback((showId) => {
-        console.log("Show selection toggled:", showId);
-        setSelectedShows(function (prev) {
-            if (prev.includes(showId)) {
-                return prev.filter(function (id) { return id !== showId; });
-            } else {
-                return [...prev, showId];
-            }
-        });
-    }, []);
 
     useEffect(() => {
         async function fetchData() {
@@ -94,7 +58,7 @@ const KarmaComparisonChart = () => {
                         }
 
                         return {
-                            id: show.mal_id || show.reddit_id,
+                            id: String(show.mal_id || show.reddit_id), // Convert ID to string for consistent comparison
                             title: show.title,
                             episode: show.episode,
                             season: show.season,
@@ -106,13 +70,16 @@ const KarmaComparisonChart = () => {
                     // Create a map of show data keyed by ID
                     const showData = {};
                     data.forEach(function (show) {
-                        showData[show.mal_id || show.reddit_id] = show;
+                        const id = String(show.mal_id || show.reddit_id); // Convert ID to string
+                        showData[id] = show;
+                        // Add id to the show data for easier access later
+                        showData[id].id = id;
                     });
 
                     setAvailableShows(shows);
                     setKarmaData(showData);
 
-                    // Auto-select the first show if available
+                    // Auto-select the first show if available - UNCOMMENTED THIS
                     if (shows.length > 0) {
                         setSelectedShows([shows[0].id]);
                     }
@@ -120,29 +87,21 @@ const KarmaComparisonChart = () => {
                     // Set initial karma range based on data
                     const maxKarma = Math.max(...shows.map(show => show.finalKarma));
                     setKarmaRange({ min: 0, max: maxKarma });
-
-                    console.log("Data processed successfully:", shows.length, "shows available");
                 } else {
                     // If there's only one show in the JSON
-                    console.log("Single show data detected");
-                    let finalKarma = 0;
-                    if (data.hourly_karma && data.hourly_karma.length > 0) {
-                        finalKarma = data.hourly_karma[data.hourly_karma.length - 1].karma || 0;
-                    }
-
                     const show = {
-                        id: data.mal_id || data.reddit_id,
+                        id: String(data.mal_id || data.reddit_id), // Convert ID to string
                         title: data.title,
                         episode: data.episode,
                         season: data.season,
                         year: data.year,
-                        finalKarma: finalKarma
+                        finalKarma: data.hourly_karma[data.hourly_karma.length - 1].karma || 0 // Final karma = last entry
                     };
 
                     setAvailableShows([show]);
                     setKarmaData({ [show.id]: data });
                     setSelectedShows([show.id]);
-                    setKarmaRange({ min: 0, max: finalKarma });
+                    setKarmaRange({ min: 0, max: show.finalKarma });
                 }
 
                 setLoading(false);
@@ -156,10 +115,20 @@ const KarmaComparisonChart = () => {
         fetchData();
     }, []);
 
-    // Effect to log filter changes for debugging
-    useEffect(() => {
-        console.log("Current filters - Search:", searchTerm, "Year:", selectedYear, "Season:", selectedSeason);
-    }, [searchTerm, selectedYear, selectedSeason]);
+    // Handle show selection changes
+    const handleShowSelection = (showId) => {
+        // Ensure showId is a string for consistent comparison
+        const id = String(showId);
+        console.log("Selecting show:", id);
+
+        setSelectedShows(prev => {
+            if (prev.includes(id)) {
+                return prev.filter(prevId => prevId !== id);
+            } else {
+                return [...prev, id];
+            }
+        });
+    };
 
     // Extract unique years and seasons for filters
     const years = [...new Set(availableShows.map(show => show.year))].sort((a, b) => b - a);
@@ -167,32 +136,87 @@ const KarmaComparisonChart = () => {
 
     // Filter shows based on search and filters
     const filteredShows = availableShows.filter(show => {
+        // Check for the required properties first to avoid potential errors
+        if (!show || !show.title) return false;
+
         const matchesSearch = searchTerm === '' ||
-            (show.title && show.title.toLowerCase().includes(searchTerm.toLowerCase()));
-        const matchesYear = selectedYear === '' ||
-            (show.year && show.year.toString() === selectedYear);
-        const matchesSeason = selectedSeason === '' ||
-            (show.season && show.season === selectedSeason);
+            show.title.toLowerCase().includes(searchTerm.toLowerCase());
+        const matchesYear = selectedYear === '' || String(show.year) === selectedYear;
+        const matchesSeason = selectedSeason === '' || show.season === selectedSeason;
         const matchesKarma = show.finalKarma >= karmaRange.min && show.finalKarma <= karmaRange.max;
 
-        return matchesSearch && matchesYear && matchesSeason && matchesKarma;
+        const isMatch = matchesSearch && matchesYear && matchesSeason && matchesKarma;
+        return isMatch;
     });
+
+    // Force filteredShows to be a NEW array every time to ensure React detects the change
+    const displayedShows = [...filteredShows];
+
+    // Debug filter state
+    console.log("Active filters:", {
+        searchTerm,
+        selectedYear,
+        selectedSeason,
+        karmaRange,
+        filteredCount: filteredShows.length
+    });
+
+    // Log state for debugging
+    console.log("Selected shows:", selectedShows);
+    console.log("Filtered shows count:", filteredShows.length);
+
+    // Check if the first 5 selected shows are actually in filteredShows
+    if (selectedShows.length > 0 && filteredShows.length > 0) {
+        const selectedShowsInFiltered = selectedShows.filter(id =>
+            filteredShows.some(show => String(show.id) === String(id))
+        );
+        console.log("Selected shows in filtered:", selectedShowsInFiltered.length);
+    }
 
     // Prepare chart data
     const prepareChartData = () => {
         const maxHours = 48; // Assuming all shows have 48 hours of data
         const chartData = [];
 
+        // CRITICAL FIX: Only include shows that are both selected AND visible in the filtered list
+        // This is a key problem with the original code - we need to make sure we're working with IDs that exist in both lists
+
+        // First, convert all IDs to strings for consistent comparison
+        const selectedShowIds = selectedShows.map(id => String(id));
+        const filteredShowIds = filteredShows.map(show => String(show.id));
+
+        // Now find the intersection - shows that are both selected and in the filtered list
+        const showIdsForChart = selectedShowIds.filter(id => filteredShowIds.includes(id));
+
+        console.log("Shows IDs for chart:", showIdsForChart);
+
+        // Debug logging
+        if (showIdsForChart.length > 0) {
+            console.log("Selected IDs:", selectedShowIds);
+            console.log("Filtered show IDs sample:", filteredShowIds.slice(0, 5));
+
+            // Verify the karmaData contains these shows
+            showIdsForChart.forEach(id => {
+                if (!karmaData[id]) {
+                    console.error(`Missing karmaData for ID: ${id}`);
+                } else if (!karmaData[id].hourly_karma) {
+                    console.error(`Missing hourly_karma for ID: ${id}`);
+                } else {
+                    console.log(`Found valid data for ID: ${id}, title: ${karmaData[id].title}`);
+                }
+            });
+        }
+
         // Create hour slots from 1 to 48
         for (let hour = 1; hour <= maxHours; hour++) {
             const hourData = { hour };
 
-            // Add karma for each selected show
-            selectedShows.forEach(function (showId) {
-                const show = karmaData[showId];
-                if (show && show.hourly_karma) {
-                    const hourKarma = show.hourly_karma.find(function (k) { return k.hour === hour; });
-                    hourData[`karma_${showId}`] = hourKarma ? hourKarma.karma : null;
+            // Add karma for each selected show that's also in the filtered list
+            showIdsForChart.forEach(id => {
+                const dataForShow = karmaData[id];
+                if (dataForShow && dataForShow.hourly_karma) {
+                    const hourKarma = dataForShow.hourly_karma.find(k => k.hour === hour);
+                    hourData[`karma_${id}`] = hourKarma ? hourKarma.karma : null;
                 }
             });
 
@@ -214,7 +238,9 @@ const KarmaComparisonChart = () => {
 
     // Find show by ID helper function
     const findShowById = (showId) => {
-        return availableShows.find(function (s) { return s.id && s.id.toString() === showId.toString(); });
+        // Convert both IDs to strings for consistent comparison
+        const id = String(showId);
+        return availableShows.find(s => String(s.id) === id);
     };
 
     // Calculate stats safely
@@ -287,21 +313,6 @@ const KarmaComparisonChart = () => {
             { style: { marginBottom: "24px" } },
             React.createElement("h3", { style: { marginBottom: "12px", fontWeight: "600" } }, "Filter Shows:"),
 
-            // Debug message display
-            debugMessage && React.createElement(
-                "div",
-                {
-                    style: {
-                        marginBottom: "10px",
-                        padding: "5px",
-                        backgroundColor: "#f0f9ff",
-                        border: "1px solid #bae6fd",
-                        borderRadius: "4px"
-                    }
-                },
-                debugMessage
-            ),
-
             // Search and filter controls
             React.createElement(
                 "div",
@@ -321,7 +332,7 @@ const KarmaComparisonChart = () => {
                         type: "text",
                         placeholder: "Search by title...",
                         value: searchTerm,
-                        onChange: handleSearchChange,
+                        onChange: (e) => setSearchTerm(e.target.value),
                         style: {
                             width: "100%",
                             padding: "8px",
@@ -339,7 +350,7 @@ const KarmaComparisonChart = () => {
                         "select",
                         {
                             value: selectedYear,
-                            onChange: handleYearChange,
+                            onChange: (e) => setSelectedYear(e.target.value),
                             style: {
                                 width: "100%",
                                 padding: "8px",
@@ -349,7 +360,7 @@ const KarmaComparisonChart = () => {
                         },
                         React.createElement("option", { value: "" }, "All Years"),
                         years.map(year =>
-                            React.createElement("option", { key: year, value: year.toString() }, year)
+                            React.createElement("option", { key: year, value: year }, year)
                         )
                     )
                 ),
@@ -362,7 +373,7 @@ const KarmaComparisonChart = () => {
                         "select",
                         {
                             value: selectedSeason,
-                            onChange: handleSeasonChange,
+                            onChange: (e) => setSelectedSeason(e.target.value),
                             style: {
                                 width: "100%",
                                 padding: "8px",
@@ -381,7 +392,7 @@ const KarmaComparisonChart = () => {
                 React.createElement(
                     "button",
                     {
-                        onClick: handleResetFilters,
+                        onClick: resetFilters,
                         style: {
                             padding: "8px 16px",
                             backgroundColor: "#f3f4f6",
@@ -392,13 +403,6 @@ const KarmaComparisonChart = () => {
                     },
                     "Reset Filters"
                 )
-            ),
-
-            // Filter stats
-            React.createElement(
-                "div",
-                { style: { marginBottom: "10px", fontSize: "0.875rem", color: "#6b7280" } },
-                "Showing ", filteredShows.length, " of ", availableShows.length, " shows"
             ),
 
             // Shows selection grid
@@ -416,7 +420,7 @@ const KarmaComparisonChart = () => {
                         borderRadius: "6px"
                     }
                 },
-                filteredShows.length > 0 ? filteredShows.map(function (show, index) {
+                filteredShows.length > 0 ? displayedShows.map(function (show, index) {
                     return React.createElement(
                         "div",
                         {
@@ -491,19 +495,22 @@ const KarmaComparisonChart = () => {
                             return show ? `${show.title} (Ep ${show.episode})` : value;
                         }
                     }),
-                    selectedShows.map(function (showId, index) {
-                        return React.createElement(Line, {
-                            key: showId,
-                            type: "monotone",
-                            dataKey: `karma_${showId}`,
-                            stroke: colors[index % colors.length],
-                            strokeWidth: 2,
-                            name: `karma_${showId}`,
-                            dot: { r: 1 },
-                            activeDot: { r: 5 },
-                            connectNulls: true
-                        });
-                    })
+                    // CRITICAL FIX: Filter selectedShows to only those that exist in filteredShows
+                    selectedShows
+                        .filter(showId => filteredShows.some(show => String(show.id) === String(showId)))
+                        .map(function (showId, index) {
+                            return React.createElement(Line, {
+                                key: showId,
+                                type: "monotone",
+                                dataKey: `karma_${showId}`,
+                                stroke: colors[index % colors.length],
+                                strokeWidth: 2,
+                                name: `karma_${showId}`,
+                                dot: { r: 1 },
+                                activeDot: { r: 5 },
+                                connectNulls: true
+                            });
+                        })
                 )
             )
         ),
@@ -522,70 +529,55 @@ const KarmaComparisonChart = () => {
             React.createElement(
                 "div",
                 { style: { display: "flex", flexDirection: "column", gap: "16px" } },
-                selectedShows.map(function (showId, index) {
-                    const show = karmaData[showId];
-                    const hourlyData = show && show.hourly_karma ? show.hourly_karma : [];
-                    const stats = calculateStats(hourlyData, showId);
+                // CRITICAL FIX: Only show key insights for shows that are both selected AND in the filtered list
+                selectedShows
+                    .filter(showId => filteredShows.some(show => String(show.id) === String(showId)))
+                    .map(function (showId, index) {
+                        const show = karmaData[showId];
+                        const hourlyData = show && show.hourly_karma ? show.hourly_karma : [];
+                        const stats = calculateStats(hourlyData, showId);
 
-                    if (!stats) return null;
+                        if (!stats) return null;
 
-                    return React.createElement(
-                        "div",
-                        {
-                            key: showId,
-                            style: {
-                                borderLeft: `4px solid ${colors[index % colors.length]}`,
-                                paddingLeft: "12px"
-                            }
-                        },
-                        React.createElement(
-                            "h4",
-                            { style: { fontWeight: "600", marginBottom: "8px" } },
-                            show.title, " (Episode ", show.episode, "):"
-                        ),
-                        React.createElement(
-                            "ul",
-                            { style: { listStyleType: "disc", paddingLeft: "24px", margin: 0 } },
-                            React.createElement("li", null, "Starting karma: ", stats.startKarma),
-                            React.createElement("li", null, "Final karma: ", stats.endKarma),
-                            React.createElement("li", null, "Total growth: ", stats.karmaGrowth, " points (", stats.growthPercentage, "%)"),
-                            stats.maxHourlyKarma > 0 && React.createElement(
-                                "li",
-                                null,
-                                "Max karma gain in a single hour: ",
-                                stats.maxHourlyKarma,
-                                " (hour ",
-                                stats.maxHourlyKarmaHour,
-                                ")"
+                        return React.createElement(
+                            "div",
+                            {
+                                key: showId,
+                                style: {
+                                    borderLeft: `4px solid ${colors[index % colors.length]}`,
+                                    paddingLeft: "12px"
+                                }
+                            },
+                            React.createElement(
+                                "h4",
+                                { style: { fontWeight: "600", marginBottom: "8px" } },
+                                show.title, " (Episode ", show.episode, "):"
+                            ),
+                            React.createElement(
+                                "ul",
+                                { style: { listStyleType: "disc", paddingLeft: "24px", margin: 0 } },
+                                React.createElement("li", null, "Starting karma: ", stats.startKarma),
+                                React.createElement("li", null, "Final karma: ", stats.endKarma),
+                                React.createElement("li", null, "Total growth: ", stats.karmaGrowth, " points (", stats.growthPercentage, "%)"),
+                                stats.maxHourlyKarma > 0 && React.createElement(
+                                    "li",
+                                    null,
+                                    "Max karma gain in a single hour: ",
+                                    stats.maxHourlyKarma,
+                                    " (hour ",
+                                    stats.maxHourlyKarmaHour,
+                                    ")"
+                                )
                             )
-                        )
-                    );
-                })
+                        );
+                    })
             )
         )
     );
 };
 
-// Make sure React & ReactDOM are loaded before rendering
-document.addEventListener('DOMContentLoaded', function () {
-    // Check if React is loaded
-    if (typeof React === 'undefined' || typeof ReactDOM === 'undefined') {
-        console.error('React or ReactDOM not loaded. Make sure they are included before this script.');
-        document.getElementById('karma-chart').innerHTML =
-            '<div style="color: red; padding: 20px;">Error: React libraries not loaded properly.</div>';
-        return;
-    }
-
-    // Render the component
-    try {
-        ReactDOM.render(
-            React.createElement(KarmaComparisonChart, null),
-            document.getElementById('karma-chart')
-        );
-        console.log('KarmaComparisonChart rendered successfully');
-    } catch (error) {
-        console.error('Error rendering KarmaComparisonChart:', error);
-        document.getElementById('karma-chart').innerHTML =
-            `<div style="color: red; padding: 20px;">Error rendering chart: ${error.message}</div>`;
-    }
-});
+// Render the component
+ReactDOM.render(
+    React.createElement(KarmaComparisonChart, null),
+    document.getElementById('karma-chart')
+);
