@@ -1,10 +1,4 @@
-const resetFilters = () => {
-    console.log("Resetting all filters");
-    setSearchTerm('');
-    setSelectedYear('');
-    setSelectedSeason('');
-    setKarmaRange({ min: 0, max: Math.max(...availableShows.map(show => show.finalKarma)) });
-};// karma_chart.js - React component for karma comparison chart
+// karma_chart.js - React component for karma comparison chart
 const { useState, useEffect } = React;
 const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = window.Recharts;
 
@@ -29,12 +23,21 @@ const KarmaComparisonChart = () => {
         "#55efc4", "#fab1a0", "#74b9ff", "#a29bfe"
     ];
 
+    // FIXED: Moved resetFilters inside the component so it has access to state setters
+    const resetFilters = () => {
+        console.log("Resetting all filters");
+        setSearchTerm('');
+        setSelectedYear('');
+        setSelectedSeason('');
+        setKarmaRange({ min: 0, max: Math.max(...availableShows.map(show => show.finalKarma)) });
+    };
+
     useEffect(() => {
         async function fetchData() {
             try {
                 // Fetch the JSON data
                 console.log("Fetching karma data...");
-                const response = await fetch('static/data/karma_watch.json');
+                const response = await fetch('karma_watch.json');
                 if (!response.ok) {
                     throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
                 }
@@ -151,6 +154,7 @@ const KarmaComparisonChart = () => {
 
     // Force filteredShows to be a NEW array every time to ensure React detects the change
     const displayedShows = [...filteredShows];
+    console.log("Preparing to display", displayedShows.length, "shows in grid");
 
     // Debug filter state
     console.log("Active filters:", {
@@ -409,6 +413,8 @@ const KarmaComparisonChart = () => {
             React.createElement(
                 "div",
                 {
+                    // Adding a key that changes when filters change to force re-render
+                    key: `grid-${searchTerm}-${selectedYear}-${selectedSeason}-${karmaRange.min}-${karmaRange.max}`,
                     style: {
                         display: "grid",
                         gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
