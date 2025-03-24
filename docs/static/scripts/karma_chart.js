@@ -37,7 +37,7 @@ const KarmaComparisonChart = () => {
             try {
                 // Fetch the JSON data
                 console.log("Fetching karma data...");
-                const response = await fetch('karma_watch.json');
+                const response = await fetch('static/data/karma_watch.json');
                 if (!response.ok) {
                     throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
                 }
