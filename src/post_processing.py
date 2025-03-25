@@ -725,9 +725,9 @@ def get_active_posts(
                                 },
                                 "$push": {
                                     "hourly_karma": {
-                                        "hour": ceil(round(
-                                            hours_since_post.total_seconds() / 3600, 2
-                                        )),
+                                        "hour": round(
+                                            hours_since_post.total_seconds() / 3600, 0
+                                        ),
                                         "karma": submission.score,
                                     }
                                 },
