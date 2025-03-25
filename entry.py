@@ -16,6 +16,7 @@ from src.rank_processing import (
 )
 from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
+from util.logger_config import logger
 
 load_dotenv()
 
@@ -66,7 +67,7 @@ def karma_rank():
 
 
 @app.route("/<int:year>/<season>/week_<int:week>.html", endpoint="show_week")
-def show_week(year, season, week):
+def show_week(year: int, season: str, week: int)-> str:
     """
     Dynamically render a specific week's chart.
 
@@ -106,29 +107,19 @@ def current_week():
     current_time = datetime.now(timezone.utc)
     current_week_id = get_week_id("post", current_time)
 
-    # Connect to MongoDB
-    client = MongoClient(os.getenv("MONGO_URI"))
-    collection = client.anime.hourly_data
-
     current_shows = get_weekly_change(current_time=current_time, current_week=current_week_id)
     airing_details = get_airing_period(schedule_type='post')
+
+    logger.debug(f"Airing details {airing_details} for the Current week: {current_week_id}")  
+
     season_averages = get_season_averages(
         season=airing_details["season"], year=current_time.year
     )
     available_seasons = get_available_seasons()
     active_discussions = get_active_posts()
-    progression_data = list(
-        collection.find(
-            {"week_id": airing_details["week_id"]},
-            {"_id": 0, "mal_id": 1, "progression": 1},
-        )
-    )
+    
+    logger.debug(f"Available seasons: {available_seasons}")  
 
-    with open(os.getenv("JSON_PATH"), "w") as f:
-        json.dump(progression_data, f)
-
-    client.close()
-    print(f"Available seasons: {available_seasons}")  # Debug print
     return render_template(
         "new_home.html",
         current_shows=current_shows,
