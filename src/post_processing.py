@@ -34,8 +34,8 @@ from praw import Reddit
 from praw.models import Submission
 from datetime import datetime, timedelta, timezone
 import os
+from math import ceil
 import re
-import pandas as pd
 from pymongo import MongoClient
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.jobstores.base import ConflictingIdError
@@ -43,7 +43,6 @@ from apscheduler.triggers.date import DateTrigger
 from apscheduler.jobstores.mongodb import MongoDBJobStore
 from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
 from pytz import utc
-from zoneinfo import ZoneInfo
 from calendar import month_name
 from dotenv import load_dotenv
 from src.rank_processing import (
@@ -53,7 +52,6 @@ from src.rank_processing import (
     get_season,
 )
 from loguru import logger
-import sys
 from util.logger_config import logger
 from typing import (
     Literal, Dict, List, Tuple
@@ -654,7 +652,7 @@ def get_active_posts(
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     collection = db.winter_2025
-    hourly_data = db.hourly_data
+    hourly_data = db.karma_watch
     posts = []
     current_time = datetime.now(tz=default_tz)
     two_days_ago = current_time - timedelta(hours=48)
@@ -726,10 +724,10 @@ def get_active_posts(
                                     )
                                 },
                                 "$push": {
-                                    "progression": {
-                                        "hour": round(
+                                    "hourly_karma": {
+                                        "hour": ceil(round(
                                             hours_since_post.total_seconds() / 3600, 2
-                                        ),
+                                        )),
                                         "karma": submission.score,
                                     }
                                 },
