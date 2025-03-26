@@ -11,7 +11,7 @@ import re
 
 client = MongoClient(os.getenv('MONGO_URI'))
 karma_watch = client.anime.karma_watch
-    # Entries larger than 48 hours
+
 
 
 class AnimeBanner:
