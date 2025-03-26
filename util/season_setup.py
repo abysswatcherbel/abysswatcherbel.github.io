@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field, field_validator, ValidationError, PydanticSchemaGenerationError, PydanticUserError
+from pydantic import BaseModel, Field, field_validator, ValidationError, PydanticSchemaGenerationError, PydanticUserError, ValidationInfo
 from typing import List, Dict, Optional, Any, Union, Annotated
 import time
 import requests
@@ -60,41 +60,25 @@ class MalEntry(BaseModel):
     studios: List[MalEntity] = []
     genres: List[MalEntity] = []
 
-    @field_validator( "year", mode='plain' )
+    @field_validator("year", mode="plain")
     @classmethod
-    def set_year_from_aired(cls, year, airing_details: MalAiringDetails) -> Optional[int]:
-        if year:
+    def set_year_from_aired(cls, year: Optional[int], info: ValidationInfo) -> Optional[int]:
+        # If year is already provided, just return it
+        if year is not None:
             return year
-        
+
+        # Access the entire model's data
+        aired = info.data.get("aired")
+        if not aired:
+            return None
+
         try:
-            # Get the data object that contains all values
-            data = airing_details.model_dump()
+            prop = aired.prop  # This is a MalAiringProps instance
+            from_date = prop.from_  # This is a MalDateProp instance
+            return from_date.year
+        except Exception as e:
             
-            # Log what we're working with for debugging
-            logger.debug(f"Setting year from aired in validator, data: {data.get('aired')}")
-            
-            # Access the aired data
-            aired = data.get('aired')
-            if not aired:
-                return None
-                
-            # Access the prop data - we need to use from_ because of the alias
-            prop = aired.get('prop')
-            if not prop:
-                return None
-                
-            # Access the from data - again using from_ because of the alias
-            from_data = prop.get('from_')
-            if not from_data:
-                return None
-                
-            # Finally get the year
-            year = from_data.get('year')
-            logger.success(f"Found year: {year}")
-            return year
-            
-        except PydanticUserError as e:
-            logger.error(f"Error in the setup of the validation for year: {e}")
+            logger.error(f"Error while retrieving year from aired details: {e}")
             return None
     
    
@@ -185,6 +169,4 @@ def push_season_to_mongo(mal_entries: MalSeasonals, collection: Collection = Non
         except Exception as e:
             logger.error(f"Error pushing {entry} to MongoDB: {e}")
             continue
-        finally:
-            client.close()
-            logger.success(f"Pushed {len(mal_entries)} entries to MongoDB")
+       
