@@ -1,8 +1,14 @@
-from pydantic import BaseModel, Field, field_validator
-from typing import List, Dict, Optional, Any, Union
+from pydantic import BaseModel, Field, field_validator, ValidationError, PydanticSchemaGenerationError, PydanticUserError
+from typing import List, Dict, Optional, Any, Union, Annotated
 import time
 import requests
 from util.logger_config import logger
+from pymongo import MongoClient
+from pymongo.collection import Collection
+from pymongo.errors import PyMongoError
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 class MalImageSet(BaseModel):
     image_url: Optional[str] = None
@@ -53,22 +59,50 @@ class MalEntry(BaseModel):
     licensors: List[MalEntity] = []
     studios: List[MalEntity] = []
     genres: List[MalEntity] = []
-    
-    @field_validator('year',mode='before')
-    def set_year_from_aired(cls, v, values):
-        if v is not None:
-            return v
+
+    @field_validator( "year", mode='plain' )
+    @classmethod
+    def set_year_from_aired(cls, year, airing_details: MalAiringDetails) -> Optional[int]:
+        if year:
+            return year
         
         try:
-            aired = values.get('aired', {})
-            prop = aired.get('prop', {})
-            from_data = prop.get('from', {})
-            return from_data.get('year')
-        except (AttributeError, TypeError):
+            # Get the data object that contains all values
+            data = airing_details.model_dump()
+            
+            # Log what we're working with for debugging
+            logger.debug(f"Setting year from aired in validator, data: {data.get('aired')}")
+            
+            # Access the aired data
+            aired = data.get('aired')
+            if not aired:
+                return None
+                
+            # Access the prop data - we need to use from_ because of the alias
+            prop = aired.get('prop')
+            if not prop:
+                return None
+                
+            # Access the from data - again using from_ because of the alias
+            from_data = prop.get('from_')
+            if not from_data:
+                return None
+                
+            # Finally get the year
+            year = from_data.get('year')
+            logger.success(f"Found year: {year}")
+            return year
+            
+        except PydanticUserError as e:
+            logger.error(f"Error in the setup of the validation for year: {e}")
             return None
+    
+   
 
 class MalSeasonals(BaseModel):
     mal_entries: List[MalEntry]
+
+
 
 def fetch_mal_seasonals(year: int, season: str) -> MalSeasonals:
     """
@@ -125,3 +159,32 @@ def fetch_mal_seasonals(year: int, season: str) -> MalSeasonals:
     
     # Parse the data with Pydantic
     return MalSeasonals(mal_entries=all_shows)
+
+def push_season_to_mongo(mal_entries: MalSeasonals, collection: Collection = None) -> None:
+    """
+    Pushes a list of MAL entries to a MongoDB collection.
+    
+    Args:
+        mal_entries: List of MAL entries to push
+        collection: MongoDB collection to push to
+    """
+    if not collection:
+        client = MongoClient(os.getenv('MONGO_URI'))
+        collection = client.anime.seasonal_entries
+    for entry in mal_entries:
+        try:
+            entry_dict: Dict = entry.model_dump()
+            collection.update_one({'mal_id': entry_dict['mal_id']}, {'$set': entry_dict}, upsert=True)
+            logger.success(f"Pushed {entry_dict['title']} to MongoDB")
+        except PydanticSchemaGenerationError as e:
+            logger.error(f"Error generating the schema for {entry}: {e}")
+            continue
+        except PyMongoError as e:
+            logger.error(f"Error pushing {entry} to MongoDB: {e}")
+            continue
+        except Exception as e:
+            logger.error(f"Error pushing {entry} to MongoDB: {e}")
+            continue
+        finally:
+            client.close()
+            logger.success(f"Pushed {len(mal_entries)} entries to MongoDB")
