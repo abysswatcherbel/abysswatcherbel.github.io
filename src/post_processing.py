@@ -56,12 +56,10 @@ from util.logger_config import logger
 from typing import (
     Literal, Dict, List, Tuple
 )
+from util.seasonal_schedule import SeasonScheduler, ScheduleType 
 
 
 load_dotenv()
-CURRENT_SEASON: Literal['winter','spring','summer','fall'] = get_season_name(datetime.now(tz=utc).month)
-CURRENT_YEAR: int = datetime.now(tz=utc).year
-CURRENT_MAIN_COLLECTION: str = f"{CURRENT_YEAR}_{CURRENT_SEASON}"
 
 # Declare a global variable for the scheduler instance
 scheduler_instance = None
@@ -328,6 +326,7 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
     two_days_ago = datetime.now(tz=default_tz) - timedelta(hours=48)
     for submission in user.submissions.new(limit=100):
         created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
+        season_scheduler = SeasonScheduler(post_time=created_time)
         if created_time > two_days_ago:
             trigger_time = created_time + timedelta(hours=48)
             posts.append(
@@ -336,8 +335,8 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
                     "title": submission.title,
                     "created_utc": int(submission.created_utc),
                     "closing_at": trigger_time,
-                    "week_id": get_week_id("episodes", created_time),
-                    "season": get_season(created_time.month),
+                    "week_id": season_scheduler.get_week_id(),
+                    "season": season_scheduler.season_name,
                 }
             )
     
@@ -493,7 +492,6 @@ def insert_mongo(
     Returns:
         None
     """
-    #log = setup_logging("insert_mongo")
 
     # Get the database and collection
     db = client.anime
@@ -656,15 +654,13 @@ def get_active_posts(
     posts = []
     current_time = datetime.now(tz=default_tz)
     two_days_ago = current_time - timedelta(hours=48)
+    schedule = SeasonScheduler()
     for submission in user.submissions.new(limit=50):
         created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
         if created_time > two_days_ago:
             trigger_time = created_time + timedelta(hours=48)
             time_left = trigger_time - current_time
             hours_since_post = current_time - created_time
-            airing_details = get_airing_period(current_time=current_time)
-            week_id = airing_details.get("week_id")
-            season = airing_details.get("season")
             mal_id = get_mal_id_reddit_post(submission.selftext)
             _, episode = get_title_details(submission.title)
             if mal_id:
@@ -710,9 +706,9 @@ def get_active_posts(
                             {
                                 "mal_id": mal_id,
                                 "reddit_id": submission.id,
-                                "season": season,
+                                "season": schedule.season_name,
                                 "year": current_time.year,
-                                "week_id": week_id,
+                                "week_id": schedule.week_id,
                                 "episode": episode,
                                 "url": submission.url,
                                
