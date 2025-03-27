@@ -59,6 +59,7 @@ class SeasonScheduler(BaseModel):
             self.month = self.post_time.month
             self.season_name = self._get_season_name(self.month)
             self.season_number = self._get_season_number(self.month)
+            self.week_id = self.get_week_id()
         return self
     
     # Class methods (static helpers)

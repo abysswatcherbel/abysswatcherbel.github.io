@@ -43,14 +43,7 @@ from apscheduler.triggers.date import DateTrigger
 from apscheduler.jobstores.mongodb import MongoDBJobStore
 from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
 from pytz import utc
-from calendar import month_name
 from dotenv import load_dotenv
-from src.rank_processing import (
-    get_airing_period,
-    get_season_name,
-    get_week_id,
-    get_season,
-)
 from loguru import logger
 from util.logger_config import logger
 from typing import (

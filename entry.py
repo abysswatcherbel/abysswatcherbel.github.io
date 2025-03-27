@@ -17,6 +17,7 @@ from src.rank_processing import (
 from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
 from util.logger_config import logger
+from util.seasonal_schedule import SeasonScheduler
 
 load_dotenv()
 
@@ -25,6 +26,8 @@ app.config["FREEZER_RELATIVE_URLS"] = True  # For proper relative paths
 app.config["FREEZER_DESTINATION"] = "docs"  # GitHub Pages default folder
 freezer = Freezer(app)
 
+episode_schedule = SeasonScheduler()
+post_schedule = SeasonScheduler(schedule_type="post")
 
 @app.route("/current_chart.html", endpoint="current_chart")
 def karma_rank():
@@ -42,8 +45,8 @@ def karma_rank():
             - Various symbols for UI elements
     """
 
-    current_shows = get_weekly_change(current_time=datetime.now(timezone.utc), current_week=get_week_id("post"))
-    airing_details = get_airing_period()
+    current_shows = get_weekly_change(current_time=episode_schedule.post_time, current_week=episode_schedule.week_id)
+    airing_details = episode_schedule.get_airing_period()
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
 
@@ -104,11 +107,11 @@ def current_week():
             - active_discussions: Currently active discussion posts on r/anime (under the 48 hours rule)
     """
     # Calculate current week_id
-    current_time = datetime.now(timezone.utc)
-    current_week_id = get_week_id("post", current_time)
+    current_time = post_schedule.post_time
+    current_week_id = post_schedule.week_id
 
     current_shows = get_weekly_change(current_time=current_time, current_week=current_week_id)
-    airing_details = get_airing_period(schedule_type='post')
+    airing_details = episode_schedule.get_airing_period()
 
     logger.debug(f"Airing details {airing_details} for the Current week: {current_week_id}")  
 
