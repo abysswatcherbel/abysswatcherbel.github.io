@@ -3,6 +3,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Dict, Literal, Optional, Union, ClassVar
 import os
+from util.logger_config import logger
 
 import pandas as pd
 from pydantic import BaseModel, Field, field_validator, model_validator
@@ -141,6 +142,7 @@ class SeasonScheduler(BaseModel):
     def _create_episodes_schedule(self, schedule_path: Path) -> None:
         """Create a default episodes schedule CSV file."""
         # For episodes schedule, determine appropriate start date based on season
+        logger.warning(f"Creating {self.schedule_type} schedule for {self.season_name} {self.year}")
         if self.season_name == Season.SPRING:
             start_date = datetime(self.year, 3, 28, tzinfo=timezone.utc)
         elif self.season_name == Season.SUMMER:

@@ -23,7 +23,7 @@ def setup_logger():
     # Add file handler
     logger.add(
         sink=log_file,
-        level="INFO",
+        level="DEBUG",
         rotation="00:00",  # Rotate at midnight
         retention="7 days",  # Keep logs for 7 days
         colorize=False,

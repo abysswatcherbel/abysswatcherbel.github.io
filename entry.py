@@ -27,7 +27,9 @@ app.config["FREEZER_DESTINATION"] = "docs"  # GitHub Pages default folder
 freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
+logger.debug(f"Episode schedule: {episode_schedule.model_dump()}")
 post_schedule = SeasonScheduler(schedule_type="post")
+logger.debug(f"Post schedule: {post_schedule.model_dump()}")
 
 @app.route("/current_chart.html", endpoint="current_chart")
 def karma_rank():
