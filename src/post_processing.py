@@ -687,6 +687,7 @@ def get_active_posts(
                             },
                         },
                     )
+                    logger.debug(f"Post details {post_details} found for MAL ID: {mal_id}")
                     if post_details:
                         post_details = dict(post_details)
                         post_details["reddit_url"] = submission.url
