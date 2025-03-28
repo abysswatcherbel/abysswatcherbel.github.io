@@ -49,7 +49,7 @@ from util.logger_config import logger
 from typing import (
     Literal, Dict, List, Tuple
 )
-from util.seasonal_schedule import SeasonScheduler, ScheduleType 
+from util.seasonal_schedule import SeasonScheduler
 
 
 load_dotenv()
@@ -328,7 +328,7 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
                     "title": submission.title,
                     "created_utc": int(submission.created_utc),
                     "closing_at": trigger_time,
-                    "week_id": season_scheduler.get_week_id(),
+                    "week_id": season_scheduler.week_id,
                     "season": season_scheduler.season_name,
                 }
             )
