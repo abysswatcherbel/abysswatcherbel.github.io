@@ -45,7 +45,7 @@ def karma_rank():
             - Various symbols for UI elements
     """
 
-    current_shows = get_weekly_change(current_time=episode_schedule.post_time, current_week=episode_schedule.week_id)
+    current_shows = get_weekly_change(current_time=episode_schedule.post_time, current_week=episode_schedule.get_week_id())
     airing_details = episode_schedule.get_airing_period()
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
@@ -108,7 +108,7 @@ def current_week():
     """
     # Calculate current week_id
     current_time = post_schedule.post_time
-    current_week_id = post_schedule.week_id
+    current_week_id = post_schedule.get_week_id()
 
     current_shows = get_weekly_change(current_time=current_time, current_week=current_week_id)
     airing_details = episode_schedule.get_airing_period()
