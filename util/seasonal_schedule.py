@@ -9,30 +9,20 @@ import pandas as pd
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 
-class Season(str, Enum):
-    WINTER = "winter"
-    SPRING = "spring"
-    SUMMER = "summer"
-    FALL = "fall"
-
-
-class ScheduleType(str, Enum):
-    EPISODES = "episodes"
-    POST = "post"
-
 
 class SeasonScheduler(BaseModel):
     """Pydantic model for managing anime season schedules."""
     
     # Input parameters
-    schedule_type: ScheduleType = Field(default=ScheduleType.EPISODES, description="Type of schedule to use")
+    schedule_type: Literal['episodes', 'post'] = Field(default='episodes', description="Type of schedule to use")
     post_time: datetime = Field(default_factory=lambda: datetime.now(timezone.utc), description="Reference time for calculations")
     base_path: str = Field(default="src/season_references", description="Base path for schedule files")
     
     # Derived fields (calculated from inputs)
     year: Optional[int] = Field(default=None, description="Year derived from post_time")
     month: Optional[int] = Field(default=None, description="Month derived from post_time")
-    season_name: Optional[Season] = Field(default=None, description="Season name derived from month")
+    schedule_csv 
+    season_name: Optional[str] = Field(default=None, description="Season name derived from month")
     season_number: Optional[int] = Field(default=None, description="Season number (1-4) derived from month")
     week_id: Optional[int] = Field(default=None, description="Current week ID based on post_time")
     
@@ -65,16 +55,16 @@ class SeasonScheduler(BaseModel):
     
     # Class methods (static helpers)
     @classmethod
-    def _get_season_name(cls, month_int: int) -> Season:
+    def _get_season_name(cls, month_int: int) -> str:
         """Get season name from month number."""
         if month_int in range(1, 4):
-            return Season.WINTER
+            return 'winter'
         elif month_int in range(4, 7):
-            return Season.SPRING
+            return 'spring'
         elif month_int in range(7, 10):
-            return Season.SUMMER
+            return 'summer'
         elif month_int in range(10, 13):
-            return Season.FALL
+            return 'fall'
         else:
             raise ValueError("Invalid month integer. Please provide a value between 1 and 12.")
     
