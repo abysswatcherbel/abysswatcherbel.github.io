@@ -48,7 +48,7 @@ def karma_rank():
     """
 
     current_shows = get_weekly_change(current_time=post_schedule.post_time, current_week=post_schedule.week_id)
-    airing_details = episode_schedule.airing_period
+    airing_details = post_schedule.airing_period
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
 
@@ -113,7 +113,7 @@ def current_week():
     current_week_id = post_schedule.week_id
 
     current_shows = get_weekly_change(current_time=current_time, current_week=current_week_id)
-    airing_details = episode_schedule.airing_period
+    airing_details = post_schedule.airing_period
 
     logger.debug(f"Airing details {airing_details} for the Current week: {current_week_id}")  
 
