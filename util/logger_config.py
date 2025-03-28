@@ -4,6 +4,41 @@ import sys
 import os
 from pathlib import Path
 
+
+class KarmaRanksLogger:
+    def __init__(self):
+        self.logger = loguru_logger
+        self.logger.remove()
+        self.logger.add(
+            sys.stdout,
+            level="INFO",
+            colorize=True,
+            enqueue=True
+        )
+        self.logger_dir = self._get_logger_dir()
+        self.log_file = os.path.join(self.logger_dir, "karma_ranks.log")
+        self.logger.add(
+            sink=self.log_file,
+            level="DEBUG",
+            rotation="00:00",  # Rotate at midnight
+            retention="3 days",  # Keep logs for 3 days
+            colorize=True,
+            enqueue=True,  # Thread-safe logging
+            backtrace=True,  # Include traceback info
+            diagnose=True,   # Include variables in traceback
+        )
+        
+    
+    def get_logger(self) -> Logger:
+        return self.logger
+    
+    def _get_logger_dir(self)-> Path:
+        base_dir = Path(__file__).parent.parent  # karma_track root directory
+        logger_dir = base_dir / "logs"
+        os.makedirs(logger_dir, exist_ok=True)
+        return logger_dir
+
+
 def setup_logger():
     # Create a configured logger instance
     logger: Logger = loguru_logger
@@ -25,8 +60,8 @@ def setup_logger():
         sink=log_file,
         level="DEBUG",
         rotation="00:00",  # Rotate at midnight
-        retention="7 days",  # Keep logs for 7 days
-        colorize=False,
+        retention="3 days",  # Keep logs for 7 days
+        colorize=True,
         enqueue=True,  # Thread-safe logging
         backtrace=True,  # Include traceback info
         diagnose=True,   # Include variables in traceback
