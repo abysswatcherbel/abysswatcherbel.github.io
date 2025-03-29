@@ -8,6 +8,25 @@ import pandas as pd
 from datetime import datetime, timezone
 import os
 from util.logger_config import logger
+from util.mal import MalImages
+from pydantic import BaseModel
+from typing import List, Optional
+
+class KarmaRankEntry(BaseModel):
+    rank: int
+    title: str
+    karma: int
+    comments: int
+    episode: str
+    studio: str
+    streaming_on: str
+    url: str
+    mal_id: int
+    images: MalImages
+    score: float
+
+class KarmaRank(BaseModel):
+    entries: List[KarmaRankEntry]
 
 
 
