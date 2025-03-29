@@ -109,7 +109,8 @@ class MalClient:
                 "status", "media_type", "genres", "num_episodes",
                 "source", "start_date", "start_season", "broadcast",
                 "studios", "num_list_users"
-            ])
+            ]),
+            "sort": "num_list_users",
         }
 
         entries = []
