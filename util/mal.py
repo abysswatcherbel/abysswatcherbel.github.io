@@ -38,10 +38,10 @@ class MalEntry(BaseModel):
     images: MalImages
     title: str
     title_english: Optional[str] = None
-    media_type: str
-    source: str
+    media_type: Optional[str] = None
+    source: Optional[str] = None
     num_episodes: Optional[int] = None
-    status: str
+    status: Optional[str] = None
     score: Optional[float] = None
     members: Optional[int] = None
     season: Optional[str] = None
@@ -64,13 +64,13 @@ class MalEntry(BaseModel):
         mal_id = node["id"]
         return {
             "id": mal_id,
-            "title": node["title"],
-            "title_english": node.get("alternative_titles", {}).get("en") or None,
+            "title": node.get("title"),
+            "title_english": node.get("alternative_titles", {}).get("en"),
             "images": node.get("main_picture", {}),
-            "media_type": node["media_type"],
-            "source": node["source"],
+            "media_type": node.get("media_type"),
+            "source": node.get("source"),
             "num_episodes": node.get("num_episodes"),
-            "status": node["status"],
+            "status": node.get("status"),
             "score": node.get("mean"),  # Optional if included
             "members": node.get("num_list_users"),
             "season": node.get("start_season", {}).get("season"),
@@ -129,6 +129,7 @@ class MalClient:
 
             # Pagination
             url = data.get("paging", {}).get("next")
+            logger.debug(f"Next URL: {url}")
             params = {}  # MAL requires you to drop query params after the first call with `next` URL
 
         return entries
