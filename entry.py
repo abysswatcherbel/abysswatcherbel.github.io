@@ -111,7 +111,7 @@ def current_week():
     current_week_id = post_schedule.week_id
 
     current_shows = get_weekly_change(schedule=post_schedule)
-    print(f'Current shows for season: {post_schedule.season_name}-{current_week_id}: {len(current_shows)}')  # Debug print
+   
     airing_details = post_schedule.airing_period
 
     logger.debug(f"Airing details {airing_details} for the Current week: {current_week_id}")  
@@ -119,7 +119,7 @@ def current_week():
     season_averages = get_season_averages(
         schedule=post_schedule,
     )
-    print(f'Samled season averages: {season_averages[0]}')  # Debug print
+    
     available_seasons = get_available_seasons()
     active_discussions = get_active_posts()
     
