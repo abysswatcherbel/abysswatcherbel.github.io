@@ -423,7 +423,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
     title_details, episode = get_title_details(post.title)
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    col = db.winter_2025  # Your collection name
+    col = db.seasonals  # Your collection name
 
     romaji = title_details.get("romaji")
     english = title_details.get("english")
@@ -431,11 +431,10 @@ def close_post(post_id, reddit: Reddit, week_id: int):
         "$or": [
             {"title": romaji},
             {"title_english": english},
-            {"titles.title": {"$in": [romaji, english]}},
         ]
     }
-    mal_doc = col.find_one(query, {"mal_id": 1})
-    mal_id = mal_doc["mal_id"] if mal_doc else None
+    mal_doc = col.find_one(query, {"id": 1})
+    mal_id = mal_doc["id"] if mal_doc else None
 
     logger.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
 
