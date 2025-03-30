@@ -61,10 +61,11 @@ def setup_logger():
         level="DEBUG",
         rotation="00:00",  # Rotate at midnight
         retention="3 days",  # Keep logs for 7 days
-        colorize=True,
+        colorize=False,
         enqueue=True,  # Thread-safe logging
         backtrace=True,  # Include traceback info
         diagnose=True,   # Include variables in traceback
+        format=f"{time_format} | {{level}} | {{file}}:{{function}}:{{line}} | {{message}}",
     )
     
     # Add stdout handler (will be captured by journalctl)

@@ -63,13 +63,14 @@ class SeasonScheduler(BaseModel):
             self.season_name = self._get_season_name(self.season_number)
             self.week_id = self.schedule_detals.week_id
             self.airing_period = self.get_airing_period()
-            logger.debug(f"Derived fields calculated: {self.model_dump()}")
+            logger.debug(f"Derived fields calculated for {self.schedule_type}: {self.model_dump_json(indent=2)}")
         return self
     
     # Class methods (static helpers)
     @classmethod
     def _get_schedule_details(cls, schedule_type: str ,schedule_csv: Path, current_time: datetime) -> ScheduleDetails:
         """Get schedule details for the current time."""
+        logger.info(f'Getting schedule details for {schedule_type} at {current_time} on {schedule_csv}')
         schedule_df = pd.read_csv(schedule_csv)
         schedule_df["start_date"] = pd.to_datetime(schedule_df["start_date"], utc=True)
         schedule_df["end_date"] = pd.to_datetime(schedule_df["end_date"], utc=True)

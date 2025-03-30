@@ -31,9 +31,10 @@ Overall, post_processing.py is integral to the application's functionality by au
 """
 
 from praw import Reddit
-from praw.models import Submission
+from praw.models import Submission, Redditor
 from datetime import datetime, timedelta, timezone
 import os
+import json
 from math import ceil
 import re
 from pymongo import MongoClient
@@ -47,7 +48,7 @@ from dotenv import load_dotenv
 from loguru import logger
 from util.logger_config import logger
 from typing import (
-    Literal, Dict, List, Tuple
+    Literal, Dict, List, Tuple, Iterator
 )
 from util.seasonal_schedule import SeasonScheduler
 
@@ -111,8 +112,10 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
             name="Daily update",
             id="daily_update",
         )
-    
-    logger.info("Scheduler setup completed")
+    if scheduler:
+        logger.success("Scheduler setup completed")
+    else:
+        logger.error("Scheduler setup failed")
     return scheduler
 
 
@@ -219,6 +222,7 @@ def schedule_post_processing(
         job_name = post.get("title_en")
 
         if scheduler.get_job(job_id):
+            logger.warning(f"Job {job_id} already exists, skipping...")
             continue  # Skip if job already exists
         try:
             scheduler.add_job(
@@ -230,7 +234,7 @@ def schedule_post_processing(
                 name=job_name,
                 
             )
-            logger.info(f"Job scheduled for post: {post['id']}")
+            logger.success(f"Job scheduled for post: {post['id']}")
         except ConflictingIdError:
             logger.warning(f"Conflicting ID error for job: {job_id}")
         except Exception as e:
@@ -275,7 +279,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
         logger.error(f"Error processing post {post['id']}: {e}")
 
 
-def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezone.utc) -> List:
+def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List:
     """
     Retrieves recent Reddit posts submitted by AutoLovepon (The r/anime bot) within the last 48 hours.
 
@@ -313,15 +317,17 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
     """
     # log = setup_logging("fetch_posts")
     logger.info(f"Fetching recent posts from user: {username}")
-    
-    user = reddit.redditor(username)
+
+    user: Redditor = reddit.redditor(username)
     posts = []
-    two_days_ago = datetime.now(tz=default_tz) - timedelta(hours=48)
-    for submission in user.submissions.new(limit=100):
-        created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
-        season_scheduler = SeasonScheduler(post_time=created_time)
+    two_days_ago: datetime = datetime.now(timezone.utc) - timedelta(hours=48)
+    submissions: List[Submission] = user.submissions.new(limit=100)
+    for submission in submissions:
+        created_time: datetime = datetime.fromtimestamp(submission.created_utc, tz=timezone.utc)
         if created_time > two_days_ago:
+            season_scheduler = SeasonScheduler(post_time=created_time)
             trigger_time = created_time + timedelta(hours=48)
+            logger.debug(f'Trigger set for post: {submission.url} at {trigger_time}')
             posts.append(
                 {
                     "id": submission.id,
@@ -332,8 +338,10 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon", default_tz=timezo
                     "season": season_scheduler.season_name,
                 }
             )
-    
-    logger.info(f"Found {len(posts)} posts within the last 48 hours")
+    if posts:
+        logger.info(f"Found {len(posts)} posts within the last 48 hours")
+    else: 
+        logger.warning("No posts found within the last 48 hours")
     return posts
 
 
@@ -433,7 +441,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
             {"title_english": english},
         ]
     }
-    mal_doc = col.find_one(query, {"id": 1})
+    mal_doc = col.find_one(query, {"id": 1}) # Check if the show exists on the db
     mal_id = mal_doc["id"] if mal_doc else None
 
     logger.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
@@ -450,7 +458,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
         "url": post.url,
     }
 
-    logger.debug(f"Post details: {post_details}")
+    logger.debug(f"Post details: {json.dumps(post_details, indent=2)}")
 
     return post_details
 

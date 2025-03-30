@@ -3,14 +3,14 @@ import os
 from datetime import datetime, timezone
 from itertools import zip_longest
 from dotenv import load_dotenv
-from flask import Flask, abort, render_template, request
+from flask import Flask, abort, render_template
 from flask_frozen import Freezer
 from pymongo import MongoClient
 from src.rank_processing import (
     get_available_seasons,
     get_season_averages,
     get_weekly_change,
-    update_mal_numbers,
+ 
 )
 from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
@@ -27,9 +27,7 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
-logger.debug(f"Episode schedule: {episode_schedule.model_dump()}")
 post_schedule = SeasonScheduler(schedule_type="post")
-logger.debug(f"Post schedule: {post_schedule.model_dump()}")
 
 
 @app.route("/current_chart.html", endpoint="current_chart")
