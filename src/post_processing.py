@@ -473,7 +473,7 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
 
 
 def insert_mongo(
-    post_details: dict, client: MongoClient = MongoClient(os.getenv("MONGO_URI"), schedule = SeasonScheduler())
+    post_details: dict, client: MongoClient = MongoClient(os.getenv("MONGO_URI")), schedule = SeasonScheduler()
 ) -> None:
     """
     Inserts post details into the MongoDB database.
@@ -531,7 +531,8 @@ def insert_mongo(
     query = {"id": mal_id}
     
     if col.find_one(query):
-        update_result = col.update_one(query, {"$push": {"reddit_karma.2025.spring": episode_data}})
+        reddit_karma = f"reddit_karma.{schedule.year}.{schedule.season_name}"
+        update_result = col.update_one(query, {"$push": {reddit_karma: episode_data}})
         logger.info(f"Updated document: {update_result.upserted_id}")
     else:
         if mal_id:

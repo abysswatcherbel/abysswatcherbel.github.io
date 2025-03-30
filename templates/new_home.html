@@ -12,11 +12,7 @@
     </head>
 
     <body>
-        {# Debug output #}
-        <pre class="debug">
-      Available Seasons: {{ available_seasons|tojson(indent=2) }}
-      Current Year: {{ year }}
-    </pre>
+        <header>
         <div class="header-container">
             <div class="logo">
                 <i class="fa-solid fa-chart-line"></i>
@@ -62,6 +58,7 @@
                 </div>
             </nav>
         </div>
+        </header>
 
         <main>
             <div class="tabs">
