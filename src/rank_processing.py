@@ -105,7 +105,7 @@ def get_weekly_change(schedule: SeasonScheduler):
                 "week_id": f"${reddit_karma}.week_id",
                 "images": 1,
                 "studio": "$studios.name",
-                "score": f"${reddit_karma}.mal_stats.score",
+                "score": 1,
                 "streams": 1,
                 "url": f"${reddit_karma}.url",
                 "mal_id": "$id",
@@ -317,8 +317,11 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
             try:
                 logger.info(f'Getting mal_details for id: {mal_id}')
                 endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
+                headers = {
+                    "X-MAL-CLIENT-ID": os.getenv('MAL_SECRET'),
+                }
 
-                response = requests.get(url=endpoint, headers=os.getenv('MAL_SECRET'), timeout=90)
+                response = requests.get(url=endpoint, headers=headers, timeout=90)
                 if response.status_code == 200:
                     data = response.json()
                     logger.success(f"Got MAL data for {mal_id}")
@@ -327,12 +330,6 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
                         "members": data.get("num_list_users"),
                         "scoring_members": data.get("num_scoring_users"),
                         "extra_stats": data.get("statistics", {}).get("status"),
-                    }
-
-                    pipeline = {
-                        "id": mal_id,
-                        "reddit_karma.week_id": current_week,
-                        "mal_stats": new_statistic,
                     }
 
                     collection.update_one(
@@ -354,6 +351,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
                     logger.error(f"Error with ID {mal_id}: {response.status_code}")
             except Exception as e:
                 logger.error(f"Error with ID {mal_id}: {e}")
+    client.close()
 
 
 def get_available_seasons():
