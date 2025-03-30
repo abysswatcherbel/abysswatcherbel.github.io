@@ -187,9 +187,6 @@ def get_weekly_change(schedule: SeasonScheduler):
     return merged_data
 
 
-
-
-
 def process_stats(data: dict, current_week):
 
     mal_id = data.get("id")
@@ -295,7 +292,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
         db.validate_collection(collection)
     except OperationFailure:
         return
-    
+
     # Set the schedule related variables
     week_id = schedule.week_id
     year = schedule.year
@@ -311,7 +308,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
     mal_ids = [entry["id"] for entry in mal_ids]
 
     if mal_ids:
-    
+
         for mal_id in mal_ids:
             try:
                 logger.info(f'Getting mal_details for id: {mal_id}')
@@ -335,7 +332,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
                         {"id": mal_id, f"{reddit_karma}.week_id": week_id},
                         {"$set": {f"{reddit_karma}.$.mal_stats": new_statistic}},
                     )
-    
+
                     collection.update_one(
                         {"id": mal_id},
                         {
@@ -353,7 +350,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
     client.close()
 
 
-def get_available_seasons():
+def get_available_seasons()-> dict:
     """
     Get all available seasons and their weeks from the docs directory.
 
@@ -382,6 +379,9 @@ def get_available_seasons():
                         if file.startswith("week_") and file.endswith(".html"):
                             weeks.append(file.replace(".html", ""))
                     if weeks:
-                        seasons_data[year][season] = sorted(weeks)
+                        # Sort the weeks numerically based on the week number
+                        seasons_data[year][season] = sorted(
+                            weeks, key=lambda x: int(x.replace("week_", ""))
+                        )
 
     return seasons_data

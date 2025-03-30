@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Karma Rankings</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
-    <script src="{{ url_for('static', filename='scripts/previous_seasons.js') }}"></script>
-    
-</head>
-<body>
-    <header>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime Karma Rankings</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
+        <script src="{{ url_for('static', filename='scripts/previous_seasons.js') }}"></script>
+
+    </head>
+
+    <body>
+        {# Debug output #}
+        <pre class="debug">
+      Available Seasons: {{ available_seasons|tojson(indent=2) }}
+      Current Year: {{ year }}
+    </pre>
         <div class="header-container">
             <div class="logo">
                 <i class="fa-solid fa-chart-line"></i>
@@ -22,11 +28,30 @@
                 <div class="controls">
                     <li class="dropdown">
                         <a href="#" class="action-link current-chart-link dropbtn">Previous Weeks ▾</a>
-                        <div class="dropdown-content years-list">
-                            <!-- First level: Years -->
+                        <div class="dropdown-content">
                             {% for year in available_seasons.keys()|list|sort(reverse=True) %}
-                            <div class="year-item" data-year="{{ year }}">
-                                <a class="year-header">{{ year }}</a>
+                            <div class="year-item">
+                                <div class="year-header">{{ year }}</div>
+                                <div class="seasons-dropdown">
+                                    {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
+                                    {% for season in seasons_order %}
+                                    {% if season in available_seasons[year] %}
+                                    <div class="season-item">
+                                        <div class="season-header season {{ season }}">{{ season|capitalize }}</div>
+                                        <div class="weeks-dropdown">
+                                            {% for week in available_seasons[year][season] %}
+                                            <a href="{{ url_for('show_week', 
+                                                            year=year|int, 
+                                                            season=season, 
+                                                            week=week|replace('week_', '')|int) }}">
+                                                Week {{ week|replace('week_', '') }}
+                                            </a>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
                             </div>
                             {% endfor %}
                         </div>
@@ -35,360 +60,337 @@
                         <i class="fa-solid fa-moon"></i>
                     </button>
                 </div>
-                
-                <!-- Additional dropdowns that will be shown/hidden via JavaScript -->
-                <div id="seasons-container" class="seasons-container">
-                    {% for year in available_seasons.keys()|list|sort(reverse=True) %}
-                    <div class="seasons-dropdown" id="seasons-{{ year }}" style="display: none;">
-                        {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
-                        {% for season in seasons_order %}
-                        {% if season in available_seasons[year] %}
-                        <div class="season-item" data-year="{{ year }}" data-season="{{ season }}">
-                            <a class="season-header season {{ season }}">{{ season|capitalize }}</a>
-                        </div>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-                    {% endfor %}
-                </div>
-                
-                <div id="weeks-container" class="weeks-container">
-                    {% for year in available_seasons.keys()|list|sort(reverse=True) %}
-                    {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
-                    {% for season in seasons_order %}
-                    {% if season in available_seasons[year] %}
-                    <div class="weeks-dropdown" id="weeks-{{ year }}-{{ season }}" style="display: none;">
-                        {% set weeks = available_seasons[year][season]|list %}
-                        {% set weeks_sorted = [] %}
-                        {% for week in weeks %}
-                        {% set week_num = week|replace('week_', '')|int %}
-                        {% set _ = weeks_sorted.append((week_num, week)) %}
-                        {% endfor %}
-                        {% for week_num, week_id in weeks_sorted|sort %}
-                        <a href="{{ url_for('show_week', 
-                                                    year=year|int, 
-                                                    season=season, 
-                                                    week=week_num) }}">
-                            Week {{ week_num }}
-                        </a>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                </div>
             </nav>
         </div>
-    </header>
 
-    <main>
-        <div class="tabs">
-            <div class="tab active" data-tab="current-discussions">Current Discussions</div>
-            <div class="tab" data-tab="weekly-ranking">Weekly Ranking</div>
-            <div class="tab" data-tab="season-averages">Season Averages</div>
-        </div>
+        <main>
+            <div class="tabs">
+                <div class="tab active" data-tab="current-discussions">Current Discussions</div>
+                <div class="tab" data-tab="weekly-ranking">Weekly Ranking</div>
+                <div class="tab" data-tab="season-averages">Season Averages</div>
+            </div>
 
-        <!-- Current Discussions Tab -->
-        <div class="tab-content active" id="current-discussions">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="card-title">Recent Episode Discussions (Last 48 Hours)</h2>
-                    <div class="last-updated">Last updated: <span id="current-update-time">{{ current_time }}</span></div>
-                </div>
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                
-                                <th>Anime</th>
-                                <th>Karma</th>
-                                <th>Comments</th>
-                                <th>Time</th>
-                                <th>Links</th>
-                            </tr>
-                        </thead>
-                        <tbody id="current-discussions-table">
-                            <!-- Rows -->
-                            {% if active_discussions %}
+            <!-- Current Discussions Tab -->
+            <div class="tab-content active" id="current-discussions">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Recent Episode Discussions (Last 48 Hours)</h2>
+                        <div class="last-updated">Last updated: <span id="current-update-time">{{ current_time }}</span>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Anime</th>
+                                    <th>Karma</th>
+                                    <th>Comments</th>
+                                    <th>Time</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="current-discussions-table">
+                                <!-- Rows -->
+                                {% if active_discussions %}
                                 {% for show in active_discussions %}
-                            <tr>
-                                
-                                <td>
-                                    <div class="anime-title">
-                                        <img src="{{ show.images.medium }}" alt="{{ show.title }}" class="anime-img">
-                                        <div class="anime-info">
-                                            <span class="anime-name">{{ show.title_english or show.title }}</span>
-                                            <span class="episode">{{ show.episode }}</span>
+                                <tr>
+
+                                    <td>
+                                        <div class="anime-title">
+                                            <img src="{{ show.images.medium }}" alt="{{ show.title }}"
+                                                class="anime-img">
+                                            <div class="anime-info">
+                                                <span class="anime-name">{{ show.title_english or show.title }}</span>
+                                                <span class="episode">{{ show.episode }}</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span class="karma">{{ show.karma }}</span>
-                                    
-                                </td>
-                                <td class="comments">{{ show.comments }}</td>
-                                <td>{{ show.time_left | round(2) }}</td>
-                                <td>
-                                    <div class="action-links">
-                                        <a href="{{ show.reddit_url }}" class="action-link reddit-link" target="_blank">Reddit</a>
-                                        <a href="{{ show.streams.url }}" class="action-link stream-link" target="_blank">Watch</a>
-                                    </div>
-                                </td>
-                            </tr>
+                                    </td>
+                                    <td>
+                                        <span class="karma">{{ show.karma }}</span>
+
+                                    </td>
+                                    <td class="comments">{{ show.comments }}</td>
+                                    <td>{{ show.time_left | round(2) }}</td>
+                                    <td>
+                                        <div class="action-links">
+                                            <a href="{{ show.reddit_url }}" class="action-link reddit-link"
+                                                target="_blank">Reddit</a>
+                                            <a href="{{ show.streams.url }}" class="action-link stream-link"
+                                                target="_blank">Watch</a>
+                                        </div>
+                                    </td>
+                                </tr>
                                 {% endfor %}
-                            {% else %}
-                            <tr><td colspan="7">No active discussions available</td></tr>
-                            {% endif %}
-                        </tbody>
-                    </table>
+                                {% else %}
+                                <tr>
+                                    <td colspan="7">No active discussions available</td>
+                                </tr>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Weekly Ranking Tab -->
-        <div class="tab-content" id="weekly-ranking">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="card-title">{{ airing_details.airing_period }}</h2>
-                    <div class="last-updated">Last updated: <span id="weekly-update-time">{{ current_time }}</span></div>
-                </div>
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="sort-asc">Rank</th>
-                                <th>Anime</th>
-                                <th>Karma</th>
-                                <th>Comments</th>
-                                <th>Links</th>
-                            </tr>
-                        </thead>
-                        <tbody id="weekly-ranking-table">
-                            <!-- Row 1 -->
-                            {% if current_shows %}
+            <!-- Weekly Ranking Tab -->
+            <div class="tab-content" id="weekly-ranking">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">{{ airing_details.airing_period }}</h2>
+                        <div class="last-updated">Last updated: <span id="weekly-update-time">{{ current_time }}</span>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="sort-asc">Rank</th>
+                                    <th>Anime</th>
+                                    <th>Karma</th>
+                                    <th>Comments</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="weekly-ranking-table">
+                                <!-- Row 1 -->
+                                {% if current_shows %}
                                 {% for show in current_shows %}
-                            <tr>
-                                <td>
-                                    <span class="rank">{{ show.current_rank }}</span>
-                                    {% if show.rank_change not in ('returning', 'new') %}
-                                    <span class="rank-change {% if show.rank_change | int > 0 %}up{%else%}down{%endif%}">{{ show.rank_change | int | abs}}</span>
-                                    {%else%}
-                                    <span class="rank-change style="display: none"></span>
-                                    {%endif%}
-                                </td>
-                                <td>
-                                    <div class="anime-title">
-                                        <img src="{{ show.images.medium }}" alt="{{ show.title }}" class="anime-img">
-                                        <div class="anime-info">
-                                            <span class="anime-name">{{ show.title_english or show.title }}</span>
-                                            <span class="episode">Episode {{ show.episode }}</span>
+                                <tr>
+                                    <td>
+                                        <span class="rank">{{ show.current_rank }}</span>
+                                        {% if show.rank_change not in ('returning', 'new') %}
+                                        <span
+                                            class="rank-change {% if show.rank_change | int > 0 %}up{%else%}down{%endif%}">{{
+                                            show.rank_change | int | abs}}</span>
+                                        {%else%}
+                                        <span class="rank-change style=" display: none"></span>
+                                        {%endif%}
+                                    </td>
+                                    <td>
+                                        <div class="anime-title">
+                                            <img src="{{ show.images.medium }}" alt="{{ show.title }}"
+                                                class="anime-img">
+                                            <div class="anime-info">
+                                                <span class="anime-name">{{ show.title_english or show.title }}</span>
+                                                <span class="episode">Episode {{ show.episode }}</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span class="karma">{{ show.karma }}</span>
-                                    {%if show.karma_change != 0 %}
-                                    <span class="karma-change {% if show.karma_change | int > 0 %}positive{%else%}negative{%endif%}">{{ show.karma_change | int | abs }}</span>
-                                    {%else%}
-                                    <span class="karma-change style="display: none"></span>
-                                    {%endif%}
+                                    </td>
+                                    <td>
+                                        <span class="karma">{{ show.karma }}</span>
+                                        {%if show.karma_change != 0 %}
+                                        <span
+                                            class="karma-change {% if show.karma_change | int > 0 %}positive{%else%}negative{%endif%}">{{
+                                            show.karma_change | int | abs }}</span>
+                                        {%else%}
+                                        <span class="karma-change style=" display: none"></span>
+                                        {%endif%}
 
-                                </td>
-                                <td class="comments">{{ show.comments }}</td>
-                                <td>
-                                    <div class="action-links">
-                                        <a href={{ show.url }} class="action-link reddit-link" target="_blank">Reddit</a>
-                                        <a href="{{ show.streams.url }}" class="action-link stream-link" target="_blank">Watch</a>
-                                    </div>
-                                </td>
-                            </tr>
+                                    </td>
+                                    <td class="comments">{{ show.comments }}</td>
+                                    <td>
+                                        <div class="action-links">
+                                            <a href={{ show.url }} class="action-link reddit-link"
+                                                target="_blank">Reddit</a>
+                                            <a href="{{ show.streams.url }}" class="action-link stream-link"
+                                                target="_blank">Watch</a>
+                                        </div>
+                                    </td>
+                                </tr>
                                 {%endfor%}
-                            {%endif%}
-                        </tbody>
-                    </table>
+                                {%endif%}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Season Averages Tab -->
-        <div class="tab-content" id="season-averages">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="card-title">{{ airing_details.season }} {{ current_time.year }} Season Averages</h2>
-                    <div class="last-updated">Last updated: <span id="season-update-time">{{ current_time }}</span></div>
-                </div>
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="sort-asc">Rank</th>
-                                <th>Anime</th>
-                                <th>Average Karma</th>
-                                <th>Average Comments</th>
-                                <th>Episodes</th>
-                                <th>Links</th>
-                            </tr>
-                        </thead>
-                        <tbody id="season-averages-table">
-                            <!-- Row 1 -->
-                            {% if average_shows %}
-                    
+            <!-- Season Averages Tab -->
+            <div class="tab-content" id="season-averages">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">{{ airing_details.season }} {{ current_time.year }} Season Averages</h2>
+                        <div class="last-updated">Last updated: <span id="season-update-time">{{ current_time }}</span>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="sort-asc">Rank</th>
+                                    <th>Anime</th>
+                                    <th>Average Karma</th>
+                                    <th>Average Comments</th>
+                                    <th>Episodes</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="season-averages-table">
+                                <!-- Row 1 -->
+                                {% if average_shows %}
+
                                 {% for show in average_shows %}
-                            <tr>
-                                <td class="rank">{{ loop.index }}</td>
-                                <td>
-                                    <div class="anime-title">
-                                        <img src="{{ show.images.medium }}" alt="{{ show.title }}" class="anime-img">
-                                        <div class="anime-info">
-                                            <span class="anime-name">{{ show.title_english or show.title }}</span>
-                                            <span class="episode">{{ show.episode }}</span>
+                                <tr>
+                                    <td class="rank">{{ loop.index }}</td>
+                                    <td>
+                                        <div class="anime-title">
+                                            <img src="{{ show.images.medium }}" alt="{{ show.title }}"
+                                                class="anime-img">
+                                            <div class="anime-info">
+                                                <span class="anime-name">{{ show.title_english or show.title }}</span>
+                                                <span class="episode">{{ show.episode }}</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </td>
-                                <td class="karma">
-                                    {% if show.average_karma %} 
-                                        {{ "%.2f"|format(show.average_karma) if show.average_karma % 1 != 0 else show.average_karma|int }}
-                                    {% endif %}
-                                </td>
-                                <td class="comments">
-                                    {% if show.average_comments %} 
-                                        {{ "%.2f"|format(show.average_comments) if show.average_comments % 1 != 0 else show.average_comments|int }}
-                                    {% endif %}
-                                </td>
-                                <td>{{ show.total_episodes }}</td>
-                                <td>
-                                    <div class="action-links">
-                                        <a href="{{ show.streams.url }}" class="action-link stream-link" target="_blank">Watch</a>
-                                    </div>
-                                </td>
-                            </tr>
+                                    </td>
+                                    <td class="karma">
+                                        {% if show.average_karma %}
+                                        {{ "%.2f"|format(show.average_karma) if show.average_karma % 1 != 0 else
+                                        show.average_karma|int }}
+                                        {% endif %}
+                                    </td>
+                                    <td class="comments">
+                                        {% if show.average_comments %}
+                                        {{ "%.2f"|format(show.average_comments) if show.average_comments % 1 != 0 else
+                                        show.average_comments|int }}
+                                        {% endif %}
+                                    </td>
+                                    <td>{{ show.total_episodes }}</td>
+                                    <td>
+                                        <div class="action-links">
+                                            <a href="{{ show.streams.url }}" class="action-link stream-link"
+                                                target="_blank">Watch</a>
+                                        </div>
+                                    </td>
+                                </tr>
                                 {%endfor%}
-                            {%endif%}
-                        </tbody>
-                    </table>
+                                {%endif%}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
-        <div class="footer-links">
-            <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link" target="_blank">GitHub</a>
-            <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
-        </div>
-    </footer>
+        <footer>
+            <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
+            <div class="footer-links">
+                <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link"
+                    target="_blank">GitHub</a>
+                <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
+            </div>
+        </footer>
 
-    <script>
-        // Theme toggle functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const themeIcon = themeToggle.querySelector('i');
-        
-        // Check for saved theme preference or use preferred color scheme
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.body.classList.add('dark-theme');
-            themeIcon.classList.replace('fa-moon', 'fa-sun');
-        }
+        <script>
+            // Theme toggle functionality
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = themeToggle.querySelector('i');
 
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('dark-theme');
-            
-            if (document.body.classList.contains('dark-theme')) {
+            // Check for saved theme preference or use preferred color scheme
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.body.classList.add('dark-theme');
                 themeIcon.classList.replace('fa-moon', 'fa-sun');
-                localStorage.setItem('theme', 'dark');
-            } else {
-                themeIcon.classList.replace('fa-sun', 'fa-moon');
-                localStorage.setItem('theme', 'light');
             }
-        });
 
-        // Tab functionality
-        const tabs = document.querySelectorAll('.tab');
-        const tabContents = document.querySelectorAll('.tab-content');
-        
-        tabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                const tabId = tab.getAttribute('data-tab');
-                
-                // Remove active class from all tabs and contents
-                tabs.forEach(t => t.classList.remove('active'));
-                tabContents.forEach(c => c.classList.remove('active'));
-                
-                // Add active class to current tab and content
-                tab.classList.add('active');
-                document.getElementById(tabId).classList.add('active');
-                
-                // Save active tab in localStorage
-                localStorage.setItem('activeTab', tabId);
-            });
-        });
-        
-        // Restore active tab from localStorage
-        const savedTab = localStorage.getItem('activeTab');
-        if (savedTab) {
-            tabs.forEach(tab => {
-                if (tab.getAttribute('data-tab') === savedTab) {
-                    tab.click();
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+
+                if (document.body.classList.contains('dark-theme')) {
+                    themeIcon.classList.replace('fa-moon', 'fa-sun');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    themeIcon.classList.replace('fa-sun', 'fa-moon');
+                    localStorage.setItem('theme', 'light');
                 }
             });
-        }
 
-        // Table sorting functionality
-        document.querySelectorAll('th').forEach(headerCell => {
-            headerCell.addEventListener('click', () => {
-                const table = headerCell.closest('table');
-                const headerIndex = Array.prototype.indexOf.call(headerCell.parentElement.children, headerCell);
-                const currentIsAscending = headerCell.classList.contains('sort-asc');
-                
-                // Remove sort indicators from all headers
-                table.querySelectorAll('th').forEach(th => {
-                    th.classList.remove('sort-asc', 'sort-desc');
+            // Tab functionality
+            const tabs = document.querySelectorAll('.tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const tabId = tab.getAttribute('data-tab');
+
+                    // Remove active class from all tabs and contents
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tabContents.forEach(c => c.classList.remove('active'));
+
+                    // Add active class to current tab and content
+                    tab.classList.add('active');
+                    document.getElementById(tabId).classList.add('active');
+
+                    // Save active tab in localStorage
+                    localStorage.setItem('activeTab', tabId);
                 });
-                
-                // Set new sort indicator
-                headerCell.classList.toggle('sort-desc', currentIsAscending);
-                headerCell.classList.toggle('sort-asc', !currentIsAscending);
-                
-                // Get tbody and rows
-                const tbody = table.querySelector('tbody');
-                const rows = Array.from(tbody.querySelectorAll('tr'));
-                
-                // Sort rows
-                const sortedRows = rows.sort((a, b) => {
-                    const aValue = getCellValue(a, headerIndex);
-                    const bValue = getCellValue(b, headerIndex);
-                    
-                    return (currentIsAscending ? bValue.localeCompare(aValue, undefined, {numeric: true})
-                                             : aValue.localeCompare(bValue, undefined, {numeric: true}));
-                });
-                
-                // Append sorted rows
-                tbody.append(...sortedRows);
             });
-        });
-        
-        function getCellValue(row, index) {
-            // Get cell at index
-            const cell = row.querySelector(`td:nth-child(${index + 1})`);
-            
-            // Extract number from cell for karma or rank columns
-            if (cell.classList.contains('karma') || cell.classList.contains('rank')) {
-                const valueEl = cell.querySelector('.karma') || cell.querySelector('.rank');
-                return valueEl ? valueEl.textContent : cell.textContent;
-            }
-            
-            // Extract anime name for anime column
-            if (index === 1) {
-                const nameEl = cell.querySelector('.anime-name');
-                return nameEl ? nameEl.textContent : cell.textContent;
-            }
-            
-            // Default behavior
-            return cell.textContent.trim();
-        }
 
-       
-    </script>
-</body>
+            // Restore active tab from localStorage
+            const savedTab = localStorage.getItem('activeTab');
+            if (savedTab) {
+                tabs.forEach(tab => {
+                    if (tab.getAttribute('data-tab') === savedTab) {
+                        tab.click();
+                    }
+                });
+            }
+
+            // Table sorting functionality
+            document.querySelectorAll('th').forEach(headerCell => {
+                headerCell.addEventListener('click', () => {
+                    const table = headerCell.closest('table');
+                    const headerIndex = Array.prototype.indexOf.call(headerCell.parentElement.children, headerCell);
+                    const currentIsAscending = headerCell.classList.contains('sort-asc');
+
+                    // Remove sort indicators from all headers
+                    table.querySelectorAll('th').forEach(th => {
+                        th.classList.remove('sort-asc', 'sort-desc');
+                    });
+
+                    // Set new sort indicator
+                    headerCell.classList.toggle('sort-desc', currentIsAscending);
+                    headerCell.classList.toggle('sort-asc', !currentIsAscending);
+
+                    // Get tbody and rows
+                    const tbody = table.querySelector('tbody');
+                    const rows = Array.from(tbody.querySelectorAll('tr'));
+
+                    // Sort rows
+                    const sortedRows = rows.sort((a, b) => {
+                        const aValue = getCellValue(a, headerIndex);
+                        const bValue = getCellValue(b, headerIndex);
+
+                        return (currentIsAscending ? bValue.localeCompare(aValue, undefined, { numeric: true })
+                            : aValue.localeCompare(bValue, undefined, { numeric: true }));
+                    });
+
+                    // Append sorted rows
+                    tbody.append(...sortedRows);
+                });
+            });
+
+            function getCellValue(row, index) {
+                // Get cell at index
+                const cell = row.querySelector(`td:nth-child(${index + 1})`);
+
+                // Extract number from cell for karma or rank columns
+                if (cell.classList.contains('karma') || cell.classList.contains('rank')) {
+                    const valueEl = cell.querySelector('.karma') || cell.querySelector('.rank');
+                    return valueEl ? valueEl.textContent : cell.textContent;
+                }
+
+                // Extract anime name for anime column
+                if (index === 1) {
+                    const nameEl = cell.querySelector('.anime-name');
+                    return nameEl ? nameEl.textContent : cell.textContent;
+                }
+
+                // Default behavior
+                return cell.textContent.trim();
+            }
+
+
+        </script>
+    </body>
+
 </html>

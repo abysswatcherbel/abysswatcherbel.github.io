@@ -22,12 +22,15 @@ load_dotenv()
 app = Flask(__name__)
 app.config["FREEZER_RELATIVE_URLS"] = True  # For proper relative paths
 app.config["FREEZER_DESTINATION"] = "docs"  # GitHub Pages default folder
+app.config["DEBUG"] = True
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
 logger.debug(f"Episode schedule: {episode_schedule.model_dump()}")
 post_schedule = SeasonScheduler(schedule_type="post")
 logger.debug(f"Post schedule: {post_schedule.model_dump()}")
+
 
 @app.route("/current_chart.html", endpoint="current_chart")
 def karma_rank():
@@ -46,7 +49,6 @@ def karma_rank():
     """
 
     current_shows = get_weekly_change(schedule=post_schedule)
-    airing_details = post_schedule.airing_period
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
 
@@ -61,7 +63,7 @@ def karma_rank():
     return render_template(
         "current_chart.html",
         complete_rankings=complete_rankings,
-        airing_details=airing_details,
+        airing_details=post_schedule.airing_period,
         sum_karma=total_karma,
         back_symbol=back_symbol,
         new_entry=new_entry,
@@ -70,7 +72,7 @@ def karma_rank():
 
 
 @app.route("/<int:year>/<season>/week_<int:week>.html", endpoint="show_week")
-def show_week(year: int, season: str, week: int)-> str:
+def show_week(year: int, season: str, week: int) -> str:
     """
     Dynamically render a specific week's chart.
 
@@ -106,77 +108,72 @@ def current_week():
             - average_shows: Season-wide averages for shows
             - active_discussions: Currently active discussion posts on r/anime (under the 48 hours rule)
     """
-    # Calculate current week_id
-    current_time = post_schedule.post_time
-    current_week_id = post_schedule.week_id
 
     current_shows = get_weekly_change(schedule=post_schedule)
-   
-    airing_details = post_schedule.airing_period
-
-    logger.debug(f"Airing details {airing_details} for the Current week: {current_week_id}")  
-
     season_averages = get_season_averages(
         schedule=post_schedule,
     )
-    
     available_seasons = get_available_seasons()
     active_discussions = get_active_posts()
-    
-    logger.debug(f"Available seasons: {available_seasons}")  
+
+    logger.debug(f"Available seasons: {available_seasons}")
 
     return render_template(
         "new_home.html",
         current_shows=current_shows,
-        current_week_id=current_week_id,
-        airing_details=airing_details,
+        current_week_id=post_schedule.week_id,
+        airing_details=post_schedule.airing_period,
         average_shows=season_averages,
         active_discussions=active_discussions,
         available_seasons=available_seasons,
-        current_time=current_time,
+        current_time=post_schedule.post_time,
     )
+
 
 @app.route("/karma_watch.html", endpoint="karma_watch")
 def karma_watch():
     """
     Render the Karma Watch page for comparing show karma progression.
-    
+
     Allows users to select and compare different shows to visualize how
     their karma grew over time after episode discussions were posted.
-    
+
     Returns:
         rendered template: The karma_watch.html template
     """
     # Get all available shows with karma progression data
     client = MongoClient(os.getenv("MONGO_URI"))
     collection = client.anime.karma_watch
-    
-    # Get karma progression data for all tracked shows
-    karma_data = list(collection.find(
-    {
-        "mal_id": {"$ne": None},
-        "hourly_karma": {
-            "$not": {
-                "$elemMatch": {"karma": {"$type": "double", "$eq": float('nan')}}
-            }
-        }
-    },
-    {"_id": 0}
-))
 
-    
+    # Get karma progression data for all tracked shows
+    karma_data = list(
+        collection.find(
+            {
+                "mal_id": {"$ne": None},
+                "hourly_karma": {
+                    "$not": {
+                        "$elemMatch": {
+                            "karma": {"$type": "double", "$eq": float("nan")}
+                        }
+                    }
+                },
+            },
+            {"_id": 0},
+        )
+    )
+
     # Save the data to a JSON file for the frontend to use
-    karma_watch_path = os.path.join('static', 'data', 'karma_watch.json')
+    karma_watch_path = os.path.join("static", "data", "karma_watch.json")
     os.makedirs(os.path.dirname(karma_watch_path), exist_ok=True)
-    
-    with open(karma_watch_path, 'w') as f:
+
+    with open(karma_watch_path, "w") as f:
         json.dump(karma_data, f)
-    
+
     client.close()
-    
+
     # Get available seasons for the navigation dropdown
     available_seasons = get_available_seasons()
-    
+
     return render_template(
         "karma_watch.html",
         available_seasons=available_seasons,
@@ -190,11 +187,7 @@ if __name__ == "__main__":
     if "freeze" in sys.argv:
         # Generate static files
         freezer.freeze()
-    elif "update_mal" in sys.argv:
-        # Update MAL Scores
-        week_id = get_week_id("post")
-        update_mal_numbers(week_id)
     elif "run" in sys.argv:
         main()
     else:
-        app.run(debug=True, use_reloader=False)
+        app.run()

@@ -5,10 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Year click handler
     const yearItems = document.querySelectorAll('.year-item');
+    console.log(`Year Items found: ${yearItems.length}`);
     yearItems.forEach(item => {
+        console.log(`Year Item found: ${item.textContent}`)
         item.addEventListener('click', function (e) {
             e.stopPropagation();
             const year = this.getAttribute('data-year');
+            console.log(`Year clicked: ${year}`);
 
             // Hide all season dropdowns first
             document.querySelectorAll('.seasons-dropdown').forEach(dropdown => {
