@@ -6,7 +6,7 @@
     <title>Anime Karma Rankings</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
-    <script src="{{ url_for('static', filename='scripts/update_link.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/previous_seasons.js') }}"></script>
     
 </head>
 <body>
@@ -22,39 +22,11 @@
                 <div class="controls">
                     <li class="dropdown">
                         <a href="#" class="action-link current-chart-link dropbtn">Previous Weeks ▾</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content years-list">
                             <!-- First level: Years -->
                             {% for year in available_seasons.keys()|list|sort(reverse=True) %}
-                            <div class="year-item">
-                                <div class="year-header">{{ year }}</div>
-                                <div class="seasons-dropdown">
-                                    <!-- Second level: Seasons for each year -->
-                                    {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
-                                    {% for season in seasons_order %}
-                                    {% if season in available_seasons[year] %}
-                                    <div class="season-item">
-                                        <div class="season-header season {{ season }}">{{ season|capitalize }}</div>
-                                        <div class="weeks-dropdown">
-                                            <!-- Third level: Weeks for each season -->
-                                            {% set weeks = available_seasons[year][season]|list %}
-                                            {% set weeks_sorted = [] %}
-                                            {% for week in weeks %}
-                                            {% set week_num = week|replace('week_', '')|int %}
-                                            {% set _ = weeks_sorted.append((week_num, week)) %}
-                                            {% endfor %}
-                                            {% for week_num, week_id in weeks_sorted|sort %}
-                                            <a href="{{ url_for('show_week', 
-                                                                    year=year|int, 
-                                                                    season=season, 
-                                                                    week=week_num) }}">
-                                                Week {{ week_num }}
-                                            </a>
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                    {% endif %}
-                                    {% endfor %}
-                                </div>
+                            <div class="year-item" data-year="{{ year }}">
+                                <a class="year-header">{{ year }}</a>
                             </div>
                             {% endfor %}
                         </div>
@@ -62,6 +34,48 @@
                     <button class="theme-toggle" id="theme-toggle">
                         <i class="fa-solid fa-moon"></i>
                     </button>
+                </div>
+                
+                <!-- Additional dropdowns that will be shown/hidden via JavaScript -->
+                <div id="seasons-container" class="seasons-container">
+                    {% for year in available_seasons.keys()|list|sort(reverse=True) %}
+                    <div class="seasons-dropdown" id="seasons-{{ year }}" style="display: none;">
+                        {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
+                        {% for season in seasons_order %}
+                        {% if season in available_seasons[year] %}
+                        <div class="season-item" data-year="{{ year }}" data-season="{{ season }}">
+                            <a class="season-header season {{ season }}">{{ season|capitalize }}</a>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                <div id="weeks-container" class="weeks-container">
+                    {% for year in available_seasons.keys()|list|sort(reverse=True) %}
+                    {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
+                    {% for season in seasons_order %}
+                    {% if season in available_seasons[year] %}
+                    <div class="weeks-dropdown" id="weeks-{{ year }}-{{ season }}" style="display: none;">
+                        {% set weeks = available_seasons[year][season]|list %}
+                        {% set weeks_sorted = [] %}
+                        {% for week in weeks %}
+                        {% set week_num = week|replace('week_', '')|int %}
+                        {% set _ = weeks_sorted.append((week_num, week)) %}
+                        {% endfor %}
+                        {% for week_num, week_id in weeks_sorted|sort %}
+                        <a href="{{ url_for('show_week', 
+                                                    year=year|int, 
+                                                    season=season, 
+                                                    week=week_num) }}">
+                            Week {{ week_num }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
                 </div>
             </nav>
         </div>
