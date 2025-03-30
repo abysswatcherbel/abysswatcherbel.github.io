@@ -423,7 +423,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
     title_details, episode = get_title_details(post.title)
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    col = db.seasonals  # Your collection name
+    col = db.seasonals 
 
     romaji = title_details.get("romaji")
     english = title_details.get("english")
@@ -438,7 +438,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
 
     logger.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
 
-    return {
+    post_details = {
         "mal_id": mal_id,
         "title": title_details,
         "week_id": week_id,
@@ -449,6 +449,10 @@ def close_post(post_id, reddit: Reddit, week_id: int):
         "post_id": post_id,
         "url": post.url,
     }
+
+    logger.debug(f"Post details: {post_details}")
+
+    return post_details
 
 
 def insert_mongo(
@@ -487,7 +491,7 @@ def insert_mongo(
 
     # Get the database and collection
     db = client.anime
-    col = db.winter_2025  # Your collection name
+    col = db.seasonals  
 
     # Get the title details
     title_info = post_details.get("title", {})
@@ -506,20 +510,20 @@ def insert_mongo(
         "url": post_details["url"],
     }
 
-    logger.info(f"Inserting data into MongoDB for MAL ID: {mal_id}\n{episode_data}")
+    logger.info(f"Inserting data into MongoDB for MAL ID: {mal_id}")
 
     if mal_id:
-        query = {"mal_id": mal_id}
+        query = {"id": mal_id}
     else:
         query = {
             "$or": [
                 {"title": romaji},
-                {"title_english": english},
-                {"titles.title": {"$in": [romaji, english]}},
+                {"title_english": english}
+                
             ]
         }
     if col.find_one(query):
-        update_result = col.update_one(query, {"$push": {"reddit_karma": episode_data}})
+        update_result = col.update_one(query, {"$push": {"reddit_karma.2025.spring": episode_data}})
         if update_result.upserted_id:
             logger.info(f"Created new document: {update_result.upserted_id}")
         else:
@@ -641,7 +645,7 @@ def get_active_posts(
     user = reddit.redditor(username)
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    collection = db.winter_2025
+    collection = db.seasonals
     hourly_data = db.karma_watch
     posts = []
     current_time = datetime.now(tz=default_tz)
@@ -659,31 +663,14 @@ def get_active_posts(
                 try:
                     mal_id = int(mal_id)
                     post_details = collection.find_one(
-                        {"mal_id": mal_id},
+                        {"id": mal_id},
                         {
                             "_id": 0,
                             "title": 1,
-                            "streaming_on": 1,
+                            "streams": 1,
                             "title_english": 1,
-                            "mal_id": 1,
+                            "mal_id": "$id",
                             "images": 1,
-                            "streaming_at": {
-                                "$cond": {
-                                    "if": {
-                                        "$and": [
-                                            {"$ne": ["$streams", None]},
-                                            {"$ne": ["$streaming_on", None]},
-                                        ]
-                                    },
-                                    "then": {
-                                        "$getField": {
-                                            "field": "$streaming_on",
-                                            "input": "$streams",
-                                        }
-                                    },
-                                    "else": None,
-                                }
-                            },
                         },
                     )
                     logger.debug(f"Post details {post_details} found for MAL ID: {mal_id}")

@@ -143,67 +143,83 @@ def get_weekly_change(current_time: datetime, current_week: int):
     """Calculate weekly rank and karma changes using MongoDB data."""
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    seasonal_entries = db.seasonals
+    seasonal_entries = db.winter_2025
 
     # Determine current week and season
     current_month = current_time.month
     season = get_season(current_month)
-    year = current_time.year
-
-    reddit_karma = f"reddit_karma.{year}.{season}"
 
     # Calculate last week ID
     last_week = 13 if current_week == 1 else current_week - 1
 
     # Fetch current week's data
     current_data = list(
-    seasonal_entries.aggregate([
-        {"$unwind": f"${reddit_karma}"},
-        {"$match": {f"{reddit_karma}.week_id": current_week}},
-        {
-            "$project": {
-                "_id": 0,
-                "title": 1,
-                "title_english": 1,
-                "episode": f"${reddit_karma}.episode",
-                "karma": f"${reddit_karma}.karma",
-                "comments": f"${reddit_karma}.comments",
-                "week_id": f"${reddit_karma}.week_id",
-                "images": 1,
-                "studio": "$studios.name",
-                "score": f"${reddit_karma}.mal_stats.score",
-                "streams": 1,
-                "url": f"${reddit_karma}.url",
-                "mal_id": "$id",
-            }
-        },
-    ])
-)
-    
-    # Fetch previous week's data
-    previous_data = list(
         seasonal_entries.aggregate(
             [
-                {"$unwind": f"${reddit_karma}"},
-                {"$match": {f"{reddit_karma}.week_id": last_week}},
+                {"$unwind": "$reddit_karma"},
+                {"$match": {"reddit_karma.week_id": current_week}},
                 {
                     "$project": {
                         "_id": 0,
                         "title": 1,
                         "title_english": 1,
-                        "episode": f"${reddit_karma}.episode",
-                        "karma": f"${reddit_karma}.karma",
-                        "comments": f"${reddit_karma}.comments",
-                        "week_id": f"${reddit_karma}.week_id",
-                        "mal_id": "$id",
+                        "episode": "$reddit_karma.episode",
+                        "karma": "$reddit_karma.karma",
+                        "comments": "$reddit_karma.comments",
+                        "week_id": "$reddit_karma.week_id",
+                        "images": 1,
+                        "studio": "$studios.name",
+                        "score": "$reddit_karma.mal_stats.score",
+                        "streaming_on": 1,
+                        "url": "$reddit_karma.url",
+                        "mal_id": 1,
+                        "mal_url": "$external_links.mal",
+                        "synopsis": 1,
+                        "trailer": 1,
+                        "streams": {
+                            "$cond": {
+                                "if": {
+                                    "$and": [
+                                        {"$ne": ["$streams", None]},
+                                        {"$ne": ["$streaming_on", None]},
+                                    ]
+                                },
+                                "then": {
+                                    "$getField": {
+                                        "field": "$streaming_on",
+                                        "input": "$streams",
+                                    }
+                                },
+                                "else": None,
+                            }
+                        },
                     }
                 },
             ]
         )
     )
 
-    logger.debug(f"Current data: {current_data[0] if current_data else 'No data'}")
-    logger.debug(f"Previous data: {previous_data[0] if previous_data else 'No data'}")
+    # Fetch previous week's data
+    previous_data = list(
+        seasonal_entries.aggregate(
+            [
+                {"$unwind": "$reddit_karma"},
+                {"$match": {"reddit_karma.week_id": last_week}},
+                {
+                    "$project": {
+                        "_id": 0,
+                        "title": 1,
+                        "title_english": 1,
+                        "episode": "$reddit_karma.episode",
+                        "karma": "$reddit_karma.karma",
+                        "comments": "$reddit_karma.comments",
+                        "week_id": "$reddit_karma.week_id",
+                        "mal_id": 1,
+                    }
+                },
+            ]
+        )
+    )
 
     # Sort and rank current and previous data
     current_sorted = sorted(current_data, key=lambda x: (-x["karma"], -x["comments"]))
@@ -285,18 +301,19 @@ def process_stats(data: dict, current_week):
 
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    col = db.seasonals
+    col = db.winter_2025
 
     mal_score = data.get("mean")
     mal_members = data.get("num_list_users")
     mal_scoring_members = data.get("num_scoring_users")
 
     col.update_one(
-        {"id": mal_id},
+        {"mal_id": mal_id},
         {
             "$set": {
                 "score": mal_score,
                 "members": mal_members,
+                "scored_by": mal_scoring_members,
             }
         },
     )
@@ -309,13 +326,13 @@ def process_stats(data: dict, current_week):
     }
 
     pipeline = {
-        "id": mal_id,
+        "mal_id": mal_id,
         "reddit_karma.week_id": current_week,
         "mal_stats": new_statistic,
     }
 
     col.update_one(
-        {"id": mal_id, "reddit_karma.2025.winter.week_id": current_week},
+        {"mal_id": mal_id, "reddit_karma.week_id": current_week},
         {"$set": {"reddit_karma.$.mal_stats": new_statistic}},
     )
     client.close()
@@ -381,32 +398,29 @@ def get_season_averages(season: str, year: int):
     # 1. Connect to your MongoDB
     client = MongoClient(os.getenv("MONGO_URI"))
 
-    logger.debug(f'Getting season averages for {season} {year}')
-
     # 2. Get your specific database and collection
     db = client.anime
-    collection = db.seasonals
+    collection = db[f"{season}_{year}"]
     try:
         db.validate_collection(collection)
     except OperationFailure:
         return
 
     pipeline = [
-        {"$match": {f"reddit_karma.{year}.{season}": {"$exists": True, "$type": "array"}}},
-        {"$match": {"$expr": {"$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 3]}}},
+        {"$match": {"reddit_karma": {"$exists": True, "$type": "array"}}},
+        {"$match": {"$expr": {"$gte": [{"$size": "$reddit_karma"}, 3]}}},
         {
             "$project": {
                 "_id": 0,
-                "mal_id": "$id",
+                "mal_id": 1,
                 "title": 1,
                 "title_english": 1,
                 "images": 1,
-                "streams": 1,
-                "average_karma": {"$avg": f"$reddit_karma.{year}.{season}.karma"},
-                "average_comments": {"$avg": f"$reddit_karma.{year}.{season}.comments"},
-                "max_karma": {"$max": f"$reddit_karma.{year}.{season}.karma"},
-                "min_karma": {"$min": f"$reddit_karma.{year}.{season}.karma"},
-                "total_episodes": {"$size": f"$reddit_karma.{year}.{season}"}
+                "average_karma": {"$avg": "$reddit_karma.karma"},
+                "average_comments": {"$avg": "$reddit_karma.comments"},
+                "max_karma": {"$max": "$reddit_karma.karma"},
+                "min_karma": {"$min": "$reddit_karma.karma"},
+                "total_episodes": {"$size": "$reddit_karma"}
             }
         },
     ]
@@ -438,11 +452,11 @@ def update_mal_numbers(week_id: int):
 
     pipeline = [
         {"$match": {"reddit_karma": {"$elemMatch": {"week_id": week_id}}}},
-        {"$project": {"_id": 0, "id": 1}},
+        {"$project": {"_id": 0, "mal_id": 1}},
     ]
 
     mal_ids = list(collection.aggregate(pipeline))
-    mal_ids = [entry["id"] for entry in mal_ids]
+    mal_ids = [entry["mal_id"] for entry in mal_ids]
     logger.info(f'Getting MAL data from {mal_ids}')
     client.close()
     fetch_mal_score(mal_ids)
