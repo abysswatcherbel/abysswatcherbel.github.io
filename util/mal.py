@@ -8,6 +8,7 @@ from pymongo.collection import Collection
 from pymongo.errors import PyMongoError
 import os
 from dotenv import load_dotenv
+from datetime import datetime, timezone
 load_dotenv()
 
 
@@ -96,7 +97,7 @@ class MalClient:
         "X-MAL-CLIENT-ID": os.getenv('MAL_SECRET'),  # Use OAuth or a static token if allowed
     }
 
-    def __init__(self, year: int, limit: int = 100):
+    def __init__(self, year: int = datetime.now(timezone.utc).year, limit: int = 100):
         self.year = year
         self.limit = limit
 
@@ -147,6 +148,7 @@ class MalClient:
 
         response = requests.get(url, headers=self.HEADERS, params=params)
         if response.status_code == 404:
+            logger.error(f"Entry with ID {mal_id} not found.")
             return None
         response.raise_for_status()
 
@@ -154,8 +156,38 @@ class MalClient:
         try:
             return MalEntry(**data)
         except ValidationError as e:
-            print("Validation error:", e)
+            logger.error("Validation error:", e)
             return None
+    
+    def push_to_db(self, mal_entry: MalEntry, collection: Collection = None) -> None:
+        """
+        Pushes a list of MAL entries to a MongoDB collection.
+        
+        Args:
+            mal_entries: List of MAL entries to push
+            collection: MongoDB collection to push to
+        """
+        if not collection:
+            client = MongoClient(os.getenv('MONGO_URI'))
+            collection = client.anime.seasonals
+       
+        try:
+            entry_dict: Dict = mal_entry.model_dump()
+            if collection.find_one({'id': entry_dict['id']}):
+                logger.info(f"Entry with ID {entry_dict['id']} already exists in the database.")
+                return
+            else:
+                collection.insert_one(entry_dict)
+                logger.success(f"Pushed {entry_dict['title']} to MongoDB")
+        except PydanticSchemaGenerationError as e:
+            logger.error(f"Error generating the schema for {mal_entry}: {e}")
+            return
+        except PyMongoError as e:
+            logger.error(f"Error pushing {mal_entry} to MongoDB: {e}")
+            return
+        except Exception as e:
+            logger.error(f"Error pushing {mal_entry} to MongoDB: {e}")
+            return
 
 
 
@@ -215,29 +247,3 @@ def fetch_mal_seasonals(year: int, season: str) -> MalSeasonals:
     # Parse the data with Pydantic
     return MalSeasonals(mal_entries=all_shows)
 
-def push_season_to_mongo(mal_entries: MalSeasonals, collection: Collection = None) -> None:
-    """
-    Pushes a list of MAL entries to a MongoDB collection.
-    
-    Args:
-        mal_entries: List of MAL entries to push
-        collection: MongoDB collection to push to
-    """
-    if not collection:
-        client = MongoClient(os.getenv('MONGO_URI'))
-        collection = client.anime.seasonal_entries
-    for entry in mal_entries:
-        try:
-            entry_dict: Dict = entry.model_dump()
-            collection.update_one({'mal_id': entry_dict['mal_id']}, {'$set': entry_dict}, upsert=True)
-            logger.success(f"Pushed {entry_dict['title']} to MongoDB")
-        except PydanticSchemaGenerationError as e:
-            logger.error(f"Error generating the schema for {entry}: {e}")
-            continue
-        except PyMongoError as e:
-            logger.error(f"Error pushing {entry} to MongoDB: {e}")
-            continue
-        except Exception as e:
-            logger.error(f"Error pushing {entry} to MongoDB: {e}")
-            continue
-       

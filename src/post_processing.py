@@ -48,9 +48,10 @@ from dotenv import load_dotenv
 from loguru import logger
 from util.logger_config import logger
 from typing import (
-    Literal, Dict, List, Tuple, Iterator
+    Dict, List, Tuple, Optional
 )
 from util.seasonal_schedule import SeasonScheduler
+from util.mal import MalClient
 
 
 load_dotenv()
@@ -279,7 +280,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
         logger.error(f"Error processing post {post['id']}: {e}")
 
 
-def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List:
+def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
     """
     Retrieves recent Reddit posts submitted by AutoLovepon (The r/anime bot) within the last 48 hours.
 
@@ -393,7 +394,7 @@ def check_post_status(submission: Submission, post_id: str) -> bool:
         return False
 
 
-def close_post(post_id, reddit: Reddit, week_id: int):
+def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
     """
     Processes and closes a Reddit discussion post after its active period.
 
@@ -428,6 +429,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
     if not post_available:
         return {}
     
+    mal_id = get_mal_id_reddit_post(post.selftext) # Try to get the MAL id from the body of the post
     title_details, episode = get_title_details(post.title)
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
@@ -435,16 +437,23 @@ def close_post(post_id, reddit: Reddit, week_id: int):
 
     romaji = title_details.get("romaji")
     english = title_details.get("english")
-    query = {
-        "$or": [
-            {"title": romaji},
-            {"title_english": english},
-        ]
-    }
-    mal_doc = col.find_one(query, {"id": 1}) # Check if the show exists on the db
-    mal_id = mal_doc["id"] if mal_doc else None
 
-    logger.info(f"Closing post: {post_id} with the MAL ID: {mal_id}")
+    # If no MAL ID is found, try to the entry from the title
+    query = {'id': mal_id} if mal_id else {'$or': [{'title': romaji}, {'title_english': english}]}
+    mal_doc = col.find_one(query, {"id": 1}) # Check if the show exists on the db
+
+    # If there is a mal_id but no document found, try to fetch the entry from MAL and push it to the db
+    if mal_id and not mal_doc:
+        logger.warning(f"Post {post_id} has a MAL ID but no document found in the database. Fetching it and pushing it to the db...")
+        try:
+            mal = MalClient()
+            entry = mal.fetch_entry_by_id(mal_id)
+            if entry:
+                mal.push_to_db(entry)
+                logger.success(f"Fetched and pushed entry from the post {post_id} with the MAL ID {mal_id} to the database.")
+        except Exception as e:
+            logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {post_id}: {e}")
+            
 
     post_details = {
         "mal_id": mal_id,
@@ -464,7 +473,7 @@ def close_post(post_id, reddit: Reddit, week_id: int):
 
 
 def insert_mongo(
-    post_details: dict, client: MongoClient = MongoClient(os.getenv("MONGO_URI"))
+    post_details: dict, client: MongoClient = MongoClient(os.getenv("MONGO_URI"), schedule = SeasonScheduler())
 ) -> None:
     """
     Inserts post details into the MongoDB database.
@@ -519,29 +528,30 @@ def insert_mongo(
     }
 
     logger.info(f"Inserting data into MongoDB for MAL ID: {mal_id}")
-
-    if mal_id:
-        query = {"id": mal_id}
-    else:
-        query = {
-            "$or": [
-                {"title": romaji},
-                {"title_english": english}
-                
-            ]
-        }
+    query = {"id": mal_id}
+    
     if col.find_one(query):
         update_result = col.update_one(query, {"$push": {"reddit_karma.2025.spring": episode_data}})
-        if update_result.upserted_id:
-            logger.info(f"Created new document: {update_result.upserted_id}")
-        else:
-            logger.info("Added entry to existing document")
+        logger.info(f"Updated document: {update_result.upserted_id}")
     else:
-        col = db.new_entries
-        insert_result = col.insert_one(episode_data)
-        logger.info(
-            f"Created new document: for the post {reddit_id} MAL ID: {mal_id} with the ID: {insert_result.inserted_id}"
-        )
+        if mal_id:
+            logger.warning(f"Document with MAL ID {mal_id} not found. Trying to fetch from MAL api and create a new entry...")
+            try:
+                mal = MalClient()
+                entry = mal.fetch_entry_by_id(mal_id)
+                if entry:
+                    mal.push_to_db(entry)
+                    logger.success(f"Fetched and pushed entry from the post {reddit_id} with the MAL ID {mal_id} to the database.")
+            except Exception as e:
+                logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {reddit_id}: {e}")
+        else:
+            logger.warning(f"Post {reddit_id} has no MAL ID. Cannot create a new entry on the default db")
+
+            col = db.new_entries
+            insert_result = col.insert_one(episode_data)
+            logger.warning(
+                f"Created new document: for the post {reddit_id} MAL ID: {mal_id} with the ID: {insert_result.inserted_id}"
+            )
 
 
 def get_title_details(title: str) -> Tuple[Dict, str]:
@@ -648,7 +658,6 @@ def get_active_posts(
         ensuring only those posts in the active discussion period are returned.
     """
     # log = setup_logging("hourly_data")
-    
 
     user = reddit.redditor(username)
     client = MongoClient(os.getenv("MONGO_URI"))
@@ -681,6 +690,28 @@ def get_active_posts(
                             "images": 1,
                         },
                     )
+                    if mal_id and not post_details:
+                        logger.warning(f"Post {submission.id} has a MAL ID but no document found in the database.")
+                        try:
+                            mal = MalClient()
+                            entry = mal.fetch_entry_by_id(mal_id)
+                            if entry:
+                                mal.push_to_db(entry)
+                                logger.success(f"Fetched and pushed entry from the post {submission.id} with the MAL ID {mal_id} to the database.")
+                                post_details = collection.find_one(
+                                    {"id": mal_id},
+                                    {
+                                        "_id": 0,
+                                        "title": 1,
+                                        "streams": 1,
+                                        "title_english": 1,
+                                        "mal_id": "$id",
+                                        "images": 1,
+                                    },
+                                )
+                        except Exception as e:
+                            logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}")
+
                     logger.debug(f"Post details {post_details} found for MAL ID: {mal_id}")
                     if post_details:
                         post_details = dict(post_details)
@@ -731,7 +762,7 @@ def get_active_posts(
     return posts
 
 
-def get_mal_id_reddit_post(post_body: str) -> str | None:
+def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
     """
     Extracts the MyAnimeList ID from a Reddit post body.
 
