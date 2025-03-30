@@ -188,29 +188,7 @@ def get_weekly_change(schedule: SeasonScheduler):
     return merged_data
 
 
-def fetch_mal_score(
-    mal_ids: list[int],
-    headers: dict = {"X-MAL-CLIENT-ID": os.getenv("MAL_SECRET")},
-    current_week = SeasonScheduler().week_id,
-):
 
-    if not isinstance(mal_ids, list):
-        mal_ids = [mal_ids]
-    for mal_id in mal_ids:
-        try:
-            logger.info(f'Getting mal_details for id: {mal_id}')
-            endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
-
-            response = requests.get(url=endpoint, headers=headers, timeout=90)
-            if response.status_code == 200:
-                data = response.json()
-                logger.success(f"Got MAL data for {mal_id}")
-                process_stats(data, current_week)
-
-            else:
-                logger.error(f"Error with ID {mal_id}: {response.status_code}")
-        except Exception as e:
-            logger.error(f"Error with ID {mal_id}: {e}")
 
 
 def process_stats(data: dict, current_week):
@@ -307,28 +285,75 @@ def get_season_averages(schedule: SeasonScheduler):
         return
 
 
-def update_mal_numbers(week_id: int):
+def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type="post")):
     # 1. Connect to your MongoDB
     client = MongoClient(os.getenv("MONGO_URI"))
 
     # 2. Get your specific database and collection
     db = client.anime
-    collection = db.winter_2025
+    collection = db.seasonals
     try:
         db.validate_collection(collection)
     except OperationFailure:
         return
+    
+    # Set the schedule related variables
+    week_id = schedule.week_id
+    year = schedule.year
+    season = schedule.season_name
+    reddit_karma = f'reddit_karma.{year}.{season}'
 
     pipeline = [
-        {"$match": {"reddit_karma": {"$elemMatch": {"week_id": week_id}}}},
+        {"$match": {reddit_karma: {"$elemMatch": {"week_id": week_id}}}},
         {"$project": {"_id": 0, "id": 1}},
     ]
 
     mal_ids = list(collection.aggregate(pipeline))
     mal_ids = [entry["id"] for entry in mal_ids]
-    logger.info(f'Getting MAL data from {mal_ids}')
-    client.close()
-    fetch_mal_score(mal_ids)
+
+    if mal_ids:
+    
+        for mal_id in mal_ids:
+            try:
+                logger.info(f'Getting mal_details for id: {mal_id}')
+                endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
+
+                response = requests.get(url=endpoint, headers=os.getenv('MAL_SECRET'), timeout=90)
+                if response.status_code == 200:
+                    data = response.json()
+                    logger.success(f"Got MAL data for {mal_id}")
+                    new_statistic = {
+                        "score": data.get("mean"),
+                        "members": data.get("num_list_users"),
+                        "scoring_members": data.get("num_scoring_users"),
+                        "extra_stats": data.get("statistics", {}).get("status"),
+                    }
+
+                    pipeline = {
+                        "id": mal_id,
+                        "reddit_karma.week_id": current_week,
+                        "mal_stats": new_statistic,
+                    }
+
+                    collection.update_one(
+                        {"id": mal_id, f"{reddit_karma}.week_id": week_id},
+                        {"$set": {f"{reddit_karma}.$.mal_stats": new_statistic}},
+                    )
+    
+                    collection.update_one(
+                        {"id": mal_id},
+                        {
+                            "$set": {
+                                "score": data.get("mean"),
+                                "members": data.get("num_list_users"),
+                            }
+                        },
+                    )
+
+                else:
+                    logger.error(f"Error with ID {mal_id}: {response.status_code}")
+            except Exception as e:
+                logger.error(f"Error with ID {mal_id}: {e}")
 
 
 def get_available_seasons():

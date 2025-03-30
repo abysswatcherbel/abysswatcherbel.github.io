@@ -112,6 +112,46 @@ class SeasonScheduler(BaseModel):
             case _:
                 logger.error(f"Invalid season ID: {season_id}")
                 raise ValueError(f"Invalid season ID: {season_id}")
+    
+    def get_schedule_for_date(self, year: int ,season: int, week_id: int) -> Optional[ScheduleDetails]:
+        """Get schedule details for a specific date."""
+        # Construct the path to the schedule CSV file
+        schedule_path = Path(self.base_path) / str(year) / f"{self.schedule_type}.csv"
+        
+        if not schedule_path.exists():
+            logger.error(f"Schedule file does not exist: {schedule_path}")
+            return None
+        
+         # Process dates based on schedule type
+        
+        
+        # Load the schedule CSV file
+        schedule_df = pd.read_csv(schedule_path)
+
+        logger.debug(f'Trying to find the schedule for {year} {season} week {week_id} with the path {schedule_path}')
+        
+        # Convert start_date and end_date to datetime objects
+        schedule_df["start_date"] = pd.to_datetime(schedule_df["start_date"], utc=True)
+        schedule_df["end_date"] = pd.to_datetime(schedule_df["end_date"], utc=True)
+
+         # Process dates based on schedule type
+        if self.schedule_type == 'episodes':
+            # Adjust end_date to cover the entire day
+            schedule_df["end_date"] = (
+                schedule_df["end_date"] + pd.Timedelta(days=1) - pd.Timedelta(microseconds=1)
+            )
+        
+        # Find the matching week
+        for _, row in schedule_df.iterrows():
+            if row["week_id"] == week_id and row["season"] == season:
+                return ScheduleDetails(
+                    week_id=int(row["week_id"]),
+                    start_date=row["start_date"],
+                    end_date=row["end_date"],
+                    season=int(row['season'])
+                )
+        
+        return None
       
     
     # Instance methods
