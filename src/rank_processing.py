@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 import os
 from util.logger_config import logger
 from util.mal import MalImages
+from util.seasonal_schedule import SeasonScheduler
 from pydantic import BaseModel
 from typing import List, Optional
 
@@ -28,77 +29,8 @@ class KarmaRankEntry(BaseModel):
 class KarmaRank(BaseModel):
     entries: List[KarmaRankEntry]
 
-
-
-def get_week_id(schedule_type: str = "episodes", post_time: datetime = None):
-    if post_time is None:
-        post_time = datetime.now(timezone.utc)
-
-    if schedule_type not in ("post", "episodes"):
-        raise ValueError("Invalid schedule_type. Must be either 'post' or 'episodes'.")
-
-    year = post_time.year
-    month = post_time.month
-    season = get_season_name(month)
-
-    if schedule_type == "episodes":
-        schedule_path = os.path.join(
-            "src/season_references", str(year), season, "episodes.csv"
-        )
-    else:
-        schedule_path = os.path.join(
-            "src/season_references", str(year), season, "post.csv"
-        )
-
-    schedule_df = pd.read_csv(schedule_path)
-
-    # Convert start_date and end_date to timezone-aware datetimes (UTC)
-    schedule_df["start_date"] = pd.to_datetime(schedule_df["start_date"], utc=True)
-    schedule_df["end_date"] = pd.to_datetime(schedule_df["end_date"], utc=True)
-    # Adjust end_date to cover the entire day by setting it to 23:59:59.999999
-    schedule_df["end_date"] = (
-        schedule_df["end_date"] + pd.Timedelta(days=1) - pd.Timedelta(microseconds=1)
-    )
-
-    # Ensure post_time is timezone-aware (convert if needed)
-    if post_time.tzinfo is None:
-        post_time = post_time.replace(tzinfo=timezone.utc)
-
-    for _, row in schedule_df.iterrows():
-        if row["start_date"] <= post_time <= row["end_date"]:
-            return row["week_id"]
-    return None
-
-
-def get_season_name(month_int):
-    if month_int in range(1, 4):
-        return "winter"
-    elif month_int in range(4, 7):
-        return "spring"
-    elif month_int in range(7, 10):
-        return "summer"
-    elif month_int in range(10, 13):
-        return "fall"
-    else:
-        raise ValueError(
-            "Invalid month integer. Please provide a value between 1 and 12."
-        )
-
-
-def get_season(month_int):
-    if month_int in range(1, 4):
-        return 1
-    elif month_int in range(4, 7):
-        return 2
-    elif month_int in range(7, 10):
-        return 3
-    elif month_int in range(10, 13):
-        return 4
-    else:
-        raise ValueError(
-            "Invalid month integer. Please provide a value between 1 and 12."
-        )
-
+episode_schedule = SeasonScheduler()
+post_schedule = SeasonScheduler(schedule_type="post")
 
 def assign_rank(sorted_entries):
     """Assign ranks to sorted entries, handling ties with 'min' method."""
@@ -125,30 +57,32 @@ def get_ids_current_week():
     """Fetch MAL IDs of all shows airing in the current week."""
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    seasonal_entries = db.winter_2025
+    seasonal_entries = db.seasonals
 
     # Determine current week
-    current_time = datetime.now(timezone.utc)
-    current_week = get_week_id(schedule_type="post", post_time=current_time)
+    current_week = post_schedule.week_id
+    current_year = post_schedule.year
+    current_season = post_schedule.season_name
 
     # Fetch MAL IDs of shows airing in the current week
     mal_ids = list(
-        seasonal_entries.distinct("mal_id", {"reddit_karma.week_id": current_week})
+        seasonal_entries.distinct("id", {f"reddit_karma.{current_year}.{current_season}.week_id": current_week})
     )
     client.close()
     return mal_ids
 
 
-def get_weekly_change(current_time: datetime, current_week: int):
+def get_weekly_change(schedule: SeasonScheduler):
     """Calculate weekly rank and karma changes using MongoDB data."""
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     seasonal_entries = db.seasonals
 
     # Determine current week and season
-    current_month = current_time.month
-    season = get_season(current_month)
-    year = current_time.year
+    current_week = schedule.week_id
+    season = schedule.season_name
+    year = schedule.year
+    
 
     reddit_karma = f"reddit_karma.{year}.{season}"
 
@@ -181,6 +115,7 @@ def get_weekly_change(current_time: datetime, current_week: int):
 )
     
     # Fetch previous week's data
+    reddit_karma = f"reddit_karma.{year}.{season}" if last_week != 13 else f"reddit_karma.{year}.{schedule._get_season_name(schedule.season_number - 1)}"
     previous_data = list(
         seasonal_entries.aggregate(
             [
@@ -256,7 +191,7 @@ def get_weekly_change(current_time: datetime, current_week: int):
 def fetch_mal_score(
     mal_ids: list[int],
     headers: dict = {"X-MAL-CLIENT-ID": os.getenv("MAL_SECRET")},
-    current_week=get_week_id(schedule_type="post"),
+    current_week = SeasonScheduler().week_id,
 ):
 
     if not isinstance(mal_ids, list):
@@ -323,63 +258,11 @@ def process_stats(data: dict, current_week):
     return pipeline
 
 
-def get_airing_period(
-    current_time=datetime.now(timezone.utc), schedule_type: str = "episodes"
-):
-    """Get the airing period for the current week."""
-    current_year = current_time.year
-    week_id = get_week_id(schedule_type=schedule_type)
-    current_month = current_time.month
-    season_name = get_season_name(current_month)
-
-    # Define the path to the episodes.csv file
-    schedule_path = os.path.join(
-        "src",
-        "season_references",
-        str(current_year),
-        season_name,
-        f"{schedule_type}.csv",
-    )
-
-    # Load the CSV file into a DataFrame
-    try:
-        schedule_df = pd.read_csv(schedule_path)
-    except FileNotFoundError:
-        return f"CSV file not found at {schedule_path}"
-
-    # Convert 'start_date' and 'end_date' columns to datetime
-    schedule_df["start_date"] = pd.to_datetime(schedule_df["start_date"])
-    schedule_df["end_date"] = pd.to_datetime(schedule_df["end_date"])
-
-    # Filter the DataFrame by week_id
-    week_row = schedule_df[schedule_df["week_id"] == week_id]
-
-    if week_row.empty:
-        return f"No schedule found for week_id: {week_id}"
-
-    # Get start_date and end_date from the filtered row
-    start_date = week_row["start_date"].iloc[0]
-    end_date = week_row["end_date"].iloc[0]
-
-    # Convert the dates to the desired format, e.g., "September, 20"
-    converted_start_date = start_date.strftime("%B, %d")
-    converted_end_date = end_date.strftime("%B, %d")
-
-    airing_period = f"Airing Period: {converted_start_date} - {converted_end_date}"
-
-    airing_details = {
-        "airing_period": airing_period,
-        "season": season_name,
-        "week_id": week_id,
-    }
-
-    # Return the formatted airing period
-    return airing_details
-
-
-def get_season_averages(season: str, year: int):
+def get_season_averages(schedule: SeasonScheduler):
     # 1. Connect to your MongoDB
     client = MongoClient(os.getenv("MONGO_URI"))
+    season = schedule.season_name
+    year = schedule.year
 
     logger.debug(f'Getting season averages for {season} {year}')
 

@@ -7,10 +7,8 @@ from flask import Flask, abort, render_template, request
 from flask_frozen import Freezer
 from pymongo import MongoClient
 from src.rank_processing import (
-    get_airing_period,
     get_available_seasons,
     get_season_averages,
-    get_week_id,
     get_weekly_change,
     update_mal_numbers,
 )
@@ -47,7 +45,7 @@ def karma_rank():
             - Various symbols for UI elements
     """
 
-    current_shows = get_weekly_change(current_time=post_schedule.post_time, current_week=post_schedule.week_id)
+    current_shows = get_weekly_change(schedule=post_schedule)
     airing_details = post_schedule.airing_period
     total_karma = sum([show["karma"] for show in current_shows[:15]])
     total_karma = f"{total_karma:,}"
@@ -112,14 +110,14 @@ def current_week():
     current_time = post_schedule.post_time
     current_week_id = post_schedule.week_id
 
-    current_shows = get_weekly_change(current_time=current_time, current_week=current_week_id)
+    current_shows = get_weekly_change(schedule=post_schedule)
     print(f'Current shows for season: {post_schedule.season_name}-{current_week_id}: {len(current_shows)}')  # Debug print
     airing_details = post_schedule.airing_period
 
     logger.debug(f"Airing details {airing_details} for the Current week: {current_week_id}")  
 
     season_averages = get_season_averages(
-        season=airing_details["season"], year=current_time.year
+        schedule=post_schedule,
     )
     print(f'Samled season averages: {season_averages[0]}')  # Debug print
     available_seasons = get_available_seasons()

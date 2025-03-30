@@ -50,8 +50,8 @@ class MalEntry(BaseModel):
     broadcast: Optional[MalBroadcast] = None
     studios: List[MalEntity] = []
     genres: List[MalEntity] = []
-    reddit_karma: Optional[int] = None
-    streams: Optional[List[MalEntity]] = None
+    reddit_karma: Optional[Dict] = None
+    streams: Optional[Dict] = None
 
     @model_validator(mode='before')
     @classmethod
