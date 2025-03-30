@@ -109,6 +109,7 @@ def get_weekly_change(schedule: SeasonScheduler):
                 "streams": 1,
                 "url": f"${reddit_karma}.url",
                 "mal_id": "$id",
+                "num_episodes": 1,
             }
         },
     ])
@@ -131,14 +132,12 @@ def get_weekly_change(schedule: SeasonScheduler):
                         "comments": f"${reddit_karma}.comments",
                         "week_id": f"${reddit_karma}.week_id",
                         "mal_id": "$id",
+                        
                     }
                 },
             ]
         )
     )
-
-    logger.debug(f"Current data: {current_data[0] if current_data else 'No data'}")
-    logger.debug(f"Previous data: {previous_data[0] if previous_data else 'No data'}")
 
     # Sort and rank current and previous data
     current_sorted = sorted(current_data, key=lambda x: (-x["karma"], -x["comments"]))
@@ -157,7 +156,7 @@ def get_weekly_change(schedule: SeasonScheduler):
     # Merge data and compute changes
     merged_data = []
     for current_entry in current_sorted:
-        romaji = current_entry["title"]
+        
         mal_id = current_entry["mal_id"]
         previous_entry = previous_dict.get(mal_id, {})
 

@@ -112,14 +112,7 @@ header {
     color: white;
 }
 
-.season-select {
-    padding: 0.5rem;
-    border-radius: 4px;
-    border: 1px solid var(--border);
-    background-color: var(--bg-card);
-    color: var(--text);
-    font-size: 0.9rem;
-}
+
 
 main {
     max-width: 1200px;
@@ -404,6 +397,21 @@ footer {
     th, td {
         padding: 0.5rem;
     }
+    .seasons-dropdown,
+    .weeks-dropdown {
+            position: static;
+            box-shadow: none;
+            border-left: 2px solid var(--border-color);
+            margin-left: 20px;
+        }
+    
+    .dropdown-content {
+            position: absolute;
+            right: 0;
+            left: auto;
+            width: 80vw;
+            max-width: 300px;
+        }
 }
 
 /* Loading animation */
@@ -450,8 +458,7 @@ footer {
     font-size: 0.9rem;
 }
 
-
-/* Dropdown styles */
+/* Base dropdown styles */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -460,11 +467,13 @@ footer {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    max-height: 500px;
+    background-color: #1a1b26;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    right: 0;
+    border-radius: 4px;
+    max-height: 80vh;
     overflow-y: auto;
 }
 
@@ -472,23 +481,110 @@ footer {
     display: block;
 }
 
-.season-group {
-    border-bottom: 1px solid #867b7b;
+/* Year level styling */
+.year-item {
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: background-color 0.2s;
+}
+
+.year-item:hover,
+.year-item.active {
+    background-color: #292a36;
+}
+
+.year-header {
+    font-weight: bold;
+    display: block;
+    color: white;
+}
+
+/* Seasons container */
+.seasons-container,
+.weeks-container {
+    position: fixed;
+    z-index: 101;
+}
+
+.seasons-dropdown {
+    position: absolute;
+    background-color: #1a1b26;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+/* Season level styling */
+.season-item {
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s;
+}
+
+.season-item:hover,
+.season-item.active {
+    opacity: 0.9;
 }
 
 .season-header {
     padding: 12px 16px;
-    background-color: #2c185a;
     font-weight: bold;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+.season.winter {
+    background-color: #d6fffb;
+    color: #000;
+}
+
+.season.spring {
+    background-color: #61aa27;
+    color: #fff;
+}
+
+.season.summer {
+    background-color: #cf7130;
+    color: #fff;
+}
+
+.season.fall {
+    background-color: #80262c;
+    color: #fff;
+}
+
+/* Weeks dropdown */
+.weeks-dropdown {
+    position: absolute;
+    background-color: #1a1b26;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Week links styling */
+.weeks-dropdown a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s;
+}
+
+.weeks-dropdown a:hover {
+    background-color: #292a36;
+}
+
+/* Divider between items */
+.year-item,
+.season-item,
+.weeks-dropdown a {
+    border-bottom: 1px solid #333;
+}
+
+.year-item:last-child,
+.season-item:last-child,
+.weeks-dropdown a:last-child {
+    border-bottom: none;
 }

@@ -103,9 +103,21 @@
                             <span class="karma">{{ left.karma }}</span>
                         </div>
                         <div class="part-2">
-                            <span class="title">{% if left.title_english %}{{ left.title_english }}{% else %} {{ left.title }}{% endif %}</span>
+                            <span class="title">
+                                {% if left.title_english %}
+                                    {{ left.title_english }}
+                                {% else %} 
+                                    {{ left.title }}
+                                {% endif %}
+                            </span>
                             <div class="pod-container">
-                                <span class="episode-number"><span class="poll-blue">E</span> {{ left.episode | int }}</span>
+                                <span class="episode-number"><span class="poll-blue">E</span>
+                                    {% if left.episode == left.num_episodes %}
+                                        " {{ left.episode | int }} (Final)"
+                                    {% else %}
+                                        " {{ left.episode | int }}"
+                                    {% endif %}
+                                </span>
                             </div>
                         </div>
                     </div>
