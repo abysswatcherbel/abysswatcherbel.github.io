@@ -431,6 +431,8 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
     
     mal_id = get_mal_id_reddit_post(post.selftext) # Try to get the MAL id from the body of the post
     title_details, episode = get_title_details(post.title)
+    if not week_id:
+        week_id = SeasonScheduler(post_time=datetime.fromtimestamp(post.created_utc, tz=timezone.utc)).week_id
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     col = db.seasonals 
