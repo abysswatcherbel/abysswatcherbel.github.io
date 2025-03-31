@@ -530,7 +530,7 @@ def insert_mongo(
         "url": post_details["url"],
     }
 
-    logger.info(f"Inserting data into MongoDB for MAL ID: {mal_id}")
+    logger.info(f"Inserting data into MongoDB for MAL ID: {json.dumps(mal_id, indent=2)}")
     query = {"id": mal_id}
     
     if col.find_one(query):

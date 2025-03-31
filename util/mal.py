@@ -174,7 +174,7 @@ class MalClient:
         try:
             entry_dict: Dict = mal_entry.model_dump()
             if collection.find_one({'id': entry_dict['id']}):
-                logger.info(f"Entry with ID {entry_dict['id']} already exists in the database.")
+                logger.warning(f"Entry with ID {entry_dict['id']} already exists in the database.")
                 return
             else:
                 collection.insert_one(entry_dict)
@@ -214,7 +214,7 @@ def fetch_mal_seasonals(year: int, season: str) -> MalSeasonals:
         # Create URL with the current page parameter
         page_url = f"{base_url}&page={current_page}"
         
-        logger.info(f"Fetching page {current_page}...")
+        logger.debug(f"Fetching page {current_page}...")
         
         # Make request
         response = requests.get(page_url)
@@ -236,7 +236,7 @@ def fetch_mal_seasonals(year: int, season: str) -> MalSeasonals:
             
             # Wait to avoid rate limiting if there are more pages
             if has_next_page:
-                logger.info(f"Waiting 10 seconds before fetching next page...")
+                logger.debug(f"Waiting 10 seconds before fetching next page...")
                 time.sleep(10)
         else:
             logger.error(f"Error: Received status code {response.status_code}")

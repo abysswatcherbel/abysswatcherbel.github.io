@@ -39,23 +39,28 @@ class KarmaRanksLogger:
         return logger_dir
 
 
-def setup_logger():
+def setup_logger() -> Logger:
     # Create a configured logger instance
     logger: Logger = loguru_logger
     # Remove default handlers
     logger.remove()
-    
+
     # Use absolute path for reliable log location
     base_dir = Path(__file__).parent.parent  # karma_track root directory
     log_dir = base_dir / "logs"
     os.makedirs(log_dir, exist_ok=True)
-    
+
+    time_format = "{time:YYYY-MM-DD HH:mm}"
+    log_format = (
+        f"{time_format} | {{level}} | {{file}}:{{function}}:{{line}} | {{message}}"
+    )
+
+    # Main logger
     logger_name = "karma_log"
     log_file = os.path.join(log_dir, f"{logger_name}.log")
 
-    time_format = "{time:YYYY-MM-DD HH:mm}"
-    
-    # Add file handler
+ 
+    # Main logger for all operations
     logger.add(
         sink=log_file,
         level="DEBUG",
@@ -65,18 +70,18 @@ def setup_logger():
         enqueue=True,  # Thread-safe logging
         backtrace=True,  # Include traceback info
         diagnose=True,   # Include variables in traceback
-        format=f"{time_format} | {{level}} | {{file}}:{{function}}:{{line}} | {{message}}",
+        format=log_format,
     )
-    
-    # Add stdout handler (will be captured by journalctl)
+
+    # Add stdout handler to journalctl
     logger.add(
         sink=sys.stdout,
         level="DEBUG",
         colorize=True,  
         enqueue=True,
-        format=f"{time_format} | {{level}} | {{file}}:{{function}}:{{line}} | {{message}}",
+        format=log_format,
     )
-    
+
     return logger
 
 # Create a single logger instance to be imported by other modules
