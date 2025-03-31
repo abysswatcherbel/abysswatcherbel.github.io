@@ -532,11 +532,12 @@ def insert_mongo(
 
     logger.info(f"Inserting data into MongoDB for MAL ID: {json.dumps(mal_id, indent=2)}")
     query = {"id": mal_id}
+    show = col.find_one(query)
     
-    if col.find_one(query):
+    if show:
         reddit_karma = f"reddit_karma.{schedule.year}.{schedule.season_name}"
         update_result = col.update_one(query, {"$push": {reddit_karma: episode_data}})
-        logger.info(f"Updated document: {update_result.upserted_id}")
+        logger.info(f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}")
     else:
         if mal_id:
             logger.warning(f"Document with MAL ID {mal_id} not found. Trying to fetch from MAL api and create a new entry...")
