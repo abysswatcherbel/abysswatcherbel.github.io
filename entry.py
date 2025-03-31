@@ -187,7 +187,30 @@ if __name__ == "__main__":
     if "freeze" in sys.argv:
         @freezer.register_generator
         def current_chart():
-            yield {"endpoint": "current_chart"}
+            yield {}
+
+        @freezer.register_generator
+        def new_home():
+            yield {}
+
+        # Generator for karma_watch (no parameters)
+        @freezer.register_generator
+        def karma_watch():
+            yield {}
+
+        @freezer.register_generator
+        def show_week():
+            # You might need to dynamically generate these values
+            # from your database or other sources
+            years = [2023, 2024, 2025]
+            seasons = ["winter", "spring", "summer", "fall"]
+            weeks = range(1, 14)  # Assuming up to 13 weeks per season
+
+            for year in years:
+                for season in seasons:
+                    for week in weeks:
+                        yield {"year": year, "season": season, "week": week}
+
         # Generate static files
         freezer.freeze()
     elif "run" in sys.argv:
