@@ -24,13 +24,15 @@ app.config["FREEZER_RELATIVE_URLS"] = True  # For proper relative paths
 app.config["FREEZER_DESTINATION"] = "docs"  # GitHub Pages default folder
 app.config["DEBUG"] = True
 app.config["TEMPLATES_AUTO_RELOAD"] = True
+app.config["FREEZER_RELATIVE_URLS_PRETTY"] = True  # For pretty URLs
+app.config["FREEZER_DEFAULT_MIMETYPE"] = "text/html"
 freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
 
 
-@app.route("/current_chart")
+@app.route("/current_chart/", endpoint="current_chart")
 def karma_rank():
     """
     Render the current karma rankings chart.
@@ -183,6 +185,9 @@ if __name__ == "__main__":
     import sys
 
     if "freeze" in sys.argv:
+        @freezer.register_generator
+        def current_chart():
+            yield {"endpoint": "current_chart"}
         # Generate static files
         freezer.freeze()
     elif "run" in sys.argv:

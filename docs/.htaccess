@@ -1,0 +1,12 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# If the requested filename is not a directory and doesn't have a trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !/$
+
+# And if the requested filename with .html appended exists
+RewriteCond %{REQUEST_FILENAME}.html -f
+
+# Rewrite to add the .html extension internally
+RewriteRule ^(.*)$ $1.html [L]
