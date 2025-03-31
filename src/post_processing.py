@@ -442,6 +442,7 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
 
     # If no MAL ID is found, try to the entry from the title
     query = {'id': mal_id} if mal_id else {'$or': [{'title': romaji}, {'title_english': english}]}
+    logger.debug(f"Looking for entry on the db with: {json.dumps(query, indent=2)}")
     mal_doc = col.find_one(query, {"id": 1}) # Check if the show exists on the db
 
     # If there is a mal_id but no document found, try to fetch the entry from MAL and push it to the db
@@ -786,6 +787,11 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
     """
     mal_url = re.search(r"https://myanimelist.net/anime/(\d+)", post_body)
     mal_id = mal_url.group(1) if mal_url else None
+    try:
+        mal_id = int(mal_id)
+    except ValueError:
+        logger.error(f"Error converting MAL ID to integer: {mal_id}")
+        mal_id = None
     return mal_id
 
 
