@@ -112,10 +112,11 @@
                             </span>
                             <div class="pod-container">
                                 <span class="episode-number"><span class="poll-blue">E</span>
-                                    {% if left.episode == left.num_episodes %}
-                                        " {{ left.episode | int }} (Final)"
-                                    {% else %}
-                                        " {{ left.episode | int }}"
+                                    {% set ep = left.episode | int(default=0) %}
+                                    {% set total = left.num_episodes | int(default=0) %}
+                                    {{ ep }}
+                                    {% if ep == total and ep != 0 %}
+                                    (Final)
                                     {% endif %}
                                 </span>
                             </div>
@@ -133,7 +134,7 @@
                                     data-title-english="{{ left.title_english or left.title }}">
                                 </a>
                                 {% else %}
-                                <!-- If there's no URL, just use # (or leave it empty) so we know to fallback -->
+                                
                                 <a href="#"
                                     target="_blank"
                                     class="external-link"
