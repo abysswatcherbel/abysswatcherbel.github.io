@@ -1,11 +1,17 @@
 .env
 /src/logs/*
-logs
 /*/__pycache__
 *.pyc
 *.pyo
-src/*.ipynb
+
+# Ignore log files
+*.log
+
+# Ignore all notebooks
 *.ipynb
+
+# But allow notebooks in the examples directory
+!examples/*.ipynb
+
 *.sh
 *.service
-project_structure.md
