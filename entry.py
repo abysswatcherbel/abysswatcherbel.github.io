@@ -30,7 +30,7 @@ episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
 
 
-@app.route("/current_chart.html", endpoint="current_chart")
+@app.route("/current_chart")
 def karma_rank():
     """
     Render the current karma rankings chart.
