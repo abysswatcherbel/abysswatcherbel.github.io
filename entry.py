@@ -247,33 +247,6 @@ if __name__ == "__main__":
             # Yield for the main page
             yield {}
 
-            # Connect to MongoDB for filter options
-            client = MongoClient(os.getenv("MONGO_URI"))
-            db = client.anime
-
-            # Get distinct seasons and years for pagination
-            seasons = db.committees.distinct("season")
-            years = db.committees.distinct("year")
-
-            # Calculate total pages for each filter combination
-            for season in seasons:
-                yield {"season": season, "year": "all", "page": 1}
-
-            for year in years:
-                yield {"year": year, "season": "all", "page": 1}
-
-                # Also yield season + year combinations
-                for season in seasons:
-                    doc_count = db.committees.count_documents(
-                        {"year": year, "season": season}
-                    )
-                    pages = (doc_count + 19) // 20  # 20 items per page, rounded up
-
-                    for page in range(1, pages + 1):
-                        yield {"year": year, "season": season, "page": page}
-
-            client.close()
-
         freezer.freeze()
     elif "run" in sys.argv:
         main()
