@@ -307,6 +307,17 @@
             }
           }
         }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "13",
+          "karma": 5100,
+          "comments": 1433,
+          "upvote_ratio": 0.91,
+          "reddit_id": "1jmqa74",
+          "url": "https://www.reddit.com/r/anime/comments/1jmqa74/ore_dake_level_up_na_ken_season_2_arise_from_the/"
+        }
       ]
     }
   },
@@ -316,8 +327,8 @@
   "start_date": "2025-01-05",
   "status": "finished_airing",
   "streams": {
-    "name": "crunchyroll",
-    "url": "https://www.crunchyroll.com/solo-leveling|13"
+    "name": "Crunchyroll",
+    "url": "https://www.crunchyroll.com/solo-leveling"
   },
   "studios": [
     {
@@ -1982,6 +1993,17 @@
               "plan_to_watch": "54728"
             }
           }
+        }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "25",
+          "karma": 1569,
+          "comments": 327,
+          "upvote_ratio": 0.98,
+          "reddit_id": "1jn84bd",
+          "url": "https://www.reddit.com/r/anime/comments/1jn84bd/shangrila_frontier_season_2_episode_25_discussion/"
         }
       ]
     }
@@ -6061,6 +6083,17 @@
             }
           }
         }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "12",
+          "karma": 242,
+          "comments": 55,
+          "upvote_ratio": 0.95,
+          "reddit_id": "1jn8i1o",
+          "url": "https://www.reddit.com/r/anime/comments/1jn8i1o/jibaku_shounen_hanakokun_season_2_toiletbound/"
+        }
       ]
     }
   },
@@ -7629,6 +7662,17 @@
             }
           }
         }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "11",
+          "karma": 225,
+          "comments": 111,
+          "upvote_ratio": 0.91,
+          "reddit_id": "1jmqa3n",
+          "url": "https://www.reddit.com/r/anime/comments/1jmqa3n/arank_party_wo_ridatsu_shita_ore_wa_moto/"
+        }
       ]
     }
   },
@@ -8461,6 +8505,17 @@
             }
           }
         }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "13",
+          "karma": 940,
+          "comments": 237,
+          "upvote_ratio": 0.98,
+          "reddit_id": "1jmqyo2",
+          "url": "https://www.reddit.com/r/anime/comments/1jmqyo2/medalist_episode_13_discussion_final/"
+        }
       ]
     }
   },
@@ -8471,7 +8526,7 @@
   "status": "finished_airing",
   "streams": {
     "name": "Disney",
-    "url": "https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8https://www.disneyplus.com/series/medalist/4LgC0zEd5JEx"
+    "url": "https://www.disneyplus.com/series/medalist/4LgC0zEd5JEx"
   },
   "studios": [
     {
@@ -9561,6 +9616,17 @@
               "plan_to_watch": "19642"
             }
           }
+        }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "13",
+          "karma": 115,
+          "comments": 33,
+          "upvote_ratio": 0.88,
+          "reddit_id": "1jmqa5i",
+          "url": "https://www.reddit.com/r/anime/comments/1jmqa5i/neet_kunoichi_to_nazeka_dousei_hajimemashita_im/"
         }
       ]
     }
@@ -15029,6 +15095,17 @@
             }
           }
         }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "12",
+          "karma": 42,
+          "comments": 15,
+          "upvote_ratio": 0.83,
+          "reddit_id": "1jmtlxk",
+          "url": "https://www.reddit.com/r/anime/comments/1jmtlxk/mahoutsukai_precure_mirai_days_witchy_pretty_cure/"
+        }
       ]
     }
   },
@@ -15186,6 +15263,17 @@
               "plan_to_watch": "1642"
             }
           }
+        }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "8",
+          "karma": 28,
+          "comments": 20,
+          "upvote_ratio": 0.79,
+          "reddit_id": "1jn1qui",
+          "url": "https://www.reddit.com/r/anime/comments/1jn1qui/kimi_to_idol_precure_you_and_idol_precure_episode/"
         }
       ]
     }
@@ -15418,6 +15506,17 @@
               "plan_to_watch": "2308"
             }
           }
+        }
+      ],
+      "spring": [
+        {
+          "week_id": 1,
+          "episode": "10",
+          "karma": 14,
+          "comments": 1,
+          "upvote_ratio": 0.73,
+          "reddit_id": "1jmpkgl",
+          "url": "https://www.reddit.com/r/anime/comments/1jmpkgl/uniteup_unibirth_episode_10_discussion/"
         }
       ]
     }
