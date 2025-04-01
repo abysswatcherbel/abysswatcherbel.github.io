@@ -1,0 +1,178 @@
+{% extends "base.html" if legacy else "new_base.html" %}
+
+{% block title %}{{ producer.titles[0].title }} - Anime Production Company{% endblock %}
+
+{% block content %}
+<main>
+    <div class="card producer-profile">
+        <div class="card-header">
+            <h2 class="card-title">{{ producer.titles[0].title }}</h2>
+            <div class="last-updated">Last updated: <span id="producer-update-time">{{ current_time }}</span></div>
+        </div>
+
+        <div class="producer-profile-header">
+            <div class="producer-profile-image">
+                {% if producer.images and producer.images.jpg and producer.images.jpg.image_url %}
+                <img src="{{ producer.images.jpg.image_url }}" alt="{{ producer.titles[0].title }}"
+                    class="producer-logo">
+                {% else %}
+                <div class="producer-logo placeholder-img"></div>
+                {% endif %}
+            </div>
+
+            <div class="producer-profile-details">
+                <div class="producer-titles">
+                    <h3>{{ producer.titles[0].title }}</h3>
+                    {% for title in producer.titles[1:] %}
+                    <span class="producer-alt-title">{{ title.type }}: {{ title.title }}</span>
+                    {% endfor %}
+                </div>
+
+                <div class="producer-stats">
+                    {% if producer.established %}
+                    <div class="stat-item">
+                        <span class="stat-label">Established</span>
+                        <span class="stat-value">{{ producer.established[:10] }}</span>
+                    </div>
+                    {% endif %}
+
+                    <div class="stat-item">
+                        <span class="stat-label">Shows</span>
+                        <span class="stat-value">{{ show_count }}</span>
+                    </div>
+
+                    <div class="stat-item">
+                        <span class="stat-label">As Main Producer</span>
+                        <span class="stat-value">{{ main_producer_count }}</span>
+                    </div>
+
+                    {% if producer.favorites %}
+                    <div class="stat-item">
+                        <span class="stat-label">Fan Favorites</span>
+                        <span class="stat-value">{{ producer.favorites }}</span>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if producer.about %}
+                <div class="producer-about">
+                    <h4>About</h4>
+                    <p>{{ producer.about }}</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="producer-shows">
+            <h3 class="section-title">Shows Produced</h3>
+
+            <div class="show-filters">
+                <button class="filter-btn active" data-filter="all">All Shows ({{ show_count }})</button>
+                <button class="filter-btn" data-filter="main">As Main Producer ({{ main_producer_count }})</button>
+
+                <div class="sort-control">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select" class="sort-select">
+                        <option value="recent">Most Recent</option>
+                        <option value="score">Highest Score</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="shows-grid">
+                {% for show in shows %}
+                <div class="show-card{% if show.is_main_producer %} main-producer{% endif %}"
+                    data-year="{{ show.year }}" data-score="{{ show.score or 0 }}">
+                    <div class="show-image">
+                        {% if show.images and show.images.medium %}
+                        <img src="{{ show.images.medium }}" alt="{{ show.title }}">
+                        {% else %}
+                        <div class="placeholder-img show-img"></div>
+                        {% endif %}
+
+                        <div class="show-badges">
+                            <span class="season-badge {{ show.season }}">{{ show.season|capitalize }} {{ show.year
+                                }}</span>
+                            {% if show.score %}
+                            <span class="score-badge"><i class="fa-solid fa-star"></i> {{ show.score }}</span>
+                            {% endif %}
+                        </div>
+
+                        {% if show.is_main_producer %}
+                        <div class="main-producer-badge">Main Producer</div>
+                        {% endif %}
+                    </div>
+
+                    <div class="show-details">
+                        <h4 class="show-title">{{ show.title_english or show.title }}</h4>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            {% if not shows %}
+            <div class="empty-state">
+                <i class="fa-solid fa-film-slash"></i>
+                <p>No shows found for this producer</p>
+                <span>We may be missing data for some productions</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</main>
+
+<script>
+    // Show filtering functionality
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const showCards = document.querySelectorAll('.show-card');
+    const sortSelect = document.getElementById('sort-select');
+
+    // Filter shows
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filter = button.getAttribute('data-filter');
+
+            showCards.forEach(card => {
+                if (filter === 'all' || (filter === 'main' && card.classList.contains('main-producer'))) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // Sort shows
+    function sortShows() {
+        const sortValue = sortSelect.value;
+        const showsGrid = document.querySelector('.shows-grid');
+        const showsArray = Array.from(showCards);
+
+        showsArray.sort((a, b) => {
+            if (sortValue === 'recent') {
+                const yearA = parseInt(a.getAttribute('data-year') || 0);
+                const yearB = parseInt(b.getAttribute('data-year') || 0);
+                return yearB - yearA;
+            } else if (sortValue === 'score') {
+                const scoreA = parseFloat(a.getAttribute('data-score') || 0);
+                const scoreB = parseFloat(b.getAttribute('data-score') || 0);
+                return scoreB - scoreA;
+            }
+        });
+
+        // Reorder elements
+        showsArray.forEach(show => {
+            showsGrid.appendChild(show);
+        });
+    }
+
+    sortSelect.addEventListener('change', sortShows);
+
+    // Initial sort
+    sortShows();
+</script>
+{% endblock %}

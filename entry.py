@@ -3,7 +3,7 @@ import os
 from datetime import datetime, timezone
 from itertools import zip_longest
 from dotenv import load_dotenv
-from flask import Flask, abort, render_template
+from flask import Flask, abort, render_template, request
 from flask_frozen import Freezer
 from pymongo import MongoClient
 from src.rank_processing import (
@@ -16,6 +16,7 @@ from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
 from util.logger_config import logger
 from util.seasonal_schedule import SeasonScheduler
+import requests
 
 load_dotenv()
 
@@ -30,7 +31,7 @@ freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
-
+client = MongoClient(os.getenv("MONGO_URI"))
 
 @app.route("/current_chart/", endpoint="current_chart")
 def karma_rank():
@@ -142,7 +143,6 @@ def karma_watch():
         rendered template: The karma_watch.html template
     """
     # Get all available shows with karma progression data
-    client = MongoClient(os.getenv("MONGO_URI"))
     collection = client.anime.karma_watch
 
     # Get karma progression data for all tracked shows
@@ -181,6 +181,85 @@ def karma_watch():
     )
 
 
+@app.route("/committees.html", endpoint="committees")
+def production_committees():
+    """
+    Render the Production Committees page.
+
+    This page displays anime shows and their production committees,
+    merging data from the committee collection and producers collection
+    to show complete producer information including images.
+
+    Returns:
+        rendered template: The production_committees.html template with context
+    """
+    # Get filter parameters from request
+    page = request.args.get("page", 1, type=int)
+    season_filter = request.args.get("season", "all")
+    year_filter = request.args.get("year", "all")
+
+    # Build filters dictionary
+    filters = {"season": season_filter, "year": year_filter}
+
+    # Import committee processing module
+    from util.committee_setup import get_committee_data
+
+    # Get committee data with filters
+    committee_data = get_committee_data(filters, page=page, per_page=20)
+
+    # Get available seasons for the navigation dropdown
+    available_seasons = get_available_seasons()
+
+    return render_template(
+        "committees.html",
+        shows=committee_data["shows"],
+        available_seasons=available_seasons,
+        filter_seasons=committee_data["seasons"],
+        filter_years=committee_data["years"],
+        current_season=season_filter,
+        current_year=year_filter,
+        total_shows=committee_data["total_shows"],
+        total_pages=committee_data["total_pages"],
+        page=page,
+        per_page=committee_data["per_page"],
+        current_time=datetime.now(timezone.utc),
+    )
+
+
+@app.route("/producer/<int:producer_id>.html", endpoint="producer_detail")
+def producer_detail(producer_id):
+    """
+    Display detailed information about a specific anime producer.
+
+    Args:
+        producer_id (int): The ID of the producer to display
+
+    Returns:
+        rendered template: The producer_detail.html template with producer data
+    """
+    # Import committee processing module
+    from util.committee_setup import get_producer_details
+
+    # Get producer details
+    producer_data = get_producer_details(producer_id)
+
+    if not producer_data:
+        abort(404)
+
+    # Get available seasons for the navigation dropdown
+    available_seasons = get_available_seasons()
+
+    return render_template(
+        "producer_detail.html",
+        producer=producer_data["producer"],
+        shows=producer_data["shows"],
+        show_count=producer_data["show_count"],
+        main_producer_count=producer_data["main_producer_count"],
+        available_seasons=available_seasons,
+        current_time=datetime.now(timezone.utc),
+    )
+
+
 if __name__ == "__main__":
     import sys
 
@@ -198,20 +277,10 @@ if __name__ == "__main__":
         def karma_watch():
             yield {}
 
-        # @freezer.register_generator
-        # def show_week():
-        #     # You might need to dynamically generate these values
-        #     # from your database or other sources
-        #     years = [2023, 2024, 2025]
-        #     seasons = ["winter", "spring", "summer", "fall"]
-        #     weeks = range(1, 14)  # Assuming up to 13 weeks per season
+        @freezer.register_generator
+        def committees():
+            yield {}
 
-        #     for year in years:
-        #         for season in seasons:
-        #             for week in weeks:
-        #                 yield {"year": year, "season": season, "week": week}
-
-        # Generate static files
         freezer.freeze()
     elif "run" in sys.argv:
         main()

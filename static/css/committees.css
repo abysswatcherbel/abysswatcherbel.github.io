@@ -1,0 +1,402 @@
+/* Production Committee Styles */
+.filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+}
+
+.filter-controls form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.filter-select,
+.search-input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: 0.9rem;
+}
+
+.filter-button {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.filter-button:hover {
+    background-color: var(--primary-dark);
+}
+
+.search-input {
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+.committee-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.committee-card {
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--shadow);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.committee-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px var(--shadow);
+}
+
+.committee-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.anime-info {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+.anime-img {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.anime-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.anime-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+.anime-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.season-badge,
+.producer-badge,
+.score-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.season-badge {
+    text-transform: capitalize;
+}
+
+.season-badge.winter {
+    background-color: #d6fffb;
+    color: #000;
+}
+
+.season-badge.spring {
+    background-color: #61aa27;
+    color: #fff;
+}
+
+.season-badge.summer {
+    background-color: #cf7130;
+    color: #fff;
+}
+
+.season-badge.fall {
+    background-color: #80262c;
+    color: #fff;
+}
+
+.producer-badge {
+    background-color: var(--primary-light);
+    color: white;
+}
+
+.score-badge {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.genre-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.genre-tag {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    background-color: var(--bg);
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: var(--text-light);
+}
+
+.genre-tag.more {
+    background-color: var(--text-light);
+    color: var(--bg);
+}
+
+.studio-info {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-top: 0.3rem;
+}
+
+.studio-label {
+    font-weight: 500;
+}
+
+.anime-links {
+    margin-left: 1rem;
+}
+
+.watch-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: background-color 0.2s ease;
+}
+
+.watch-link:hover {
+    background-color: var(--primary-dark);
+}
+
+.committee-members {
+    padding: 1rem;
+}
+
+.committee-members h4 {
+    margin: 0 0 1rem 0;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.committee-members h4::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--border);
+}
+
+.producer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 1rem;
+}
+
+.producer-card {
+    background-color: var(--bg);
+    border-radius: 4px;
+    padding: 0.75rem;
+    transition: background-color 0.2s ease;
+}
+
+.producer-card:hover {
+    background-color: var(--border);
+}
+
+.producer-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.producer-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.placeholder-img {
+    background-color: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.placeholder-img::after {
+    content: '?';
+    font-size: 1.5rem;
+    color: var(--text-light);
+}
+
+.producer-name {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.producer-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+    color: var(--text-light);
+}
+
+.established,
+.favorites {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.favorites {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.favorites i {
+    color: var(--accent);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.page-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.page-link:hover {
+    background-color: var(--border);
+}
+
+.page-link.active {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Empty state */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.empty-state i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.empty-state p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.empty-state span {
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .committee-container {
+        grid-template-columns: 1fr;
+    }
+
+    .committee-header {
+        flex-direction: column;
+    }
+
+    .anime-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .anime-meta,
+    .genre-tags {
+        justify-content: center;
+    }
+
+    .anime-links {
+        margin: 1rem 0 0 0;
+        align-self: center;
+    }
+
+    .producer-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .filter-controls form {
+        flex-direction: column;
+    }
+
+    .filter-select,
+    .filter-button,
+    .search-input {
+        width: 100%;
+    }
+}
