@@ -247,6 +247,31 @@ if __name__ == "__main__":
             # Yield for the main page
             yield {}
 
+            # Connect to MongoDB for filter options
+            client = MongoClient(os.getenv("MONGO_URI"))
+            db = client.anime
+
+            # Get distinct seasons and years for filters
+            seasons = ["winter", "spring", "summer", "fall"]
+            years = sorted(db.committees.distinct("year"), reverse=True)
+
+            # Yield season + year combinations
+            for season in seasons:
+                yield {"season": season, "year": "all"}
+
+            for year in years:
+                yield {"year": year, "season": "all"}
+
+                # Also yield specific season + year combinations
+                for season in seasons:
+                    if (
+                        db.committees.count_documents(
+                            {"year": int(year), "season": season}
+                        )
+                        > 0
+                    ):
+                        yield {"year": year, "season": season}
+
         freezer.freeze()
     elif "run" in sys.argv:
         main()
