@@ -222,7 +222,7 @@
 
 .producer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 1rem;
 }
 
@@ -231,6 +231,7 @@
     border-radius: 4px;
     padding: 0.75rem;
     transition: background-color 0.2s ease;
+    position: relative;
 }
 
 .producer-card:hover {
@@ -280,6 +281,7 @@
     align-items: center;
     font-size: 0.75rem;
     color: var(--text-light);
+    margin-bottom: 0.5rem;
 }
 
 .established,
@@ -298,6 +300,152 @@
 
 .favorites i {
     color: var(--accent);
+}
+
+/* Expandable producer details */
+.expand-producer-btn {
+    display: block;
+    width: 100%;
+    padding: 0.3rem;
+    background-color: var(--primary-light);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.expand-producer-btn:hover {
+    background-color: var(--primary);
+}
+
+.producer-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--shadow);
+    z-index: 10;
+}
+
+.producer-details.active {
+    max-height: 500px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    opacity: 1;
+    overflow-y: auto;
+}
+
+.producer-details-content {
+    width: 100%;
+}
+
+.producer-alt-names,
+.producer-about,
+.producer-other-shows {
+    margin-bottom: 1rem;
+}
+
+.producer-alt-names h6,
+.producer-about h6,
+.producer-other-shows h6 {
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--text);
+}
+
+.producer-alt-names ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.producer-alt-names li {
+    margin-bottom: 0.3rem;
+}
+
+.producer-about p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--text);
+}
+
+.read-more-btn {
+    font-size: 0.8rem;
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    padding: 0.3rem 0;
+    margin-top: 0.3rem;
+    text-decoration: underline;
+}
+
+.read-more-btn:hover {
+    color: var(--primary-dark);
+}
+
+.full-about.hidden {
+    display: none;
+}
+
+.other-shows-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.75rem;
+}
+
+.other-show-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.other-show-img {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.3rem;
+}
+
+.other-show-title {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+
+.other-show-season {
+    font-size: 0.7rem;
+    color: var(--text-light);
+}
+
+.other-show-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    text-align: center;
 }
 
 /* Pagination */
@@ -387,7 +535,7 @@
     }
 
     .producer-grid {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 
     .filter-controls form {
@@ -398,5 +546,23 @@
     .filter-button,
     .search-input {
         width: 100%;
+    }
+
+    .producer-details.active {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 350px;
+        max-height: 80vh;
+        z-index: 100;
+        box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 769px) {
+    .producer-details {
+        width: 250px;
     }
 }

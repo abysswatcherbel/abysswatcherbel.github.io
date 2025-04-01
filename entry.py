@@ -187,75 +187,40 @@ def production_committees():
     Render the Production Committees page.
 
     This page displays anime shows and their production committees,
-    merging data from the committee collection and producers collection
-    to show complete producer information including images.
+    with simplified data focusing on the anime and its committee members.
 
     Returns:
         rendered template: The production_committees.html template with context
     """
     # Get filter parameters from request
-    page = request.args.get("page", 1, type=int)
     season_filter = request.args.get("season", "all")
     year_filter = request.args.get("year", "all")
 
     # Build filters dictionary
     filters = {"season": season_filter, "year": year_filter}
 
-    # Import committee processing module
     from util.committee_setup import get_committee_data
-
     # Get committee data with filters
-    committee_data = get_committee_data(filters, page=page, per_page=20)
+    committee_data = get_committee_data(filters)
 
     # Get available seasons for the navigation dropdown
     available_seasons = get_available_seasons()
+
+    # Get distinct seasons and years for filters
+    client = MongoClient(os.getenv("MONGO_URI"))
+    db = client.anime
+    filter_seasons = ["winter", "spring", "summer", "fall"]
+    filter_years = sorted(db.committees.distinct("year"), reverse=True)
+    client.close()
 
     return render_template(
         "committees.html",
         shows=committee_data["shows"],
         available_seasons=available_seasons,
-        filter_seasons=committee_data["seasons"],
-        filter_years=committee_data["years"],
+        filter_seasons=filter_seasons,
+        filter_years=filter_years,
         current_season=season_filter,
         current_year=year_filter,
-        total_shows=committee_data["total_shows"],
-        total_pages=committee_data["total_pages"],
-        page=page,
-        per_page=committee_data["per_page"],
-        current_time=datetime.now(timezone.utc),
-    )
-
-
-@app.route("/producer/<int:producer_id>.html", endpoint="producer_detail")
-def producer_detail(producer_id):
-    """
-    Display detailed information about a specific anime producer.
-
-    Args:
-        producer_id (int): The ID of the producer to display
-
-    Returns:
-        rendered template: The producer_detail.html template with producer data
-    """
-    # Import committee processing module
-    from util.committee_setup import get_producer_details
-
-    # Get producer details
-    producer_data = get_producer_details(producer_id)
-
-    if not producer_data:
-        abort(404)
-
-    # Get available seasons for the navigation dropdown
-    available_seasons = get_available_seasons()
-
-    return render_template(
-        "producer_detail.html",
-        producer=producer_data["producer"],
-        shows=producer_data["shows"],
-        show_count=producer_data["show_count"],
-        main_producer_count=producer_data["main_producer_count"],
-        available_seasons=available_seasons,
         current_time=datetime.now(timezone.utc),
     )
 
@@ -279,7 +244,35 @@ if __name__ == "__main__":
 
         @freezer.register_generator
         def committees():
+            # Yield for the main page
             yield {}
+
+            # Connect to MongoDB for filter options
+            client = MongoClient(os.getenv("MONGO_URI"))
+            db = client.anime
+
+            # Get distinct seasons and years for pagination
+            seasons = db.committees.distinct("season")
+            years = db.committees.distinct("year")
+
+            # Calculate total pages for each filter combination
+            for season in seasons:
+                yield {"season": season, "year": "all", "page": 1}
+
+            for year in years:
+                yield {"year": year, "season": "all", "page": 1}
+
+                # Also yield season + year combinations
+                for season in seasons:
+                    doc_count = db.committees.count_documents(
+                        {"year": year, "season": season}
+                    )
+                    pages = (doc_count + 19) // 20  # 20 items per page, rounded up
+
+                    for page in range(1, pages + 1):
+                        yield {"year": year, "season": season, "page": page}
+
+            client.close()
 
         freezer.freeze()
     elif "run" in sys.argv:
