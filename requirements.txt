@@ -7,3 +7,4 @@ flask
 ipython
 PyYAML
 Frozen-Flask
+loguru
