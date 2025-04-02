@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get the current year and season from the data attributes
     const currentYear = document.getElementById("committee-container").dataset.currentYear;
     const currentSeason = document.getElementById("committee-container").dataset.currentSeason;
+    console.log("Current Year:", currentYear, "Current Season:", currentSeason);
 
     // Show loading indicator
     function showLoading() {

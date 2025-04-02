@@ -73,7 +73,7 @@
                         <select id="season-filter" name="season" class="filter-select">
                             <option value="all">All Seasons</option>
                             {% for season in filter_seasons %}
-                            <option value="{{ season }}" {% if season==current_season %}selected{% endif %}>
+                            <option value="{{ season | lower }}" {% if season==current_season %}selected{% endif %}>
                                 {{ season|capitalize }}
                             </option>
                             {% endfor %}
