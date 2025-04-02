@@ -146,10 +146,17 @@ class MalClient:
             ])
         }
 
-        response = requests.get(url, headers=self.HEADERS, params=params)
+        response = requests.get(url, headers=self.HEADERS, params=params, timeout=10)
         if response.status_code == 404:
             logger.error(f"Entry with ID {mal_id} not found.")
             return None
+        elif response.status_code == 403:
+            logger.error("Forbidden: Check your MAL API credentials.")
+            return None
+        elif response.status_code == 429:
+            logger.error("Rate limit exceeded. Retrying after 60 seconds...")
+            time.sleep(60)
+            return self.fetch_entry_by_id(mal_id)
         response.raise_for_status()
 
         data = {"node": response.json()}
