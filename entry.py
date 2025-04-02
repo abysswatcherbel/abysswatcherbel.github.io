@@ -193,15 +193,13 @@ def production_committees():
         rendered template: The production_committees.html template with context
     """
     # Get filter parameters from request
-    season_filter = request.args.get("season", "all")
-    year_filter = request.args.get("year", "all")
-
-    # Build filters dictionary
-    filters = {"season": season_filter, "year": year_filter}
+    season = post_schedule.season_name
+    year = post_schedule.year
 
     from util.committee_setup import get_committee_data
-    # Get committee data with filters
-    committee_data = get_committee_data(filters)
+
+    # Get committee data, which saves a json to /static/data/committees.json
+    committee_data = get_committee_data()
 
     # Get available seasons for the navigation dropdown
     available_seasons = get_available_seasons()
@@ -215,12 +213,11 @@ def production_committees():
 
     return render_template(
         "committees.html",
-        shows=committee_data["shows"],
         available_seasons=available_seasons,
         filter_seasons=filter_seasons,
         filter_years=filter_years,
-        current_season=season_filter,
-        current_year=year_filter,
+        current_season=season,
+        current_year=year,
         current_time=datetime.now(timezone.utc),
     )
 
@@ -247,30 +244,6 @@ if __name__ == "__main__":
             # Yield for the main page
             yield {}
 
-            # Connect to MongoDB for filter options
-            client = MongoClient(os.getenv("MONGO_URI"))
-            db = client.anime
-
-            # Get distinct seasons and years for filters
-            seasons = ["winter", "spring", "summer", "fall"]
-            years = sorted(db.committees.distinct("year"), reverse=True)
-
-            # Yield season + year combinations
-            for season in seasons:
-                yield {"season": season, "year": "all"}
-
-            for year in years:
-                yield {"year": year, "season": "all"}
-
-                # Also yield specific season + year combinations
-                for season in seasons:
-                    if (
-                        db.committees.count_documents(
-                            {"year": int(year), "season": season}
-                        )
-                        > 0
-                    ):
-                        yield {"year": year, "season": season}
 
         freezer.freeze()
     elif "run" in sys.argv:

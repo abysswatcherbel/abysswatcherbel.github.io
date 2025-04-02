@@ -45,6 +45,36 @@
     min-width: 200px;
 }
 
+/* Loading indicator styles */
+.loading-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.loading-indicator.hidden {
+    display: none;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: var(--primary);
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .committee-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -65,35 +95,40 @@
     box-shadow: 0 6px 12px var(--shadow);
 }
 
+/* Start Committee Header  */
+
 .committee-header {
     padding: 1rem;
-    border-bottom: 1px solid var(--border);
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    gap: 1rem;
 }
 
 .anime-info {
     display: flex;
+    width: 100%;
     gap: 1rem;
-    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .anime-img {
-    width: 80px;
-    height: 120px;
+    width: 120px;
+    height: 180px;
     object-fit: cover;
     border-radius: 4px;
+    flex-shrink: 0;
 }
 
 .anime-details {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    flex-grow: 1;
+    width: 100%;
 }
 
 .anime-title {
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.75rem 0;
     font-size: 1.2rem;
     color: var(--text);
 }
@@ -105,10 +140,20 @@
     margin-bottom: 0.5rem;
 }
 
+.anime-links {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Badges for anime meta information */
+
 .season-badge,
 .producer-badge,
+.mal-badge,
 .score-badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     font-size: 0.8rem;
@@ -149,40 +194,11 @@
     color: #333;
 }
 
-.genre-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem;
-    margin-bottom: 0.5rem;
-}
-
-.genre-tag {
-    display: inline-block;
-    padding: 0.1rem 0.5rem;
-    background-color: var(--bg);
-    border-radius: 12px;
-    font-size: 0.75rem;
+.mal-badge {
+    background-color: #2e51a2;
     color: var(--text-light);
 }
 
-.genre-tag.more {
-    background-color: var(--text-light);
-    color: var(--bg);
-}
-
-.studio-info {
-    font-size: 0.85rem;
-    color: var(--text-light);
-    margin-top: 0.3rem;
-}
-
-.studio-label {
-    font-weight: 500;
-}
-
-.anime-links {
-    margin-left: 1rem;
-}
 
 .watch-link {
     display: inline-flex;
@@ -200,6 +216,9 @@
 .watch-link:hover {
     background-color: var(--primary-dark);
 }
+
+/* End Badges */
+/* End Committee Header */
 
 .committee-members {
     padding: 1rem;

@@ -38,9 +38,9 @@
                                             <div class="weeks-dropdown">
                                                 {% for week in available_seasons[year][season] %}
                                                 <a href="{{ url_for('show_week', 
-                                                            year=year|int, 
-                                                            season=season, 
-                                                            week=week|replace('week_', '')|int) }}">
+                                                        year=year|int, 
+                                                        season=season, 
+                                                        week=week|replace('week_', '')|int) }}">
                                                     Week {{ week|replace('week_', '') }}
                                                 </a>
                                                 {% endfor %}
@@ -65,148 +65,51 @@
             <div class="card">
                 <div class="card-header">
                     <h2 class="card-title">Anime Production Committees</h2>
-                    <div class="last-updated">Last updated: <span id="committee-update-time">{{ current_time }}</span>
-                    </div>
+                    <div class="last-updated">Last updated: <span id="committee-update-time"></span></div>
                 </div>
 
                 <div class="filter-controls">
-                    <form id="filter-form" method="get" action="{{ url_for('committees') }}">
+                    <form id="filter-form">
                         <select id="season-filter" name="season" class="filter-select">
-                            <option value="all" {% if current_season=="all" %}selected{% endif %}>All Seasons</option>
+                            <option value="all">All Seasons</option>
                             {% for season in filter_seasons %}
-                            <option value="{{ season }}" {% if current_season==season %}selected{% endif %}>
+                            <option value="{{ season }}" {% if season==current_season %}selected{% endif %}>
                                 {{ season|capitalize }}
                             </option>
                             {% endfor %}
                         </select>
 
                         <select id="year-filter" name="year" class="filter-select">
-                            <option value="all" {% if current_year=="all" %}selected{% endif %}>All Years</option>
+                            <option value="all">All Years</option>
                             {% for year in filter_years %}
-                            <option value="{{ year }}" {% if current_year==year|string %}selected{% endif %}>{{ year }}
+                            <option value="{{ year }}" {% if year==current_year %}selected{% endif %}>
+                                {{ year }}
                             </option>
                             {% endfor %}
                         </select>
 
                         <button type="submit" class="filter-button">Apply Filters</button>
-
                         <input type="text" id="show-search" class="search-input"
                             placeholder="Search by anime title or producer...">
                     </form>
                 </div>
 
-                <div class="committee-container">
-                    {% for show in shows %}
-                    <div class="committee-card" data-year="{{ show.year }}" data-season="{{ show.season }}">
-                        <div class="committee-header">
-                            <div class="anime-info">
-                                {% if show.images and show.images.medium %}
-                                <img src="{{ show.images.medium }}" alt="{{ show.title }}" class="anime-img">
-                                {% else %}
-                                <div class="anime-img placeholder-img"></div>
-                                {% endif %}
-
-                                <div class="anime-details">
-                                    <h3 class="anime-title">{{ show.title_english or show.title }}</h3>
-                                    <div class="anime-meta">
-                                        <span class="season-badge {{ show.season }}">{{ show.season|capitalize }} {{
-                                            show.year }}</span>
-                                        {% if show.score %}
-                                        <span class="score-badge"><i class="fa-solid fa-star"></i> {{ show.score
-                                            }}</span>
-                                        {% endif %}
-                                        {% if show.main_producer %}
-                                        <span class="producer-badge">Main: {{ show.main_producer.name }}</span>
-                                        {% endif %}
-                                    </div>
-                                    <div class="anime-links">
-                                        {% if show.url %}
-                                        <a href="{{ show.url }}" class="action-link" target="_blank">MAL</a>
-                                        {% endif %}
-                                        {% if show.streams and show.streams.url %}
-                                        <a href="{{ show.streams.url }}" class="action-link stream-link"
-                                            target="_blank">
-                                            {% if show.streams.name %}{{ show.streams.name }}{% else %}Watch{% endif %}
-                                        </a>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="committee-members">
-                            <h4>Production Committee</h4>
-                            <div class="producer-grid">
-                                {% for producer in show.committee %}
-                                <div class="producer-card" data-producer-id="{{ producer.id }}">
-                                    <div class="producer-header">
-                                        {% if producer.image %}
-                                        <img src="{{ producer.image }}" alt="{{ producer.name }}" class="producer-img">
-                                        {% else %}
-                                        <div class="producer-img placeholder-img"><i class="fa-solid fa-building"></i>
-                                        </div>
-                                        {% endif %}
-                                        <h5 class="producer-name">{{ producer.name }}</h5>
-                                    </div>
-                                    <div class="producer-meta">
-                                        {% if producer.established %}
-                                        <span class="established">Est. {{ producer.established[:10] }}</span>
-                                        {% endif %}
-                                        {% if producer.favorites %}
-                                        <span class="favorites"><i class="fa-solid fa-heart"></i> {{ producer.favorites
-                                            }}</span>
-                                        {% endif %}
-                                    </div>
-
-                                    <button class="expand-producer-btn"
-                                        onclick="toggleProducerDetails('producer-{{ producer.id }}', this)">
-                                        <i class="fa-solid fa-chevron-down"></i> Details
-                                    </button>
-
-                                    <!-- Expandable producer details section -->
-                                    <div class="producer-details" id="producer-{{ producer.id }}">
-                                        {% if producer.titles and producer.titles|length > 1 %}
-                                        <div class="producer-alt-names">
-                                            <h6>Also Known As:</h6>
-                                            <ul>
-                                                {% for title in producer.titles %}
-                                                {% if title.type != "Default" %}
-                                                <li><strong>{{ title.type }}:</strong> {{ title.title }}</li>
-                                                {% endif %}
-                                                {% endfor %}
-                                            </ul>
-                                        </div>
-                                        {% endif %}
-
-                                        {% if producer.about %}
-                                        <div class="producer-about">
-                                            <h6>About:</h6>
-                                            <p>{{ producer.about|truncate(300) }}</p>
-                                            {% if producer.about|length > 300 %}
-                                            <button class="read-more-btn" onclick="toggleReadMore(this)">Read
-                                                More</button>
-                                            <div class="full-about hidden">
-                                                <p>{{ producer.about }}</p>
-                                            </div>
-                                            {% endif %}
-                                        </div>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
+                <!-- Loading indicator -->
+                <div id="loading-indicator" class="loading-indicator">
+                    <div class="spinner"></div>
+                    <p>Loading committees...</p>
                 </div>
 
-                {% if shows|length == 0 %}
-                <div class="empty-state">
+                <!-- Container with data attributes for the current year and season -->
+                <div id="committee-container" class="committee-container" data-current-year="{{ current_year }}"
+                    data-current-season="{{ current_season }}">
+                </div>
+
+                <div class="empty-state hidden">
                     <i class="fa-solid fa-film-slash"></i>
                     <p>No anime shows found with the current filters</p>
                     <span>Try adjusting your filters or search criteria</span>
                 </div>
-                {% endif %}
             </div>
         </main>
 
@@ -242,64 +145,8 @@
                     localStorage.setItem('theme', 'light');
                 }
             });
-
-            // Client-side search functionality
-            const showSearch = document.getElementById('show-search');
-            const committeeCards = document.querySelectorAll('.committee-card');
-
-            showSearch.addEventListener('input', function () {
-                const searchTerm = this.value.toLowerCase();
-
-                committeeCards.forEach(card => {
-                    const animeTitle = card.querySelector('.anime-title').textContent.toLowerCase();
-                    const producerElements = card.querySelectorAll('.producer-name');
-                    const producers = Array.from(producerElements).map(el => el.textContent.toLowerCase());
-
-                    // Check if search term is in any of the relevant fields
-                    const matchesTitle = animeTitle.includes(searchTerm);
-                    const matchesProducer = producers.some(producer => producer.includes(searchTerm));
-
-                    if (searchTerm === '' || matchesTitle || matchesProducer) {
-                        card.style.display = 'block';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-            });
-
-            // Toggle producer details
-            function toggleProducerDetails(producerId, button) {
-                const detailsElement = document.getElementById(producerId);
-                if (detailsElement) {
-                    detailsElement.classList.toggle('active');
-
-                    // Toggle button icon and text
-                    const icon = button.querySelector('i');
-                    if (detailsElement.classList.contains('active')) {
-                        icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
-                        button.innerHTML = button.innerHTML.replace('Details', 'Close');
-                    } else {
-                        icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
-                        button.innerHTML = button.innerHTML.replace('Close', 'Details');
-                    }
-                }
-            }
-
-            // Toggle read more for long about sections
-            function toggleReadMore(button) {
-                const aboutSection = button.closest('.producer-about');
-                const fullAbout = aboutSection.querySelector('.full-about');
-
-                if (fullAbout) {
-                    fullAbout.classList.toggle('hidden');
-                    if (fullAbout.classList.contains('hidden')) {
-                        button.textContent = 'Read More';
-                    } else {
-                        button.textContent = 'Read Less';
-                    }
-                }
-            }
         </script>
+        <script src="{{ url_for('static', filename='scripts/committees.js') }}"></script>
     </body>
 
 </html>
