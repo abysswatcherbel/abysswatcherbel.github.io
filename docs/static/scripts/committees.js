@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentSeason = document.getElementById("committee-container").dataset.currentSeason;
     console.log("Current Year:", currentYear, "Current Season:", currentSeason);
 
+    console.log("Initial selected year:", yearFilter.value);
+    console.log("Initial selected season:", seasonFilter.value);
+
+
     // Show loading indicator
     function showLoading() {
         if (loadingIndicator) {
