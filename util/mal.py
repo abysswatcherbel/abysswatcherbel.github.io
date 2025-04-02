@@ -142,7 +142,7 @@ class MalClient:
                 "id", "title", "main_picture", "alternative_titles",
                 "status", "media_type", "genres", "num_episodes",
                 "source", "start_date", "start_season", "broadcast",
-                "studios", "num_list_users"
+                "studios", "num_list_users", "mean"
             ])
         }
 
