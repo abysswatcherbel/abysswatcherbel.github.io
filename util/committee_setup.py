@@ -91,14 +91,19 @@ def get_committee_data(filters=None):
                         enriched_producer["favorites"] = producers[producer_id].get(
                             "favorites", 0
                         )
-                        enriched_producer["titles"] = producers[producer_id].get(
-                            "titles", []
+                        enriched_producer["country"] = producers[producer_id].get(
+                            "country", ""
                         )
 
-                        # Add a short about section (truncated)
-                        about = producers[producer_id].get("about", "")
-                        if about:
-                            enriched_producer["about"] = about
+                        # Add flag URL if country code is available
+                        if (
+                            enriched_producer["country"]
+                            and len(enriched_producer["country"]) == 2
+                        ):
+                            country_code = enriched_producer["country"].lower()
+                            enriched_producer["flag"] = (
+                                f"https://flagcdn.com/w20/{country_code}.png"
+                            )
 
                         enriched_committee.append(enriched_producer)
                     else:
@@ -116,9 +121,7 @@ def get_committee_data(filters=None):
         f"Fetched {len(committee_data)} committee entries with filters: {filters}. Sample: {json.dumps(committee_data[0], indent=4) if committee_data else 'No data found.'}"
     )
 
-    with open(
-        os.path.join("static", "data", "committees.json"), "w"
-    ) as f:
+    with open(os.path.join("static", "data", "committees.json"), "w") as f:
         json.dump(committee_data, f, indent=4)
 
     return {
