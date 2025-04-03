@@ -47,9 +47,7 @@ from pytz import utc
 from dotenv import load_dotenv
 from loguru import logger
 from util.logger_config import logger
-from typing import (
-    Dict, List, Tuple, Optional
-)
+from typing import Dict, List, Tuple, Optional
 from util.seasonal_schedule import SeasonScheduler
 from util.mal import MalClient
 
@@ -76,7 +74,7 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
     """
     # Get logger for scheduler
     # log = setup_logging("scheduler")
-    
+
     client = MongoClient(mongo_uri)
     jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}
     executors = {
@@ -89,7 +87,7 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
         executors=executors,
         timezone=utc,
         job_defaults=job_defaults,
-        misfire_grace_time=42600, # 12 hours + 1 minute
+        misfire_grace_time=42600,  # 12 hours + 1 minute
     )
     scheduler.start()
 
@@ -146,13 +144,13 @@ def setup_reddit_instance(
         <Redditor u/AutoLovepon>
     """
     # log = setup_logging("reddit")
-    
+
     reddit = Reddit(
         client_id=reddit_id,
         client_secret=reddit_secret,
         user_agent=reddit_username,
     )
-    
+
     logger.info("Reddit instance initialized")
     return reddit
 
@@ -179,9 +177,9 @@ def update_scheduler(reddit: Reddit) -> None:
         >>> update_scheduler(reddit)
         # Fetches new posts and schedules them for processing
     """
-    #log = setup_logging("scheduler")
+    # log = setup_logging("scheduler")
     logger.info("Updating scheduler...")
-    
+
     try:
         new_posts = fetch_recent_posts(reddit=reddit)
         # Use the global scheduler_instance here
@@ -233,7 +231,6 @@ def schedule_post_processing(
                 id=job_id,
                 timezone="utc",
                 name=job_name,
-                
             )
             logger.success(f"Job scheduled for post: {post['id']}")
         except ConflictingIdError:
@@ -249,7 +246,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
     This function handles the processing of a Reddit discussion post, which involves:
     1. Closing the post after the 48 hours (retrieving final karma/comment counts)
     2. Storing the post details in MongoDB
-    
+
     The function uses error handling to gracefully handle any issues during processing
     and logs all significant events.
 
@@ -266,7 +263,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
         Exception: Any unexpected errors during post processing are caught and logged
     """
     # log = setup_logging("process_post")
-    
+
     try:
         post_details = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
@@ -284,9 +281,9 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
     """
     Retrieves recent Reddit posts submitted by AutoLovepon (The r/anime bot) within the last 48 hours.
 
-    This function fetches the latest submissions from the user and filters them to include only those 
-    created within the past 48 hours. For each relevant submission, it compiles essential details such as the post ID, 
-    title, creation time, scheduled closing time, associated week ID, and season. The collected posts are returned 
+    This function fetches the latest submissions from the user and filters them to include only those
+    created within the past 48 hours. For each relevant submission, it compiles essential details such as the post ID,
+    title, creation time, scheduled closing time, associated week ID, and season. The collected posts are returned
     as a list of dictionaries for further processing.
 
     Args:
@@ -324,11 +321,13 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
     two_days_ago: datetime = datetime.now(timezone.utc) - timedelta(hours=48)
     submissions: List[Submission] = user.submissions.new(limit=100)
     for submission in submissions:
-        created_time: datetime = datetime.fromtimestamp(submission.created_utc, tz=timezone.utc)
+        created_time: datetime = datetime.fromtimestamp(
+            submission.created_utc, tz=timezone.utc
+        )
         if created_time > two_days_ago:
             season_scheduler = SeasonScheduler(post_time=created_time)
             trigger_time = created_time + timedelta(hours=48)
-            logger.debug(f'Trigger set for post: {submission.url} at {trigger_time}')
+            logger.debug(f"Trigger set for post: {submission.url} at {trigger_time}")
             posts.append(
                 {
                     "id": submission.id,
@@ -341,7 +340,7 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
             )
     if posts:
         logger.info(f"Found {len(posts)} posts within the last 48 hours")
-    else: 
+    else:
         logger.warning("No posts found within the last 48 hours")
     return posts
 
@@ -424,39 +423,52 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
     """
     post = Submission(reddit=reddit, id=post_id)
     # log = setup_logging("close_post")
-    
+
     post_available = check_post_status(post, post_id)
     if not post_available:
         return {}
-    
-    mal_id = get_mal_id_reddit_post(post.selftext) # Try to get the MAL id from the body of the post
+
+    mal_id = get_mal_id_reddit_post(
+        post.selftext
+    )  # Try to get the MAL id from the body of the post
     title_details, episode = get_title_details(post.title)
     if not week_id:
-        week_id = SeasonScheduler(post_time=datetime.fromtimestamp(post.created_utc, tz=timezone.utc)).week_id
+        week_id = SeasonScheduler(
+            post_time=datetime.fromtimestamp(post.created_utc, tz=timezone.utc)
+        ).week_id
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    col = db.seasonals 
+    col = db.seasonals
 
     romaji = title_details.get("romaji")
     english = title_details.get("english")
 
     # If no MAL ID is found, try to the entry from the title
-    query = {'id': mal_id} if mal_id else {'$or': [{'title': romaji}, {'title_english': english}]}
+    query = (
+        {"id": mal_id}
+        if mal_id
+        else {"$or": [{"title": romaji}, {"title_english": english}]}
+    )
     logger.debug(f"Looking for entry on the db with: {json.dumps(query, indent=2)}")
-    mal_doc = col.find_one(query, {"id": 1}) # Check if the show exists on the db
+    mal_doc = col.find_one(query, {"id": 1})  # Check if the show exists on the db
 
     # If there is a mal_id but no document found, try to fetch the entry from MAL and push it to the db
     if mal_id and not mal_doc:
-        logger.warning(f"Post {post_id} has a MAL ID but no document found in the database. Fetching it and pushing it to the db...")
+        logger.warning(
+            f"Post {post_id} has a MAL ID but no document found in the database. Fetching it and pushing it to the db..."
+        )
         try:
             mal = MalClient()
             entry = mal.fetch_entry_by_id(mal_id)
             if entry:
                 mal.push_to_db(entry)
-                logger.success(f"Fetched and pushed entry from the post {post_id} with the MAL ID {mal_id} to the database.")
+                logger.success(
+                    f"Fetched and pushed entry from the post {post_id} with the MAL ID {mal_id} to the database."
+                )
         except Exception as e:
-            logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {post_id}: {e}")
-            
+            logger.error(
+                f"Error fetching MAL entry for post id {mal_id} and from the post {post_id}: {e}"
+            )
 
     post_details = {
         "mal_id": mal_id,
@@ -476,14 +488,16 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
 
 
 def insert_mongo(
-    post_details: dict, client: MongoClient = MongoClient(os.getenv("MONGO_URI")), schedule = SeasonScheduler()
+    post_details: dict,
+    client: MongoClient = MongoClient(os.getenv("MONGO_URI")),
+    schedule=SeasonScheduler(),
 ) -> None:
     """
     Inserts post details into the MongoDB database.
 
     This function processes the provided post details and inserts them into the appropriate MongoDB collections.
-    If a document with the specified MAL ID exists in the season collection, it appends the new karma data 
-    to the existing `reddit_karma` array. If the MAL ID does not exist, it creates a new document in the 
+    If a document with the specified MAL ID exists in the season collection, it appends the new karma data
+    to the existing `reddit_karma` array. If the MAL ID does not exist, it creates a new document in the
     `new_entries` collection.
 
     Args:
@@ -511,7 +525,7 @@ def insert_mongo(
 
     # Get the database and collection
     db = client.anime
-    col = db.seasonals  
+    col = db.seasonals
 
     # Get the title details
     title_info = post_details.get("title", {})
@@ -530,27 +544,39 @@ def insert_mongo(
         "url": post_details["url"],
     }
 
-    logger.info(f"Inserting data into MongoDB for MAL ID: {json.dumps(mal_id, indent=2)}")
+    logger.info(
+        f"Inserting data into MongoDB for MAL ID: {json.dumps(mal_id, indent=2)}"
+    )
     query = {"id": mal_id}
     show = col.find_one(query)
-    
+
     if show:
         reddit_karma = f"reddit_karma.{schedule.year}.{schedule.season_name}"
         update_result = col.update_one(query, {"$push": {reddit_karma: episode_data}})
-        logger.info(f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}")
+        logger.info(
+            f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}"
+        )
     else:
         if mal_id:
-            logger.warning(f"Document with MAL ID {mal_id} not found. Trying to fetch from MAL api and create a new entry...")
+            logger.warning(
+                f"Document with MAL ID {mal_id} not found. Trying to fetch from MAL api and create a new entry..."
+            )
             try:
                 mal = MalClient()
                 entry = mal.fetch_entry_by_id(mal_id)
                 if entry:
                     mal.push_to_db(entry)
-                    logger.success(f"Fetched and pushed entry from the post {reddit_id} with the MAL ID {mal_id} to the database.")
+                    logger.success(
+                        f"Fetched and pushed entry from the post {reddit_id} with the MAL ID {mal_id} to the database."
+                    )
             except Exception as e:
-                logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {reddit_id}: {e}")
+                logger.error(
+                    f"Error fetching MAL entry for post id {mal_id} and from the post {reddit_id}: {e}"
+                )
         else:
-            logger.warning(f"Post {reddit_id} has no MAL ID. Cannot create a new entry on the default db")
+            logger.warning(
+                f"Post {reddit_id} has no MAL ID. Cannot create a new entry on the default db"
+            )
 
             col = db.new_entries
             insert_result = col.insert_one(episode_data)
@@ -563,9 +589,9 @@ def get_title_details(title: str) -> Tuple[Dict, str]:
     """
     Extracts romaji and English titles along with the episode number from the r/anime post title.
 
-    This function utilizes regular expressions to parse the title, extracting the romaji 
-    (Japanese), English titles, and the episode number if present. It handles titles with and without 
-    episode information, ensuring that the English title defaults to the romaji title when the English 
+    This function utilizes regular expressions to parse the title, extracting the romaji
+    (Japanese), English titles, and the episode number if present. It handles titles with and without
+    episode information, ensuring that the English title defaults to the romaji title when the English
     translation is not provided.
 
     Args:
@@ -604,7 +630,6 @@ def get_title_details(title: str) -> Tuple[Dict, str]:
         )
     """
 
-    
     romaji_english_pattern = re.compile(
         r"(.*?)(?: • (.*?))? - Episode (\d+) discussion"
     )
@@ -630,8 +655,7 @@ def get_title_details(title: str) -> Tuple[Dict, str]:
         "english": english,
         "original_post": title,
     }
-    
-   
+
     return title_details, episode
 
 
@@ -642,22 +666,22 @@ def get_active_posts(
 ) -> List:
     """
     Retrieves active discussion posts on r/anime for the karma ranking system.
-    
+
     For our purposes, a post is considered active if it falls within the first 48 hours of posting.
     This active period is critical because it reflects the window of highest engagement,
     which we use to gauge the post's performance in terms of karma.
-    
+
     Parameters:
         reddit (Reddit): An authenticated Reddit API instance, defaulting to the one provided by setup_reddit_instance().
         username (str): The Reddit username whose posts are to be fetched. Defaults to "AutoLovepon".
         default_tz (timezone): The timezone to be used for datetime calculations. Defaults to UTC.
-    
+
     Returns:
         list[dict]: A list of dictionaries, each containing details of an active post.
-    
+
     Raises:
         Exception: Any issues encountered while fetching or processing posts will be propagated.
-    
+
     Note:
         This function filters for submissions made within the past 48 hours,
         ensuring only those posts in the active discussion period are returned.
@@ -706,18 +730,23 @@ def get_active_posts(
                             "title_english": 1,
                             "mal_id": "$id",
                             "images": 1,
+                            "broadcast": 1,
                         },
                     )
 
                     # If there is a valid mal_id but no document found, try to fetch the entry from MAL and push it to the db
                     if not show:
-                        logger.warning(f"Post {submission.id} has a MAL ID but no document found in the database.")
+                        logger.warning(
+                            f"Post {submission.id} has a MAL ID but no document found in the database."
+                        )
                         try:
                             mal = MalClient()
                             entry = mal.fetch_entry_by_id(mal_id)
                             if entry:
                                 mal.push_to_db(entry)
-                                logger.success(f"Fetched and pushed entry from the post {submission.id} with the MAL ID {mal_id} to the database.")
+                                logger.success(
+                                    f"Fetched and pushed entry from the post {submission.id} with the MAL ID {mal_id} to the database."
+                                )
                                 show = seasonals.find_one(
                                     {"id": mal_id},
                                     {
@@ -727,51 +756,98 @@ def get_active_posts(
                                         "title_english": 1,
                                         "mal_id": "$id",
                                         "images": 1,
+                                        "broadcast": 1,
                                     },
                                 )
                         except Exception as e:
-                            logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}")
+                            logger.error(
+                                f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}"
+                            )
+                            continue
                     else:
-                        logger.success(f"Post {submission.id} has a MAL ID and a document found in the database.")
-                        
+                
                         post_details = dict(show)
                         post_details["reddit_url"] = submission.url
                         post_details["karma"] = submission.score
                         post_details["comments"] = submission.num_comments
                         # Time left in hours
                         post_details["time_left"] = time_left.total_seconds() / 3600
+                        
                         posts.append(post_details)
-                        hourly_data.update_one(
-                            {
-                                "mal_id": mal_id,
-                                "reddit_id": submission.id,
-                                "season": schedule.season_name,
-                                "year": current_time.year,
-                                "week_id": schedule.week_id,
-                                "episode": episode,
-                                "url": submission.url,
-                               
-                            },
-                            {
-                                "$set": {
+
+                        # Round the hour since post to nearest hour
+                        hour = round(hours_since_post.total_seconds() / 3600, 0)
+                        karma = submission.score
+
+                        # Check if document for this mal_id and reddit_id exists
+                        existing_doc = hourly_data.find_one(
+                            {"mal_id": mal_id, "reddit_id": submission.id}
+                        )
+
+                        if existing_doc:
+                            # Document exists, check if this hour already exists in hourly_karma
+                            hour_exists = any(
+                                entry.get("hour") == hour
+                                for entry in existing_doc.get("hourly_karma", [])
+                            )
+
+                            if hour_exists:
+                                # Hour exists, update the karma value for this hour
+                                hourly_data.update_one(
+                                    {"mal_id": mal_id, "reddit_id": submission.id, "hourly_karma.hour": hour},
+                                    {
+                                        "$set": {
+                                            "updated_at": current_time.strftime(
+                                                "%Y-%m-%d %H:%M:%S"
+                                            ),
+                                            "hourly_karma.$.karma": karma,
+                                        }
+                                    }
+                                )
+                                
+                            else:
+                                # Hour doesn't exist, push new entry
+                                hourly_data.update_one(
+                                    {"mal_id": mal_id, "reddit_id": submission.id},
+                                    {
+                                        "$set": {
+                                            "updated_at": current_time.strftime(
+                                                "%Y-%m-%d %H:%M:%S"
+                                            )
+                                        },
+                                        "$push": {
+                                            "hourly_karma": {
+                                                "hour": hour,
+                                                "karma": karma,
+                                            }
+                                        },
+                                    },
+                                )
+                                
+                        else:
+                            # Document doesn't exist, create a new one
+                            hourly_data.insert_one(
+                                {
+                                    "mal_id": mal_id,
+                                    "reddit_id": submission.id,
+                                    "week_id": schedule.week_id,
+                                    "season": schedule.season_name,
+                                    "title": show.get("title"),
+                                    "title_english": show.get("title_english"),
+                                    "episode": episode,
+                                    "created_at": current_time.strftime(
+                                        "%Y-%m-%d %H:%M:%S"
+                                    ),
                                     "updated_at": current_time.strftime(
                                         "%Y-%m-%d %H:%M:%S"
-                                    )
-                                },
-                                "$push": {
-                                    "hourly_karma": {
-                                        "hour": round(
-                                            hours_since_post.total_seconds() / 3600, 0
-                                        ),
-                                        "karma": submission.score,
-                                    }
-                                },
-                            },
-                            upsert=True,
-                        )
-                    else:
-                        logger.warning(f"No post details found for MAL ID: {mal_id}")
-                        continue
+                                    ),
+                                    "hourly_karma": [{"hour": hour, "karma": karma}],
+                                }
+                            )
+                            logger.info(
+                                f"Created new hourly tracking for MAL ID {mal_id}, post {submission.id}"
+                            )
+
                 except ValueError:
                     logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
                     continue
@@ -813,7 +889,6 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
 
 # Example usage
 def main():
- 
 
     # Initialize the scheduler (which sets up the daily update job)
     scheduler = setup_scheduler()

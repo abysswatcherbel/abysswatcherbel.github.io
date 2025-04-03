@@ -63,7 +63,7 @@ class SeasonScheduler(BaseModel):
             self.season_name = self._get_season_name(self.season_number)
             self.week_id = self.schedule_detals.week_id
             self.airing_period = self.get_airing_period()
-            logger.debug(f"Derived fields calculated for {self.schedule_type}: {self.model_dump_json(indent=2)}")
+            
         return self
     
     # Class methods (static helpers)

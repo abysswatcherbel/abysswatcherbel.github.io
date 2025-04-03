@@ -117,7 +117,7 @@ def current_week():
     available_seasons = get_available_seasons()
     active_discussions = get_active_posts()
 
-    logger.debug(f"Available seasons: {available_seasons}")
+    
 
     return render_template(
         "new_home.html",
