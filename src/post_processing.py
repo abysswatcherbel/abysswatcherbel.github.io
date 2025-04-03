@@ -667,24 +667,37 @@ def get_active_posts(
     user = reddit.redditor(username)
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
-    collection = db.seasonals
+    seasonals = db.seasonals
     hourly_data = db.karma_watch
     posts = []
     current_time = datetime.now(tz=default_tz)
     two_days_ago = current_time - timedelta(hours=48)
     schedule = SeasonScheduler()
+
+    # Get the submissions from AutoLovePon
     for submission in user.submissions.new(limit=50):
+
+        # The time the submission was created should be in datetime format
         created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
+
+        # Check if the submission was created within the last 48 hours
         if created_time > two_days_ago:
             trigger_time = created_time + timedelta(hours=48)
             time_left = trigger_time - current_time
             hours_since_post = current_time - created_time
+
+            # Try to get a valid mal_id from the post body
             mal_id = get_mal_id_reddit_post(submission.selftext)
+
+            # Try to get the number of the episode from the title
             _, episode = get_title_details(submission.title)
+
+            # If there is a mal_id, try to get the series details from the db
             if mal_id:
                 try:
                     mal_id = int(mal_id)
-                    post_details = collection.find_one(
+                    show = None
+                    show = seasonals.find_one(
                         {"id": mal_id},
                         {
                             "_id": 0,
@@ -695,7 +708,9 @@ def get_active_posts(
                             "images": 1,
                         },
                     )
-                    if mal_id and not post_details:
+
+                    # If there is a valid mal_id but no document found, try to fetch the entry from MAL and push it to the db
+                    if not show:
                         logger.warning(f"Post {submission.id} has a MAL ID but no document found in the database.")
                         try:
                             mal = MalClient()
@@ -703,7 +718,7 @@ def get_active_posts(
                             if entry:
                                 mal.push_to_db(entry)
                                 logger.success(f"Fetched and pushed entry from the post {submission.id} with the MAL ID {mal_id} to the database.")
-                                post_details = collection.find_one(
+                                show = seasonals.find_one(
                                     {"id": mal_id},
                                     {
                                         "_id": 0,
@@ -716,10 +731,10 @@ def get_active_posts(
                                 )
                         except Exception as e:
                             logger.error(f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}")
-
-                    logger.debug(f"Post details {post_details} found for MAL ID: {mal_id}")
-                    if post_details:
-                        post_details = dict(post_details)
+                    else:
+                        logger.success(f"Post {submission.id} has a MAL ID and a document found in the database.")
+                        
+                        post_details = dict(show)
                         post_details["reddit_url"] = submission.url
                         post_details["karma"] = submission.score
                         post_details["comments"] = submission.num_comments

@@ -157,6 +157,7 @@ def karma_watch():
                         }
                     }
                 },
+                "year": post_schedule.year
             },
             {"_id": 0},
         )
