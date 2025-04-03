@@ -88,7 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const year = yearFilter.value;
         const searchTerm = searchInput.value.toLowerCase();
 
-        // If it's the initial load and no search term is present,
         // make sure we have a year filter applied to avoid loading everything
         if (initialLoad && !searchTerm && year === "all") {
             yearFilter.value = currentYear || new Date().getFullYear().toString();
