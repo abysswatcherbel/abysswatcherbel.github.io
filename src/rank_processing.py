@@ -29,8 +29,6 @@ class KarmaRankEntry(BaseModel):
 class KarmaRank(BaseModel):
     entries: List[KarmaRankEntry]
 
-episode_schedule = SeasonScheduler()
-post_schedule = SeasonScheduler(schedule_type="post")
 
 def assign_rank(sorted_entries):
     """Assign ranks to sorted entries, handling ties with 'min' method."""
@@ -53,16 +51,16 @@ def assign_rank(sorted_entries):
     return sorted_entries
 
 
-def get_ids_current_week():
+def get_ids_current_week(schedule: SeasonScheduler):
     """Fetch MAL IDs of all shows airing in the current week."""
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     seasonal_entries = db.seasonals
 
     # Determine current week
-    current_week = post_schedule.week_id
-    current_year = post_schedule.year
-    current_season = post_schedule.season_name
+    current_week = schedule.week_id
+    current_year = schedule.year
+    current_season = schedule.season_name
 
     # Fetch MAL IDs of shows airing in the current week
     mal_ids = list(

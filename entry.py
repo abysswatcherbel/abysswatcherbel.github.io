@@ -89,7 +89,7 @@ def show_week(year: int, season: str, week: int) -> str:
     if season.lower() not in ["winter", "spring", "summer", "fall"]:
         abort(404)
     template_path = f"{year}/{season}/week_{week}.html"
-    print(f"Looking for template at: {template_path}")  # Debug print
+    
     return render_template(template_path)
 
 
