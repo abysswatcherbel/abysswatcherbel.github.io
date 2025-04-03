@@ -166,6 +166,35 @@ class MalClient:
             logger.error("Validation error:", e)
             return None
     
+    def update_score(self, mal_id: int, collection: Collection = None):
+   
+        if collection is None:
+            client = MongoClient(os.getenv('MONGO_URI'))
+            collection = client.anime.seasonals
+
+
+        logger.info(f'Getting mal_details for id: {mal_id}')
+        
+        url = f"{self.ENTRY_URL}/{mal_id}"
+        params = {
+            "fields": ",".join([
+                "id","mean","num_list_users",
+            ])
+        }
+
+        response = requests.get(url, headers=self.HEADERS, params=params,timeout=90)
+        if response.status_code == 200:
+            data = response.json()
+
+            collection.update_one(
+                {"id": mal_id},
+                {"$set": {"score": data.get("mean"), "members": data.get("num_list_users")}},
+            )
+
+        else:
+            logger.error(f"Error with ID {mal_id}: {response.status_code}")
+            
+        
     def push_to_db(self, mal_entry: MalEntry, collection: Collection = None) -> None:
         """
         Pushes a list of MAL entries to a MongoDB collection.
@@ -174,7 +203,7 @@ class MalClient:
             mal_entries: List of MAL entries to push
             collection: MongoDB collection to push to
         """
-        if not collection:
+        if collection == None:
             client = MongoClient(os.getenv('MONGO_URI'))
             collection = client.anime.seasonals
        
