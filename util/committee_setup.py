@@ -102,7 +102,7 @@ def get_committee_data(filters=None):
                         ):
                             country_code = enriched_producer["country"].lower()
                             enriched_producer["flag"] = (
-                                f"https://flagcdn.com/w20/{country_code}.png"
+                                f"https://flagcdn.com/w20/{country_code}.webp"
                             )
 
                         enriched_committee.append(enriched_producer)

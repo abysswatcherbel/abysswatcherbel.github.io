@@ -160,6 +160,14 @@
     font-weight: 500;
 }
 
+.season-badge:hover,
+.producer-badge:hover,
+.mal-badge:hover,
+.score-badge:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
 .season-badge {
     text-transform: capitalize;
 }
@@ -196,7 +204,8 @@
 
 .mal-badge {
     background-color: #2e51a2;
-    color: var(--text-light);
+    color: #fff;
+    text-decoration: none;
 }
 
 

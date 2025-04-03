@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const flag = p.flag ? `<img src="${p.flag}" alt="${p.country}" class="country-flag" title="${p.country}">` : '';
                     return `
           <div class="producer-card">
-            <div class="producer-header">${image}<h5 class="producer-name">${p.name} ${flag}</h5></div>
+            <div class="producer-header">${image}<h5 class="producer-name">${p.name} </h5>${flag}</div>
             <div class="producer-meta">
               ${p.established ? `<span class="established">Est. ${p.established.slice(0, 10)}</span>` : ""}
               ${p.favorites ? `<span class="favorites"><i class="fa-solid fa-heart"></i> ${p.favorites}</span>` : ""}
