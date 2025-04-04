@@ -576,7 +576,7 @@ const KarmaComparisonChart = () => {
                     }),
                     React.createElement(YAxis, {
                         label: { value: 'Karma', angle: -90, position: 'insideLeft' },
-                        domain: [0, 'dataMax + 10']
+                        domain: [0, dataMax => Math.ceil(dataMax * 1.10 / 100) * 100]
                     }),
                     React.createElement(Tooltip, {
                         formatter: function (value, name) {
@@ -597,10 +597,10 @@ const KarmaComparisonChart = () => {
                             return show ? `${show.title} (Ep ${show.episode})` : value;
                         },
                         wrapperStyle: {
-                            paddingTop: '10px',  // Add padding above the legend
+                            paddingTop: '5px',  // Add padding above the legend
                             marginTop: '5px',   // Add margin above the legend
                             position: 'relative', // Make position relative instead of absolute
-                            marginBottom: '2px'            // Remove bottom positioning
+                            marginBottom: '5px'            // Remove bottom positioning
                         }
                     }),
                     // Filter selectedShows to only those that exist in filteredShows
