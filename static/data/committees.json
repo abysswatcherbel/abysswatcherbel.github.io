@@ -1473,7 +1473,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1029/146850l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1029/146850.jpg"
         },
-        "title_english": "",
+        "title_english": null,
         "score": 8.4,
         "streams": {
             "name": "Disney",

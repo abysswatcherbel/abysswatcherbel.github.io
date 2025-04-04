@@ -10,7 +10,6 @@ from src.rank_processing import (
     get_available_seasons,
     get_season_averages,
     get_weekly_change,
- 
 )
 from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
@@ -32,6 +31,7 @@ freezer = Freezer(app)
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
 client = MongoClient(os.getenv("MONGO_URI"))
+
 
 @app.route("/current_chart/", endpoint="current_chart")
 def karma_rank():
@@ -89,7 +89,7 @@ def show_week(year: int, season: str, week: int) -> str:
     if season.lower() not in ["winter", "spring", "summer", "fall"]:
         abort(404)
     template_path = f"{year}/{season}/week_{week}.html"
-    
+
     return render_template(template_path)
 
 
@@ -116,8 +116,6 @@ def current_week():
     )
     available_seasons = get_available_seasons()
     active_discussions = get_active_posts()
-
-    
 
     return render_template(
         "new_home.html",
@@ -146,61 +144,50 @@ def karma_watch():
     collection = client.anime.karma_watch
 
     # Get karma progression data for all tracked shows
-    # karma_data = list(
-    #     collection.find(
-    #         {
-    #             "mal_id": {"$ne": None},
-    #             "hourly_karma": {
-    #                 "$not": {
-    #                     "$elemMatch": {
-    #                         "karma": {"$type": "double", "$eq": float("nan")}
-    #                     }
-    #                 }
-    #             },
-    #             "year": post_schedule.year
-    #         },
-    #         {"_id": 0},
-    #     )
-    # )
-    karma_data = list(collection.aggregate([
-        {
-            "$lookup": {
-                "from": "seasonals",
-                "localField": "mal_id",
-                "foreignField": "id",
-                "as": "seasonal_data"
-            }
-        },
-        {
-            "$set": {
-                "title": { "$arrayElemAt": ["$seasonal_data.title_english", 0]},
-                "images": { "$arrayElemAt": ["$seasonal_data.images", 0]},
-            }
-        },
-        {
-            "$unset": "seasonal_data"
-        },
-        {
-            "$match": {
-                "mal_id": {"$ne": None},
-                "hourly_karma": {
-                    "$not": {
-                        "$elemMatch": {
-                            "karma": {"$type": "double", "$eq": float("nan")}
-                        }
+    karma_data = list(
+        collection.aggregate(
+            [
+                {
+                    "$lookup": {
+                        "from": "seasonals",
+                        "localField": "mal_id",
+                        "foreignField": "id",
+                        "as": "seasonal_data",
                     }
                 },
-                "year": post_schedule.year
-
-            }
-        },
-        {
-            "$project": {
-                "_id": 0,
-            }
-        }
-    ]))
-
+                {
+                    "$set": {
+                        "title": {
+                            "$ifNull": [
+                                {"$arrayElemAt": ["$seasonal_data.title_english", 0]},
+                                {"$arrayElemAt": ["$seasonal_data.title", 0]},
+                            ]
+                        },
+                        "images": {"$arrayElemAt": ["$seasonal_data.images", 0]},
+                    }
+                },
+                {"$unset": "seasonal_data"},
+                {
+                    "$match": {
+                        "mal_id": {"$ne": None},
+                        "hourly_karma": {
+                            "$not": {
+                                "$elemMatch": {
+                                    "karma": {"$type": "double", "$eq": float("nan")}
+                                }
+                            }
+                        },
+                        "year": post_schedule.year,
+                    }
+                },
+                {
+                    "$project": {
+                        "_id": 0,
+                    }
+                },
+            ]
+        )
+    )
 
     # Save the data to a JSON file for the frontend to use
     karma_watch_path = os.path.join("static", "data", "karma_watch.json")
@@ -266,6 +253,7 @@ if __name__ == "__main__":
     import sys
 
     if "freeze" in sys.argv:
+
         @freezer.register_generator
         def current_chart():
             yield {}
@@ -283,7 +271,6 @@ if __name__ == "__main__":
         def committees():
             # Yield for the main page
             yield {}
-
 
         freezer.freeze()
     elif "run" in sys.argv:

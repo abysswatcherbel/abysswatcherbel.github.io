@@ -232,7 +232,7 @@ const KarmaComparisonChart = () => {
                 } else if (!karmaData[id].hourly_karma) {
                     console.error(`Missing hourly_karma for ID: ${id}`);
                 } else {
-                    console.log(`Found valid data for ID: ${id}, title: ${karmaData[id].title}`);
+                    console.log(`Found valid data for ID: ${id}, title: ${karmaData[id].title}, has image: ${!!karmaData[id].images}`);
                 }
             });
         }
@@ -305,7 +305,7 @@ const KarmaComparisonChart = () => {
         // Calculate max karma in a single hour (not cumulative max)
         let maxHourlyKarma = 0;
         let maxHourlyKarmaHour = 0;
-        for (let i = 1; i < hourlyData.length; i++) {
+        for (let i = 2; i < hourlyData.length; i++) {
             const prevHour = hourlyData.find(h => h.hour === hourlyData[i].hour - 1);
             const currentHour = hourlyData[i];
 
@@ -452,7 +452,7 @@ const KarmaComparisonChart = () => {
                         borderRadius: "6px"
                     }
                 },
-                displayedShows.length > 0 ? displayedShows.map(function (show, index) {
+                filteredShows.length > 0 ? displayedShows.map(function (show, index) {
                     return React.createElement(
                         "div",
                         {
@@ -463,20 +463,59 @@ const KarmaComparisonChart = () => {
                                 borderColor: selectedShows.includes(show.id) ? "#3b82f6" : "#d1d5db",
                                 borderRadius: "6px",
                                 backgroundColor: selectedShows.includes(show.id) ? "rgba(59, 130, 246, 0.1)" : "transparent",
-                                cursor: "pointer"
+                                cursor: "pointer",
+                                display: "flex",
+                                alignItems: "center",
+                                gap: "10px"
                             },
                             onClick: function () { handleShowSelection(show.id); }
                         },
-                        React.createElement("div", { style: { fontWeight: "500" } }, show.title),
+                        // Show image
+                        karmaData[show.id] && karmaData[show.id].images && karmaData[show.id].images.medium &&
                         React.createElement(
                             "div",
-                            { style: { fontSize: "0.875rem", opacity: "0.8" } },
-                            "Episode ", show.episode, " (", show.season, " ", show.year, ")"
+                            {
+                                style: {
+                                    minWidth: "50px",
+                                    width: "50px",
+                                    height: "70px",
+                                    overflow: "hidden",
+                                    borderRadius: "4px",
+                                    flexShrink: 0
+                                }
+                            },
+                            React.createElement("img", {
+                                src: karmaData[show.id].images.medium,
+                                alt: show.title,
+                                style: {
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }
+                            })
                         ),
+                        // Show info
                         React.createElement(
                             "div",
-                            { style: { fontSize: "0.75rem", opacity: "0.7" } },
-                            "Final Karma: ", show.finalKarma.toLocaleString()
+                            { style: { flex: "1", overflow: "hidden" } },
+                            React.createElement("div", {
+                                style: {
+                                    fontWeight: "500",
+                                    whiteSpace: "nowrap",
+                                    overflow: "hidden",
+                                    textOverflow: "ellipsis"
+                                }
+                            }, show.title),
+                            React.createElement(
+                                "div",
+                                { style: { fontSize: "0.875rem", opacity: "0.8" } },
+                                "Episode ", show.episode, " (", show.season, " ", show.year, ")"
+                            ),
+                            React.createElement(
+                                "div",
+                                { style: { fontSize: "0.75rem", opacity: "0.7" } },
+                                "Final Karma: ", show.finalKarma.toLocaleString()
+                            )
                         )
                     );
                 }) : React.createElement("div", { style: { padding: "12px", textAlign: "center" } }, "No shows match your filters")
