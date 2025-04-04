@@ -878,6 +878,7 @@ def get_active_posts(
                                     "reddit_id": submission.id,
                                     "week_id": schedule.week_id,
                                     "season": schedule.season_name,
+                                    "year": schedule.year,
                                     "title": show.get("title"),
                                     "title_english": show.get("title_english"),
                                     "episode": episode,

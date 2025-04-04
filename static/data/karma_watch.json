@@ -71081,10 +71081,14 @@
             },
             {
                 "hour": 45.0,
-                "karma": 29
+                "karma": 34
+            },
+            {
+                "hour": 46.0,
+                "karma": 32
             }
         ],
-        "updated_at": "2025-04-04 21:00:02",
+        "updated_at": "2025-04-04 22:00:03",
         "title": "",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1228/136698l.jpg",
@@ -71271,9 +71275,13 @@
             {
                 "hour": 39.0,
                 "karma": 8
+            },
+            {
+                "hour": 40.0,
+                "karma": 7
             }
         ],
-        "updated_at": "2025-04-04 21:00:02",
+        "updated_at": "2025-04-04 22:00:03",
         "title": "",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
@@ -71436,9 +71444,13 @@
             {
                 "hour": 31.0,
                 "karma": 213
+            },
+            {
+                "hour": 32.0,
+                "karma": 210
             }
         ],
-        "updated_at": "2025-04-04 21:00:02",
+        "updated_at": "2025-04-04 22:00:03",
         "title": "The Daily Life of a Middle-Aged Online Shopper in Another World",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1887/146512l.jpg",
@@ -71592,10 +71604,14 @@
             },
             {
                 "hour": 30.0,
+                "karma": 248
+            },
+            {
+                "hour": 31.0,
                 "karma": 245
             }
         ],
-        "updated_at": "2025-04-04 21:00:02",
+        "updated_at": "2025-04-04 22:00:03",
         "title": "The Brilliant Healer's New Life in the Shadows",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1211/147335l.webp",
@@ -71745,10 +71761,14 @@
             },
             {
                 "hour": 29.0,
-                "karma": 977
+                "karma": 984
+            },
+            {
+                "hour": 30.0,
+                "karma": 987
             }
         ],
-        "updated_at": "2025-04-04 21:00:02",
+        "updated_at": "2025-04-04 22:00:03",
         "title": "Rock Is a Lady's Modesty",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1169/148459l.jpg",
@@ -71894,14 +71914,64 @@
             },
             {
                 "hour": 28.0,
-                "karma": 677
+                "karma": 684
+            },
+            {
+                "hour": 29.0,
+                "karma": 688
             }
         ],
-        "updated_at": "2025-04-04 21:00:02",
+        "updated_at": "2025-04-04 22:00:03",
         "title": "Wind Breaker Season 2",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1526/148873l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1526/148873.jpg"
+        }
+    },
+    {
+        "mal_id": 58514,
+        "reddit_id": "1jre860",
+        "week_id": 2,
+        "season": "spring",
+        "title": "The Apothecary Diaries Season 2",
+        "title_english": "The Apothecary Diaries Season 2",
+        "episode": "13",
+        "created_at": "2025-04-04 16:00:03",
+        "updated_at": "2025-04-04 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 130
+            },
+            {
+                "hour": 2.0,
+                "karma": 339
+            },
+            {
+                "hour": 3.0,
+                "karma": 563
+            },
+            {
+                "hour": 4.0,
+                "karma": 741
+            },
+            {
+                "hour": 5.0,
+                "karma": 903
+            },
+            {
+                "hour": 6.0,
+                "karma": 1161
+            },
+            {
+                "hour": 7.0,
+                "karma": 1212
+            }
+        ],
+        "year": 2025,
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1025/147458l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1025/147458.jpg"
         }
     }
 ]

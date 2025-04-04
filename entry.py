@@ -223,7 +223,7 @@ def production_committees():
     season = post_schedule.season_name
     year = post_schedule.year
 
-    from util.committee_setup import get_committee_data
+    from util.committees import get_committee_data
 
     # Get committee data, which saves a json to /static/data/committees.json
     committee_data = get_committee_data()
@@ -276,4 +276,4 @@ if __name__ == "__main__":
     elif "run" in sys.argv:
         main()
     else:
-        app.run()
+        app.run(host='0.0.0.0')

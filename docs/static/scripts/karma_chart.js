@@ -44,6 +44,20 @@ const KarmaComparisonChart = () => {
         setKarmaRange({ min: 0, max: Math.max(...availableShows.map(show => show.finalKarma)) });
     };
 
+    // Generate a unique composite ID that includes both show ID and episode
+    const generateCompositeId = (showId, episode) => {
+        return `${showId}_ep${episode}`;
+    };
+
+    // Parse a composite ID back into its components
+    const parseCompositeId = (compositeId) => {
+        const parts = compositeId.split('_ep');
+        return {
+            showId: parts[0],
+            episode: parts[1]
+        };
+    };
+
     useEffect(() => {
         async function fetchData() {
             try {
@@ -72,23 +86,33 @@ const KarmaComparisonChart = () => {
                             }
                         }
 
+                        const rawId = String(show.mal_id || show.reddit_id);
+                        const episode = show.episode || "?";
+                        // Create a composite ID that includes both show ID and episode
+                        const compositeId = generateCompositeId(rawId, episode);
+
                         return {
-                            id: String(show.mal_id || show.reddit_id), // Convert ID to string for consistent comparison
+                            rawId: rawId,
+                            id: compositeId,
                             title: show.title || show.title_english || "Unknown Title",
-                            episode: show.episode || "?",
+                            episode: episode,
                             season: show.season || getCurrentSeason(),
                             year: show.year || getCurrentYear(),
                             finalKarma: finalKarma
                         };
                     });
 
-                    // Create a map of show data keyed by ID
+                    // Create a map of show data keyed by composite ID
                     const showData = {};
                     data.forEach(function (show) {
-                        const id = String(show.mal_id || show.reddit_id); // Convert ID to string
-                        showData[id] = show;
-                        // Add id to the show data for easier access later
-                        showData[id].id = id;
+                        const rawId = String(show.mal_id || show.reddit_id);
+                        const episode = show.episode || "?";
+                        const compositeId = generateCompositeId(rawId, episode);
+
+                        showData[compositeId] = show;
+                        // Add ids to the show data for easier access later
+                        showData[compositeId].id = compositeId;
+                        showData[compositeId].rawId = rawId;
                     });
 
                     setAvailableShows(shows);
@@ -108,10 +132,15 @@ const KarmaComparisonChart = () => {
                     setSelectedSeason(getCurrentSeason());
                 } else {
                     // If there's only one show in the JSON
+                    const rawId = String(data.mal_id || data.reddit_id);
+                    const episode = data.episode || "?";
+                    const compositeId = generateCompositeId(rawId, episode);
+
                     const show = {
-                        id: String(data.mal_id || data.reddit_id), // Convert ID to string
+                        rawId: rawId,
+                        id: compositeId,
                         title: data.title || data.title_english || "Unknown Title",
-                        episode: data.episode || "?",
+                        episode: episode,
                         season: data.season || getCurrentSeason(),
                         year: data.year || getCurrentYear(),
                         finalKarma: data.hourly_karma && data.hourly_karma.length > 0 ?
@@ -119,8 +148,8 @@ const KarmaComparisonChart = () => {
                     };
 
                     setAvailableShows([show]);
-                    setKarmaData({ [show.id]: data });
-                    setSelectedShows([show.id]);
+                    setKarmaData({ [compositeId]: data });
+                    setSelectedShows([compositeId]);
                     setKarmaRange({ min: 0, max: show.finalKarma });
 
                     // Set default filters to current year and season
@@ -141,15 +170,13 @@ const KarmaComparisonChart = () => {
 
     // Handle show selection changes
     const handleShowSelection = (showId) => {
-        // Ensure showId is a string for consistent comparison
-        const id = String(showId);
-        console.log("Selecting show:", id);
+        console.log("Selecting show:", showId);
 
         setSelectedShows(prev => {
-            if (prev.includes(id)) {
-                return prev.filter(prevId => prevId !== id);
+            if (prev.includes(showId)) {
+                return prev.filter(prevId => prevId !== showId);
             } else {
-                return [...prev, id];
+                return [...prev, showId];
             }
         });
     };
@@ -173,9 +200,15 @@ const KarmaComparisonChart = () => {
         return isMatch;
     });
 
-    // Sort shows alphabetically by title
+    // Sort shows alphabetically by title, then by episode
     const sortedShows = [...filteredShows].sort((a, b) => {
-        return a.title.localeCompare(b.title);
+        const titleCompare = a.title.localeCompare(b.title);
+        if (titleCompare !== 0) return titleCompare;
+
+        // If same title, compare episodes
+        const aEp = parseInt(a.episode) || 0;
+        const bEp = parseInt(b.episode) || 0;
+        return aEp - bEp;
     });
 
     // Force sortedShows to be a NEW array every time to ensure React detects the change
@@ -195,10 +228,10 @@ const KarmaComparisonChart = () => {
     console.log("Selected shows:", selectedShows);
     console.log("Filtered shows count:", filteredShows.length);
 
-    // Check if the first 5 selected shows are actually in filteredShows
+    // Check if selected shows are in filteredShows
     if (selectedShows.length > 0 && filteredShows.length > 0) {
         const selectedShowsInFiltered = selectedShows.filter(id =>
-            filteredShows.some(show => String(show.id) === String(id))
+            filteredShows.some(show => show.id === id)
         );
         console.log("Selected shows in filtered:", selectedShowsInFiltered.length);
     }
@@ -208,22 +241,17 @@ const KarmaComparisonChart = () => {
         const maxHours = 48; // Assuming all shows have 48 hours of data
         const chartData = [];
 
-        // CRITICAL FIX: Only include shows that are both selected AND visible in the filtered list
-        // This is a key problem with the original code - we need to make sure we're working with IDs that exist in both lists
-
-        // First, convert all IDs to strings for consistent comparison
-        const selectedShowIds = selectedShows.map(id => String(id));
-        const filteredShowIds = filteredShows.map(show => String(show.id));
-
-        // Now find the intersection - shows that are both selected and in the filtered list
-        const showIdsForChart = selectedShowIds.filter(id => filteredShowIds.includes(id));
+        // Only include shows that are both selected AND visible in the filtered list
+        const showIdsForChart = selectedShows.filter(id =>
+            filteredShows.some(show => show.id === id)
+        );
 
         console.log("Shows IDs for chart:", showIdsForChart);
 
         // Debug logging
         if (showIdsForChart.length > 0) {
-            console.log("Selected IDs:", selectedShowIds);
-            console.log("Filtered show IDs sample:", filteredShowIds.slice(0, 5));
+            console.log("Selected IDs:", selectedShows);
+            console.log("Filtered show IDs sample:", filteredShows.slice(0, 5).map(s => s.id));
 
             // Verify the karmaData contains these shows
             showIdsForChart.forEach(id => {
@@ -268,9 +296,7 @@ const KarmaComparisonChart = () => {
 
     // Find show by ID helper function
     const findShowById = (showId) => {
-        // Convert both IDs to strings for consistent comparison
-        const id = String(showId);
-        return availableShows.find(s => String(s.id) === id);
+        return availableShows.find(s => s.id === showId);
     };
 
     // Calculate stats safely
@@ -531,7 +557,7 @@ const KarmaComparisonChart = () => {
 
         React.createElement(
             "div",
-            { style: { height: "400px", width: "100%" } },
+            { style: { height: "440px", width: "100%" } }, // Increased height to accommodate legend
             React.createElement(
                 ResponsiveContainer,
                 { width: "100%", height: "100%" },
@@ -544,8 +570,9 @@ const KarmaComparisonChart = () => {
                     React.createElement(CartesianGrid, { strokeDasharray: "3 3" }),
                     React.createElement(XAxis, {
                         dataKey: "hour",
-                        label: { value: 'Hours Since Thread Creation', position: 'insideBottom', offset: -10 },
-                        ticks: [0, 6, 12, 18, 24, 30, 36, 42, 48]
+                        label: { value: 'Hours Since Thread Creation', position: 'insideBottom', offset: -5 },
+                        ticks: [0, 6, 12, 18, 24, 30, 36, 42, 48],
+                        padding: { bottom: 10 }
                     }),
                     React.createElement(YAxis, {
                         label: { value: 'Karma', angle: -90, position: 'insideLeft' },
@@ -553,22 +580,32 @@ const KarmaComparisonChart = () => {
                     }),
                     React.createElement(Tooltip, {
                         formatter: function (value, name) {
-                            const showId = name.split('_')[1];
-                            const show = findShowById(showId);
-                            return [value, show ? show.title : 'Karma'];
+                            // The name is in format "karma_[compositeId]"
+                            // We need to extract just the compositeId part
+                            const compositeId = name.replace('karma_', '');
+                            const show = findShowById(compositeId);
+                            return [value, show ? show.title + ` (Ep ${show.episode})` : 'Karma'];
                         },
                         labelFormatter: function (value) { return `Hour ${value}`; }
                     }),
                     React.createElement(Legend, {
                         formatter: function (value) {
-                            const showId = value.split('_')[1];
-                            const show = findShowById(showId);
+                            // The value is in format "karma_[compositeId]"
+                            // We need to extract just the compositeId part
+                            const compositeId = value.replace('karma_', '');
+                            const show = findShowById(compositeId);
                             return show ? `${show.title} (Ep ${show.episode})` : value;
+                        },
+                        wrapperStyle: {
+                            paddingTop: '10px',  // Add padding above the legend
+                            marginTop: '5px',   // Add margin above the legend
+                            position: 'relative', // Make position relative instead of absolute
+                            marginBottom: '2px'            // Remove bottom positioning
                         }
                     }),
-                    // CRITICAL FIX: Filter selectedShows to only those that exist in filteredShows
+                    // Filter selectedShows to only those that exist in filteredShows
                     selectedShows
-                        .filter(showId => filteredShows.some(show => String(show.id) === String(showId)))
+                        .filter(showId => filteredShows.some(show => show.id === showId))
                         .map(function (showId, index) {
                             return React.createElement(Line, {
                                 key: showId,
@@ -600,15 +637,16 @@ const KarmaComparisonChart = () => {
             React.createElement(
                 "div",
                 { style: { display: "flex", flexDirection: "column", gap: "16px" } },
-                // CRITICAL FIX: Only show key insights for shows that are both selected AND in the filtered list
+                // Only show key insights for shows that are both selected AND in the filtered list
                 selectedShows
-                    .filter(showId => filteredShows.some(show => String(show.id) === String(showId)))
+                    .filter(showId => filteredShows.some(show => show.id === showId))
                     .map(function (showId, index) {
                         const show = karmaData[showId];
                         const hourlyData = show && show.hourly_karma ? show.hourly_karma : [];
                         const stats = calculateStats(hourlyData, showId);
+                        const displayShow = findShowById(showId);
 
-                        if (!stats) return null;
+                        if (!stats || !displayShow) return null;
 
                         return React.createElement(
                             "div",
@@ -622,7 +660,7 @@ const KarmaComparisonChart = () => {
                             React.createElement(
                                 "h4",
                                 { style: { fontWeight: "600", marginBottom: "8px" } },
-                                show.title, " (Episode ", show.episode, "):"
+                                displayShow.title, " (Episode ", displayShow.episode, "):"
                             ),
                             React.createElement(
                                 "ul",
