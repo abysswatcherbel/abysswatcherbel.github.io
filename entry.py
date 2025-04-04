@@ -146,9 +146,42 @@ def karma_watch():
     collection = client.anime.karma_watch
 
     # Get karma progression data for all tracked shows
-    karma_data = list(
-        collection.find(
-            {
+    # karma_data = list(
+    #     collection.find(
+    #         {
+    #             "mal_id": {"$ne": None},
+    #             "hourly_karma": {
+    #                 "$not": {
+    #                     "$elemMatch": {
+    #                         "karma": {"$type": "double", "$eq": float("nan")}
+    #                     }
+    #                 }
+    #             },
+    #             "year": post_schedule.year
+    #         },
+    #         {"_id": 0},
+    #     )
+    # )
+    karma_data = list(collection.aggregate([
+        {
+            "$lookup": {
+                "from": "seasonals",
+                "localField": "mal_id",
+                "foreignField": "id",
+                "as": "seasonal_data"
+            }
+        },
+        {
+            "$set": {
+                "title": { "$arrayElemAt": ["$seasonal_data.title_english", 0]},
+                "images": { "$arrayElemAt": ["$seasonal_data.images", 0]},
+            }
+        },
+        {
+            "$unset": "seasonal_data"
+        },
+        {
+            "$match": {
                 "mal_id": {"$ne": None},
                 "hourly_karma": {
                     "$not": {
@@ -158,17 +191,23 @@ def karma_watch():
                     }
                 },
                 "year": post_schedule.year
-            },
-            {"_id": 0},
-        )
-    )
+
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+            }
+        }
+    ]))
+
 
     # Save the data to a JSON file for the frontend to use
     karma_watch_path = os.path.join("static", "data", "karma_watch.json")
     os.makedirs(os.path.dirname(karma_watch_path), exist_ok=True)
 
     with open(karma_watch_path, "w") as f:
-        json.dump(karma_data, f)
+        json.dump(karma_data, f, indent=4)
 
     client.close()
 

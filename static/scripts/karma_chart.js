@@ -10,11 +10,23 @@ const KarmaComparisonChart = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // Filtering state
+    // Filtering state - Now with default values
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedYear, setSelectedYear] = useState('');
     const [selectedSeason, setSelectedSeason] = useState('');
     const [karmaRange, setKarmaRange] = useState({ min: 0, max: Infinity });
+
+    // Current year and season for default filter
+    const getCurrentSeason = () => {
+        const now = new Date();
+        const month = now.getMonth();
+        if (month >= 0 && month <= 2) return 'winter';
+        if (month >= 3 && month <= 5) return 'spring';
+        if (month >= 6 && month <= 8) return 'summer';
+        return 'fall';
+    };
+
+    const getCurrentYear = () => new Date().getFullYear();
 
     // Color palette for different shows
     const colors = [
@@ -23,7 +35,7 @@ const KarmaComparisonChart = () => {
         "#55efc4", "#fab1a0", "#74b9ff", "#a29bfe"
     ];
 
-    // FIXED: Moved resetFilters inside the component so it has access to state setters
+    // Reset filters function
     const resetFilters = () => {
         console.log("Resetting all filters");
         setSearchTerm('');
@@ -62,10 +74,10 @@ const KarmaComparisonChart = () => {
 
                         return {
                             id: String(show.mal_id || show.reddit_id), // Convert ID to string for consistent comparison
-                            title: show.title,
-                            episode: show.episode,
-                            season: show.season,
-                            year: show.year,
+                            title: show.title || show.title_english || "Unknown Title",
+                            episode: show.episode || "?",
+                            season: show.season || getCurrentSeason(),
+                            year: show.year || getCurrentYear(),
                             finalKarma: finalKarma
                         };
                     });
@@ -82,7 +94,7 @@ const KarmaComparisonChart = () => {
                     setAvailableShows(shows);
                     setKarmaData(showData);
 
-                    // Auto-select the first show if available - UNCOMMENTED THIS
+                    // Auto-select the first show if available
                     if (shows.length > 0) {
                         setSelectedShows([shows[0].id]);
                     }
@@ -90,21 +102,30 @@ const KarmaComparisonChart = () => {
                     // Set initial karma range based on data
                     const maxKarma = Math.max(...shows.map(show => show.finalKarma));
                     setKarmaRange({ min: 0, max: maxKarma });
+
+                    // Set default filters to current year and season
+                    setSelectedYear(String(getCurrentYear()));
+                    setSelectedSeason(getCurrentSeason());
                 } else {
                     // If there's only one show in the JSON
                     const show = {
                         id: String(data.mal_id || data.reddit_id), // Convert ID to string
-                        title: data.title,
-                        episode: data.episode,
-                        season: data.season,
-                        year: data.year,
-                        finalKarma: data.hourly_karma[data.hourly_karma.length - 1].karma || 0 // Final karma = last entry
+                        title: data.title || data.title_english || "Unknown Title",
+                        episode: data.episode || "?",
+                        season: data.season || getCurrentSeason(),
+                        year: data.year || getCurrentYear(),
+                        finalKarma: data.hourly_karma && data.hourly_karma.length > 0 ?
+                            data.hourly_karma[data.hourly_karma.length - 1].karma : 0
                     };
 
                     setAvailableShows([show]);
                     setKarmaData({ [show.id]: data });
                     setSelectedShows([show.id]);
                     setKarmaRange({ min: 0, max: show.finalKarma });
+
+                    // Set default filters to current year and season
+                    setSelectedYear(String(getCurrentYear()));
+                    setSelectedSeason(getCurrentSeason());
                 }
 
                 setLoading(false);
@@ -152,8 +173,13 @@ const KarmaComparisonChart = () => {
         return isMatch;
     });
 
-    // Force filteredShows to be a NEW array every time to ensure React detects the change
-    const displayedShows = [...filteredShows];
+    // Sort shows alphabetically by title
+    const sortedShows = [...filteredShows].sort((a, b) => {
+        return a.title.localeCompare(b.title);
+    });
+
+    // Force sortedShows to be a NEW array every time to ensure React detects the change
+    const displayedShows = [...sortedShows];
     console.log("Preparing to display", displayedShows.length, "shows in grid");
 
     // Debug filter state
@@ -409,7 +435,7 @@ const KarmaComparisonChart = () => {
                 )
             ),
 
-            // Shows selection grid
+            // Shows selection grid with alphabetical sorting
             React.createElement(
                 "div",
                 {
@@ -426,7 +452,7 @@ const KarmaComparisonChart = () => {
                         borderRadius: "6px"
                     }
                 },
-                filteredShows.length > 0 ? displayedShows.map(function (show, index) {
+                displayedShows.length > 0 ? displayedShows.map(function (show, index) {
                     return React.createElement(
                         "div",
                         {
