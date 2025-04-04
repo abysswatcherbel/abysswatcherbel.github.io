@@ -117,9 +117,6 @@ def get_committee_data(filters=None):
             show["committee"] = enriched_committee
 
     client.close()
-    logger.debug(
-        f"Fetched {len(committee_data)} committee entries with filters: {filters}. Sample: {json.dumps(committee_data[0], indent=4) if committee_data else 'No data found.'}"
-    )
 
     with open(os.path.join("static", "data", "committees.json"), "w") as f:
         json.dump(committee_data, f, indent=4)
