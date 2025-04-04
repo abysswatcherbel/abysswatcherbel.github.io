@@ -779,15 +779,17 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/ded35de8-f543-40bb-8628-ed15d326141b_600x600_i?s=6dc99db964e612801ea6e194182eeb23",
                 "established": "2000-03-01T00:00:00+00:00",
                 "favorites": 2,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 2872,
                 "name": "D&C Media",
-                "image": "https://cdn.myanimelist.net/images/company_no_picture.png",
+                "image": "https://file.aniplustv.com/AGF/company/agf2022dnc_logoJpg_20221101164000.jpg",
                 "established": null,
                 "favorites": 0,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 2839,
@@ -795,7 +797,8 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/a8265060-8f89-4da3-ae89-5b74e4d312a3_600x600_i?s=7bb8bc30ad7b4492debaa81526c25d1b",
                 "established": "2011-07-01T00:00:00+00:00",
                 "favorites": 0,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 1468,
@@ -3002,7 +3005,8 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/ded35de8-f543-40bb-8628-ed15d326141b_600x600_i?s=6dc99db964e612801ea6e194182eeb23",
                 "established": "2000-03-01T00:00:00+00:00",
                 "favorites": 2,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 1468,
@@ -5940,8 +5944,13 @@
                 "country": ""
             },
             {
-                "id": 0,
-                "name": "Remow"
+                "id": 10001,
+                "name": "Remow",
+                "image": "https://www.remow.com/img/logo.svg",
+                "established": "2021-11-09T00:00:00+00:00",
+                "favorites": null,
+                "country": "jp",
+                "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
                 "id": 16,
@@ -6707,8 +6716,13 @@
                 "country": ""
             },
             {
-                "id": 0,
-                "name": "Remow"
+                "id": 10001,
+                "name": "Remow",
+                "image": "https://www.remow.com/img/logo.svg",
+                "established": "2021-11-09T00:00:00+00:00",
+                "favorites": null,
+                "country": "jp",
+                "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
                 "id": 16,
@@ -13352,15 +13366,17 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/ded35de8-f543-40bb-8628-ed15d326141b_600x600_i?s=6dc99db964e612801ea6e194182eeb23",
                 "established": "2000-03-01T00:00:00+00:00",
                 "favorites": 2,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 2872,
                 "name": "D&C Media",
-                "image": "https://cdn.myanimelist.net/images/company_no_picture.png",
+                "image": "https://file.aniplustv.com/AGF/company/agf2022dnc_logoJpg_20221101164000.jpg",
                 "established": null,
                 "favorites": 0,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 2839,
@@ -13368,7 +13384,8 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/a8265060-8f89-4da3-ae89-5b74e4d312a3_600x600_i?s=7bb8bc30ad7b4492debaa81526c25d1b",
                 "established": "2011-07-01T00:00:00+00:00",
                 "favorites": 0,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 1468,
@@ -20122,7 +20139,8 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/ded35de8-f543-40bb-8628-ed15d326141b_600x600_i?s=6dc99db964e612801ea6e194182eeb23",
                 "established": "2000-03-01T00:00:00+00:00",
                 "favorites": 2,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 1468,
@@ -21069,7 +21087,8 @@
                 "image": "https://cdn.myanimelist.net/images/company_no_picture.png",
                 "established": "2002-06-01T00:00:00+00:00",
                 "favorites": 0,
-                "country": ""
+                "country": "kr",
+                "flag": "https://flagcdn.com/w20/kr.webp"
             },
             {
                 "id": 2431,
@@ -23621,8 +23640,13 @@
                 "country": ""
             },
             {
-                "id": 0,
-                "name": "REMOW"
+                "id": 10001,
+                "name": "REMOW",
+                "image": "https://www.remow.com/img/logo.svg",
+                "established": "2021-11-09T00:00:00+00:00",
+                "favorites": null,
+                "country": "jp",
+                "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
                 "id": 332,

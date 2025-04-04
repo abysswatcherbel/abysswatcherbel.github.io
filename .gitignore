@@ -4,7 +4,7 @@
 /*/__pycache__
 *.pyc
 *.pyo
-
+__pycache__
 # Ignore log files
 *.log
 
