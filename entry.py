@@ -62,7 +62,7 @@ def karma_rank():
     complete_rankings = list(zip_longest(left_rankings, right_rankings))
 
     return render_template(
-        "week_7.html.j2",
+        "rank.html.j2",
         complete_rankings=complete_rankings,
         airing_details=post_schedule.airing_period,
         sum_karma=total_karma,
