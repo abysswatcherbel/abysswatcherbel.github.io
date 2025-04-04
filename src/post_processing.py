@@ -551,8 +551,34 @@ def insert_mongo(
     show = col.find_one(query)
 
     if show:
-        reddit_karma = f"reddit_karma.{schedule.year}.{schedule.season_name}"
-        update_result = col.update_one(query, {"$push": {reddit_karma: episode_data}})
+        year_str = str(schedule.year)
+        season_name = schedule.season_name
+
+        # Handle the reddit_karma structure properly to support multiple years and seasons
+
+        # Check if the document has the reddit_karma field
+        if "reddit_karma" not in show:
+            # Initialize the reddit_karma object if it doesn't exist
+            col.update_one(query, {"$set": {"reddit_karma": {}}})
+            show = col.find_one(query)  # Refresh the data
+
+        # Check if the year exists in reddit_karma
+        if year_str not in show.get("reddit_karma", {}):
+            # Initialize the year as an empty object if it doesn't exist
+            col.update_one(query, {"$set": {f"reddit_karma.{year_str}": {}}})
+            show = col.find_one(query)  # Refresh the data
+
+        # Check if the season exists in the year
+        if season_name not in show.get("reddit_karma", {}).get(year_str, {}):
+            # Initialize the season as an empty array if it doesn't exist
+            col.update_one(
+                query, {"$set": {f"reddit_karma.{year_str}.{season_name}": []}}
+            )
+
+        # Now push the episode data to the season array
+        update_path = f"reddit_karma.{year_str}.{season_name}"
+        update_result = col.update_one(query, {"$push": {update_path: episode_data}})
+
         logger.info(
             f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}"
         )
@@ -569,6 +595,22 @@ def insert_mongo(
                     logger.success(
                         f"Fetched and pushed entry from the post {reddit_id} with the MAL ID {mal_id} to the database."
                     )
+
+                    # After creating the entry, add the karma data with the proper structure
+                    show = col.find_one(query)
+                    if show:
+                        year_str = str(schedule.year)
+                        season_name = schedule.season_name
+
+                        # Properly initialize the nested structure
+                        reddit_karma = {}
+                        reddit_karma[year_str] = {}
+                        reddit_karma[year_str][season_name] = [episode_data]
+
+                        col.update_one(query, {"$set": {"reddit_karma": reddit_karma}})
+                        logger.info(
+                            f"Added karma data to newly created entry for MAL ID {mal_id}"
+                        )
             except Exception as e:
                 logger.error(
                     f"Error fetching MAL entry for post id {mal_id} and from the post {reddit_id}: {e}"
@@ -765,14 +807,14 @@ def get_active_posts(
                             )
                             continue
                     else:
-                
+
                         post_details = dict(show)
                         post_details["reddit_url"] = submission.url
                         post_details["karma"] = submission.score
                         post_details["comments"] = submission.num_comments
                         # Time left in hours
                         post_details["time_left"] = time_left.total_seconds() / 3600
-                        
+
                         posts.append(post_details)
 
                         # Round the hour since post to nearest hour
@@ -794,7 +836,11 @@ def get_active_posts(
                             if hour_exists:
                                 # Hour exists, update the karma value for this hour
                                 hourly_data.update_one(
-                                    {"mal_id": mal_id, "reddit_id": submission.id, "hourly_karma.hour": hour},
+                                    {
+                                        "mal_id": mal_id,
+                                        "reddit_id": submission.id,
+                                        "hourly_karma.hour": hour,
+                                    },
                                     {
                                         "$set": {
                                             "updated_at": current_time.strftime(
@@ -802,9 +848,9 @@ def get_active_posts(
                                             ),
                                             "hourly_karma.$.karma": karma,
                                         }
-                                    }
+                                    },
                                 )
-                                
+
                             else:
                                 # Hour doesn't exist, push new entry
                                 hourly_data.update_one(
@@ -823,7 +869,7 @@ def get_active_posts(
                                         },
                                     },
                                 )
-                                
+
                         else:
                             # Document doesn't exist, create a new one
                             hourly_data.insert_one(
