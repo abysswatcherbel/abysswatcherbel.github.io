@@ -71085,10 +71085,10 @@
             },
             {
                 "hour": 46.0,
-                "karma": 28
+                "karma": 29
             }
         ],
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "title": "",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1228/136698l.jpg",
@@ -71282,10 +71282,10 @@
             },
             {
                 "hour": 41.0,
-                "karma": 5
+                "karma": 6
             }
         ],
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "title": "",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
@@ -71452,9 +71452,13 @@
             {
                 "hour": 32.0,
                 "karma": 212
+            },
+            {
+                "hour": 33.0,
+                "karma": 215
             }
         ],
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "title": "The Daily Life of a Middle-Aged Online Shopper in Another World",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1887/146512l.jpg",
@@ -71613,9 +71617,13 @@
             {
                 "hour": 31.0,
                 "karma": 247
+            },
+            {
+                "hour": 32.0,
+                "karma": 247
             }
         ],
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "title": "The Brilliant Healer's New Life in the Shadows",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1211/147335l.webp",
@@ -71770,9 +71778,13 @@
             {
                 "hour": 30.0,
                 "karma": 989
+            },
+            {
+                "hour": 31.0,
+                "karma": 993
             }
         ],
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "title": "Rock Is a Lady's Modesty",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1169/148459l.jpg",
@@ -71923,9 +71935,13 @@
             {
                 "hour": 29.0,
                 "karma": 694
+            },
+            {
+                "hour": 30.0,
+                "karma": 694
             }
         ],
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "title": "Wind Breaker Season 2",
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1526/148873l.jpg",
@@ -71941,7 +71957,7 @@
         "title_english": "The Apothecary Diaries Season 2",
         "episode": "13",
         "created_at": "2025-04-04 16:00:03",
-        "updated_at": "2025-04-04 22:04:22",
+        "updated_at": "2025-04-04 22:48:16",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -71970,6 +71986,10 @@
             {
                 "hour": 7.0,
                 "karma": 1224
+            },
+            {
+                "hour": 8.0,
+                "karma": 1318
             }
         ],
         "year": 2025,
