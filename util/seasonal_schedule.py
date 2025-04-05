@@ -235,7 +235,6 @@ class SeasonScheduler(BaseModel):
     
     def get_airing_period(self) -> Dict[str, Union[str, int, None]]:
         """Get the airing period details for the current week."""
-       
         
         # Convert the dates to the desired format
         converted_start_date = self.schedule_detals.start_date.strftime("%B, %d")
