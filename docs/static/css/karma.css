@@ -342,7 +342,7 @@ body>div>div.legend>div:nth-child(5)>div {
 }
 
 .karma-entry .details:after {
-    content: ''; 
+    content: '';
     position: absolute;
     top: 0px;
     left: 0px;
@@ -693,10 +693,11 @@ svg.arrow.negative {
 
 /* RIGHT SIDE STYLES - Fully separated from left side */
 .rightSide {
-    margin-left: -15px;
+    margin: 2px 0px 0px -5px;
     display: flex;
     justify-content: center;
     filter: drop-shadow(2px 6px 1px rgba(0, 0, 0, 0.8));
+
 }
 
 /* Override the normal details styles for right side */
@@ -736,6 +737,10 @@ svg.arrow.negative {
     font-weight: bold;
     text-shadow: 0.75px 0 0.8px black, 0 0.75px 0.8px black, -0.75px 0 0.8px black, 0 -0.75px 0.8px black;
     color: white;
+    text-align: end;
+    margin-top: auto;
+    /* justify-content: flex-start; */
+
 }
 
 /* Style for the title */
@@ -744,8 +749,9 @@ svg.arrow.negative {
     /* top: 0; */
     /* left: 0; */
     /* right: 0; */
-    z-index: 2;
+    z-index: 4;
     height: 100%;
+    display: flex;
 
 }
 
@@ -755,7 +761,11 @@ svg.arrow.negative {
     text-align: end;
     /* margin: 10px 40px 0 40px; */
     line-height: 1.2;
+    width: 70%;
+    display: flex;
     /* justify-self: unset; */
+    justify-content: flex-end;
+    margin-left: auto;
 
 }
 
@@ -767,12 +777,14 @@ svg.arrow.negative {
     /* right: 0; */
     background-color: rgba(0, 0, 0, 0.71);
     /* height: 15%; */
+    width: 80%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-content: center;
     z-index: 2;
-    justify-content: end;
-    margin-top: auto;
+    justify-content: start;
+    /* margin-top: auto; */
+    margin-left: auto;
 
 }
 
@@ -793,23 +805,28 @@ svg.arrow.negative {
 
 .rightRank {
     height: 100%;
-    /* width: 30px; */
+    width: 12%;
     background-color: var(--secondary-bg);
-    /* position: absolute; */
+    position: relative;
     /* bottom: 0; */
     /* right: 0; */
     clip-path: polygon(53% 0, 100% 0%, 100% 100%, 0% 100%);
     /* display: flex; */
     font-size: 12px;
     /* text-align: -webkit-left; */
-    /* justify-content: center; */
+    justify-content: center;
+    /* justify-items: left; */
     z-index: 3;
+    display: flex;
+    /* text-align: center; */
+    margin-left: auto;
+    flex-direction: column;
 
 }
 
 .rightRank>span {
-    margin-right: 0;
-    text-align: center;
+    margin-right: 2px;
+    text-align: end;
     font-weight: bold;
     color: white;
 
@@ -822,7 +839,7 @@ svg.arrow.negative {
     /* width: calc(100% - 85px); */
     align-items: center;
     gap: 6px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 
 }
 
@@ -881,9 +898,10 @@ svg.arrow.negative {
 .right-ranking .right-rank-change {
     font-weight: bold;
     font-size: 12px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* white-space: nowrap; */
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 2px;
 
 }
 
