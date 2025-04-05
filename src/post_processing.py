@@ -47,9 +47,102 @@ from pytz import utc
 from dotenv import load_dotenv
 from loguru import logger
 from util.logger_config import logger
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional, Union
 from util.seasonal_schedule import SeasonScheduler
 from util.mal import MalClient
+
+
+from pydantic import BaseModel, Field, HttpUrl, field_validator, ValidationError
+
+
+
+class AnimeTitle(BaseModel):
+    """
+    Represents the various title formats for an anime.
+
+    Attributes:
+        romaji: The romanized Japanese title
+        english: The English translated title
+        original_post: The original post title from Reddit
+    """
+
+    romaji: Optional[str] = None
+    english: Optional[str] = None
+    original_post: Optional[str] = None
+
+    @field_validator("romaji", "english")
+    def title_not_empty(cls, v):
+        if v is not None and v.strip() == "":
+            return None
+        return v
+
+
+class RedditPostDetails(BaseModel):
+    """
+    Represents the details of a Reddit discussion post for an anime episode.
+
+    Attributes:
+        mal_id: MyAnimeList ID for the anime series
+        title: Various title formats for the anime
+        week_id: The week number in the current season
+        episode: The episode number of the discussed anime
+        karma: The Reddit karma (score) of the post
+        comments: The number of comments on the post
+        upvote_ratio: The ratio of upvotes to total votes
+        post_id: The unique Reddit post ID
+        url: The URL to the Reddit post
+    """
+
+    mal_id: Optional[int] = Field(None, description="MyAnimeList ID for the anime")
+    title: AnimeTitle = Field(..., description="Various title formats for the anime")
+    week_id: int = Field(..., description="Week number in the season", ge=1, le=13)
+    episode: str = Field(..., description="Episode number")
+    karma: int = Field(..., description="Reddit post karma score")
+    comments: int = Field(..., description="Number of comments on the post")
+    upvote_ratio: float = Field(..., description="Upvote ratio", ge=0.0, le=1.0)
+    post_id: str = Field(..., description="Reddit post ID")
+    url: HttpUrl = Field(..., description="Reddit post URL")
+
+
+class KarmaEntry(RedditPostDetails):
+    """
+    Extended model for karma tracking entries that includes additional metadata.
+
+    This model extends RedditPostDetails to include additional fields needed
+    for tracking and comparing karma across episodes and seasons.
+
+    Attributes:
+        mal_stats: Optional MAL statistics for the anime
+        rank: Current rank in karma charts
+        rank_change: Change in rank compared to previous episode
+        karma_change: Change in karma compared to previous episode
+    """
+
+    mal_stats: Optional[Dict] = Field(None, description="MAL statistics")
+    rank: Optional[int] = Field(None, description="Current rank in karma charts")
+    rank_change: Optional[Union[int, str]] = Field(
+        None, description="Change in rank (int or 'new'/'returning')"
+    )
+    karma_change: Optional[int] = Field(
+        None, description="Change in karma from previous episode"
+    )
+
+
+class SeasonalKarmaCollection(BaseModel):
+    """
+    Collection of karma entries for a season.
+
+    Attributes:
+        season: The season name (winter, spring, summer, fall)
+        year: The year
+        week: The week number in the season
+        entries: List of karma entries
+    """
+
+    season: str = Field(..., description="Season name")
+    year: int = Field(..., description="Year")
+    week: int = Field(..., description="Week number", ge=1, le=13)
+    entries: List[KarmaEntry] = Field(..., description="List of karma entries")
 
 
 load_dotenv()
@@ -260,17 +353,23 @@ def process_post(post: Dict, reddit: Reddit) -> None:
     Raises:
         Exception: Any unexpected errors during post processing are caught and logged
     """
-    # log = setup_logging("process_post")
+    
 
     try:
-        post_details = close_post(
+        logger.debug(f"Processing post received from scheduler: {json.dumps(post, indent=2)}")
+        post_details: Dict = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
         if not post_details:
             logger.warning(f"Post {post['id']} is not available")
             return
-        insert_mongo(post_details)
-        logger.info(f"Successfully processed and inserted post: {post['id']}")
+        logger.debug(f"Trying to insert post: {json.dumps(post_details, indent=2)}")
+        try:
+            post_validation = RedditPostDetails(**post_details)
+            insert_mongo(post_validation.model_dump())
+            logger.success(f"Successfully processed and inserted post: {post_validation.model_dump_json(indent=2)}")
+        except ValidationError as e:
+            logger.error(f"Validation error for post {post['id']}: {e}")
     except Exception as e:
         logger.error(f"Error processing post {post['id']}: {e}")
 

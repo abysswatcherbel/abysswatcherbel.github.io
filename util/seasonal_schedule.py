@@ -247,5 +247,24 @@ class SeasonScheduler(BaseModel):
             "season": self.season_name,
             "week_id": self.week_id,
         }
+    
+    @staticmethod
+    def get_posts_for_week(week_id: int, schedule_csv: Path) -> Optional[ScheduleDetails]:
+        """Get posts for a specific week ID."""
+        schedule_df = pd.read_csv(schedule_csv)
+        schedule_df["start_date"] = pd.to_datetime(schedule_df["start_date"], utc=True)
+        schedule_df["end_date"] = pd.to_datetime(schedule_df["end_date"], utc=True)
+        
+        # Find the matching week
+        for _, row in schedule_df.iterrows():
+            if row["week_id"] == week_id:
+                return ScheduleDetails(
+                    week_id=int(row["week_id"]),
+                    start_date=row["start_date"],
+                    end_date=row["end_date"],
+                    season=int(row['season'])
+                )
+        
+        return None
 
 
