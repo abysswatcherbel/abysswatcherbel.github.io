@@ -1,140 +1,104 @@
-.Crunchyroll{
-    background-color: rgb(244, 117, 33) !important; 
-} 
-.Hidive{
-    background-color: rgb(0, 174, 240) !important; 
-}
-.Netflix{
-    background: rgb(219, 0, 0) !important;
-}
-.Hulu{
-    background-color: rgb(102, 170, 51) !important;
-}
-.Disney{
-    background-color: #113CCF !important;
-}
-.Prime{
-    background-color: rgb(60, 120, 180) !important;
-}
-.Twitter{
-    background-color: rgb(20,23,26) !important;
-}
-.Samsung{
-    background-color: #1428A0 !important;
-}
-.Max{
-    background-color: #870AB2 !important;
-}
-.None{
-    background-color: black;
-}
-.Studio{
-    background-color: white !important;
+/* Streaming Service Colors */
+:root {
+    --crunchyroll-color: rgb(244, 117, 33);
+    --hidive-color: rgb(0, 174, 240);
+    --netflix-color: rgb(219, 0, 0);
+    --hulu-color: rgb(102, 170, 51);
+    --disney-color: #113CCF;
+    --prime-color: rgb(60, 120, 180);
+    --twitter-color: rgb(20, 23, 26);
+    --samsung-color: #1428A0;
+    --max-color: #870AB2;
+    --none-color: #000000;
+    --studio-color: white;
 }
 
-.Samsung-logo {
-    padding: 9px 7px !important;
-    background-color: #1428A0;
+/* Background Colors */
+.Crunchyroll {
+    background-color: var(--crunchyroll-color) !important;
+}
+
+.Hidive {
+    background-color: var(--hidive-color) !important;
+}
+
+.Netflix {
+    background-color: var(--netflix-color) !important;
+}
+
+.Hulu {
+    background-color: var(--hulu-color) !important;
+}
+
+.Disney {
+    background-color: var(--disney-color) !important;
+}
+
+.Prime {
+    background-color: var(--prime-color) !important;
+}
+
+.Twitter {
+    background-color: var(--twitter-color) !important;
+}
+
+.Samsung {
+    background-color: var(--samsung-color) !important;
+}
+
+.Max {
+    background-color: var(--max-color) !important;
+}
+
+.None {
+    background-color: var(--none-color);
+}
+
+.Studio {
+    background-color: var(--studio-color) !important;
+}
+
+/* Logo Base Styles */
+[class$="-logo"] {
+    padding: 10px 12px;
     display: flex;
-    width: 39px;
+    width: 30%;
     font-size: 8px;
     height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
+    border-radius: 0 358px 0 0 !important;
     align-items: center;
     justify-content: center;
+}
+
+/* Logo Background Colors */
+.Crunchyroll-logo {
+    background-color: var(--crunchyroll-color);
+}
+
+.Hidive-logo {
+    background-color: var(--hidive-color);
+}
+
+.Netflix-logo {
+    background-color: var(--netflix-color);
+}
+
+.Disney-logo {
+    background-color: var(--disney-color);
 }
 
 .Prime-logo {
-    padding: 9px 7px !important;
-    background-color: rgb(60, 120, 180);
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--prime-color);
 }
 
-.Crunchyroll-logo {
-    padding: 9px 7px !important;
-    background-color: rgb(244, 117, 33);
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
+.Samsung-logo {
+    background-color: var(--samsung-color);
 }
-.Hidive-logo {
-    padding: 9px 7px !important;
-    background-color: rgb(0, 174, 240);
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
-}
-.Netflix-logo {
-    padding: 9px 7px !important;
-    background-color: rgb(219, 0, 0) ;
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
-}
-.Disney-logo {
-    padding: 9px 7px !important;
-    background-color: #113CCF;
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
-}
+
 .Max-logo {
-    padding: 9px 7px !important;
-    background-color: #701c7c;
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--max-color);
 }
+
 .None-logo {
-    padding: 9px 7px !important;
-    background-color: #000000;
-    display: flex;
-    width: 39px;
-    font-size: 8px;
-    height: 0px;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 358px !important;
-    border-bottom-right-radius: 0px !important;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--none-color);
 }
