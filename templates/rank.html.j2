@@ -4,8 +4,8 @@
     <head>
         <title>{{ airing_details.season }} Karma Ranks</title>
         <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/new_karma.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/streaming.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/streaming.css') }}"> -->
         <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
     </head>
 
@@ -236,11 +236,12 @@
                         <div class="details rightBanner"
                             style="background-image: url('{{ right.images.large }}'); background-position: 0px 0px;">
                             <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
-                            <div class="part-1">
-                                <span class="karma rightKarma">{{ right.karma }}</span>
-                            </div>
+                           <!-- <div class="part-1">
+                                <span class="karma rightKarma">{{ right.karma }}</span> 
+                            </div> -->
                             <div class="part-2">
                                 <span class="title rightTitle">{{ get_title(right) }}</span>
+                                <span class="karma rightKarma">{{ right.karma }}</span>
                                 <div class="rightContainer">
                                     <span class="{{ right.streams.name | capitalize }}-logo">{{ right.streams.name |
                                         capitalize}}</span>
