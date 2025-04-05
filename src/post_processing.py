@@ -361,7 +361,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
         if not post_details:
-            logger.warning(f"Post {post['id']} is not available")
+            logger.error(f"Post {post['id']} is not available")
             return
         logger.debug(f"Trying to insert post: {json.dumps(post_details, indent=2)}")
         try:
