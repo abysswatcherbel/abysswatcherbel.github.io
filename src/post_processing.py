@@ -625,10 +625,7 @@ def insert_mongo(
     col = db.seasonals
 
     # Get the title details
-    title_info = post_details.get("title", {})
-    romaji = title_info.get("romaji")
-    english = title_info.get("english")
-    mal_id = post_details.get("mal_id")
+    mal_id = post_details.get("mal_id") or post_details.get("id")
     reddit_id = post_details.get("post_id")
 
     episode_data = {
