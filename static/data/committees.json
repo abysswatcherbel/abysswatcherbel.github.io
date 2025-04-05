@@ -307,7 +307,10 @@
         },
         "title_english": "Rock Is a Lady's Modesty",
         "score": 7.52,
-        "streams": null,
+        "streams": {
+            "name": "hidive",
+            "url": "https://www.hidive.com/season/30188"
+        },
         "url": "https://myanimelist.net/anime/59360",
         "studios": [
             {
