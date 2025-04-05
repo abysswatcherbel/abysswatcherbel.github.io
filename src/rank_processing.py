@@ -102,6 +102,7 @@ def get_weekly_change(schedule: SeasonScheduler):
                 "comments": f"${reddit_karma}.comments",
                 "week_id": f"${reddit_karma}.week_id",
                 "images": 1,
+                "banner": f"${reddit_karma}.banner",
                 "studio": "$studios.name",
                 "score": 1,
                 "streams": 1,

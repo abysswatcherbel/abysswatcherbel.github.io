@@ -155,6 +155,15 @@
             {% endif %}
             {% endmacro %}
 
+            {% macro get_banner(entry) %}
+            {% if entry.banner %}
+            {{entry.banner.url}}
+            {% else %}
+            {{entry.images.large}}
+            {% endif %}
+            {% endmacro %}
+            
+
             {# Episode Container #}
             <div class="episode-container">
                 {% for left, right in complete_rankings %}
@@ -168,7 +177,7 @@
                         </div>
 
                         <div class="details"
-                            style="background-image: url('{{ left.images.large }}'); background-position: 0px 0px;">
+                            style="background-image: url({{get_banner(left)}}); background-position: 0px 0px;">
                             <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
                             <div class="part-1">
                                 <span class="karma-change"
