@@ -856,10 +856,8 @@ svg.arrow.negative {
     font-size: 10px;
     font-weight: bold;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    
 }
 
 .rightEpisode {
