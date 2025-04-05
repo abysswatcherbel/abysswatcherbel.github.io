@@ -101,7 +101,7 @@ class RedditPostDetails(BaseModel):
     comments: int = Field(..., description="Number of comments on the post")
     upvote_ratio: float = Field(..., description="Upvote ratio", ge=0.0, le=1.0)
     post_id: str = Field(..., description="Reddit post ID")
-    url: HttpUrl = Field(..., description="Reddit post URL")
+    url: str = Field(..., description="Reddit post URL")
 
 
 class KarmaEntry(RedditPostDetails):
@@ -356,7 +356,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
     
 
     try:
-        logger.debug(f"Processing post received from scheduler: {json.dumps(post, indent=2)}")
+        logger.debug(f"Processing post received from scheduler: {post}")
         post_details: Dict = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
