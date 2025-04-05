@@ -72,8 +72,6 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
     Returns:
         BackgroundScheduler: A scheduler instance configured with MongoDB job store
     """
-    # Get logger for scheduler
-    # log = setup_logging("scheduler")
 
     client = MongoClient(mongo_uri)
     jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}

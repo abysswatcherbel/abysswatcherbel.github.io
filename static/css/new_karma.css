@@ -164,48 +164,43 @@ body {
         width: 100%;
         height: 15px;
         background-color: #082045;
-        display: flex;
-        flex-wrap: wrap;
         align-content: center;
-        justify-content: flex-start;
+        position: relative;
+        overflow: auto;
+       
     }
     .container > .divider .contents {
-    margin-left: 5%;
+    
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
     .container > .divider .total-karma {
-    height: 100%;
-    width: 105px;
-    background-color: #18407f;
-    display: flex;
-    position: relative;
-    align-items: center;
-    left: 201px;
-    bottom: 0px;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
+        height: 100%;
+        width: 105px;
+        background-color: #18407f;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
     }
     .container > .divider .total-karma .text-container > span {
-    color: #6ec1df;
-    margin-top: auto;
-    margin-bottom: auto;
+        color: #6ec1df;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .container > .divider .total-karma .text-container {
-    margin-top: 0px;
+        margin-top: 0px;
     }
     .container > .divider .pill {
-    margin: auto auto;
-    
-    font-size: 8px;
-    font-style: italic;
-       font-weight: bold;
-    
-       border-radius: 100px;
-       margin-right: 19px;
-       padding: 2.5px;
+        margin: auto 19px auto auto;
+        font-size: 8px;
+        font-style: italic;
+        font-weight: bold;
+        border-radius: 100px;
+        margin-right: 19px;
+        padding: 2.5px;
     }
     .episode-container {
     background-color: #335993;
