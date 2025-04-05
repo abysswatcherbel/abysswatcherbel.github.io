@@ -213,7 +213,10 @@
         },
         "title_english": "The Brilliant Healer's New Life in the Shadows",
         "score": 6.57,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/G4PH0WJ9G/the-brilliant-healers-new-life-in-the-shadows"
+        },
         "url": "https://myanimelist.net/anime/58359",
         "studios": [
             {

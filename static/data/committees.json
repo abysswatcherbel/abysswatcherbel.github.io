@@ -1402,7 +1402,10 @@
         },
         "title_english": "Ubel Blatt",
         "score": 6.21,
-        "streams": null,
+        "streams": {
+            "name": "prime",
+            "url": "https://www.primevideo.com/detail/0TRGLGKLJS99OYM9647IM6Y1N0"
+        },
         "url": "https://myanimelist.net/anime/58216",
         "studios": [
             {
@@ -1931,7 +1934,10 @@
         },
         "title_english": "",
         "score": null,
-        "streams": null,
+        "streams": {
+            "name": "name",
+            "url": "https://www.netflix.com/title/81949674"
+        },
         "url": "https://myanimelist.net/anime/58265",
         "studios": [
             {
