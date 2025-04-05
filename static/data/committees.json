@@ -117,7 +117,10 @@
         },
         "title_english": "The Too-Perfect Saint: Tossed Aside by My Fianc\u00e9 and Sold to Another Kingdom",
         "score": null,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/GP5HJ8477/the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom"
+        },
         "url": "https://myanimelist.net/anime/60157",
         "studios": [
             {
@@ -387,7 +390,10 @@
         },
         "title_english": "Wind Breaker Season 2",
         "score": 8.05,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/G3KHEVDPE/wind-breaker"
+        },
         "url": "https://myanimelist.net/anime/59160",
         "studios": [
             {
@@ -593,7 +599,10 @@
         },
         "title_english": "The Beginning After the End",
         "score": 6.64,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end"
+        },
         "url": "https://myanimelist.net/anime/60146",
         "studios": [
             {
