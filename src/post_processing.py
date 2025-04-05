@@ -38,6 +38,7 @@ import json
 from math import ceil
 import re
 from pymongo import MongoClient
+import pandas as pd
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.jobstores.base import ConflictingIdError
 from apscheduler.triggers.date import DateTrigger
@@ -53,7 +54,6 @@ from util.mal import MalClient
 
 
 from pydantic import BaseModel, Field, HttpUrl, field_validator, ValidationError
-
 
 
 class AnimeTitle(BaseModel):
@@ -1029,6 +1029,132 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
         logger.error(f"Error converting MAL ID to integer: {mal_id}")
         mal_id = None
     return mal_id
+
+
+def fetch_weekly_posts_db(
+    schedule: SeasonScheduler = SeasonScheduler(schedule_type="post"),
+):
+    """Fetch MAL IDs of all shows airing in the current week."""
+    client = MongoClient(os.getenv("MONGO_URI"))
+    db = client.anime
+    seasonal_entries = db.seasonals
+
+    # Determine current week
+    current_week = schedule.week_id
+    current_year = schedule.year
+    current_season = schedule.season_name
+
+    reddit_karma = f"reddit_karma.{current_year}.{current_season}"
+    current_data = list(
+        seasonal_entries.aggregate(
+            [
+                {"$unwind": f"${reddit_karma}"},
+                {"$match": {f"{reddit_karma}.week_id": current_week}},
+                {
+                    "$project": {
+                        "_id": 0,
+                        "id": 1,
+                        "title": 1,
+                        "title_english": 1,
+                        "episode": f"${reddit_karma}.episode",
+                        "karma": f"${reddit_karma}.karma",
+                        "comments": f"${reddit_karma}.comments",
+                        "week_id": f"${reddit_karma}.week_id",
+                        "url": f"${reddit_karma}.url",
+                        "num_episodes": 1,
+                    }
+                },
+            ]
+        )
+    )
+
+    client.close()
+    return current_data
+
+
+def fetch_weekly_posts_reddit(
+    reddit: Reddit = setup_reddit_instance(),
+    schedule: SeasonScheduler = SeasonScheduler(),
+    username="AutoLovepon",
+    default_tz=timezone.utc,
+):
+    user = reddit.redditor(username)
+    posts = []
+    week_id = schedule.week_id - 1 if datetime.now().weekday() in (4,5,6) else schedule.week_id
+    # Get the current week schedule
+    schedule_details = schedule.get_schedule_for_date(
+        year=schedule.year, season=schedule.season_number, week_id=week_id
+    )
+    if schedule_details:
+        start_date = schedule_details.start_date
+        end_date = schedule_details.end_date
+        for submission in user.submissions.new(limit=100):
+            created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
+            if created_time >= start_date and created_time <= end_date:
+                title_details, episode = get_title_details(submission.title)
+
+                posts.append(
+                    {
+                        "id": get_mal_id_reddit_post(submission.selftext),
+                        "reddit_id": submission.id,
+                        "title": title_details.get("romaji"),
+                        "title_english": title_details.get("english"),
+                        "episode": episode,
+                        "created_utc": int(submission.created_utc),
+                        "week_id": week_id,
+                        "karma": submission.score,
+                        "comments": submission.num_comments,
+                        "upvote_ratio": submission.upvote_ratio,
+                        "url": submission.url,
+                    }
+                )
+        if posts:
+
+            return posts
+        else:
+            return []
+    else:
+        return
+
+
+def missing_shows_on_db(shows_reddit: List[Dict], shows_db: List[Dict]) -> List:
+    """
+    Compare shows from Reddit against shows in the database to find which ones are missing.
+
+    Args:
+        shows_reddit: List of show dictionaries from Reddit
+        shows_db: List of show dictionaries from the database
+
+    Returns:
+        List of dictionaries representing shows that appear on Reddit but not in the database
+    """
+    # Create DataFrames from the lists
+    reddit_df = pd.DataFrame(shows_reddit)
+    db_df = pd.DataFrame(shows_db)
+
+    # Handle empty dataframes
+    if reddit_df.empty:
+        return []
+
+    if db_df.empty:
+        return shows_reddit
+
+    # Filter out shows where id is None or NaN
+    reddit_df = reddit_df.dropna(subset=["id"])
+
+    # Get the set of show IDs from each source
+    reddit_ids = set(reddit_df["id"].astype(str))
+    db_ids = set(db_df["id"].astype(str))
+
+    # Find IDs that are in Reddit but not in the database
+    missing_ids = reddit_ids - db_ids
+
+    # Filter the reddit_df to only include rows with the missing IDs
+    missing_shows = reddit_df[reddit_df["id"].astype(str).isin(missing_ids)].to_dict(
+        "records"
+    )
+
+    return missing_shows
 
 
 # Example usage

@@ -51,23 +51,7 @@ def assign_rank(sorted_entries):
     return sorted_entries
 
 
-def get_ids_current_week(schedule: SeasonScheduler):
-    """Fetch MAL IDs of all shows airing in the current week."""
-    client = MongoClient(os.getenv("MONGO_URI"))
-    db = client.anime
-    seasonal_entries = db.seasonals
 
-    # Determine current week
-    current_week = schedule.week_id
-    current_year = schedule.year
-    current_season = schedule.season_name
-
-    # Fetch MAL IDs of shows airing in the current week
-    mal_ids = list(
-        seasonal_entries.distinct("id", {f"reddit_karma.{current_year}.{current_season}.week_id": current_week})
-    )
-    client.close()
-    return mal_ids
 
 
 def get_weekly_change(schedule: SeasonScheduler):
