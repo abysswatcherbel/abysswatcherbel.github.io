@@ -906,6 +906,7 @@ def get_active_posts(
                         post_details["reddit_url"] = submission.url
                         post_details["karma"] = submission.score
                         post_details["comments"] = submission.num_comments
+                        post_details["episode"] = episode
                         # Time left in hours
                         post_details["time_left"] = time_left.total_seconds() / 3600
 

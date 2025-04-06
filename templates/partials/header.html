@@ -2,7 +2,7 @@
     <div class="header-container">
         <div class="logo">
             <i class="fa-solid fa-chart-line"></i>
-            <span>Anime Karma Rankings</span>
+            <a href="{{ url_for('new_home')}}">Anime Karma Rankings</a>
         </div>
         <nav>
             <a class="action-link current-chart-link {% if active_page == 'current_chart' %}active{% endif %}"

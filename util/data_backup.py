@@ -5,6 +5,8 @@ from datetime import datetime
 from pathlib import Path
 from pymongo import MongoClient
 from util.logger_config import logger
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def save_weekly_ranking(data, year, season, week_id):
@@ -96,25 +98,27 @@ def get_available_seasons_from_db(mongo_uri=None):
         ]
 
         results = list(seasonals.aggregate(pipeline))
+        logger.debug(f'Found {len(results)} documents with reddit_karma data, sample {results[0]}')
 
         # Process results to find unique years and seasons
         available_seasons = {}
 
         for doc in results:
-            karma_data = doc.get("reddit_karma", {})
-            for year, seasons in karma_data.items():
-                if year not in available_seasons:
-                    available_seasons[year] = {}
+            if doc.get("reddit_karma"):
+                karma_data = doc.get("reddit_karma")
+                for year, seasons in karma_data.items():
+                    if year not in available_seasons:
+                        available_seasons[year] = {}
 
-                for season, weeks_data in seasons.items():
-                    if season not in available_seasons[year]:
-                        available_seasons[year][season] = []
+                    for season, weeks_data in seasons.items():
+                        if season not in available_seasons[year]:
+                            available_seasons[year][season] = []
 
-                    # Extract unique week IDs
-                    week_ids = sorted(
-                        list(set(entry.get("week_id") for entry in weeks_data))
-                    )
-                    available_seasons[year][season] = week_ids
+                        # Extract unique week IDs
+                        week_ids = sorted(
+                            list(set(entry.get("week_id") for entry in weeks_data))
+                        )
+                        available_seasons[year][season] = week_ids
 
         client.close()
         logger.info(
