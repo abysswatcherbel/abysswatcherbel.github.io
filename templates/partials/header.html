@@ -1,0 +1,24 @@
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Anime Karma Rankings</span>
+        </div>
+        <nav>
+            <a class="action-link current-chart-link {% if active_page == 'current_chart' %}active{% endif %}"
+                href="{{ url_for('current_chart') }}">Current Chart</a>
+            <a class="action-link stream-link {% if active_page == 'previous_weeks' %}active{% endif %}"
+                    href="{{ url_for('previous_weeks') }}">Previous Weeks</a>
+            <a class="action-link current-chart-link {% if active_page == 'committees' %}active{% endif %}"
+                href="{{ url_for('committees') }}">Production Committees</a>
+            <a class="action-link current-chart-link {% if active_page == 'karma_watch' %}active{% endif %}"
+                href="{{ url_for('karma_watch') }}">Karma Watch</a>
+            
+            <div class="controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>

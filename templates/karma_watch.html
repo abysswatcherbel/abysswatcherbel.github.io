@@ -1,169 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karma Watch - Anime Karma Rankings</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Karma Watch - Anime Karma Rankings</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
 
-    <!-- React and dependencies for the Karma Chart -->
-    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.7.2/prop-types.min.js"></script>
+        <!-- React and dependencies for the Karma Chart -->
+        <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.7.2/prop-types.min.js"></script>
 
-    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
-    <script crossorigin
-        src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
-    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.15.0/Recharts.min.js"></script>
-    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+        <script crossorigin
+            src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+        <script crossorigin
+            src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+        <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.15.0/Recharts.min.js"></script>
+        <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
-    <!-- Additional styles for the karma chart -->
-    <style>
-        .chart-container {
-            background-color: var(--card-bg);
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-            padding: 16px;
-        }
-
-        .dark-theme .chart-container {
-            background-color: var(--dark-card-bg);
-        }
-
-        #karma-chart {
-            width: 100%;
-            min-height: 500px;
-        }
-
-        .explanation {
-            background-color: var(--light-bg);
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-
-        .dark-theme .explanation {
-            background-color: var(--dark-accent-bg);
-        }
-
-        .explanation h3 {
-            margin-top: 0;
-            color: var(--text-color);
-        }
-
-        .dark-theme .explanation h3 {
-            color: var(--dark-text-color);
-        }
-
-        .loading-message {
-            text-align: center;
-            padding: 2rem;
-            font-size: 1.2rem;
-        }
-
-        .error-message {
-            text-align: center;
-            padding: 2rem;
-            color: #ff4d4d;
-            font-size: 1.2rem;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <i class="fa-solid fa-chart-line"></i>
-                <span>Anime Karma Rankings</span>
-            </div>
-            <nav>
-                <a class="action-link" href="{{ url_for('current_chart') }}">Current Chart</a>
-                <a class="action-link active" href="{{ url_for('karma_watch') }}">Karma Watch</a>
-                <div class="controls">
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">Previous Weeks ▾</a>
-                        <div class="dropdown-content">
-                            {% for year, seasons in available_seasons.items()|reverse %}
-                            {% for season, weeks in seasons.items()|reverse %}
-                            <div class="season-group">
-                                <div class="season-header">{{ year }} {{ season|capitalize }}</div>
-                                {% for week in weeks|reverse %}
-                                <a href="{{ url_for('show_week', 
-                                                            year=year|int, 
-                                                            season=season, 
-                                                            week=week|replace('week_', '')|int) }}">
-                                    Week {{ week|replace('week_', '') }}
-                                </a>
-                                {% endfor %}
-                            </div>
-                            {% endfor %}
-                            {% endfor %}
-                        </div>
-                    </li>
-                    <button class="theme-toggle" id="theme-toggle">
-                        <i class="fa-solid fa-moon"></i>
-                    </button>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <div class="explanation">
-            <h3>Karma Watch</h3>
-            <p>Compare how different anime discussion threads accumulate karma over time. Select multiple shows to
-                visualize their karma progression on the same chart.</p>
-            <p>Each line represents the karma growth of a show's discussion thread during the first 48 hours after
-                posting.</p>
-        </div>
-
-        <div class="chart-container">
-            <!-- Initial loading state will be replaced by the React component -->
-            <div id="karma-chart">
-                <div class="loading-message">Loading karma data...</div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
-        <div class="footer-links">
-            <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link"
-                target="_blank">GitHub</a>
-            <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
-        </div>
-    </footer>
-
-    <!-- Theme toggle script -->
-    <script>
-        // Theme toggle functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const themeIcon = themeToggle.querySelector('i');
-
-        // Check for saved theme preference or use preferred color scheme
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.body.classList.add('dark-theme');
-            themeIcon.classList.replace('fa-moon', 'fa-sun');
-        }
-
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('dark-theme');
-
-            if (document.body.classList.contains('dark-theme')) {
-                themeIcon.classList.replace('fa-moon', 'fa-sun');
-                localStorage.setItem('theme', 'dark');
-            } else {
-                themeIcon.classList.replace('fa-sun', 'fa-moon');
-                localStorage.setItem('theme', 'light');
+        <!-- Additional styles for the karma chart -->
+        <style>
+            .chart-container {
+                background-color: var(--card-bg);
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+                padding: 16px;
             }
-        });
-    </script>
 
-    <!-- Load the React component script -->
-    <script type="text/babel" src="{{ url_for('static', filename='scripts/karma_chart.js') }}"></script>
-</body>
+            .dark-theme .chart-container {
+                background-color: var(--dark-card-bg);
+            }
+
+            #karma-chart {
+                width: 100%;
+                min-height: 500px;
+            }
+
+            .explanation {
+                background-color: var(--light-bg);
+                border-radius: 8px;
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+
+            .dark-theme .explanation {
+                background-color: var(--dark-accent-bg);
+            }
+
+            .explanation h3 {
+                margin-top: 0;
+                color: var(--text-color);
+            }
+
+            .dark-theme .explanation h3 {
+                color: var(--dark-text-color);
+            }
+
+            .loading-message {
+                text-align: center;
+                padding: 2rem;
+                font-size: 1.2rem;
+            }
+
+            .error-message {
+                text-align: center;
+                padding: 2rem;
+                color: #ff4d4d;
+                font-size: 1.2rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        {% with active_page='karma_watch' %}
+        {% include 'partials/header.html' %}
+        {% endwith %}
+
+        <main>
+            <div class="explanation">
+                <h3>Karma Watch</h3>
+                <p>Compare how different anime discussion threads accumulate karma over time. Select multiple shows to
+                    visualize their karma progression on the same chart.</p>
+                <p>Each line represents the karma growth of a show's discussion thread during the first 48 hours after
+                    posting.</p>
+            </div>
+
+            <div class="chart-container">
+                <!-- Initial loading state will be replaced by the React component -->
+                <div id="karma-chart">
+                    <div class="loading-message">Loading karma data...</div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
+            <div class="footer-links">
+                <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link"
+                    target="_blank">GitHub</a>
+                <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
+            </div>
+        </footer>
+
+        {% include 'partials/theme_toggle.html' %}
+
+        <!-- Load the React component script -->
+        <script type="text/babel" src="{{ url_for('static', filename='scripts/karma_chart.js') }}"></script>
+    </body>
 
 </html>

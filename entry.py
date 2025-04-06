@@ -31,6 +31,7 @@ freezer = Freezer(app)
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
 client = MongoClient(os.getenv("MONGO_URI"))
+available_seasons = get_available_seasons()
 
 
 @app.route("/current_chart/", endpoint="current_chart")
@@ -114,7 +115,7 @@ def current_week():
     season_averages = get_season_averages(
         schedule=post_schedule,
     )
-    available_seasons = get_available_seasons()
+    
     active_discussions = get_active_posts()
 
     return render_template(
@@ -176,8 +177,7 @@ def karma_watch():
                                     "karma": {"$type": "double", "$eq": float("nan")}
                                 }
                             }
-                        },
-                        "year": post_schedule.year,
+                        }
                     }
                 },
                 {
@@ -198,8 +198,6 @@ def karma_watch():
 
     client.close()
 
-    # Get available seasons for the navigation dropdown
-    available_seasons = get_available_seasons()
 
     return render_template(
         "karma_watch.html",
@@ -228,8 +226,6 @@ def production_committees():
     # Get committee data, which saves a json to /static/data/committees.json
     committee_data = get_committee_data()
 
-    # Get available seasons for the navigation dropdown
-    available_seasons = get_available_seasons()
 
     # Get distinct seasons and years for filters
     client = MongoClient(os.getenv("MONGO_URI"))
@@ -247,6 +243,12 @@ def production_committees():
         current_year=year,
         current_time=datetime.now(timezone.utc),
     )
+
+
+@app.route("/previous-weeks")
+def previous_weeks():
+    # Reuse the same available_seasons data that's used in other routes
+    return render_template("previous_weeks.html", available_seasons=available_seasons)
 
 
 if __name__ == "__main__":

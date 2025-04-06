@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Previous Weeks - Anime Karma Rankings</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="static/css/new_home.css">
+        <style>
+            .seasons-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-bottom: 30px;
+            }
+
+            .year-section {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .year-header {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+                color: var(--text-color);
+                border-bottom: 1px solid var(--border-color);
+                padding-bottom: 8px;
+            }
+
+            .dark-theme .year-header {
+                color: var(--dark-text-color);
+                border-bottom-color: var(--dark-border-color);
+            }
+
+            .season-card {
+                background-color: var(--card-bg);
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 15px;
+                flex: 1;
+                min-width: 200px;
+                max-width: calc(25% - 20px);
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
+
+            .dark-theme .season-card {
+                background-color: var(--dark-card-bg);
+            }
+
+            .season-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            }
+
+            .season-header {
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-align: center;
+                padding-bottom: 5px;
+                border-bottom: 2px solid;
+            }
+
+            .season.winter {
+                color: #88b8ff;
+                border-color: #88b8ff;
+            }
+
+            .season.spring {
+                color: #9be29b;
+                border-color: #9be29b;
+            }
+
+            .season.summer {
+                color: #ffb347;
+                border-color: #ffb347;
+            }
+
+            .season.fall {
+                color: #d17272;
+                border-color: #d17272;
+            }
+
+            .weeks-list {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .weeks-list li {
+                margin-bottom: 8px;
+            }
+
+            .weeks-list a {
+                display: block;
+                padding: 8px;
+                text-decoration: none;
+                color: var(--text-color);
+                border-radius: 4px;
+                transition: background-color 0.2s;
+            }
+
+            .dark-theme .weeks-list a {
+                color: var(--dark-text-color);
+            }
+
+            .weeks-list a:hover {
+                background-color: var(--hover-bg);
+            }
+
+            .dark-theme .weeks-list a:hover {
+                background-color: var(--dark-hover-bg);
+            }
+
+            .empty-season {
+                text-align: center;
+                color: #888;
+                font-style: italic;
+                padding: 15px 0;
+            }
+
+            @media (max-width: 1000px) {
+                .season-card {
+                    max-width: calc(33.333% - 20px);
+                }
+            }
+
+            @media (max-width: 768px) {
+                .season-card {
+                    max-width: calc(50% - 20px);
+                }
+            }
+
+            @media (max-width: 480px) {
+                .season-card {
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+    <div class="header-container">
+        <div class="logo">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Anime Karma Rankings</span>
+        </div>
+        <nav>
+            <a class="action-link current-chart-link "
+                href="current_chart/index.html">Current Chart</a>
+            <a class="action-link stream-link active"
+                    href="previous-weeks">Previous Weeks</a>
+            <a class="action-link current-chart-link "
+                href="committees.html">Production Committees</a>
+            <a class="action-link current-chart-link "
+                href="karma_watch.html">Karma Watch</a>
+            
+            <div class="controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>
+        
+
+        <main>
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Previous Weeks Archive</h2>
+                    <div class="last-updated">Browse through past anime karma rankings</div>
+                </div>
+
+                
+                <div class="year-section">
+                    <h3 class="year-header">2025</h3>
+                    <div class="seasons-container">
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season winter">Winter</div>
+                            <ul class="weeks-list">
+                                
+                                <li>
+                                    <a href="2025/winter/week_9.html">
+                                        Week 9
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_8.html">
+                                        Week 8
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_7.html">
+                                        Week 7
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_6.html">
+                                        Week 6
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_5.html">
+                                        Week 5
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_4.html">
+                                        Week 4
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_13.html">
+                                        Week 13
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_12.html">
+                                        Week 12
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_11.html">
+                                        Week 11
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2025/winter/week_10.html">
+                                        Week 10
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season spring">Spring</div>
+                            <ul class="weeks-list">
+                                
+                                <li>
+                                    <a href="2025/spring/week_1.html">
+                                        Week 1
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season summer">Summer</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season fall">Fall</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                <div class="year-section">
+                    <h3 class="year-header">2024</h3>
+                    <div class="seasons-container">
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season winter">Winter</div>
+                            <ul class="weeks-list">
+                                
+                                <li>
+                                    <a href="2024/winter/week_9.html">
+                                        Week 9
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_8.html">
+                                        Week 8
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_7.html">
+                                        Week 7
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_6.html">
+                                        Week 6
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_5.html">
+                                        Week 5
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_4.html">
+                                        Week 4
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_3.html">
+                                        Week 3
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_2.html">
+                                        Week 2
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_13.html">
+                                        Week 13
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_12.html">
+                                        Week 12
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_11.html">
+                                        Week 11
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/winter/week_10.html">
+                                        Week 10
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season spring">Spring</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season summer">Summer</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season fall">Fall</div>
+                            <ul class="weeks-list">
+                                
+                                <li>
+                                    <a href="2024/fall/week_5.html">
+                                        Week 5
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/fall/week_4.html">
+                                        Week 4
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/fall/week_3.html">
+                                        Week 3
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/fall/week_2.html">
+                                        Week 2
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2024/fall/week_1.html">
+                                        Week 1
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                <div class="year-section">
+                    <h3 class="year-header">2023</h3>
+                    <div class="seasons-container">
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season winter">Winter</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season spring">Spring</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season summer">Summer</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        
+                        
+                        
+                        <div class="season-card">
+                            <div class="season-header season fall">Fall</div>
+                            <ul class="weeks-list">
+                                
+                                <li>
+                                    <a href="2023/fall/week_9.html">
+                                        Week 9
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_8.html">
+                                        Week 8
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_7.html">
+                                        Week 7
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_6.html">
+                                        Week 6
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_5.html">
+                                        Week 5
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_4.html">
+                                        Week 4
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_3.html">
+                                        Week 3
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_2.html">
+                                        Week 2
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_13.html">
+                                        Week 13
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_12.html">
+                                        Week 12
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_11.html">
+                                        Week 11
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_10.html">
+                                        Week 10
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="2023/fall/week_1.html">
+                                        Week 1
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
+            <div class="footer-links">
+                <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link"
+                    target="_blank">GitHub</a>
+                <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
+            </div>
+        </footer>
+
+        <script>
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
+
+    // Check for saved theme preference or use preferred color scheme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.body.classList.add('dark-theme');
+        themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+
+        if (document.body.classList.contains('dark-theme')) {
+            themeIcon.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            themeIcon.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', 'light');
+        }
+    });
+</script>
+    </body>
+
+</html>

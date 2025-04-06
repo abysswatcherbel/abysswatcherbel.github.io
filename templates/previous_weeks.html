@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Previous Weeks - Anime Karma Rankings</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
+        <style>
+            .seasons-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-bottom: 30px;
+            }
+
+            .year-section {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .year-header {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+                color: var(--text-color);
+                border-bottom: 1px solid var(--border-color);
+                padding-bottom: 8px;
+            }
+
+            .dark-theme .year-header {
+                color: var(--dark-text-color);
+                border-bottom-color: var(--dark-border-color);
+            }
+
+            .season-card {
+                background-color: var(--card-bg);
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 15px;
+                flex: 1;
+                min-width: 200px;
+                max-width: calc(25% - 20px);
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
+
+            .dark-theme .season-card {
+                background-color: var(--dark-card-bg);
+            }
+
+            .season-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            }
+
+            .season-header {
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-align: center;
+                padding-bottom: 5px;
+                border-bottom: 2px solid;
+            }
+
+            .season.winter {
+                color: #88b8ff;
+                border-color: #88b8ff;
+            }
+
+            .season.spring {
+                color: #9be29b;
+                border-color: #9be29b;
+            }
+
+            .season.summer {
+                color: #ffb347;
+                border-color: #ffb347;
+            }
+
+            .season.fall {
+                color: #d17272;
+                border-color: #d17272;
+            }
+
+            .weeks-list {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .weeks-list li {
+                margin-bottom: 8px;
+            }
+
+            .weeks-list a {
+                display: block;
+                padding: 8px;
+                text-decoration: none;
+                color: var(--text-color);
+                border-radius: 4px;
+                transition: background-color 0.2s;
+            }
+
+            .dark-theme .weeks-list a {
+                color: var(--dark-text-color);
+            }
+
+            .weeks-list a:hover {
+                background-color: var(--hover-bg);
+            }
+
+            .dark-theme .weeks-list a:hover {
+                background-color: var(--dark-hover-bg);
+            }
+
+            .empty-season {
+                text-align: center;
+                color: #888;
+                font-style: italic;
+                padding: 15px 0;
+            }
+
+            @media (max-width: 1000px) {
+                .season-card {
+                    max-width: calc(33.333% - 20px);
+                }
+            }
+
+            @media (max-width: 768px) {
+                .season-card {
+                    max-width: calc(50% - 20px);
+                }
+            }
+
+            @media (max-width: 480px) {
+                .season-card {
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        {% with active_page='previous_weeks' %}
+        {% include 'partials/header.html' %}
+        {% endwith %}
+
+        <main>
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Previous Weeks Archive</h2>
+                    <div class="last-updated">Browse through past anime karma rankings</div>
+                </div>
+
+                {% for year in available_seasons.keys()|list|sort(reverse=True) %}
+                <div class="year-section">
+                    <h3 class="year-header">{{ year }}</h3>
+                    <div class="seasons-container">
+                        {% set seasons_order = ['winter', 'spring', 'summer', 'fall'] %}
+                        {% for season in seasons_order %}
+                        {% if season in available_seasons[year] %}
+                        <div class="season-card">
+                            <div class="season-header season {{ season }}">{{ season|capitalize }}</div>
+                            <ul class="weeks-list">
+                                {% for week in available_seasons[year][season]|sort(reverse=True) %}
+                                <li>
+                                    <a href="{{ url_for('show_week', 
+                                           year=year|int, 
+                                           season=season, 
+                                           week=week|replace('week_', '')|int) }}">
+                                        Week {{ week|replace('week_', '') }}
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% else %}
+                        <div class="season-card">
+                            <div class="season-header season {{ season }}">{{ season|capitalize }}</div>
+                            <div class="empty-season">No data available</div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Anime Karma Rankings | Data updates every hour</p>
+            <div class="footer-links">
+                <a href="https://github.com/abysswatcherbel/abysswatcherbel.github.io" class="footer-link"
+                    target="_blank">GitHub</a>
+                <a href="https://www.reddit.com/r/anime/" class="footer-link" target="_blank">r/anime</a>
+            </div>
+        </footer>
+
+        {% include 'partials/theme_toggle.html' %}
+    </body>
+
+</html>
