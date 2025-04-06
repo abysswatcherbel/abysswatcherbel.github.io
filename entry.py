@@ -245,9 +245,9 @@ def production_committees():
     )
 
 
-@app.route("/previous-weeks")
+@app.route("/previous-weeks.html")
 def previous_weeks():
-    # Reuse the same available_seasons data that's used in other routes
+    
     return render_template("previous_weeks.html", available_seasons=available_seasons)
 
 
