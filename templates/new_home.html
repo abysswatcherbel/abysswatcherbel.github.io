@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/new_home.css') }}">
         <script src="{{ url_for('static', filename='scripts/previous_seasons.js') }}"></script>
+        <script src="{{ url_for('static', filename='scripts/weeklyRanks.js') }}"></script>
     </head>
 
     <body>
@@ -96,6 +97,31 @@
                 <div class="card">
                     <div class="card-header">
                         <h2 class="card-title">{{ airing_details.airing_period }}</h2>
+                        <div class="week-selector">
+                            <select id="year-select" class="selector">
+                                {% for year in available_seasons.keys() %}
+                                <option value="{{ year }}" {% if year|int==current_time.year %}selected{% endif %}>{{
+                                    year }}</option>
+                                {% endfor %}
+                            </select>
+                            <select id="season-select" class="selector">
+                                <option value="winter" {% if airing_details.season=='winter' %}selected{% endif %}>
+                                    Winter</option>
+                                <option value="spring" {% if airing_details.season=='spring' %}selected{% endif %}>
+                                    Spring</option>
+                                <option value="summer" {% if airing_details.season=='summer' %}selected{% endif %}>
+                                    Summer</option>
+                                <option value="fall" {% if airing_details.season=='fall' %}selected{% endif %}>Fall
+                                </option>
+                            </select>
+                            <select id="week-select" class="selector">
+                                {% for week_num in range(1, 14) %}
+                                <option value="{{ week_num }}" {% if week_num==current_week_id %}selected{% endif %}>
+                                    Week {{ week_num }}</option>
+                                {% endfor %}
+                            </select>
+                            <button id="load-week-btn" class="selector-btn">Load</button>
+                        </div>
                         <div class="last-updated">Last updated: <span id="weekly-update-time">{{ current_time }}</span>
                         </div>
                     </div>

@@ -1,0 +1,83 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1025/147458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1025/147458.jpg"
+    },
+    "num_episodes": 24,
+    "score": 8.81,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/the-apothecary-diaries",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "title_english": "The Apothecary Diaries Season 2",
+    "episode": "13",
+    "karma": 2501,
+    "comments": 473,
+    "week_id": 2,
+    "studio": [
+      "OLM",
+      "TOHO animation STUDIO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jre860/kusuriya_no_hitorigoto_season_2_the_apothecary/",
+    "mal_id": 58514,
+    "current_rank": 1,
+    "karma_change": -318,
+    "rank_change": 1,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.45,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV0D8/can-a-boy-girl-friendship-survive",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
+    "title_english": "Can a Boy-Girl Friendship Survive?",
+    "episode": "1",
+    "karma": 611,
+    "comments": 283,
+    "week_id": 2,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jrc0du/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
+    "mal_id": 52709,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1538/147930l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1538/147930.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.39,
+    "streams": null,
+    "title": "Bye Bye, Earth 2nd Season",
+    "title_english": "Bye Bye, Earth Season 2",
+    "episode": "1",
+    "karma": 87,
+    "comments": 50,
+    "week_id": 2,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jrddd5/bye_bye_earth_season_2_episode_1_discussion/",
+    "mal_id": 59819,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  }
+]

@@ -10,8 +10,10 @@ import os
 from util.logger_config import logger
 from util.mal import MalImages
 from util.seasonal_schedule import SeasonScheduler
+from util.data_backup import save_weekly_ranking
 from pydantic import BaseModel
 from typing import List, Optional
+
 
 class KarmaRankEntry(BaseModel):
     rank: int
@@ -25,6 +27,7 @@ class KarmaRankEntry(BaseModel):
     mal_id: int
     images: MalImages
     score: float
+
 
 class KarmaRank(BaseModel):
     entries: List[KarmaRankEntry]
@@ -51,9 +54,6 @@ def assign_rank(sorted_entries):
     return sorted_entries
 
 
-
-
-
 def get_weekly_change(schedule: SeasonScheduler):
     """Calculate weekly rank and karma changes using MongoDB data."""
     client = MongoClient(os.getenv("MONGO_URI"))
@@ -64,7 +64,6 @@ def get_weekly_change(schedule: SeasonScheduler):
     current_week = schedule.week_id
     season = schedule.season_name
     year = schedule.year
-    
 
     reddit_karma = f"reddit_karma.{year}.{season}"
 
@@ -73,33 +72,39 @@ def get_weekly_change(schedule: SeasonScheduler):
 
     # Fetch current week's data
     current_data = list(
-    seasonal_entries.aggregate([
-        {"$unwind": f"${reddit_karma}"},
-        {"$match": {f"{reddit_karma}.week_id": current_week}},
-        {
-            "$project": {
-                "_id": 0,
-                "title": 1,
-                "title_english": 1,
-                "episode": f"${reddit_karma}.episode",
-                "karma": f"${reddit_karma}.karma",
-                "comments": f"${reddit_karma}.comments",
-                "week_id": f"${reddit_karma}.week_id",
-                "images": 1,
-                "banner": f"${reddit_karma}.banner",
-                "studio": "$studios.name",
-                "score": 1,
-                "streams": 1,
-                "url": f"${reddit_karma}.url",
-                "mal_id": "$id",
-                "num_episodes": 1,
-            }
-        },
-    ])
-)
-    
+        seasonal_entries.aggregate(
+            [
+                {"$unwind": f"${reddit_karma}"},
+                {"$match": {f"{reddit_karma}.week_id": current_week}},
+                {
+                    "$project": {
+                        "_id": 0,
+                        "title": 1,
+                        "title_english": 1,
+                        "episode": f"${reddit_karma}.episode",
+                        "karma": f"${reddit_karma}.karma",
+                        "comments": f"${reddit_karma}.comments",
+                        "week_id": f"${reddit_karma}.week_id",
+                        "images": 1,
+                        "banner": f"${reddit_karma}.banner",
+                        "studio": "$studios.name",
+                        "score": 1,
+                        "streams": 1,
+                        "url": f"${reddit_karma}.url",
+                        "mal_id": "$id",
+                        "num_episodes": 1,
+                    }
+                },
+            ]
+        )
+    )
+
     # Fetch previous week's data
-    reddit_karma = f"reddit_karma.{year}.{season}" if last_week != 13 else f"reddit_karma.{year}.{schedule._get_season_name(schedule.season_number - 1)}"
+    reddit_karma = (
+        f"reddit_karma.{year}.{season}"
+        if last_week != 13
+        else f"reddit_karma.{year}.{schedule._get_season_name(schedule.season_number - 1)}"
+    )
     previous_data = list(
         seasonal_entries.aggregate(
             [
@@ -115,7 +120,6 @@ def get_weekly_change(schedule: SeasonScheduler):
                         "comments": f"${reddit_karma}.comments",
                         "week_id": f"${reddit_karma}.week_id",
                         "mal_id": "$id",
-                        
                     }
                 },
             ]
@@ -139,7 +143,7 @@ def get_weekly_change(schedule: SeasonScheduler):
     # Merge data and compute changes
     merged_data = []
     for current_entry in current_sorted:
-        
+
         mal_id = current_entry["mal_id"]
         previous_entry = previous_dict.get(mal_id, {})
 
@@ -167,6 +171,16 @@ def get_weekly_change(schedule: SeasonScheduler):
         merged_data.append(merged_entry)
 
     client.close()
+
+    # Save the weekly ranking data to JSON
+    try:
+        save_weekly_ranking(merged_data, year, season, current_week)
+        logger.info(
+            f"Saved weekly ranking data for {year} {season} week {current_week}"
+        )
+    except Exception as e:
+        logger.error(f"Failed to save weekly ranking data: {e}")
+
     return merged_data
 
 
@@ -221,7 +235,7 @@ def get_season_averages(schedule: SeasonScheduler):
     season = schedule.season_name
     year = schedule.year
 
-    logger.debug(f'Getting season averages for {season} {year}')
+    logger.debug(f"Getting season averages for {season} {year}")
 
     # 2. Get your specific database and collection
     db = client.anime
@@ -232,8 +246,16 @@ def get_season_averages(schedule: SeasonScheduler):
         return
 
     pipeline = [
-        {"$match": {f"reddit_karma.{year}.{season}": {"$exists": True, "$type": "array"}}},
-        {"$match": {"$expr": {"$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 3]}}},
+        {
+            "$match": {
+                f"reddit_karma.{year}.{season}": {"$exists": True, "$type": "array"}
+            }
+        },
+        {
+            "$match": {
+                "$expr": {"$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 3]}
+            }
+        },
         {
             "$project": {
                 "_id": 0,
@@ -246,7 +268,7 @@ def get_season_averages(schedule: SeasonScheduler):
                 "average_comments": {"$avg": f"$reddit_karma.{year}.{season}.comments"},
                 "max_karma": {"$max": f"$reddit_karma.{year}.{season}.karma"},
                 "min_karma": {"$min": f"$reddit_karma.{year}.{season}.karma"},
-                "total_episodes": {"$size": f"$reddit_karma.{year}.{season}"}
+                "total_episodes": {"$size": f"$reddit_karma.{year}.{season}"},
             }
         },
     ]
@@ -264,7 +286,9 @@ def get_season_averages(schedule: SeasonScheduler):
         return
 
 
-def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type="post")):
+def update_mal_numbers(
+    schedule: SeasonScheduler = SeasonScheduler(schedule_type="post"),
+):
     # 1. Connect to your MongoDB
     client = MongoClient(os.getenv("MONGO_URI"))
 
@@ -280,7 +304,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
     week_id = schedule.week_id
     year = schedule.year
     season = schedule.season_name
-    reddit_karma = f'reddit_karma.{year}.{season}'
+    reddit_karma = f"reddit_karma.{year}.{season}"
 
     pipeline = [
         {"$match": {reddit_karma: {"$elemMatch": {"week_id": week_id}}}},
@@ -294,10 +318,10 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
 
         for mal_id in mal_ids:
             try:
-                logger.info(f'Getting mal_details for id: {mal_id}')
+                logger.info(f"Getting mal_details for id: {mal_id}")
                 endpoint = f"https://api.myanimelist.net/v2/anime/{mal_id}?fields=id,mean,rank,popularity,num_list_users,num_scoring_users,statistics"
                 headers = {
-                    "X-MAL-CLIENT-ID": os.getenv('MAL_SECRET'),
+                    "X-MAL-CLIENT-ID": os.getenv("MAL_SECRET"),
                 }
 
                 response = requests.get(url=endpoint, headers=headers, timeout=90)
@@ -333,7 +357,7 @@ def update_mal_numbers(schedule: SeasonScheduler = SeasonScheduler(schedule_type
     client.close()
 
 
-def get_available_seasons()-> dict:
+def get_available_seasons() -> dict:
     """
     Get all available seasons and their weeks from the docs directory.
 

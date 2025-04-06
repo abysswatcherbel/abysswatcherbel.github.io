@@ -3,7 +3,7 @@ import os
 from datetime import datetime, timezone
 from itertools import zip_longest
 from dotenv import load_dotenv
-from flask import Flask, abort, render_template, request
+from flask import Flask, abort, render_template, request, jsonify
 from flask_frozen import Freezer
 from pymongo import MongoClient
 from src.rank_processing import (
@@ -15,6 +15,7 @@ from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
 from util.logger_config import logger
 from util.seasonal_schedule import SeasonScheduler
+from util.data_backup import save_weekly_ranking, load_weekly_ranking
 import requests
 
 load_dotenv()
@@ -115,7 +116,7 @@ def current_week():
     season_averages = get_season_averages(
         schedule=post_schedule,
     )
-    
+
     active_discussions = get_active_posts()
 
     return render_template(
@@ -177,7 +178,7 @@ def karma_watch():
                                     "karma": {"$type": "double", "$eq": float("nan")}
                                 }
                             }
-                        }
+                        },
                     }
                 },
                 {
@@ -197,7 +198,6 @@ def karma_watch():
         json.dump(karma_data, f, indent=4)
 
     client.close()
-
 
     return render_template(
         "karma_watch.html",
@@ -226,7 +226,6 @@ def production_committees():
     # Get committee data, which saves a json to /static/data/committees.json
     committee_data = get_committee_data()
 
-
     # Get distinct seasons and years for filters
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
@@ -247,8 +246,47 @@ def production_committees():
 
 @app.route("/previous-weeks.html")
 def previous_weeks():
-    
+
     return render_template("previous_weeks.html", available_seasons=available_seasons)
+
+
+@app.route("/api/weekly-rankings/<int:year>/<season>/week_<int:week>")
+def api_weekly_ranking(year, season, week):
+    """
+    API endpoint to fetch historical weekly ranking data.
+
+    Args:
+        year (int): The year of the ranking
+        season (str): The season (winter, spring, summer, fall)
+        week (int): The week number
+
+    Returns:
+        JSON response: The weekly ranking data for the specified period
+    """
+    try:
+        # Validate season
+        if season.lower() not in ["winter", "spring", "summer", "fall"]:
+            return jsonify({"error": "Invalid season"}), 400
+
+        # Load the data from JSON or SQLite
+        data = load_weekly_ranking(year, season, week)
+
+        if data:
+            return jsonify({"status": "success", "data": data})
+        else:
+            return (
+                jsonify(
+                    {
+                        "status": "error",
+                        "message": "No data found for the specified period",
+                    }
+                ),
+                404,
+            )
+
+    except Exception as e:
+        logger.error(f"Error fetching weekly ranking data: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 
 if __name__ == "__main__":
@@ -278,4 +316,4 @@ if __name__ == "__main__":
     elif "run" in sys.argv:
         main()
     else:
-        app.run(host='0.0.0.0')
+        app.run(host="0.0.0.0")
