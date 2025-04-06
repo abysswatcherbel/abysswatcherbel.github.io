@@ -46,12 +46,11 @@ body {
 .container {
     color: var(--light-text);
     width: 930px;
-    height: 2365px;
+    height: 2440px;
     background-color: var(--primary-bg);
     display: flex;
     flex-direction: column;
     line-height: 1;
-
 }
 
 /* Header section */
@@ -265,10 +264,9 @@ body>div>div.legend>div:nth-child(5)>div {
 
 .row {
     margin-top: -1px;
-    height: 145px;
+    height: 150px;
     display: flex;
     flex-direction: row;
-
 }
 
 .episode-container>.divider {
@@ -703,7 +701,7 @@ svg.arrow.negative {
 /* Override the normal details styles for right side */
 .rightSide .details {
     width: 305px;
-    height: 140px;
+    height: 145px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -807,30 +805,26 @@ svg.arrow.negative {
 .rightRank {
     height: 100%;
     width: 12%;
-    background-color: var(--secondary-bg);
+    background-color: #fff;
     position: relative;
-    /* bottom: 0; */
-    /* right: 0; */
     clip-path: polygon(53% 0, 100% 0%, 100% 100%, 0% 100%);
-    /* display: flex; */
+   
     font-size: 12px;
-    /* text-align: -webkit-left; */
+    
     justify-content: center;
-    /* justify-items: left; */
+    
     z-index: 3;
     display: flex;
-    /* text-align: center; */
+    
     margin-left: auto;
     flex-direction: column;
-
 }
 
 .rightRank>span {
     margin-right: 2px;
     text-align: end;
     font-weight: bold;
-    color: white;
-
+    color: #335993;
 }
 
 /* Right side components */
@@ -851,13 +845,16 @@ svg.arrow.negative {
 .right-comments {
     background-color: #fff;
     width: 30px;
-    height: 15px;
+    height: 18px;
     color: var(--secondary-bg);
     font-size: 10px;
+    text-align: center;
     font-weight: bold;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    text-align: center;
-    
+}
+
+.right-comments > span{
+    vertical-align: middle;
 }
 
 .rightEpisode {
