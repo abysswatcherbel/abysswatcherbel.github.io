@@ -131,6 +131,14 @@ document.addEventListener("DOMContentLoaded", () => {
             const score = show.score ? `<span class="score-badge"><i class="fa-solid fa-star"></i> ${show.score}</span>` : "";
             const url = show.url ? `<a href="${show.url}" class="mal-badge" target="_blank">MAL</a>` : "";
 
+            const streamLinkHtml = show.streams && show.streams.url ?
+                `<a href="${show.streams.url}" class="action-link stream-link" target="_blank">
+                    ${show.streams.logo ?
+                    `<img src="${show.streams.logo}" alt="${show.streams.service || 'Stream'}" class="stream-logo">` :
+                    'Watch'
+                }
+                </a>` : '';
+
             const producers = (show.committee || [])
                 .map((p) => {
                     const image = p.image ? `<img src="${p.image}" alt="${p.name}" class="producer-img">` : `<div class="producer-img placeholder-img"><i class="fa-solid fa-building"></i></div>`;
@@ -157,6 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="season-badge ${show.season}">${show.season} ${show.year}</span>
                 ${score}
                 ${url}
+                ${streamLinkHtml}
               </div>
             </div>
           </div>

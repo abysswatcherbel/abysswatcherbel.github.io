@@ -35,7 +35,7 @@
                             <thead>
                                 <tr>
                                     <th>Anime</th>
-                                    <th>Karma</th>
+                                    <th class="sort-desc">Karma</th>
                                     <th>Comments</th>
                                     <th>Time</th>
                                     <th>Links</th>
@@ -68,7 +68,14 @@
                                             <a href="{{ show.reddit_url }}" class="action-link reddit-link"
                                                 target="_blank">Reddit</a>
                                             <a href="{{ show.streams.url }}" class="action-link stream-link"
-                                                target="_blank">Watch</a>
+                                                target="_blank">
+                                                {% if show.streams.logo %}
+                                                <img src="{{ show.streams.logo }}" alt="{{ show.streams.service }}"
+                                                    class="stream-logo">
+                                                {% else %}
+                                                Watch
+                                                {% endif %}
+                                            </a>
                                         </div>
                                     </td>
                                 </tr>
@@ -145,7 +152,14 @@
                                             <a href={{ show.url }} class="action-link reddit-link"
                                                 target="_blank">Reddit</a>
                                             <a href="{{ show.streams.url }}" class="action-link stream-link"
-                                                target="_blank">Watch</a>
+                                                target="_blank">
+                                                {% if show.streams.logo %}
+                                                <img src="{{ show.streams.logo }}" alt="{{ show.streams.service }}"
+                                                    class="stream-logo">
+                                                {% else %}
+                                                Watch
+                                                {% endif %}
+                                            </a>
                                         </div>
                                     </td>
                                 </tr>
@@ -210,7 +224,14 @@
                                     <td>
                                         <div class="action-links">
                                             <a href="{{ show.streams.url }}" class="action-link stream-link"
-                                                target="_blank">Watch</a>
+                                                target="_blank">
+                                                {% if show.streams.logo %}
+                                                <img src="{{ show.streams.logo }}" alt="{{ show.streams.service }}"
+                                                    class="stream-logo">
+                                                {% else %}
+                                                Watch
+                                                {% endif %}
+                                            </a>
                                         </div>
                                     </td>
                                 </tr>

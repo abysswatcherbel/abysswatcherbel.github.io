@@ -910,6 +910,7 @@ def get_active_posts(
                         post_details["time_left"] = time_left.total_seconds() / 3600
 
                         posts.append(post_details)
+                        posts.sort(key=lambda x: x["karma"], reverse=True)
 
                         # Round the hour since post to nearest hour
                         hour = round(hours_since_post.total_seconds() / 3600, 0)

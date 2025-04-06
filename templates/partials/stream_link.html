@@ -1,0 +1,7 @@
+<a href="{{ url }}" class="action-link stream-link" target="_blank">
+    {% if logo %}
+    <img src="{{ logo }}" alt="{{ service|default('Stream') }}" class="stream-logo">
+    {% else %}
+    Watch
+    {% endif %}
+</a>
