@@ -391,6 +391,34 @@
     },
     "title": "UniteUp! Uni:Birth",
     "title_english": "UniteUp! -Uni:Birth-",
+    "episode": "12",
+    "karma": 13,
+    "comments": 1,
+    "week_id": 2,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1js85i0/uniteup_unibirth_episode_12_discussion_final/",
+    "mal_id": 56135,
+    "current_rank": 16,
+    "karma_change": -1,
+    "rank_change": 23,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1561/145507l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1561/145507.jpg"
+    },
+    "num_episodes": 12,
+    "score": 6.93,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/uniteup",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "UniteUp! Uni:Birth",
+    "title_english": "UniteUp! -Uni:Birth-",
     "episode": "11",
     "karma": 11,
     "comments": 1,
@@ -400,9 +428,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1js7gtf/uniteup_unibirth_episode_11_discussion/",
     "mal_id": 56135,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -3,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -424,9 +452,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jriuym/tohai_ura_rate_mahjong_tohai_roku_episode_23/",
     "mal_id": 57796,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 1,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   }
 ]
