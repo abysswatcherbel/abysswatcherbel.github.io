@@ -84,7 +84,31 @@ class MalEntry(BaseModel):
             "reddit_karma": None,
             "streams": None
         }
-   
+
+
+class JikanTitle(BaseModel):
+    type: str
+    title: str
+
+
+class JikanImageFormat(BaseModel):
+    image_url: str
+
+
+class JikanImages(BaseModel):
+    jpg: JikanImageFormat
+
+
+class MalProducer(BaseModel):
+    mal_id: int
+    url: str
+    titles: List[JikanTitle]
+    images: JikanImages
+    favorites: int
+    count: int
+    established: str
+    country: Optional[str] = None
+
 
 class MalSeasonals(BaseModel):
     mal_entries: List[MalEntry] = Field(alias="data")
@@ -93,6 +117,7 @@ class MalSeasonals(BaseModel):
 class MalClient:
     BASE_URL = "https://api.myanimelist.net/v2/anime/season"
     ENTRY_URL = "https://api.myanimelist.net/v2/anime"
+    JIKAN_BASE_URL = "https://api.jikan.moe/v4"
     HEADERS = {
         "X-MAL-CLIENT-ID": os.getenv('MAL_SECRET'),  # Use OAuth or a static token if allowed
     }
@@ -224,5 +249,15 @@ class MalClient:
         except Exception as e:
             logger.error(f"Error pushing {mal_entry} to MongoDB: {e}")
             return
-
-
+    
+    def fetch_producer_from_jikan(self, mal_id: int):
+        url = f"{self.JIKAN_BASE_URL}/producers/{mal_id}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            data = data.get('data')
+            producer = MalProducer(**data)
+            return producer
+        else:
+            logger.error(f"Error fetching producer with ID {mal_id}: {response.status_code}")
+            return None
