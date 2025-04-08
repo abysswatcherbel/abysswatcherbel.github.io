@@ -652,5 +652,33 @@
     "karma_change": 1,
     "rank_change": 16,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1811/146726l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1811/146726.jpg"
+    },
+    "num_episodes": 13,
+    "score": 5.89,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/theatre-of-darkness-yamishibai",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Yami Shibai 14",
+    "title_english": "Theatre of Darkness: Yamishibai 14",
+    "episode": "13",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 2,
+    "studio": [
+      "ILCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jt2op5/yami_shibai_14_theatre_of_darkness_yamishibai_14/",
+    "mal_id": 60410,
+    "current_rank": 27,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
   }
 ]
