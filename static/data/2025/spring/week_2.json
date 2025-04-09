@@ -627,6 +627,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1770/148195l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1770/148195.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Chuuzenji-sensei Mononoke Kougiroku: Sensei ga Nazo wo Hodoite Shimau kara.",
+    "title_english": "The Mononoke Lecture Logs of Chuzenji-sensei: He Just Solves All the Mysteries",
+    "episode": "1",
+    "karma": 99,
+    "comments": 51,
+    "week_id": 2,
+    "studio": [
+      "100studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jtrrl1/chuuzenjisensei_mononoke_kougiroku_sensei_ga_nazo/",
+    "mal_id": 60009,
+    "current_rank": 26,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -644,7 +668,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jtmxkn/princession_orchestra_episode_1_discussion/",
     "mal_id": 59078,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -668,7 +692,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jrddd5/bye_bye_earth_season_2_episode_1_discussion/",
     "mal_id": 59819,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -692,9 +716,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jsj1r7/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -1,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "spring"
   },
   {
@@ -716,7 +740,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1js7lpv/classicstars_episode_1_discussion/",
     "mal_id": 59199,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -744,9 +768,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1js85i0/uniteup_unibirth_episode_12_discussion_final/",
     "mal_id": 56135,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -772,9 +796,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1js7gtf/uniteup_unibirth_episode_11_discussion/",
     "mal_id": 56135,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -3,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "spring"
   },
   {
@@ -796,9 +820,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jriuym/tohai_ura_rate_mahjong_tohai_roku_episode_23/",
     "mal_id": 57796,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 1,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "spring"
   },
   {
@@ -824,7 +848,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jt2op5/yami_shibai_14_theatre_of_darkness_yamishibai_14/",
     "mal_id": 60410,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
