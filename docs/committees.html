@@ -133,6 +133,12 @@
                             
                         </select>
 
+                        <select id="sort-filter" name="sort" class="filter-select">
+                            <option value="default">Sort Entries</option>
+                            <option value="a-z">A to Z</option>
+                            <option value="z-a">Z to A</option>
+                        </select>
+
                         <button type="submit" class="filter-button">Apply Filters</button>
                         <input type="text" id="show-search" class="search-input"
                             placeholder="Search by anime title or producer...">
@@ -167,7 +173,7 @@
             </div>
         </footer>
 
-        <script>
+        <!--<script>
     // Theme toggle functionality
     const themeToggle = document.getElementById('theme-toggle');
     const themeIcon = themeToggle.querySelector('i');
@@ -190,7 +196,7 @@
             localStorage.setItem('theme', 'light');
         }
     });
-</script>
+</script>-->
         <script src="static/scripts/committees.js"></script>
     </body>
 

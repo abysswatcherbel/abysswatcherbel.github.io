@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let rawData = [];
     let initialLoad = true;
 
+    // DOM elements
     const yearFilter = document.getElementById("year-filter");
     const seasonFilter = document.getElementById("season-filter");
+    const sortFilter = document.getElementById("sort-filter");
     const searchInput = document.getElementById("show-search");
     const form = document.getElementById("filter-form");
     const container = document.querySelector(".committee-container");
@@ -70,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add change event listeners to immediately apply filters when dropdowns change
     yearFilter.addEventListener("change", applyFilters);
     seasonFilter.addEventListener("change", applyFilters);
+    sortFilter.addEventListener("change", applyFilters);
     searchInput.addEventListener("input", applyFilters);
 
     function populateYearFilter(data) {
@@ -86,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
         showLoading();
         const season = seasonFilter.value;
         const year = yearFilter.value;
+        const sort = sortFilter.value;
         const searchTerm = searchInput.value.toLowerCase();
 
         // make sure we have a year filter applied to avoid loading everything
@@ -113,6 +117,21 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
+        // Apply sorting
+        if (sort === "a-z") {
+            filtered.sort((a, b) => {
+                const titleA = (a.title_english || a.title || "").toLowerCase();
+                const titleB = (b.title_english || b.title || "").toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+        } else if (sort === "z-a") {
+            filtered.sort((a, b) => {
+                const titleA = (a.title_english || a.title || "").toLowerCase();
+                const titleB = (b.title_english || b.title || "").toLowerCase();
+                return titleB.localeCompare(titleA);
+            });
+        }
+
         renderCommittees(filtered);
         hideLoading();
     }
@@ -132,12 +151,22 @@ document.addEventListener("DOMContentLoaded", () => {
             const url = show.url ? `<a href="${show.url}" class="mal-badge" target="_blank">MAL</a>` : "";
 
             const streamLinkHtml = show.streams && show.streams.url ?
-                `<a href="${show.streams.url}" class="action-link stream-link" target="_blank">
+                `<a href="${show.streams.url}" class="stream-logo" target="_blank">
                     ${show.streams.logo ?
-                    `<img src="${show.streams.logo}" alt="${show.streams.service || 'Stream'}" class="stream-logo">` :
+                    `<img src="${show.streams.logo}" alt="${show.streams.service || 'Stream'}" >` :
                     'Watch'
                 }
                 </a>` : '';
+
+            // Add legend for producer card colors
+            const legendHtml = `
+                <div class="committee-legend">
+                    <div class="legend-item">
+                        <div class="legend-color animation-studio"></div>
+                        <span>Animation Studio</span>
+                    </div>
+                </div>
+            `;
 
             const producers = (show.committee || [])
                 .map((p) => {
@@ -148,42 +177,40 @@ document.addEventListener("DOMContentLoaded", () => {
                         producerCardClass += " animation-studio";
                     }
                     return `
-                    <div class="${producerCardClass}">
-                        <div class="producer-header">${image}<h5 class="producer-name">${p.name} </h5>${flag}</div>
-                        <div class="producer-meta">
-                        ${p.established ? `<span class="established">Est. ${p.established.slice(0, 10)}</span>` : ""}
-                        ${p.favorites ? `<span class="favorites"><i class="fa-solid fa-heart"></i> ${p.favorites}</span>` : ""}
+                        <div class="${producerCardClass}">
+                            <div class="producer-header">${image}<h5 class="producer-name">${p.name} </h5>${flag}</div>
+                            <div class="producer-meta">
+                            ${p.category ? `<span class="established">${p.category}</span>` : ""}
+                            ${p.favorites ? `<span class="favorites"><i class="fa-solid fa-heart"></i> ${p.favorites}</span>` : ""}
+                            </div>
                         </div>
-                    </div>`;
+                    `;
                 })
                 .join("");
-            
-            let producerCardClass = "producer-card";
-            if (show.category && show.category.toLowerCase() === "animation studio") {
-                producerCardClass += " animation-studio";
-            }
 
             const card = `
-      <div class="committee-card" data-year="${show.year}" data-season="${show.season}">
-        <div class="committee-header">
-          <div class="anime-info">
-            ${image ? `<img src="${image}" alt="${title}" class="anime-img">` : `<div class="anime-img placeholder-img"></div>`}
-            <div class="anime-details">
-              <h3 class="anime-title">${title}</h3>
-              <div class="anime-meta">
-                <span class="season-badge ${show.season}">${show.season} ${show.year}</span>
-                ${score}
-                ${url}
-                ${streamLinkHtml}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="committee-members">
-          <h4>Production Committee</h4>
-          <div class="producer-grid">${producers}</div>
-        </div>
-      </div>`;
+                        <div class="committee-card" data-year="${show.year}" data-season="${show.season}">
+                            <div class="committee-header">
+                            <div class="anime-info">
+                                ${image ? `<img src="${image}" alt="${title}" class="anime-img">` : `<div class="anime-img placeholder-img"></div>`}
+                                <div class="anime-details">
+                                <h3 class="anime-title">${title}</h3>
+                                <div class="anime-meta">
+                                    <span class="season-badge ${show.season}">${show.season} ${show.year}</span>
+                                    ${score}
+                                    ${url}
+                                    ${streamLinkHtml}
+                                </div>
+                                
+                                </div>
+                            </div>
+                            </div>
+                            <div class="committee-members">
+                            <h4>Production Committee</h4>${legendHtml}
+                            <div class="producer-grid">${producers}</div>
+                            </div>
+                        </div>
+                    `;
 
             container.insertAdjacentHTML("beforeend", card);
         });

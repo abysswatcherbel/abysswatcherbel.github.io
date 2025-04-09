@@ -347,7 +347,10 @@ tbody tr:hover {
     max-width: 50px;
     object-fit: contain;
 }
-
+.stream-logo img{
+   width: inherit;
+   height: inherit;
+}
 .rank {
     font-weight: 600;
     text-align: center;
