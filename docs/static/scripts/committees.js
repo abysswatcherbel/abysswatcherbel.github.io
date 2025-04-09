@@ -143,16 +143,25 @@ document.addEventListener("DOMContentLoaded", () => {
                 .map((p) => {
                     const image = p.image ? `<img src="${p.image}" alt="${p.name}" class="producer-img">` : `<div class="producer-img placeholder-img"><i class="fa-solid fa-building"></i></div>`;
                     const flag = p.flag ? `<img src="${p.flag}" alt="${p.country}" class="country-flag" title="${p.country}">` : '';
+                    let producerCardClass = "producer-card";
+                    if (p.category && p.category.toLowerCase() === "animation studio") {
+                        producerCardClass += " animation-studio";
+                    }
                     return `
-          <div class="producer-card">
-            <div class="producer-header">${image}<h5 class="producer-name">${p.name} </h5>${flag}</div>
-            <div class="producer-meta">
-              ${p.established ? `<span class="established">Est. ${p.established.slice(0, 10)}</span>` : ""}
-              ${p.favorites ? `<span class="favorites"><i class="fa-solid fa-heart"></i> ${p.favorites}</span>` : ""}
-            </div>
-          </div>`;
+                    <div class="${producerCardClass}">
+                        <div class="producer-header">${image}<h5 class="producer-name">${p.name} </h5>${flag}</div>
+                        <div class="producer-meta">
+                        ${p.established ? `<span class="established">Est. ${p.established.slice(0, 10)}</span>` : ""}
+                        ${p.favorites ? `<span class="favorites"><i class="fa-solid fa-heart"></i> ${p.favorites}</span>` : ""}
+                        </div>
+                    </div>`;
                 })
                 .join("");
+            
+            let producerCardClass = "producer-card";
+            if (show.category && show.category.toLowerCase() === "animation studio") {
+                producerCardClass += " animation-studio";
+            }
 
             const card = `
       <div class="committee-card" data-year="${show.year}" data-season="${show.season}">

@@ -71,6 +71,7 @@ def get_committee_data():
                     enriched_member["established"] = producer.get("established", "")
                     enriched_member["favorites"] = producer.get("favorites", 0)
                     enriched_member["country"] = producer.get("country", "")
+                    enriched_member["category"] = producer.get("category")
 
                     # Add flag URL if country is available
                     if enriched_member["country"]:

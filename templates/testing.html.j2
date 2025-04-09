@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>{{ airing_details.season }} Karma Ranks</title>
+        <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
+        <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
+
+        <style>
+            /* Style for the hover button */
+            .details {
+                position: relative;
+                /* Needed for absolute positioning of the button */
+                overflow: hidden;
+                /* Ensure button doesn't overflow */
+            }
+
+            .edit-button-container {
+                position: absolute;
+                bottom: 5px;
+                /* Position at the bottom */
+                left: 50%;
+                /* Center horizontally */
+                transform: translateX(-50%);
+                /* Fine-tune centering */
+                display: none;
+                /* Hide by default */
+                z-index: 10;
+                /* Ensure it's above the background */
+            }
+
+            .details:hover .edit-button-container {
+                display: block;
+                /* Show on hover */
+            }
+
+            .edit-button {
+                background-color: rgba(0, 0, 0, 0.7);
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 0.8);
+                padding: 3px 8px;
+                border-radius: 4px;
+                font-size: 0.8em;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+            }
+
+            .edit-button:hover {
+                background-color: rgba(0, 0, 0, 0.9);
+            }
+
+            /* Style for the popup */
+            #image-edit-popup {
+                display: none;
+                /* Hidden by default */
+                position: absolute;
+                /* Position relative to the page or a container */
+                background-color: #f1f1f1;
+                border: 1px solid #ccc;
+                padding: 15px;
+                border-radius: 5px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                z-index: 100;
+                /* Ensure it's above other content */
+                width: 300px;
+                /* Adjust as needed */
+                font-family: sans-serif;
+                font-size: 0.9em;
+            }
+
+            #image-edit-popup label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            #image-edit-popup input[type="text"],
+            #image-edit-popup input[type="number"] {
+                width: calc(100% - 12px);
+                /* Account for padding */
+                padding: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+            }
+
+            #image-edit-popup button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 8px 12px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+
+            #image-edit-popup button:disabled {
+                background-color: #cccccc;
+                cursor: not-allowed;
+            }
+
+            #image-edit-popup button.cancel-button {
+                background-color: #f44336;
+            }
+
+            #image-edit-popup button.copy-button {
+                background-color: #007bff;
+            }
+
+            #image-edit-popup .position-controls {
+                margin-top: 15px;
+                border-top: 1px solid #ccc;
+                padding-top: 10px;
+                /* display: none; Initially hidden */
+            }
+
+            #image-edit-popup .position-controls button {
+                width: 40px;
+                height: 30px;
+                font-size: 1.2em;
+                line-height: 1;
+                margin: 2px;
+            }
+
+            .position-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 5px;
+                width: 130px;
+                /* Adjust as needed */
+                margin: 5px auto;
+                align-items: center;
+                justify-items: center;
+            }
+
+            .position-grid .placeholder {
+                grid-column: 2;
+                grid-row: 2;
+            }
+
+            #pos-up {
+                grid-column: 2;
+                grid-row: 1;
+            }
+
+            #pos-left {
+                grid-column: 1;
+                grid-row: 2;
+            }
+
+            #pos-right {
+                grid-column: 3;
+                grid-row: 2;
+            }
+
+            #pos-down {
+                grid-column: 2;
+                grid-row: 3;
+            }
+
+            .pos-inputs {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 10px;
+            }
+
+            .pos-inputs label {
+                display: inline-block;
+                margin-bottom: 0;
+                margin-right: 5px;
+            }
+
+            .pos-inputs input {
+                width: 60px;
+                margin-bottom: 0;
+            }
+
+            #copy-feedback {
+                display: inline-block;
+                margin-left: 10px;
+                font-style: italic;
+                color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            {# Header Section #}
+            <div class="header">
+                <div class="airing-period">{{ airing_details.airing_period }}</div>
+                <div class="main-title">
+                    <span>/r/anime weekly engagement ranking &amp; discussion</span>
+                </div>
+                <div class="week-container">
+                    <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
+                    <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
+                </div>
+            </div>
+
+            <img class="snoo" src="{{ url_for('static', filename='assets/snoo_ranime.png') }}" alt="Snoo"
+                loading="lazy">
+
+            {# Legend Section #}
+            <div class="legend">
+                <div>
+                    <div class="icon" style="background-color: transparent; width: unset">
+                        <svg class="arrow positive" viewBox="0 0 117.7 110">
+                            <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                        </svg>
+                        <svg class="arrow negative" viewBox="0 0 117.7 110">
+                            <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                        </svg>
+                    </div>
+                    <span>Rank change</span>
+                </div>
+                <div>
+                    <div class="icon" style="background-color: transparent; width: unset">
+                        <svg class="caret caret-up" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011"
+                            style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path
+                                        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <svg class="caret caret-down" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.011 512.011"
+                            style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path
+                                        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <span>Karma change</span>
+                </div>
+                <div>
+                    <div class="icon" style="color: rgb(252, 103, 43);"><span>M</span></div>
+                    <span>Myanimelist score</span>
+                </div>
+                <div style="display: none;">
+                    <div class="icon" style="color: rgb(252, 103, 43);"><span>R</span></div>
+                    <span>Redditanimelist score</span>
+                </div>
+                <div>
+                    <div class="icon" style="color: #4f7dc0"><span> </span></div>
+                    <span>No. of Comments </span>
+                </div>
+            </div>
+
+            {# Divider with credits #}
+            <div class="divider">
+                <div class="contents">
+                    <div class="pill">Chart: https://abysswatcherbel.github.io/current_chart</div>
+                    <div class="pill">Data: r/anime</div>
+                    <div class="pill">Poster art: r/anime users</div>
+                    <div class="pill">Creator: /u/reddadz</div>
+                    <div class="pill">Editor: /u/abysswatcherbel</div>
+                    <div class="total-karma">
+                        <div style="width:32px"></div>
+                        <div class="text-container"><span>K</span> {{ sum_karma }}</div>
+                    </div>
+                </div>
+            </div>
+
+            {# Macros for reusable components #}
+            {% macro rank_change_indicator(change, is_right=false) %}
+            {% if change == 'returning' %}
+            {{ back_symbol | safe }}
+            {% elif change == 'new' %}
+            {% if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif %}
+            {% elif change | int == 0 %}
+            {% if is_right %}
+            <span class="right-rank-change stable">&mdash;</span>
+            {% else %}
+            <span class="rank-change stable">&mdash;</span>
+            {% endif %}
+            {% else %}
+            {% if is_right %}
+            <span class="right-rank-change {% if change | int > 0 %}positive{% else %}negative{% endif %}">
+                <span>
+                    <svg class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
+                        viewBox="0 0 117.7 110">
+                        <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                    </svg>
+                </span>{{ change | int | abs }}
+            </span>
+            {% else %}
+            <span
+                class="rank-change {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}stable{% endif %}">
+                {% if change | int != 0 %}
+                <svg class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
+                    viewBox="0 0 117.7 110">
+                    <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                </svg>{{ change | int | abs }}
+                {% endif %}
+            </span>
+            {% endif %}
+            {% endif %}
+            {% endmacro %}
+
+            {% macro karma_change_indicator(change) %}
+            <svg class="caret {% if change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1"
+                id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;"
+                xml:space="preserve">
+                <g>
+                    <g>
+                        <path
+                            d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+            {{ change | int | abs }}
+            {% endmacro %}
+
+            {% macro get_title(entry) %}
+            {% if entry.title_english %}
+            {{ entry.title_english }}
+            {% else %}
+            {{ entry.title }}
+            {% endif %}
+            {% endmacro %}
+
+            {% macro get_banner(entry) %}
+            {% if entry.banner %}
+            {{entry.banner.url}}
+            {% else %}
+            {{entry.images.large}}
+            {% endif %}
+            {% endmacro %}
+
+
+            {# Episode Container #}
+            <div class="episode-container">
+                {% for left, right in complete_rankings %}
+                <div class="row">
+                    {# Left Entry #}
+                    {% if left %}
+                    <div class="karma-entry">
+                        <div class="ranking">
+                            <span class="rank">{{ left.current_rank }}</span>
+                            {{ rank_change_indicator(left.rank_change) }}
+                        </div>
+
+                        <div class="details" data-editable="true"
+                            style="background-image: url({{get_banner(left)}}); background-position: 0px 0px;">
+                            <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
+                            <div class="edit-button-container">
+                                <button class="edit-button">Edit</button>
+                            </div>
+                            <div class="part-1">
+                                <span class="karma-change"
+                                    style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">{{
+                                    karma_change_indicator(left.karma_change) }}
+                                </span>
+                                <span class="karma">{{ left.karma }}</span>
+                            </div>
+                            <div class="part-2">
+                                <span class="title">{{ get_title(left) }}</span>
+                                <div class="pod-container">
+                                    <span class="episode-number">
+                                        <span class="poll-blue">E</span>
+                                        {% set ep = left.episode | int(default=0) %}
+                                        {% set total = left.num_episodes | int(default=0) %}
+                                        {{ ep }}
+                                        {% if ep == total and ep != 0 %}
+                                        (Final)
+                                        {% endif %}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-2">
+                            <div class="comments-wrapper">
+                                <div class="comments">
+                                    <span>{{ left.comments }}</span>
+                                    <div style="width: 100%; height: 7px;"></div>
+                                    {% if left.url %}
+                                    <a href="{{ left.url }}" target="_blank" class="external-link"
+                                        data-title-english="{{ get_title(left) }}"></a>
+                                    {% else %}
+                                    <a href="#" target="_blank" class="external-link" data-check-fallback="true"
+                                        data-title-english="{{ get_title(left) }}"></a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="mal-ratings">
+                                <span>{{ left.score }} <span class="neutral">M</span>
+                                    <a class="external-link" href="https://myanimelist.net/anime/{{ left.mal_id }}"
+                                        target="_blank"></a>
+                                </span>
+                                <span class="Studio" style="background-color: #fff; color: #000; text-align: center;">
+                                    {{ left.studio | join(',') }}
+                                </span>
+                                <span class="{{ left.streams.name | capitalize}}">
+                                    {{ left.streams.name | capitalize}}
+                                    <a class="external-link" href="{{ left.streams.url }}" target="_blank"></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {# Right Entry #}
+                    {% if right %}
+                    <div class="karma-entry rightSide">
+                        <div class="details rightBanner" data-editable="true"
+                            style="background-image: url('{{ get_banner(right) }}'); background-position: 0px 0px;">
+                            <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
+                            <div class="edit-button-container">
+                                <button class="edit-button">Edit</button>
+                            </div>
+                            <div class="part-2">
+                                <span class="title rightTitle">{{ get_title(right) }}</span>
+                                <span class="karma rightKarma">{{ right.karma }}</span>
+                                <div class="rightContainer">
+                                    <span class="{{ right.streams.name | capitalize }}-logo">{{ right.streams.name |
+                                        capitalize}}</span>
+                                    <div class="details-container">
+                                        <div class="comments-wrapper"
+                                            style="filter: drop-shadow(3px 1px 1px rgba(0, 0, 0, 0.8));">
+                                            <div class="right-comments"><span>{{ right.comments }}</span></div>
+                                        </div>
+                                        <span class="rightEpisode">E {{ right.episode | int }}</span>
+                                        <span class="karma-change rightChange"
+                                            style="display: {% if right.karma_change == 0 %}none{% else %}flex{% endif %};{% if right.karma_change > 0 %}color: rgb(252, 103, 43);{% else %}color: rgb(146, 108, 202);{% endif %}">
+                                            {{ karma_change_indicator(right.karma_change) }}
+                                        </span>
+                                        <div class="right-ranking">
+                                            {{ rank_change_indicator(right.rank_change, true) }}
+                                        </div>
+                                    </div>
+
+                                    <div class="rightRank"><span>{{ right.current_rank }}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-2 rightDetails2" style="min-height: 1px;"> </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="divider"></div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div id="image-edit-popup">
+            <label for="new-image-url">New Image URL:</label>
+            <input type="text" id="new-image-url" placeholder="https://...">
+            <button id="update-image-url">Update URL</button>
+
+            <div class="position-controls" id="position-controls">
+                <p style="text-align: center; margin-bottom: 5px;">Adjust Position (Step: <span
+                        id="step-value">5</span>px)</p>
+                <div class="position-grid">
+                    <button id="pos-up">▲</button>
+                    <button id="pos-left">◀</button>
+                    <div class="placeholder"></div> <button id="pos-right">▶</button>
+                    <button id="pos-down">▼</button>
+                </div>
+                <div class="pos-inputs">
+                    <div>
+                        <label for="pos-x">X:</label>
+                        <input type="number" id="pos-x" step="1">px
+                    </div>
+                    <div>
+                        <label for="pos-y">Y:</label>
+                        <input type="number" id="pos-y" step="1">px
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 15px 0;">
+
+            <button id="copy-style" class="copy-button" disabled>Copy Style</button>
+            <span id="copy-feedback"></span>
+            <button id="close-popup" class="cancel-button" style="float: right;">Close</button>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const popup = document.getElementById('image-edit-popup');
+                const newImageUrlInput = document.getElementById('new-image-url');
+                const updateImageUrlButton = document.getElementById('update-image-url');
+                const positionControlsDiv = document.getElementById('position-controls');
+                const copyStyleButton = document.getElementById('copy-style');
+                const copyFeedback = document.getElementById('copy-feedback');
+                const closePopupButton = document.getElementById('close-popup');
+                const posXInput = document.getElementById('pos-x');
+                const posYInput = document.getElementById('pos-y');
+                const posUpButton = document.getElementById('pos-up');
+                const posDownButton = document.getElementById('pos-down');
+                const posLeftButton = document.getElementById('pos-left');
+                const posRightButton = document.getElementById('pos-right');
+                const stepValueSpan = document.getElementById('step-value');
+
+                let currentlyEditingElement = null;
+                let currentPosX = 0;
+                let currentPosY = 0;
+                const positionStep = 5; // Pixels to move per button click
+                stepValueSpan.textContent = positionStep; // Display step value
+
+                // Function to parse background position
+                function parseBackgroundPosition(element) {
+                    const pos = element.style.backgroundPosition || '0px 0px';
+                    const parts = pos.match(/(-?\d+)(px)?\s+(-?\d+)(px)?/);
+                    if (parts) {
+                        return { x: parseInt(parts[1], 10), y: parseInt(parts[3], 10) };
+                    }
+                    return { x: 0, y: 0 };
+                }
+
+                // Function to parse background image URL
+                function parseBackgroundImageUrl(element) {
+                    const style = element.style.backgroundImage || '';
+                    // Match url("...") or url(...)
+                    const match = style.match(/url\(['"]?([^'"]+)['"]?\)/);
+                    return match ? match[1] : '';
+                }
+
+                // Function to update background position
+                function updatePosition(element, x, y) {
+                    currentPosX = x;
+                    currentPosY = y;
+                    element.style.backgroundPosition = `${x}px ${y}px`;
+                    posXInput.value = x;
+                    posYInput.value = y;
+                    copyStyleButton.disabled = false; // Enable copy once position is set/updated
+                }
+
+                // Add event listeners to all potential edit buttons
+                document.querySelectorAll('.edit-button').forEach(button => {
+                    button.addEventListener('click', (event) => {
+                        event.stopPropagation(); // Prevent triggering other clicks if needed
+                        const detailsDiv = event.target.closest('.details[data-editable="true"]');
+                        if (!detailsDiv) return;
+
+                        currentlyEditingElement = detailsDiv;
+
+                        // Get current values
+                        const currentUrl = parseBackgroundImageUrl(currentlyEditingElement);
+                        const pos = parseBackgroundPosition(currentlyEditingElement);
+                        currentPosX = pos.x;
+                        currentPosY = pos.y;
+
+                        // Populate popup
+                        newImageUrlInput.value = currentUrl;
+                        posXInput.value = currentPosX;
+                        posYInput.value = currentPosY;
+
+                        // Show position controls and enable copy button immediately if URL exists
+                        if (currentUrl) {
+                            // positionControlsDiv.style.display = 'block'; // Show position controls
+                            copyStyleButton.disabled = false;
+                        } else {
+                            // positionControlsDiv.style.display = 'none'; // Hide if no URL initially
+                            copyStyleButton.disabled = true;
+                        }
+
+
+                        // Position and show popup below the .karma-entry
+                        const karmaEntry = detailsDiv.closest('.karma-entry');
+                        const rect = karmaEntry.getBoundingClientRect();
+                        popup.style.top = `${window.scrollY + rect.bottom + 10}px`; // Below the element + 10px margin
+                        popup.style.left = `${rect.left + (rect.width / 2) - (popup.offsetWidth / 2)}px`; // Centered below
+                        popup.style.display = 'block';
+                        copyFeedback.textContent = ''; // Clear previous feedback
+
+                        // Ensure popup stays within viewport horizontally
+                        const popupRect = popup.getBoundingClientRect();
+                        if (popupRect.right > window.innerWidth - 10) {
+                            popup.style.left = `${window.innerWidth - popup.offsetWidth - 10}px`;
+                        }
+                        if (popupRect.left < 10) {
+                            popup.style.left = '10px';
+                        }
+
+                    });
+                });
+
+                // Update Image URL Button
+                updateImageUrlButton.addEventListener('click', () => {
+                    if (!currentlyEditingElement || !newImageUrlInput.value) return;
+                    const newUrl = newImageUrlInput.value.trim();
+                    if (newUrl) {
+                        currentlyEditingElement.style.backgroundImage = `url('${newUrl}')`;
+                        // positionControlsDiv.style.display = 'block'; // Show position controls after URL is set
+                        copyStyleButton.disabled = false; // Enable copy
+                    }
+                });
+
+                // Manual Position Input Change
+                posXInput.addEventListener('change', () => {
+                    if (!currentlyEditingElement) return;
+                    updatePosition(currentlyEditingElement, parseInt(posXInput.value, 10) || 0, currentPosY);
+                });
+                posYInput.addEventListener('change', () => {
+                    if (!currentlyEditingElement) return;
+                    updatePosition(currentlyEditingElement, currentPosX, parseInt(posYInput.value, 10) || 0);
+                });
+
+                // Position Adjustment Buttons
+                posUpButton.addEventListener('click', () => {
+                    if (!currentlyEditingElement) return;
+                    updatePosition(currentlyEditingElement, currentPosX, currentPosY - positionStep);
+                });
+                posDownButton.addEventListener('click', () => {
+                    if (!currentlyEditingElement) return;
+                    updatePosition(currentlyEditingElement, currentPosX, currentPosY + positionStep);
+                });
+                posLeftButton.addEventListener('click', () => {
+                    if (!currentlyEditingElement) return;
+                    updatePosition(currentlyEditingElement, currentPosX - positionStep, currentPosY);
+                });
+                posRightButton.addEventListener('click', () => {
+                    if (!currentlyEditingElement) return;
+                    updatePosition(currentlyEditingElement, currentPosX + positionStep, currentPosY);
+                });
+
+
+                // Copy Style Button
+                copyStyleButton.addEventListener('click', async () => {
+                    if (!currentlyEditingElement) return;
+
+                    const imageUrl = currentlyEditingElement.style.backgroundImage;
+                    const imagePos = currentlyEditingElement.style.backgroundPosition || '0px 0px'; // Default if not set yet
+                    const styleString = `background-image: ${imageUrl}; background-position: ${imagePos};`;
+
+                    try {
+                        await navigator.clipboard.writeText(styleString);
+                        copyFeedback.textContent = 'Copied!';
+                        // Optionally hide the feedback message after a few seconds
+                        setTimeout(() => { copyFeedback.textContent = ''; }, 2000);
+                    } catch (err) {
+                        console.error('Failed to copy: ', err);
+                        copyFeedback.textContent = 'Failed!';
+                        setTimeout(() => { copyFeedback.textContent = ''; }, 2000);
+                    }
+                });
+
+                // Close Popup Button
+                closePopupButton.addEventListener('click', () => {
+                    popup.style.display = 'none';
+                    currentlyEditingElement = null; // Clear the reference
+                });
+
+                // Optional: Close popup if clicked outside
+                document.addEventListener('click', (event) => {
+                    if (popup.style.display === 'block' && !popup.contains(event.target) && !event.target.classList.contains('edit-button')) {
+                        // Check if the click was outside the popup and not on an edit button
+                        popup.style.display = 'none';
+                        currentlyEditingElement = null;
+                    }
+                });
+
+            });
+        </script>
+
+    </body>
+
+</html>
