@@ -262,6 +262,10 @@
     position: relative;
 }
 
+.animation-studio{
+    background-color: var(--accent);
+}
+
 .producer-card:hover {
     background-color: var(--border);
 }
