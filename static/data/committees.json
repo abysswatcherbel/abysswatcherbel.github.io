@@ -2068,7 +2068,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1221/146649l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1221/146649.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.58,
         "streams": {
             "name": "netflix",
@@ -2995,7 +2995,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1029/146850l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1029/146850.jpg"
         },
-        "title_english": null,
+        "title_english": "$title",
         "score": 8.4,
         "streams": {
             "name": "Disney",
@@ -3850,7 +3850,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/56420",
@@ -7073,7 +7073,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1614/147192l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1614/147192.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/57924",
@@ -8081,7 +8081,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1711/140515l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1711/140515.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.38,
         "streams": null,
         "url": "https://myanimelist.net/anime/55102",
@@ -8519,7 +8519,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1739/140995l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1739/140995.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.03,
         "streams": null,
         "url": "https://myanimelist.net/anime/54309",
@@ -8558,7 +8558,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1913/145169l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1913/145169.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.39,
         "streams": null,
         "url": "https://myanimelist.net/anime/57946",
@@ -8632,7 +8632,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1826/140574l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1826/140574.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.64,
         "streams": null,
         "url": "https://myanimelist.net/anime/57614",
@@ -10519,7 +10519,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1387/141515l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1387/141515.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.66,
         "streams": null,
         "url": "https://myanimelist.net/anime/54859",
@@ -12502,7 +12502,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1380/143464l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1380/143464.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.86,
         "streams": null,
         "url": "https://myanimelist.net/anime/56189",
@@ -15775,7 +15775,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1517/140830l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1517/140830.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.85,
         "streams": null,
         "url": "https://myanimelist.net/anime/54829",
@@ -16206,7 +16206,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1538/140687l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1538/140687.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.32,
         "streams": null,
         "url": "https://myanimelist.net/anime/57502",
@@ -16268,7 +16268,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1189/140511l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1189/140511.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.09,
         "streams": null,
         "url": "https://myanimelist.net/anime/56731",
@@ -16979,7 +16979,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1368/140801l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1368/140801.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.08,
         "streams": null,
         "url": "https://myanimelist.net/anime/54869",
@@ -17237,7 +17237,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1715/139033l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1715/139033.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.49,
         "streams": null,
         "url": "https://myanimelist.net/anime/55636",
@@ -18048,7 +18048,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1117/139294l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1117/139294.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.58,
         "streams": null,
         "url": "https://myanimelist.net/anime/51673",
@@ -18693,7 +18693,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1236/138696l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1236/138696.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.32,
         "streams": null,
         "url": "https://myanimelist.net/anime/55644",
@@ -18770,7 +18770,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1005/139809l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1005/139809.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.45,
         "streams": null,
         "url": "https://myanimelist.net/anime/54743",
@@ -18961,7 +18961,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1074/138192l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1074/138192.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.18,
         "streams": null,
         "url": "https://myanimelist.net/anime/53633",
@@ -19036,7 +19036,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1972/138478l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1972/138478.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.46,
         "streams": null,
         "url": "https://myanimelist.net/anime/54914",
@@ -19589,7 +19589,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1330/121527l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1330/121527.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 4.66,
         "streams": null,
         "url": "https://myanimelist.net/anime/51304",
@@ -19829,7 +19829,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1100/138338l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1100/138338.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.2,
         "streams": null,
         "url": "https://myanimelist.net/anime/47160",
@@ -20268,7 +20268,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1346/138036l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1346/138036.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.69,
         "streams": null,
         "url": "https://myanimelist.net/anime/55775",
@@ -20387,7 +20387,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1249/132348l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1249/132348.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.56,
         "streams": null,
         "url": "https://myanimelist.net/anime/50695",
@@ -21035,7 +21035,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1574/132732l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1574/132732.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.93,
         "streams": null,
         "url": "https://myanimelist.net/anime/42385",
@@ -21658,7 +21658,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1475/138948l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1475/138948.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.6,
         "streams": null,
         "url": "https://myanimelist.net/anime/53526",
@@ -21720,7 +21720,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1136/138410l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1136/138410.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.76,
         "streams": null,
         "url": "https://myanimelist.net/anime/52741",
@@ -21808,7 +21808,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1915/137896l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1915/137896.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.89,
         "streams": null,
         "url": "https://myanimelist.net/anime/49766",
@@ -22069,7 +22069,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1487/139955l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1487/139955.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.49,
         "streams": null,
         "url": "https://myanimelist.net/anime/54301",
@@ -22149,7 +22149,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1331/139478l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1331/139478.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.86,
         "streams": null,
         "url": "https://myanimelist.net/anime/51956",
@@ -22279,7 +22279,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1763/140359l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1763/140359.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.55,
         "streams": null,
         "url": "https://myanimelist.net/anime/51297",
@@ -22314,7 +22314,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1214/137093l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1214/137093.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.6,
         "streams": null,
         "url": "https://myanimelist.net/anime/44583",
@@ -22723,7 +22723,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1506/138982l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1506/138982.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.06,
         "streams": null,
         "url": "https://myanimelist.net/anime/53887",
@@ -23161,7 +23161,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1460/135257l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1460/135257.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.72,
         "streams": null,
         "url": "https://myanimelist.net/anime/50871",
@@ -23672,7 +23672,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1632/133752l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1632/133752.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.25,
         "streams": null,
         "url": "https://myanimelist.net/anime/51139",
@@ -24250,7 +24250,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1316/136268l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1316/136268.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.15,
         "streams": null,
         "url": "https://myanimelist.net/anime/48549",
@@ -24494,7 +24494,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1832/133754l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1832/133754.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.16,
         "streams": null,
         "url": "https://myanimelist.net/anime/51614",
@@ -24585,7 +24585,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1407/135263l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1407/135263.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.55,
         "streams": null,
         "url": "https://myanimelist.net/anime/52229",
@@ -24861,7 +24861,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1875/133377l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1875/133377.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.7,
         "streams": null,
         "url": "https://myanimelist.net/anime/51536",
@@ -25510,7 +25510,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1758/134733l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1758/134733.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.72,
         "streams": null,
         "url": "https://myanimelist.net/anime/51415",
@@ -25543,7 +25543,8 @@
                 "image": "https://cdn.myanimelist.net/s/common/company_logos/261b4559-fa2f-4aea-81ef-4f98a29abddd_600x600_i?s=da5e072651e90367bdae1b5a6d9ad6d7",
                 "established": null,
                 "favorites": 4,
-                "country": ""
+                "country": "jp",
+                "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
                 "id": 460,
@@ -26922,7 +26923,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1571/134525l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1571/134525.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.3,
         "streams": null,
         "url": "https://myanimelist.net/anime/48633",
@@ -27720,7 +27721,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1891/136948l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1891/136948.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.24,
         "streams": null,
         "url": "https://myanimelist.net/anime/54959",
@@ -27788,7 +27789,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1078/131921l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1078/131921.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.43,
         "streams": null,
         "url": "https://myanimelist.net/anime/50606",
@@ -28740,7 +28741,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1464/134806l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1464/134806.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.82,
         "streams": null,
         "url": "https://myanimelist.net/anime/53026",
@@ -28974,7 +28975,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1693/138042l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1693/138042.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.65,
         "streams": null,
         "url": "https://myanimelist.net/anime/54842",
@@ -30532,7 +30533,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1308/130458l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1308/130458.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.05,
         "streams": null,
         "url": "https://myanimelist.net/anime/53132",
@@ -30687,7 +30688,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1995/129754l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1995/129754.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.37,
         "streams": null,
         "url": "https://myanimelist.net/anime/51586",
@@ -31096,7 +31097,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1553/133767l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1553/133767.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.11,
         "streams": null,
         "url": "https://myanimelist.net/anime/53411",
@@ -31259,7 +31260,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1078/131921l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1078/131921.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.43,
         "streams": null,
         "url": "https://myanimelist.net/anime/50606",
@@ -32674,7 +32675,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1897/131300l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1897/131300.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.47,
         "streams": null,
         "url": "https://myanimelist.net/anime/49980",
@@ -32920,7 +32921,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1884/131748l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1884/131748.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.67,
         "streams": null,
         "url": "https://myanimelist.net/anime/53213",
@@ -34957,7 +34958,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1427/120586l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1427/120586.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.64,
         "streams": null,
         "url": "https://myanimelist.net/anime/42808",
@@ -36530,7 +36531,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1976/123710l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1976/123710.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.48,
         "streams": null,
         "url": "https://myanimelist.net/anime/50221",
@@ -37372,7 +37373,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1413/121836l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1413/121836.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.53,
         "streams": null,
         "url": "https://myanimelist.net/anime/50999",
@@ -37759,7 +37760,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1039/120173l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1039/120173.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.78,
         "streams": null,
         "url": "https://myanimelist.net/anime/43735",
@@ -37902,7 +37903,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1277/117155l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1277/117155.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.39,
         "streams": null,
         "url": "https://myanimelist.net/anime/48483",
@@ -38917,7 +38918,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1484/109428l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1484/109428.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.7,
         "streams": null,
         "url": "https://myanimelist.net/anime/40677",
@@ -38969,7 +38970,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1003/106498l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1003/106498.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.75,
         "streams": null,
         "url": "https://myanimelist.net/anime/40506",
@@ -39089,7 +39090,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1810/106070l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1810/106070.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.04,
         "streams": null,
         "url": "https://myanimelist.net/anime/39292",
@@ -39136,7 +39137,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1401/106017l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1401/106017.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.46,
         "streams": null,
         "url": "https://myanimelist.net/anime/40045",
@@ -39192,7 +39193,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1806/105775l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1806/105775.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.0,
         "streams": null,
         "url": "https://myanimelist.net/anime/40327",
@@ -40537,7 +40538,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1979/93135l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1979/93135.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.31,
         "streams": null,
         "url": "https://myanimelist.net/anime/34443",
@@ -40601,7 +40602,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1035/113446l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1035/113446.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 3.82,
         "streams": null,
         "url": "https://myanimelist.net/anime/40074",
@@ -40671,7 +40672,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1418/107954l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1418/107954.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.2,
         "streams": null,
         "url": "https://myanimelist.net/anime/40052",
@@ -40750,7 +40751,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1880/107611l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1880/107611.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.66,
         "streams": null,
         "url": "https://myanimelist.net/anime/37587",
@@ -41428,7 +41429,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1230/119278l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1230/119278.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.05,
         "streams": null,
         "url": "https://myanimelist.net/anime/38668",
@@ -43174,7 +43175,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1577/111404l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1577/111404.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.9,
         "streams": null,
         "url": "https://myanimelist.net/anime/39799",
@@ -43326,7 +43327,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1975/108030l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1975/108030.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.26,
         "streams": null,
         "url": "https://myanimelist.net/anime/37403",
@@ -43672,7 +43673,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1713/145599l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1713/145599.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.8,
         "streams": null,
         "url": "https://myanimelist.net/anime/39195",
@@ -43866,7 +43867,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1898/110709l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1898/110709.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.46,
         "streams": null,
         "url": "https://myanimelist.net/anime/37379",
@@ -44156,7 +44157,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1655/111626l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1655/111626.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.75,
         "streams": null,
         "url": "https://myanimelist.net/anime/40196",
@@ -45032,7 +45033,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1131/104980l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1131/104980.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.97,
         "streams": null,
         "url": "https://myanimelist.net/anime/40166",
@@ -46033,7 +46034,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/3/21506l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/3/21506.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/1685",
@@ -46440,7 +46441,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1500/103005l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1500/103005.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.77,
         "streams": null,
         "url": "https://myanimelist.net/anime/37521",
@@ -46996,7 +46997,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1127/99941l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1127/99941.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.07,
         "streams": null,
         "url": "https://myanimelist.net/anime/39221",
@@ -47039,7 +47040,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1834/112939l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1834/112939.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.31,
         "streams": null,
         "url": "https://myanimelist.net/anime/39979",
@@ -47091,7 +47092,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1365/103219l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1365/103219.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.71,
         "streams": null,
         "url": "https://myanimelist.net/anime/38940",
@@ -47344,7 +47345,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1035/101330l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1035/101330.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.66,
         "streams": null,
         "url": "https://myanimelist.net/anime/39417",
@@ -48085,7 +48086,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1666/102238l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1666/102238.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 8.3,
         "streams": null,
         "url": "https://myanimelist.net/anime/39533",
@@ -48288,7 +48289,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1015/100471l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1015/100471.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.81,
         "streams": null,
         "url": "https://myanimelist.net/anime/35313",
@@ -48397,7 +48398,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1046/97025l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1046/97025.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.14,
         "streams": null,
         "url": "https://myanimelist.net/anime/37998",
@@ -48739,7 +48740,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1760/97712l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1760/97712.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.96,
         "streams": null,
         "url": "https://myanimelist.net/anime/38157",
@@ -48927,7 +48928,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1770/99001l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1770/99001.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.52,
         "streams": null,
         "url": "https://myanimelist.net/anime/37509",
@@ -49405,7 +49406,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1215/111381l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1215/111381.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.02,
         "streams": null,
         "url": "https://myanimelist.net/anime/37436",
@@ -49528,7 +49529,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1719/115121l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1719/115121.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.15,
         "streams": null,
         "url": "https://myanimelist.net/anime/37374",
@@ -49648,7 +49649,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1280/145923l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1280/145923.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.05,
         "streams": null,
         "url": "https://myanimelist.net/anime/34209",
@@ -49809,7 +49810,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1849/95019l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1849/95019.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 4.58,
         "streams": null,
         "url": "https://myanimelist.net/anime/37823",
@@ -50113,7 +50114,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1051/93862l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1051/93862.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.88,
         "streams": null,
         "url": "https://myanimelist.net/anime/37206",
@@ -50356,7 +50357,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1496/95059l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1496/95059.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.75,
         "streams": null,
         "url": "https://myanimelist.net/anime/37990",
@@ -51703,7 +51704,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1141/93288l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1141/93288.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.01,
         "streams": null,
         "url": "https://myanimelist.net/anime/36475",
@@ -51866,7 +51867,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1346/129555l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1346/129555.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.37,
         "streams": null,
         "url": "https://myanimelist.net/anime/36565",
@@ -52006,7 +52007,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1558/90899l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1558/90899.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.08,
         "streams": null,
         "url": "https://myanimelist.net/anime/34607",
@@ -52054,7 +52055,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1198/90430l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1198/90430.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.18,
         "streams": null,
         "url": "https://myanimelist.net/anime/37204",
@@ -52232,7 +52233,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1866/91270l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1866/91270.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.42,
         "streams": null,
         "url": "https://myanimelist.net/anime/36934",
@@ -52335,7 +52336,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1444/140760l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1444/140760.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.36,
         "streams": null,
         "url": "https://myanimelist.net/anime/35756",
@@ -52491,7 +52492,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1879/91014l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1879/91014.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.44,
         "streams": null,
         "url": "https://myanimelist.net/anime/36976",
@@ -52778,7 +52779,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/2/84695l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/2/84695.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.09,
         "streams": null,
         "url": "https://myanimelist.net/anime/35102",
@@ -52996,7 +52997,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1494/91963l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1494/91963.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.91,
         "streams": null,
         "url": "https://myanimelist.net/anime/34338",
@@ -53323,7 +53324,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1985/95103l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1985/95103.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.14,
         "streams": null,
         "url": "https://myanimelist.net/anime/37578",
@@ -53828,7 +53829,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1792/95048l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1792/95048.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.37,
         "streams": null,
         "url": "https://myanimelist.net/anime/37395",
@@ -54375,7 +54376,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1979/93135l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1979/93135.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.31,
         "streams": null,
         "url": "https://myanimelist.net/anime/34443",
@@ -56544,7 +56545,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/7/89759l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/7/89759.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/27783",
@@ -59305,7 +59306,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/5/86625l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/5/86625.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.36,
         "streams": null,
         "url": "https://myanimelist.net/anime/34427",
@@ -60304,7 +60305,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/3/86056l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/3/86056.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.28,
         "streams": null,
         "url": "https://myanimelist.net/anime/34787",
@@ -61876,7 +61877,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/9/86573l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/9/86573.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.2,
         "streams": null,
         "url": "https://myanimelist.net/anime/34662",
@@ -62899,7 +62900,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/2/83518l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/2/83518.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.51,
         "streams": null,
         "url": "https://myanimelist.net/anime/33089",
@@ -63877,7 +63878,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1890/147903l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1890/147903.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/14349",
@@ -66762,7 +66763,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/12/78945l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/12/78945.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.71,
         "streams": null,
         "url": "https://myanimelist.net/anime/30137",
@@ -67983,7 +67984,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/13/79186l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/13/79186.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.73,
         "streams": null,
         "url": "https://myanimelist.net/anime/32670",
@@ -68723,7 +68724,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/6/80823l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/6/80823.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.46,
         "streams": null,
         "url": "https://myanimelist.net/anime/32360",
@@ -69129,7 +69130,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/2/79983l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/2/79983.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.26,
         "streams": null,
         "url": "https://myanimelist.net/anime/33113",
@@ -69580,7 +69581,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/6/80810l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/6/80810.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.23,
         "streams": null,
         "url": "https://myanimelist.net/anime/31771",
@@ -69651,7 +69652,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/11/80684l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/11/80684.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.98,
         "streams": null,
         "url": "https://myanimelist.net/anime/32171",
@@ -69815,7 +69816,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/6/79158l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/6/79158.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.71,
         "streams": null,
         "url": "https://myanimelist.net/anime/32947",
@@ -69990,7 +69991,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/4/66563l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/4/66563.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/24823",
@@ -71594,7 +71595,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/11/78196l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/11/78196.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 7.03,
         "streams": null,
         "url": "https://myanimelist.net/anime/32094",
@@ -71674,7 +71675,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/5/78120l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/5/78120.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.3,
         "streams": null,
         "url": "https://myanimelist.net/anime/31223",
@@ -73722,7 +73723,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/4/84883l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/4/84883.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 6.3,
         "streams": null,
         "url": "https://myanimelist.net/anime/31044",
@@ -74460,7 +74461,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/7/73674l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/7/73674.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/27441",
@@ -74778,7 +74779,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/11/78226l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/11/78226.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.49,
         "streams": null,
         "url": "https://myanimelist.net/anime/29687",
@@ -75273,7 +75274,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/4/74989l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/4/74989.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.7,
         "streams": null,
         "url": "https://myanimelist.net/anime/30382",
@@ -75778,7 +75779,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/11/74978l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/11/74978.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/21039",
@@ -76895,7 +76896,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/3/74736l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/3/74736.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": 5.4,
         "streams": null,
         "url": "https://myanimelist.net/anime/30826",
@@ -78983,7 +78984,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/6/65665l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/6/65665.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/23251",
@@ -79176,7 +79177,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/3/67807l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/3/67807.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/25517",
@@ -80080,7 +80081,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/5/63361l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/5/63361.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/21185",
@@ -80454,7 +80455,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1579/101841l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1579/101841.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/22733",
@@ -80558,7 +80559,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1302/105189l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1302/105189.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/23409",
@@ -80791,7 +80792,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/4/73960l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/4/73960.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/22693",
@@ -80848,7 +80849,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/1490/90396l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/1490/90396.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/21835",
@@ -81454,7 +81455,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/2/63563l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/2/63563.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/21507",
@@ -82441,7 +82442,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/8/75226l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/8/75226.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/22835",
@@ -82947,7 +82948,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/2/75258l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/2/75258.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/23135",
@@ -83368,7 +83369,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/4/67523l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/4/67523.jpg"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/26453",
@@ -83856,7 +83857,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/7/60199l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/7/60199.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/22381",
@@ -84144,7 +84145,7 @@
             "large": "https://cdn.myanimelist.net/images/anime/3/56415l.webp",
             "medium": "https://cdn.myanimelist.net/images/anime/3/56415.webp"
         },
-        "title_english": "",
+        "title_english": "$title",
         "score": null,
         "streams": null,
         "url": "https://myanimelist.net/anime/20931",
