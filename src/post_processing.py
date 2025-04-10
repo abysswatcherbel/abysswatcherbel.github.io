@@ -1024,6 +1024,9 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
     mal_id = mal_url.group(1) if mal_url else None
     try:
         mal_id = int(mal_id)
+    except TypeError:
+        logger.error(f"MAL ID wasn't found")
+        mal_id = None
     except ValueError:
         logger.error(f"Error converting MAL ID to integer: {mal_id}")
         mal_id = None
