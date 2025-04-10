@@ -413,6 +413,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .header-container nav{
+        gap: 5px;
+        flex-wrap: wrap;
+    }
     .anime-title {
         flex-direction: column;
         align-items: flex-start;
@@ -421,6 +426,7 @@ footer {
 
     .action-links {
         flex-direction: column;
+        font-size: 0.7rem;
     }
 
     th,

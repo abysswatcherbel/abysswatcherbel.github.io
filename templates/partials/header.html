@@ -7,7 +7,7 @@
         <nav>
             <a class="action-link current-chart-link {% if active_page == 'current_chart' %}active{% endif %}"
                 href="{{ url_for('current_chart') }}">Current Chart</a>
-            <a class="action-link stream-link {% if active_page == 'previous_weeks' %}active{% endif %}"
+            <a class="action-link current-chart-link {% if active_page == 'previous_weeks' %}active{% endif %}"
                     href="{{ url_for('previous_weeks') }}">Old Charts</a>
             <a class="action-link current-chart-link {% if active_page == 'committees' %}active{% endif %}"
                 href="{{ url_for('committees') }}">Committees</a>
