@@ -848,16 +848,18 @@ def get_active_posts(
 
             # Try to get a valid mal_id from the post body
             mal_id = get_mal_id_reddit_post(submission.selftext)
+            if not mal_id:
+                continue
 
             # Try to get the number of the episode from the title
             _, episode = get_title_details(submission.title)
 
             # If there is a mal_id, try to get the series details from the db
-            if mal_id:
-                try:
-                    mal_id = int(mal_id)
-                    show = None
-                    show = seasonals.find_one(
+            
+            try:
+                mal_id = int(mal_id)
+                show = None
+                show = seasonals.find_one(
                         {"id": mal_id},
                         {
                             "_id": 0,
@@ -871,7 +873,7 @@ def get_active_posts(
                     )
 
                     # If there is a valid mal_id but no document found, try to fetch the entry from MAL and push it to the db
-                    if not show:
+                if not show:
                         logger.warning(
                             f"Post {submission.id} has a MAL ID but no document found in the database."
                         )
@@ -900,7 +902,7 @@ def get_active_posts(
                                 f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}"
                             )
                             continue
-                    else:
+                else:
 
                         post_details = dict(show)
                         post_details["reddit_url"] = submission.url
@@ -982,7 +984,7 @@ def get_active_posts(
                                         "%Y-%m-%d %H:%M:%S"
                                     ),
                                     "updated_at": current_time.strftime(
-                                        "%Y-%m-%d %H:%M:%S"
+                                      "%Y-%m-%d %H:%M:%S"
                                     ),
                                     "hourly_karma": [{"hour": hour, "karma": karma}],
                                 }
@@ -991,7 +993,7 @@ def get_active_posts(
                                 f"Created new hourly tracking for MAL ID {mal_id}, post {submission.id}"
                             )
 
-                except ValueError:
+            except ValueError:
                     logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
                     continue
             else:
