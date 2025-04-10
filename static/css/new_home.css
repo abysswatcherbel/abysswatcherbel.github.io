@@ -427,6 +427,20 @@ footer {
     .action-links {
         flex-direction: column;
         font-size: 0.7rem;
+        padding: 0.7rem 1rem;
+    }
+
+    .tab{
+        text-align: center;
+        white-space: wrap;
+    }
+
+    .tab-content.active{
+        font-size: 0.8rem;
+    }
+
+    .card-title{
+        font-size: 1rem;
     }
 
     th,
