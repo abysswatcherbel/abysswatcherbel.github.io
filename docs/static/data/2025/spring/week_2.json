@@ -874,6 +874,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
+    },
+    "title": "Yoru wa Neko to Issho Season 3",
+    "title_english": "Yoru wa Neko to Issho Season 3",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "79",
+    "karma": 14,
+    "comments": 1,
+    "week_id": 2,
+    "studio": [
+      "Studio PuYUKAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jv372z/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
+    "mal_id": 58199,
+    "current_rank": 36,
+    "karma_change": -2,
+    "rank_change": 1,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1561/145507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1561/145507.jpg"
     },
@@ -895,9 +919,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1js85i0/uniteup_unibirth_episode_12_discussion_final/",
     "mal_id": 56135,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": -1,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "spring"
   },
   {
@@ -919,9 +943,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ju59oa/beyblade_x_episode_75_discussion/",
     "mal_id": 56566,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 7,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -947,9 +971,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1js7gtf/uniteup_unibirth_episode_11_discussion/",
     "mal_id": 56135,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -3,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "spring"
   },
   {
@@ -971,9 +995,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jriuym/tohai_ura_rate_mahjong_tohai_roku_episode_23/",
     "mal_id": 57796,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 1,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "spring"
   },
   {
@@ -999,7 +1023,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jt2op5/yami_shibai_14_theatre_of_darkness_yamishibai_14/",
     "mal_id": 60410,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
