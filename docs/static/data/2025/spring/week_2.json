@@ -34,8 +34,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1538/148604.jpg"
     },
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.55,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/G79H23ZQ3/my-hero-academia-vigilantes"
+    },
     "title": "Vigilante: Boku no Hero Academia Illegals",
     "title_english": "My Hero Academia: Vigilantes",
     "episode": "1",
@@ -58,8 +61,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1988/148017.webp"
     },
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.51,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/G5PHNM9P0/witch-watch"
+    },
     "title": "Witch Watch",
     "title_english": "Witch Watch",
     "episode": "1",
@@ -82,8 +88,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1052/148743.jpg"
     },
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.68,
+    "streams": {
+      "name": "prime",
+      "url": "https://www.primevideo.com/detail/0KFD79CBVX90IWRIG5NLAGJ7R1"
+    },
     "title": "Kidou Senshi Gundam: GQuuuuuuX",
     "title_english": "Mobile Suit Gundam: GQuuuuuuX",
     "episode": "1",
@@ -107,7 +116,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1097/148302.jpg"
     },
     "num_episodes": 13,
-    "score": 7.64,
+    "score": 7.84,
     "streams": null,
     "title": "Kowloon Generic Romance",
     "title_english": "Kowloon Generic Romance",
@@ -131,7 +140,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
     "num_episodes": 0,
-    "score": 8.14,
+    "score": 8.12,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force",
@@ -159,7 +168,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1015/148185.jpg"
     },
     "num_episodes": 13,
-    "score": null,
+    "score": 7.75,
     "streams": null,
     "title": "Lazarus",
     "title_english": "Lazarus",
@@ -183,7 +192,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1224/148321.jpg"
     },
     "num_episodes": 0,
-    "score": 7.39,
+    "score": 7.63,
     "streams": null,
     "title": "Shoushimin Series 2nd Season",
     "title_english": "Shoshimin: How to Become Ordinary Season 2",
@@ -207,7 +216,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1069/148148.jpg"
     },
     "num_episodes": 0,
-    "score": 7.32,
+    "score": 7.42,
     "streams": null,
     "title": "Katainaka no Ossan, Kensei ni Naru",
     "title_english": "From Old Country Bumpkin to Master Swordsman",
@@ -232,8 +241,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1074/147339.jpg"
     },
     "num_episodes": 0,
-    "score": 7.21,
-    "streams": null,
+    "score": 7.19,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GW4HM79VM/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level"
+    },
     "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita: Sono Ni",
     "title_english": "I've Been Killing Slimes for 300 Years and Maxed Out My Level Season 2",
     "episode": "1",
@@ -256,8 +268,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1501/148355.jpg"
     },
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.59,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GNVHKN72N/aharen-san-wa-hakarenai"
+    },
     "title": "Aharen-san wa Hakarenai Season 2",
     "title_english": "Aharen-san wa Hakarenai Season 2",
     "episode": "",
@@ -280,8 +295,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
     },
     "num_episodes": 24,
-    "score": 7.58,
-    "streams": null,
+    "score": 7.7,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley"
+    },
     "title": "Anne Shirley",
     "title_english": "Anne Shirley",
     "episode": "1",
@@ -304,7 +322,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
     },
     "num_episodes": 0,
-    "score": 7.45,
+    "score": 7.44,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/G1XHJV0D8/can-a-boy-girl-friendship-survive",
@@ -332,7 +350,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1691/148602.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 7.47,
     "streams": null,
     "title": "Summer Pockets",
     "title_english": "Summer Pockets",
@@ -356,7 +374,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1263/148318.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 7.28,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/GP5HJ8477/the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom",
@@ -384,7 +402,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1626/148097.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 8.1,
     "streams": null,
     "title": "Uma Musume: Cinderella Gray",
     "title_english": "Uma Musume: Cinderella Gray",
@@ -408,8 +426,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1944/148218.jpg"
     },
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.13,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQ85/zatsutabi--thats-journey-"
+    },
     "title": "Zatsu Tabi: That's Journey",
     "title_english": "Zatsu Tabi: That's Journey",
     "episode": "1",
@@ -432,7 +453,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1620/148221.jpg"
     },
     "num_episodes": 0,
-    "score": 7.03,
+    "score": 7.08,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/GMEHME72W/once-upon-a-witchs-death",
@@ -460,7 +481,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1423/142919.jpg"
     },
     "num_episodes": 0,
-    "score": 7.67,
+    "score": 7.68,
     "streams": {
       "name": "hidive",
       "url": "https://www.hidive.com/season/30168",
@@ -490,7 +511,7 @@
     "title": "Haite Kudasai, Takamine-san",
     "title_english": "Please Put Them On, Takamine-san",
     "num_episodes": 12,
-    "score": 6.46,
+    "score": 6.25,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/G3KHEVD1D/please-put-them-on-takamine-san",
@@ -516,7 +537,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
     },
     "num_episodes": 0,
-    "score": 7.69,
+    "score": 7.68,
     "streams": null,
     "title": "Shin Samurai-den Yaiba",
     "title_english": "Yaiba: Samurai Legend",
@@ -540,8 +561,11 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1955/148360.webp"
     },
     "num_episodes": 12,
-    "score": null,
-    "streams": null,
+    "score": 7.13,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G9VHN9Q84/the-shiunji-family-children"
+    },
     "title": "Shiunji-ke no Kodomotachi",
     "title_english": "The Shiunji Family Children",
     "episode": "1",
@@ -588,7 +612,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1714/148317.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 6.95,
     "streams": null,
     "title": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
     "title_english": "The Gorilla God's Go-To Girl",
@@ -612,7 +636,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1712/148299.jpg"
     },
     "num_episodes": 0,
-    "score": 6.62,
+    "score": 6.26,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
@@ -640,7 +664,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1065/148659.jpg"
     },
     "num_episodes": 0,
-    "score": 6.92,
+    "score": 6.95,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/GVDHX85EQ/catch-me-at-the-ballpark",
@@ -668,7 +692,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1743/148272.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 7.01,
     "streams": {
       "name": "crunchyroll",
       "url": "https://www.crunchyroll.com/series/GKEH2G0J4/the-unaware-atelier-meister",
@@ -720,7 +744,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1577/147967.jpg"
     },
     "num_episodes": 0,
-    "score": 6.66,
+    "score": 6.54,
     "streams": {
       "name": "samsung",
       "url": "https://www.samsungtvplus.com/"
@@ -747,7 +771,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1496/146890.jpg"
     },
     "num_episodes": 0,
-    "score": 6.51,
+    "score": 6.56,
     "streams": null,
     "title": "Nazotoki wa Dinner no Ato de",
     "title_english": "The Dinner Table Detective",
@@ -823,7 +847,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1517/148292.jpg"
     },
     "num_episodes": 0,
-    "score": 7.65,
+    "score": 8.1,
     "streams": null,
     "title": "Kuroshitsuji: Midori no Majo-hen",
     "title_english": "Black Butler: Emerald Witch Arc",
@@ -847,7 +871,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1770/148195.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 6.65,
     "streams": null,
     "title": "Chuuzenji-sensei Mononoke Kougiroku: Sensei ga Nazo wo Hodoite Shimau kara.",
     "title_english": "The Mononoke Lecture Logs of Chuzenji-sensei: He Just Solves All the Mysteries",
@@ -871,7 +895,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 6.47,
     "streams": null,
     "title": "Princession Orchestra",
     "title_english": "Princession Orchestra",
@@ -895,7 +919,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1538/147930.jpg"
     },
     "num_episodes": 0,
-    "score": 6.39,
+    "score": 6.53,
     "streams": null,
     "title": "Bye Bye, Earth 2nd Season",
     "title_english": "Bye Bye, Earth Season 2",
@@ -919,7 +943,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1979/148096.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 6.31,
     "streams": null,
     "title": "Uchuujin MuuMuu",
     "title_english": "Uchuujin MuuMuu",
@@ -943,7 +967,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1304/148725.jpg"
     },
     "num_episodes": 0,
-    "score": 6.63,
+    "score": 6.81,
     "streams": null,
     "title": "Koisuru One Piece",
     "title_english": "Koisuru One Piece",
@@ -989,7 +1013,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1564/148380.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 5.56,
     "streams": null,
     "title": "Classic\u2605Stars",
     "title_english": "Classic\u2605Stars",

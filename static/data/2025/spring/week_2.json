@@ -35,7 +35,10 @@
     },
     "num_episodes": 0,
     "score": 7.55,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/G79H23ZQ3/my-hero-academia-vigilantes"
+    },
     "title": "Vigilante: Boku no Hero Academia Illegals",
     "title_english": "My Hero Academia: Vigilantes",
     "episode": "1",
@@ -59,7 +62,10 @@
     },
     "num_episodes": 0,
     "score": 7.51,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/G5PHNM9P0/witch-watch"
+    },
     "title": "Witch Watch",
     "title_english": "Witch Watch",
     "episode": "1",
@@ -83,7 +89,10 @@
     },
     "num_episodes": 0,
     "score": 7.68,
-    "streams": null,
+    "streams": {
+      "name": "prime",
+      "url": "https://www.primevideo.com/detail/0KFD79CBVX90IWRIG5NLAGJ7R1"
+    },
     "title": "Kidou Senshi Gundam: GQuuuuuuX",
     "title_english": "Mobile Suit Gundam: GQuuuuuuX",
     "episode": "1",
@@ -233,7 +242,10 @@
     },
     "num_episodes": 0,
     "score": 7.19,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GW4HM79VM/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level"
+    },
     "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita: Sono Ni",
     "title_english": "I've Been Killing Slimes for 300 Years and Maxed Out My Level Season 2",
     "episode": "1",
@@ -257,7 +269,10 @@
     },
     "num_episodes": 0,
     "score": 7.59,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GNVHKN72N/aharen-san-wa-hakarenai"
+    },
     "title": "Aharen-san wa Hakarenai Season 2",
     "title_english": "Aharen-san wa Hakarenai Season 2",
     "episode": "",
@@ -281,7 +296,10 @@
     },
     "num_episodes": 24,
     "score": 7.7,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley"
+    },
     "title": "Anne Shirley",
     "title_english": "Anne Shirley",
     "episode": "1",
@@ -409,7 +427,10 @@
     },
     "num_episodes": 0,
     "score": 7.13,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQ85/zatsutabi--thats-journey-"
+    },
     "title": "Zatsu Tabi: That's Journey",
     "title_english": "Zatsu Tabi: That's Journey",
     "episode": "1",
@@ -541,7 +562,10 @@
     },
     "num_episodes": 12,
     "score": 7.13,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G9VHN9Q84/the-shiunji-family-children"
+    },
     "title": "Shiunji-ke no Kodomotachi",
     "title_english": "The Shiunji Family Children",
     "episode": "1",

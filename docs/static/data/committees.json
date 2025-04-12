@@ -85,7 +85,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1855/146642.jpg"
         },
         "title_english": "A Ninja and an Assassin Under One Roof",
-        "score": null,
+        "score": 7.34,
         "streams": null,
         "url": "https://myanimelist.net/anime/58725",
         "studios": [
@@ -140,7 +140,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1577/147967.jpg"
         },
         "title_english": "Your Forma",
-        "score": 6.66,
+        "score": 6.54,
         "streams": {
             "name": "samsung",
             "url": "https://www.samsungtvplus.com/"
@@ -259,7 +259,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1712/148299.jpg"
         },
         "title_english": "The Beginning After the End",
-        "score": 6.62,
+        "score": 6.26,
         "streams": {
             "name": "crunchyroll",
             "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
@@ -367,7 +367,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1521/148809.jpg"
         },
         "title_english": "Please Put Them On, Takamine-san",
-        "score": 6.46,
+        "score": 6.25,
         "streams": {
             "name": "crunchyroll",
             "url": "https://www.crunchyroll.com/series/G3KHEVD1D/please-put-them-on-takamine-san",
@@ -563,7 +563,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1169/148459.jpg"
         },
         "title_english": "Rock Is a Lady's Modesty",
-        "score": 7.61,
+        "score": 7.59,
         "streams": {
             "name": "hidive",
             "url": "https://www.hidive.com/season/30188",
@@ -668,7 +668,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1211/147335.webp"
         },
         "title_english": "The Brilliant Healer's New Life in the Shadows",
-        "score": 6.46,
+        "score": 6.47,
         "streams": {
             "name": "crunchyroll",
             "url": "https://www.crunchyroll.com/series/G4PH0WJ9G/the-brilliant-healers-new-life-in-the-shadows",
@@ -753,7 +753,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1263/148318.jpg"
         },
         "title_english": "The Too-Perfect Saint: Tossed Aside by My Fianc\u00e9 and Sold to Another Kingdom",
-        "score": null,
+        "score": 7.28,
         "streams": {
             "name": "crunchyroll",
             "url": "https://www.crunchyroll.com/series/GP5HJ8477/the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom",
@@ -812,7 +812,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1538/147930.jpg"
         },
         "title_english": "Bye Bye, Earth Season 2",
-        "score": 6.39,
+        "score": 6.53,
         "streams": null,
         "url": "https://myanimelist.net/anime/59819",
         "studios": [
@@ -918,8 +918,11 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1955/148360.webp"
         },
         "title_english": "The Shiunji Family Children",
-        "score": null,
-        "streams": null,
+        "score": 7.13,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/G9VHN9Q84/the-shiunji-family-children"
+        },
         "url": "https://myanimelist.net/anime/58131",
         "studios": [
             {
@@ -964,7 +967,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1678/148543.jpg"
         },
         "title_english": "#Compass2.0: Animation Project",
-        "score": null,
+        "score": 5.44,
         "streams": null,
         "url": "https://myanimelist.net/anime/53762",
         "studios": [
@@ -1067,7 +1070,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1907/148540.jpg"
         },
         "title_english": "Maebashi Witches",
-        "score": null,
+        "score": 6.25,
         "streams": null,
         "url": "https://myanimelist.net/anime/59744",
         "studios": [
@@ -1150,7 +1153,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1743/148272.jpg"
         },
         "title_english": "The Unaware Atelier Meister",
-        "score": null,
+        "score": 7.01,
         "streams": {
             "name": "crunchyroll",
             "url": "https://www.crunchyroll.com/series/GKEH2G0J4/the-unaware-atelier-meister",
@@ -1190,7 +1193,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1015/148185.jpg"
         },
         "title_english": "Lazarus",
-        "score": null,
+        "score": 7.75,
         "streams": null,
         "url": "https://myanimelist.net/anime/56038",
         "studios": [
@@ -1273,8 +1276,11 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1988/148017.webp"
         },
         "title_english": "Witch Watch",
-        "score": null,
-        "streams": null,
+        "score": 7.51,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/G5PHNM9P0/witch-watch"
+        },
         "url": "https://myanimelist.net/anime/59597",
         "studios": [
             {
@@ -1337,7 +1343,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1626/148097.jpg"
         },
         "title_english": "Uma Musume: Cinderella Gray",
-        "score": null,
+        "score": 8.1,
         "streams": null,
         "url": "https://myanimelist.net/anime/59636",
         "studios": [
@@ -1373,8 +1379,11 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1501/148355.jpg"
         },
         "title_english": "Aharen-san wa Hakarenai Season 2",
-        "score": null,
-        "streams": null,
+        "score": 7.59,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/GNVHKN72N/aharen-san-wa-hakarenai"
+        },
         "url": "https://myanimelist.net/anime/59466",
         "studios": [
             {
@@ -1419,7 +1428,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1979/148096.jpg"
         },
         "title_english": "Uchuujin MuuMuu",
-        "score": null,
+        "score": 6.31,
         "streams": null,
         "url": "https://myanimelist.net/anime/60401",
         "studios": [
@@ -1555,7 +1564,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1511/148642.jpg"
         },
         "title_english": "Apocalypse Hotel",
-        "score": null,
+        "score": 7.26,
         "streams": null,
         "url": "https://myanimelist.net/anime/59675",
         "studios": [
@@ -1600,8 +1609,11 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1052/148743.jpg"
         },
         "title_english": "Mobile Suit Gundam: GQuuuuuuX",
-        "score": null,
-        "streams": null,
+        "score": 7.68,
+        "streams": {
+            "name": "prime",
+            "url": "https://www.primevideo.com/detail/0KFD79CBVX90IWRIG5NLAGJ7R1"
+        },
         "url": "https://myanimelist.net/anime/60449",
         "studios": [
             {
@@ -1716,7 +1728,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1691/148602.jpg"
         },
         "title_english": "Summer Pockets",
-        "score": null,
+        "score": 7.47,
         "streams": null,
         "url": "https://myanimelist.net/anime/50694",
         "studios": [
@@ -1811,8 +1823,11 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1538/148604.jpg"
         },
         "title_english": "My Hero Academia: Vigilantes",
-        "score": null,
-        "streams": null,
+        "score": 7.55,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/G79H23ZQ3/my-hero-academia-vigilantes"
+        },
         "url": "https://myanimelist.net/anime/60593",
         "studios": [
             {
@@ -1895,8 +1910,11 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1944/148218.jpg"
         },
         "title_english": "Zatsu Tabi: That's Journey",
-        "score": null,
-        "streams": null,
+        "score": 7.13,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQ85/zatsutabi--thats-journey-"
+        },
         "url": "https://myanimelist.net/anime/55514",
         "studios": [
             {
@@ -1959,7 +1977,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1770/148195.jpg"
         },
         "title_english": "The Mononoke Lecture Logs of Chuzenji-sensei: He Just Solves All the Mysteries",
-        "score": null,
+        "score": 6.65,
         "streams": null,
         "url": "https://myanimelist.net/anime/60009",
         "studios": [
@@ -2031,7 +2049,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1843/146935.jpg"
         },
         "title_english": "Makina-san's a Love Bot?!",
-        "score": null,
+        "score": 6.44,
         "streams": null,
         "url": "https://myanimelist.net/anime/58833",
         "studios": [
@@ -2066,7 +2084,7 @@
             "medium": "https://cdn.myanimelist.net/images/anime/1192/148314.jpg"
         },
         "title_english": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
-        "score": null,
+        "score": 6.14,
         "streams": null,
         "url": "https://myanimelist.net/anime/59745",
         "studios": [

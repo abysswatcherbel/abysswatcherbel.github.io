@@ -919,7 +919,10 @@
         },
         "title_english": "The Shiunji Family Children",
         "score": 7.13,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/G9VHN9Q84/the-shiunji-family-children"
+        },
         "url": "https://myanimelist.net/anime/58131",
         "studios": [
             {
@@ -1274,7 +1277,10 @@
         },
         "title_english": "Witch Watch",
         "score": 7.51,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/G5PHNM9P0/witch-watch"
+        },
         "url": "https://myanimelist.net/anime/59597",
         "studios": [
             {
@@ -1374,7 +1380,10 @@
         },
         "title_english": "Aharen-san wa Hakarenai Season 2",
         "score": 7.59,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/GNVHKN72N/aharen-san-wa-hakarenai"
+        },
         "url": "https://myanimelist.net/anime/59466",
         "studios": [
             {
@@ -1601,7 +1610,10 @@
         },
         "title_english": "Mobile Suit Gundam: GQuuuuuuX",
         "score": 7.68,
-        "streams": null,
+        "streams": {
+            "name": "prime",
+            "url": "https://www.primevideo.com/detail/0KFD79CBVX90IWRIG5NLAGJ7R1"
+        },
         "url": "https://myanimelist.net/anime/60449",
         "studios": [
             {
@@ -1812,7 +1824,10 @@
         },
         "title_english": "My Hero Academia: Vigilantes",
         "score": 7.55,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/G79H23ZQ3/my-hero-academia-vigilantes"
+        },
         "url": "https://myanimelist.net/anime/60593",
         "studios": [
             {
@@ -1896,7 +1911,10 @@
         },
         "title_english": "Zatsu Tabi: That's Journey",
         "score": 7.13,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br/series/GG5H5XQ85/zatsutabi--thats-journey-"
+        },
         "url": "https://myanimelist.net/anime/55514",
         "studios": [
             {
