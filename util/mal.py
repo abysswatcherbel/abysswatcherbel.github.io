@@ -190,16 +190,15 @@ class MalClient:
         except ValidationError as e:
             logger.error("Validation error:", e)
             return None
-    
+
     def update_score(self, mal_id: int, collection: Collection = None):
-   
+
         if collection is None:
             client = MongoClient(os.getenv('MONGO_URI'))
             collection = client.anime.seasonals
 
-
         logger.info(f'Getting mal_details for id: {mal_id}')
-        
+
         url = f"{self.ENTRY_URL}/{mal_id}"
         params = {
             "fields": ",".join([
@@ -218,8 +217,7 @@ class MalClient:
 
         else:
             logger.error(f"Error with ID {mal_id}: {response.status_code}")
-            
-        
+
     def push_to_db(self, mal_entry: MalEntry, collection: Collection = None) -> None:
         """
         Pushes a list of MAL entries to a MongoDB collection.
@@ -231,7 +229,7 @@ class MalClient:
         if collection == None:
             client = MongoClient(os.getenv('MONGO_URI'))
             collection = client.anime.seasonals
-       
+
         try:
             entry_dict: Dict = mal_entry.model_dump()
             if collection.find_one({'id': entry_dict['id']}):
@@ -249,7 +247,7 @@ class MalClient:
         except Exception as e:
             logger.error(f"Error pushing {mal_entry} to MongoDB: {e}")
             return
-    
+
     def fetch_producer_from_jikan(self, mal_id: int):
         url = f"{self.JIKAN_BASE_URL}/producers/{mal_id}"
         response = requests.get(url)
@@ -261,3 +259,18 @@ class MalClient:
         else:
             logger.error(f"Error fetching producer with ID {mal_id}: {response.status_code}")
             return None
+
+    def fetch_unique_ids(self, season: str, collection: Collection = None) -> List[int]:
+        if collection is None:
+            client = MongoClient(os.getenv('MONGO_URI'))
+            collection = client.anime.seasonals
+
+        unique_ids = collection.distinct("id", filter={"year": self.year, "season": season})
+        try:
+            unique_ids = collection.distinct(
+                "id", filter={"year": self.year, "season": season}
+            )
+        except PyMongoError as e:
+            logger.error(f"Error fetching unique IDs from MongoDB: {e}")
+            return []
+        return unique_ids
