@@ -1636,7 +1636,10 @@
         },
         "title_english": "Summer Pockets",
         "score": 7.47,
-        "streams": null,
+        "streams": {
+            "name": "crunchyroll",
+            "url": "https://www.crunchyroll.com/series/G0XHWM17X/summer-pockets"
+        },
         "url": "https://myanimelist.net/anime/50694",
         "studios": [
             {

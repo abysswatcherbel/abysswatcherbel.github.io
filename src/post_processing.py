@@ -996,9 +996,6 @@ def get_active_posts(
             except ValueError:
                     logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
                     continue
-            else:
-                logger.error(f"No MAL ID found for post: {submission.id}")
-                continue
     client.close()
     return posts
 
