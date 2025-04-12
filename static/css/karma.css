@@ -1069,6 +1069,7 @@ span[class="right-rank-change neutral"] {
 
 .Studio {
     background-color: var(--studio-color) !important;
+    max-width: 100%;
 }
 
 /* Logo background colors */
