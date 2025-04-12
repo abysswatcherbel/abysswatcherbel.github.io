@@ -169,7 +169,10 @@
     },
     "num_episodes": 13,
     "score": 7.75,
-    "streams": null,
+    "streams": {
+      "name": "max",
+      "url": "https://www.max.com/shows/lazarus"
+    },
     "title": "Lazarus",
     "title_english": "Lazarus",
     "episode": "1",
@@ -437,6 +440,9 @@
     "karma": 499,
     "comments": 136,
     "week_id": 2,
+    "banner": {
+      "url": "https://i.imgur.com/gz4a8Q2.png"
+    },
     "studio": [
       "Makaria"
     ],

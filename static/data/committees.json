@@ -1194,7 +1194,10 @@
         },
         "title_english": "Lazarus",
         "score": 7.75,
-        "streams": null,
+        "streams": {
+            "name": "max",
+            "url": "https://www.max.com/shows/lazarus"
+        },
         "url": "https://myanimelist.net/anime/56038",
         "studios": [
             {
