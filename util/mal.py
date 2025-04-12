@@ -265,12 +265,12 @@ class MalClient:
             client = MongoClient(os.getenv('MONGO_URI'))
             collection = client.anime.seasonals
 
-        unique_ids = collection.distinct("id", filter={"year": self.year, "season": season})
         try:
             unique_ids = collection.distinct(
                 "id", filter={"year": self.year, "season": season}
             )
+            return unique_ids
         except PyMongoError as e:
             logger.error(f"Error fetching unique IDs from MongoDB: {e}")
             return []
-        return unique_ids
+            
