@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.44,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV0D8/can-a-boy-girl-friendship-survive",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
+    "title_english": "Can a Boy-Girl Friendship Survive?",
+    "episode": "2",
+    "karma": 547,
+    "comments": 217,
+    "week_id": 3,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jwpzyn/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
+    "mal_id": 52709,
+    "current_rank": 1,
+    "karma_change": -64,
+    "rank_change": 17,
+    "season": "spring"
+  }
+]
