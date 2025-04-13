@@ -26,5 +26,29 @@
     "karma_change": -64,
     "rank_change": 17,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1538/147930l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1538/147930.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.53,
+    "streams": null,
+    "title": "Bye Bye, Earth 2nd Season",
+    "title_english": "Bye Bye, Earth Season 2",
+    "episode": "2",
+    "karma": 66,
+    "comments": 20,
+    "week_id": 3,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jwrcvj/bye_bye_earth_season_2_episode_2_discussion/",
+    "mal_id": 59819,
+    "current_rank": 2,
+    "karma_change": -21,
+    "rank_change": 45,
+    "season": "spring"
   }
 ]
