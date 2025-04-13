@@ -131,5 +131,29 @@
     "karma_change": -21,
     "rank_change": 42,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1306/145571l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1306/145571.jpg"
+    },
+    "num_episodes": 25,
+    "score": 6.53,
+    "streams": null,
+    "title": "Touhai: Ura Rate Mahjong Touhairoku",
+    "title_english": "Touhai: Ura Rate Mahjong Touhairoku",
+    "episode": "24",
+    "karma": 14,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "East Fish Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jwxho6/tohai_ura_rate_mahjong_tohai_roku_episode_24/",
+    "mal_id": 57796,
+    "current_rank": 6,
+    "karma_change": 4,
+    "rank_change": 62,
+    "season": "spring"
   }
 ]

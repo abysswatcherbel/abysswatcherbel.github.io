@@ -30,6 +30,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.12,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "2",
+    "karma": 837,
+    "comments": 152,
+    "week_id": 3,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jwvmm9/enn_enn_no_shouboutai_san_no_shou_fire_force/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": -545,
+    "rank_change": 4,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
     },
@@ -51,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwpzyn/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -64,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -75,7 +103,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwtdzu/teogonia_episode_1_discussion/",
     "mal_id": 58614,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -99,9 +127,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwrcvj/bye_bye_earth_season_2_episode_2_discussion/",
     "mal_id": 59819,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -21,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   }
 ]
