@@ -86,6 +86,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1496/146890l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1496/146890.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.56,
+    "streams": null,
+    "title": "Nazotoki wa Dinner no Ato de",
+    "title_english": "The Dinner Table Detective",
+    "episode": "2",
+    "karma": 150,
+    "comments": 37,
+    "week_id": 3,
+    "studio": [
+      "Madhouse"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jx7s72/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
+    "mal_id": 60377,
+    "current_rank": 4,
+    "karma_change": -72,
+    "rank_change": 34,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1066/148358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1066/148358.jpg"
     },
@@ -103,7 +127,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwtdzu/teogonia_episode_1_discussion/",
     "mal_id": 58614,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -127,9 +151,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwrcvj/bye_bye_earth_season_2_episode_2_discussion/",
     "mal_id": 59819,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -21,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   },
   {
@@ -151,9 +175,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwxho6/tohai_ura_rate_mahjong_tohai_roku_episode_24/",
     "mal_id": 57796,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 4,
-    "rank_change": 62,
+    "rank_change": 61,
     "season": "spring"
   },
   {
@@ -180,7 +204,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
