@@ -86,6 +86,60 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
+    },
+    "num_episodes": 24,
+    "score": 7.7,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley"
+    },
+    "title": "Anne Shirley",
+    "title_english": "Anne Shirley",
+    "episode": "2",
+    "karma": 484,
+    "comments": 128,
+    "week_id": 3,
+    "studio": [
+      "The Answer Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jxh44k/anne_shirley_episode_2_discussion/",
+    "mal_id": 60334,
+    "current_rank": 4,
+    "karma_change": -141,
+    "rank_change": 12,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1074/147339l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1074/147339.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.19,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GW4HM79VM/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level"
+    },
+    "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita: Sono Ni",
+    "title_english": "I've Been Killing Slimes for 300 Years and Maxed Out My Level Season 2",
+    "episode": "2",
+    "karma": 446,
+    "comments": 106,
+    "week_id": 3,
+    "studio": [
+      "Teddy"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jxgvw0/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
+    "mal_id": 50738,
+    "current_rank": 5,
+    "karma_change": -315,
+    "rank_change": 7,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
     },
@@ -106,9 +160,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxdnbu/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": -151,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -130,9 +184,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx7s72/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -72,
-    "rank_change": 33,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -154,7 +208,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwtdzu/teogonia_episode_1_discussion/",
     "mal_id": 58614,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -178,7 +232,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxb3x8/pok\u00e9mon_horizons_the_series_episode_90_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -202,9 +256,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwrcvj/bye_bye_earth_season_2_episode_2_discussion/",
     "mal_id": 59819,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -21,
-    "rank_change": 39,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -226,9 +280,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwxho6/tohai_ura_rate_mahjong_tohai_roku_episode_24/",
     "mal_id": 57796,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 4,
-    "rank_change": 59,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -250,7 +304,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxf93l/meitantei_conan_case_closed_episode_1158/",
     "mal_id": 235,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -279,7 +333,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
