@@ -233,6 +233,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1158",
+    "karma": 11,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jxf93l/meitantei_conan_case_closed_episode_1158/",
+    "mal_id": 235,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1022/146945l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1022/146945.jpg"
     },
@@ -255,7 +279,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
