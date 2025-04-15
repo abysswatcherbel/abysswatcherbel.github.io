@@ -818,6 +818,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.08,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "2",
+    "karma": 11,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jyf6d9/everyday_host_episode_2_discussion/",
+    "mal_id": 60535,
+    "current_rank": 33,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -835,7 +859,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxf93l/meitantei_conan_case_closed_episode_1158/",
     "mal_id": 235,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -859,9 +883,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxldvj/classicstars_episode_2_discussion/",
     "mal_id": 59199,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": -9,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -888,7 +912,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
