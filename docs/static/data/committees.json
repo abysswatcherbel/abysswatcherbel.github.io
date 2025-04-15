@@ -59279,8 +59279,14 @@
                 "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
-                "id": 0,
-                "name": "Production IG"
+                "id": 10,
+                "name": "Production IG",
+                "image": "https://cdn.myanimelist.net/s/common/company_logos/5b86997d-226e-4870-ae60-e353a78178a0_600x600_i?s=0db04e298454b4278acfb8a2c60c7001",
+                "established": "1987-12-15T00:00:00+00:00",
+                "favorites": 8835,
+                "country": "jp",
+                "category": "Animation Studio",
+                "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
                 "id": 53,
@@ -59293,8 +59299,13 @@
                 "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
-                "id": 0,
-                "name": "Memory Tech"
+                "id": 647,
+                "name": "Memory Tech",
+                "image": "https://cdn.myanimelist.net/s/common/company_logos/00fa9fb7-a76c-4522-9a32-c27b3677f34c_600x600_i?s=cd7edcb338e99ad92435018c123da017",
+                "established": "2010-12-01T00:00:00+00:00",
+                "favorites": 0,
+                "country": "",
+                "category": null
             },
             {
                 "id": 143,
@@ -65097,8 +65108,14 @@
                 "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
-                "id": 0,
-                "name": "Production IG"
+                "id": 10,
+                "name": "Production IG",
+                "image": "https://cdn.myanimelist.net/s/common/company_logos/5b86997d-226e-4870-ae60-e353a78178a0_600x600_i?s=0db04e298454b4278acfb8a2c60c7001",
+                "established": "1987-12-15T00:00:00+00:00",
+                "favorites": 8835,
+                "country": "jp",
+                "category": "Animation Studio",
+                "flag": "https://flagcdn.com/w20/jp.webp"
             },
             {
                 "id": 53,
