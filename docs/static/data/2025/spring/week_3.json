@@ -493,6 +493,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.46,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "10",
+    "karma": 32,
+    "comments": 31,
+    "week_id": 3,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jxwmxh/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 20,
+    "karma_change": 5,
+    "rank_change": 32,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1043/139689l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1043/139689.jpg"
     },
@@ -510,7 +534,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxi4uw/bloody_escape_jigoku_no_tousougeki_bloody_escape/",
     "mal_id": 54793,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -534,9 +558,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwxho6/tohai_ura_rate_mahjong_tohai_roku_episode_24/",
     "mal_id": 57796,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 4,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "spring"
   },
   {
@@ -558,7 +582,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxf93l/meitantei_conan_case_closed_episode_1158/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -582,9 +606,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxldvj/classicstars_episode_2_discussion/",
     "mal_id": 59199,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -9,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -611,7 +635,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
