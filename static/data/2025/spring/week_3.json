@@ -794,6 +794,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 14,
+    "comments": 5,
+    "week_id": 3,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1jyl7u4/koupen_chan_episode_2_discussion/",
+    "mal_id": 60534,
+    "current_rank": 32,
+    "karma_change": -20,
+    "rank_change": 18,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1306/145571l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1306/145571.jpg"
     },
@@ -811,9 +835,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jwxho6/tohai_ura_rate_mahjong_tohai_roku_episode_24/",
     "mal_id": 57796,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 4,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -835,7 +859,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jyf6d9/everyday_host_episode_2_discussion/",
     "mal_id": 60535,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -859,7 +883,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxf93l/meitantei_conan_case_closed_episode_1158/",
     "mal_id": 235,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -883,9 +907,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jxldvj/classicstars_episode_2_discussion/",
     "mal_id": 59199,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -9,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -912,7 +936,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
