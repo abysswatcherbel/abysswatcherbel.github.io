@@ -1,56 +1,30 @@
-"""
-Module Overview: post_processing.py
-
-This module serves as the core processor for Reddit discussion posts, particularly those related to anime content. It integrates several key functionalities to automate the lifecycle of a Reddit post, from initial detection and scheduling to final processing and data persistence. The main components and their purposes are as follows:
-
-1. Logging Infrastructure:
-   - Provides the function 'setup_logging' to dynamically configure logging for various parts of the application.
-   - Organizes log files in a dated directory structure (year/season/month/day) and uses a TimedRotatingFileHandler to enable daily log rotation.
-   - Ensures that critical events and errors are captured for debugging and historical analysis.
-
-2. Scheduler Management:
-   - Configures a background scheduler via 'setup_scheduler', which uses APScheduler with MongoDB as the job store.
-   - Automates the scheduling of tasks such as daily updates and post-processing jobs that close posts after their active period (typically 48 hours).
-   - Maintains a global scheduler instance (scheduler_instance) to allow easy access and updates across the module.
-
-3. Reddit API Integration:
-   - Sets up a Reddit API client using PRAW through the 'setup_reddit_instance' function.
-   - Retrieves recent submissions from a specified user and filters active posts for further processing.
-   - Extracts relevant post details and metadata (such as post ID, title, creation timestamp, and associated season/week) needed for later stages in processing.
-
-4. Post Processing Workflow:
-   - Implements several functions (fetch_recent_posts, schedule_post_processing, update_scheduler, process_post, close_post) to manage the end-to-end processing of posts.
-   - Fetches posts created within the last 48 hours, schedules them for processing after their active engagement period has ended, and processes them to extract final metrics like karma and comment counts.
-   - Updates persistent storage (e.g., MongoDB) with the processed data for further analysis or integration with ranking systems.
-
-5. Error Handling and Robustness:
-   - Integrates robust error handling, with detailed logging of failures and warnings during post fetching, scheduling, and processing.
-   - Ensures that the system continues to operate smoothly even in cases of intermittent failures by logging issues and proceeding with available data.
-
-Overall, post_processing.py is integral to the application's functionality by automating the retrieval, scheduling, and processing of Reddit posts. It bridges multiple subsystems, including logging, scheduling, the Reddit API, and MongoDB, to create a scalable and maintainable pipeline for real-time post analysis.
-"""
-
 from praw import Reddit
 from praw.models import Submission, Redditor
+
 from datetime import datetime, timedelta, timezone
 import os
 import json
 from math import ceil
 import re
+
 from pymongo import MongoClient
+
 import pandas as pd
+
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.jobstores.base import ConflictingIdError
 from apscheduler.triggers.date import DateTrigger
 from apscheduler.jobstores.mongodb import MongoDBJobStore
 from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
+
 from pytz import utc
 from dotenv import load_dotenv
-from loguru import logger
 from util.logger_config import logger
 from typing import Dict, List, Tuple, Optional, Union
+
 from util.seasonal_schedule import SeasonScheduler
 from util.mal import MalClient
+from exceptions import PostProcessingError, PostUnavailable
 
 
 from pydantic import BaseModel, Field, HttpUrl, field_validator, ValidationError
@@ -360,9 +334,6 @@ def process_post(post: Dict, reddit: Reddit) -> None:
         post_details: Dict = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
-        if not post_details:
-            logger.error(f"Post {post['id']} is not available")
-            return
         logger.debug(f"Trying to insert post: {json.dumps(post_details, indent=2)}")
         try:
             post_validation = RedditPostDetails(**post_details)
@@ -370,6 +341,10 @@ def process_post(post: Dict, reddit: Reddit) -> None:
             logger.success(f"Successfully processed and inserted post: {post_validation.model_dump_json(indent=2)}")
         except ValidationError as e:
             logger.error(f"Validation error for post {post['id']}: {e}")
+    except PostUnavailable:
+        logger.error(f"Post {post['id']} is unavailable")
+    except PostProcessingError as e:
+        logger.error(f"Post processing error for post {post['id']}: {e}")
     except Exception as e:
         logger.error(f"Error processing post {post['id']}: {e}")
 
@@ -465,29 +440,27 @@ def check_post_status(submission: Submission, post_id: str) -> bool:
         >>> check_post_status(submission, 'abc123')
         True
     """
-    # log = setup_logging("check_post_status")
 
     try:
         if submission.removed_by_category:
             logger.warning(
                 f"Post {post_id} was removed by moderators: {submission.removed_by_category}"
             )
-            return False
+            raise PostUnavailable
         elif submission.selftext == "[deleted]":
             logger.warning(f"Post {post_id} was deleted by the user.")
-            return False
+            raise PostUnavailable
         elif submission.selftext == "[removed]":
             logger.warning(f"Post {post_id} was removed by moderators.")
-            return False
+            raise PostUnavailable
         elif submission.hidden:
-            logger.warning(f"Post {post_id} is hidden by the user.")
-            return False
+            logger.warning(f"Post {post_id} is hidden.")
+            raise PostUnavailable
         else:
             logger.info(f"Post {post_id} is still available.")
             return True
-    except Exception as e:
-        logger.error(f"Error fetching post: {e}")
-        return False
+    except PostUnavailable:
+        raise 
 
 
 def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
@@ -519,11 +492,12 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
         No explicit exceptions, but logs any errors encountered during processing
     """
     post = Submission(reddit=reddit, id=post_id)
-    # log = setup_logging("close_post")
+    try:
+        post_available = check_post_status(post, post_id)
+    except PostUnavailable:
+        logger.warning(f"Post {post_id} is unavailable. Skipping...")
+        raise PostUnavailable
 
-    post_available = check_post_status(post, post_id)
-    if not post_available:
-        return {}
 
     mal_id = get_mal_id_reddit_post(
         post.selftext
@@ -1000,7 +974,7 @@ def get_active_posts(
     return posts
 
 
-def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
+def get_mal_id_reddit_post(post_body: str) -> Optional[str|int]:
     """
     Extracts the MyAnimeList ID from a Reddit post body.
 
@@ -1012,7 +986,7 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
         post_body (str): The body text of the Reddit post containing the MAL URL.
 
     Returns:
-        str or None: The extracted MyAnimeList ID if found, None otherwise.
+        mal_id (str | int | None): The extracted MyAnimeList ID if found, None otherwise.
 
     Example:
         >>> body = "Check out this anime: https://myanimelist.net/anime/12345"
@@ -1034,7 +1008,7 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str]:
 
 def fetch_weekly_posts_db(
     schedule: SeasonScheduler = SeasonScheduler(schedule_type="post"),
-):
+) -> List[Dict]:
     """Fetch MAL IDs of all shows airing in the current week."""
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
@@ -1076,9 +1050,40 @@ def fetch_weekly_posts_db(
 def fetch_weekly_posts_reddit(
     reddit: Reddit = setup_reddit_instance(),
     schedule: SeasonScheduler = SeasonScheduler(),
-    username="AutoLovepon",
-    default_tz=timezone.utc,
-):
+    username: str ="AutoLovepon",
+    default_tz: datetime.tzinfo =timezone.utc,
+) -> List[Dict] | None:
+    """
+    Fetches the weekly discussion posts from AutoLovePon, the r/anime bot,
+    within the date range of the current anime season week schedule. It processes each post to
+    extract details like anime title, episode number, and MyAnimeList ID.
+    Args:
+        reddit (Reddit, optional): A praw.Reddit instance for API interactions.
+            Defaults to a new instance from setup_reddit_instance().
+        schedule (SeasonScheduler, optional): Scheduler to determine current anime season and the week id.
+            Defaults to a new SeasonScheduler instance.
+        username (str, optional): Reddit username to fetch posts from. Defaults to "AutoLovepon".
+        default_tz (tzinfo, optional): Timezone for date calculations. Defaults to UTC.
+    Returns:
+        posts (list[dict] or None): A list of dictionaries containing processed post data including:
+            - id: MyAnimeList ID of the anime
+            - reddit_id: Reddit submission ID
+            - title: Romanized title of the anime
+            - title_english: English title of the anime
+            - episode: Episode number
+            - created_utc: UTC timestamp of post creation
+            - week_id: Current week ID in the anime season
+            - karma: Post karma (upvotes minus downvotes)
+            - comments: Number of comments
+            - upvote_ratio: Ratio of upvotes to total votes
+            - url: URL of the submission
+        Returns an empty list if no posts are found for the week, or None if schedule details
+        are unavailable.
+    Notes:
+        - Adjusts the week_id based on if  the current day is in Friday to Sunday
+        - Fetches up to 100 most recent posts from the user, but it is very unlikely to reach that number.
+    """
+    
     user = reddit.redditor(username)
     posts = []
     week_id = schedule.week_id - 1 if datetime.now().weekday() in (4,5,6) else schedule.week_id
