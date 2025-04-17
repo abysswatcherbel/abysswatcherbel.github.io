@@ -33,55 +33,53 @@ This project was created to automate the tracking and ranking of anime discussio
 - **Extensive Logging & Error Handling:**  
   Robust logging configured across different modules for easier debugging and historical analysis.
 
-## Project Structure
+## Backend Process Flow
 
-Here’s the corrected Markdown structure that will render properly on GitHub:
+The following diagram illustrates the core backend process for fetching, processing, and ranking data:
 
+```mermaid
+graph TD
+    A[Scheduler] -- Triggers --> B(hourly_update.sh);
+    B -- Runs --> C(Python Script e.g., entry.py run);
+
+    subgraph Data Fetching & Initial Processing [src/post_processing.py]
+        C -- Calls --> D[Fetch New Reddit Posts ];
+        D --> E[Extract Post Details & MAL ID];
+        E --> F[Insert/Update Posts in MongoDB];
+        F -- Calls --> G[Update Hourly Karma ];
+        G --> H[Save Hourly Karma to MongoDB];
+    end
+
+    subgraph Ranking & Aggregation [src/rank_processing.py]
+        C -- Calls --> I[Get Weekly Changes];
+        I -- Reads --> J(MongoDB);
+        I --> K[Calculate Ranks & Changes];
+        K -- Calls --> L[Save Weekly JSON ];
+        L --> M(static/data/.../week_X.json);
+
+        C -- Calls --> N[Get Season Averages];
+        N -- Reads --> J;
+        N --> O[Calculate Averages];
+
+        C -- Calls --> P[Update MAL Numbers];
+        P -- Reads --> J;
+        P -- Calls --> Q(MAL API);
+        Q --> R[Update MAL Stats in MongoDB];
+    end
+
+    subgraph Static Site Generation [Flask / Flask-Frozen]
+        S(Run 'entry.py freeze') -- Uses --> T(Templates);
+        S -- Reads --> M; 
+        S -- Reads --> J; 
+        S --> U(docs/.../*.html);
+    end
+
+    style M fill:#f9f,stroke:#333,stroke-width:2px
+    style U fill:#ccf,stroke:#333,stroke-width:2px
+    style J fill:#lightgrey,stroke:#333,stroke-width:1px
+    style Q fill:#orange,stroke:#333,stroke-width:1px
 ```
-├── docs/                  # GitHub Pages Static Site
-├── entry.py               # Main Flask application with endpoints and command-line logic
-├── README.md              # This file
-├── requirements.txt       # Python dependencies
-├── src/
-│   ├── post_processing.py # Functions for Reddit post retrieval, scheduling, and insertion into MongoDB
-│   ├── rank_processing.py # Functions for ranking calculations, weekly changes, and MAL integration
-│   ├── season_references/ # Season reference files, as start and end dates for each week of the season
-│   │   └── 2025/
-│   │       └── winter/
-│   │           ├── episodes.csv      # CSV file with the start and end date for each given week of the season
-│   │           ├── post.csv          # CSV file with the post id, title, and url for each post in the season
-│   │           └── winter_2025.yaml  # YAML file with the season details from the r/anime mod team
-│   │                                  
-├── static/                # Static assets for the website
-│   ├── assets/
-│   │   ├── back_svg.py
-│   │   ├── __init__.py
-│   │   ├── new_entry.py
-│   ├── css/               # CSS files for the website
-│   │   ├── home.css
-│   │   ├── new_karma.css
-│   │   └── streaming.css
-│   ├── data/              # Data files for the website
-│   │   └── progression.json
-│   └── scripts/           # JavaScript files for the website
-│       ├── progression_chart.js
-│       ├── reddit_fallback.js
-│       ├── sort_tables.js
-│       └── theme-switch.js
-├── templates/             # Templates to be rendered by Flask
-│   ├── 2024/              # Previous seasons
-│   │   └── fall/
-│   │       ├── week_x.html
-│   │       └── week_x+1.html
-│   ├── 2025/  
-│   │   └── winter/
-│   │       ├── week_x.html
-│   │       └── week_x+1.html
-│   ├── current_chart.html  # Current chart page
-│   └── current_week.html   # Home page
-```
 
- 
 ## Recommended Projects & Resources
 
 - **Animetrics**
