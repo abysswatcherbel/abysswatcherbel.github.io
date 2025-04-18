@@ -233,19 +233,21 @@ class SeasonScheduler(BaseModel):
         """Get the week ID for the current post_time."""
         return self.week_id
     
-    def get_airing_period(self) -> Dict[str, Union[str, int, None]]:
+    def get_airing_period(self, schedule_details: ScheduleDetails = None) -> Dict[str, Union[str, int, None]]:
         """Get the airing period details for the current week."""
+        if schedule_details is None:
+            schedule_details = self.schedule_detals
         
         # Convert the dates to the desired format
-        converted_start_date = self.schedule_detals.start_date.strftime("%B, %d")
-        converted_end_date = self.schedule_detals.end_date.strftime("%B, %d")
+        converted_start_date = schedule_details.start_date.strftime("%B, %d")
+        converted_end_date = schedule_details.end_date.strftime("%B, %d")
         
         airing_period = f"Airing Period: {converted_start_date} - {converted_end_date}"
         
         return {
             "airing_period": airing_period,
             "season": self.season_name,
-            "week_id": self.week_id,
+            "week_id": schedule_details.week_id,
         }
     
     @staticmethod

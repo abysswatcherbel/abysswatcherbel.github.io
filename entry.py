@@ -13,10 +13,8 @@ from src.rank_processing import (
 )
 from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
-from util.logger_config import logger
 from util.seasonal_schedule import SeasonScheduler
-from util.data_backup import save_weekly_ranking, load_weekly_ranking
-import requests
+from util.logger_config import logger
 
 load_dotenv()
 
@@ -31,6 +29,12 @@ freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
+rank_schedule = episode_schedule.get_schedule_for_date(
+    year=post_schedule.year,
+    season=post_schedule.season_number,
+    week_id=post_schedule.week_id,
+)
+airing_period = episode_schedule.get_airing_period(schedule_details=rank_schedule)
 client = MongoClient(os.getenv("MONGO_URI"))
 available_seasons = get_available_seasons()
 
@@ -66,7 +70,7 @@ def karma_rank():
     return render_template(
         "rank.html.j2",
         complete_rankings=complete_rankings,
-        airing_details=episode_schedule.airing_period,
+        airing_details=airing_period,
         sum_karma=total_karma,
         back_symbol=back_symbol,
         new_entry=new_entry,
@@ -123,7 +127,7 @@ def current_week():
         "new_home.html",
         current_shows=current_shows,
         current_week_id=post_schedule.week_id,
-        airing_details=post_schedule.airing_period,
+        airing_details=airing_period,
         average_shows=season_averages,
         active_discussions=active_discussions,
         available_seasons=available_seasons,
