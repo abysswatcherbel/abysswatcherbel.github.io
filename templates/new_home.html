@@ -66,8 +66,7 @@
                                     <td>{{ show.time_left | round(2) }}</td>
                                     <td>
                                         <div class="action-links">
-                                            <a href="{{ show.reddit_url }}" class="action-link reddit-link"
-                                                target="_blank">Reddit</a>
+                                            <img src="{{ url_for('static', filename='assets/reddit-findit.svg') }}" alt="Reddit" class="stream-icon">
                                             <a href="{{ show.streams.url }}" class="action-link stream-link"
                                                 target="_blank">
                                                 {% if show.streams.logo %}
@@ -175,8 +174,7 @@
                                     <td class="comments">{{ show.comments }}</td>
                                     <td>
                                         <div class="action-links">
-                                            <a href={{ show.url }} class="action-link reddit-link"
-                                                target="_blank">Reddit</a>
+                                            <img src="{{ url_for('static', filename='assets/reddit-findit.svg') }}" alt="Reddit" class="stream-icon">
                                             <a href="{{ show.streams.url }}" class="action-link stream-link"
                                                 target="_blank">
                                                 {% if show.streams.logo %}
