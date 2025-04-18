@@ -66,7 +66,7 @@ def karma_rank():
     return render_template(
         "rank.html.j2",
         complete_rankings=complete_rankings,
-        airing_details=post_schedule.airing_period,
+        airing_details=episode_schedule.airing_period,
         sum_karma=total_karma,
         back_symbol=back_symbol,
         new_entry=new_entry,
