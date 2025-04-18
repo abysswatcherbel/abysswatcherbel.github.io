@@ -309,7 +309,8 @@ tbody tr:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.1rem;
+
 }
 
 .action-link {
@@ -319,16 +320,16 @@ tbody tr:hover {
     font-size: 0.85rem;
     transition: all 0.2s ease;
     white-space: nowrap;
+    align-self: center;
 }
 
 .reddit-link {
-    background-color: #ff4500;
-    color: white;
+    width: 100%;
 }
 
 .reddit-link:hover {
-    background-color: #e03d00;
-    transform: scale(1.2);
+    
+    transform: scale(1.5);
 }
 
 .stream-link {
@@ -342,12 +343,12 @@ tbody tr:hover {
 }
 
 .stream-link:hover {
-    background-color: var(--primary-dark);
+    
     transform: scale(1.5);
 }
 
 .stream-logo {
-    height: 18px;
+    height: 25px;
     width: auto;
     max-width: 50px;
     object-fit: contain;
