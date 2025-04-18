@@ -221,14 +221,19 @@ def production_committees():
     season = post_schedule.season_name
     year = post_schedule.year
 
+    client = MongoClient(os.getenv("MONGO_URI"))
+    db = client.anime
+
     from util.committees import get_committee_data
 
     # Get committee data, which saves a json to /static/data/committees.json
-    committee_data = get_committee_data()
+    #committee_data = get_committee_data()
+    committee_data = list(db.committees_mv.find({}, {"_id": 0}))
 
-    # Get distinct seasons and years for filters
-    client = MongoClient(os.getenv("MONGO_URI"))
-    db = client.anime
+    with open(os.path.join("static", "data", "committees.json"), "w") as f:
+        json.dump(committee_data, f, indent=4)
+
+    # Filters
     filter_seasons = ["winter", "spring", "summer", "fall"]
     filter_years = sorted(db.committees.distinct("year"), reverse=True)
     client.close()
@@ -248,45 +253,6 @@ def production_committees():
 def previous_weeks():
 
     return render_template("previous_weeks.html", available_seasons=available_seasons)
-
-
-@app.route("/api/weekly-rankings/<int:year>/<season>/week_<int:week>")
-def api_weekly_ranking(year, season, week):
-    """
-    API endpoint to fetch historical weekly ranking data.
-
-    Args:
-        year (int): The year of the ranking
-        season (str): The season (winter, spring, summer, fall)
-        week (int): The week number
-
-    Returns:
-        JSON response: The weekly ranking data for the specified period
-    """
-    try:
-        # Validate season
-        if season.lower() not in ["winter", "spring", "summer", "fall"]:
-            return jsonify({"error": "Invalid season"}), 400
-
-        # Load the data from JSON or SQLite
-        data = load_weekly_ranking(year, season, week)
-
-        if data:
-            return jsonify({"status": "success", "data": data})
-        else:
-            return (
-                jsonify(
-                    {
-                        "status": "error",
-                        "message": "No data found for the specified period",
-                    }
-                ),
-                404,
-            )
-
-    except Exception as e:
-        logger.error(f"Error fetching weekly ranking data: {e}")
-        return jsonify({"status": "error", "message": str(e)}), 500
 
 
 if __name__ == "__main__":

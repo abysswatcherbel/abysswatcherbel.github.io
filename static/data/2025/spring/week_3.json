@@ -1257,6 +1257,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
+    },
+    "title": "Yoru wa Neko to Issho Season 3",
+    "title_english": "Yoru wa Neko to Issho Season 3",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "80",
+    "karma": 6,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Studio PuYUKAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k0jcoa/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
+    "mal_id": 58199,
+    "current_rank": 50,
+    "karma_change": -8,
+    "rank_change": 9,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1022/146945l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1022/146945.jpg"
     },
@@ -1279,7 +1303,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1jx359p/cardfight_vanguard_divinez_deluxehen_episode_12/",
     "mal_id": 54144,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
