@@ -253,7 +253,7 @@ def get_season_averages(schedule: SeasonScheduler):
         },
         {
             "$match": {
-                "$expr": {"$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 3]}
+                "$expr": {"$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 2]}
             }
         },
         {

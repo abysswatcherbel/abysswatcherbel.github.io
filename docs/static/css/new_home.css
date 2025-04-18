@@ -222,7 +222,7 @@ th {
     font-weight: 600;
     color: var(--text-light);
     cursor: pointer;
-    white-space: nowrap;
+    
 }
 
 th:hover {
@@ -430,7 +430,7 @@ footer {
     .action-links {
         flex-direction: column;
         font-size: 0.7rem;
-        padding: 0.7rem 1rem;
+        padding: 0.5rem 0.2rem;
     }
 
     .tab{
