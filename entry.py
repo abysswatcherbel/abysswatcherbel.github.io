@@ -29,6 +29,8 @@ freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
+
+# The Airing Period for the rank
 rank_schedule = episode_schedule.get_schedule_for_date(
     year=post_schedule.year,
     season=post_schedule.season_number,
