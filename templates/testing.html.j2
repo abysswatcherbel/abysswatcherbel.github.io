@@ -5,185 +5,59 @@
         <title>{{ airing_details.season }} Karma Ranks</title>
         <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/streaming.css') }}"> -->
         <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
-
         <style>
-            /* Style for the hover button */
-            .details {
-                position: relative;
-                /* Needed for absolute positioning of the button */
-                overflow: hidden;
-                /* Ensure button doesn't overflow */
-            }
+        /* 3.1 — kill the wedge look, use same width as left cards */
+.rightSide .details{
+    width:425px;               /* same as left */
+    height:150px;
+    clip-path:none;
+    border-radius:6px;
+    box-shadow:0 4px 14px rgba(0,0,0,.35);
+    overflow:hidden;
+    position:relative;
+    transition:transform .25s cubic-bezier(.25,.8,.25,1);
+}
+.rightSide .details:hover{transform:scale(1.06);}
 
-            .edit-button-container {
-                position: absolute;
-                bottom: 5px;
-                /* Position at the bottom */
-                left: 50%;
-                /* Center horizontally */
-                transform: translateX(-50%);
-                /* Fine-tune centering */
-                display: none;
-                /* Hide by default */
-                z-index: 10;
-                /* Ensure it's above the background */
-            }
+/* 3.2 — readability mask */
+.gradient-mask{
+    position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 100%);
+    pointer-events:none;
+}
 
-            .details:hover .edit-button-container {
-                display: block;
-                /* Show on hover */
-            }
+/* 3.3 — rank pill */
+.rank-pill{
+    position:absolute;top:6px;left:6px;
+    display:flex;align-items:center;gap:2px;
+    background:rgba(0,0,0,.65);padding:2px 6px;border-radius:4px;
+    font:700 13px "Sora",sans-serif;
+}
+.rank-pill svg.arrow{width:10px;}
 
-            .edit-button {
-                background-color: rgba(0, 0, 0, 0.7);
-                color: white;
-                border: 1px solid rgba(255, 255, 255, 0.8);
-                padding: 3px 8px;
-                border-radius: 4px;
-                font-size: 0.8em;
-                cursor: pointer;
-                transition: background-color 0.2s ease;
-            }
+/* 3.4 — bottom info‑bar */
+.info-bar{
+    position:absolute;bottom:0;left:0;right:0;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:4px 6px;font-size:0;   /* reset */
+}
+.title-wrap{display:flex;flex-direction:column;max-width:68%;}
+.title{font:700 14px/1.15 "Sora",sans-serif;text-shadow:0 0 3px #000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.episode{font:italic 11px "Sora",sans-serif;color:#ace781;}
 
-            .edit-button:hover {
-                background-color: rgba(0, 0, 0, 0.9);
-            }
+.stats{display:flex;align-items:center;gap:6px;}
+.stats .karma{font:italic 30px "Sora",sans-serif;text-shadow:0 0 3px #000;}
+.comments-bubble{
+    background:#fff;color:#335993;
+    font:700 11px "Sora",sans-serif;width:34px;height:20px;display:flex;justify-content:center;align-items:center;
+    clip-path:polygon(0 0,100% 0,100% 75%,75% 75%,75% 100%,50% 75%,0 75%);
+}
+.stats .caret{width:12px;height:12px;}
+/* inherit the existing stream‑color classes */
 
-            /* Style for the popup */
-            #image-edit-popup {
-                display: none;
-                /* Hidden by default */
-                position: absolute;
-                /* Position relative to the page or a container */
-                background-color: #f1f1f1;
-                border: 1px solid #ccc;
-                padding: 15px;
-                border-radius: 5px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                z-index: 100;
-                /* Ensure it's above other content */
-                width: 300px;
-                /* Adjust as needed */
-                font-family: sans-serif;
-                font-size: 0.9em;
-            }
-
-            #image-edit-popup label {
-                display: block;
-                margin-bottom: 5px;
-                font-weight: bold;
-            }
-
-            #image-edit-popup input[type="text"],
-            #image-edit-popup input[type="number"] {
-                width: calc(100% - 12px);
-                /* Account for padding */
-                padding: 5px;
-                margin-bottom: 10px;
-                border: 1px solid #ccc;
-                border-radius: 3px;
-            }
-
-            #image-edit-popup button {
-                background-color: #4CAF50;
-                color: white;
-                padding: 8px 12px;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                margin-right: 5px;
-                margin-top: 5px;
-            }
-
-            #image-edit-popup button:disabled {
-                background-color: #cccccc;
-                cursor: not-allowed;
-            }
-
-            #image-edit-popup button.cancel-button {
-                background-color: #f44336;
-            }
-
-            #image-edit-popup button.copy-button {
-                background-color: #007bff;
-            }
-
-            #image-edit-popup .position-controls {
-                margin-top: 15px;
-                border-top: 1px solid #ccc;
-                padding-top: 10px;
-                /* display: none; Initially hidden */
-            }
-
-            #image-edit-popup .position-controls button {
-                width: 40px;
-                height: 30px;
-                font-size: 1.2em;
-                line-height: 1;
-                margin: 2px;
-            }
-
-            .position-grid {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 130px;
-                /* Adjust as needed */
-                margin: 5px auto;
-                align-items: center;
-                justify-items: center;
-            }
-
-            .position-grid .placeholder {
-                grid-column: 2;
-                grid-row: 2;
-            }
-
-            #pos-up {
-                grid-column: 2;
-                grid-row: 1;
-            }
-
-            #pos-left {
-                grid-column: 1;
-                grid-row: 2;
-            }
-
-            #pos-right {
-                grid-column: 3;
-                grid-row: 2;
-            }
-
-            #pos-down {
-                grid-column: 2;
-                grid-row: 3;
-            }
-
-            .pos-inputs {
-                display: flex;
-                justify-content: space-around;
-                margin-top: 10px;
-            }
-
-            .pos-inputs label {
-                display: inline-block;
-                margin-bottom: 0;
-                margin-right: 5px;
-            }
-
-            .pos-inputs input {
-                width: 60px;
-                margin-bottom: 0;
-            }
-
-            #copy-feedback {
-                display: inline-block;
-                margin-left: 10px;
-                font-style: italic;
-                color: green;
-            }
-        </style>
+            </style>
     </head>
 
     <body>
@@ -353,12 +227,9 @@
                             {{ rank_change_indicator(left.rank_change) }}
                         </div>
 
-                        <div class="details" data-editable="true"
+                        <div class="details"
                             style="background-image: url({{get_banner(left)}}); background-position: 0px 0px;">
                             <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
-                            <div class="edit-button-container">
-                                <button class="edit-button">Edit</button>
-                            </div>
                             <div class="part-1">
                                 <span class="karma-change"
                                     style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">{{
@@ -415,38 +286,35 @@
                     {# Right Entry #}
                     {% if right %}
                     <div class="karma-entry rightSide">
-                        <div class="details rightBanner" data-editable="true"
-                            style="background-image: url('{{ get_banner(right) }}'); background-position: 0px 0px;">
-                            <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
-                            <div class="edit-button-container">
-                                <button class="edit-button">Edit</button>
+                        <div class="details" style="background-image:url('{{ get_banner(right) }}');">
+                            <a class="external-link" href="{{ right.images.large }}" target="_blank"></a>
+                    
+                            {# dark gradient for readability #}
+                            <div class="gradient-mask"></div>
+                    
+                            {# top‑left rank badge #}
+                            <div class="rank-pill">
+                                <span class="rank-num">{{ right.current_rank }}</span>
+                                {{ rank_change_indicator(right.rank_change, true) }}
                             </div>
-                            <div class="part-2">
-                                <span class="title rightTitle">{{ get_title(right) }}</span>
-                                <span class="karma rightKarma">{{ right.karma }}</span>
-                                <div class="rightContainer">
-                                    <span class="{{ right.streams.name | capitalize }}-logo">{{ right.streams.name |
-                                        capitalize}}</span>
-                                    <div class="details-container">
-                                        <div class="comments-wrapper"
-                                            style="filter: drop-shadow(3px 1px 1px rgba(0, 0, 0, 0.8));">
-                                            <div class="right-comments"><span>{{ right.comments }}</span></div>
-                                        </div>
-                                        <span class="rightEpisode">E {{ right.episode | int }}</span>
-                                        <span class="karma-change rightChange"
-                                            style="display: {% if right.karma_change == 0 %}none{% else %}flex{% endif %};{% if right.karma_change > 0 %}color: rgb(252, 103, 43);{% else %}color: rgb(146, 108, 202);{% endif %}">
-                                            {{ karma_change_indicator(right.karma_change) }}
-                                        </span>
-                                        <div class="right-ranking">
-                                            {{ rank_change_indicator(right.rank_change, true) }}
-                                        </div>
-                                    </div>
-
-                                    <div class="rightRank"><span>{{ right.current_rank }}</span></div>
+                    
+                            {# bottom info‑bar #}
+                            <div class="info-bar">
+                                <div class="title-wrap">
+                                    <span class="title">{{ get_title(right) }}</span>
+                                    <span class="episode">E{{ right.episode|int }}</span>
+                                </div>
+                    
+                                <div class="stats">
+                                    <span class="karma">{{ right.karma }}</span>
+                                    <span class="comments-bubble">{{ right.comments }}</span>
+                                    {{ karma_change_indicator(right.karma_change) }}
+                                    <span class="stream {{ right.streams.name|capitalize }}-logo">
+                                        {{ right.streams.name|capitalize }}
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="details-2 rightDetails2" style="min-height: 1px;"> </div>
                     </div>
                     {% endif %}
                 </div>
@@ -454,219 +322,6 @@
                 {% endfor %}
             </div>
         </div>
-
-        <div id="image-edit-popup">
-            <label for="new-image-url">New Image URL:</label>
-            <input type="text" id="new-image-url" placeholder="https://...">
-            <button id="update-image-url">Update URL</button>
-
-            <div class="position-controls" id="position-controls">
-                <p style="text-align: center; margin-bottom: 5px;">Adjust Position (Step: <span
-                        id="step-value">5</span>px)</p>
-                <div class="position-grid">
-                    <button id="pos-up">▲</button>
-                    <button id="pos-left">◀</button>
-                    <div class="placeholder"></div> <button id="pos-right">▶</button>
-                    <button id="pos-down">▼</button>
-                </div>
-                <div class="pos-inputs">
-                    <div>
-                        <label for="pos-x">X:</label>
-                        <input type="number" id="pos-x" step="1">px
-                    </div>
-                    <div>
-                        <label for="pos-y">Y:</label>
-                        <input type="number" id="pos-y" step="1">px
-                    </div>
-                </div>
-            </div>
-
-            <hr style="margin: 15px 0;">
-
-            <button id="copy-style" class="copy-button" disabled>Copy Style</button>
-            <span id="copy-feedback"></span>
-            <button id="close-popup" class="cancel-button" style="float: right;">Close</button>
-        </div>
-
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const popup = document.getElementById('image-edit-popup');
-                const newImageUrlInput = document.getElementById('new-image-url');
-                const updateImageUrlButton = document.getElementById('update-image-url');
-                const positionControlsDiv = document.getElementById('position-controls');
-                const copyStyleButton = document.getElementById('copy-style');
-                const copyFeedback = document.getElementById('copy-feedback');
-                const closePopupButton = document.getElementById('close-popup');
-                const posXInput = document.getElementById('pos-x');
-                const posYInput = document.getElementById('pos-y');
-                const posUpButton = document.getElementById('pos-up');
-                const posDownButton = document.getElementById('pos-down');
-                const posLeftButton = document.getElementById('pos-left');
-                const posRightButton = document.getElementById('pos-right');
-                const stepValueSpan = document.getElementById('step-value');
-
-                let currentlyEditingElement = null;
-                let currentPosX = 0;
-                let currentPosY = 0;
-                const positionStep = 5; // Pixels to move per button click
-                stepValueSpan.textContent = positionStep; // Display step value
-
-                // Function to parse background position
-                function parseBackgroundPosition(element) {
-                    const pos = element.style.backgroundPosition || '0px 0px';
-                    const parts = pos.match(/(-?\d+)(px)?\s+(-?\d+)(px)?/);
-                    if (parts) {
-                        return { x: parseInt(parts[1], 10), y: parseInt(parts[3], 10) };
-                    }
-                    return { x: 0, y: 0 };
-                }
-
-                // Function to parse background image URL
-                function parseBackgroundImageUrl(element) {
-                    const style = element.style.backgroundImage || '';
-                    // Match url("...") or url(...)
-                    const match = style.match(/url\(['"]?([^'"]+)['"]?\)/);
-                    return match ? match[1] : '';
-                }
-
-                // Function to update background position
-                function updatePosition(element, x, y) {
-                    currentPosX = x;
-                    currentPosY = y;
-                    element.style.backgroundPosition = `${x}px ${y}px`;
-                    posXInput.value = x;
-                    posYInput.value = y;
-                    copyStyleButton.disabled = false; // Enable copy once position is set/updated
-                }
-
-                // Add event listeners to all potential edit buttons
-                document.querySelectorAll('.edit-button').forEach(button => {
-                    button.addEventListener('click', (event) => {
-                        event.stopPropagation(); // Prevent triggering other clicks if needed
-                        const detailsDiv = event.target.closest('.details[data-editable="true"]');
-                        if (!detailsDiv) return;
-
-                        currentlyEditingElement = detailsDiv;
-
-                        // Get current values
-                        const currentUrl = parseBackgroundImageUrl(currentlyEditingElement);
-                        const pos = parseBackgroundPosition(currentlyEditingElement);
-                        currentPosX = pos.x;
-                        currentPosY = pos.y;
-
-                        // Populate popup
-                        newImageUrlInput.value = currentUrl;
-                        posXInput.value = currentPosX;
-                        posYInput.value = currentPosY;
-
-                        // Show position controls and enable copy button immediately if URL exists
-                        if (currentUrl) {
-                            // positionControlsDiv.style.display = 'block'; // Show position controls
-                            copyStyleButton.disabled = false;
-                        } else {
-                            // positionControlsDiv.style.display = 'none'; // Hide if no URL initially
-                            copyStyleButton.disabled = true;
-                        }
-
-
-                        // Position and show popup below the .karma-entry
-                        const karmaEntry = detailsDiv.closest('.karma-entry');
-                        const rect = karmaEntry.getBoundingClientRect();
-                        popup.style.top = `${window.scrollY + rect.bottom + 10}px`; // Below the element + 10px margin
-                        popup.style.left = `${rect.left + (rect.width / 2) - (popup.offsetWidth / 2)}px`; // Centered below
-                        popup.style.display = 'block';
-                        copyFeedback.textContent = ''; // Clear previous feedback
-
-                        // Ensure popup stays within viewport horizontally
-                        const popupRect = popup.getBoundingClientRect();
-                        if (popupRect.right > window.innerWidth - 10) {
-                            popup.style.left = `${window.innerWidth - popup.offsetWidth - 10}px`;
-                        }
-                        if (popupRect.left < 10) {
-                            popup.style.left = '10px';
-                        }
-
-                    });
-                });
-
-                // Update Image URL Button
-                updateImageUrlButton.addEventListener('click', () => {
-                    if (!currentlyEditingElement || !newImageUrlInput.value) return;
-                    const newUrl = newImageUrlInput.value.trim();
-                    if (newUrl) {
-                        currentlyEditingElement.style.backgroundImage = `url('${newUrl}')`;
-                        // positionControlsDiv.style.display = 'block'; // Show position controls after URL is set
-                        copyStyleButton.disabled = false; // Enable copy
-                    }
-                });
-
-                // Manual Position Input Change
-                posXInput.addEventListener('change', () => {
-                    if (!currentlyEditingElement) return;
-                    updatePosition(currentlyEditingElement, parseInt(posXInput.value, 10) || 0, currentPosY);
-                });
-                posYInput.addEventListener('change', () => {
-                    if (!currentlyEditingElement) return;
-                    updatePosition(currentlyEditingElement, currentPosX, parseInt(posYInput.value, 10) || 0);
-                });
-
-                // Position Adjustment Buttons
-                posUpButton.addEventListener('click', () => {
-                    if (!currentlyEditingElement) return;
-                    updatePosition(currentlyEditingElement, currentPosX, currentPosY - positionStep);
-                });
-                posDownButton.addEventListener('click', () => {
-                    if (!currentlyEditingElement) return;
-                    updatePosition(currentlyEditingElement, currentPosX, currentPosY + positionStep);
-                });
-                posLeftButton.addEventListener('click', () => {
-                    if (!currentlyEditingElement) return;
-                    updatePosition(currentlyEditingElement, currentPosX - positionStep, currentPosY);
-                });
-                posRightButton.addEventListener('click', () => {
-                    if (!currentlyEditingElement) return;
-                    updatePosition(currentlyEditingElement, currentPosX + positionStep, currentPosY);
-                });
-
-
-                // Copy Style Button
-                copyStyleButton.addEventListener('click', async () => {
-                    if (!currentlyEditingElement) return;
-
-                    const imageUrl = currentlyEditingElement.style.backgroundImage;
-                    const imagePos = currentlyEditingElement.style.backgroundPosition || '0px 0px'; // Default if not set yet
-                    const styleString = `background-image: ${imageUrl}; background-position: ${imagePos};`;
-
-                    try {
-                        await navigator.clipboard.writeText(styleString);
-                        copyFeedback.textContent = 'Copied!';
-                        // Optionally hide the feedback message after a few seconds
-                        setTimeout(() => { copyFeedback.textContent = ''; }, 2000);
-                    } catch (err) {
-                        console.error('Failed to copy: ', err);
-                        copyFeedback.textContent = 'Failed!';
-                        setTimeout(() => { copyFeedback.textContent = ''; }, 2000);
-                    }
-                });
-
-                // Close Popup Button
-                closePopupButton.addEventListener('click', () => {
-                    popup.style.display = 'none';
-                    currentlyEditingElement = null; // Clear the reference
-                });
-
-                // Optional: Close popup if clicked outside
-                document.addEventListener('click', (event) => {
-                    if (popup.style.display === 'block' && !popup.contains(event.target) && !event.target.classList.contains('edit-button')) {
-                        // Check if the click was outside the popup and not on an edit button
-                        popup.style.display = 'none';
-                        currentlyEditingElement = null;
-                    }
-                });
-
-            });
-        </script>
-
     </body>
 
 </html>
