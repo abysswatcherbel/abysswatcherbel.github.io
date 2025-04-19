@@ -35,7 +35,10 @@
     },
     "num_episodes": 6,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV2X9/lycoris-recoil"
+    },
     "title": "Lycoris Recoil: Friends Are Thieves of Time.",
     "title_english": "Lycoris Recoil Short Movie",
     "episode": "1",
@@ -174,7 +177,10 @@
     "title_english": "Apocalypse Hotel",
     "num_episodes": 0,
     "score": 7.26,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GXJHM3G58/apocalypse-hotel"
+    },
     "episode": "2",
     "karma": 862,
     "comments": 199,
@@ -224,7 +230,10 @@
     },
     "num_episodes": 0,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "disney",
+      "url": "https://www.disneyplus.com/browse/entity-f3a712f6-b358-4b21-b28a-221f23e0eb48"
+    },
     "title": "Sentai Daishikkaku 2nd Season",
     "title_english": "Go! Go! Loser Ranger! Season 2",
     "episode": "1",
@@ -469,7 +478,10 @@
     },
     "num_episodes": 0,
     "score": 8.1,
-    "streams": null,
+    "streams": {
+      "name": "prime",
+      "url": "https://www.amazon.com/Umamusume-Cinderella-Gray/dp/B0F2XJDWNT"
+    },
     "title": "Uma Musume: Cinderella Gray",
     "title_english": "Uma Musume: Cinderella Gray",
     "episode": "2",
@@ -741,7 +753,10 @@
     },
     "num_episodes": 0,
     "score": 6.95,
-    "streams": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GJ0H7QG3M/the-gorilla-gods-go-to-girl"
+    },
     "title": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
     "title_english": "The Gorilla God's Go-To Girl",
     "episode": "2",
