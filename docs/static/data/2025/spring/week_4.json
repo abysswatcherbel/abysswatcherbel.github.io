@@ -53,6 +53,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1538/147930l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1538/147930.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.45,
+    "streams": null,
+    "title": "Bye Bye, Earth 2nd Season",
+    "title_english": "Bye Bye, Earth Season 2",
+    "episode": "3",
+    "karma": 60,
+    "comments": 27,
+    "week_id": 4,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k26emx/bye_bye_earth_season_2_episode_3_discussion/",
+    "mal_id": 59819,
+    "current_rank": 3,
+    "karma_change": -6,
+    "rank_change": 44,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -70,7 +94,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k1zay2/beyblade_x_episode_76_discussion/",
     "mal_id": 56566,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
