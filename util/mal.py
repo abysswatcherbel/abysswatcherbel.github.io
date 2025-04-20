@@ -273,4 +273,14 @@ class MalClient:
         except PyMongoError as e:
             logger.error(f"Error fetching unique IDs from MongoDB: {e}")
             return []
-            
+    
+    def update_seasonals_score(self, season: str, collection: Collection = None) -> None:
+        if collection is None:
+            client = MongoClient(os.getenv('MONGO_URI'))
+            collection = client.anime.seasonals
+
+        unique_ids = self.fetch_unique_ids(season, collection)
+        for mal_id in unique_ids:
+            self.update_score(mal_id, collection)
+            time.sleep(0.5)
+        logger.info("Updated scores for all entries in the season.")
