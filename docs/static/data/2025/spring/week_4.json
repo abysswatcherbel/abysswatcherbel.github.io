@@ -159,6 +159,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1306/145571l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1306/145571.jpg"
+    },
+    "num_episodes": 25,
+    "score": 6.53,
+    "streams": null,
+    "title": "Touhai: Ura Rate Mahjong Touhairoku",
+    "title_english": "Touhai: Ura Rate Mahjong Touhairoku",
+    "episode": "25",
+    "karma": 16,
+    "comments": 12,
+    "week_id": 4,
+    "studio": [
+      "East Fish Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k2bjlo/tohai_ura_rate_mahjong_tohai_roku_episode_25/",
+    "mal_id": 57796,
+    "current_rank": 7,
+    "karma_change": 2,
+    "rank_change": 48,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -176,7 +200,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k1zay2/beyblade_x_episode_76_discussion/",
     "mal_id": 56566,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
