@@ -156,11 +156,7 @@
             {% endmacro %}
 
             {% macro get_banner(entry) %}
-            {% if entry.banner %}
-            {{entry.banner.url}}
-            {% else %}
-            {{entry.images.large}}
-            {% endif %}
+            {% if entry.banner %}'{{entry.banner}}'{% else %}{{entry.images.large}}{% endif %}
             {% endmacro %}
             
 

@@ -93,6 +93,7 @@ def get_weekly_change(schedule: SeasonScheduler):
                         "url": f"${reddit_karma}.url",
                         "mal_id": "$id",
                         "num_episodes": 1,
+                        "banner": 1,
                     }
                 },
             ]

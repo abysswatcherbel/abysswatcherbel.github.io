@@ -843,6 +843,7 @@ def get_active_posts(
                             "mal_id": "$id",
                             "images": 1,
                             "broadcast": 1,
+                            
                         },
                     )
 
