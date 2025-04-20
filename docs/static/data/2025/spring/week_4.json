@@ -1,6 +1,58 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.37,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV0D8/can-a-boy-girl-friendship-survive",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
+    "title_english": "Can a Boy-Girl Friendship Survive?",
+    "episode": "3",
+    "karma": 591,
+    "comments": 390,
+    "week_id": 4,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k252aq/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
+    "mal_id": 52709,
+    "current_rank": 1,
+    "karma_change": 44,
+    "rank_change": 17,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1883/144526l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1883/144526.jpg"
+    },
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "title": "Project Sekai Movie: Kowareta Sekai to Utaenai Miku",
+    "title_english": "Colorful Stage! The Movie: A Miku Who Can't Sing",
+    "episode": "",
+    "karma": 101,
+    "comments": 34,
+    "week_id": 4,
+    "studio": [
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k24q7i/project_sekai_movie_kowareta_sekai_to_utaenai/",
+    "mal_id": 59419,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -18,7 +70,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k1zay2/beyblade_x_episode_76_discussion/",
     "mal_id": 56566,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
