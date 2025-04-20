@@ -444,6 +444,7 @@ body>div>div.legend>div:nth-child(5)>div {
 /* Additional details section */
 .karma-entry .details-2 {
     display: flex;
+    margin-left: 0.5rem;
 }
 
 .karma-entry .details-2>* {
