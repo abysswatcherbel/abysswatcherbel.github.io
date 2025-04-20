@@ -156,9 +156,8 @@
             {% endmacro %}
 
             {% macro get_banner(entry) %}
-            {% if entry.banner %}'{{entry.banner}}'{% else %}{{entry.images.large}}{% endif %}
+            {% if entry.banner %}'{{entry.banner}}{% else %}{{entry.images.large}}{% endif %}
             {% endmacro %}
-            
 
             {# Episode Container #}
             <div class="episode-container">
@@ -177,8 +176,7 @@
                             <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
                             <div class="part-1">
                                 <span class="karma-change"
-                                    style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">{{ karma_change_indicator(left.karma_change) }}
-                                </span>
+                                    style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">{{karma_change_indicator(left.karma_change)}}</span>
                                 <span class="karma">{{ left.karma }}</span>
                             </div>
                             <div class="part-2">

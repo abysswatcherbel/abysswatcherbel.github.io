@@ -233,21 +233,21 @@ body {
     }
     
     .karma-entry .ranking .rank {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 3px;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 3px;
     }
     .karma-entry .ranking .rank-change {
-    font-weight: bold;
-    font-size: 20px;
+        font-weight: bold;
+        font-size: 20px;
     }
     .karma-entry .ranking .rank-change.new-entry {
-    line-height: 0.7;
-    font-size: 25px;
+        line-height: 0.7;
+        font-size: 25px;
     }
     .karma-entry .ranking .rank-change svg.arrow {
-    width: 15px;
-    margin-right: 2px;
+        width: 15px;
+        margin-right: 2px;
     }
     .karma-entry .details {
         width: 425px;
@@ -258,6 +258,7 @@ body {
         background-position: center;
         height: 100%;
         position: relative;
+        drop-shadow(2px 4px 6px black);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         
     }
@@ -267,7 +268,6 @@ body {
         transform: scale(1.3);
         z-index: 99;
         background-position: 0px 0px;
-        
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds depth */
         
     }
@@ -603,38 +603,8 @@ body {
         flex-direction: row-reverse;
         align-content: space-between;
     }
-    .username::first-letter {
-        color: #1da1f2; /* Color for the first letter */
-    }
+   
 
-    .username:before{
-        content:'@';
-        color: #1da1f2;
-      }
-
-    .username  {
-        color: black !important;
-        background-color: white !important;
-        border-radius: 100px !important;
-        font-size: 13px !important;
-        font-weight: bold !important;
-        padding: 4px 7px !important; 
-    } 
-
-    .rightUsername::first-letter {
-        color: #1da1f2; /* Color for the first letter */
-    }
-
-    .rightUsername:before{
-        content:'@';
-        color: #1da1f2;
-      }
-
-    .rightUsername {
-        color: black !important;
-        font-size: 12px !important;
-        font-weight: bold !important;
-    }
     .rightEntry{
         margin: 0 0 2px auto;
         display: flex;

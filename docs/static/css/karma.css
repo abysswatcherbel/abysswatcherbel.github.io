@@ -363,12 +363,13 @@ body>div>div.legend>div:nth-child(5)>div {
 
 .karma-entry .details .part-1 .karma-change {
     display: flex;
-    position: relative;
-    font-weight: bold;
+    position: absolute;
+    font-weight: 500;
     font-style: italic;
     font-size: 20px;
     line-height: 1;
-    text-shadow: 0.75px 0 0.8px black, 0 0.75px 0.8px black, -0.75px 0 0.8px black, 0 -0.75px 0.8px black;
+    background: rgba(0,0,0,0.65);
+    /* text-shadow: 0.75px 0 0.8px black, 0 0.75px 0.8px black, -0.75px 0 0.8px black, 0 -0.75px 0.8px black; */
 }
 
 .karma-entry .details .part-1 .karma-change .caret {
