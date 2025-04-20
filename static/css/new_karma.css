@@ -258,7 +258,7 @@ body {
         background-position: center;
         height: 100%;
         position: relative;
-        drop-shadow(2px 4px 6px black);
+        filter: drop-shadow(2px 4px 6px black);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         
     }

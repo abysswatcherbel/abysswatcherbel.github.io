@@ -143,8 +143,7 @@
                         </path>
                     </g>
                 </g>
-            </svg>
-            {{ change | int | abs }}
+            </svg>{{ change | int | abs }}
             {% endmacro %}
 
             {% macro get_title(entry) %}
@@ -156,7 +155,7 @@
             {% endmacro %}
 
             {% macro get_banner(entry) %}
-            {% if entry.banner %}'{{entry.banner}}{% else %}{{entry.images.large}}{% endif %}
+            {% if entry.banner %}{{entry.banner}}{% else %}{{entry.images.large}}{% endif %}
             {% endmacro %}
 
             {# Episode Container #}
