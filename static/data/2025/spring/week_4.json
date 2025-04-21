@@ -30,6 +30,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1097/148302l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1097/148302.jpg"
+    },
+    "num_episodes": 13,
+    "score": 7.79,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GZJH3D8K1/kowloon-generic-romance",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kowloon Generic Romance",
+    "title_english": "Kowloon Generic Romance",
+    "episode": "3",
+    "karma": 1277,
+    "comments": 205,
+    "week_id": 4,
+    "studio": [
+      "Arvo Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k2xm9i/kowloon_generic_romance_episode_3_discussion/",
+    "mal_id": 60083,
+    "current_rank": 2,
+    "karma_change": -4,
+    "rank_change": 3,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
@@ -51,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2ajnf/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -126,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -80,9 +108,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k252aq/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 44,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -108,9 +136,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2w571/anne_shirley_episode_3_discussion/",
     "mal_id": 60334,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 60,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -136,9 +164,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2vsuv/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
     "mal_id": 50738,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -61,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -163,9 +191,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2sih2/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -81,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "spring"
   },
   {
@@ -187,9 +215,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2mpre/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -30,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -211,9 +239,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k28geo/teogonia_episode_2_discussion/",
     "mal_id": 58614,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "spring"
   },
   {
@@ -235,9 +263,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k24q7i/project_sekai_movie_kowareta_sekai_to_utaenai/",
     "mal_id": 59419,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1199/147623l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1199/147623.jpg"
+    },
+    "num_episodes": 0,
+    "score": 5.88,
+    "streams": null,
+    "title": "Guilty Gear Strive: Dual Rulers",
+    "title_english": "Guilty Gear Strive: Dual Rulers",
+    "episode": "3",
+    "karma": 72,
+    "comments": 26,
+    "week_id": 4,
+    "studio": [
+      "SANZIGEN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k2wzfn/guilty_gear_strive_dual_rulers_episode_3/",
+    "mal_id": 59070,
+    "current_rank": 11,
+    "karma_change": -41,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -259,9 +311,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k26emx/bye_bye_earth_season_2_episode_3_discussion/",
     "mal_id": 59819,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -6,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -283,9 +335,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2q0wg/pok\u00e9mon_horizons_the_series_episode_92_discussion/",
     "mal_id": 53876,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -11,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -307,9 +359,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2bjlo/tohai_ura_rate_mahjong_tohai_roku_episode_25/",
     "mal_id": 57796,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 43,
+    "rank_change": 41,
     "season": "spring"
   },
   {
@@ -331,9 +383,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2u6cm/meitantei_conan_case_closed_episode_1159/",
     "mal_id": 235,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": 3,
-    "rank_change": 45,
+    "rank_change": 43,
     "season": "spring"
   },
   {
@@ -355,7 +407,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k1zay2/beyblade_x_episode_76_discussion/",
     "mal_id": 56566,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -384,9 +436,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2i4xk/cardfight_vanguard_divinez_deluxehen_episode_13/",
     "mal_id": 54144,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": -1,
-    "rank_change": 46,
+    "rank_change": 44,
     "season": "spring"
   }
 ]
