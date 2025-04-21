@@ -204,5 +204,34 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1022/146945l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1022/146945.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.95,
+    "streams": {
+      "name": "youtube",
+      "url": "https://www.youtube.com/playlist?list=PLZaz0lCoygoyg34cbrbAPlAYfwswfs70F"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Deluxe-hen",
+    "episode": "13",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [
+      "Kinema Citrus",
+      "GIFTanimation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k2i4xk/cardfight_vanguard_divinez_deluxehen_episode_13/",
+    "mal_id": 54144,
+    "current_rank": 9,
+    "karma_change": -1,
+    "rank_change": 52,
+    "season": "spring"
   }
 ]
