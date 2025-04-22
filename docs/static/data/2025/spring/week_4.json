@@ -629,6 +629,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 5.96,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "3",
+    "karma": 10,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k3gyei/everyday_host_episode_3_discussion/",
+    "mal_id": 60535,
+    "current_rank": 25,
+    "karma_change": -1,
+    "rank_change": 32,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -646,7 +670,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k1zay2/beyblade_x_episode_76_discussion/",
     "mal_id": 56566,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -675,9 +699,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k2i4xk/cardfight_vanguard_divinez_deluxehen_episode_13/",
     "mal_id": 54144,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -1,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "spring"
   }
 ]
