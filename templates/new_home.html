@@ -134,6 +134,7 @@
                                     <th>Anime</th>
                                     <th>Karma</th>
                                     <th>Comments</th>
+                                    <th>Ratio Comments/Karma</th>
                                     <th>Links</th>
                                 </tr>
                             </thead>
@@ -173,7 +174,15 @@
                                         {%endif%}
 
                                     </td>
+                                    
                                     <td class="comments">{{ show.comments }}</td>
+                                    <td>
+                                        {% if show.karma != 0 %}
+                                        <span class="ratio">{{ "%.2f"|format(show.comments / show.karma) }}</span>
+                                        {% else %}
+                                        <span class="ratio">N/A</span>
+                                        {% endif %}
+                                    </td>
                                     <td>
                                         <div class="action-links">
                                             <a href="{{ show.reddit_url }}" target="_blank" alt="Reddit Discussion" class="action-link reddit-link">
