@@ -13,24 +13,31 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
 }
-.credits{
-    height: 20%;
-    display: flex;
-    width: 93.1%;
+.credits {
+    height: 100%;
     flex-wrap: nowrap;
-    background-color: var(--dark-bg);
+    background-color: #1a2a6c;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    /* gap: 5px; */
     margin-top: auto;
     margin-bottom: auto;
+    /* filter: drop-shadow(2px 4px 6px black); */
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    display: flex;
 }
-.subsubheader{
-    
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
+.subsubheader {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    gap: 1px;
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
 }
+
 .snoo {
     height: 100%;
 }
@@ -48,35 +55,35 @@
 .header .airing-period {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--dark-bg);
+    background-color: #1a2a6c;
     font-size: 11px;
     font-weight: bold;
     font-style: italic;
-    padding: 3px 6px;
+    padding: 2px 5px;
     border-radius: 100px;
     justify-content: center;
-   
 }
 .legend {
     display: flex;
     flex-direction: row;
-    height: 60%;
+    gap: 25px;
+    margin-bottom: 5px;
 }
 .legend>div {
     display: flex;
     text-transform: uppercase;
     font-style: italic;
-    font-size: 9px;
+    font-size: 6px;
     font-weight: bold;
-    gap: 5px;
+    gap: 3px;
     align-items: center;
 }
 .legend .icon {
     font-style: normal;
     display: flex;
     margin: auto;
-    font-size: 12px;
-    height: 11px;
+    font-size: 9px;
+    height: 9px;
     width: auto;
 }
 
@@ -146,19 +153,6 @@
 }
 
 
-
-
-/* Comment bubble shape in legend
-body>div>div.legend>div:nth-child(5)>div {
-    background-color: #ffffff;
-    margin-right: 5px;
-    font-style: normal;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-} */
-
 /* Divider section */
 .container>.divider {
     width: 100%;
@@ -174,18 +168,17 @@ body>div>div.legend>div:nth-child(5)>div {
     flex-wrap: nowrap;
 }
 
- .total-karma {
-    
-    width: 8%;
+.total-karma {
+    width: 10%;
     background-color: var(--light-text);
     display: flex;
-    align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
     clip-path: polygon(29% 0, 100% 0%, 100% 100%, 0 100%);
+    justify-content: flex-end;
+    align-content: space-around;
 }
 
 .total-karma .text-container>span {
@@ -197,7 +190,7 @@ body>div>div.legend>div:nth-child(5)>div {
  .total-karma .text-container {
     margin-top: 0px;
     color: var(--secondary-bg);
-    margin-right: 2px;
+    margin-right: 5px;
 }
 
 .credits .pill {
