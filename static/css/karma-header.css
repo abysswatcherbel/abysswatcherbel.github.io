@@ -182,7 +182,7 @@
 }
 
 .total-karma .text-container>span {
-    color: var(--poll-blue);
+    color: var(--spring-text);
     margin-top: auto;
     margin-bottom: auto;
 }
