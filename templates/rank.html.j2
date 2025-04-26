@@ -24,16 +24,16 @@
                         <div class="legend">
                             <div>
                                 <div class="icon" >
-                                    <img class="arrow positive" src="{{ url_for('static', filename='assets/svg/arrow-up.svg') }}" alt="Rank Up">
-                                    <img class="arrow negative" src="{{ url_for('static', filename='assets/svg/arrow-down.svg') }}" alt="Rank Down">
+                                    <img  src="{{ url_for('static', filename='assets/svg/arrow-up.svg') }}" alt="Rank Up">
+                                    <img  src="{{ url_for('static', filename='assets/svg/arrow-down.svg') }}" alt="Rank Down">
                                 </div>
                                 <span>Rank change</span>
                             </div>
                             <div>
                                 <div class="icon" >
-                                    <img class="caret caret-up" src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
+                                    <img  src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
                                         alt="Caret Up">
-                                    <img class="caret caret-down" src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}"
+                                    <img src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}"
                                         alt="Caret Down">
                                 </div>
                                 <span>Karma change</span>
@@ -43,7 +43,8 @@
                                 <span>Myanimelist score</span>
                             </div>
                             <div>
-                                <div class="icon" style="color: #4f7dc0"><span> </span></div>
+                                <span
+                                    style="clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);width: 13px;height: 12px;background-color: white;"></span>
                                 <span>No.of Comments </span>
                             </div>
                         </div>
@@ -148,7 +149,7 @@
                             <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
                             <div class="part-1">
                                 <span class="karma-change"
-                                    style="display: {% if left.karma_change == 0 %}none{% else %}initial{% endif %};">{{karma_change_indicator(left.karma_change)}}</span>
+                                    style="display: {% if left.karma_change == 0 %}none{% else %}flex{% endif %};">{{karma_change_indicator(left.karma_change)}}</span>
                                 <span class="karma">{{ left.karma }}</span>
                             </div>
                             <div class="part-2">
@@ -202,9 +203,7 @@
                         <div class="details rightBanner"
                             style="background-image: url('{{ right.images.large }}'); background-position: 0px 0px;">
                             <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
-                           <!-- <div class="part-1">
-                                <span class="karma rightKarma">{{ right.karma }}</span> 
-                            </div> -->
+                           
                             <div class="part-2">
                                 <span class="title rightTitle">{{ get_title(right) }}</span>
                                 <span class="karma rightKarma">{{ right.karma }}</span>

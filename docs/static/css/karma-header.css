@@ -13,7 +13,7 @@
     margin-bottom: auto;
 }
 .credits{
-    height: 25%;
+    height: 20%;
     display: flex;
     width: 93.1%;
     flex-wrap: nowrap;
@@ -25,7 +25,7 @@
     margin-bottom: auto;
 }
 .subsubheader{
-    padding: 2px 4px;
+    
     display: flex;
     gap: 2px;
     flex-direction: column;
@@ -41,6 +41,7 @@
     display: flex;
     font-style: italic;
     margin: auto;
+    margin-left: 10px;
 }
 
 /* Subsubheader */
@@ -68,12 +69,15 @@
     font-size: 9px;
     font-weight: bold;
     gap: 5px;
+    align-items: center;
 }
 .legend .icon {
     font-style: normal;
     display: flex;
     margin: auto;
-    font-size: 9px;
+    font-size: 12px;
+    height: 11px;
+    width: auto;
 }
 
 .week-container {
@@ -181,7 +185,7 @@ body>div>div.legend>div:nth-child(5)>div {
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
+    clip-path: polygon(29% 0, 100% 0%, 100% 100%, 0 100%);
 }
 
 .total-karma .text-container>span {
@@ -192,11 +196,13 @@ body>div>div.legend>div:nth-child(5)>div {
 
  .total-karma .text-container {
     margin-top: 0px;
+    color: var(--secondary-bg);
+    margin-right: 2px;
 }
 
 .credits .pill {
 
-    font-size: 8px;
+    font-size: 7px;
     font-style: italic;
     font-weight: bold;
     border-radius: 100px;

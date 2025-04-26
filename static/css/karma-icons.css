@@ -38,20 +38,28 @@ span[class="rank-change neutral"] {
     background-size: contain;
 }
 
-/* .caret-up {
+.caret-up {
     fill: var(--positive-color);
     transform: rotate(180deg);
 }
 
 .caret-down {
     fill: var(--negative-color);
-} */
-
-.arrow.positive {
-    fill: var(--positive-color);
 }
 
-.arrow.negative {
-    fill: var(--negative-color);
+.arrow {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+svg.arrow.positive {
+    fill: #fc672b;
+}
+
+svg.arrow.negative {
+    fill: #926cca;
     transform: rotate(180deg);
 }
