@@ -13,53 +13,51 @@
         <div class="container">
             {# Header Section #}
             <div class="header">
-                <div class="airing-period">{{ airing_details.airing_period }}</div>
-                <div class="main-title">
-                    <span>/r/anime weekly engagement ranking &amp; discussion</span>
-                </div>
+                <div class="subheader">
+                    <img class="snoo" src="{{ url_for('static', filename='assets/snoo_ranime.png') }}" alt="Snoo" loading="lazy">
+                    <div class="main-title">
+                        <span>/r/anime weekly engagement ranking &amp; discussion</span>
+                    </div>
+                    <div class="subsubheader">
+                        <div class="airing-period">{{ airing_details.airing_period }}</div>
+                        {# Legend Section #}
+                        <div class="legend">
+                            <div>
+                                <div class="icon" >
+                                    <svg class="arrow positive" viewBox="0 0 117.7 110">
+                                        <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                                    </svg>
+                                    <svg class="arrow negative" viewBox="0 0 117.7 110">
+                                        <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                                    </svg>
+                                </div>
+                                <span>Rank change</span>
+                            </div>
+                            <div>
+                                <div class="icon" >
+                                    <img class="caret caret-up" src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
+                                        alt="Caret Up">
+                                    <img class="caret caret-down" src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}"
+                                        alt="Caret Down">
+                                </div>
+                                <span>Karma change</span>
+                            </div>
+                            <div>
+                                <div class="icon" style="color: rgb(252, 103, 43);"><span>M</span></div>
+                                <span>Myanimelist score</span>
+                            </div>
+                            <div>
+                                <div class="icon" style="color: #4f7dc0"><span> </span></div>
+                                <span>No. of Comments </span>
+                            </div>
+                        </div>
+                    </div>
+                
                 <div class="week-container">
                     <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
                     <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
                 </div>
             </div>
-
-            <img class="snoo" src="{{ url_for('static', filename='assets/snoo_ranime.png') }}" alt="Snoo"
-                loading="lazy">
-
-            {# Legend Section #}
-            <div class="legend">
-                <div>
-                    <div class="icon" style="background-color: transparent; width: unset">
-                        <svg class="arrow positive" viewBox="0 0 117.7 110">
-                            <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
-                        </svg>
-                        <svg class="arrow negative" viewBox="0 0 117.7 110">
-                            <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
-                        </svg>
-                    </div>
-                    <span>Rank change</span>
-                </div>
-                <div>
-                    <div class="icon" style="background-color: transparent; width: unset">
-                        <img class="caret caret-up" src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}" alt="Caret Up">
-                        <img class="caret caret-down" src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}" alt="Caret Down">
-                    </div>
-                    <span>Karma change</span>
-                </div>
-                <div>
-                    <div class="icon" style="color: rgb(252, 103, 43);"><span>M</span></div>
-                    <span>Myanimelist score</span>
-                </div>
-                <div style="display: none;">
-                    <div class="icon" style="color: rgb(252, 103, 43);"><span>R</span></div>
-                    <span>Redditanimelist score</span>
-                </div>
-                <div>
-                    <div class="icon" style="color: #4f7dc0"><span> </span></div>
-                    <span>No. of Comments </span>
-                </div>
-            </div>
-
             {# Divider with credits #}
             <div class="divider">
                 <div class="contents">

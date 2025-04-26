@@ -1,38 +1,57 @@
 /* Header section */
 .header {
-    margin-left: 430px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    height: 25px;
-    width: 499px;
+    flex-direction: column;
+    height: 2%;
+    width: 100%;
 }
 
+.subheader{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: auto;
+}
+.snoo {
+    margin-right: auto;
+}
+.main-title {
+    font-weight: bolder;
+    font-size: 22px;
+    display: flex;
+    font-style: italic;
+    margin-left: auto;
+}
+
+/* Subsubheader */
 .header .airing-period {
-    position: absolute;
     background-color: var(--dark-bg);
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
     padding: 4px 12px;
     border-radius: 100px;
-    top: 4px;
-    left: 138px;
+   
 }
-
-.main-title {
-    font-weight: bolder;
-    font-size: 22px;
-    position: relative;
+.legend {
     display: flex;
-    margin: auto 82px auto 0px;
-    font-style: italic;
-    line-height: 20px;
-    padding: 6px 0;
-    left: -283px;
+    flex-direction: row;
 }
-
+.legend>div {
+    display: flex;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 9px;
+    font-weight: bold;
+}
+.legend .icon {
+    font-style: normal;
+    display: flex;
+}
+.legend .icon>span {
+    margin: auto;
+    font-size: 12px;
+}
 .week-container {
     display: flex;
     flex-direction: column;
@@ -43,8 +62,8 @@
     font-weight: bolder;
     font-size: 25px;
     flex-grow: 1;
-    display: flex;
-    height: 24px;
+    /* display: flex; */
+    /* height: 24px; */
 }
 
 .season {
@@ -53,7 +72,7 @@
     font-size: 14px;
     text-transform: uppercase;
     padding: 5px;
-    height: 13px;
+    /* height: 13px; */
 }
 
 /* Season-specific styles */
@@ -98,53 +117,10 @@
     color: var(--fall-contrast-text);
 }
 
-.week>span {
-    margin: auto;
-}
 
-.snoo {
-    position: absolute;
-    width: 117px;
-}
 
-/* Legend */
-.legend {
-    margin: 2px 0px 3px 536px;
-    width: 30%;
-    height: 1.2em;
-    display: flex;
-    gap: 10px;
-}
 
-.legend>div {
-    margin: auto;
-    display: flex;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 9px;
-    font-weight: bold;
-    align-items: center;
-}
-
-.legend>div>* {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.legend .icon {
-    margin-right: 5px;
-    font-style: normal;
-    height: 12px;
-    width: 15px;
-    display: flex;
-}
-
-.legend .icon>span {
-    margin: auto;
-    font-size: 12px;
-}
-
-/* Comment bubble shape in legend */
+/* Comment bubble shape in legend
 body>div>div.legend>div:nth-child(5)>div {
     background-color: #ffffff;
     margin-right: 5px;
@@ -153,7 +129,7 @@ body>div>div.legend>div:nth-child(5)>div {
     height: 15px;
     display: flex;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-}
+} */
 
 /* Divider section */
 .container>.divider {

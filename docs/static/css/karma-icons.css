@@ -1,0 +1,57 @@
+/* Status indicators */
+.neutral {
+    color: #fc672b;
+}
+
+.stable {
+    color: gray;
+}
+
+span[class="rank-change neutral"] {
+    color: gray;
+}
+
+.positive {
+    color: var(--positive-color);
+}
+
+.negative {
+    color: var(--negative-color);
+}
+
+.poll-blue {
+    color: var(--poll-blue);
+}
+
+.new-entry {
+    color: var(--new-entry-color);
+}
+
+/* Icons */
+.caret {
+    display: inline-block;
+    width: 20px;
+    /* Adjust as needed */
+    height: 20px;
+    /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* .caret-up {
+    fill: var(--positive-color);
+    transform: rotate(180deg);
+}
+
+.caret-down {
+    fill: var(--negative-color);
+} */
+
+svg.arrow.positive {
+    fill: var(--positive-color);
+}
+
+svg.arrow.negative {
+    fill: var(--negative-color);
+    transform: rotate(180deg);
+}

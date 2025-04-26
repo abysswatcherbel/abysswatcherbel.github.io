@@ -1,4 +1,5 @@
 @import url('karma-header.css');
+@import url('karma-icons.css');
 
 /* Base styles */
 :root {
@@ -54,6 +55,7 @@ body {
     flex-direction: column;
     line-height: 1;
 }
+
 
 
 /* Episode container */
@@ -432,67 +434,6 @@ body {
     margin: auto;
 }
 
-/* Status indicators */
-.neutral {
-    color: #fc672b;
-}
-
-.stable {
-    color: gray;
-}
-
-span[class="rank-change neutral"] {
-    color: gray;
-}
-
-.positive {
-    color: var(--positive-color);
-}
-
-.negative {
-    color: var(--negative-color);
-}
-
-.poll-blue {
-    color: var(--poll-blue);
-}
-
-.new-entry {
-    color: var(--new-entry-color);
-}
-
-/* Icons */
-.caret {
-    width: 12px;
-}
-
-.caret-up {
-    fill: var(--positive-color);
-    transform: rotate(180deg);
-}
-
-.caret-down {
-    fill: var(--negative-color);
-}
-
-svg.arrow.positive {
-    fill: var(--positive-color);
-}
-
-svg.arrow.negative {
-    fill: var(--negative-color);
-    transform: rotate(180deg);
-}
-
-/* Top entries */
-.top3 {
-    height: 120px;
-    font-size: 16px;
-}
-
-.premiereBox {
-    box-shadow: 0 0 13px 1px var(--poll-blue);
-}
 
 /* RIGHT SIDE STYLES - Fully separated from left side */
 .rightSide {
