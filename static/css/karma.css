@@ -1,3 +1,5 @@
+@import url('karma-header.css');
+
 /* Base styles */
 :root {
     /* Main color scheme */
@@ -53,209 +55,6 @@ body {
     line-height: 1;
 }
 
-/* Header section */
-.header {
-    margin-left: 430px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    height: 25px;
-    width: 499px;
-}
-
-.header .airing-period {
-    position: absolute;
-    background-color: var(--dark-bg);
-    font-size: 12px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 4px 12px;
-    border-radius: 100px;
-    top: 4px;
-    left: 138px;
-}
-
-.main-title {
-    font-weight: bolder;
-    font-size: 22px;
-    position: relative;
-    display: flex;
-    margin: auto 82px auto 0px;
-    font-style: italic;
-    line-height: 20px;
-    padding: 6px 0;
-    left: -283px;
-}
-
-.week-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.week {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 25px;
-    flex-grow: 1;
-    display: flex;
-    height: 24px;
-}
-
-.season {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 5px;
-    height: 13px;
-}
-
-/* Season-specific styles */
-.week.winter {
-    background-color: var(--winter-bg);
-    color: var(--winter-text);
-}
-
-.season.winter {
-    background-color: var(--winter-contrast-bg);
-    color: var(--winter-contrast-text);
-}
-
-.week.spring {
-    background-color: var(--spring-bg);
-    color: var(--spring-text);
-}
-
-.season.spring {
-    color: var(--spring-contrast-text);
-    background-color: var(--spring-contrast-bg);
-}
-
-.week.summer {
-    background-color: var(--summer-bg);
-    color: var(--summer-text);
-}
-
-.season.summer {
-    color: var(--summer-contrast-text);
-    background-color: var(--summer-contrast-bg);
-    display: flex;
-}
-
-.week.fall {
-    background-color: var(--fall-bg);
-    color: var(--fall-text);
-}
-
-.season.fall {
-    background-color: var(--fall-contrast-bg);
-    color: var(--fall-contrast-text);
-}
-
-.week>span {
-    margin: auto;
-}
-
-.snoo {
-    position: absolute;
-    width: 117px;
-}
-
-/* Legend */
-.legend {
-    margin: 2px 0px 3px 536px;
-    width: 30%;
-    height: 1.2em;
-    display: flex;
-    gap: 10px;
-}
-
-.legend>div {
-    margin: auto;
-    display: flex;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 9px;
-    font-weight: bold;
-    align-items: center;
-}
-
-.legend>div>* {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.legend .icon {
-    margin-right: 5px;
-    font-style: normal;
-    height: 12px;
-    width: 15px;
-    display: flex;
-}
-
-.legend .icon>span {
-    margin: auto;
-    font-size: 12px;
-}
-
-/* Comment bubble shape in legend */
-body>div>div.legend>div:nth-child(5)>div {
-    background-color: #ffffff;
-    margin-right: 5px;
-    font-style: normal;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-}
-
-/* Divider section */
-.container>.divider {
-    width: 100%;
-    height: 15px;
-    background-color: var(--dark-bg);
-    align-content: center;
-    position: relative;
-   
-}
-
-.container>.divider .contents {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.container>.divider .total-karma {
-    height: 100%;
-    width: 105px;
-    background-color: var(--primary-bg);
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
-}
-
-.container>.divider .total-karma .text-container>span {
-    color: var(--poll-blue);
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.container>.divider .total-karma .text-container {
-    margin-top: 0px;
-}
-
-.container>.divider .pill {
-    margin: auto 19px auto auto;
-    font-size: 8px;
-    font-style: italic;
-    font-weight: bold;
-    border-radius: 100px;
-    margin-right: 19px;
-    padding: 2.5px;
-}
 
 /* Episode container */
 .episode-container {
@@ -725,14 +524,12 @@ svg.arrow.negative {
 
 }
 
-/* Style for the karma count */
+/* Style for the karma count
 .rightSide .details .part-1 {
     /* position: absolute; */
     /* right: 20px; */
     /* bottom: 35px; */
-    /* z-index: 2; */
-
-}
+    /* z-index: 2; } */
 
 .rightSide .details .part-2 .karma {
     font-size: 26px;
@@ -887,14 +684,6 @@ svg.arrow.negative {
     height: 10px;
 }
 
-.right-ranking {
-    /* display: flex; */
-    /* align-items: center; */
-    /* gap: 3px; */
-    /* margin-left: auto; */
-    /* margin-right: 10px; */
-
-}
 
 .right-ranking .right-rank-change {
     font-weight: bold;
