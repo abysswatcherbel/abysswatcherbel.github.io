@@ -36,6 +36,7 @@
     --neutral-color: gray;
     --new-entry-color: #18b418;
     --poll-blue: #6ec1df;
+    --spring-episode: var(--spring-contrast-text); 
 }
 
 /* Reset */
