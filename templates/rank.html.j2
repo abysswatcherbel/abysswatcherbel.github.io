@@ -5,7 +5,6 @@
         <title>{{ airing_details.season }} Karma Ranks</title>
         <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
-        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/streaming.css') }}"> -->
         <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
     </head>
 
@@ -13,8 +12,8 @@
         <div class="container">
             {# Header Section #}
             <div class="header">
-                <div class="subheader">
-                    <img class="snoo" src="{{ url_for('static', filename='assets/snoo_ranime.png') }}" alt="Snoo" loading="lazy">
+            <img class="snoo" src="{{ url_for('static', filename='assets/snoo_ranime.png') }}" alt="Snoo" loading="lazy">
+                <div class="subheader">    
                     <div class="main-title">
                         <span>/r/anime weekly engagement ranking &amp; discussion</span>
                     </div>
@@ -49,22 +48,20 @@
                             </div>
                         </div>
                     </div>
-                
-                <div class="week-container">
-                    <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
-                    <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
-                </div>
-            </div>
-            {# Divider with credits #}
-            <div class="credits">
-                    <div class="pill">Chart: https://abysswatcherbel.github.io/current_chart</div>
-                    <div class="pill">Data: r/anime</div>
-                    <div class="pill">Poster art: r/anime users</div>
-                    <div class="pill">Creator: /u/reddadz</div>
-                    <div class="pill">Editor: /u/abysswatcherbel</div>
-                    <div class="total-karma">
-                        <div class="text-container"><span>K</span> {{ sum_karma }}</div>
+                    <div class="credits">
+                        <div class="pill">Chart: https://abysswatcherbel.github.io/current_chart</div>
+                        <div class="pill">Data: r/anime</div>
+                        <div class="pill">Poster art: r/anime users</div>
+                        <div class="pill">Creator: /u/reddadz</div>
+                        <div class="pill">Editor: /u/abysswatcherbel</div>
+                        <div class="total-karma">
+                            <div class="text-container"><span>K</span> {{ sum_karma }}</div>
+                        </div>
                     </div>
+            </div>
+            <div class="week-container">
+                <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
+                <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
             </div>
         </div>
            
