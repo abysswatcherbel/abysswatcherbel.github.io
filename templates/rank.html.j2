@@ -125,8 +125,25 @@
             {% endif %}
             {% endmacro %}
 
+            {% macro get_banner_offset(entry) %}
+            {% if entry.banner %}
+            {{ entry.banner.offset }}
+            {% else %}
+            {{ "0px 0px "}}
+            {% endif %}
+            {% endmacro %}
+
+            {# Fallback for missing banner #}
+            {% macro get_fallback_banner(entry) %}
+            {% if entry.images.large %}
+            {{entry.images.large}}
+            {% else %}
+            {{entry.images.medium}}
+            {% endif %}
+            {% endmacro %}
+
             {% macro get_banner(entry) %}
-            {% if entry.banner %}{{entry.banner}}{% else %}{{entry.images.large}}{% endif %}
+            {% if entry.banner %}{{entry.banner.url}}{% else %}{{entry.images.large}}{% endif %}
             {% endmacro %}
 
             {# Episode Container #}
@@ -142,7 +159,7 @@
                         </div>
 
                         <div class="details"
-                            style="background-image: url({{get_banner(left)}}); background-position: 0px 0px;">
+                            style="background-image: url({{get_banner(left)}}); background-position: {{get_banner_offset(left)}};">
                             <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
                             <div class="part-1">
                                 <span class="karma-change"

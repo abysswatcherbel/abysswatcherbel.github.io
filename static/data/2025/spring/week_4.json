@@ -98,6 +98,10 @@
     },
     "title": "Kidou Senshi Gundam: GQuuuuuuX",
     "title_english": "Mobile Suit Gundam: GQuuuuuuX",
+    "banner": {
+      "url": "https://media.tenor.com/qjN6YrA185EAAAAM/amate-yuzuriha-gquuuuuux.gif",
+      "offset": "0px -208px"
+    },
     "episode": "3",
     "karma": 1263,
     "comments": 391,
@@ -377,7 +381,10 @@
     },
     "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
     "title_english": "Can a Boy-Girl Friendship Survive?",
-    "banner": "https://i.imgur.com/EHDL4CA.jpeg",
+    "banner": {
+      "url": "https://i.imgur.com/EHDL4CA.jpeg",
+      "offset": "0px -32px"
+    },
     "episode": "3",
     "karma": 591,
     "comments": 390,
