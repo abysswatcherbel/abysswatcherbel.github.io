@@ -47,11 +47,11 @@ span[class="rank-change neutral"] {
     fill: var(--negative-color);
 } */
 
-svg.arrow.positive {
+.arrow.positive {
     fill: var(--positive-color);
 }
 
-svg.arrow.negative {
+.arrow.negative {
     fill: var(--negative-color);
     transform: rotate(180deg);
 }

@@ -9,33 +9,57 @@
 .subheader{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 75%;
     margin-bottom: auto;
+}
+.credits{
+    height: 25%;
+    display: flex;
+    width: 93.1%;
+    flex-wrap: nowrap;
+    background-color: var(--dark-bg);
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.subsubheader{
+    padding: 2px 4px;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
 }
 .snoo {
     margin-right: auto;
 }
 .main-title {
-    font-weight: bolder;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 18px;
     display: flex;
     font-style: italic;
-    margin-left: auto;
+    margin: auto;
 }
 
 /* Subsubheader */
 .header .airing-period {
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--dark-bg);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     font-style: italic;
-    padding: 4px 12px;
+    padding: 3px 6px;
     border-radius: 100px;
+    justify-content: center;
    
 }
 .legend {
     display: flex;
     flex-direction: row;
+    height: 60%;
 }
 .legend>div {
     display: flex;
@@ -43,15 +67,15 @@
     font-style: italic;
     font-size: 9px;
     font-weight: bold;
+    gap: 5px;
 }
 .legend .icon {
     font-style: normal;
     display: flex;
-}
-.legend .icon>span {
     margin: auto;
-    font-size: 12px;
+    font-size: 9px;
 }
+
 .week-container {
     display: flex;
     flex-direction: column;
@@ -146,34 +170,35 @@ body>div>div.legend>div:nth-child(5)>div {
     flex-wrap: nowrap;
 }
 
-.container>.divider .total-karma {
-    height: 100%;
-    width: 105px;
-    background-color: var(--primary-bg);
+ .total-karma {
+    
+    width: 8%;
+    background-color: var(--light-text);
     display: flex;
     align-items: center;
-    font-size: 16px;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 12px;
     font-weight: bold;
     font-style: italic;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 12% 50%);
 }
 
-.container>.divider .total-karma .text-container>span {
+.total-karma .text-container>span {
     color: var(--poll-blue);
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.container>.divider .total-karma .text-container {
+ .total-karma .text-container {
     margin-top: 0px;
 }
 
-.container>.divider .pill {
-    margin: auto 19px auto auto;
+.credits .pill {
+
     font-size: 8px;
     font-style: italic;
     font-weight: bold;
     border-radius: 100px;
-    margin-right: 19px;
-    padding: 2.5px;
+  
 }
