@@ -134,6 +134,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1069/148148l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1069/148148.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.24,
+    "streams": {
+      "name": "prime",
+      "url": "https://www.primevideo.com/detail/From-Old-Country-Bumpkin-to-Master-Swordsman",
+      "logo": "https://static.vecteezy.com/system/resources/thumbnails/019/766/188/small/prime-video-logo-prime-video-icon-transparent-logo-free-png.png"
+    },
+    "title": "Katainaka no Ossan, Kensei ni Naru",
+    "title_english": "From Old Country Bumpkin to Master Swordsman",
+    "episode": "4",
+    "karma": 572,
+    "comments": 259,
+    "week_id": 5,
+    "studio": [
+      "Passione",
+      "Hayabusa Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1k8f09g/katainaka_no_ossan_kensei_ni_naru_from_old/",
+    "mal_id": 59452,
+    "current_rank": 6,
+    "karma_change": -63,
+    "rank_change": 6,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
     },
@@ -155,9 +184,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8crtx/anne_shirley_episode_4_discussion/",
     "mal_id": 60334,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -117,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -183,9 +212,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8ch2v/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
     "mal_id": 50738,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -18,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -210,9 +239,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k894ah/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -35,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "spring"
   },
   {
@@ -234,9 +263,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k834z8/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -6,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -258,9 +287,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k7ojp9/teogonia_episode_3_discussion/",
     "mal_id": 58614,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 1,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -282,9 +311,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8dmnn/guilty_gear_strive_dual_rulers_episode_4/",
     "mal_id": 59070,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -3,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -306,9 +335,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k85xb5/pok\u00e9mon_horizons_the_series_episode_93_discussion/",
     "mal_id": 53876,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 5,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -330,9 +359,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k7mgm5/bye_bye_earth_season_2_episode_4_discussion/",
     "mal_id": 59819,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -14,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -354,9 +383,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8atzo/meitantei_conan_case_closed_episode_1160/",
     "mal_id": 235,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -10,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   }
 ]
