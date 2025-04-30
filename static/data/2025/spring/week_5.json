@@ -933,6 +933,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1770/148195l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1770/148195.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.46,
+    "streams": null,
+    "title": "Chuuzenji-sensei Mononoke Kougiroku: Sensei ga Nazo wo Hodoite Shimau kara.",
+    "title_english": "The Mononoke Lecture Logs of Chuzenji-sensei: He Just Solves All the Mysteries",
+    "episode": "4",
+    "karma": 42,
+    "comments": 18,
+    "week_id": 5,
+    "studio": [
+      "100studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ka1idz/chuuzenjisensei_mononoke_kougiroku_sensei_ga_nazo/",
+    "mal_id": 60009,
+    "current_rank": 36,
+    "karma_change": -3,
+    "rank_change": 15,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -950,9 +974,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8slww/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 1,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -974,9 +998,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8xzob/koupen_chan_episode_4_discussion/",
     "mal_id": 60534,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 11,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "spring"
   },
   {
@@ -998,9 +1022,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k9zawh/compass_20_sentou_setsuri_kaiseki_system/",
     "mal_id": 53762,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": 0,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -1022,9 +1046,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8gx9d/everyday_host_episode_4_discussion/",
     "mal_id": 60535,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 1,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -1046,9 +1070,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8h2c3/classicstars_episode_4_discussion/",
     "mal_id": 59199,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -3,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "spring"
   },
   {
@@ -1070,9 +1094,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8atzo/meitantei_conan_case_closed_episode_1160/",
     "mal_id": 235,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -10,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "spring"
   }
 ]
