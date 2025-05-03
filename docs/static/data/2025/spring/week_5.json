@@ -1431,6 +1431,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "PetitCure: Precure Fairies",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "6",
+    "karma": 7,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1kca2oi/petitcure_precure_fairies_episode_6_discussion/",
+    "mal_id": 61272,
+    "current_rank": 55,
+    "karma_change": -6,
+    "rank_change": 3,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1448,9 +1470,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1k8atzo/meitantei_conan_case_closed_episode_1160/",
     "mal_id": 235,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -10,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "spring"
   },
   {
@@ -1472,9 +1494,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kbxvf2/beyblade_x_episode_78_discussion/",
     "mal_id": 56566,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -5,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   }
 ]
