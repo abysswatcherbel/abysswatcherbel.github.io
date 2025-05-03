@@ -1400,5 +1400,29 @@
     "karma_change": -10,
     "rank_change": 4,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "Beyblade X",
+    "episode": "78",
+    "karma": 1,
+    "comments": 4,
+    "week_id": 5,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kbxvf2/beyblade_x_episode_78_discussion/",
+    "mal_id": 56566,
+    "current_rank": 54,
+    "karma_change": -5,
+    "rank_change": 9,
+    "season": "spring"
   }
 ]
