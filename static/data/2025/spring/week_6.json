@@ -560,6 +560,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.04,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "5",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ke3l57/everyday_host_episode_5_discussion/",
+    "mal_id": 60535,
+    "current_rank": 22,
+    "karma_change": -3,
+    "rank_change": 37,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -577,9 +601,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdqtp9/meitantei_conan_case_closed_episode_1161/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "spring"
   }
 ]
