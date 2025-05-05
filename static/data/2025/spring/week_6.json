@@ -90,6 +90,62 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
+    },
+    "num_episodes": 24,
+    "score": 7.82,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Anne Shirley",
+    "title_english": "Anne Shirley",
+    "episode": "5",
+    "karma": 366,
+    "comments": 130,
+    "week_id": 6,
+    "studio": [
+      "The Answer Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kdsqe0/anne_shirley_episode_5_discussion/",
+    "mal_id": 60334,
+    "current_rank": 4,
+    "karma_change": -61,
+    "rank_change": 19,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1074/147339l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1074/147339.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/GW4HM79VM/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita: Sono Ni",
+    "title_english": "I've Been Killing Slimes for 300 Years and Maxed Out My Level Season 2",
+    "episode": "5",
+    "karma": 353,
+    "comments": 73,
+    "week_id": 6,
+    "studio": [
+      "Teddy"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kdsjkk/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
+    "mal_id": 50738,
+    "current_rank": 5,
+    "karma_change": -14,
+    "rank_change": 21,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
     },
@@ -110,9 +166,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdpjc3/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": -32,
-    "rank_change": 35,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -134,9 +190,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kd4oqq/teogonia_episode_4_discussion/",
     "mal_id": 58614,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -4,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "spring"
   },
   {
@@ -158,9 +214,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdj61a/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -23,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -182,9 +238,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kd2jlu/bye_bye_earth_season_2_episode_5_discussion/",
     "mal_id": 59819,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -3,
-    "rank_change": 46,
+    "rank_change": 44,
     "season": "spring"
   },
   {
@@ -206,9 +262,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdm4n9/pok\u00e9mon_horizons_the_series_episode_94_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -15,
-    "rank_change": 44,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -230,9 +286,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdqtp9/meitantei_conan_case_closed_episode_1161/",
     "mal_id": 235,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -1,
-    "rank_change": 53,
+    "rank_change": 51,
     "season": "spring"
   }
 ]
