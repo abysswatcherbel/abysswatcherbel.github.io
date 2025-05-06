@@ -512,6 +512,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.46,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "13",
+    "karma": 21,
+    "comments": 25,
+    "week_id": 6,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ke8hos/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 20,
+    "karma_change": -5,
+    "rank_change": 36,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1458/144655l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1458/144655.jpg"
     },
@@ -529,7 +553,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdx458/hanadoll_reinterpretation_of_flowering_episode_1/",
     "mal_id": 55710,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -553,9 +577,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdx45s/classicstars_episode_5_discussion/",
     "mal_id": 59199,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 1,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "spring"
   },
   {
@@ -577,9 +601,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ke3l57/everyday_host_episode_5_discussion/",
     "mal_id": 60535,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -3,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   },
   {
@@ -601,9 +625,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kdqtp9/meitantei_conan_case_closed_episode_1161/",
     "mal_id": 235,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -1,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "spring"
   }
 ]
