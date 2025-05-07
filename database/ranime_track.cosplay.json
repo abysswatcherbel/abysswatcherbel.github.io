@@ -1,0 +1,3458 @@
+[{
+  "_id": {
+    "$oid": "6817cba12f14e9a28f1036a4"
+  },
+  "reddit_id": "1keopu7",
+  "title": "Boa Hancock Cosplay (Jezlene Rae) [One Piece]",
+  "author": "jezlenerae",
+  "url": "https://www.reddit.com/gallery/1keopu7",
+  "created_utc": {
+    "$date": "2025-05-04T17:03:30.000Z"
+  },
+  "current_karma": 2826,
+  "current_comments": 257,
+  "current_upvote_ratio": 0.73,
+  "metrics": [
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:18:44.867Z"
+      },
+      "karma": 718,
+      "comments": 107,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:28:45.565Z"
+      },
+      "karma": 758,
+      "comments": 111,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:38:45.039Z"
+      },
+      "karma": 773,
+      "comments": 120,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:48:44.942Z"
+      },
+      "karma": 797,
+      "comments": 124,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:58:45.071Z"
+      },
+      "karma": 816,
+      "comments": 128,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:08:45.127Z"
+      },
+      "karma": 849,
+      "comments": 129,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:18:45.112Z"
+      },
+      "karma": 865,
+      "comments": 131,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:28:45.125Z"
+      },
+      "karma": 881,
+      "comments": 132,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:38:45.140Z"
+      },
+      "karma": 905,
+      "comments": 134,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:48:45.606Z"
+      },
+      "karma": 935,
+      "comments": 136,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:58:45.578Z"
+      },
+      "karma": 957,
+      "comments": 137,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:08:45.315Z"
+      },
+      "karma": 987,
+      "comments": 143,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:18:45.762Z"
+      },
+      "karma": 1008,
+      "comments": 145,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:28:45.522Z"
+      },
+      "karma": 1039,
+      "comments": 150,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:38:45.377Z"
+      },
+      "karma": 1064,
+      "comments": 150,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:48:45.409Z"
+      },
+      "karma": 1073,
+      "comments": 154,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:58:45.477Z"
+      },
+      "karma": 1087,
+      "comments": 157,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:08:45.927Z"
+      },
+      "karma": 1113,
+      "comments": 159,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:18:45.643Z"
+      },
+      "karma": 1130,
+      "comments": 160,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:28:45.886Z"
+      },
+      "karma": 1141,
+      "comments": 160,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:38:45.743Z"
+      },
+      "karma": 1153,
+      "comments": 162,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:48:45.506Z"
+      },
+      "karma": 1184,
+      "comments": 166,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:58:45.917Z"
+      },
+      "karma": 1220,
+      "comments": 169,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:08:45.649Z"
+      },
+      "karma": 1242,
+      "comments": 170,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:18:46.170Z"
+      },
+      "karma": 1263,
+      "comments": 171,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:28:45.528Z"
+      },
+      "karma": 1281,
+      "comments": 173,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:38:45.637Z"
+      },
+      "karma": 1313,
+      "comments": 176,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:48:45.595Z"
+      },
+      "karma": 1336,
+      "comments": 175,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:58:46.276Z"
+      },
+      "karma": 1359,
+      "comments": 175,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:08:45.793Z"
+      },
+      "karma": 1385,
+      "comments": 176,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:18:45.819Z"
+      },
+      "karma": 1405,
+      "comments": 180,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:28:46.112Z"
+      },
+      "karma": 1426,
+      "comments": 181,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:38:45.874Z"
+      },
+      "karma": 1447,
+      "comments": 182,
+      "upvote_ratio": 0.69
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:48:45.777Z"
+      },
+      "karma": 1477,
+      "comments": 185,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:58:45.832Z"
+      },
+      "karma": 1506,
+      "comments": 186,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:08:45.627Z"
+      },
+      "karma": 1522,
+      "comments": 187,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:18:45.690Z"
+      },
+      "karma": 1540,
+      "comments": 187,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:28:45.633Z"
+      },
+      "karma": 1552,
+      "comments": 187,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:38:45.848Z"
+      },
+      "karma": 1583,
+      "comments": 187,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:48:45.946Z"
+      },
+      "karma": 1603,
+      "comments": 189,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:58:46.111Z"
+      },
+      "karma": 1627,
+      "comments": 190,
+      "upvote_ratio": 0.7
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:08:45.664Z"
+      },
+      "karma": 1645,
+      "comments": 190,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:18:45.676Z"
+      },
+      "karma": 1667,
+      "comments": 191,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:28:45.426Z"
+      },
+      "karma": 1681,
+      "comments": 191,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:38:46.092Z"
+      },
+      "karma": 1695,
+      "comments": 192,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:48:46.199Z"
+      },
+      "karma": 1718,
+      "comments": 192,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:58:45.521Z"
+      },
+      "karma": 1739,
+      "comments": 192,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:08:45.486Z"
+      },
+      "karma": 1755,
+      "comments": 192,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:18:45.481Z"
+      },
+      "karma": 1771,
+      "comments": 194,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:28:45.728Z"
+      },
+      "karma": 1796,
+      "comments": 194,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:38:45.806Z"
+      },
+      "karma": 1818,
+      "comments": 194,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:48:45.962Z"
+      },
+      "karma": 1827,
+      "comments": 194,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:58:45.615Z"
+      },
+      "karma": 1844,
+      "comments": 194,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:08:45.571Z"
+      },
+      "karma": 1864,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:18:45.673Z"
+      },
+      "karma": 1889,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:28:45.630Z"
+      },
+      "karma": 1905,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:38:45.404Z"
+      },
+      "karma": 1920,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:48:45.671Z"
+      },
+      "karma": 1933,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:58:45.761Z"
+      },
+      "karma": 1942,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:08:45.630Z"
+      },
+      "karma": 1952,
+      "comments": 196,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:18:45.488Z"
+      },
+      "karma": 1967,
+      "comments": 201,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:28:46.186Z"
+      },
+      "karma": 1983,
+      "comments": 203,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:38:46.195Z"
+      },
+      "karma": 1999,
+      "comments": 203,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:48:45.434Z"
+      },
+      "karma": 2009,
+      "comments": 204,
+      "upvote_ratio": 0.71
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:58:45.245Z"
+      },
+      "karma": 2024,
+      "comments": 205,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:08:45.609Z"
+      },
+      "karma": 2037,
+      "comments": 204,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:18:45.492Z"
+      },
+      "karma": 2057,
+      "comments": 204,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:28:45.573Z"
+      },
+      "karma": 2061,
+      "comments": 205,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:38:45.402Z"
+      },
+      "karma": 2083,
+      "comments": 206,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:48:45.752Z"
+      },
+      "karma": 2100,
+      "comments": 207,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:58:45.806Z"
+      },
+      "karma": 2109,
+      "comments": 207,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:08:45.566Z"
+      },
+      "karma": 2112,
+      "comments": 207,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:18:45.507Z"
+      },
+      "karma": 2129,
+      "comments": 208,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:28:45.697Z"
+      },
+      "karma": 2147,
+      "comments": 209,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:38:45.772Z"
+      },
+      "karma": 2153,
+      "comments": 210,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:48:45.711Z"
+      },
+      "karma": 2163,
+      "comments": 210,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:58:45.868Z"
+      },
+      "karma": 2176,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:08:45.651Z"
+      },
+      "karma": 2187,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:18:45.878Z"
+      },
+      "karma": 2212,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:28:45.990Z"
+      },
+      "karma": 2219,
+      "comments": 214,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:38:45.976Z"
+      },
+      "karma": 2221,
+      "comments": 214,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:48:45.913Z"
+      },
+      "karma": 2237,
+      "comments": 212,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:58:46.282Z"
+      },
+      "karma": 2249,
+      "comments": 212,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:08:45.686Z"
+      },
+      "karma": 2269,
+      "comments": 212,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:18:45.939Z"
+      },
+      "karma": 2286,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:28:45.708Z"
+      },
+      "karma": 2295,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:38:45.877Z"
+      },
+      "karma": 2299,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:48:46.155Z"
+      },
+      "karma": 2312,
+      "comments": 213,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:58:46.069Z"
+      },
+      "karma": 2338,
+      "comments": 214,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T11:08:46.088Z"
+      },
+      "karma": 2346,
+      "comments": 217,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T11:18:45.694Z"
+      },
+      "karma": 2350,
+      "comments": 220,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T11:28:46.081Z"
+      },
+      "karma": 2367,
+      "comments": 222,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T11:38:45.797Z"
+      },
+      "karma": 2372,
+      "comments": 223,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T11:48:45.937Z"
+      },
+      "karma": 2385,
+      "comments": 229,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T11:58:45.978Z"
+      },
+      "karma": 2397,
+      "comments": 229,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T12:08:45.591Z"
+      },
+      "karma": 2413,
+      "comments": 230,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T12:18:45.876Z"
+      },
+      "karma": 2411,
+      "comments": 230,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T12:28:46.465Z"
+      },
+      "karma": 2414,
+      "comments": 230,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T12:38:47.595Z"
+      },
+      "karma": 2425,
+      "comments": 232,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T12:48:46.557Z"
+      },
+      "karma": 2433,
+      "comments": 232,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T12:58:47.141Z"
+      },
+      "karma": 2456,
+      "comments": 232,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:08:47.130Z"
+      },
+      "karma": 2479,
+      "comments": 232,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:18:47.050Z"
+      },
+      "karma": 2486,
+      "comments": 232,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:28:45.798Z"
+      },
+      "karma": 2499,
+      "comments": 234,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:38:48.374Z"
+      },
+      "karma": 2504,
+      "comments": 234,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:48:46.893Z"
+      },
+      "karma": 2526,
+      "comments": 236,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:58:45.416Z"
+      },
+      "karma": 2539,
+      "comments": 236,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T14:08:45.497Z"
+      },
+      "karma": 2559,
+      "comments": 237,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T14:18:45.609Z"
+      },
+      "karma": 2571,
+      "comments": 239,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T14:28:45.910Z"
+      },
+      "karma": 2585,
+      "comments": 241,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T14:38:45.923Z"
+      },
+      "karma": 2604,
+      "comments": 241,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T14:48:45.649Z"
+      },
+      "karma": 2613,
+      "comments": 246,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T14:58:46.018Z"
+      },
+      "karma": 2637,
+      "comments": 250,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T15:08:46.135Z"
+      },
+      "karma": 2649,
+      "comments": 250,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T15:18:45.959Z"
+      },
+      "karma": 2674,
+      "comments": 250,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T15:28:46.150Z"
+      },
+      "karma": 2692,
+      "comments": 250,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T15:38:46.257Z"
+      },
+      "karma": 2704,
+      "comments": 251,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T15:48:45.930Z"
+      },
+      "karma": 2719,
+      "comments": 252,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T15:58:45.961Z"
+      },
+      "karma": 2748,
+      "comments": 252,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T16:08:46.135Z"
+      },
+      "karma": 2754,
+      "comments": 252,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T16:18:46.016Z"
+      },
+      "karma": 2761,
+      "comments": 252,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T16:28:45.770Z"
+      },
+      "karma": 2768,
+      "comments": 252,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T16:38:45.720Z"
+      },
+      "karma": 2785,
+      "comments": 254,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T16:48:45.729Z"
+      },
+      "karma": 2807,
+      "comments": 256,
+      "upvote_ratio": 0.73
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T16:58:46.214Z"
+      },
+      "karma": 2826,
+      "comments": 257,
+      "upvote_ratio": 0.73
+    }
+  ],
+  "tracking_start": {
+    "$date": "2025-05-04T20:18:38.227Z"
+  },
+  "tracking_end": {
+    "$date": "2025-05-05T17:03:30.000Z"
+  },
+  "last_updated": {
+    "$date": "2025-05-05T16:58:46.214Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817cba12f14e9a28f1036a6"
+  },
+  "reddit_id": "1kegv7w",
+  "title": "Momo (Dandadan) de Lynara_cos",
+  "author": "Lynara-cos",
+  "url": "https://i.redd.it/0cmok4zduqye1.jpeg",
+  "created_utc": {
+    "$date": "2025-05-04T10:38:59.000Z"
+  },
+  "current_karma": 163,
+  "current_comments": 10,
+  "current_upvote_ratio": 0.67,
+  "metrics": [
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:18:51.057Z"
+      },
+      "karma": 109,
+      "comments": 3,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:28:51.096Z"
+      },
+      "karma": 111,
+      "comments": 3,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:38:51.123Z"
+      },
+      "karma": 110,
+      "comments": 4,
+      "upvote_ratio": 0.68
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:48:51.125Z"
+      },
+      "karma": 112,
+      "comments": 4,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T20:58:51.151Z"
+      },
+      "karma": 110,
+      "comments": 4,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:08:51.212Z"
+      },
+      "karma": 109,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:18:51.046Z"
+      },
+      "karma": 111,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:28:51.096Z"
+      },
+      "karma": 113,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:38:51.077Z"
+      },
+      "karma": 112,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:48:51.136Z"
+      },
+      "karma": 109,
+      "comments": 6,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T21:58:51.173Z"
+      },
+      "karma": 114,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:08:51.286Z"
+      },
+      "karma": 115,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:18:51.130Z"
+      },
+      "karma": 117,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:28:51.177Z"
+      },
+      "karma": 120,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:38:51.166Z"
+      },
+      "karma": 120,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:48:51.177Z"
+      },
+      "karma": 120,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T22:58:51.078Z"
+      },
+      "karma": 118,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:08:51.347Z"
+      },
+      "karma": 115,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:18:51.119Z"
+      },
+      "karma": 118,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:28:51.138Z"
+      },
+      "karma": 118,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:38:51.280Z"
+      },
+      "karma": 120,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:48:51.132Z"
+      },
+      "karma": 123,
+      "comments": 6,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-04T23:58:51.211Z"
+      },
+      "karma": 120,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:08:51.286Z"
+      },
+      "karma": 117,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:18:51.733Z"
+      },
+      "karma": 122,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:28:51.103Z"
+      },
+      "karma": 123,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:38:51.157Z"
+      },
+      "karma": 121,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:48:51.124Z"
+      },
+      "karma": 122,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T00:58:51.290Z"
+      },
+      "karma": 124,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:08:51.221Z"
+      },
+      "karma": 130,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:18:51.089Z"
+      },
+      "karma": 127,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:28:51.190Z"
+      },
+      "karma": 128,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:38:51.273Z"
+      },
+      "karma": 126,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:48:51.145Z"
+      },
+      "karma": 129,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T01:58:51.133Z"
+      },
+      "karma": 132,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:08:51.096Z"
+      },
+      "karma": 129,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:18:51.155Z"
+      },
+      "karma": 127,
+      "comments": 7,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:28:51.157Z"
+      },
+      "karma": 134,
+      "comments": 8,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:38:51.231Z"
+      },
+      "karma": 131,
+      "comments": 8,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:48:51.426Z"
+      },
+      "karma": 137,
+      "comments": 8,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T02:58:51.226Z"
+      },
+      "karma": 133,
+      "comments": 8,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:08:51.130Z"
+      },
+      "karma": 136,
+      "comments": 8,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:18:51.139Z"
+      },
+      "karma": 136,
+      "comments": 8,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:28:51.101Z"
+      },
+      "karma": 131,
+      "comments": 9,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:38:51.505Z"
+      },
+      "karma": 132,
+      "comments": 10,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:48:51.354Z"
+      },
+      "karma": 130,
+      "comments": 10,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T03:58:51.202Z"
+      },
+      "karma": 135,
+      "comments": 10,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:08:51.154Z"
+      },
+      "karma": 140,
+      "comments": 10,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:18:51.159Z"
+      },
+      "karma": 138,
+      "comments": 10,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:28:51.122Z"
+      },
+      "karma": 141,
+      "comments": 10,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:38:51.133Z"
+      },
+      "karma": 137,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:48:51.117Z"
+      },
+      "karma": 143,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T04:58:51.189Z"
+      },
+      "karma": 142,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:08:51.092Z"
+      },
+      "karma": 143,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:18:51.090Z"
+      },
+      "karma": 147,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:28:51.427Z"
+      },
+      "karma": 144,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:38:51.120Z"
+      },
+      "karma": 147,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:48:51.360Z"
+      },
+      "karma": 146,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T05:58:51.099Z"
+      },
+      "karma": 148,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:08:51.111Z"
+      },
+      "karma": 145,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:18:51.100Z"
+      },
+      "karma": 146,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:28:51.320Z"
+      },
+      "karma": 146,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:38:51.155Z"
+      },
+      "karma": 149,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:48:51.148Z"
+      },
+      "karma": 156,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T06:58:51.136Z"
+      },
+      "karma": 153,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:08:51.384Z"
+      },
+      "karma": 152,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:18:51.068Z"
+      },
+      "karma": 154,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:28:51.276Z"
+      },
+      "karma": 149,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:38:51.145Z"
+      },
+      "karma": 151,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:48:51.096Z"
+      },
+      "karma": 154,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T07:58:51.153Z"
+      },
+      "karma": 155,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:08:51.165Z"
+      },
+      "karma": 150,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:18:51.097Z"
+      },
+      "karma": 152,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:28:51.114Z"
+      },
+      "karma": 152,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:38:51.098Z"
+      },
+      "karma": 156,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:48:51.128Z"
+      },
+      "karma": 158,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T08:58:51.133Z"
+      },
+      "karma": 160,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:08:51.085Z"
+      },
+      "karma": 155,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:18:51.213Z"
+      },
+      "karma": 156,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:28:51.125Z"
+      },
+      "karma": 158,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:38:51.299Z"
+      },
+      "karma": 158,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:48:51.198Z"
+      },
+      "karma": 163,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T09:58:51.108Z"
+      },
+      "karma": 161,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:08:51.096Z"
+      },
+      "karma": 159,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:18:51.090Z"
+      },
+      "karma": 161,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:28:51.136Z"
+      },
+      "karma": 162,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T10:38:51.146Z"
+      },
+      "karma": 163,
+      "comments": 10,
+      "upvote_ratio": 0.67
+    }
+  ],
+  "tracking_start": {
+    "$date": "2025-05-04T20:18:38.227Z"
+  },
+  "tracking_end": {
+    "$date": "2025-05-05T10:38:59.000Z"
+  },
+  "last_updated": {
+    "$date": "2025-05-05T10:38:51.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6818bd5aa7bdbc05c7bb42ff"
+  },
+  "reddit_id": "1kfbgxj",
+  "title": "Sailor Mars (Aria) [Sailor Moon]",
+  "author": "AriaCosplay",
+  "url": "https://i.redd.it/jsi97au1syye1.jpeg",
+  "created_utc": {
+    "$date": "2025-05-05T13:21:15.000Z"
+  },
+  "current_karma": 0,
+  "current_comments": 1,
+  "current_upvote_ratio": 0.43,
+  "metrics": [
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:30:08.467Z"
+      },
+      "karma": 0,
+      "comments": 0,
+      "upvote_ratio": 0.38
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T13:40:08.450Z"
+      },
+      "karma": 0,
+      "comments": 1,
+      "upvote_ratio": 0.43
+    }
+  ],
+  "tracking_start": {
+    "$date": "2025-05-05T13:30:00.049Z"
+  },
+  "tracking_end": {
+    "$date": "2025-05-06T13:21:15.000Z"
+  },
+  "last_updated": {
+    "$date": "2025-05-05T13:40:08.450Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681903aba7bdbc05c7bb4385"
+  },
+  "reddit_id": "1kfi3kc",
+  "title": "Power [Chainsaw Man] (lynxicat)",
+  "author": "lynxicat",
+  "url": "https://www.reddit.com/gallery/1kfi3kc",
+  "created_utc": {
+    "$date": "2025-05-05T17:52:49.000Z"
+  },
+  "current_karma": 419,
+  "current_comments": 29,
+  "current_upvote_ratio": 0.81,
+  "metrics": [
+    {
+      "timestamp": {
+        "$date": "2025-05-05T18:30:11.136Z"
+      },
+      "karma": 33,
+      "comments": 2,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T18:40:11.169Z"
+      },
+      "karma": 40,
+      "comments": 3,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T18:50:11.188Z"
+      },
+      "karma": 46,
+      "comments": 3,
+      "upvote_ratio": 0.82
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T19:00:10.311Z"
+      },
+      "karma": 56,
+      "comments": 3,
+      "upvote_ratio": 0.82
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T19:10:10.333Z"
+      },
+      "karma": 63,
+      "comments": 4,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T19:20:10.352Z"
+      },
+      "karma": 70,
+      "comments": 4,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T19:30:10.357Z"
+      },
+      "karma": 76,
+      "comments": 4,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T19:40:10.333Z"
+      },
+      "karma": 88,
+      "comments": 5,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T19:50:10.297Z"
+      },
+      "karma": 90,
+      "comments": 5,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T20:00:10.369Z"
+      },
+      "karma": 109,
+      "comments": 5,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T20:10:10.368Z"
+      },
+      "karma": 125,
+      "comments": 5,
+      "upvote_ratio": 0.82
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T20:20:10.472Z"
+      },
+      "karma": 136,
+      "comments": 5,
+      "upvote_ratio": 0.82
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T20:30:10.319Z"
+      },
+      "karma": 130,
+      "comments": 6,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T20:40:10.037Z"
+      },
+      "karma": 140,
+      "comments": 6,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T20:50:10.042Z"
+      },
+      "karma": 148,
+      "comments": 6,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T21:00:10.401Z"
+      },
+      "karma": 155,
+      "comments": 7,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T21:10:10.385Z"
+      },
+      "karma": 157,
+      "comments": 7,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T21:20:10.591Z"
+      },
+      "karma": 161,
+      "comments": 12,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T21:30:10.381Z"
+      },
+      "karma": 163,
+      "comments": 12,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T21:40:13.235Z"
+      },
+      "karma": 168,
+      "comments": 12,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T21:50:10.477Z"
+      },
+      "karma": 177,
+      "comments": 12,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T22:00:10.362Z"
+      },
+      "karma": 184,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T22:10:10.432Z"
+      },
+      "karma": 187,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T22:20:10.350Z"
+      },
+      "karma": 191,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T22:30:10.372Z"
+      },
+      "karma": 202,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T22:40:10.424Z"
+      },
+      "karma": 202,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T22:50:10.398Z"
+      },
+      "karma": 203,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T23:00:10.460Z"
+      },
+      "karma": 208,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T23:10:10.410Z"
+      },
+      "karma": 212,
+      "comments": 13,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T23:20:10.345Z"
+      },
+      "karma": 215,
+      "comments": 13,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T23:30:10.500Z"
+      },
+      "karma": 216,
+      "comments": 13,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T23:40:10.442Z"
+      },
+      "karma": 215,
+      "comments": 13,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-05T23:50:10.402Z"
+      },
+      "karma": 222,
+      "comments": 16,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T00:00:10.451Z"
+      },
+      "karma": 227,
+      "comments": 16,
+      "upvote_ratio": 0.81
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T00:10:11.459Z"
+      },
+      "karma": 234,
+      "comments": 16,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T00:20:10.469Z"
+      },
+      "karma": 234,
+      "comments": 16,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T00:30:10.436Z"
+      },
+      "karma": 239,
+      "comments": 17,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T00:40:10.460Z"
+      },
+      "karma": 243,
+      "comments": 18,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T00:50:10.531Z"
+      },
+      "karma": 244,
+      "comments": 19,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T01:00:10.467Z"
+      },
+      "karma": 243,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T01:10:10.418Z"
+      },
+      "karma": 240,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T01:20:11.108Z"
+      },
+      "karma": 243,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T01:30:10.480Z"
+      },
+      "karma": 243,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T01:40:10.482Z"
+      },
+      "karma": 244,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T01:50:11.422Z"
+      },
+      "karma": 249,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T02:00:10.211Z"
+      },
+      "karma": 245,
+      "comments": 19,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T02:10:10.279Z"
+      },
+      "karma": 251,
+      "comments": 19,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T02:20:10.292Z"
+      },
+      "karma": 246,
+      "comments": 20,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T02:30:10.440Z"
+      },
+      "karma": 250,
+      "comments": 20,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T02:40:10.458Z"
+      },
+      "karma": 259,
+      "comments": 20,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T02:50:10.419Z"
+      },
+      "karma": 258,
+      "comments": 20,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T03:00:10.477Z"
+      },
+      "karma": 259,
+      "comments": 20,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T03:10:10.459Z"
+      },
+      "karma": 259,
+      "comments": 20,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T03:20:10.444Z"
+      },
+      "karma": 259,
+      "comments": 20,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T03:30:10.468Z"
+      },
+      "karma": 262,
+      "comments": 21,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T03:40:10.404Z"
+      },
+      "karma": 264,
+      "comments": 21,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T03:50:10.525Z"
+      },
+      "karma": 267,
+      "comments": 21,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T04:00:10.465Z"
+      },
+      "karma": 269,
+      "comments": 22,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T04:10:10.467Z"
+      },
+      "karma": 271,
+      "comments": 22,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T04:20:10.446Z"
+      },
+      "karma": 273,
+      "comments": 22,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T04:30:10.481Z"
+      },
+      "karma": 280,
+      "comments": 22,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T04:40:10.415Z"
+      },
+      "karma": 281,
+      "comments": 22,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T04:50:10.481Z"
+      },
+      "karma": 277,
+      "comments": 22,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T05:00:10.458Z"
+      },
+      "karma": 279,
+      "comments": 22,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T05:10:10.496Z"
+      },
+      "karma": 280,
+      "comments": 23,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T05:20:10.533Z"
+      },
+      "karma": 285,
+      "comments": 23,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T05:30:10.486Z"
+      },
+      "karma": 292,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T05:40:10.424Z"
+      },
+      "karma": 285,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T05:50:10.406Z"
+      },
+      "karma": 289,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T06:00:10.536Z"
+      },
+      "karma": 293,
+      "comments": 23,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T06:10:10.461Z"
+      },
+      "karma": 295,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T06:20:10.422Z"
+      },
+      "karma": 294,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T06:30:10.498Z"
+      },
+      "karma": 292,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T06:40:10.549Z"
+      },
+      "karma": 304,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T06:50:10.488Z"
+      },
+      "karma": 296,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T07:00:10.431Z"
+      },
+      "karma": 302,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T07:10:10.468Z"
+      },
+      "karma": 311,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T07:20:10.428Z"
+      },
+      "karma": 310,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T07:30:10.443Z"
+      },
+      "karma": 312,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T07:40:10.930Z"
+      },
+      "karma": 310,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T07:50:10.522Z"
+      },
+      "karma": 317,
+      "comments": 23,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T08:00:10.449Z"
+      },
+      "karma": 314,
+      "comments": 24,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T08:10:10.441Z"
+      },
+      "karma": 319,
+      "comments": 24,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T08:20:10.475Z"
+      },
+      "karma": 317,
+      "comments": 24,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T08:30:10.447Z"
+      },
+      "karma": 318,
+      "comments": 24,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T08:40:10.412Z"
+      },
+      "karma": 327,
+      "comments": 24,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T08:50:10.558Z"
+      },
+      "karma": 331,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T09:00:10.493Z"
+      },
+      "karma": 329,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T09:10:10.419Z"
+      },
+      "karma": 330,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T09:20:10.615Z"
+      },
+      "karma": 335,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T09:30:10.463Z"
+      },
+      "karma": 333,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T09:40:10.487Z"
+      },
+      "karma": 331,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T09:50:10.478Z"
+      },
+      "karma": 343,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T10:00:10.490Z"
+      },
+      "karma": 340,
+      "comments": 24,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T10:10:10.589Z"
+      },
+      "karma": 342,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T10:20:10.452Z"
+      },
+      "karma": 346,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T10:30:10.531Z"
+      },
+      "karma": 352,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T10:40:10.478Z"
+      },
+      "karma": 347,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T10:50:10.428Z"
+      },
+      "karma": 355,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T11:00:10.502Z"
+      },
+      "karma": 362,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T11:10:10.547Z"
+      },
+      "karma": 357,
+      "comments": 25,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T11:20:10.499Z"
+      },
+      "karma": 363,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T11:30:10.472Z"
+      },
+      "karma": 364,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T11:40:10.495Z"
+      },
+      "karma": 362,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T11:50:10.483Z"
+      },
+      "karma": 357,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T12:00:10.466Z"
+      },
+      "karma": 364,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T12:10:10.457Z"
+      },
+      "karma": 367,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T12:20:10.486Z"
+      },
+      "karma": 369,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T12:30:10.532Z"
+      },
+      "karma": 370,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T12:40:10.572Z"
+      },
+      "karma": 371,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T12:50:10.481Z"
+      },
+      "karma": 371,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T13:00:10.837Z"
+      },
+      "karma": 375,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T13:10:10.447Z"
+      },
+      "karma": 377,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T13:20:10.203Z"
+      },
+      "karma": 385,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T13:30:10.132Z"
+      },
+      "karma": 383,
+      "comments": 26,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T13:40:10.589Z"
+      },
+      "karma": 382,
+      "comments": 27,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T13:50:10.554Z"
+      },
+      "karma": 387,
+      "comments": 27,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T14:00:11.069Z"
+      },
+      "karma": 381,
+      "comments": 27,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T14:10:11.118Z"
+      },
+      "karma": 379,
+      "comments": 27,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T14:20:11.060Z"
+      },
+      "karma": 386,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T14:30:10.549Z"
+      },
+      "karma": 380,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T14:40:11.138Z"
+      },
+      "karma": 389,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T14:50:10.530Z"
+      },
+      "karma": 391,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T15:00:10.627Z"
+      },
+      "karma": 388,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T15:10:10.556Z"
+      },
+      "karma": 392,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T15:20:11.064Z"
+      },
+      "karma": 393,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T15:30:10.484Z"
+      },
+      "karma": 395,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T15:40:11.119Z"
+      },
+      "karma": 393,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T15:50:11.137Z"
+      },
+      "karma": 401,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T16:00:11.139Z"
+      },
+      "karma": 402,
+      "comments": 28,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T16:10:11.130Z"
+      },
+      "karma": 400,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T16:20:11.349Z"
+      },
+      "karma": 403,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T16:30:10.081Z"
+      },
+      "karma": 400,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T16:40:11.074Z"
+      },
+      "karma": 401,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T16:50:11.163Z"
+      },
+      "karma": 402,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T17:00:11.164Z"
+      },
+      "karma": 402,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T17:10:11.070Z"
+      },
+      "karma": 407,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T17:20:11.192Z"
+      },
+      "karma": 408,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T17:30:10.573Z"
+      },
+      "karma": 407,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T17:40:11.132Z"
+      },
+      "karma": 418,
+      "comments": 29,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T17:50:11.112Z"
+      },
+      "karma": 419,
+      "comments": 29,
+      "upvote_ratio": 0.81
+    }
+  ],
+  "tracking_start": {
+    "$date": "2025-05-05T18:30:00.070Z"
+  },
+  "tracking_end": {
+    "$date": "2025-05-06T17:52:49.000Z"
+  },
+  "last_updated": {
+    "$date": "2025-05-06T17:50:11.112Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681a552ba7bdbc05c7bb4540"
+  },
+  "reddit_id": "1kgbo7i",
+  "title": "Bulma’s bunny outfit from dragon ball",
+  "author": "Endercorpsu",
+  "url": "https://www.reddit.com/gallery/1kgbo7i",
+  "created_utc": {
+    "$date": "2025-05-06T18:20:23.000Z"
+  },
+  "current_karma": 2386,
+  "current_comments": 143,
+  "current_upvote_ratio": 0.8,
+  "metrics": [
+    {
+      "timestamp": {
+        "$date": "2025-05-06T18:30:09.197Z"
+      },
+      "karma": 17,
+      "comments": 2,
+      "upvote_ratio": 0.65
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T18:40:09.932Z"
+      },
+      "karma": 44,
+      "comments": 6,
+      "upvote_ratio": 0.66
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T18:50:09.792Z"
+      },
+      "karma": 109,
+      "comments": 11,
+      "upvote_ratio": 0.72
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T19:00:09.837Z"
+      },
+      "karma": 187,
+      "comments": 15,
+      "upvote_ratio": 0.76
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T19:10:09.843Z"
+      },
+      "karma": 246,
+      "comments": 17,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T19:20:11.218Z"
+      },
+      "karma": 309,
+      "comments": 23,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T19:30:11.294Z"
+      },
+      "karma": 376,
+      "comments": 31,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T19:40:09.739Z"
+      },
+      "karma": 432,
+      "comments": 34,
+      "upvote_ratio": 0.78
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T19:50:09.596Z"
+      },
+      "karma": 496,
+      "comments": 48,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T20:00:09.569Z"
+      },
+      "karma": 563,
+      "comments": 51,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T20:10:09.258Z"
+      },
+      "karma": 620,
+      "comments": 52,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T20:20:09.377Z"
+      },
+      "karma": 680,
+      "comments": 56,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T20:30:09.086Z"
+      },
+      "karma": 721,
+      "comments": 56,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T20:40:09.476Z"
+      },
+      "karma": 787,
+      "comments": 57,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T20:50:09.514Z"
+      },
+      "karma": 834,
+      "comments": 60,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T21:00:09.590Z"
+      },
+      "karma": 881,
+      "comments": 63,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T21:10:09.708Z"
+      },
+      "karma": 920,
+      "comments": 65,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T21:20:09.571Z"
+      },
+      "karma": 961,
+      "comments": 69,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T21:30:09.219Z"
+      },
+      "karma": 1014,
+      "comments": 72,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T21:40:09.350Z"
+      },
+      "karma": 1056,
+      "comments": 71,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T21:50:09.192Z"
+      },
+      "karma": 1106,
+      "comments": 76,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T22:00:09.598Z"
+      },
+      "karma": 1138,
+      "comments": 76,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T22:10:09.446Z"
+      },
+      "karma": 1181,
+      "comments": 81,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T22:20:09.690Z"
+      },
+      "karma": 1221,
+      "comments": 83,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T22:30:09.174Z"
+      },
+      "karma": 1237,
+      "comments": 87,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T22:40:09.693Z"
+      },
+      "karma": 1265,
+      "comments": 90,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T22:50:10.415Z"
+      },
+      "karma": 1303,
+      "comments": 91,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T23:00:10.367Z"
+      },
+      "karma": 1325,
+      "comments": 96,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T23:10:10.338Z"
+      },
+      "karma": 1376,
+      "comments": 105,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T23:20:10.421Z"
+      },
+      "karma": 1383,
+      "comments": 105,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T23:30:09.777Z"
+      },
+      "karma": 1413,
+      "comments": 105,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T23:40:09.904Z"
+      },
+      "karma": 1445,
+      "comments": 106,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-06T23:50:10.674Z"
+      },
+      "karma": 1473,
+      "comments": 110,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T00:00:10.022Z"
+      },
+      "karma": 1531,
+      "comments": 112,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T00:10:09.947Z"
+      },
+      "karma": 1559,
+      "comments": 113,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T00:20:10.072Z"
+      },
+      "karma": 1587,
+      "comments": 115,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T00:30:09.898Z"
+      },
+      "karma": 1631,
+      "comments": 115,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T00:40:10.344Z"
+      },
+      "karma": 1665,
+      "comments": 115,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T00:50:10.453Z"
+      },
+      "karma": 1697,
+      "comments": 117,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T01:00:10.580Z"
+      },
+      "karma": 1736,
+      "comments": 116,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T01:10:10.396Z"
+      },
+      "karma": 1763,
+      "comments": 117,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T01:20:10.468Z"
+      },
+      "karma": 1794,
+      "comments": 120,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T01:30:10.315Z"
+      },
+      "karma": 1822,
+      "comments": 121,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T01:40:10.528Z"
+      },
+      "karma": 1857,
+      "comments": 121,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T01:50:10.779Z"
+      },
+      "karma": 1903,
+      "comments": 124,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T02:00:10.334Z"
+      },
+      "karma": 1929,
+      "comments": 127,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T02:10:10.571Z"
+      },
+      "karma": 1957,
+      "comments": 127,
+      "upvote_ratio": 0.79
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T02:20:10.601Z"
+      },
+      "karma": 1996,
+      "comments": 129,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T02:30:09.999Z"
+      },
+      "karma": 2023,
+      "comments": 131,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T02:40:10.686Z"
+      },
+      "karma": 2050,
+      "comments": 132,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T02:50:10.668Z"
+      },
+      "karma": 2088,
+      "comments": 132,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T03:00:10.518Z"
+      },
+      "karma": 2121,
+      "comments": 134,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T03:10:10.567Z"
+      },
+      "karma": 2149,
+      "comments": 137,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T03:20:10.616Z"
+      },
+      "karma": 2159,
+      "comments": 139,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T03:30:09.984Z"
+      },
+      "karma": 2196,
+      "comments": 139,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T03:40:10.501Z"
+      },
+      "karma": 2231,
+      "comments": 139,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T03:50:10.687Z"
+      },
+      "karma": 2261,
+      "comments": 139,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T04:00:10.477Z"
+      },
+      "karma": 2286,
+      "comments": 141,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T04:10:10.581Z"
+      },
+      "karma": 2322,
+      "comments": 141,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T04:20:10.511Z"
+      },
+      "karma": 2364,
+      "comments": 141,
+      "upvote_ratio": 0.8
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-07T04:30:09.962Z"
+      },
+      "karma": 2386,
+      "comments": 143,
+      "upvote_ratio": 0.8
+    }
+  ],
+  "tracking_start": {
+    "$date": "2025-05-06T18:30:00.086Z"
+  },
+  "tracking_end": {
+    "$date": "2025-05-07T18:20:23.000Z"
+  },
+  "last_updated": {
+    "$date": "2025-05-07T04:30:09.962Z"
+  }
+}]
