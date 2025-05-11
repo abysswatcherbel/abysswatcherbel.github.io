@@ -62,6 +62,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1066/148358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1066/148358.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.76,
+    "streams": null,
+    "title": "Teogonia",
+    "title_english": "Teogonia",
+    "episode": "5",
+    "karma": 98,
+    "comments": 40,
+    "week_id": 7,
+    "studio": [
+      "Asahi Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kim65e/teogonia_episode_5_discussion/",
+    "mal_id": 58614,
+    "current_rank": 3,
+    "karma_change": -4,
+    "rank_change": 41,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1538/147930l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1538/147930.jpg"
     },
@@ -79,9 +103,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kik00z/bye_bye_earth_season_2_episode_6_discussion/",
     "mal_id": 59819,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -7,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "spring"
   },
   {
@@ -103,7 +127,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kicdax/beyblade_x_episode_79_discussion/",
     "mal_id": 56566,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
