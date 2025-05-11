@@ -30,6 +30,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.01,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "6",
+    "karma": 710,
+    "comments": 225,
+    "week_id": 7,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kip2wl/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": 39,
+    "rank_change": 9,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
     },
@@ -55,9 +83,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kiimlj/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 6,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "spring"
   },
   {
@@ -79,9 +107,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kim65e/teogonia_episode_5_discussion/",
     "mal_id": 58614,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -4,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -103,9 +131,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kik00z/bye_bye_earth_season_2_episode_6_discussion/",
     "mal_id": 59819,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -7,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   },
   {
@@ -127,7 +155,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kicdax/beyblade_x_episode_79_discussion/",
     "mal_id": 56566,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
