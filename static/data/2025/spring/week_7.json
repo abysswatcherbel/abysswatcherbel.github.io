@@ -629,5 +629,29 @@
     "karma_change": 0,
     "rank_change": 32,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.04,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "6",
+    "karma": 4,
+    "comments": 2,
+    "week_id": 7,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kjjt29/everyday_host_episode_6_discussion/",
+    "mal_id": 60535,
+    "current_rank": 25,
+    "karma_change": -4,
+    "rank_change": 32,
+    "season": "spring"
   }
 ]
