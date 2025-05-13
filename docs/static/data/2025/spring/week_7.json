@@ -584,6 +584,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": 6.5,
+    "streams": null,
+    "episode": "6",
+    "karma": 16,
+    "comments": 3,
+    "week_id": 7,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kjtvaq/koupen_chan_episode_6_discussion/",
+    "mal_id": 60534,
+    "current_rank": 23,
+    "karma_change": 12,
+    "rank_change": 36,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -601,7 +625,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kicdax/beyblade_x_episode_79_discussion/",
     "mal_id": 56566,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -625,9 +649,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kir6xe/hanadoll_reinterpretation_of_flowering_episode_2/",
     "mal_id": 55710,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -1,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -649,9 +673,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kjffih/classicstars_episode_6_discussion/",
     "mal_id": 59199,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -673,9 +697,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kjjt29/everyday_host_episode_6_discussion/",
     "mal_id": 60535,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -4,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   }
 ]
