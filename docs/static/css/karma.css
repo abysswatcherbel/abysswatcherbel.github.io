@@ -46,6 +46,18 @@ body {
     font-family: "Sora", sans-serif;
 }
 
+body.edit-mode .editable-text {
+    outline: 1.5px dashed #4299e1;
+    background: #fffbe6;
+    cursor: text;
+    transition: outline 0.18s;
+}
+
+body.edit-mode .editable-text[contenteditable="true"]:focus {
+    outline: 2.5px solid #1e40af;
+    background: #e0f2fe;
+}
+
 /* Main container */
 .container {
     color: var(--light-text);
@@ -154,9 +166,48 @@ body {
 
 }
 
+.edit-banner-button {
+    position: absolute;
+    
+    bottom: 10px;
+    
+    left: 50%;
+    
+    transform: translateX(-50%);
+    
+    padding: 8px 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    
+    visibility: hidden;
+    
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 100;
+    
+}
+.karma-entry .details:hover .edit-banner-button {
+    opacity: 1;
+    visibility: visible;
+    z-index: 100;
+   
+}
+
+body.edit-mode .edit-banner-button {
+    opacity: 1 !important;
+    pointer-events: auto !important; 
+    visibility: visible;
+    z-index: 100 !important;
+}
+
 .karma-entry .details>* {
     z-index: 1;
 }
+
 
 /* Details layout */
 .karma-entry .details .part-1 {

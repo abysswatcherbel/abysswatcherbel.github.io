@@ -5,7 +5,13 @@
         <title>{{ airing_details.season }} Karma Ranks</title>
         <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/toolbar.css') }}">
         <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
+        <script src="{{ url_for('static', filename='scripts/editBanner.js') }}"></script>
+        <script src="{{ url_for('static', filename='scripts/toolbar.js') }}"></script>
+        <script crossorigin src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image-more/3.5.0/dom-to-image-more.min.js"></script>
     </head>
 
     <body>
@@ -180,6 +186,7 @@
                                     </span>
                                 </div>
                             </div>
+                            <button class="edit-banner-button">Change or Edit this Banner</button>
                         </div>
                         <div class="details-2">
                             <div class="comments-wrapper">
@@ -249,7 +256,94 @@
                 <div class="divider"></div>
                 {% endfor %}
             </div>
+            
         </div>
+        <div id="rightToolbar" class="right-toolbar">
+            <button id="editModeBtn" class="toolbar-btn" title="Edit Mode">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M3 17v-2.5l10-10a1.77 1.77 0 0 1 2.5 2.5l-10 10H3zm1.5-1.5H5l10-10a.25.25 0 1 0-.35-.35l-10 10v.35zm8.12-7.76l1.13-1.12 1.5 1.5-1.12 1.12-1.5-1.5z"
+                        fill="currentColor" />
+                </svg>
+                <span>Edit Mode</span>
+            </button>
+            <button id="saveEditsBtn" class="toolbar-btn" title="Save Edits">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M5 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6.83a2 2 0 0 0-.59-1.41l-2.83-2.83A2 2 0 0 0 13.17 2H5zm0 2h8v2.17a2 2 0 0 0 2 2V16H5V4zm3 8h2v4h-2v-4z"
+                        fill="currentColor" />
+                </svg>
+                <span>Save Edits</span>
+            </button>
+            <button id="saveEditsAsBtn" class="toolbar-btn" title="Save Edits As">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M6 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6zm0 2h8v12H6V4zm2 2h4v2H8V6zm0 3h4v2H8V9zm0 3h4v2H8v-2z"
+                        fill="currentColor" />
+                </svg>
+                <span>Save As</span>
+            </button>
+            <button id="copyHtmlBtn" class="toolbar-btn" title="Copy HTML">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M7 2a2 2 0 0 0-2 2v2h2V4h8v8h-2v2h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H7zm0 6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2zm2 0h8v10h-8V8zm-2 2v2H5v2h2v2H5v2h2a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H5z"
+                        fill="currentColor" />
+                </svg>
+                <span>Copy HTML</span>
+            </button>
+            <button id="screenshotBtn" class="toolbar-btn" title="Screenshot Chart">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M10 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm8-3a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16zm0 2H2v12h16V4z"
+                        fill="currentColor" />
+                </svg>
+                <span>Screenshot</span>
+            </button>
+        </div>
+
+        
+        <div id="bannerEditorModal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close-button">&times;</span>
+                <h2>Edit Banner Image</h2>
+                <div class="modal-body">
+                    <div class="modal-preview-section">
+                        <div class="preview-controls">
+                            
+                            <div class="zoom-controls">
+                                <button id="zoomInBtn" title="Zoom In" class="zoom-button">Zoom In</button>
+                                <button id="zoomOutBtn" title="Zoom Out" class="zoom-button">Zoom Out</button>
+                               
+                            </div>
+                        </div>
+                        <div id="imagePreviewBox" class="image-preview-box">
+                            <div id="previewBackgroundLayer" class="preview-layer"></div>
+                            <div id="previewForegroundLayer" class="preview-layer"></div>
+                        </div>
+                    </div>
+                    <div class="modal-input-area">
+                        <label for="imageUrlInput">Image URL:</label>
+                        <input type="url" id="imageUrlInput" name="imageUrlInput" placeholder="https://example.com/image.jpg">
+        
+                        <label for="bgPositionInput">Background Position:</label>
+                        <input type="text" id="bgPositionInput" name="bgPositionInput"
+                            placeholder="e.g., center center, 0px -50px">
+        
+                        <label for="bgSizeInput">Zoom:</label>
+                        <input type="text" id="bgSizeInput" name="bgSizeInput" placeholder="e.g., cover, contain, 100%">
+                        
+                    </div>
+                    
+                   
+            </div>
+            <div class="modal-footer">
+                <button id="saveBannerChanges" class="modal-button-save">Save Changes</button>
+                <button id="cancelBannerChanges" class="modal-button-cancel">Cancel</button>
+                <button id="copyBannerCss" class="modal-button-copy" type="button">Copy Edits</button>
+            </div>
+        </div>
+
+
     </body>
 
 </html>

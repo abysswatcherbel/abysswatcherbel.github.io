@@ -1,0 +1,252 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1010;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
+   
+}
+
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.modal-content {
+    background-color: #082045de;
+    color: var(--light-text);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+    /* Max width */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.modal-close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-close-button:hover,
+.modal-close-button:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.modal-body {
+    display: flex;
+    gap: 20px;
+    /* Space between preview and inputs */
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.modal-preview-section {
+    /* Replaces .modal-preview-area */
+    flex: 1.5;
+    /* Give a bit more space to preview if needed, adjust flex values as desired */
+    display: flex;
+    flex-direction: column;
+    /* Stack controls and preview box vertically */
+    align-items: center;
+    /* Center preview box if it's narrower than this section */
+}
+.image-preview-box {
+    width: 100%;
+    /* Or a fixed width like 300px */
+    height: 200px;
+    /* Adjust as needed, should be proportional to your actual banner */
+    background-size: cover;
+    /* Default, will be updated */
+    background-position: center center;
+    /* Default, will be updated */
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-input-area {
+    flex: 1;
+    /* Takes up the other half */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-input-area label {
+    font-weight: bold;
+    margin-bottom: -5px;
+    /* Reduce space between label and input */
+}
+
+.modal-input-area input[type="url"],
+.modal-input-area input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Important for width 100% */
+}
+
+.modal-footer {
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.modal-button-save,
+.modal-button-cancel, .modal-button-copy {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.modal-button-save {
+    background-color: var(--positive-color);
+    color: white;
+}
+
+
+.modal-button-save:hover {
+    transform: scale(1.2);
+}
+
+.modal-button-cancel {
+    background-color: var(--negative-color);
+    color: white;
+}
+
+.modal-button-cancel:hover {
+    transform: scale(1.2);
+}
+.modal-button-copy {
+    background-color: var(--winter-bg);
+    color: white;
+}
+.modal-button-copy:hover {
+    transform: scale(1.2);
+}
+
+.preview-controls {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* To space out toggle and zoom buttons */
+    width: 100%;
+    /* Make it take full width of its container */
+    max-width: 425px;
+    /* Align with preview box width */
+}
+
+.preview-controls label {
+    margin-left: 5px;
+    font-size: 0.9em;
+    margin-right: auto;
+    
+}
+
+.zoom-controls {
+    display: flex;
+}
+
+.zoom-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 4px 8px;
+    font-size: 1em;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.zoom-button:hover {
+    background-color: #e0e0e0;
+}
+
+.image-preview-box {
+    width: 425px;
+    /* Fixed width as per your banner dimensions */
+    height: 151px;
+    /* Fixed height as per your banner dimensions */
+    border: 1px solid #ccc;
+    position: relative;
+    /* Crucial for positioning the layers */
+    overflow: hidden;
+    /* Ensures layers don't spill out */
+    background-color: #e0e0e0;
+    /* Fallback background for the box itself */
+    margin: 0 auto;
+    /* Centers the box if .modal-preview-section is wider */
+}
+
+.preview-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* Important for both layers */
+}
+
+#previewBackgroundLayer {
+    z-index: 1;
+    /* Bottom layer */
+}
+
+#previewForegroundLayer {
+    z-index: 2;
+    cursor: grab;
+    
+}
+#previewForegroundLayer:active {
+    cursor: grabbing;
+}
+
+
+.modal-input-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Cursor for dragging - applied via JS when dragging is possible */
+.image-preview-box.draggable .preview-foreground-layer {
+    /* Target foreground for drag */
+    cursor: grab;
+}
+
+.image-preview-box.dragging .preview-foreground-layer {
+    cursor: grabbing;
+}
