@@ -623,33 +623,37 @@ def insert_mongo(
         season_name = schedule.season_name
 
         # Handle the reddit_karma structure properly to support multiple years and seasons
+        try:
+            # Check if the document has the reddit_karma field
+            if "reddit_karma" not in show:
+                # Initialize the reddit_karma object if it doesn't exist
+                col.update_one(query, {"$set": {"reddit_karma": {}}})
+                show = col.find_one(query)  # Refresh the data
 
-        # Check if the document has the reddit_karma field
-        if "reddit_karma" not in show:
-            # Initialize the reddit_karma object if it doesn't exist
-            col.update_one(query, {"$set": {"reddit_karma": {}}})
-            show = col.find_one(query)  # Refresh the data
+            # Check if the year exists in reddit_karma
+            if year_str not in show.get("reddit_karma", {}):
+                # Initialize the year as an empty object if it doesn't exist
+                col.update_one(query, {"$set": {f"reddit_karma.{year_str}": {}}})
+                show = col.find_one(query)  # Refresh the data
 
-        # Check if the year exists in reddit_karma
-        if year_str not in show.get("reddit_karma", {}):
-            # Initialize the year as an empty object if it doesn't exist
-            col.update_one(query, {"$set": {f"reddit_karma.{year_str}": {}}})
-            show = col.find_one(query)  # Refresh the data
+            # Check if the season exists in the year
+            if season_name not in show.get("reddit_karma", {}).get(year_str, {}):
+                # Initialize the season as an empty array if it doesn't exist
+                col.update_one(
+                    query, {"$set": {f"reddit_karma.{year_str}.{season_name}": []}}
+                )
 
-        # Check if the season exists in the year
-        if season_name not in show.get("reddit_karma", {}).get(year_str, {}):
-            # Initialize the season as an empty array if it doesn't exist
-            col.update_one(
-                query, {"$set": {f"reddit_karma.{year_str}.{season_name}": []}}
+            # Now push the episode data to the season array
+            update_path = f"reddit_karma.{year_str}.{season_name}"
+            update_result = col.update_one(query, {"$push": {update_path: episode_data}})
+
+            logger.info(
+                f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}"
             )
-
-        # Now push the episode data to the season array
-        update_path = f"reddit_karma.{year_str}.{season_name}"
-        update_result = col.update_one(query, {"$push": {update_path: episode_data}})
-
-        logger.info(
-            f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}"
-        )
+        except Exception as e:
+            logger.error(
+                f"Error updating document with MAL ID {mal_id} and from the post {reddit_id}: {e}"
+            )
     else:
         if mal_id:
             logger.warning(
@@ -1150,14 +1154,14 @@ def missing_shows_on_db(shows_reddit: List[Dict], shows_db: List[Dict]) -> List:
     reddit_df = reddit_df.dropna(subset=["id"])
 
     # Get the set of show IDs from each source
-    reddit_ids = set(reddit_df["id"].astype(str))
-    db_ids = set(db_df["id"].astype(str))
+    reddit_ids = set(reddit_df["id"].astype(int))
+    db_ids = set(db_df["id"].astype(int))
 
     # Find IDs that are in Reddit but not in the database
     missing_ids = reddit_ids - db_ids
 
     # Filter the reddit_df to only include rows with the missing IDs
-    missing_shows = reddit_df[reddit_df["id"].astype(str).isin(missing_ids)].to_dict(
+    missing_shows = reddit_df[reddit_df["id"].astype(int).isin(missing_ids)].to_dict(
         "records"
     )
 
