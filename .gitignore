@@ -17,3 +17,7 @@ __pycache__
 
 *.sh
 *.service
+
+package-lock.json
+package.json
+node_modules

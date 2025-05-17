@@ -3,15 +3,15 @@
 
     <head>
         <title>{{ airing_details.season }} Karma Ranks</title>
-        <meta name="description" content="The current /r/anime weekly engagement ranking &amp; discussion">
+        <meta name="description" content="The current /r/anime weekly engagement ranking discussion">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/toolbar.css') }}">
-        <script src="{{ url_for('static', filename='scripts/reddit_fallback.js') }}"></script>
+       
         <script src="{{ url_for('static', filename='scripts/editBanner.js') }}"></script>
         <script src="{{ url_for('static', filename='scripts/toolbar.js') }}"></script>
-        <script crossorigin src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-        <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image-more/3.5.0/dom-to-image-more.min.js"></script>
+        
     </head>
 
     <body>
@@ -291,14 +291,7 @@
                 </svg>
                 <span>Copy HTML</span>
             </button>
-            <button id="screenshotBtn" class="toolbar-btn" title="Screenshot Chart">
-                <svg width="20" height="20" viewBox="0 0 20 20">
-                    <path
-                        d="M10 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm8-3a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16zm0 2H2v12h16V4z"
-                        fill="currentColor" />
-                </svg>
-                <span>Screenshot</span>
-            </button>
+            
         </div>
 
         
@@ -340,6 +333,7 @@
                 <button id="saveBannerChanges" class="modal-button-save">Save Changes</button>
                 <button id="cancelBannerChanges" class="modal-button-cancel">Cancel</button>
                 <button id="copyBannerCss" class="modal-button-copy" type="button">Copy Edits</button>
+                <button id="resetBannerChanges" class="modal-button-reset">Default</button>
             </div>
         </div>
 

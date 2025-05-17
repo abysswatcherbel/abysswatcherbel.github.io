@@ -25,17 +25,5 @@ document.addEventListener('DOMContentLoaded', function () {
         navigator.clipboard.writeText(chart.outerHTML);
     };
 
-    document.getElementById('screenshotBtn').onclick = () => {
-        const chart = document.querySelector('.container');
-        domtoimage.toPng(chart, { useCORS: true })
-            .then(function (dataUrl) {
-                const link = document.createElement('a');
-                link.href = dataUrl;
-                link.download = 'chart.png';
-                link.click();
-            })
-            .catch(function (error) {
-                alert('Screenshot failed: ' + error);
-            });
-      };
+    
 });

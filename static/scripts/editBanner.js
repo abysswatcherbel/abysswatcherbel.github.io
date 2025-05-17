@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const modalCloseButton = document.querySelector('.modal-close-button');
     const cancelBannerChangesButton = document.getElementById('cancelBannerChanges');
     const saveBannerChangesButton = document.getElementById('saveBannerChanges');
+    const resetBannerButton = document.getElementById('resetBannerChanges');
     const copyBannerCssBtn = document.getElementById('copyBannerCss');
 
     const imageUrlInput = document.getElementById('imageUrlInput');
@@ -299,6 +300,18 @@ document.addEventListener('DOMContentLoaded', function () {
             currentEditingDetailsDiv.style.backgroundPosition = newBgPosition;
             currentEditingDetailsDiv.style.backgroundSize = newBgSize;
             closeModal();
+        }
+    });
+
+    resetBannerButton.addEventListener('click', function () {
+        if (currentEditingDetailsDiv) {
+            
+            
+            
+            bgPositionInput.value = '0px 0px';
+            bgSizeInput.value = '100% auto';
+            updatePreview(); // Reset 
+            
         }
     });
 

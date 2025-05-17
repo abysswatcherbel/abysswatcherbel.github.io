@@ -892,3 +892,9 @@ span[class="right-rank-change neutral"] {
 .None-logo {
     background-color: var(--none-color);
 }
+
+@media (max-width: 300px) {
+    .right-toolbar {
+        display: none;
+    }
+}
