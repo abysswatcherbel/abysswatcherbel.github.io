@@ -1,6 +1,66 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1052/148743l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1052/148743.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.58,
+    "streams": {
+      "name": "prime",
+      "url": "https://www.primevideo.com/detail/0KFD79CBVX90IWRIG5NLAGJ7R1",
+      "logo": "https://static.vecteezy.com/system/resources/thumbnails/019/766/188/small/prime-video-logo-prime-video-icon-transparent-logo-free-png.png"
+    },
+    "title": "Kidou Senshi Gundam: GQuuuuuuX",
+    "title_english": "Mobile Suit Gundam: GQuuuuuuX",
+    "banner": {
+      "url": "https://media.tenor.com/qjN6YrA185EAAAAM/amate-yuzuriha-gquuuuuux.gif",
+      "offset": "0px -208px"
+    },
+    "episode": "7",
+    "karma": 1134,
+    "comments": 732,
+    "week_id": 8,
+    "studio": [
+      "Sunrise",
+      "Khara"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kr8mp0/mobile_suit_gundam_gquuuuuux_episode_7_discussion/",
+    "mal_id": 60449,
+    "current_rank": 1,
+    "karma_change": 65,
+    "rank_change": 2,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1314/147593l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1314/147593.jpg"
+    },
+    "num_episodes": 6,
+    "score": 7.67,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV2X9/lycoris-recoil"
+    },
+    "title": "Lycoris Recoil: Friends Are Thieves of Time.",
+    "title_english": "Lycoris Recoil Short Movie",
+    "episode": "6",
+    "karma": 1074,
+    "comments": 126,
+    "week_id": 8,
+    "studio": [
+      "A-1 Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1krw41u/lycoris_recoil_friends_are_thieves_of_time/",
+    "mal_id": 59369,
+    "current_rank": 2,
+    "karma_change": 24,
+    "rank_change": 2,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1988/148017l.webp",
       "medium": "https://cdn.myanimelist.net/images/anime/1988/148017.webp"
     },
@@ -22,9 +82,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpf8dm/witch_watch_episode_7_discussion/",
     "mal_id": 59597,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": -164,
-    "rank_change": 1,
+    "rank_change": -1,
     "season": "spring"
   },
   {
@@ -50,9 +110,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1koz4v7/shoushimin_series_season_2_shoshimin_how_to/",
     "mal_id": 59828,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 18,
-    "rank_change": 5,
+    "rank_change": 3,
     "season": "spring"
   },
   {
@@ -78,9 +138,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kqd8f8/vigilante_boku_no_hero_academia_illegals_my_hero/",
     "mal_id": 60593,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -96,
-    "rank_change": 2,
+    "rank_change": 0,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1511/148642l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1511/148642.jpg"
+    },
+    "title": "Apocalypse Hotel",
+    "title_english": "Apocalypse Hotel",
+    "num_episodes": 0,
+    "score": 7.36,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GXJHM3G58/apocalypse-hotel"
+    },
+    "episode": "7",
+    "karma": 817,
+    "comments": 229,
+    "week_id": 8,
+    "studio": [
+      "CygamesPictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1krd5gf/apocalypse_hotel_episode_7_discussion/",
+    "mal_id": 59675,
+    "current_rank": 6,
+    "karma_change": -94,
+    "rank_change": 0,
     "season": "spring"
   },
   {
@@ -106,9 +193,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kouf4p/kowloon_generic_romance_episode_7_discussion/",
     "mal_id": 60083,
-    "current_rank": 4,
+    "current_rank": 7,
     "karma_change": -53,
-    "rank_change": 5,
+    "rank_change": 2,
     "season": "spring"
   },
   {
@@ -134,9 +221,37 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ko6qa6/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 5,
+    "current_rank": 8,
     "karma_change": -57,
-    "rank_change": 5,
+    "rank_change": 2,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1263/148318l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1263/148318.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.43,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GP5HJ8477/the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kanpekisugite Kawaige ga Nai to Konyaku Haki sareta Seijo wa Ringoku ni Urareru",
+    "title_english": "The Too-Perfect Saint: Tossed Aside by My Fianc\u00e9 and Sold to Another Kingdom",
+    "episode": "8",
+    "karma": 560,
+    "comments": 301,
+    "week_id": 8,
+    "studio": [
+      "TROYCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ks0ufs/kanpekisugite_kawaige_ga_nai_to_konyaku_haki/",
+    "mal_id": 60157,
+    "current_rank": 9,
+    "karma_change": 104,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -161,9 +276,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpeuth/umamusume_cinderella_gray_episode_7_discussion/",
     "mal_id": 59636,
-    "current_rank": 6,
+    "current_rank": 10,
     "karma_change": -89,
-    "rank_change": 6,
+    "rank_change": 2,
     "season": "spring"
   },
   {
@@ -190,9 +305,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kov3cl/katainaka_no_ossan_kensei_ni_naru_from_old/",
     "mal_id": 59452,
-    "current_rank": 7,
+    "current_rank": 11,
     "karma_change": -52,
-    "rank_change": 7,
+    "rank_change": 3,
     "season": "spring"
   },
   {
@@ -217,9 +332,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpm20s/sentai_daishikkaku_season_2_go_go_loser_ranger/",
     "mal_id": 59189,
-    "current_rank": 8,
+    "current_rank": 12,
     "karma_change": -39,
-    "rank_change": 7,
+    "rank_change": 3,
     "season": "spring"
   },
   {
@@ -244,9 +359,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kox3k6/mono_episode_6_discussion/",
     "mal_id": 58492,
-    "current_rank": 9,
+    "current_rank": 13,
     "karma_change": -7,
-    "rank_change": 9,
+    "rank_change": 5,
     "season": "spring"
   },
   {
@@ -272,9 +387,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kqdyq5/summer_pockets_episode_7_discussion/",
     "mal_id": 50694,
-    "current_rank": 10,
+    "current_rank": 14,
     "karma_change": -170,
-    "rank_change": 3,
+    "rank_change": -1,
     "season": "spring"
   },
   {
@@ -299,9 +414,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1koxrvq/hibi_wa_sugiredo_meshi_umashi_food_for_the_soul/",
     "mal_id": 60658,
-    "current_rank": 11,
+    "current_rank": 15,
     "karma_change": 11,
-    "rank_change": 11,
+    "rank_change": 7,
     "season": "spring"
   },
   {
@@ -327,9 +442,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kostra/anne_shirley_episode_7_discussion/",
     "mal_id": 60334,
-    "current_rank": 12,
+    "current_rank": 16,
     "karma_change": -14,
-    "rank_change": 9,
+    "rank_change": 5,
     "season": "spring"
   },
   {
@@ -355,9 +470,37 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1koyigo/ore_wa_seikan_kokka_no_akutoku_ryoushu_im_the/",
     "mal_id": 60154,
-    "current_rank": 13,
+    "current_rank": 17,
     "karma_change": 56,
-    "rank_change": 15,
+    "rank_change": 11,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1620/148221l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1620/148221.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.08,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GMEHME72W/once-upon-a-witchs-death",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Aru Majo ga Shinu Made",
+    "title_english": "Once Upon a Witch's Death",
+    "episode": "8",
+    "karma": 318,
+    "comments": 122,
+    "week_id": 8,
+    "studio": [
+      "EMT Squared"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kr72el/aru_majo_ga_shinu_made_once_upon_a_witchs_death/",
+    "mal_id": 59169,
+    "current_rank": 18,
+    "karma_change": -21,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -383,9 +526,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kosibv/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
     "mal_id": 50738,
-    "current_rank": 14,
+    "current_rank": 19,
     "karma_change": -45,
-    "rank_change": 9,
+    "rank_change": 4,
     "season": "spring"
   },
   {
@@ -411,9 +554,65 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kqdyw8/kijin_gentoushou_sword_of_the_demon_hunter_kijin/",
     "mal_id": 49778,
-    "current_rank": 15,
+    "current_rank": 20,
     "karma_change": -41,
-    "rank_change": 10,
+    "rank_change": 5,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1065/148659l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1065/148659.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.91,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GVDHX85EQ/catch-me-at-the-ballpark",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Ballpark de Tsukamaete!",
+    "title_english": "Catch Me at the Ballpark!",
+    "episode": "8",
+    "karma": 290,
+    "comments": 92,
+    "week_id": 8,
+    "studio": [
+      "EMT Squared"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kr9boh/ballpark_de_tsukamaete_catch_me_at_the_ballpark/",
+    "mal_id": 60293,
+    "current_rank": 21,
+    "karma_change": -2,
+    "rank_change": 6,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1955/148360l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1955/148360.webp"
+    },
+    "num_episodes": 12,
+    "score": 7,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G9VHN9Q84/the-shiunji-family-children",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Shiunji-ke no Kodomotachi",
+    "title_english": "The Shiunji Family Children",
+    "episode": "7",
+    "karma": 284,
+    "comments": 122,
+    "week_id": 8,
+    "studio": [
+      "Doga Kobo"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1kr501s/shiunjike_no_kodomotachi_the_shiunji_family/",
+    "mal_id": 58131,
+    "current_rank": 22,
+    "karma_change": 34,
+    "rank_change": 7,
     "season": "spring"
   },
   {
@@ -439,9 +638,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpb9m4/lazarus_episode_7_discussion/",
     "mal_id": 56038,
-    "current_rank": 16,
+    "current_rank": 23,
     "karma_change": -64,
-    "rank_change": 8,
+    "rank_change": 1,
     "season": "spring"
   },
   {
@@ -467,9 +666,37 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kq1w4c/one_piece_episode_1129_discussion/",
     "mal_id": 21,
-    "current_rank": 17,
+    "current_rank": 24,
     "karma_change": 231,
-    "rank_change": 37,
+    "rank_change": 30,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1521/148809l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1521/148809.jpg"
+    },
+    "title": "Haite Kudasai, Takamine-san",
+    "title_english": "Please Put Them On, Takamine-san",
+    "num_episodes": 12,
+    "score": 6.07,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G3KHEVD1D/please-put-them-on-takamine-san",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "episode": "8",
+    "karma": 256,
+    "comments": 74,
+    "week_id": 8,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1krzd0p/haite_kudasai_takaminesan_please_put_them_on/",
+    "mal_id": 59457,
+    "current_rank": 25,
+    "karma_change": 12,
+    "rank_change": 5,
     "season": "spring"
   },
   {
@@ -495,9 +722,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kqbtjw/zatsutabi_thats_journey_episode_7_discussion/",
     "mal_id": 55514,
-    "current_rank": 18,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 14,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -523,9 +750,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kox5lk/arank_party_wo_ridatsu_shita_ore_wa_moto/",
     "mal_id": 59730,
-    "current_rank": 19,
+    "current_rank": 27,
     "karma_change": 7,
-    "rank_change": 18,
+    "rank_change": 10,
     "season": "spring"
   },
   {
@@ -551,9 +778,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kplbn5/kanchigai_no_atelier_meister_eiyuu_party_no_moto/",
     "mal_id": 60140,
-    "current_rank": 20,
+    "current_rank": 28,
     "karma_change": -21,
-    "rank_change": 16,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -578,9 +805,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpm00g/gorilla_no_kami_kara_kago_sareta_reijou_wa/",
     "mal_id": 59935,
-    "current_rank": 21,
+    "current_rank": 29,
     "karma_change": -61,
-    "rank_change": 10,
+    "rank_change": 2,
     "season": "spring"
   },
   {
@@ -605,9 +832,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kop1w4/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 22,
+    "current_rank": 30,
     "karma_change": -68,
-    "rank_change": 11,
+    "rank_change": 3,
     "season": "spring"
   },
   {
@@ -629,9 +856,37 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpnoxa/chotto_dake_ai_ga_omoi_dark_elf_ga_isekai_kara/",
     "mal_id": 59745,
-    "current_rank": 23,
+    "current_rank": 31,
     "karma_change": 28,
-    "rank_change": 16,
+    "rank_change": 8,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1712/148299l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1712/148299.jpg"
+    },
+    "num_episodes": 0,
+    "score": 5.31,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
+    "title_english": "The Beginning After the End",
+    "episode": "8",
+    "karma": 143,
+    "comments": 95,
+    "week_id": 8,
+    "studio": [
+      "Studio A-CAT"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ks2syg/saikyou_no_ousama_nidome_no_jinsei_wa_nani_o_suru/",
+    "mal_id": 60146,
+    "current_rank": 32,
+    "karma_change": -23,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -653,9 +908,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1koweo5/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 24,
+    "current_rank": 33,
     "karma_change": 45,
-    "rank_change": 22,
+    "rank_change": 13,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1577/147967l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1577/147967.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.24,
+    "streams": {
+      "name": "samsung",
+      "url": "https://www.samsungtvplus.com/"
+    },
+    "title": "Your Forma",
+    "title_english": "Your Forma",
+    "episode": "8",
+    "karma": 117,
+    "comments": 40,
+    "week_id": 8,
+    "studio": [
+      "Geno Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ks0jqe/your_forma_episode_8_discussion/",
+    "mal_id": 55995,
+    "current_rank": 34,
+    "karma_change": 92,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -677,9 +959,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpldn7/maebashi_witches_episode_7_discussion/",
     "mal_id": 59744,
-    "current_rank": 25,
+    "current_rank": 35,
     "karma_change": 19,
-    "rank_change": 19,
+    "rank_change": 9,
     "season": "spring"
   },
   {
@@ -701,9 +983,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpntvg/kakushite_makinasan_episode_7_discussion/",
     "mal_id": 58833,
-    "current_rank": 26,
+    "current_rank": 36,
     "karma_change": -9,
-    "rank_change": 14,
+    "rank_change": 4,
     "season": "spring"
   },
   {
@@ -725,9 +1007,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ko4ir1/teogonia_episode_6_discussion/",
     "mal_id": 58614,
-    "current_rank": 27,
+    "current_rank": 37,
     "karma_change": -2,
-    "rank_change": 16,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -749,9 +1031,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kotpfo/guilty_gear_strive_dual_rulers_episode_7/",
     "mal_id": 59070,
-    "current_rank": 28,
+    "current_rank": 38,
     "karma_change": 18,
-    "rank_change": 21,
+    "rank_change": 11,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1979/148096l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1979/148096.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.16,
+    "streams": null,
+    "title": "Uchuujin MuuMuu",
+    "title_english": "Uchuujin MuuMuu",
+    "episode": "7",
+    "karma": 47,
+    "comments": 31,
+    "week_id": 8,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ks1lja/uchuujin_muumuu_me_and_the_alien_muumuu_episode_7/",
+    "mal_id": 60401,
+    "current_rank": 39,
+    "karma_change": -12,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -773,9 +1079,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ko2goj/bye_bye_earth_season_2_episode_7_discussion/",
     "mal_id": 59819,
-    "current_rank": 29,
+    "current_rank": 40,
     "karma_change": 7,
-    "rank_change": 23,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -797,9 +1103,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kqhrl0/chuuzenjisensei_mononoke_kougiroku_sensei_ga_nazo/",
     "mal_id": 60009,
-    "current_rank": 30,
+    "current_rank": 41,
     "karma_change": -5,
-    "rank_change": 21,
+    "rank_change": 10,
     "season": "spring"
   },
   {
@@ -821,9 +1127,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kp8loc/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 31,
+    "current_rank": 42,
     "karma_change": 4,
-    "rank_change": 25,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -845,9 +1151,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kp8uzr/koupen_chan_episode_7_discussion/",
     "mal_id": 60534,
-    "current_rank": 32,
+    "current_rank": 43,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 15,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
+    },
+    "title": "Yoru wa Neko to Issho Season 3",
+    "title_english": "Yoru wa Neko to Issho Season 3",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "85",
+    "karma": 15,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Studio PuYUKAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1krv56n/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
+    "mal_id": 58199,
+    "current_rank": 44,
+    "karma_change": 0,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -869,9 +1199,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1koqso1/meitantei_conan_case_closed_episode_1163/",
     "mal_id": 235,
-    "current_rank": 33,
+    "current_rank": 45,
     "karma_change": -12,
-    "rank_change": 24,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -893,9 +1223,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kqfgla/compass_20_sentou_setsuri_kaiseki_system/",
     "mal_id": 53762,
-    "current_rank": 34,
+    "current_rank": 46,
     "karma_change": 0,
-    "rank_change": 32,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -917,9 +1247,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1koy8n1/classicstars_episode_7_discussion/",
     "mal_id": 59199,
-    "current_rank": 35,
+    "current_rank": 47,
     "karma_change": -2,
-    "rank_change": 29,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -941,9 +1271,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpd1jt/beyblade_x_episode_81_discussion/",
     "mal_id": 56566,
-    "current_rank": 36,
+    "current_rank": 48,
     "karma_change": -4,
-    "rank_change": 24,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -965,9 +1295,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1kpglj5/everyday_host_episode_7_discussion/",
     "mal_id": 60535,
-    "current_rank": 37,
+    "current_rank": 49,
     "karma_change": 1,
-    "rank_change": 30,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -989,9 +1319,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ko70n4/beyblade_x_episode_80_discussion/",
     "mal_id": 56566,
-    "current_rank": 38,
+    "current_rank": 50,
     "karma_change": -6,
-    "rank_change": 22,
+    "rank_change": 10,
     "season": "spring"
   }
 ]
