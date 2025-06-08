@@ -30,6 +30,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.94,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GYQWNXPZY/fire-force",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "10",
+    "karma": 473,
+    "comments": 73,
+    "week_id": 11,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l4z26z/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": -60,
+    "rank_change": 9,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
     },
@@ -55,9 +83,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4su04/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 56,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -79,9 +107,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4w6e8/teogonia_episode_9_discussion/",
     "mal_id": 58614,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -7,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -103,9 +131,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4tz00/bye_bye_earth_season_2_episode_10_discussion_final/",
     "mal_id": 59819,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 12,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -127,7 +155,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4f153/beyblade_x_episode_83_discussion/",
     "mal_id": 56566,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
