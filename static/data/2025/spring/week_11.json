@@ -1,6 +1,35 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1025/147458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1025/147458.jpg"
+    },
+    "num_episodes": 24,
+    "score": 8.81,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/the-apothecary-diaries",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "title_english": "The Apothecary Diaries Season 2",
+    "episode": "21",
+    "karma": 3014,
+    "comments": 854,
+    "week_id": 11,
+    "studio": [
+      "OLM",
+      "TOHO animation STUDIO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l4upbo/kusuriya_no_hitorigoto_season_2_the_apothecary/",
+    "mal_id": 58514,
+    "current_rank": 1,
+    "karma_change": 264,
+    "rank_change": 0,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
     },
@@ -26,9 +55,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4su04/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 56,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "spring"
   },
   {
@@ -50,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4tz00/bye_bye_earth_season_2_episode_10_discussion_final/",
     "mal_id": 59819,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 12,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -74,7 +103,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4f153/beyblade_x_episode_83_discussion/",
     "mal_id": 56566,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
