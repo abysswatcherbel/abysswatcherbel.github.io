@@ -159,5 +159,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1458/144655l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1458/144655.jpg"
+    },
+    "num_episodes": 0,
+    "score": 5.82,
+    "streams": null,
+    "title": "Hana-Doll*: Reinterpretation of Flowering",
+    "title_english": "Hana-Doll*: Reinterpretation of Flowering",
+    "episode": "6",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "A-Real"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l51m1r/hanadoll_reinterpretation_of_flowering_episode_6/",
+    "mal_id": 55710,
+    "current_rank": 7,
+    "karma_change": -2,
+    "rank_change": 48,
+    "season": "spring"
   }
 ]
