@@ -1,6 +1,38 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1363/148601l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1363/148601.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.99,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV0D8/can-a-boy-girl-friendship-survive",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
+    "title_english": "Can a Boy-Girl Friendship Survive?",
+    "banner": {
+      "url": "https://i.imgur.com/EHDL4CA.jpeg",
+      "offset": "0px -32px"
+    },
+    "episode": "10",
+    "karma": 308,
+    "comments": 193,
+    "week_id": 11,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l4su04/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
+    "mal_id": 52709,
+    "current_rank": 1,
+    "karma_change": 56,
+    "rank_change": 24,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -18,7 +50,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4f153/beyblade_x_episode_83_discussion/",
     "mal_id": 56566,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
