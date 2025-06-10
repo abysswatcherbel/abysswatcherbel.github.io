@@ -564,6 +564,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": null,
+    "episode": "10",
+    "karma": 12,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l64sov/koupen_chan_episode_10_discussion/",
+    "mal_id": 60534,
+    "current_rank": 22,
+    "karma_change": -2,
+    "rank_change": 28,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1564/148380l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1564/148380.jpg"
     },
@@ -581,9 +605,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5pzlk/classicstars_episode_10_discussion/",
     "mal_id": 59199,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 8,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -605,7 +629,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4f153/beyblade_x_episode_83_discussion/",
     "mal_id": 56566,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -629,9 +653,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l51m1r/hanadoll_reinterpretation_of_flowering_episode_6/",
     "mal_id": 55710,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -2,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   }
 ]
