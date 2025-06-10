@@ -396,6 +396,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1743/148272l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1743/148272.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.59,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GKEH2G0J4/the-unaware-atelier-meister",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kanchigai no Atelier Meister: Eiyuu Party no Moto Zatsuyougakari ga, Jitsu wa Sentou Igai ga SSS Rank Datta to Iu Yoku Aru Hanashi",
+    "title_english": "The Unaware Atelier Meister",
+    "episode": "11",
+    "karma": 194,
+    "comments": 157,
+    "week_id": 11,
+    "studio": [
+      "EMT Squared"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l6dm2o/kanchigai_no_atelier_meister_eiyuu_party_no_moto/",
+    "mal_id": 60140,
+    "current_rank": 15,
+    "karma_change": 28,
+    "rank_change": 17,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1378/148615l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1378/148615.jpg"
     },
@@ -417,9 +445,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5p06r/arank_party_wo_ridatsu_shita_ore_wa_moto/",
     "mal_id": 59730,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 12,
-    "rank_change": 19,
+    "rank_change": 18,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1907/148540l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1907/148540.jpg"
+    },
+    "title": "Maebashi Witches",
+    "title_english": "Maebashi Witches",
+    "num_episodes": 0,
+    "score": 6.2,
+    "streams": null,
+    "episode": "10",
+    "karma": 123,
+    "comments": 59,
+    "week_id": 11,
+    "studio": [
+      "Sunrise"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l6do4w/maebashi_witches_episode_10_discussion/",
+    "mal_id": 59744,
+    "current_rank": 17,
+    "karma_change": 22,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -444,9 +496,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5h5xr/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 16,
+    "current_rank": 18,
     "karma_change": -1,
-    "rank_change": 20,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -468,9 +520,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5ob6w/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 17,
+    "current_rank": 19,
     "karma_change": -1,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -492,9 +544,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4w6e8/teogonia_episode_9_discussion/",
     "mal_id": 58614,
-    "current_rank": 18,
+    "current_rank": 20,
     "karma_change": -7,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -516,9 +568,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5auql/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 19,
+    "current_rank": 21,
     "karma_change": 9,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -540,9 +592,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4tz00/bye_bye_earth_season_2_episode_10_discussion_final/",
     "mal_id": 59819,
-    "current_rank": 20,
+    "current_rank": 22,
     "karma_change": 12,
-    "rank_change": 25,
+    "rank_change": 23,
     "season": "spring"
   },
   {
@@ -564,9 +616,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5de8q/pok\u00e9mon_horizons_the_series_episode_98_discussion/",
     "mal_id": 53876,
-    "current_rank": 21,
+    "current_rank": 23,
     "karma_change": 8,
-    "rank_change": 26,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -588,9 +640,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l60mcv/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 22,
+    "current_rank": 24,
     "karma_change": 3,
-    "rank_change": 26,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -612,7 +664,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5iq7l/meitantei_conan_case_closed_episode_1164/",
     "mal_id": 235,
-    "current_rank": 23,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -636,9 +688,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l64sov/koupen_chan_episode_10_discussion/",
     "mal_id": 60534,
-    "current_rank": 24,
+    "current_rank": 26,
     "karma_change": -2,
-    "rank_change": 26,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -660,9 +712,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l5pzlk/classicstars_episode_10_discussion/",
     "mal_id": 59199,
-    "current_rank": 25,
+    "current_rank": 27,
     "karma_change": 8,
-    "rank_change": 31,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -684,7 +736,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4f153/beyblade_x_episode_83_discussion/",
     "mal_id": 56566,
-    "current_rank": 26,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -708,9 +760,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l51m1r/hanadoll_reinterpretation_of_flowering_episode_6/",
     "mal_id": 55710,
-    "current_rank": 27,
+    "current_rank": 29,
     "karma_change": -2,
-    "rank_change": 28,
+    "rank_change": 26,
     "season": "spring"
   }
 ]
