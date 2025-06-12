@@ -1061,6 +1061,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.3,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "10",
+    "karma": 4,
+    "comments": 5,
+    "week_id": 11,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l7sy57/everyday_host_episode_10_discussion/",
+    "mal_id": 60535,
+    "current_rank": 41,
+    "karma_change": 2,
+    "rank_change": 16,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1458/144655l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1458/144655.jpg"
     },
@@ -1078,9 +1102,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l51m1r/hanadoll_reinterpretation_of_flowering_episode_6/",
     "mal_id": 55710,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -2,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "spring"
   }
 ]
