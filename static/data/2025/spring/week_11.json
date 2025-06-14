@@ -1324,6 +1324,30 @@
     "streams": null,
     "title": "Beyblade X",
     "title_english": "Beyblade X",
+    "episode": "84",
+    "karma": 10,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1l99y87/beyblade_x_episode_84_discussion/",
+    "mal_id": 56566,
+    "current_rank": 50,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "Beyblade X",
     "episode": "83",
     "karma": 7,
     "comments": 1,
@@ -1333,7 +1357,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l4f153/beyblade_x_episode_83_discussion/",
     "mal_id": 56566,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1357,9 +1381,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l8pxhi/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -1,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "spring"
   },
   {
@@ -1381,9 +1405,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l7sy57/everyday_host_episode_10_discussion/",
     "mal_id": 60535,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 2,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "spring"
   },
   {
@@ -1405,9 +1429,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l51m1r/hanadoll_reinterpretation_of_flowering_episode_6/",
     "mal_id": 55710,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -2,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "spring"
   }
 ]
