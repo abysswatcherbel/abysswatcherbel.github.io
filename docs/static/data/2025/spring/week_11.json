@@ -1549,6 +1549,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "PetitCure: Precure Fairies",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "12",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1l9zjzo/petitcure_precure_fairies_episode_12_discussion/",
+    "mal_id": 61272,
+    "current_rank": 59,
+    "karma_change": -4,
+    "rank_change": -7,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1458/144655l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1458/144655.jpg"
     },
@@ -1566,9 +1588,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1l51m1r/hanadoll_reinterpretation_of_flowering_episode_6/",
     "mal_id": 55710,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": -2,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "spring"
   }
 ]
