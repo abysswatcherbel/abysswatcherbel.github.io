@@ -59,5 +59,29 @@
     "karma_change": -49,
     "rank_change": 24,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1066/148358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1066/148358.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.82,
+    "streams": null,
+    "title": "Teogonia",
+    "title_english": "Teogonia",
+    "episode": "10",
+    "karma": 81,
+    "comments": 34,
+    "week_id": 12,
+    "studio": [
+      "Asahi Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lajqol/teogonia_episode_10_discussion/",
+    "mal_id": 58614,
+    "current_rank": 3,
+    "karma_change": 2,
+    "rank_change": 41,
+    "season": "spring"
   }
 ]
