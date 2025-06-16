@@ -210,5 +210,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1165",
+    "karma": 10,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lb6l0f/meitantei_conan_case_closed_episode_1165/",
+    "mal_id": 235,
+    "current_rank": 9,
+    "karma_change": -3,
+    "rank_change": 44,
+    "season": "spring"
   }
 ]
