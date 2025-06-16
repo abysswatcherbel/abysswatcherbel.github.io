@@ -114,6 +114,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1496/146890l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1496/146890.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "title": "Nazotoki wa Dinner no Ato de",
+    "title_english": "The Dinner Table Detective",
+    "episode": "11",
+    "karma": 57,
+    "comments": 33,
+    "week_id": 12,
+    "studio": [
+      "Madhouse"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1layihb/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
+    "mal_id": 60377,
+    "current_rank": 5,
+    "karma_change": -18,
+    "rank_change": 40,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -131,7 +155,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1law9d7/princession_orchestra_episode_10_discussion/",
     "mal_id": 59078,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
