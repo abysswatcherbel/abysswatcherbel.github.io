@@ -30,6 +30,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1097/148302l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1097/148302.jpg"
+    },
+    "num_episodes": 13,
+    "score": 7.56,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GZJH3D8K1/kowloon-generic-romance",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kowloon Generic Romance",
+    "title_english": "Kowloon Generic Romance",
+    "episode": "11",
+    "karma": 621,
+    "comments": 164,
+    "week_id": 12,
+    "studio": [
+      "Arvo Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lba6uv/kowloon_generic_romance_episode_11_discussion/",
+    "mal_id": 60083,
+    "current_rank": 2,
+    "karma_change": 12,
+    "rank_change": 6,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
@@ -51,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lalwml/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 18,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "spring"
   },
   {
@@ -79,9 +107,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb8hmu/anne_shirley_episode_11_discussion/",
     "mal_id": 60334,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -72,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "spring"
   },
   {
@@ -111,9 +139,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lag4md/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -49,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -139,9 +167,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb8auz/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
     "mal_id": 50738,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -8,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -166,9 +194,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb4raj/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 25,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -190,9 +218,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lajqol/teogonia_episode_10_discussion/",
     "mal_id": 58614,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 2,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   },
   {
@@ -214,9 +242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1layihb/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -18,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   },
   {
@@ -238,9 +266,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb0j7i/pok\u00e9mon_horizons_the_series_episode_99_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 6,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "spring"
   },
   {
@@ -262,7 +290,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1law9d7/princession_orchestra_episode_10_discussion/",
     "mal_id": 59078,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -286,9 +314,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb6l0f/meitantei_conan_case_closed_episode_1165/",
     "mal_id": 235,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   }
 ]
