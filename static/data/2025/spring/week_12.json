@@ -585,6 +585,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1192/148314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1192/148314.jpg"
+    },
+    "title": "Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikaketekita",
+    "title_english": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
+    "num_episodes": 0,
+    "score": 5.66,
+    "streams": null,
+    "episode": "11",
+    "karma": 98,
+    "comments": 16,
+    "week_id": 12,
+    "studio": [
+      "Elias"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lc41yi/chotto_dake_ai_ga_omoi_dark_elf_ga_isekai_kara/",
+    "mal_id": 59745,
+    "current_rank": 22,
+    "karma_change": 0,
+    "rank_change": 19,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1517/148292l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1517/148292.jpg"
     },
@@ -602,9 +626,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lbc72k/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -7,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -626,8 +650,32 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lajqol/teogonia_episode_10_discussion/",
     "mal_id": 58614,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 2,
+    "rank_change": 20,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1843/146935l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1843/146935.jpg"
+    },
+    "title": "Kakushite! Makina-san!!",
+    "title_english": "Makina-san's a Love Bot?!",
+    "num_episodes": 0,
+    "score": 5.72,
+    "streams": null,
+    "episode": "11",
+    "karma": 79,
+    "comments": 9,
+    "week_id": 12,
+    "studio": [
+      "BloomZ"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lc4cbd/kakushite_makinasan_episode_11_discussion/",
+    "mal_id": 58833,
+    "current_rank": 25,
+    "karma_change": 5,
     "rank_change": 21,
     "season": "spring"
   },
@@ -650,9 +698,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1layihb/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 24,
+    "current_rank": 26,
     "karma_change": -18,
-    "rank_change": 21,
+    "rank_change": 19,
     "season": "spring"
   },
   {
@@ -674,9 +722,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb0j7i/pok\u00e9mon_horizons_the_series_episode_99_discussion/",
     "mal_id": 53876,
-    "current_rank": 25,
+    "current_rank": 27,
     "karma_change": 6,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -698,9 +746,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lbolko/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 26,
+    "current_rank": 28,
     "karma_change": 3,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -722,7 +770,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1law9d7/princession_orchestra_episode_10_discussion/",
     "mal_id": 59078,
-    "current_rank": 27,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -746,9 +794,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lbvt6q/koupen_chan_episode_11_discussion/",
     "mal_id": 60534,
-    "current_rank": 28,
+    "current_rank": 30,
     "karma_change": -1,
-    "rank_change": 26,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -770,9 +818,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb6l0f/meitantei_conan_case_closed_episode_1165/",
     "mal_id": 235,
-    "current_rank": 29,
+    "current_rank": 31,
     "karma_change": -3,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -794,9 +842,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lbdwqb/classicstars_episode_11_discussion/",
     "mal_id": 59199,
-    "current_rank": 30,
+    "current_rank": 32,
     "karma_change": -3,
-    "rank_change": 25,
+    "rank_change": 23,
     "season": "spring"
   }
 ]
