@@ -1113,6 +1113,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
+    },
+    "title": "Yoru wa Neko to Issho Season 3",
+    "title_english": "Yoru wa Neko to Issho Season 3",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "89",
+    "karma": 13,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "Studio PuYUKAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1leg8ky/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
+    "mal_id": 58199,
+    "current_rank": 42,
+    "karma_change": 6,
+    "rank_change": 15,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1130,9 +1154,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lbvt6q/koupen_chan_episode_11_discussion/",
     "mal_id": 60534,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -1,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "spring"
   },
   {
@@ -1154,9 +1178,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lb6l0f/meitantei_conan_case_closed_episode_1165/",
     "mal_id": 235,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -3,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "spring"
   },
   {
@@ -1178,9 +1202,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lbdwqb/classicstars_episode_11_discussion/",
     "mal_id": 59199,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -3,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "spring"
   },
   {
@@ -1202,9 +1226,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lcwu4g/compass_20_sentou_setsuri_kaiseki_system/",
     "mal_id": 53762,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -12,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -1226,9 +1250,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lc9ofo/hanadoll_reinterpretation_of_flowering_episode_7/",
     "mal_id": 55710,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -1,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   }
 ]
