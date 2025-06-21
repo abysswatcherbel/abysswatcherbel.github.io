@@ -1527,6 +1527,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "Beyblade X",
+    "episode": "85",
+    "karma": 2,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lflie4/beyblade_x_episode_85_discussion/",
+    "mal_id": 56566,
+    "current_rank": 58,
+    "karma_change": -5,
+    "rank_change": -1,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1458/144655l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1458/144655.jpg"
     },
@@ -1544,9 +1568,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lc9ofo/hanadoll_reinterpretation_of_flowering_episode_7/",
     "mal_id": 55710,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -1,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "spring"
   }
 ]
