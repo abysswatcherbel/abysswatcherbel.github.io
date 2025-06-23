@@ -29,6 +29,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1097/148302l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1097/148302.jpg"
+    },
+    "num_episodes": 13,
+    "score": 7.55,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GZJH3D8K1/kowloon-generic-romance",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kowloon Generic Romance",
+    "title_english": "Kowloon Generic Romance",
+    "episode": "12",
+    "karma": 575,
+    "comments": 154,
+    "week_id": 13,
+    "studio": [
+      "Arvo Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lgxz63/kowloon_generic_romance_episode_12_discussion/",
+    "mal_id": 60083,
+    "current_rank": 2,
+    "karma_change": -46,
+    "rank_change": 6,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1074/147339l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1074/147339.jpg"
     },
@@ -50,9 +78,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgw39j/slime_taoshite_300nen_shiranai_uchi_ni_level_max/",
     "mal_id": 50738,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 26,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -82,9 +110,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lg4279/danjo_no_yuujou_wa_seiritsu_suru_iya_shinai_can_a/",
     "mal_id": 52709,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 14,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -110,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgwbwy/anne_shirley_episode_12_discussion/",
     "mal_id": 60334,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -8,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -137,9 +165,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgsnz3/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -36,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -161,9 +189,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgmilg/nazotoki_wa_dinner_no_ato_de_the_dinner_table/",
     "mal_id": 60377,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 21,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "spring"
   },
   {
@@ -185,9 +213,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lg7r4l/teogonia_episode_11_discussion/",
     "mal_id": 58614,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -12,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -209,9 +237,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgpy1z/pok\u00e9mon_horizons_the_series_episode_100_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 8,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -233,9 +261,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgf3q3/princession_orchestra_episode_11_discussion/",
     "mal_id": 59078,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 1,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   },
   {
@@ -257,9 +285,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgugec/meitantei_conan_case_closed_episode_1166/",
     "mal_id": 235,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -1,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "spring"
   }
 ]
