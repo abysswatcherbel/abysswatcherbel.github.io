@@ -435,6 +435,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.46,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "20",
+    "karma": 30,
+    "comments": 23,
+    "week_id": 13,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lhc992/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 17,
+    "karma_change": -13,
+    "rank_change": 30,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -452,9 +476,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgf3q3/princession_orchestra_episode_11_discussion/",
     "mal_id": 59078,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 1,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -476,9 +500,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgugec/meitantei_conan_case_closed_episode_1166/",
     "mal_id": 235,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -1,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -500,9 +524,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lh1srg/classicstars_episode_12_discussion/",
     "mal_id": 59199,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -4,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   }
 ]
