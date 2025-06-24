@@ -535,6 +535,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": 6.63,
+    "streams": null,
+    "episode": "12",
+    "karma": 7,
+    "comments": 3,
+    "week_id": 13,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lhg7db/koupen_chan_episode_12_discussion/",
+    "mal_id": 60534,
+    "current_rank": 21,
+    "karma_change": -4,
+    "rank_change": 32,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1564/148380l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1564/148380.jpg"
     },
@@ -552,9 +576,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lh1srg/classicstars_episode_12_discussion/",
     "mal_id": 59199,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -4,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   }
 ]
