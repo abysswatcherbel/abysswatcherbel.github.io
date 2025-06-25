@@ -832,6 +832,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1678/148543l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1678/148543.jpg"
+    },
+    "title": "#Compass 2.0: Sentou Setsuri Kaiseki System",
+    "title_english": "#Compass2.0: Animation Project",
+    "num_episodes": 12,
+    "score": 5.28,
+    "streams": null,
+    "episode": "12",
+    "karma": 12,
+    "comments": 6,
+    "week_id": 13,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1liklk3/compass_20_sentou_setsuri_kaiseki_system/",
+    "mal_id": 53762,
+    "current_rank": 32,
+    "karma_change": 6,
+    "rank_change": 25,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -849,9 +873,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgugec/meitantei_conan_case_closed_episode_1166/",
     "mal_id": 235,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -1,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -873,7 +897,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1li9u4b/everyday_host_episode_11_discussion/",
     "mal_id": 60535,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -897,9 +921,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lhg7db/koupen_chan_episode_12_discussion/",
     "mal_id": 60534,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": -4,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -921,9 +945,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lh1srg/classicstars_episode_12_discussion/",
     "mal_id": 59199,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -4,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "spring"
   }
 ]
