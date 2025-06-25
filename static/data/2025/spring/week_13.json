@@ -716,6 +716,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "11",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1li9u4b/everyday_host_episode_11_discussion/",
+    "mal_id": 60535,
+    "current_rank": 28,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -733,9 +757,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lhg7db/koupen_chan_episode_12_discussion/",
     "mal_id": 60534,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -4,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -757,9 +781,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lh1srg/classicstars_episode_12_discussion/",
     "mal_id": 59199,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -4,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "spring"
   }
 ]
