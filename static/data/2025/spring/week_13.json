@@ -952,6 +952,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "12",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lja3wq/everyday_host_episode_12_discussion/",
+    "mal_id": 60535,
+    "current_rank": 37,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1564/148380l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1564/148380.jpg"
     },
@@ -969,9 +993,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lh1srg/classicstars_episode_12_discussion/",
     "mal_id": 59199,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": -4,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   }
 ]
