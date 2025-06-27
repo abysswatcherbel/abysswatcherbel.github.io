@@ -872,6 +872,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1979/148096l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1979/148096.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.24,
+    "streams": null,
+    "title": "Uchuujin MuuMuu",
+    "title_english": "Uchuujin MuuMuu",
+    "episode": "12",
+    "karma": 47,
+    "comments": 25,
+    "week_id": 13,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lk9pro/uchuujin_muumuu_me_and_the_alien_muumuu_episode/",
+    "mal_id": 60401,
+    "current_rank": 33,
+    "karma_change": 11,
+    "rank_change": 16,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1770/148195l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1770/148195.jpg"
     },
@@ -889,9 +913,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1limzkb/chuuzenjisensei_mononoke_kougiroku_sensei_ga_nazo/",
     "mal_id": 60009,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -1,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -913,9 +937,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lhc992/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": -13,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -937,9 +961,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgf3q3/princession_orchestra_episode_11_discussion/",
     "mal_id": 59078,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 1,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -961,9 +985,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1liklk3/compass_20_sentou_setsuri_kaiseki_system/",
     "mal_id": 53762,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 6,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -985,9 +1009,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lk3rlc/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": -2,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -1009,9 +1033,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lgugec/meitantei_conan_case_closed_episode_1166/",
     "mal_id": 235,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -1,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -1033,7 +1057,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1li9u4b/everyday_host_episode_11_discussion/",
     "mal_id": 60535,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1057,9 +1081,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lhg7db/koupen_chan_episode_12_discussion/",
     "mal_id": 60534,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -4,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -1081,7 +1105,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lja3wq/everyday_host_episode_12_discussion/",
     "mal_id": 60535,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1105,9 +1129,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lh1srg/classicstars_episode_12_discussion/",
     "mal_id": 59199,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -4,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -1132,9 +1156,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lk8ggt/your_forma_episode_13_discussion_final/",
     "mal_id": 55995,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -29,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   }
 ]
