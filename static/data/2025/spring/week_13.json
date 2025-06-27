@@ -1109,5 +1109,32 @@
     "karma_change": -4,
     "rank_change": 13,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1577/147967l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1577/147967.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.09,
+    "streams": {
+      "name": "samsung",
+      "url": "https://www.samsungtvplus.com/"
+    },
+    "title": "Your Forma",
+    "title_english": "Your Forma",
+    "episode": "13",
+    "karma": 1,
+    "comments": 65,
+    "week_id": 13,
+    "studio": [
+      "Geno Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lk8ggt/your_forma_episode_13_discussion_final/",
+    "mal_id": 55995,
+    "current_rank": 43,
+    "karma_change": -29,
+    "rank_change": 7,
+    "season": "spring"
   }
 ]
