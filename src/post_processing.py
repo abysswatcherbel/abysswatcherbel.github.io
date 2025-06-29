@@ -327,7 +327,6 @@ def process_post(post: Dict, reddit: Reddit) -> None:
     Raises:
         Exception: Any unexpected errors during post processing are caught and logged
     """
-    
 
     try:
         logger.debug(f"Processing post received from scheduler: {post}")
@@ -338,7 +337,9 @@ def process_post(post: Dict, reddit: Reddit) -> None:
         try:
             post_validation = RedditPostDetails(**post_details)
             insert_mongo(post_validation.model_dump())
-            logger.success(f"Successfully processed and inserted post: {post_validation.model_dump_json(indent=2)}")
+            logger.success(
+                f"Successfully processed and inserted post: {post_validation.model_dump_json(indent=2)}"
+            )
         except ValidationError as e:
             logger.error(f"Validation error for post {post['id']}: {e}")
     except PostUnavailable:
@@ -460,7 +461,7 @@ def check_post_status(submission: Submission, post_id: str) -> bool:
             logger.info(f"Post {post_id} is still available.")
             return True
     except PostUnavailable:
-        raise 
+        raise
 
 
 def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
@@ -497,7 +498,6 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
     except PostUnavailable:
         logger.warning(f"Post {post_id} is unavailable. Skipping...")
         raise PostUnavailable
-
 
     mal_id = get_mal_id_reddit_post(
         post.selftext
@@ -645,7 +645,9 @@ def insert_mongo(
 
             # Now push the episode data to the season array
             update_path = f"reddit_karma.{year_str}.{season_name}"
-            update_result = col.update_one(query, {"$push": {update_path: episode_data}})
+            update_result = col.update_one(
+                query, {"$push": {update_path: episode_data}}
+            )
 
             logger.info(
                 f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}"
@@ -776,7 +778,7 @@ def get_title_details(title: str) -> Tuple[Dict, str]:
 def get_active_posts(
     reddit: Reddit = setup_reddit_instance(),
     username="AutoLovepon",
-    default_tz=timezone.utc,
+    default_tz: timezone = timezone.utc,
 ) -> List:
     """
     Retrieves active discussion posts on r/anime for the karma ranking system.
@@ -833,153 +835,152 @@ def get_active_posts(
             _, episode = get_title_details(submission.title)
 
             # If there is a mal_id, try to get the series details from the db
-            
+
             try:
                 mal_id = int(mal_id)
                 show = None
                 show = seasonals.find_one(
-                        {"id": mal_id},
-                        {
-                            "_id": 0,
-                            "title": 1,
-                            "streams": 1,
-                            "title_english": 1,
-                            "mal_id": "$id",
-                            "images": 1,
-                            "broadcast": 1,
-                            
-                        },
-                    )
+                    {"id": mal_id},
+                    {
+                        "_id": 0,
+                        "title": 1,
+                        "streams": 1,
+                        "title_english": 1,
+                        "mal_id": "$id",
+                        "images": 1,
+                        "broadcast": 1,
+                    },
+                )
 
-                    # If there is a valid mal_id but no document found, try to fetch the entry from MAL and push it to the db
+                # If there is a valid mal_id but no document found, try to fetch the entry from MAL and push it to the db
                 if not show:
-                        logger.warning(
-                            f"Post {submission.id} has a MAL ID but no document found in the database."
-                        )
-                        try:
-                            mal = MalClient()
-                            entry = mal.fetch_entry_by_id(mal_id)
-                            if entry:
-                                mal.push_to_db(entry)
-                                logger.success(
-                                    f"Fetched and pushed entry from the post {submission.id} with the MAL ID {mal_id} to the database."
-                                )
-                                show = seasonals.find_one(
-                                    {"id": mal_id},
-                                    {
-                                        "_id": 0,
-                                        "title": 1,
-                                        "streams": 1,
-                                        "title_english": 1,
-                                        "mal_id": "$id",
-                                        "images": 1,
-                                        "broadcast": 1,
-                                    },
-                                )
-                        except Exception as e:
-                            logger.error(
-                                f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}"
+                    logger.warning(
+                        f"Post {submission.id} has a MAL ID but no document found in the database."
+                    )
+                    try:
+                        mal = MalClient()
+                        entry = mal.fetch_entry_by_id(mal_id)
+                        if entry:
+                            mal.push_to_db(entry)
+                            logger.success(
+                                f"Fetched and pushed entry from the post {submission.id} with the MAL ID {mal_id} to the database."
                             )
-                            continue
+                            show = seasonals.find_one(
+                                {"id": mal_id},
+                                {
+                                    "_id": 0,
+                                    "title": 1,
+                                    "streams": 1,
+                                    "title_english": 1,
+                                    "mal_id": "$id",
+                                    "images": 1,
+                                    "broadcast": 1,
+                                },
+                            )
+                    except Exception as e:
+                        logger.error(
+                            f"Error fetching MAL entry for post id {mal_id} and from the post {submission.id}: {e}"
+                        )
+                        continue
                 else:
 
-                        post_details = dict(show)
-                        post_details["reddit_url"] = submission.url
-                        post_details["karma"] = submission.score
-                        post_details["comments"] = submission.num_comments
-                        post_details["episode"] = episode
-                        # Time left in hours
-                        post_details["time_left"] = time_left.total_seconds() / 3600
+                    post_details = dict(show)
+                    post_details["reddit_url"] = submission.url
+                    post_details["karma"] = submission.score
+                    post_details["comments"] = submission.num_comments
+                    post_details["episode"] = episode
+                    # Time left in hours
+                    post_details["time_left"] = time_left.total_seconds() / 3600
 
-                        posts.append(post_details)
-                        posts.sort(key=lambda x: x["karma"], reverse=True)
+                    posts.append(post_details)
+                    posts.sort(key=lambda x: x["karma"], reverse=True)
 
-                        # Round the hour since post to nearest hour
-                        hour = round(hours_since_post.total_seconds() / 3600, 0)
-                        karma = submission.score
+                    # Round the hour since post to nearest hour
+                    hour = round(hours_since_post.total_seconds() / 3600, 0)
+                    karma = submission.score
 
-                        # Check if document for this mal_id and reddit_id exists
-                        existing_doc = hourly_data.find_one(
-                            {"mal_id": mal_id, "reddit_id": submission.id}
+                    # Check if document for this mal_id and reddit_id exists
+                    existing_doc = hourly_data.find_one(
+                        {"mal_id": mal_id, "reddit_id": submission.id}
+                    )
+
+                    if existing_doc:
+                        # Document exists, check if this hour already exists in hourly_karma
+                        hour_exists = any(
+                            entry.get("hour") == hour
+                            for entry in existing_doc.get("hourly_karma", [])
                         )
 
-                        if existing_doc:
-                            # Document exists, check if this hour already exists in hourly_karma
-                            hour_exists = any(
-                                entry.get("hour") == hour
-                                for entry in existing_doc.get("hourly_karma", [])
-                            )
-
-                            if hour_exists:
-                                # Hour exists, update the karma value for this hour
-                                hourly_data.update_one(
-                                    {
-                                        "mal_id": mal_id,
-                                        "reddit_id": submission.id,
-                                        "hourly_karma.hour": hour,
-                                    },
-                                    {
-                                        "$set": {
-                                            "updated_at": current_time.strftime(
-                                                "%Y-%m-%d %H:%M:%S"
-                                            ),
-                                            "hourly_karma.$.karma": karma,
-                                        }
-                                    },
-                                )
-
-                            else:
-                                # Hour doesn't exist, push new entry
-                                hourly_data.update_one(
-                                    {"mal_id": mal_id, "reddit_id": submission.id},
-                                    {
-                                        "$set": {
-                                            "updated_at": current_time.strftime(
-                                                "%Y-%m-%d %H:%M:%S"
-                                            )
-                                        },
-                                        "$push": {
-                                            "hourly_karma": {
-                                                "hour": hour,
-                                                "karma": karma,
-                                            }
-                                        },
-                                    },
-                                )
-
-                        else:
-                            # Document doesn't exist, create a new one
-                            hourly_data.insert_one(
+                        if hour_exists:
+                            # Hour exists, update the karma value for this hour
+                            hourly_data.update_one(
                                 {
                                     "mal_id": mal_id,
                                     "reddit_id": submission.id,
-                                    "week_id": schedule.week_id,
-                                    "season": schedule.season_name,
-                                    "year": schedule.year,
-                                    "title": show.get("title"),
-                                    "title_english": show.get("title_english"),
-                                    "episode": episode,
-                                    "created_at": current_time.strftime(
-                                        "%Y-%m-%d %H:%M:%S"
-                                    ),
-                                    "updated_at": current_time.strftime(
-                                      "%Y-%m-%d %H:%M:%S"
-                                    ),
-                                    "hourly_karma": [{"hour": hour, "karma": karma}],
-                                }
-                            )
-                            logger.info(
-                                f"Created new hourly tracking for MAL ID {mal_id}, post {submission.id}"
+                                    "hourly_karma.hour": hour,
+                                },
+                                {
+                                    "$set": {
+                                        "updated_at": current_time.strftime(
+                                            "%Y-%m-%d %H:%M:%S"
+                                        ),
+                                        "hourly_karma.$.karma": karma,
+                                    }
+                                },
                             )
 
+                        else:
+                            # Hour doesn't exist, push new entry
+                            hourly_data.update_one(
+                                {"mal_id": mal_id, "reddit_id": submission.id},
+                                {
+                                    "$set": {
+                                        "updated_at": current_time.strftime(
+                                            "%Y-%m-%d %H:%M:%S"
+                                        )
+                                    },
+                                    "$push": {
+                                        "hourly_karma": {
+                                            "hour": hour,
+                                            "karma": karma,
+                                        }
+                                    },
+                                },
+                            )
+
+                    else:
+                        # Document doesn't exist, create a new one
+                        hourly_data.insert_one(
+                            {
+                                "mal_id": mal_id,
+                                "reddit_id": submission.id,
+                                "week_id": schedule.week_id,
+                                "season": schedule.season_name,
+                                "year": schedule.year,
+                                "title": show.get("title"),
+                                "title_english": show.get("title_english"),
+                                "episode": episode,
+                                "created_at": current_time.strftime(
+                                    "%Y-%m-%d %H:%M:%S"
+                                ),
+                                "updated_at": current_time.strftime(
+                                    "%Y-%m-%d %H:%M:%S"
+                                ),
+                                "hourly_karma": [{"hour": hour, "karma": karma}],
+                            }
+                        )
+                        logger.info(
+                            f"Created new hourly tracking for MAL ID {mal_id}, post {submission.id}"
+                        )
+
             except ValueError:
-                    logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
-                    continue
+                logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
+                continue
     client.close()
     return posts
 
 
-def get_mal_id_reddit_post(post_body: str) -> Optional[str|int]:
+def get_mal_id_reddit_post(post_body: str) -> Optional[str | int]:
     """
     Extracts the MyAnimeList ID from a Reddit post body.
 
@@ -1055,8 +1056,8 @@ def fetch_weekly_posts_db(
 def fetch_weekly_posts_reddit(
     reddit: Reddit = setup_reddit_instance(),
     schedule: SeasonScheduler = SeasonScheduler(),
-    username: str ="AutoLovepon",
-    default_tz: datetime.tzinfo =timezone.utc,
+    username: str = "AutoLovepon",
+    default_tz: timezone = timezone.utc,
 ) -> List[Dict] | None:
     """
     Fetches the weekly discussion posts from AutoLovePon, the r/anime bot,
@@ -1088,10 +1089,14 @@ def fetch_weekly_posts_reddit(
         - Adjusts the week_id based on if  the current day is in Friday to Sunday
         - Fetches up to 100 most recent posts from the user, but it is very unlikely to reach that number.
     """
-    
+
     user = reddit.redditor(username)
     posts = []
-    week_id = schedule.week_id - 1 if datetime.now().weekday() in (4,5,6) else schedule.week_id
+    week_id = (
+        schedule.week_id - 1
+        if datetime.now().weekday() in (4, 5, 6)
+        else schedule.week_id
+    )
     # Get the current week schedule
     schedule_details = schedule.get_schedule_for_date(
         year=schedule.year, season=schedule.season_number, week_id=week_id
