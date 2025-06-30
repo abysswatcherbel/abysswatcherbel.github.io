@@ -56,6 +56,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1221/148863l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1221/148863.jpg"
+    },
+    "title": "Hibi wa Sugiredo Meshi Umashi",
+    "title_english": "Food for the Soul",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GJ0H7QGZM/food-for-the-soul"
+    },
+    "episode": "12",
+    "karma": 462,
+    "comments": 146,
+    "week_id": 1,
+    "studio": [
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lmrsba/hibi_wa_sugiredo_meshi_umashi_food_for_the_soul/",
+    "mal_id": 60658,
+    "current_rank": 3,
+    "karma_change": 124,
+    "rank_change": 13,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
     },
@@ -77,9 +104,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmmkrw/anne_shirley_episode_13_discussion/",
     "mal_id": 60334,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -13,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -105,9 +132,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmr302/arank_party_wo_ridatsu_shita_ore_wa_moto/",
     "mal_id": 59730,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 62,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -129,9 +156,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmqd3c/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 32,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -153,9 +180,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmknmd/meitantei_conan_case_closed_episode_1167/",
     "mal_id": 235,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 2,
-    "rank_change": 38,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1564/148380l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1564/148380.jpg"
+    },
+    "num_episodes": 0,
+    "score": 5.39,
+    "streams": null,
+    "title": "Classic\u2605Stars",
+    "title_english": "Classic\u2605Stars",
+    "episode": "13",
+    "karma": 9,
+    "comments": 4,
+    "week_id": 1,
+    "studio": [
+      "Platinum Vision"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lms836/classicstars_episode_13_discussion_final/",
+    "mal_id": 59199,
+    "current_rank": 8,
+    "karma_change": 5,
+    "rank_change": 40,
     "season": "summer"
   }
 ]
