@@ -232,5 +232,29 @@
     "karma_change": 5,
     "rank_change": 39,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": 6.63,
+    "streams": null,
+    "episode": "13",
+    "karma": 9,
+    "comments": 4,
+    "week_id": 1,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ln5bwv/koupen_chan_episode_13_discussion/",
+    "mal_id": 60534,
+    "current_rank": 9,
+    "karma_change": 2,
+    "rank_change": 37,
+    "season": "summer"
   }
 ]
