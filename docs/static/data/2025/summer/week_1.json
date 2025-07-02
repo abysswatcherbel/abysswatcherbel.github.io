@@ -1,6 +1,34 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1538/148604l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1538/148604.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.58,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/pt-br/series/G79H23ZQ3/my-hero-academia-vigilantes",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Vigilante: Boku no Hero Academia Illegals",
+    "title_english": "My Hero Academia: Vigilantes",
+    "episode": "13",
+    "karma": 887,
+    "comments": 224,
+    "week_id": 1,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lo93as/vigilante_boku_no_hero_academia_illegals_my_hero/",
+    "mal_id": 60593,
+    "current_rank": 1,
+    "karma_change": -33,
+    "rank_change": 2,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1097/148302l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1097/148302.jpg"
     },
@@ -22,9 +50,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmo8u6/kowloon_generic_romance_episode_13_discussion/",
     "mal_id": 60083,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 290,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -50,9 +78,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln9r7z/witch_watch_episode_13_discussion/",
     "mal_id": 59597,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 8,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -77,9 +105,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln9blz/umamusume_cinderella_gray_episode_13_discussion/",
     "mal_id": 59636,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 177,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -104,9 +132,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmr2vu/mono_episode_12_discussion_final/",
     "mal_id": 58492,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 130,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -131,9 +159,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmrsba/hibi_wa_sugiredo_meshi_umashi_food_for_the_soul/",
     "mal_id": 60658,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 124,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -159,9 +187,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln5jg4/lazarus_episode_13_discussion_final/",
     "mal_id": 56038,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 73,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -187,9 +215,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmmkrw/anne_shirley_episode_13_discussion/",
     "mal_id": 60334,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -13,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "summer"
   },
   {
@@ -215,9 +243,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmr302/arank_party_wo_ridatsu_shita_ore_wa_moto/",
     "mal_id": 59730,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 62,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -239,9 +267,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmqd3c/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 32,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -263,9 +291,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln2v85/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -9,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -287,9 +315,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmknmd/meitantei_conan_case_closed_episode_1167/",
     "mal_id": 235,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 2,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -311,9 +339,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lms836/classicstars_episode_13_discussion_final/",
     "mal_id": 59199,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 5,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -335,9 +363,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln5bwv/koupen_chan_episode_13_discussion/",
     "mal_id": 60534,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 2,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "summer"
   }
 ]
