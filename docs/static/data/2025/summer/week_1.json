@@ -443,5 +443,29 @@
     "karma_change": 2,
     "rank_change": 30,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "13",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lq780n/everyday_host_episode_13_discussion/",
+    "mal_id": 60535,
+    "current_rank": 18,
+    "karma_change": -3,
+    "rank_change": 29,
+    "season": "summer"
   }
 ]
