@@ -302,6 +302,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
+    },
+    "title": "Yoru wa Neko to Issho Season 3",
+    "title_english": "Yoru wa Neko to Issho Season 3",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "91",
+    "karma": 22,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "Studio PuYUKAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lpt348/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
+    "mal_id": 58199,
+    "current_rank": 12,
+    "karma_change": 11,
+    "rank_change": 31,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -319,9 +343,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln2v85/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -9,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -343,9 +367,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmknmd/meitantei_conan_case_closed_episode_1167/",
     "mal_id": 235,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -367,9 +391,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lms836/classicstars_episode_13_discussion_final/",
     "mal_id": 59199,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 5,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -391,9 +415,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln5bwv/koupen_chan_episode_13_discussion/",
     "mal_id": 60534,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 2,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   }
 ]
