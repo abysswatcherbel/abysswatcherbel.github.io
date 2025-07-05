@@ -631,13 +631,15 @@ def insert_mongo(
                 show = col.find_one(query)  # Refresh the data
 
             # Check if the year exists in reddit_karma
-            if year_str not in show.get("reddit_karma", {}):
+            reddit_karma = show.get("reddit_karma") or {}
+            if year_str not in reddit_karma:
                 # Initialize the year as an empty object if it doesn't exist
                 col.update_one(query, {"$set": {f"reddit_karma.{year_str}": {}}})
                 show = col.find_one(query)  # Refresh the data
 
             # Check if the season exists in the year
-            if season_name not in show.get("reddit_karma", {}).get(year_str, {}):
+            year_data = show.get("reddit_karma", {}).get(year_str) or {}
+            if season_name not in year_data:
                 # Initialize the season as an empty array if it doesn't exist
                 col.update_one(
                     query, {"$set": {f"reddit_karma.{year_str}.{season_name}": []}}
