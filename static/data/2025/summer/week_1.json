@@ -25,6 +25,59 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1025/147458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1025/147458.jpg"
+    },
+    "num_episodes": 24,
+    "score": 8.81,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/the-apothecary-diaries",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "title_english": "The Apothecary Diaries Season 2",
+    "episode": "23",
+    "karma": 3102,
+    "comments": 861,
+    "week_id": 1,
+    "studio": [
+      "OLM",
+      "TOHO animation STUDIO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1llw82q/kusuriya_no_hitorigoto_season_2_the_apothecary/",
+    "mal_id": 58514,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1182/149879l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1182/149879.jpg"
+    },
+    "title": "Takopii no Genzai",
+    "title_english": "Takopi's Original Sin",
+    "num_episodes": 6,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 1183,
+    "comments": 699,
+    "week_id": 1,
+    "studio": [
+      "Enishiya"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1llx0zo/takopii_no_genzai_takopis_original_sin_episode_1/",
+    "mal_id": 60489,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1255/150593l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1255/150593.jpg"
     },
@@ -42,7 +95,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lptj6v/clevatess_majuu_no_ou_to_akago_to_shikabane_no/",
     "mal_id": 59205,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -70,9 +123,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lo93as/vigilante_boku_no_hero_academia_illegals_my_hero/",
     "mal_id": 60593,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -33,
-    "rank_change": 0,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -98,9 +151,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmo8u6/kowloon_generic_romance_episode_13_discussion/",
     "mal_id": 60083,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 290,
-    "rank_change": 5,
+    "rank_change": 3,
     "season": "summer"
   },
   {
@@ -126,9 +179,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln9r7z/witch_watch_episode_13_discussion/",
     "mal_id": 59597,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 8,
-    "rank_change": 0,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -153,9 +206,34 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln9blz/umamusume_cinderella_gray_episode_13_discussion/",
     "mal_id": 59636,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 177,
-    "rank_change": 7,
+    "rank_change": 5,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1297/150516l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1297/150516.jpg"
+    },
+    "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 2nd Season",
+    "title_english": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 2",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 505,
+    "comments": 147,
+    "week_id": 1,
+    "studio": [
+      "Studio Gokumi",
+      "AXsiZ"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lpxfl3/jidou_hanbaiki_ni_umarekawatta_ore_wa_meikyuu_wo/",
+    "mal_id": 56700,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "summer"
   },
   {
@@ -178,7 +256,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqy05r/mizu_zokusei_no_mahoutsukai_daiichibu_the_water/",
     "mal_id": 60732,
-    "current_rank": 7,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -202,7 +280,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lp38q5/mattaku_saikin_no_tantei_to_kitara_detectives/",
     "mal_id": 59632,
-    "current_rank": 8,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -229,9 +307,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmr2vu/mono_episode_12_discussion_final/",
     "mal_id": 58492,
-    "current_rank": 9,
+    "current_rank": 12,
     "karma_change": 130,
-    "rank_change": 8,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -256,9 +334,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmrsba/hibi_wa_sugiredo_meshi_umashi_food_for_the_soul/",
     "mal_id": 60658,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": 124,
-    "rank_change": 6,
+    "rank_change": 3,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1405/147694l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1405/147694.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.48,
+    "streams": {
+      "name": "disney",
+      "url": "https://www.disneyplus.com/browse/entity-f3a712f6-b358-4b21-b28a-221f23e0eb48"
+    },
+    "title": "Sentai Daishikkaku 2nd Season",
+    "title_english": "Go! Go! Loser Ranger! Season 2",
+    "episode": "12",
+    "karma": 355,
+    "comments": 150,
+    "week_id": 1,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lngtw3/sentai_daishikkaku_season_2_go_go_loser_ranger/",
+    "mal_id": 59189,
+    "current_rank": 14,
+    "karma_change": 60,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -284,9 +389,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lo9ubb/summer_pockets_episode_13_discussion/",
     "mal_id": 50694,
-    "current_rank": 11,
+    "current_rank": 15,
     "karma_change": 16,
-    "rank_change": 11,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -312,9 +417,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln5jg4/lazarus_episode_13_discussion_final/",
     "mal_id": 56038,
-    "current_rank": 12,
+    "current_rank": 16,
     "karma_change": 73,
-    "rank_change": 13,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -336,7 +441,56 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqqhf3/tsuihousha_shokudou_e_youkoso_welcome_to_the/",
     "mal_id": 60523,
-    "current_rank": 13,
+    "current_rank": 17,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1170/147753l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1170/147753.jpg"
+    },
+    "title": "Tsuyokute New Saga",
+    "title_english": "New Saga",
+    "num_episodes": 12,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 264,
+    "comments": 163,
+    "week_id": 1,
+    "studio": [
+      "Sotsu",
+      "Studio Clutch"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lq2wgz/tsuyokute_new_saga_new_saga_episode_1_discussion/",
+    "mal_id": 53397,
+    "current_rank": 18,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1445/150685l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1445/150685.jpg"
+    },
+    "title": "Koujo Denka no Kateikyoushi",
+    "title_english": "Private Tutor to the Duke's Daughter",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 250,
+    "comments": 189,
+    "week_id": 1,
+    "studio": [
+      "Studio Blanc."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lmrsek/koujo_denka_no_kateikyoushi_private_tutor_to_the/",
+    "mal_id": 56907,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -360,7 +514,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lp5vh1/hitozuma_no_kuchibiru_wa_kan_chuuhai_no_aji_ga/",
     "mal_id": 61023,
-    "current_rank": 14,
+    "current_rank": 20,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -388,9 +542,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmmkrw/anne_shirley_episode_13_discussion/",
     "mal_id": 60334,
-    "current_rank": 15,
+    "current_rank": 21,
     "karma_change": -13,
-    "rank_change": 9,
+    "rank_change": 3,
     "season": "summer"
   },
   {
@@ -416,9 +570,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmr302/arank_party_wo_ridatsu_shita_ore_wa_moto/",
     "mal_id": 59730,
-    "current_rank": 16,
+    "current_rank": 22,
     "karma_change": 62,
-    "rank_change": 10,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -440,7 +594,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqw1zs/kamitsubakishi_kensetsuchuu_kamitsubaki_city/",
     "mal_id": 57820,
-    "current_rank": 17,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -462,7 +616,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lqpe3k/ginga_tokkyuu_milkysubway_milkysubway_the/",
     "mal_id": 61274,
-    "current_rank": 18,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -486,7 +640,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lp2515/kanojo_okarishimasu_season_4_rentagirlfriend/",
     "mal_id": 59277,
-    "current_rank": 19,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -510,9 +664,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmqd3c/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 20,
+    "current_rank": 26,
     "karma_change": 32,
-    "rank_change": 14,
+    "rank_change": 8,
     "season": "summer"
   },
   {
@@ -534,9 +688,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lpzt8i/uchuujin_muumuu_me_and_the_alien_muumuu_episode/",
     "mal_id": 60401,
-    "current_rank": 21,
+    "current_rank": 27,
     "karma_change": 2,
-    "rank_change": 16,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -558,9 +712,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lpt348/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 22,
+    "current_rank": 28,
     "karma_change": 11,
-    "rank_change": 21,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -582,9 +736,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln2v85/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 23,
+    "current_rank": 29,
     "karma_change": -9,
-    "rank_change": 16,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -606,9 +760,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmknmd/meitantei_conan_case_closed_episode_1167/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 30,
     "karma_change": 2,
-    "rank_change": 20,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -630,9 +784,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lms836/classicstars_episode_13_discussion_final/",
     "mal_id": 59199,
-    "current_rank": 25,
+    "current_rank": 31,
     "karma_change": 5,
-    "rank_change": 23,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -654,9 +808,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln5bwv/koupen_chan_episode_13_discussion/",
     "mal_id": 60534,
-    "current_rank": 25,
+    "current_rank": 31,
     "karma_change": 2,
-    "rank_change": 21,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -676,7 +830,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lqnoiu/petitcure_precure_fairies_episode_15_discussion/",
     "mal_id": 61272,
-    "current_rank": 27,
+    "current_rank": 33,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -700,7 +854,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqvvnl/araiguma_calcaldan_raccoon_team_calcal_episode_14/",
     "mal_id": 60506,
-    "current_rank": 28,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -724,7 +878,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqgzq4/beyblade_x_episode_87_discussion/",
     "mal_id": 56566,
-    "current_rank": 29,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -748,9 +902,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lq780n/everyday_host_episode_13_discussion/",
     "mal_id": 60535,
-    "current_rank": 29,
+    "current_rank": 35,
     "karma_change": -3,
-    "rank_change": 18,
+    "rank_change": 12,
     "season": "summer"
   }
 ]
