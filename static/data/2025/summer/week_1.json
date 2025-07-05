@@ -446,6 +446,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "Beyblade X",
+    "episode": "87",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lqgzq4/beyblade_x_episode_87_discussion/",
+    "mal_id": 56566,
+    "current_rank": 18,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
