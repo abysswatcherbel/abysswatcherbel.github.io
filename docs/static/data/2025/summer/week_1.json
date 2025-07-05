@@ -577,6 +577,82 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "One Piece",
+    "title_english": "One Piece",
+    "episode": "1134",
+    "karma": 186,
+    "comments": 28,
+    "week_id": 1,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lnhz5y/one_piece_episode_1134_discussion/",
+    "mal_id": 21,
+    "current_rank": 23,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1637/148197l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1637/148197.jpg"
+    },
+    "title": "Jigoku Sensei Nube (2025)",
+    "title_english": "Hell Teacher: Jigoku Sensei Nube",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 168,
+    "comments": 68,
+    "week_id": 1,
+    "studio": [
+      "Studio Kai"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lq09pu/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
+    "mal_id": 59342,
+    "current_rank": 24,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1933/150503l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1933/150503.jpg"
+    },
+    "title": "Onmyou Kaiten Re:Birth",
+    "title_english": "Onmyo Kaiten Re:Birth Verse",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 151,
+    "comments": 137,
+    "week_id": 1,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lq1zay/onmyou_kaiten_rebirth_onmyo_kaiten_rebirth_verse/",
+    "mal_id": 61150,
+    "current_rank": 25,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1967/148714l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1967/148714.jpg"
     },
@@ -594,7 +670,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqw1zs/kamitsubakishi_kensetsuchuu_kamitsubaki_city/",
     "mal_id": 57820,
-    "current_rank": 23,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -616,9 +692,60 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lqpe3k/ginga_tokkyuu_milkysubway_milkysubway_the/",
     "mal_id": 61274,
-    "current_rank": 24,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1066/148358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1066/148358.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.82,
+    "streams": null,
+    "title": "Teogonia",
+    "title_english": "Teogonia",
+    "episode": "12",
+    "karma": 122,
+    "comments": 90,
+    "week_id": 1,
+    "studio": [
+      "Asahi Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1llxkjl/teogonia_episode_12_discussion_final/",
+    "mal_id": 58614,
+    "current_rank": 28,
+    "karma_change": 53,
+    "rank_change": 7,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.4,
+    "streams": {
+      "name": "netflix",
+      "url": "https://www.netflix.com/title/82030192"
+    },
+    "title": "Shin Samurai-den Yaiba",
+    "title_english": "Yaiba: Samurai Legend",
+    "episode": "13",
+    "karma": 117,
+    "comments": 30,
+    "week_id": 1,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lmis1b/shin_samuraiden_yaiba_yaiba_samurai_legend/",
+    "mal_id": 58812,
+    "current_rank": 29,
+    "karma_change": 7,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -640,9 +767,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lp2515/kanojo_okarishimasu_season_4_rentagirlfriend/",
     "mal_id": 59277,
-    "current_rank": 25,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1637/148197l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1637/148197.jpg"
+    },
+    "title": "Jigoku Sensei Nube (2025)",
+    "title_english": "Hell Teacher: Jigoku Sensei Nube",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 112,
+    "comments": 25,
+    "week_id": 1,
+    "studio": [
+      "Studio Kai"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lq1tbh/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
+    "mal_id": 59342,
+    "current_rank": 31,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -664,9 +815,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmqd3c/kuroshitsuji_midori_no_majohen_black_butler/",
     "mal_id": 59228,
-    "current_rank": 26,
+    "current_rank": 32,
     "karma_change": 32,
-    "rank_change": 8,
+    "rank_change": 2,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1059/147448l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1059/147448.jpg"
+    },
+    "title": "Shirobuta Kizoku desu ga Zense no Kioku ga Haeta node Hiyoko na Otouto Sodatemasu",
+    "title_english": "Shirohiyo - Reincarnated as a Neglected Noble: Raising My Baby Brother With Memories From My Past Life",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "12",
+    "karma": 71,
+    "comments": 63,
+    "week_id": 1,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lnd5mn/shirobuta_kizoku_desu_ga_zense_no_kioku_ga_haeta/",
+    "mal_id": 59322,
+    "current_rank": 33,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -688,9 +863,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lpzt8i/uchuujin_muumuu_me_and_the_alien_muumuu_episode/",
     "mal_id": 60401,
-    "current_rank": 27,
+    "current_rank": 34,
     "karma_change": 2,
-    "rank_change": 10,
+    "rank_change": 3,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Pokemon (2023)",
+    "title_english": "Pok\u00e9mon Horizons: The Series",
+    "episode": "101",
+    "karma": 46,
+    "comments": 14,
+    "week_id": 1,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lmf1kx/pok\u00e9mon_horizons_the_series_episode_101_discussion/",
+    "mal_id": 53876,
+    "current_rank": 35,
+    "karma_change": -18,
+    "rank_change": 1,
     "season": "summer"
   },
   {
@@ -712,9 +911,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lpt348/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 28,
+    "current_rank": 36,
     "karma_change": 11,
-    "rank_change": 15,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -736,9 +935,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln2v85/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 29,
+    "current_rank": 37,
     "karma_change": -9,
-    "rank_change": 10,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -760,9 +959,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lmknmd/meitantei_conan_case_closed_episode_1167/",
     "mal_id": 235,
-    "current_rank": 30,
+    "current_rank": 38,
     "karma_change": 2,
-    "rank_change": 14,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -784,9 +983,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lms836/classicstars_episode_13_discussion_final/",
     "mal_id": 59199,
-    "current_rank": 31,
+    "current_rank": 39,
     "karma_change": 5,
-    "rank_change": 17,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -808,9 +1007,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ln5bwv/koupen_chan_episode_13_discussion/",
     "mal_id": 60534,
-    "current_rank": 31,
+    "current_rank": 39,
     "karma_change": 2,
-    "rank_change": 15,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -830,7 +1029,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lqnoiu/petitcure_precure_fairies_episode_15_discussion/",
     "mal_id": 61272,
-    "current_rank": 33,
+    "current_rank": 41,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -854,7 +1053,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqvvnl/araiguma_calcaldan_raccoon_team_calcal_episode_14/",
     "mal_id": 60506,
-    "current_rank": 34,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -878,7 +1077,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqgzq4/beyblade_x_episode_87_discussion/",
     "mal_id": 56566,
-    "current_rank": 35,
+    "current_rank": 43,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -902,9 +1101,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lq780n/everyday_host_episode_13_discussion/",
     "mal_id": 60535,
-    "current_rank": 35,
+    "current_rank": 43,
     "karma_change": -3,
-    "rank_change": 12,
+    "rank_change": 4,
     "season": "summer"
   }
 ]
