@@ -446,6 +446,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "PetitCure: Precure Fairies",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "15",
+    "karma": 7,
+    "comments": 0,
+    "week_id": 1,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1lqnoiu/petitcure_precure_fairies_episode_15_discussion/",
+    "mal_id": 61272,
+    "current_rank": 18,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -463,7 +485,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lqgzq4/beyblade_x_episode_87_discussion/",
     "mal_id": 56566,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -487,9 +509,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lq780n/everyday_host_episode_13_discussion/",
     "mal_id": 60535,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -3,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   }
 ]
