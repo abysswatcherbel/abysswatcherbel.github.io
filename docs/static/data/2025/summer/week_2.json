@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.76,
+    "streams": null,
+    "episode": "1",
+    "karma": 172,
+    "comments": 93,
+    "week_id": 2,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lrkal1/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1845/150343l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1845/150343.jpg"
     },
@@ -18,7 +42,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lr9z0e/necronomico_no_cosmic_horror_show_necronomico_and/",
     "mal_id": 60505,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
