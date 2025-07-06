@@ -54,6 +54,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1669/149732l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1669/149732.jpg"
+    },
+    "title": "Silent Witch: Chinmoku no Majo no Kakushigoto",
+    "title_english": "Secrets of the Silent Witch",
+    "num_episodes": 0,
+    "score": 7.8,
+    "streams": null,
+    "episode": "1",
+    "karma": 1492,
+    "comments": 310,
+    "week_id": 2,
+    "studio": [
+      "Studio Gokumi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lrn5ze/silent_witch_chinmoku_no_majo_no_kakushigoto/",
+    "mal_id": 59459,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1182/149879l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1182/149879.jpg"
     },
@@ -71,9 +95,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lrl0e6/takopii_no_genzai_takopis_original_sin_episode_2/",
     "mal_id": 60489,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 107,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "summer"
   },
   {
@@ -95,7 +119,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lrl3pc/arknights_rise_from_ember_episode_1_discussion/",
     "mal_id": 58749,
-    "current_rank": 4,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
+    },
+    "title": "Watari-kun no xx ga Houkai Sunzen",
+    "title_english": "Watari-kun's ****** Is about to Collapse",
+    "num_episodes": 0,
+    "score": 6.65,
+    "streams": null,
+    "episode": "1",
+    "karma": 278,
+    "comments": 154,
+    "week_id": 2,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lrmqt8/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
+    "mal_id": 56693,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -119,7 +167,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lrkal1/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -143,7 +191,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lr9z0e/necronomico_no_cosmic_horror_show_necronomico_and/",
     "mal_id": 60505,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
