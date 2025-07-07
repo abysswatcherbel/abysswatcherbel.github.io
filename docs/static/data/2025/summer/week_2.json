@@ -198,6 +198,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Pokemon (2023)",
+    "title_english": "Pok\u00e9mon Horizons: The Series",
+    "episode": "102",
+    "karma": 62,
+    "comments": 18,
+    "week_id": 2,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ls2wrq/pok\u00e9mon_horizons_the_series_episode_102_discussion/",
+    "mal_id": 53876,
+    "current_rank": 9,
+    "karma_change": 16,
+    "rank_change": 26,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1845/150343l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1845/150343.jpg"
     },
@@ -215,7 +239,29 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lr9z0e/necronomico_no_cosmic_horror_show_necronomico_and/",
     "mal_id": 60505,
-    "current_rank": 9,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 13,
+    "comments": 4,
+    "week_id": 2,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1ls2wri/cardfight_vanguard_divinez_deluxe_kesshouhen/",
+    "mal_id": 54145,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
