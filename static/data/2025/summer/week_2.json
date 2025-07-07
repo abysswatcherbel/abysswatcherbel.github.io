@@ -126,6 +126,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
+    },
+    "num_episodes": 24,
+    "score": 7.8,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Anne Shirley",
+    "title_english": "Anne Shirley",
+    "episode": "14",
+    "karma": 283,
+    "comments": 56,
+    "week_id": 2,
+    "studio": [
+      "The Answer Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ls9nf2/anne_shirley_episode_14_discussion/",
+    "mal_id": 60334,
+    "current_rank": 6,
+    "karma_change": 34,
+    "rank_change": 15,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
     },
@@ -143,7 +171,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lrmqt8/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -167,7 +195,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lroluw/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -191,7 +219,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lrkal1/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -215,9 +243,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ls2wrq/pok\u00e9mon_horizons_the_series_episode_102_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 16,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -239,7 +267,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lr9z0e/necronomico_no_cosmic_horror_show_necronomico_and/",
     "mal_id": 60505,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -261,7 +289,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1ls2wri/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
