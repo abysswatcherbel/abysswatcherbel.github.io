@@ -470,6 +470,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/146291l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/146291.jpg"
+    },
+    "num_episodes": 12,
+    "score": 7.9,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/toilet-bound-hanako-kunhttps://www.hulu.com/series/toilet-bound-hanako-kun-87b3d986-cbae-47ce-9076-0fe61fce06e3",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Jibaku Shounen Hanako-kun 2",
+    "title_english": "Toilet-Bound Hanako-kun Season 2",
+    "episode": "13",
+    "karma": 178,
+    "comments": 34,
+    "week_id": 2,
+    "studio": [
+      "Lerche"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lt0i29/jibaku_shounen_hanakokun_season_2_toiletbound/",
+    "mal_id": 53924,
+    "current_rank": 20,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -487,7 +515,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lrkal1/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -511,7 +539,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lsc4e5/fermat_no_ryouri_fermat_kitchen_episode_1/",
     "mal_id": 60697,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -535,9 +563,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ls2wrq/pok\u00e9mon_horizons_the_series_episode_102_discussion/",
     "mal_id": 53876,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 16,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -559,7 +587,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lr9z0e/necronomico_no_cosmic_horror_show_necronomico_and/",
     "mal_id": 60505,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -583,9 +611,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lspj0n/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 2,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -605,7 +633,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1ls2wri/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -629,9 +657,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lsujrh/koupen_chan_episode_14_discussion/",
     "mal_id": 60534,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -2,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   }
 ]
