@@ -626,6 +626,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1845/150343l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1845/150343.jpg"
+    },
+    "title": "Necronomico no Cosmic Horror Show",
+    "title_english": "Necronomico and the Cosmic Horror Show",
+    "num_episodes": 0,
+    "score": 5.66,
+    "streams": null,
+    "episode": "2",
+    "karma": 93,
+    "comments": 68,
+    "week_id": 2,
+    "studio": [
+      "Studio Gokumi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lurbnm/necronomico_no_cosmic_horror_show_necronomico_and/",
+    "mal_id": 60505,
+    "current_rank": 26,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1104/150590l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1104/150590.jpg"
     },
@@ -643,7 +667,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lsc4e5/fermat_no_ryouri_fermat_kitchen_episode_1/",
     "mal_id": 60697,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -667,9 +691,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ls2wrq/pok\u00e9mon_horizons_the_series_episode_102_discussion/",
     "mal_id": 53876,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 16,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -691,7 +715,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lr9z0e/necronomico_no_cosmic_horror_show_necronomico_and/",
     "mal_id": 60505,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -715,9 +739,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lspj0n/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 2,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -737,7 +761,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1ls2wri/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -761,9 +785,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lsujrh/koupen_chan_episode_14_discussion/",
     "mal_id": 60534,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -2,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -785,7 +809,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lts750/hanadoll_reinterpretation_of_flowering_episode_8/",
     "mal_id": 55710,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
