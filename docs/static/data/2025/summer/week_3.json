@@ -1,6 +1,102 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1182/149879l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1182/149879.jpg"
+    },
+    "title": "Takopii no Genzai",
+    "title_english": "Takopi's Original Sin",
+    "num_episodes": 6,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 1336,
+    "comments": 569,
+    "week_id": 3,
+    "studio": [
+      "Enishiya"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lx9arp/takopii_no_genzai_takopis_original_sin_episode_3/",
+    "mal_id": 60489,
+    "current_rank": 1,
+    "karma_change": 46,
+    "rank_change": 13,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 0,
+    "score": 8.2,
+    "streams": null,
+    "episode": "2",
+    "karma": 1325,
+    "comments": 179,
+    "week_id": 3,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lxa85q/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 2,
+    "karma_change": -340,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 7.18,
+    "streams": null,
+    "episode": "1",
+    "karma": 300,
+    "comments": 125,
+    "week_id": 3,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lxa2nr/tougen_anki_episode_1_discussion/",
+    "mal_id": 58811,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
+    },
+    "title": "Arknights: Rise from Ember",
+    "title_english": "Arknights: Rise from Ember",
+    "num_episodes": 10,
+    "score": 7.68,
+    "streams": null,
+    "episode": "2",
+    "karma": 268,
+    "comments": 156,
+    "week_id": 3,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lx9566/arknights_homura_shomei_arknights_rise_from_ember/",
+    "mal_id": 58749,
+    "current_rank": 4,
+    "karma_change": -106,
+    "rank_change": 27,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -18,9 +114,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx8et2/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 1,
+    "current_rank": 5,
     "karma_change": -50,
-    "rank_change": 50,
+    "rank_change": 46,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "Princession Orchestra",
+    "episode": "13",
+    "karma": 43,
+    "comments": 28,
+    "week_id": 3,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lx9lun/princession_orchestra_episode_13_discussion/",
+    "mal_id": 59078,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -42,7 +162,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 2,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"

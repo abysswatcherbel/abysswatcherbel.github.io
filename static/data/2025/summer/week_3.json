@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1669/149732l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1669/149732.jpg"
+    },
+    "title": "Silent Witch: Chinmoku no Majo no Kakushigoto",
+    "title_english": "Secrets of the Silent Witch",
+    "num_episodes": 0,
+    "score": 7.88,
+    "streams": null,
+    "episode": "2",
+    "karma": 1591,
+    "comments": 333,
+    "week_id": 3,
+    "studio": [
+      "Studio Gokumi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lxbh61/silent_witch_chinmoku_no_majo_no_kakushigoto/",
+    "mal_id": 59459,
+    "current_rank": 1,
+    "karma_change": 99,
+    "rank_change": 11,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1182/149879l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1182/149879.jpg"
     },
@@ -18,9 +42,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx9arp/takopii_no_genzai_takopis_original_sin_episode_3/",
     "mal_id": 60489,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 46,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lxa85q/yofukashi_no_uta_season_2_call_of_the_night/",
     "mal_id": 58390,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -340,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -66,7 +90,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lxa2nr/tougen_anki_episode_1_discussion/",
     "mal_id": 58811,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -90,9 +114,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx9566/arknights_homura_shomei_arknights_rise_from_ember/",
     "mal_id": 58749,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -106,
-    "rank_change": 27,
+    "rank_change": 26,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
+    },
+    "title": "Watari-kun no xx ga Houkai Sunzen",
+    "title_english": "Watari-kun's ****** Is about to Collapse",
+    "num_episodes": 0,
+    "score": 6.56,
+    "streams": null,
+    "episode": "2",
+    "karma": 200,
+    "comments": 98,
+    "week_id": 3,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lxb5ng/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
+    "mal_id": 56693,
+    "current_rank": 6,
+    "karma_change": -78,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -114,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx8et2/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -50,
-    "rank_change": 46,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -138,7 +186,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx9lun/princession_orchestra_episode_13_discussion/",
     "mal_id": 59078,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -162,7 +210,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
