@@ -145,6 +145,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1518/149900l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1518/149900.jpg"
+    },
+    "title": "Zutaboro Reijou wa Ane no Moto Konyakusha ni Dekiai sareru",
+    "title_english": "Betrothed to My Sister's Ex",
+    "num_episodes": 0,
+    "score": 7.15,
+    "streams": null,
+    "episode": "2",
+    "karma": 181,
+    "comments": 83,
+    "week_id": 3,
+    "studio": [
+      "LandQ studios"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lxd0ym/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
+    "mal_id": 59421,
+    "current_rank": 7,
+    "karma_change": -10,
+    "rank_change": 39,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -162,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx8et2/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -50,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -186,7 +210,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx9lun/princession_orchestra_episode_13_discussion/",
     "mal_id": 59078,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -210,7 +234,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
