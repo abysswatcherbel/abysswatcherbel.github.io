@@ -169,6 +169,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.4,
+    "streams": {
+      "name": "netflix",
+      "url": "https://www.netflix.com/title/82030192"
+    },
+    "title": "Shin Samurai-den Yaiba",
+    "title_english": "Yaiba: Samurai Legend",
+    "episode": "14",
+    "karma": 141,
+    "comments": 24,
+    "week_id": 3,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lxwvdc/shin_samuraiden_yaiba_yaiba_samurai_legend/",
+    "mal_id": 58812,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -186,9 +213,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx8et2/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -50,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -210,7 +237,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx9lun/princession_orchestra_episode_13_discussion/",
     "mal_id": 59078,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -232,9 +259,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -7,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "summer"
   },
   {
@@ -256,7 +283,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
