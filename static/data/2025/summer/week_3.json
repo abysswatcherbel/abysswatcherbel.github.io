@@ -217,6 +217,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 6,
+    "comments": 3,
+    "week_id": 3,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
+    "mal_id": 54145,
+    "current_rank": 10,
+    "karma_change": -7,
+    "rank_change": 60,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -234,7 +256,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
