@@ -516,6 +516,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1415/150405l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1415/150405.jpg"
+    },
+    "title": "Puniru wa Kawaii Slime 2nd Season",
+    "title_english": "Puniru is a Kawaii Slime Season 2",
+    "num_episodes": 0,
+    "score": 6.92,
+    "streams": null,
+    "episode": "2",
+    "karma": 72,
+    "comments": 16,
+    "week_id": 3,
+    "studio": [
+      "TOHO animation STUDIO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lyobyj/puniru_wa_kawaii_slime_season_2_puniru_is_a/",
+    "mal_id": 60603,
+    "current_rank": 22,
+    "karma_change": -11,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -533,7 +557,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lx9lun/princession_orchestra_episode_13_discussion/",
     "mal_id": 59078,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -557,9 +581,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lygqn2/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -5,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -581,9 +605,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lyn310/koupen_chan_episode_15_discussion/",
     "mal_id": 60534,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -603,9 +627,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -7,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -627,7 +651,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
