@@ -536,6 +536,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": 6.63,
+    "streams": null,
+    "episode": "15",
+    "karma": 8,
+    "comments": 6,
+    "week_id": 3,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1lyn310/koupen_chan_episode_15_discussion/",
+    "mal_id": 60534,
+    "current_rank": 23,
+    "karma_change": 1,
+    "rank_change": 49,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -551,9 +575,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -7,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -575,7 +599,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
