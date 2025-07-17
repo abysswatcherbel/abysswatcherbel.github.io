@@ -965,6 +965,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/150808l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/150808.jpg"
+    },
+    "title": "Kanojo, Okarishimasu 4th Season",
+    "title_english": "Rent-a-Girlfriend Season 4",
+    "num_episodes": 0,
+    "score": 6.25,
+    "streams": null,
+    "episode": "3",
+    "karma": 36,
+    "comments": 75,
+    "week_id": 3,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m0hxd3/kanojo_okarishimasu_season_4_rentagirlfriend/",
+    "mal_id": 59277,
+    "current_rank": 40,
+    "karma_change": -94,
+    "rank_change": 12,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -982,7 +1006,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m06s2g/princession_orchestra_episode_14_discussion/",
     "mal_id": 59078,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1006,9 +1030,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lygqn2/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -5,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -1030,9 +1054,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lyn310/koupen_chan_episode_15_discussion/",
     "mal_id": 60534,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 1,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -1052,9 +1076,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -7,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -1076,7 +1100,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
