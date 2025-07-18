@@ -1448,6 +1448,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.92,
+    "streams": null,
+    "episode": "3",
+    "karma": 14,
+    "comments": 5,
+    "week_id": 3,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m1o5cq/9_rulers_crown_episode_3_discussion/",
+    "mal_id": 58957,
+    "current_rank": 60,
+    "karma_change": -44,
+    "rank_change": 3,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.92,
+    "streams": null,
+    "episode": "2",
+    "karma": 14,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m1o5c7/9_rulers_crown_episode_2_discussion/",
+    "mal_id": 58957,
+    "current_rank": 61,
+    "karma_change": -44,
+    "rank_change": 2,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
     },
@@ -1465,9 +1513,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m19ts1/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 60,
+    "current_rank": 62,
     "karma_change": -4,
-    "rank_change": 9,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -1489,9 +1537,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lyn310/koupen_chan_episode_15_discussion/",
     "mal_id": 60534,
-    "current_rank": 61,
+    "current_rank": 63,
     "karma_change": 1,
-    "rank_change": 11,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -1511,9 +1559,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 62,
+    "current_rank": 64,
     "karma_change": -7,
-    "rank_change": 8,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -1535,7 +1583,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 63,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
