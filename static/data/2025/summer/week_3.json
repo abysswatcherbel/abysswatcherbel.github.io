@@ -1781,6 +1781,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1662/147894l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1662/147894.jpg"
+    },
+    "title": "Araiguma Calcal-dan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "16",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "Nippon Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m2lbev/araiguma_calcaldan_raccoon_team_calcal_episode_16/",
+    "mal_id": 60506,
+    "current_rank": 74,
+    "karma_change": -3,
+    "rank_change": -3,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1798,7 +1822,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1822,7 +1846,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m26o19/everyday_host_episode_15_discussion/",
     "mal_id": 60535,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
