@@ -1568,6 +1568,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "14",
+    "karma": 7,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m26jeg/everyday_host_episode_14_discussion/",
+    "mal_id": 60535,
+    "current_rank": 65,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -1583,9 +1607,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1lxsn6g/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -7,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -1607,7 +1631,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1lwxvlr/beyblade_x_episode_88_discussion/",
     "mal_id": 56566,
-    "current_rank": 66,
+    "current_rank": 67,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "15",
+    "karma": 5,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m26o19/everyday_host_episode_15_discussion/",
+    "mal_id": 60535,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
