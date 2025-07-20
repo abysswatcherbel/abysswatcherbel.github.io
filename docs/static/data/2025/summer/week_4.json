@@ -73,6 +73,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1587/149982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1587/149982.jpg"
+    },
+    "title": "Nukitashi the Animation",
+    "title_english": "",
+    "num_episodes": 11,
+    "score": 7.4,
+    "streams": null,
+    "episode": "1",
+    "karma": 963,
+    "comments": 399,
+    "week_id": 4,
+    "studio": [
+      "Passione"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m39o7k/nukitashi_the_animation_episode_1_discussion/",
+    "mal_id": 57969,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
     },
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m34qqm/arknights_homura_shomei_arknights_rise_from_ember/",
     "mal_id": 58749,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -70,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m36m8q/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -30,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m35m06/tougen_anki_episode_2_discussion/",
     "mal_id": 58811,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -148,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -162,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m38npj/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -30,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -186,9 +210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m341hp/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -28,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -208,7 +232,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m2s29v/petitcure_precure_fairies_episode_17_discussion/",
     "mal_id": 61272,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
