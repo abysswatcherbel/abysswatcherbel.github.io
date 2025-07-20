@@ -15,6 +15,7 @@ from src.post_processing import get_active_posts, main
 from static.assets import back_symbol, new_entry, right_new_entry
 from util.seasonal_schedule import SeasonScheduler
 from util.logger_config import logger
+import json
 
 load_dotenv()
 
@@ -66,8 +67,15 @@ def karma_rank():
     # Get the next 15 entries for the right side (if they exist)
     right_rankings = current_shows[15:30]
 
+    season = airing_period["season"]
+    week = airing_period["week_id"]
     # Pair the two lists; if the right list is shorter, fill with None
     complete_rankings = list(zip_longest(left_rankings, right_rankings))
+    with open(f'static/data/{post_schedule.year}/{season}/week_{week}.json', 'w') as f:
+        # Save the complete rankings to a JSON file for the frontend
+        os.makedirs(os.path.dirname(f.name), exist_ok=True)
+        json.dump(complete_rankings, f)
+    
 
     return render_template(
         "rank.html.j2",
