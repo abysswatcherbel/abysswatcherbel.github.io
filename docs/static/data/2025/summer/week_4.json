@@ -217,6 +217,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1m3gpcp/cardfight_vanguard_divinez_deluxe_kesshouhen/",
+    "mal_id": 54145,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": 68,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
     },
@@ -232,7 +254,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m2s29v/petitcure_precure_fairies_episode_17_discussion/",
     "mal_id": 61272,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
