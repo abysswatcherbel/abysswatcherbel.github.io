@@ -934,6 +934,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1845/150343l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1845/150343.jpg"
+    },
+    "title": "Necronomico no Cosmic Horror Show",
+    "title_english": "Necronomico and the Cosmic Horror Show",
+    "num_episodes": 0,
+    "score": 5.5,
+    "streams": null,
+    "episode": "4",
+    "karma": 76,
+    "comments": 42,
+    "week_id": 4,
+    "studio": [
+      "Studio Gokumi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m6gwss/necronomico_no_cosmic_horror_show_necronomico_and/",
+    "mal_id": 60505,
+    "current_rank": 39,
+    "karma_change": -22,
+    "rank_change": 16,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1154/149311l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1154/149311.jpg"
     },
@@ -951,9 +975,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4oqh0/dekin_no_mogura_dekin_no_mogura_the_earthbound/",
     "mal_id": 60315,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 0,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -975,9 +999,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4kd6r/puniru_wa_kawaii_slime_season_2_puniru_is_a/",
     "mal_id": 60603,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -12,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -999,7 +1023,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m3mqu4/pok\u00e9mon_horizons_the_series_episode_103_discussion/",
     "mal_id": 53876,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1023,9 +1047,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m3yct4/fermat_no_ryouri_fermat_kitchen_episode_3/",
     "mal_id": 60697,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -32,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1047,7 +1071,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m3j0mc/utagoe_ha_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -1071,9 +1095,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4cogt/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -1,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -1095,9 +1119,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m488xl/9_rulers_crown_episode_4_discussion/",
     "mal_id": 58957,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 2,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1119,9 +1143,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4pve0/koupen_chan_episode_16_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -1141,9 +1165,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m3gpcp/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 0,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -1165,9 +1189,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4y8wu/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 4,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -1187,7 +1211,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m2s29v/petitcure_precure_fairies_episode_17_discussion/",
     "mal_id": 61272,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1211,7 +1235,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m3tzhq/meitantei_conan_case_closed_episode_1168/",
     "mal_id": 235,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
