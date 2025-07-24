@@ -1150,6 +1150,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 0,
+    "score": 6.73,
+    "streams": null,
+    "episode": "3",
+    "karma": 13,
+    "comments": 6,
+    "week_id": 4,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m6jsk3/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 48,
+    "karma_change": -18,
+    "rank_change": 19,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1167,9 +1191,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4pve0/koupen_chan_episode_16_discussion/",
     "mal_id": 60534,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1189,9 +1213,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m3gpcp/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -1213,9 +1237,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m4y8wu/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 4,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -1235,7 +1259,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m2s29v/petitcure_precure_fairies_episode_17_discussion/",
     "mal_id": 61272,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1259,7 +1283,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m3tzhq/meitantei_conan_case_closed_episode_1168/",
     "mal_id": 235,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
