@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "4",
+    "karma": 103,
+    "comments": 31,
+    "week_id": 5,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m90vgq/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 1,
+    "karma_change": 9,
+    "rank_change": 52,
+    "season": "summer"
+  }
+]

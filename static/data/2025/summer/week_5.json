@@ -1,6 +1,102 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1182/149879l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1182/149879.jpg"
+    },
+    "title": "Takopii no Genzai",
+    "title_english": "Takopi's Original Sin",
+    "num_episodes": 6,
+    "score": null,
+    "streams": null,
+    "episode": "5",
+    "karma": 1703,
+    "comments": 941,
+    "week_id": 5,
+    "studio": [
+      "Enishiya"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m91nuv/takopii_no_genzai_takopis_original_sin_episode_5/",
+    "mal_id": 60489,
+    "current_rank": 1,
+    "karma_change": 228,
+    "rank_change": 4,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 0,
+    "score": 8.23,
+    "streams": null,
+    "episode": "4",
+    "karma": 1160,
+    "comments": 186,
+    "week_id": 5,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m91nvj/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 2,
+    "karma_change": 22,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
+    },
+    "title": "Arknights: Rise from Ember",
+    "title_english": "Arknights: Rise from Ember",
+    "num_episodes": 10,
+    "score": 7.72,
+    "streams": null,
+    "episode": "4",
+    "karma": 241,
+    "comments": 85,
+    "week_id": 5,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m91hy1/arknights_homura_shomei_arknights_rise_from_ember/",
+    "mal_id": 58749,
+    "current_rank": 3,
+    "karma_change": 43,
+    "rank_change": 34,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 7.06,
+    "streams": null,
+    "episode": "3",
+    "karma": 137,
+    "comments": 76,
+    "week_id": 5,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m92afw/tougen_anki_episode_3_discussion/",
+    "mal_id": 58811,
+    "current_rank": 4,
+    "karma_change": -15,
+    "rank_change": 39,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -18,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m90vgq/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 1,
+    "current_rank": 5,
     "karma_change": 9,
-    "rank_change": 52,
+    "rank_change": 48,
     "season": "summer"
   }
 ]
