@@ -217,6 +217,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
+    },
+    "title": "Utagoe wa Mille-Feuille",
+    "title_english": "Harmony of Mille-Feuille",
+    "num_episodes": 10,
+    "score": 6.13,
+    "streams": null,
+    "episode": "2",
+    "karma": 23,
+    "comments": 13,
+    "week_id": 5,
+    "studio": [
+      "Jumondou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1m9n94e/utagoe_wa_millefeuille_harmony_of_millefeuille/",
+    "mal_id": 55689,
+    "current_rank": 10,
+    "karma_change": -16,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -232,9 +256,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m9do6u/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 1,
-    "rank_change": 62,
+    "rank_change": 61,
     "season": "summer"
   }
 ]
