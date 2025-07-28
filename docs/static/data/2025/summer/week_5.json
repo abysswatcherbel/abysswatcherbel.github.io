@@ -536,6 +536,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.93,
+    "streams": null,
+    "episode": "5",
+    "karma": 7,
+    "comments": 19,
+    "week_id": 5,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ma4pfz/9_rulers_crown_episode_5_discussion/",
+    "mal_id": 58957,
+    "current_rank": 23,
+    "karma_change": -9,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -551,9 +575,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m9do6u/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 1,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "summer"
   }
 ]
