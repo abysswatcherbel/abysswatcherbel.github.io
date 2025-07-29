@@ -954,6 +954,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "Koupen-chan",
+    "num_episodes": 0,
+    "score": 6.63,
+    "streams": null,
+    "episode": "17",
+    "karma": 4,
+    "comments": 3,
+    "week_id": 5,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1maxecw/koupen_chan_episode_17_discussion/",
+    "mal_id": 60534,
+    "current_rank": 40,
+    "karma_change": -4,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1975/150436l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1975/150436.jpg"
     },
@@ -971,9 +995,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mavpe3/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -4,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   }
 ]
