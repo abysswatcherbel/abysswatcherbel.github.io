@@ -512,6 +512,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.46,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "25",
+    "karma": 19,
+    "comments": 13,
+    "week_id": 5,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1maa0kk/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 22,
+    "karma_change": 2,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -529,9 +553,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m9r1rp/meitantei_conan_case_closed_episode_1169/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 8,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -553,9 +577,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ma4pfz/9_rulers_crown_episode_5_discussion/",
     "mal_id": 58957,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -9,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -575,9 +599,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m9do6u/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   }
 ]
