@@ -1161,6 +1161,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 0,
+    "score": 6.72,
+    "streams": null,
+    "episode": "4",
+    "karma": 13,
+    "comments": 9,
+    "week_id": 5,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mch2tc/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 48,
+    "karma_change": 0,
+    "rank_change": 19,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1178,9 +1202,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m9r1rp/meitantei_conan_case_closed_episode_1169/",
     "mal_id": 235,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 8,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1202,9 +1226,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ma4pfz/9_rulers_crown_episode_5_discussion/",
     "mal_id": 58957,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -9,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1224,9 +1248,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m9do6u/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 1,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1248,9 +1272,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1maxecw/koupen_chan_episode_17_discussion/",
     "mal_id": 60534,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -4,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -1272,9 +1296,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mavpe3/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -4,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   }
 ]
