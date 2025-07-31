@@ -1324,5 +1324,29 @@
     "karma_change": -4,
     "rank_change": 19,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "Beyblade X",
+    "episode": "89",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mckco9/beyblade_x_episode_89_discussion/",
+    "mal_id": 56566,
+    "current_rank": 55,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
   }
 ]
