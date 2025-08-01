@@ -1615,5 +1615,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "Everyday Host",
+    "episode": "17",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mdflz6/everyday_host_episode_17_discussion/",
+    "mal_id": 60535,
+    "current_rank": 66,
+    "karma_change": -8,
+    "rank_change": 4,
+    "season": "summer"
   }
 ]
