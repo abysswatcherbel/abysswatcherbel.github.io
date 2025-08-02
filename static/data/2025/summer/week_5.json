@@ -1473,6 +1473,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1967/148714l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1967/148714.jpg"
+    },
+    "title": "Kamitsubaki-shi Kensetsuchuu.",
+    "title_english": "Kamitsubaki City Under Construction",
+    "num_episodes": 12,
+    "score": 5.53,
+    "streams": null,
+    "episode": "4",
+    "karma": 24,
+    "comments": 10,
+    "week_id": 5,
+    "studio": [
+      "Shogakukan Music & Digital Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1me7z6m/kamitsubakishi_kensetsuchuu_kamitsubaki_city/",
+    "mal_id": 57820,
+    "current_rank": 61,
+    "karma_change": -16,
+    "rank_change": 0,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
     },
@@ -1490,9 +1514,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m9n94e/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -16,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1514,9 +1538,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1maa0kk/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 2,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "summer"
   },
   {
@@ -1538,9 +1562,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mch2tc/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 0,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "summer"
   },
   {
@@ -1562,9 +1586,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1m9r1rp/meitantei_conan_case_closed_episode_1169/",
     "mal_id": 235,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 8,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "summer"
   },
   {
@@ -1587,9 +1611,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mdc8py/kizu_darake_seijo_yori_houfuku_wo_komete_with/",
     "mal_id": 59961,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -4,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1611,9 +1635,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1md3sfo/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": -5,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "summer"
   },
   {
@@ -1635,9 +1659,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ma4pfz/9_rulers_crown_episode_5_discussion/",
     "mal_id": 58957,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -9,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "summer"
   },
   {
@@ -1657,9 +1681,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1m9do6u/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 1,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "summer"
   },
   {
@@ -1681,9 +1705,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1maxecw/koupen_chan_episode_17_discussion/",
     "mal_id": 60534,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -4,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1705,9 +1729,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mavpe3/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -4,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1729,7 +1753,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mckco9/beyblade_x_episode_89_discussion/",
     "mal_id": 56566,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1753,9 +1777,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mdflz6/everyday_host_episode_17_discussion/",
     "mal_id": 60535,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": -8,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "summer"
   }
 ]
