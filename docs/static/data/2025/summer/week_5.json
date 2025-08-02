@@ -1737,6 +1737,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "Beyblade X",
+    "episode": "90",
+    "karma": 1,
+    "comments": 3,
+    "week_id": 5,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mebtng/beyblade_x_episode_90_discussion/",
+    "mal_id": 56566,
+    "current_rank": 72,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1975/150436l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1975/150436.jpg"
     },
@@ -1754,9 +1778,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mavpe3/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": -4,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1778,7 +1802,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mckco9/beyblade_x_episode_89_discussion/",
     "mal_id": 56566,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1802,9 +1826,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mdflz6/everyday_host_episode_17_discussion/",
     "mal_id": 60535,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": -8,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "summer"
   }
 ]
