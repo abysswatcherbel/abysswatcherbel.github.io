@@ -1,0 +1,96 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "Princession Orchestra",
+    "episode": "16",
+    "karma": 17,
+    "comments": 12,
+    "week_id": 6,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1memjwa/princession_orchestra_episode_16_discussion/",
+    "mal_id": 59078,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
+    },
+    "title": "Utagoe wa Mille-Feuille",
+    "title_english": "Harmony of Mille-Feuille",
+    "num_episodes": 10,
+    "score": 6.09,
+    "streams": null,
+    "episode": "3",
+    "karma": 13,
+    "comments": 6,
+    "week_id": 6,
+    "studio": [
+      "Jumondou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1meq6zo/utagoe_wa_millefeuille_harmony_of_millefeuille/",
+    "mal_id": 55689,
+    "current_rank": 2,
+    "karma_change": -10,
+    "rank_change": 61,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1662/147894l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1662/147894.jpg"
+    },
+    "title": "Araiguma Calcal-dan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "18",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 6,
+    "studio": [
+      "Nippon Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
+    "mal_id": 60506,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "PetitCure: Precure Fairies",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "19",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 6,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
+    "mal_id": 61272,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  }
+]
