@@ -193,6 +193,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.4,
+    "streams": {
+      "name": "netflix",
+      "url": "https://www.netflix.com/title/82030192"
+    },
+    "title": "Shin Samurai-den Yaiba",
+    "title_english": "Yaiba: Samurai Legend",
+    "episode": "17",
+    "karma": 86,
+    "comments": 12,
+    "week_id": 6,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mfmhr8/shin_samuraiden_yaiba_yaiba_samurai_legend/",
+    "mal_id": 58812,
+    "current_rank": 9,
+    "karma_change": -19,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -210,9 +237,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mey6z0/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -25,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -234,7 +261,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfiur5/pok\u00e9mon_horizons_the_series_episode_104_discussion/",
     "mal_id": 53876,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -258,7 +285,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1memjwa/princession_orchestra_episode_16_discussion/",
     "mal_id": 59078,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -282,9 +309,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meq6zo/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -10,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   },
   {
@@ -306,7 +333,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -328,7 +355,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -350,9 +377,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -7,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   }
 ]
