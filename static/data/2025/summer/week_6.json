@@ -560,6 +560,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.89,
+    "streams": null,
+    "episode": "6",
+    "karma": 11,
+    "comments": 12,
+    "week_id": 6,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mg1buh/9_rulers_crown_episode_6_discussion/",
+    "mal_id": 58957,
+    "current_rank": 24,
+    "karma_change": 4,
+    "rank_change": 45,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -577,9 +601,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfoaep/meitantei_conan_case_closed_episode_1170/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -601,7 +625,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -623,7 +647,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -645,9 +669,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -7,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   }
 ]
