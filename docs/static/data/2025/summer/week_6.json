@@ -49,6 +49,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1177/150344l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1177/150344.jpg"
+    },
+    "title": "Kaijuu 8-gou 2nd Season",
+    "title_english": "Kaiju No. 8 Season 2",
+    "num_episodes": 0,
+    "score": 7.92,
+    "streams": null,
+    "episode": "3",
+    "karma": 1163,
+    "comments": 327,
+    "week_id": 6,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mfs3kw/kaijuu_8gou_season_2_kaiju_no_8_season_2_episode/",
+    "mal_id": 59177,
+    "current_rank": 3,
+    "karma_change": 148,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
     },
@@ -66,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meyhx0/yofukashi_no_uta_season_2_call_of_the_night/",
     "mal_id": 58390,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -111,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mf3puw/nukitashi_the_animation_episode_3_discussion/",
     "mal_id": 57969,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -221,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -118,9 +142,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfqaz7/anne_shirley_episode_18_discussion/",
     "mal_id": 60334,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -33,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -142,9 +166,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meyvwb/arknights_homura_shomei_arknights_rise_from_ember/",
     "mal_id": 58749,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -48,
-    "rank_change": 28,
+    "rank_change": 27,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1777/150455l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1777/150455.jpg"
+    },
+    "title": "Kizetsu Yuusha to Ansatsu Hime",
+    "title_english": "The Shy Hero and the Assassin Princesses",
+    "num_episodes": 0,
+    "score": 6.38,
+    "streams": null,
+    "episode": "5",
+    "karma": 163,
+    "comments": 50,
+    "week_id": 6,
+    "studio": [
+      "Connect"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mfra05/kizetsu_yuusha_to_ansatsu_hime_the_shy_hero_and/",
+    "mal_id": 60951,
+    "current_rank": 8,
+    "karma_change": -36,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -166,9 +214,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mf2uda/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 8,
-    "rank_change": 36,
+    "rank_change": 34,
     "season": "summer"
   },
   {
@@ -190,9 +238,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mezo42/tougen_anki_episode_4_discussion/",
     "mal_id": 58811,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 5,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -214,9 +262,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mf0scb/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -34,
-    "rank_change": 33,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -241,9 +289,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfmhr8/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -19,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -265,9 +313,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mey6z0/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -25,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -289,7 +337,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfiur5/pok\u00e9mon_horizons_the_series_episode_104_discussion/",
     "mal_id": 53876,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -313,7 +361,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1memjwa/princession_orchestra_episode_16_discussion/",
     "mal_id": 59078,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -337,9 +385,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meq6zo/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": -10,
-    "rank_change": 49,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -361,9 +409,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfoaep/meitantei_conan_case_closed_episode_1170/",
     "mal_id": 235,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": -3,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -385,7 +433,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 16,
+    "current_rank": 18,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -407,7 +455,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 17,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -429,9 +477,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 18,
+    "current_rank": 20,
     "karma_change": -7,
-    "rank_change": 52,
+    "rank_change": 50,
     "season": "summer"
   }
 ]
