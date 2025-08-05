@@ -393,6 +393,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/146291l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/146291.jpg"
+    },
+    "num_episodes": 12,
+    "score": 7.9,
+    "streams": {
+      "name": "crunchyroll",
+      "url": "https://www.crunchyroll.com/toilet-bound-hanako-kunhttps://www.hulu.com/series/toilet-bound-hanako-kun-87b3d986-cbae-47ce-9076-0fe61fce06e3",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-Logo-2018.png"
+    },
+    "title": "Jibaku Shounen Hanako-kun 2",
+    "title_english": "Toilet-Bound Hanako-kun Season 2",
+    "episode": "17",
+    "karma": 157,
+    "comments": 69,
+    "week_id": 6,
+    "studio": [
+      "Lerche"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mgenwy/jibaku_shounen_hanakokun_season_2_toiletbound/",
+    "mal_id": 53924,
+    "current_rank": 17,
+    "karma_change": 31,
+    "rank_change": 31,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1518/149900l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1518/149900.jpg"
     },
@@ -410,9 +438,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mf2uda/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 8,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -434,9 +462,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mezo42/tougen_anki_episode_4_discussion/",
     "mal_id": 58811,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 5,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -458,9 +486,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfstlm/yuusha_party_wo_tsuihou_sareta_shiromadoushi/",
     "mal_id": 59424,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -6,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -482,9 +510,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mf0scb/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -34,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -509,9 +537,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfmhr8/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -19,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -533,9 +561,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mey6z0/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -25,
-    "rank_change": 31,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1415/150405l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1415/150405.jpg"
+    },
+    "title": "Puniru wa Kawaii Slime 2nd Season",
+    "title_english": "Puniru is a Kawaii Slime Season 2",
+    "num_episodes": 0,
+    "score": 7.03,
+    "streams": null,
+    "episode": "5",
+    "karma": 50,
+    "comments": 25,
+    "week_id": 6,
+    "studio": [
+      "TOHO animation STUDIO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mgenw6/puniru_wa_kawaii_slime_season_2_puniru_is_a/",
+    "mal_id": 60603,
+    "current_rank": 24,
+    "karma_change": -8,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -557,7 +609,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfiur5/pok\u00e9mon_horizons_the_series_episode_104_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -581,9 +633,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mg6wjh/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 24,
+    "current_rank": 26,
     "karma_change": 0,
-    "rank_change": 40,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -605,7 +657,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1memjwa/princession_orchestra_episode_16_discussion/",
     "mal_id": 59078,
-    "current_rank": 25,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -629,9 +681,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meq6zo/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 26,
+    "current_rank": 28,
     "karma_change": -10,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -653,9 +705,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mg1buh/9_rulers_crown_episode_6_discussion/",
     "mal_id": 58957,
-    "current_rank": 27,
+    "current_rank": 29,
     "karma_change": 4,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -677,9 +729,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfoaep/meitantei_conan_case_closed_episode_1170/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 30,
     "karma_change": -3,
-    "rank_change": 38,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -701,7 +753,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 29,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -723,7 +775,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 30,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -745,9 +797,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 31,
+    "current_rank": 33,
     "karma_change": -7,
-    "rank_change": 39,
+    "rank_change": 37,
     "season": "summer"
   }
 ]
