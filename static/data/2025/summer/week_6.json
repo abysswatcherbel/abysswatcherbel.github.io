@@ -1069,5 +1069,29 @@
     "karma_change": -7,
     "rank_change": 26,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1975/150436l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1975/150436.jpg"
+    },
+    "title": "Yami Shibai 15",
+    "title_english": "Theatre of Darkness: Yamishibai 15",
+    "num_episodes": 0,
+    "score": 5.99,
+    "streams": null,
+    "episode": "4",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "ILCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mgsk0b/yami_shibai_season_15_theatre_of_darkness/",
+    "mal_id": 61793,
+    "current_rank": 45,
+    "karma_change": 0,
+    "rank_change": 28,
+    "season": "summer"
   }
 ]
