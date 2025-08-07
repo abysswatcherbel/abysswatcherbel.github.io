@@ -1233,6 +1233,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 0,
+    "score": 6.66,
+    "streams": null,
+    "episode": "5",
+    "karma": 9,
+    "comments": 6,
+    "week_id": 6,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mieul1/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 51,
+    "karma_change": -4,
+    "rank_change": 14,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1250,9 +1274,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfoaep/meitantei_conan_case_closed_episode_1170/",
     "mal_id": 235,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -3,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -1274,9 +1298,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mgll4e/koupen_chan_episode_18_discussion/",
     "mal_id": 60534,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 2,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -1298,7 +1322,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1320,7 +1344,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1342,9 +1366,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -7,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -1366,9 +1390,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mgsk0b/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "summer"
   }
 ]
