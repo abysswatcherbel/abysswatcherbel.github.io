@@ -1387,6 +1387,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1979/148096l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1979/148096.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.24,
+    "streams": null,
+    "title": "Uchuujin MuuMuu",
+    "title_english": "Uchuujin MuuMuu",
+    "episode": "18",
+    "karma": 35,
+    "comments": 15,
+    "week_id": 6,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mjogi5/uchuujin_muumuu_me_and_the_alien_muumuu_episode/",
+    "mal_id": 60401,
+    "current_rank": 57,
+    "karma_change": 9,
+    "rank_change": 4,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -1404,9 +1428,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mg6wjh/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -1428,7 +1452,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1memjwa/princession_orchestra_episode_16_discussion/",
     "mal_id": 59078,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1453,9 +1477,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mjaes8/kizu_darake_seijo_yori_houfuku_wo_komete_with/",
     "mal_id": 59961,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 4,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -1477,9 +1501,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meq6zo/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -10,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1501,9 +1525,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mg1buh/9_rulers_crown_episode_6_discussion/",
     "mal_id": 58957,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 4,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -1525,9 +1549,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mieul1/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -4,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1549,9 +1573,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mj1sl5/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -1,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -1573,9 +1597,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mfoaep/meitantei_conan_case_closed_episode_1170/",
     "mal_id": 235,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -3,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "summer"
   },
   {
@@ -1597,9 +1621,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mgll4e/koupen_chan_episode_18_discussion/",
     "mal_id": 60534,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 2,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -1621,7 +1645,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1643,7 +1667,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1665,9 +1689,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -7,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "summer"
   },
   {
@@ -1689,9 +1713,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mgsk0b/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": 0,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "summer"
   }
 ]
