@@ -1604,6 +1604,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "PetitCure: Precure Fairies",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "20",
+    "karma": 7,
+    "comments": 2,
+    "week_id": 6,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1mjx16j/petitcure_precure_fairies_episode_20_discussion/",
+    "mal_id": 61272,
+    "current_rank": 66,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1621,9 +1643,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mgll4e/koupen_chan_episode_18_discussion/",
     "mal_id": 60534,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 2,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -1645,7 +1667,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1meqdk2/araiguma_calcaldan_raccoon_team_calcal_episode_18/",
     "mal_id": 60506,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1669,9 +1691,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mjra68/beyblade_x_episode_91_discussion/",
     "mal_id": 56566,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 2,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -1691,7 +1713,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1meshov/petitcure_precure_fairies_episode_19_discussion/",
     "mal_id": 61272,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1713,9 +1735,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1mfazs7/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -7,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "summer"
   },
   {
@@ -1737,9 +1759,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mgsk0b/yami_shibai_season_15_theatre_of_darkness/",
     "mal_id": 61793,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 0,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "summer"
   }
 ]
