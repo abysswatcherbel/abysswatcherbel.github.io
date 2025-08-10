@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 0,
+    "score": 8.26,
+    "streams": null,
+    "episode": "6",
+    "karma": 1000,
+    "comments": 203,
+    "week_id": 7,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mkx6jl/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 1,
+    "karma_change": -49,
+    "rank_change": 9,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.69,
+    "streams": null,
+    "episode": "6",
+    "karma": 95,
+    "comments": 49,
+    "week_id": 7,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mkwvkx/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 2,
+    "karma_change": 17,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1662/147894l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1662/147894.jpg"
     },
@@ -18,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mki9ci/araiguma_calcaldan_raccoon_team_calcal_episode_19/",
     "mal_id": 60506,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 2,
-    "rank_change": 74,
+    "rank_change": 72,
     "season": "summer"
   }
 ]
