@@ -49,6 +49,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1587/149982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1587/149982.jpg"
+    },
+    "title": "Nukitashi the Animation",
+    "title_english": "",
+    "num_episodes": 11,
+    "score": 7.23,
+    "streams": null,
+    "episode": "4",
+    "karma": 440,
+    "comments": 136,
+    "week_id": 7,
+    "studio": [
+      "Passione"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ml2l2b/nukitashi_the_animation_episode_4_discussion/",
+    "mal_id": 57969,
+    "current_rank": 3,
+    "karma_change": 90,
+    "rank_change": 21,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
     },
@@ -66,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mkxt44/arknights_homura_shomei_arknights_rise_from_ember/",
     "mal_id": 58749,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -3,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mkyfgt/tougen_anki_episode_5_discussion/",
     "mal_id": 58811,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 4,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ml1mqv/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -16,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mkzk6l/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -11,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -162,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mkwvkx/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 17,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -186,9 +210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mki9ci/araiguma_calcaldan_raccoon_team_calcal_episode_19/",
     "mal_id": 60506,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 2,
-    "rank_change": 67,
+    "rank_change": 66,
     "season": "summer"
   }
 ]
