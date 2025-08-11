@@ -145,6 +145,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.4,
+    "streams": {
+      "name": "netflix",
+      "url": "https://www.netflix.com/title/82030192"
+    },
+    "title": "Shin Samurai-den Yaiba",
+    "title_english": "Yaiba: Samurai Legend",
+    "episode": "18",
+    "karma": 108,
+    "comments": 28,
+    "week_id": 7,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mlldnl/shin_samuraiden_yaiba_yaiba_samurai_legend/",
+    "mal_id": 58812,
+    "current_rank": 7,
+    "karma_change": 22,
+    "rank_change": 46,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
     },
@@ -162,9 +189,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mkzk6l/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -11,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -186,9 +213,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mkwvkx/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 17,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -210,9 +237,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mldh3t/pok\u00e9mon_horizons_the_series_episode_105_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -234,9 +261,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mki9ci/araiguma_calcaldan_raccoon_team_calcal_episode_19/",
     "mal_id": 60506,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 2,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "summer"
   },
   {
@@ -256,9 +283,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1ml9taj/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 3,
-    "rank_change": 67,
+    "rank_change": 66,
     "season": "summer"
   }
 ]
