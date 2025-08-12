@@ -1,1 +1,376 @@
-[]
+[
+    {
+        "mal_id": 60326,
+        "reddit_id": "1mnkpmx",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "There's No Freaking Way I'll be Your Lover! Unless...",
+        "title_english": "There's No Freaking Way I'll be Your Lover! Unless...",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 17.0,
+                "karma": 1162
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1887/150496l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1887/150496.jpg"
+        }
+    },
+    {
+        "mal_id": 59986,
+        "reddit_id": "1mnhvig",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Grand Blue Dreaming Season 2",
+        "title_english": "Grand Blue Dreaming Season 2",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 18.0,
+                "karma": 757
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1108/150583l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1108/150583.jpg"
+        }
+    },
+    {
+        "mal_id": 60285,
+        "reddit_id": "1mngc3p",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Sakamoto Days Part 2",
+        "title_english": "Sakamoto Days Part 2",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 19.0,
+                "karma": 354
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1758/148719l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1758/148719.jpg"
+        }
+    },
+    {
+        "mal_id": 50694,
+        "reddit_id": "1mnfgas",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Summer Pockets",
+        "title_english": "Summer Pockets",
+        "episode": "19",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 20.0,
+                "karma": 248
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1691/148602l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1691/148602.jpg"
+        }
+    },
+    {
+        "mal_id": 49778,
+        "reddit_id": "1mnfg6w",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Sword of the Demon Hunter: Kijin Gentosho",
+        "title_english": "Sword of the Demon Hunter: Kijin Gentosho",
+        "episode": "18",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 20.0,
+                "karma": 198
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1722/148906l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1722/148906.jpg"
+        }
+    },
+    {
+        "mal_id": 60508,
+        "reddit_id": "1mncfib",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "See You Tomorrow at the Food Court",
+        "title_english": "See You Tomorrow at the Food Court",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 22.0,
+                "karma": 483
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1039/150572l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1039/150572.jpg"
+        }
+    },
+    {
+        "mal_id": 59078,
+        "reddit_id": "1mmqe9o",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "",
+        "title_english": "",
+        "episode": "17",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 40.0,
+                "karma": 7
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1831/149970l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1831/149970.jpg"
+        }
+    },
+    {
+        "mal_id": 60260,
+        "reddit_id": "1mmnld7",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Hotel Inhumans",
+        "title_english": "Hotel Inhumans",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 42.0,
+                "karma": 64
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1900/150443l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1900/150443.jpg"
+        }
+    },
+    {
+        "mal_id": 21,
+        "reddit_id": "1mmm1g8",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "One Piece",
+        "title_english": "One Piece",
+        "episode": "1139",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 43.0,
+                "karma": 173
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg"
+        }
+    },
+    {
+        "mal_id": 59898,
+        "reddit_id": "1mmllcq",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "",
+        "title_english": "",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 43.0,
+                "karma": 769
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1981/149640l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1981/149640.jpg"
+        }
+    },
+    {
+        "mal_id": 59062,
+        "reddit_id": "1mmkuyc",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Gachiakuta",
+        "title_english": "Gachiakuta",
+        "episode": "5",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 44.0,
+                "karma": 1039
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1682/150432l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1682/150432.jpg"
+        }
+    },
+    {
+        "mal_id": 59689,
+        "reddit_id": "1mmkkqz",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Cultural Exchange With a Game Centre Girl",
+        "title_english": "Cultural Exchange With a Game Centre Girl",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 44.0,
+                "karma": 156
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1943/149719l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1943/149719.jpg"
+        }
+    },
+    {
+        "mal_id": 60316,
+        "reddit_id": "1mmk59z",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Uglymug, Epicfighter",
+        "title_english": "Uglymug, Epicfighter",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 44.0,
+                "karma": 151
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1454/150515l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1454/150515.jpg"
+        }
+    },
+    {
+        "mal_id": 58197,
+        "reddit_id": "1mmjuzx",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Nyaight of the Living Cat",
+        "title_english": "Nyaight of the Living Cat",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 45.0,
+                "karma": 70
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1411/150445l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1411/150445.jpg"
+        }
+    },
+    {
+        "mal_id": 59130,
+        "reddit_id": "1mmiqe5",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
+        "title_english": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 45.0,
+                "karma": 428
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1782/150383l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1782/150383.jpg"
+        }
+    },
+    {
+        "mal_id": 59791,
+        "reddit_id": "1mmiqd1",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Ruri Rocks",
+        "title_english": "Ruri Rocks",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 45.0,
+                "karma": 541
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1431/148742l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1431/148742.jpg"
+        }
+    },
+    {
+        "mal_id": 60315,
+        "reddit_id": "1mmi288",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Dekin no Mogura: The Earthbound Mole",
+        "title_english": "Dekin no Mogura: The Earthbound Mole",
+        "episode": "6",
+        "created_at": "2025-08-12 11:00:02",
+        "updated_at": "2025-08-12 11:00:02",
+        "hourly_karma": [
+            {
+                "hour": 46.0,
+                "karma": 54
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1154/149311l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1154/149311.jpg"
+        }
+    }
+]
