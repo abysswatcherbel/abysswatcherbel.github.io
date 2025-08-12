@@ -9,7 +9,7 @@
         "title_english": "There's No Freaking Way I'll be Your Lover! Unless...",
         "episode": "6",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 17.0,
@@ -30,6 +30,10 @@
             {
                 "hour": 21.0,
                 "karma": 1266
+            },
+            {
+                "hour": 22.0,
+                "karma": 1287
             }
         ],
         "images": {
@@ -47,7 +51,7 @@
         "title_english": "Grand Blue Dreaming Season 2",
         "episode": "6",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 18.0,
@@ -68,6 +72,10 @@
             {
                 "hour": 22.0,
                 "karma": 808
+            },
+            {
+                "hour": 23.0,
+                "karma": 834
             }
         ],
         "images": {
@@ -85,7 +93,7 @@
         "title_english": "Sakamoto Days Part 2",
         "episode": "6",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 19.0,
@@ -106,6 +114,10 @@
             {
                 "hour": 23.0,
                 "karma": 373
+            },
+            {
+                "hour": 24.0,
+                "karma": 381
             }
         ],
         "images": {
@@ -123,7 +135,7 @@
         "title_english": "Summer Pockets",
         "episode": "19",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 20.0,
@@ -144,6 +156,10 @@
             {
                 "hour": 24.0,
                 "karma": 254
+            },
+            {
+                "hour": 25.0,
+                "karma": 258
             }
         ],
         "images": {
@@ -161,7 +177,7 @@
         "title_english": "Sword of the Demon Hunter: Kijin Gentosho",
         "episode": "18",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 20.0,
@@ -182,6 +198,10 @@
             {
                 "hour": 24.0,
                 "karma": 213
+            },
+            {
+                "hour": 25.0,
+                "karma": 217
             }
         ],
         "images": {
@@ -199,7 +219,7 @@
         "title_english": "See You Tomorrow at the Food Court",
         "episode": "6",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 22.0,
@@ -220,6 +240,10 @@
             {
                 "hour": 26.0,
                 "karma": 494
+            },
+            {
+                "hour": 27.0,
+                "karma": 501
             }
         ],
         "images": {
@@ -237,7 +261,7 @@
         "title_english": "",
         "episode": "17",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 40.0,
@@ -258,6 +282,10 @@
             {
                 "hour": 44.0,
                 "karma": 8
+            },
+            {
+                "hour": 45.0,
+                "karma": 6
             }
         ],
         "images": {
@@ -275,7 +303,7 @@
         "title_english": "Hotel Inhumans",
         "episode": "6",
         "created_at": "2025-08-12 11:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 42.0,
@@ -295,6 +323,10 @@
             },
             {
                 "hour": 46.0,
+                "karma": 65
+            },
+            {
+                "hour": 47.0,
                 "karma": 65
             }
         ],
@@ -619,16 +651,64 @@
         "title_english": "Rent-a-Girlfriend Season 4",
         "episode": "7",
         "created_at": "2025-08-12 15:00:02",
-        "updated_at": "2025-08-12 15:00:02",
+        "updated_at": "2025-08-12 16:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
+                "karma": 0
+            },
+            {
+                "hour": 2.0,
                 "karma": 0
             }
         ],
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1071/150808l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1071/150808.jpg"
+        }
+    },
+    {
+        "mal_id": 59632,
+        "reddit_id": "1moac68",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Detectives These Days Are Crazy!",
+        "title_english": "Detectives These Days Are Crazy!",
+        "episode": "7",
+        "created_at": "2025-08-12 16:00:02",
+        "updated_at": "2025-08-12 16:00:02",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 45
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1323/149460l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1323/149460.jpg"
+        }
+    },
+    {
+        "mal_id": 59402,
+        "reddit_id": "1mo9kk6",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "A Couple of Cuckoos Season 2",
+        "title_english": "A Couple of Cuckoos Season 2",
+        "episode": "6",
+        "created_at": "2025-08-12 16:00:02",
+        "updated_at": "2025-08-12 16:00:02",
+        "hourly_karma": [
+            {
+                "hour": 2.0,
+                "karma": 21
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1551/150517l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1551/150517.jpg"
         }
     }
 ]
