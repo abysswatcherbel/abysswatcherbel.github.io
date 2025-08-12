@@ -512,6 +512,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.46,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "27",
+    "karma": 14,
+    "comments": 9,
+    "week_id": 7,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mm60cd/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 22,
+    "karma_change": -5,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1662/147894l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1662/147894.jpg"
     },
@@ -529,9 +553,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mki9ci/araiguma_calcaldan_raccoon_team_calcal_episode_19/",
     "mal_id": 60506,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 2,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "summer"
   },
   {
@@ -551,9 +575,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1ml9taj/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 3,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   }
 ]
