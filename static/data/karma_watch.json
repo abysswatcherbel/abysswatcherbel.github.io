@@ -1219,7 +1219,7 @@
         "title_english": "Rent-a-Girlfriend Season 4",
         "episode": "7",
         "created_at": "2025-08-12 15:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1332,6 +1332,10 @@
             {
                 "hour": 28.0,
                 "karma": 95
+            },
+            {
+                "hour": 29.0,
+                "karma": 98
             }
         ],
         "images": {
@@ -1349,7 +1353,7 @@
         "title_english": "Detectives These Days Are Crazy!",
         "episode": "7",
         "created_at": "2025-08-12 16:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1458,6 +1462,10 @@
             {
                 "hour": 27.0,
                 "karma": 238
+            },
+            {
+                "hour": 28.0,
+                "karma": 248
             }
         ],
         "images": {
@@ -1475,7 +1483,7 @@
         "title_english": "A Couple of Cuckoos Season 2",
         "episode": "6",
         "created_at": "2025-08-12 16:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -1584,6 +1592,10 @@
             {
                 "hour": 28.0,
                 "karma": 88
+            },
+            {
+                "hour": 29.0,
+                "karma": 89
             }
         ],
         "images": {
@@ -1601,7 +1613,7 @@
         "title_english": "Necronomico and the Cosmic Horror Show",
         "episode": "7",
         "created_at": "2025-08-12 17:00:03",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -1706,6 +1718,10 @@
             {
                 "hour": 27.0,
                 "karma": 71
+            },
+            {
+                "hour": 28.0,
+                "karma": 73
             }
         ],
         "images": {
@@ -1723,7 +1739,7 @@
         "title_english": "Chuhai Lips",
         "episode": "7",
         "created_at": "2025-08-12 18:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -1824,6 +1840,10 @@
             {
                 "hour": 26.0,
                 "karma": 89
+            },
+            {
+                "hour": 27.0,
+                "karma": 92
             }
         ],
         "images": {
@@ -1841,7 +1861,7 @@
         "title_english": "Mr. Osomatsu 4th Season",
         "episode": "6",
         "created_at": "2025-08-12 19:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -1938,6 +1958,10 @@
             {
                 "hour": 25.0,
                 "karma": 12
+            },
+            {
+                "hour": 26.0,
+                "karma": 13
             }
         ],
         "images": {
@@ -1955,7 +1979,7 @@
         "title_english": "Turkey! Time to Strike",
         "episode": "6",
         "created_at": "2025-08-12 20:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2048,6 +2072,10 @@
             {
                 "hour": 23.0,
                 "karma": 215
+            },
+            {
+                "hour": 24.0,
+                "karma": 214
             }
         ],
         "images": {
@@ -2065,7 +2093,7 @@
         "title_english": "",
         "episode": "11",
         "created_at": "2025-08-13 09:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2105,6 +2133,10 @@
             },
             {
                 "hour": 10.0,
+                "karma": 0
+            },
+            {
+                "hour": 11.0,
                 "karma": 0
             }
         ],
@@ -2123,7 +2155,7 @@
         "title_english": "",
         "episode": "10",
         "created_at": "2025-08-13 09:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2163,6 +2195,10 @@
             },
             {
                 "hour": 10.0,
+                "karma": 0
+            },
+            {
+                "hour": 11.0,
                 "karma": 0
             }
         ],
@@ -2181,7 +2217,7 @@
         "title_english": "",
         "episode": "9",
         "created_at": "2025-08-13 09:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2222,6 +2258,10 @@
             {
                 "hour": 10.0,
                 "karma": 3
+            },
+            {
+                "hour": 11.0,
+                "karma": 3
             }
         ],
         "images": {
@@ -2239,7 +2279,7 @@
         "title_english": "",
         "episode": "12",
         "created_at": "2025-08-13 10:00:03",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -2276,6 +2316,10 @@
             {
                 "hour": 10.0,
                 "karma": 0
+            },
+            {
+                "hour": 11.0,
+                "karma": 0
             }
         ],
         "images": {
@@ -2293,7 +2337,7 @@
         "title_english": "Clevatess",
         "episode": "7",
         "created_at": "2025-08-13 13:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2318,6 +2362,10 @@
             {
                 "hour": 6.0,
                 "karma": 532
+            },
+            {
+                "hour": 7.0,
+                "karma": 606
             }
         ],
         "images": {
@@ -2335,7 +2383,7 @@
         "title_english": "",
         "episode": "97",
         "created_at": "2025-08-13 13:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -2360,6 +2408,10 @@
             {
                 "hour": 7.0,
                 "karma": 8
+            },
+            {
+                "hour": 8.0,
+                "karma": 9
             }
         ],
         "images": {
@@ -2377,7 +2429,7 @@
         "title_english": "The Rising of the Shield Hero Season 4",
         "episode": "6",
         "created_at": "2025-08-13 14:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -2398,6 +2450,10 @@
             {
                 "hour": 6.0,
                 "karma": 62
+            },
+            {
+                "hour": 7.0,
+                "karma": 69
             }
         ],
         "images": {
@@ -2415,7 +2471,7 @@
         "title_english": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 2",
         "episode": "7",
         "created_at": "2025-08-13 16:00:02",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2428,6 +2484,10 @@
             {
                 "hour": 3.0,
                 "karma": 64
+            },
+            {
+                "hour": 4.0,
+                "karma": 76
             }
         ],
         "images": {
@@ -2445,7 +2505,7 @@
         "title_english": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2",
         "episode": "6",
         "created_at": "2025-08-13 17:00:03",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -2454,6 +2514,10 @@
             {
                 "hour": 2.0,
                 "karma": 99
+            },
+            {
+                "hour": 3.0,
+                "karma": 132
             }
         ],
         "images": {
@@ -2471,11 +2535,15 @@
         "title_english": "Hell Teacher: Jigoku Sensei Nube",
         "episode": "7",
         "created_at": "2025-08-13 18:00:03",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
                 "karma": 15
+            },
+            {
+                "hour": 2.0,
+                "karma": 23
             }
         ],
         "images": {
@@ -2493,11 +2561,15 @@
         "title_english": "",
         "episode": "19",
         "created_at": "2025-08-13 18:00:03",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
                 "karma": 7
+            },
+            {
+                "hour": 2.0,
+                "karma": 6
             }
         ],
         "images": {
@@ -2515,16 +2587,86 @@
         "title_english": "",
         "episode": "6",
         "created_at": "2025-08-13 18:00:03",
-        "updated_at": "2025-08-13 18:00:03",
+        "updated_at": "2025-08-13 19:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
                 "karma": 76
+            },
+            {
+                "hour": 3.0,
+                "karma": 133
             }
         ],
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1180/150596l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1180/150596.jpg"
+        }
+    },
+    {
+        "mal_id": 61150,
+        "reddit_id": "1mpat54",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Onmyo Kaiten Re:Birth Verse",
+        "title_english": "Onmyo Kaiten Re:Birth Verse",
+        "episode": "7",
+        "created_at": "2025-08-13 19:00:02",
+        "updated_at": "2025-08-13 19:00:02",
+        "hourly_karma": [
+            {
+                "hour": 2.0,
+                "karma": 11
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1933/150503l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1933/150503.jpg"
+        }
+    },
+    {
+        "mal_id": 59207,
+        "reddit_id": "1mpa5fv",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "Dealing with Mikadono Sisters Is a Breeze",
+        "title_english": "Dealing with Mikadono Sisters Is a Breeze",
+        "episode": "7",
+        "created_at": "2025-08-13 19:00:02",
+        "updated_at": "2025-08-13 19:00:02",
+        "hourly_karma": [
+            {
+                "hour": 2.0,
+                "karma": 97
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1949/150965l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1949/150965.jpg"
+        }
+    },
+    {
+        "mal_id": 59961,
+        "reddit_id": "1mpa5ej",
+        "week_id": 7,
+        "season": "summer",
+        "year": 2025,
+        "title": "With Vengeance, Sincerely, Your Broken Saintess",
+        "title_english": "With Vengeance, Sincerely, Your Broken Saintess",
+        "episode": "6",
+        "created_at": "2025-08-13 19:00:02",
+        "updated_at": "2025-08-13 19:00:02",
+        "hourly_karma": [
+            {
+                "hour": 2.0,
+                "karma": 5
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1546/145782l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1546/145782.jpg"
         }
     }
 ]
