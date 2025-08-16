@@ -7823,7 +7823,7 @@
         "title_english": "",
         "episode": "20",
         "created_at": "2025-08-15 04:00:03",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7988,6 +7988,10 @@
             {
                 "hour": 41.0,
                 "karma": 4
+            },
+            {
+                "hour": 42.0,
+                "karma": 6
             }
         ],
         "images": {
@@ -8005,7 +8009,7 @@
         "title_english": "",
         "episode": "18",
         "created_at": "2025-08-15 05:00:03",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8166,6 +8170,10 @@
             {
                 "hour": 40.0,
                 "karma": 9
+            },
+            {
+                "hour": 41.0,
+                "karma": 9
             }
         ],
         "images": {
@@ -8183,7 +8191,7 @@
         "title_english": "Call of the Night Season 2",
         "episode": "7",
         "created_at": "2025-08-15 16:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8300,6 +8308,10 @@
             {
                 "hour": 29.0,
                 "karma": 865
+            },
+            {
+                "hour": 30.0,
+                "karma": 871
             }
         ],
         "images": {
@@ -8317,7 +8329,7 @@
         "title_english": "April Showers Bring May Flowers",
         "episode": "7",
         "created_at": "2025-08-15 16:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8434,6 +8446,10 @@
             {
                 "hour": 29.0,
                 "karma": 91
+            },
+            {
+                "hour": 30.0,
+                "karma": 92
             }
         ],
         "images": {
@@ -8451,7 +8467,7 @@
         "title_english": "Tougen Anki",
         "episode": "6",
         "created_at": "2025-08-15 17:00:03",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8564,6 +8580,10 @@
             {
                 "hour": 28.0,
                 "karma": 98
+            },
+            {
+                "hour": 29.0,
+                "karma": 103
             }
         ],
         "images": {
@@ -8581,7 +8601,7 @@
         "title_english": "",
         "episode": "",
         "created_at": "2025-08-15 17:00:03",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -8694,6 +8714,10 @@
             {
                 "hour": 29.0,
                 "karma": 65
+            },
+            {
+                "hour": 30.0,
+                "karma": 67
             }
         ],
         "images": {
@@ -8711,7 +8735,7 @@
         "title_english": "Arknights: Rise from Ember",
         "episode": "7",
         "created_at": "2025-08-15 17:00:03",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -8824,6 +8848,10 @@
             {
                 "hour": 29.0,
                 "karma": 187
+            },
+            {
+                "hour": 30.0,
+                "karma": 192
             }
         ],
         "images": {
@@ -8841,7 +8869,7 @@
         "title_english": "Secrets of the Silent Witch",
         "episode": "7",
         "created_at": "2025-08-15 18:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8950,6 +8978,10 @@
             {
                 "hour": 27.0,
                 "karma": 1365
+            },
+            {
+                "hour": 28.0,
+                "karma": 1386
             }
         ],
         "images": {
@@ -8967,7 +8999,7 @@
         "title_english": "Watari-kun's ****** Is about to Collapse",
         "episode": "7",
         "created_at": "2025-08-15 18:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9076,6 +9108,10 @@
             {
                 "hour": 28.0,
                 "karma": 116
+            },
+            {
+                "hour": 29.0,
+                "karma": 114
             }
         ],
         "images": {
@@ -9093,7 +9129,7 @@
         "title_english": "Betrothed to My Sister's Ex",
         "episode": "7",
         "created_at": "2025-08-15 19:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9198,6 +9234,10 @@
             {
                 "hour": 26.0,
                 "karma": 139
+            },
+            {
+                "hour": 27.0,
+                "karma": 138
             }
         ],
         "images": {
@@ -9215,7 +9255,7 @@
         "title_english": "Nukitashi The Animation",
         "episode": "5",
         "created_at": "2025-08-15 20:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9316,6 +9356,10 @@
             {
                 "hour": 26.0,
                 "karma": 384
+            },
+            {
+                "hour": 27.0,
+                "karma": 384
             }
         ],
         "images": {
@@ -9333,7 +9377,7 @@
         "title_english": "Pok\u00e9mon Horizons: The Series",
         "episode": "106",
         "created_at": "2025-08-16 07:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9390,6 +9434,10 @@
             {
                 "hour": 14.0,
                 "karma": 31
+            },
+            {
+                "hour": 15.0,
+                "karma": 38
             }
         ],
         "images": {
@@ -9407,7 +9455,7 @@
         "title_english": "",
         "episode": "92",
         "created_at": "2025-08-16 08:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9460,6 +9508,10 @@
             {
                 "hour": 14.0,
                 "karma": 5
+            },
+            {
+                "hour": 15.0,
+                "karma": 5
             }
         ],
         "images": {
@@ -9477,7 +9529,7 @@
         "title_english": "Yaiba: Samurai Legend",
         "episode": "19",
         "created_at": "2025-08-16 11:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9518,6 +9570,10 @@
             {
                 "hour": 10.0,
                 "karma": 68
+            },
+            {
+                "hour": 11.0,
+                "karma": 74
             }
         ],
         "images": {
@@ -9535,7 +9591,7 @@
         "title_english": "Kaiju No. 8 Season 2",
         "episode": "5",
         "created_at": "2025-08-16 16:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9556,6 +9612,10 @@
             {
                 "hour": 5.0,
                 "karma": 423
+            },
+            {
+                "hour": 6.0,
+                "karma": 463
             }
         ],
         "images": {
@@ -9573,7 +9633,7 @@
         "title_english": "The Shy Hero and the Assassin Princesses",
         "episode": "7",
         "created_at": "2025-08-16 16:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9594,6 +9654,10 @@
             {
                 "hour": 6.0,
                 "karma": 85
+            },
+            {
+                "hour": 7.0,
+                "karma": 97
             }
         ],
         "images": {
@@ -9611,7 +9675,7 @@
         "title_english": "Bad Girl",
         "episode": "7",
         "created_at": "2025-08-16 17:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9628,6 +9692,10 @@
             {
                 "hour": 4.0,
                 "karma": 137
+            },
+            {
+                "hour": 5.0,
+                "karma": 153
             }
         ],
         "images": {
@@ -9645,7 +9713,7 @@
         "title_english": "Fermat Kitchen",
         "episode": "6",
         "created_at": "2025-08-16 17:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9662,6 +9730,10 @@
             {
                 "hour": 4.0,
                 "karma": 20
+            },
+            {
+                "hour": 5.0,
+                "karma": 23
             }
         ],
         "images": {
@@ -9679,7 +9751,7 @@
         "title_english": "Scooped Up by an S-Ranked Adventurer",
         "episode": "7",
         "created_at": "2025-08-16 17:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9696,6 +9768,10 @@
             {
                 "hour": 5.0,
                 "karma": 45
+            },
+            {
+                "hour": 6.0,
+                "karma": 51
             }
         ],
         "images": {
@@ -9713,7 +9789,7 @@
         "title_english": "Case Closed",
         "episode": "1171",
         "created_at": "2025-08-16 17:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9730,6 +9806,10 @@
             {
                 "hour": 5.0,
                 "karma": 3
+            },
+            {
+                "hour": 6.0,
+                "karma": 2
             }
         ],
         "images": {
@@ -9747,7 +9827,7 @@
         "title_english": "My Dress-Up Darling Season 2",
         "episode": "7",
         "created_at": "2025-08-16 18:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -9760,6 +9840,10 @@
             {
                 "hour": 3.0,
                 "karma": 590
+            },
+            {
+                "hour": 4.0,
+                "karma": 698
             }
         ],
         "images": {
@@ -9777,7 +9861,7 @@
         "title_english": "Private Tutor to the Duke's Daughter",
         "episode": "7",
         "created_at": "2025-08-16 19:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9786,6 +9870,10 @@
             {
                 "hour": 3.0,
                 "karma": 61
+            },
+            {
+                "hour": 4.0,
+                "karma": 67
             }
         ],
         "images": {
@@ -9803,7 +9891,7 @@
         "title_english": "The Summer Hikaru Died",
         "episode": "7",
         "created_at": "2025-08-16 19:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -9812,6 +9900,10 @@
             {
                 "hour": 3.0,
                 "karma": 321
+            },
+            {
+                "hour": 4.0,
+                "karma": 391
             }
         ],
         "images": {
@@ -9829,11 +9921,15 @@
         "title_english": "Rascal Does Not Dream of Santa Claus",
         "episode": "7",
         "created_at": "2025-08-16 20:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
                 "karma": 172
+            },
+            {
+                "hour": 3.0,
+                "karma": 222
             }
         ],
         "images": {
@@ -9851,16 +9947,42 @@
         "title_english": "With You and the Rain",
         "episode": "7",
         "created_at": "2025-08-16 20:00:02",
-        "updated_at": "2025-08-16 20:00:02",
+        "updated_at": "2025-08-16 21:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
                 "karma": 57
+            },
+            {
+                "hour": 3.0,
+                "karma": 80
             }
         ],
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1329/150512l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1329/150512.jpg"
+        }
+    },
+    {
+        "mal_id": 58957,
+        "reddit_id": "1ms58ds",
+        "week_id": 8,
+        "season": "summer",
+        "year": 2025,
+        "title": "",
+        "title_english": "",
+        "episode": "8",
+        "created_at": "2025-08-16 21:00:02",
+        "updated_at": "2025-08-16 21:00:02",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 0
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
         }
     }
 ]
