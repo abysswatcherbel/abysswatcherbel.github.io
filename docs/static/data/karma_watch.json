@@ -6175,7 +6175,7 @@
         "title_english": "Let's Go Karaoke!",
         "episode": "4",
         "created_at": "2025-08-14 14:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -6328,6 +6328,10 @@
             {
                 "hour": 38.0,
                 "karma": 109
+            },
+            {
+                "hour": 39.0,
+                "karma": 107
             }
         ],
         "images": {
@@ -6345,7 +6349,7 @@
         "title_english": "",
         "episode": "7",
         "created_at": "2025-08-14 15:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -6494,6 +6498,10 @@
             {
                 "hour": 37.0,
                 "karma": 114
+            },
+            {
+                "hour": 38.0,
+                "karma": 117
             }
         ],
         "images": {
@@ -6511,7 +6519,7 @@
         "title_english": "Dr. Stone: Science Future Part 2",
         "episode": "6",
         "created_at": "2025-08-14 16:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -6656,6 +6664,10 @@
             {
                 "hour": 37.0,
                 "karma": 622
+            },
+            {
+                "hour": 38.0,
+                "karma": 623
             }
         ],
         "images": {
@@ -6673,7 +6685,7 @@
         "title_english": "Welcome to the Outcast's Restaurant!",
         "episode": "7",
         "created_at": "2025-08-14 16:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -6818,6 +6830,10 @@
             {
                 "hour": 37.0,
                 "karma": 148
+            },
+            {
+                "hour": 38.0,
+                "karma": 148
             }
         ],
         "images": {
@@ -6835,7 +6851,7 @@
         "title_english": "Solo Camping for Two",
         "episode": "6",
         "created_at": "2025-08-14 18:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -6972,6 +6988,10 @@
             {
                 "hour": 34.0,
                 "karma": 123
+            },
+            {
+                "hour": 35.0,
+                "karma": 124
             }
         ],
         "images": {
@@ -6989,7 +7009,7 @@
         "title_english": "Dan Da Dan Season 2",
         "episode": "7",
         "created_at": "2025-08-14 18:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -7126,6 +7146,10 @@
             {
                 "hour": 35.0,
                 "karma": 2700
+            },
+            {
+                "hour": 36.0,
+                "karma": 2719
             }
         ],
         "images": {
@@ -7143,7 +7167,7 @@
         "title_english": "Kamitsubaki City Under Construction",
         "episode": "6",
         "created_at": "2025-08-14 19:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7276,6 +7300,10 @@
             {
                 "hour": 33.0,
                 "karma": 23
+            },
+            {
+                "hour": 34.0,
+                "karma": 21
             }
         ],
         "images": {
@@ -7293,7 +7321,7 @@
         "title_english": "The Water Magician",
         "episode": "6",
         "created_at": "2025-08-14 21:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -7418,6 +7446,10 @@
             {
                 "hour": 32.0,
                 "karma": 519
+            },
+            {
+                "hour": 33.0,
+                "karma": 519
             }
         ],
         "images": {
@@ -7435,7 +7467,7 @@
         "title_english": "",
         "episode": "20",
         "created_at": "2025-08-15 04:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7532,6 +7564,10 @@
             {
                 "hour": 24.0,
                 "karma": 5
+            },
+            {
+                "hour": 25.0,
+                "karma": 4
             }
         ],
         "images": {
@@ -7549,7 +7585,7 @@
         "title_english": "",
         "episode": "18",
         "created_at": "2025-08-15 05:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7642,6 +7678,10 @@
             {
                 "hour": 23.0,
                 "karma": 10
+            },
+            {
+                "hour": 24.0,
+                "karma": 8
             }
         ],
         "images": {
@@ -7659,7 +7699,7 @@
         "title_english": "Call of the Night Season 2",
         "episode": "7",
         "created_at": "2025-08-15 16:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7708,6 +7748,10 @@
             {
                 "hour": 12.0,
                 "karma": 652
+            },
+            {
+                "hour": 13.0,
+                "karma": 689
             }
         ],
         "images": {
@@ -7725,7 +7769,7 @@
         "title_english": "April Showers Bring May Flowers",
         "episode": "7",
         "created_at": "2025-08-15 16:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7774,6 +7818,10 @@
             {
                 "hour": 12.0,
                 "karma": 74
+            },
+            {
+                "hour": 13.0,
+                "karma": 79
             }
         ],
         "images": {
@@ -7791,7 +7839,7 @@
         "title_english": "Tougen Anki",
         "episode": "6",
         "created_at": "2025-08-15 17:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -7836,6 +7884,10 @@
             {
                 "hour": 11.0,
                 "karma": 80
+            },
+            {
+                "hour": 12.0,
+                "karma": 78
             }
         ],
         "images": {
@@ -7853,7 +7905,7 @@
         "title_english": "",
         "episode": "",
         "created_at": "2025-08-15 17:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -7898,6 +7950,10 @@
             {
                 "hour": 12.0,
                 "karma": 53
+            },
+            {
+                "hour": 13.0,
+                "karma": 56
             }
         ],
         "images": {
@@ -7915,7 +7971,7 @@
         "title_english": "Arknights: Rise from Ember",
         "episode": "7",
         "created_at": "2025-08-15 17:00:03",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -7960,6 +8016,10 @@
             {
                 "hour": 12.0,
                 "karma": 138
+            },
+            {
+                "hour": 13.0,
+                "karma": 147
             }
         ],
         "images": {
@@ -7977,7 +8037,7 @@
         "title_english": "Secrets of the Silent Witch",
         "episode": "7",
         "created_at": "2025-08-15 18:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8018,6 +8078,10 @@
             {
                 "hour": 10.0,
                 "karma": 1042
+            },
+            {
+                "hour": 11.0,
+                "karma": 1088
             }
         ],
         "images": {
@@ -8035,7 +8099,7 @@
         "title_english": "Watari-kun's ****** Is about to Collapse",
         "episode": "7",
         "created_at": "2025-08-15 18:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -8076,6 +8140,10 @@
             {
                 "hour": 11.0,
                 "karma": 88
+            },
+            {
+                "hour": 12.0,
+                "karma": 93
             }
         ],
         "images": {
@@ -8093,7 +8161,7 @@
         "title_english": "Betrothed to My Sister's Ex",
         "episode": "7",
         "created_at": "2025-08-15 19:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -8130,6 +8198,10 @@
             {
                 "hour": 9.0,
                 "karma": 99
+            },
+            {
+                "hour": 10.0,
+                "karma": 110
             }
         ],
         "images": {
@@ -8147,7 +8219,7 @@
         "title_english": "Nukitashi The Animation",
         "episode": "5",
         "created_at": "2025-08-15 20:00:02",
-        "updated_at": "2025-08-16 03:00:02",
+        "updated_at": "2025-08-16 04:00:02",
         "hourly_karma": [
             {
                 "hour": 2.0,
@@ -8180,6 +8252,10 @@
             {
                 "hour": 9.0,
                 "karma": 249
+            },
+            {
+                "hour": 10.0,
+                "karma": 272
             }
         ],
         "images": {
