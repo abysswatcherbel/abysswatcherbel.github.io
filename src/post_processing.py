@@ -329,11 +329,11 @@ def process_post(post: Dict, reddit: Reddit) -> None:
     """
 
     try:
-        logger.debug(f"Processing post received from scheduler: {post}")
+
         post_details: Dict = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
-        logger.debug(f"Trying to insert post: {json.dumps(post_details, indent=2)}")
+
         try:
             post_validation = RedditPostDetails(**post_details)
             insert_mongo(post_validation.model_dump())
