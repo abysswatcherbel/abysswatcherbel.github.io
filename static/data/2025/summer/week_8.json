@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 12,
+    "score": 8.26,
+    "streams": null,
+    "episode": "7",
+    "karma": 927,
+    "comments": 195,
+    "week_id": 8,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mqzv9a/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 1,
+    "karma_change": -73,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "April Showers Bring May Flowers",
+    "num_episodes": 13,
+    "score": 6.72,
+    "streams": null,
+    "episode": "7",
+    "karma": 96,
+    "comments": 33,
+    "week_id": 8,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mqzje1/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 2,
+    "karma_change": 1,
+    "rank_change": 49,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -18,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqngql/princession_orchestra_episode_18_discussion/",
     "mal_id": 59078,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 1,
-    "rank_change": 67,
+    "rank_change": 65,
     "season": "summer"
   },
   {
@@ -42,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -3,
-    "rank_change": 70,
+    "rank_change": 68,
     "season": "summer"
   }
 ]
