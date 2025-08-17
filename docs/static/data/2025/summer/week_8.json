@@ -73,6 +73,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1518/149900l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1518/149900.jpg"
+    },
+    "title": "Zutaboro Reijou wa Ane no Moto Konyakusha ni Dekiai sareru",
+    "title_english": "Betrothed to My Sister's Ex",
+    "num_episodes": 12,
+    "score": 7.23,
+    "streams": null,
+    "episode": "7",
+    "karma": 142,
+    "comments": 80,
+    "week_id": 8,
+    "studio": [
+      "LandQ studios"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mr4jwx/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
+    "mal_id": 59421,
+    "current_rank": 4,
+    "karma_change": 8,
+    "rank_change": 40,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
     },
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr2jpn/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 12,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr17kb/tougen_anki_episode_6_discussion/",
     "mal_id": 58811,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -34,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqzje1/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 1,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -163,7 +187,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr0h0r/mononoke_movie_hinezumi_mononoke_the_movie/",
     "mal_id": 59408,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -187,9 +211,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqngql/princession_orchestra_episode_18_discussion/",
     "mal_id": 59078,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 1,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "summer"
   },
   {
@@ -211,9 +235,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -3,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "summer"
   }
 ]
