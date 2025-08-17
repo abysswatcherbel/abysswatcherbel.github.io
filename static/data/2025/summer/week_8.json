@@ -1,0 +1,50 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "",
+    "episode": "18",
+    "karma": 12,
+    "comments": 9,
+    "week_id": 8,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mqngql/princession_orchestra_episode_18_discussion/",
+    "mal_id": 59078,
+    "current_rank": 1,
+    "karma_change": 1,
+    "rank_change": 67,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1016/149942l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1016/149942.jpg"
+    },
+    "title": "Araiguma Calcal-dan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.88,
+    "streams": null,
+    "episode": "20",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Nippon Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
+    "mal_id": 60506,
+    "current_rank": 2,
+    "karma_change": -3,
+    "rank_change": 70,
+    "season": "summer"
+  }
+]
