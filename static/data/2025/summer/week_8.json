@@ -25,6 +25,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
+    },
+    "title": "Arknights: Rise from Ember",
+    "title_english": "Arknights: Rise from Ember",
+    "num_episodes": 10,
+    "score": 7.68,
+    "streams": null,
+    "episode": "7",
+    "karma": 199,
+    "comments": 58,
+    "week_id": 8,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mr0dh9/arknights_homura_shomei_arknights_rise_from_ember/",
+    "mal_id": 58749,
+    "current_rank": 2,
+    "karma_change": 9,
+    "rank_change": 32,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.98,
+    "streams": null,
+    "episode": "6",
+    "karma": 112,
+    "comments": 64,
+    "week_id": 8,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mr17kb/tougen_anki_episode_6_discussion/",
+    "mal_id": 58811,
+    "current_rank": 3,
+    "karma_change": -34,
+    "rank_change": 39,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -42,9 +90,34 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqzje1/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 1,
-    "rank_change": 49,
+    "rank_change": 47,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1593/147889l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1593/147889.jpg"
+    },
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "title": "Mononoke Movie: Dai Ni Shou - Hinezumi",
+    "title_english": "",
+    "episode": "",
+    "karma": 76,
+    "comments": 19,
+    "week_id": 8,
+    "studio": [
+      "EOTA",
+      "Crew-Cell"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mr0h0r/mononoke_movie_hinezumi_mononoke_the_movie/",
+    "mal_id": 59408,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -66,9 +139,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqngql/princession_orchestra_episode_18_discussion/",
     "mal_id": 59078,
-    "current_rank": 3,
+    "current_rank": 6,
     "karma_change": 1,
-    "rank_change": 65,
+    "rank_change": 62,
     "season": "summer"
   },
   {
@@ -90,9 +163,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 4,
+    "current_rank": 7,
     "karma_change": -3,
-    "rank_change": 68,
+    "rank_change": 65,
     "season": "summer"
   }
 ]
