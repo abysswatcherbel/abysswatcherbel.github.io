@@ -97,6 +97,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148848l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148848.jpg"
+    },
+    "title": "Bad Girl",
+    "title_english": "Bad Girl",
+    "num_episodes": 12,
+    "score": 6.78,
+    "streams": null,
+    "episode": "7",
+    "karma": 313,
+    "comments": 45,
+    "week_id": 8,
+    "studio": [
+      "Bridge"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mrypcv/bad_girl_episode_7_discussion/",
+    "mal_id": 59161,
+    "current_rank": 5,
+    "karma_change": -26,
+    "rank_change": 20,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
     },
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr0dh9/arknights_homura_shomei_arknights_rise_from_ember/",
     "mal_id": 58749,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 9,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrw4f1/kizetsu_yuusha_to_ansatsu_hime_the_shy_hero_and/",
     "mal_id": 60951,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -4,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -162,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr4jwx/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 8,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -186,9 +210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr2jpn/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 12,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -210,9 +234,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr17kb/tougen_anki_episode_6_discussion/",
     "mal_id": 58811,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -34,
-    "rank_change": 33,
+    "rank_change": 32,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1072/149889l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1072/149889.jpg"
+    },
+    "title": "Yuusha Party wo Tsuihou sareta Shiromadoushi, S-Rank Boukensha ni Hirowareru: Kono Shiromadoushi ga Kikakugai Sugiru",
+    "title_english": "Scooped Up by an S-Ranked Adventurer",
+    "num_episodes": 12,
+    "score": 6.38,
+    "streams": null,
+    "episode": "7",
+    "karma": 103,
+    "comments": 108,
+    "week_id": 8,
+    "studio": [
+      "Felix Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mrxwde/yuusha_party_wo_tsuihou_sareta_shiromadoushi/",
+    "mal_id": 59424,
+    "current_rank": 11,
+    "karma_change": -50,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -234,9 +282,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqzje1/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 1,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -259,9 +307,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mr0h0r/mononoke_movie_hinezumi_mononoke_the_movie/",
     "mal_id": 59408,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1104/150590l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1104/150590.jpg"
+    },
+    "title": "Fermat no Ryouri",
+    "title_english": "Fermat Kitchen",
+    "num_episodes": 12,
+    "score": 6.66,
+    "streams": null,
+    "episode": "6",
+    "karma": 51,
+    "comments": 41,
+    "week_id": 8,
+    "studio": [
+      "domerica"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mryjlz/fermat_no_ryouri_fermat_kitchen_episode_6/",
+    "mal_id": 60697,
+    "current_rank": 14,
+    "karma_change": -6,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -283,9 +355,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrlwv4/pok\u00e9mon_horizons_the_series_episode_106_discussion/",
     "mal_id": 53876,
-    "current_rank": 12,
+    "current_rank": 15,
     "karma_change": 6,
-    "rank_change": 50,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -307,9 +379,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqngql/princession_orchestra_episode_18_discussion/",
     "mal_id": 59078,
-    "current_rank": 13,
+    "current_rank": 16,
     "karma_change": 1,
-    "rank_change": 55,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1171",
+    "karma": 9,
+    "comments": 4,
+    "week_id": 8,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mrxq7k/meitantei_conan_case_closed_episode_1171/",
+    "mal_id": 235,
+    "current_rank": 17,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -331,7 +427,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrmlne/beyblade_x_episode_92_discussion/",
     "mal_id": 56566,
-    "current_rank": 14,
+    "current_rank": 18,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -355,9 +451,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 15,
+    "current_rank": 19,
     "karma_change": -3,
-    "rank_change": 57,
+    "rank_change": 53,
     "season": "summer"
   }
 ]
