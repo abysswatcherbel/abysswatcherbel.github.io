@@ -266,6 +266,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "92",
+    "karma": 4,
+    "comments": 2,
+    "week_id": 8,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mrmlne/beyblade_x_episode_92_discussion/",
+    "mal_id": 56566,
+    "current_rank": 12,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1016/149942l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1016/149942.jpg"
     },
@@ -283,9 +307,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "summer"
   }
 ]
