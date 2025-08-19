@@ -509,6 +509,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1415/150405l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1415/150405.jpg"
+    },
+    "title": "Puniru wa Kawaii Slime 2nd Season",
+    "title_english": "Puniru is a Kawaii Slime Season 2",
+    "num_episodes": 12,
+    "score": 6.98,
+    "streams": null,
+    "episode": "7",
+    "karma": 54,
+    "comments": 33,
+    "week_id": 8,
+    "studio": [
+      "TOHO animation STUDIO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1msn0tp/puniru_wa_kawaii_slime_season_2_puniru_is_a/",
+    "mal_id": 60603,
+    "current_rank": 22,
+    "karma_change": -18,
+    "rank_change": 36,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1104/150590l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1104/150590.jpg"
     },
@@ -526,9 +550,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mryjlz/fermat_no_ryouri_fermat_kitchen_episode_6/",
     "mal_id": 60697,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -6,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -550,9 +574,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrlwv4/pok\u00e9mon_horizons_the_series_episode_106_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 6,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -574,9 +598,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mse35w/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 5,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -598,9 +622,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mqngql/princession_orchestra_episode_18_discussion/",
     "mal_id": 59078,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -622,7 +646,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrxq7k/meitantei_conan_case_closed_episode_1171/",
     "mal_id": 235,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -646,9 +670,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ms58ds/9_rulers_crown_episode_8_discussion/",
     "mal_id": 58957,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -8,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -670,7 +694,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrmlne/beyblade_x_episode_92_discussion/",
     "mal_id": 56566,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -694,9 +718,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -3,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   }
 ]
