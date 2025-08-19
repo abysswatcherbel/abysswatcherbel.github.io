@@ -75,7 +75,7 @@ def karma_rank():
         # Save the complete rankings to a JSON file for the frontend
         os.makedirs(os.path.dirname(f.name), exist_ok=True)
         json.dump(complete_rankings, f)
-    
+
 
     return render_template(
         "rank.html.j2",
@@ -238,11 +238,9 @@ def production_committees():
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
 
-    from util.committees import get_committee_data
 
     # Get committee data, which saves a json to /static/data/committees.json
-    #committee_data = get_committee_data()
-    committee_data = list(db.committees_mv.find({}, {"_id": 0}))
+    committee_data = list(db.committees.find({}, {"_id": 0}))
 
     with open(os.path.join("static", "data", "committees.json"), "w") as f:
         json.dump(committee_data, f, indent=4)
