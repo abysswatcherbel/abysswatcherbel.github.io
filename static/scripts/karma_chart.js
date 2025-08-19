@@ -213,20 +213,7 @@ const KarmaComparisonChart = () => {
 
     // Force sortedShows to be a NEW array every time to ensure React detects the change
     const displayedShows = [...sortedShows];
-    console.log("Preparing to display", displayedShows.length, "shows in grid");
 
-    // Debug filter state
-    console.log("Active filters:", {
-        searchTerm,
-        selectedYear,
-        selectedSeason,
-        karmaRange,
-        filteredCount: filteredShows.length
-    });
-
-    // Log state for debugging
-    console.log("Selected shows:", selectedShows);
-    console.log("Filtered shows count:", filteredShows.length);
 
     // Check if selected shows are in filteredShows
     if (selectedShows.length > 0 && filteredShows.length > 0) {
