@@ -653,6 +653,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1083/150814l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1083/150814.jpg"
+    },
+    "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.01,
+    "streams": null,
+    "episode": "4",
+    "karma": 8,
+    "comments": 2,
+    "week_id": 8,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mso17l/binan_koukou_chikyuu_boueibu_haikara_episode_4/",
+    "mal_id": 61239,
+    "current_rank": 28,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
     },
@@ -670,9 +694,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ms58ds/9_rulers_crown_episode_8_discussion/",
     "mal_id": 58957,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -8,
-    "rank_change": 38,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1083/150814l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1083/150814.jpg"
+    },
+    "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.01,
+    "streams": null,
+    "episode": "3",
+    "karma": 6,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mso175/binan_koukou_chikyuu_boueibu_haikara_episode_3/",
+    "mal_id": 61239,
+    "current_rank": 30,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -694,7 +742,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrmlne/beyblade_x_episode_92_discussion/",
     "mal_id": 56566,
-    "current_rank": 29,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -718,9 +766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 30,
+    "current_rank": 32,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "summer"
   }
 ]
