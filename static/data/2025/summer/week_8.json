@@ -893,6 +893,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "20",
+    "karma": 7,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mt0gk8/koupen_chan_episode_20_discussion/",
+    "mal_id": 60534,
+    "current_rank": 38,
+    "karma_change": -1,
+    "rank_change": 33,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
     },
@@ -910,9 +934,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ms58ds/9_rulers_crown_episode_8_discussion/",
     "mal_id": 58957,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -8,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -934,7 +958,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mso175/binan_koukou_chikyuu_boueibu_haikara_episode_3/",
     "mal_id": 61239,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -958,7 +982,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrmlne/beyblade_x_episode_92_discussion/",
     "mal_id": 56566,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -982,9 +1006,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -3,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   }
 ]
