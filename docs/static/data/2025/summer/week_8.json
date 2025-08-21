@@ -1110,6 +1110,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 13,
+    "score": 6.58,
+    "streams": null,
+    "episode": "7",
+    "karma": 11,
+    "comments": 4,
+    "week_id": 8,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1muouya/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 47,
+    "karma_change": 2,
+    "rank_change": 22,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
     },
@@ -1127,9 +1151,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mtvf9v/kaijyu_sekai_seifuku_episode_16_discussion/",
     "mal_id": 60070,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 8,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -1151,7 +1175,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrxq7k/meitantei_conan_case_closed_episode_1171/",
     "mal_id": 235,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1175,7 +1199,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mso17l/binan_koukou_chikyuu_boueibu_haikara_episode_4/",
     "mal_id": 61239,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1199,9 +1223,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mt0gk8/koupen_chan_episode_20_discussion/",
     "mal_id": 60534,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -1223,9 +1247,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ms58ds/9_rulers_crown_episode_8_discussion/",
     "mal_id": 58957,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -8,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -1247,7 +1271,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mso175/binan_koukou_chikyuu_boueibu_haikara_episode_3/",
     "mal_id": 61239,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1271,7 +1295,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mrmlne/beyblade_x_episode_92_discussion/",
     "mal_id": 56566,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1295,9 +1319,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mql927/araiguma_calcaldan_raccoon_team_calcal_episode_20/",
     "mal_id": 60506,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   }
 ]
