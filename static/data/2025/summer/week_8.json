@@ -1638,5 +1638,51 @@
     "karma_change": -3,
     "rank_change": 4,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "93",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mvwbxt/beyblade_x_episode_93_discussion/",
+    "mal_id": 56566,
+    "current_rank": 69,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "21",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1mvwsa3/petitcure_precure_fairies_episode_21_discussion/",
+    "mal_id": 61272,
+    "current_rank": 70,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
   }
 ]
