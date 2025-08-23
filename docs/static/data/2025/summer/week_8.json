@@ -1945,5 +1945,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
+    },
+    "title": "Nmeneko",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "17",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Kumarba"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mwnaqt/nmeneko_episode_17_discussion/",
+    "mal_id": 60947,
+    "current_rank": 82,
+    "karma_change": 0,
+    "rank_change": -3,
+    "season": "summer"
   }
 ]
