@@ -25,6 +25,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
+    },
+    "title": "Arknights: Rise from Ember",
+    "title_english": "Arknights: Rise from Ember",
+    "num_episodes": 10,
+    "score": 7.69,
+    "streams": null,
+    "episode": "8",
+    "karma": 198,
+    "comments": 70,
+    "week_id": 9,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mx9jcg/arknights_homura_shomei_arknights_rise_from_ember/",
+    "mal_id": 58749,
+    "current_rank": 2,
+    "karma_change": -1,
+    "rank_change": 28,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.92,
+    "streams": null,
+    "episode": "7",
+    "karma": 120,
+    "comments": 72,
+    "week_id": 9,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mx9p4y/tougen_anki_episode_7_discussion/",
+    "mal_id": 58811,
+    "current_rank": 3,
+    "karma_change": 8,
+    "rank_change": 40,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -42,9 +90,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mx84ga/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -2,
-    "rank_change": 45,
+    "rank_change": 43,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "",
+    "episode": "18",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mx9jds/everyday_host_episode_18_discussion/",
+    "mal_id": 60535,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -66,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mwzd7b/araiguma_calcaldan_raccoon_team_calcal_episode_21/",
     "mal_id": 60506,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -2,
-    "rank_change": 75,
+    "rank_change": 73,
     "season": "summer"
   }
 ]
