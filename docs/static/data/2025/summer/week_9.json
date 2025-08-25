@@ -193,6 +193,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
+    },
+    "title": "Kaijuu Sekai Seifuku (TV)",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "18",
+    "karma": 15,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "DLE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mxo219/kaijyu_sekai_seifuku_episode_18_discussion/",
+    "mal_id": 60070,
+    "current_rank": 9,
+    "karma_change": 5,
+    "rank_change": 62,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
+    },
+    "title": "Kaijuu Sekai Seifuku (TV)",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "17",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "DLE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mxo20s/kaijyu_sekai_seifuku_episode_17_discussion/",
+    "mal_id": 60070,
+    "current_rank": 10,
+    "karma_change": -7,
+    "rank_change": 61,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -212,7 +260,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxla2l/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -236,7 +284,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mx9jds/everyday_host_episode_18_discussion/",
     "mal_id": 60535,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -260,9 +308,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mwzd7b/araiguma_calcaldan_raccoon_team_calcal_episode_21/",
     "mal_id": 60506,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -2,
-    "rank_change": 68,
+    "rank_change": 66,
     "season": "summer"
   }
 ]
