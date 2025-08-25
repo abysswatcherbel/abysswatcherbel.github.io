@@ -193,6 +193,32 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": null,
+    "episode": "7",
+    "karma": 2,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Kinema Citrus",
+      "GIFTanimation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mxla2l/cardfight_vanguard_divinez_deluxe_kesshouhen/",
+    "mal_id": 54145,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
@@ -210,7 +236,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mx9jds/everyday_host_episode_18_discussion/",
     "mal_id": 60535,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -234,9 +260,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mwzd7b/araiguma_calcaldan_raccoon_team_calcal_episode_21/",
     "mal_id": 60506,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -2,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "summer"
   }
 ]
