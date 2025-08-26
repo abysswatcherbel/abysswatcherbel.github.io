@@ -529,6 +529,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.36,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "29",
+    "karma": 21,
+    "comments": 13,
+    "week_id": 9,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1myiz4y/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 23,
+    "karma_change": 2,
+    "rank_change": 39,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
     },
@@ -546,9 +570,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxo219/kaijyu_sekai_seifuku_episode_18_discussion/",
     "mal_id": 60070,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 5,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -570,9 +594,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxz11g/meitantei_conan_case_closed_episode_1172/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -594,9 +618,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxo20s/kaijyu_sekai_seifuku_episode_17_discussion/",
     "mal_id": 60070,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -7,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -620,7 +644,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxla2l/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -644,7 +668,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mx9jds/everyday_host_episode_18_discussion/",
     "mal_id": 60535,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -668,9 +692,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mwzd7b/araiguma_calcaldan_raccoon_team_calcal_episode_21/",
     "mal_id": 60506,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -2,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   }
 ]
