@@ -601,6 +601,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "21",
+    "karma": 8,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1mylhgf/koupen_chan_episode_21_discussion/",
+    "mal_id": 60534,
+    "current_rank": 26,
+    "karma_change": 1,
+    "rank_change": 48,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
     },
@@ -618,9 +642,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxo20s/kaijyu_sekai_seifuku_episode_17_discussion/",
     "mal_id": 60070,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -7,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -644,7 +668,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mxla2l/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -668,7 +692,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mx9jds/everyday_host_episode_18_discussion/",
     "mal_id": 60535,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -692,9 +716,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1mwzd7b/araiguma_calcaldan_raccoon_team_calcal_episode_21/",
     "mal_id": 60506,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -2,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "summer"
   }
 ]
