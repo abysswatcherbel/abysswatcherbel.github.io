@@ -1827,5 +1827,29 @@
     "karma_change": -2,
     "rank_change": 3,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1016/149942l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1016/149942.jpg"
+    },
+    "title": "Araiguma Calcal-dan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.88,
+    "streams": null,
+    "episode": "22",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Nippon Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n2kcx7/araiguma_calcaldan_raccoon_team_calcal_episode_22/",
+    "mal_id": 60506,
+    "current_rank": 77,
+    "karma_change": -3,
+    "rank_change": 1,
+    "season": "summer"
   }
 ]
