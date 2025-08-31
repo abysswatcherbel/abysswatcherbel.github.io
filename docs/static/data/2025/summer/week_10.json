@@ -25,6 +25,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1790/149462l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1790/149462.jpg"
+    },
+    "title": "Arknights: Rise from Ember",
+    "title_english": "Arknights: Rise from Ember",
+    "num_episodes": 10,
+    "score": 7.71,
+    "streams": null,
+    "episode": "9",
+    "karma": 239,
+    "comments": 115,
+    "week_id": 10,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n3a1zc/arknights_homura_shomei_arknights_rise_from_ember/",
+    "mal_id": 58749,
+    "current_rank": 2,
+    "karma_change": 41,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.87,
+    "streams": null,
+    "episode": "8",
+    "karma": 99,
+    "comments": 57,
+    "week_id": 10,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n3aork/tougen_anki_episode_8_discussion/",
+    "mal_id": 58811,
+    "current_rank": 3,
+    "karma_change": -21,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -42,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n39429/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -20,
-    "rank_change": 48,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -66,7 +114,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n2yh6r/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -90,7 +138,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
