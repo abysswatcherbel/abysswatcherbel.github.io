@@ -73,6 +73,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1518/149900l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1518/149900.jpg"
+    },
+    "title": "Zutaboro Reijou wa Ane no Moto Konyakusha ni Dekiai sareru",
+    "title_english": "Betrothed to My Sister's Ex",
+    "num_episodes": 12,
+    "score": 7.26,
+    "streams": null,
+    "episode": "9",
+    "karma": 122,
+    "comments": 69,
+    "week_id": 10,
+    "studio": [
+      "LandQ studios"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n3durc/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
+    "mal_id": 59421,
+    "current_rank": 4,
+    "karma_change": -9,
+    "rank_change": 38,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
     },
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3aork/tougen_anki_episode_8_discussion/",
     "mal_id": 58811,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -21,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3bsim/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -3,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n39429/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -20,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -162,7 +186,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n2yh6r/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -186,7 +210,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
