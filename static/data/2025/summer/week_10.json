@@ -241,6 +241,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1173",
+    "karma": 9,
+    "comments": 5,
+    "week_id": 10,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n3zcvx/meitantei_conan_case_closed_episode_1173/",
+    "mal_id": 235,
+    "current_rank": 11,
+    "karma_change": 1,
+    "rank_change": 59,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
     },
@@ -258,7 +282,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -284,9 +308,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -2,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "summer"
   }
 ]
