@@ -676,6 +676,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "22",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 10,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n4u1qs/koupen_chan_episode_22_discussion/",
+    "mal_id": 60534,
+    "current_rank": 29,
+    "karma_change": -3,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
     },
@@ -693,7 +717,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -719,9 +743,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -2,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   }
 ]
