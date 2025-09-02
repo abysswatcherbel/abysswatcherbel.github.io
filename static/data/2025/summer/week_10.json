@@ -505,6 +505,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.36,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "30",
+    "karma": 22,
+    "comments": 10,
+    "week_id": 10,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n4icrq/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 22,
+    "karma_change": 1,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -522,9 +546,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3zcvx/meitantei_conan_case_closed_episode_1173/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -546,7 +570,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -570,7 +594,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -596,9 +620,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -2,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   }
 ]
