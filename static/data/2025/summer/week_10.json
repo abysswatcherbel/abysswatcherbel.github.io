@@ -916,6 +916,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
+    },
+    "title": "Kaijuu Sekai Seifuku (TV)",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "19",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [
+      "DLE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n532yg/kaijyu_sekai_seifuku_episode_19_discussion/",
+    "mal_id": 60070,
+    "current_rank": 39,
+    "karma_change": -2,
+    "rank_change": 36,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
     },
@@ -933,7 +957,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -959,9 +983,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -2,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   }
 ]
