@@ -820,6 +820,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1783/146574l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1783/146574.jpg"
+    },
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "title": "Make a Girl",
+    "title_english": "",
+    "episode": "",
+    "karma": 16,
+    "comments": 8,
+    "week_id": 10,
+    "studio": [
+      "Yasuda Genshou Studio by Xenotoon"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n55vd5/make_a_girl_movie_discussion/",
+    "mal_id": 54740,
+    "current_rank": 35,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -837,9 +861,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3zcvx/meitantei_conan_case_closed_episode_1173/",
     "mal_id": 235,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 1,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "summer"
   },
   {
@@ -861,7 +885,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -885,7 +909,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4ptdt/9_rulers_crown_episode_9_discussion/",
     "mal_id": 58957,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -909,9 +933,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4u1qs/koupen_chan_episode_22_discussion/",
     "mal_id": 60534,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -3,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -933,9 +957,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n532yg/kaijyu_sekai_seifuku_episode_19_discussion/",
     "mal_id": 60070,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -2,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -957,7 +981,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -983,9 +1007,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -2,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   }
 ]
