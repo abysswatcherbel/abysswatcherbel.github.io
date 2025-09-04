@@ -1181,6 +1181,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 13,
+    "score": 6.52,
+    "streams": null,
+    "episode": "9",
+    "karma": 4,
+    "comments": 4,
+    "week_id": 10,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n6p6x8/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 50,
+    "karma_change": -5,
+    "rank_change": 19,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
     },
@@ -1198,9 +1222,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n532yg/kaijyu_sekai_seifuku_episode_19_discussion/",
     "mal_id": 60070,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1222,7 +1246,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1248,9 +1272,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   }
 ]
