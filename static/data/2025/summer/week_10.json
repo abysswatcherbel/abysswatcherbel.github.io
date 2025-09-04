@@ -797,6 +797,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1845/150343l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1845/150343.jpg"
+    },
+    "title": "Necronomico no Cosmic Horror Show",
+    "title_english": "Necronomico and the Cosmic Horror Show",
+    "num_episodes": 12,
+    "score": 5.54,
+    "streams": null,
+    "episode": "10",
+    "karma": 74,
+    "comments": 35,
+    "week_id": 10,
+    "studio": [
+      "Studio Gokumi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n6mg9z/necronomico_no_cosmic_horror_show_necronomico_and/",
+    "mal_id": 60505,
+    "current_rank": 34,
+    "karma_change": 4,
+    "rank_change": 22,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -838,9 +862,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4zb43/hotel_inhumans_episode_9_discussion/",
     "mal_id": 60260,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -16,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -862,9 +886,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4vute/nyaight_of_the_living_cat_episode_9_discussion/",
     "mal_id": 58197,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": -20,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -886,9 +910,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4u6vx/dekin_no_mogura_dekin_no_mogura_the_earthbound/",
     "mal_id": 60315,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 2,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -910,9 +934,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4q0cy/puniru_wa_kawaii_slime_season_2_puniru_is_a/",
     "mal_id": 60603,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": 5,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -934,9 +958,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n43wf4/fermat_no_ryouri_fermat_kitchen_episode_8/",
     "mal_id": 60697,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -958,9 +982,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3s36v/pok\u00e9mon_horizons_the_series_episode_108_discussion/",
     "mal_id": 53876,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 2,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "summer"
   },
   {
@@ -982,7 +1006,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n2yh6r/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1006,9 +1030,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4icrq/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 1,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1030,7 +1054,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n55vd5/make_a_girl_movie_discussion/",
     "mal_id": 54740,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1054,9 +1078,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n5d2yj/princession_orchestra_episode_21_discussion/",
     "mal_id": 59078,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -6,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1078,9 +1102,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3zcvx/meitantei_conan_case_closed_episode_1173/",
     "mal_id": 235,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 1,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1102,7 +1126,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1126,7 +1150,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4ptdt/9_rulers_crown_episode_9_discussion/",
     "mal_id": 58957,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1150,9 +1174,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4u1qs/koupen_chan_episode_22_discussion/",
     "mal_id": 60534,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": -3,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "summer"
   },
   {
@@ -1174,9 +1198,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n532yg/kaijyu_sekai_seifuku_episode_19_discussion/",
     "mal_id": 60070,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -2,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -1198,7 +1222,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1224,9 +1248,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -2,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   }
 ]
