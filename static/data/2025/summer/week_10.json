@@ -1469,6 +1469,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1967/148714l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1967/148714.jpg"
+    },
+    "title": "Kamitsubaki-shi Kensetsuchuu.",
+    "title_english": "Kamitsubaki City Under Construction",
+    "num_episodes": 12,
+    "score": 5.41,
+    "streams": null,
+    "episode": "9",
+    "karma": 15,
+    "comments": 14,
+    "week_id": 10,
+    "studio": [
+      "Shogakukan Music & Digital Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n8gpa0/kamitsubakishi_kensetsuchuu_kamitsubaki_city/",
+    "mal_id": 57820,
+    "current_rank": 62,
+    "karma_change": 1,
+    "rank_change": 6,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1241/144618l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1241/144618.jpg"
     },
@@ -1486,9 +1510,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n7bw8b/yoru_wa_neko_to_issho_season_3_nights_with_a_cat/",
     "mal_id": 58199,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -6,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1510,9 +1534,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n5d2yj/princession_orchestra_episode_21_discussion/",
     "mal_id": 59078,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -6,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1534,9 +1558,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3zcvx/meitantei_conan_case_closed_episode_1173/",
     "mal_id": 235,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 1,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -1558,7 +1582,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n34idg/haigakura_episode_9_discussion/",
     "mal_id": 56420,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1582,7 +1606,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4ptdt/9_rulers_crown_episode_9_discussion/",
     "mal_id": 58957,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1606,9 +1630,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n4u1qs/koupen_chan_episode_22_discussion/",
     "mal_id": 60534,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -3,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "summer"
   },
   {
@@ -1630,9 +1654,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n6p6x8/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -5,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1655,9 +1679,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n7kjo9/kizu_darake_seijo_yori_houfuku_wo_komete_with/",
     "mal_id": 59961,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -1,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -1677,9 +1701,33 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1n85laf/petitcure_precure_fairies_episode_24_discussion/",
     "mal_id": 61272,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -4,
-    "rank_change": 2,
+    "rank_change": 1,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1016/149942l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1016/149942.jpg"
+    },
+    "title": "Araiguma Calcal-dan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.88,
+    "streams": null,
+    "episode": "23",
+    "karma": 1,
+    "comments": 3,
+    "week_id": 10,
+    "studio": [
+      "Nippon Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n8g2rm/araiguma_calcaldan_raccoon_team_calcal_episode_23/",
+    "mal_id": 60506,
+    "current_rank": 72,
+    "karma_change": 0,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -1701,9 +1749,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n532yg/kaijyu_sekai_seifuku_episode_19_discussion/",
     "mal_id": 60070,
-    "current_rank": 71,
+    "current_rank": 73,
     "karma_change": -2,
-    "rank_change": 4,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1725,7 +1773,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 72,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1751,9 +1799,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 72,
+    "current_rank": 74,
     "karma_change": -2,
-    "rank_change": 4,
+    "rank_change": 2,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "95",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n8fwvq/beyblade_x_episode_95_discussion/",
+    "mal_id": 56566,
+    "current_rank": 76,
+    "karma_change": -6,
+    "rank_change": -3,
     "season": "summer"
   }
 ]
