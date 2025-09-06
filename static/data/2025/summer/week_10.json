@@ -1520,6 +1520,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "24",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1n85laf/petitcure_precure_fairies_episode_24_discussion/",
+    "mal_id": 61272,
+    "current_rank": 64,
+    "karma_change": -4,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1582/150123l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1582/150123.jpg"
     },
@@ -1537,9 +1559,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n532yg/kaijyu_sekai_seifuku_episode_19_discussion/",
     "mal_id": 60070,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -2,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -1561,7 +1583,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n40rhm/nmeneko_episode_18_discussion/",
     "mal_id": 60947,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1587,9 +1609,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n3lzrg/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -2,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "summer"
   }
 ]
