@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 12,
+    "score": 8.29,
+    "streams": null,
+    "episode": "10",
+    "karma": 1171,
+    "comments": 275,
+    "week_id": 11,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n96ydj/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 1,
+    "karma_change": 183,
+    "rank_change": 6,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "April Showers Bring May Flowers",
+    "num_episodes": 13,
+    "score": 6.74,
+    "streams": null,
+    "episode": "10",
+    "karma": 82,
+    "comments": 44,
+    "week_id": 11,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n96yfh/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 2,
+    "karma_change": 8,
+    "rank_change": 46,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
     },
@@ -18,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n91deg/haigakura_episode_10_discussion/",
     "mal_id": 56420,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 2,
-    "rank_change": 66,
+    "rank_change": 64,
     "season": "summer"
   }
 ]
