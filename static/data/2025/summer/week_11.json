@@ -190,5 +190,31 @@
     "karma_change": 2,
     "rank_change": 59,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": null,
+    "episode": "9",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "Kinema Citrus",
+      "GIFTanimation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1n9jt5t/cardfight_vanguard_divinez_deluxe_kesshouhen/",
+    "mal_id": 54145,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": 66,
+    "season": "summer"
   }
 ]
