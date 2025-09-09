@@ -481,6 +481,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.78,
+    "streams": null,
+    "episode": "10",
+    "karma": 8,
+    "comments": 7,
+    "week_id": 11,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nace9g/9_rulers_crown_episode_10_discussion/",
+    "mal_id": 58957,
+    "current_rank": 21,
+    "karma_change": 2,
+    "rank_change": 47,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
     },
@@ -498,9 +522,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n91deg/haigakura_episode_10_discussion/",
     "mal_id": 56420,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 2,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -522,9 +546,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n9xar5/meitantei_conan_case_closed_episode_1174/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -3,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -548,9 +572,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n9jt5t/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   }
 ]
