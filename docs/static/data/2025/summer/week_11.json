@@ -1133,6 +1133,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 13,
+    "score": 6.52,
+    "streams": null,
+    "episode": "10",
+    "karma": 2,
+    "comments": 4,
+    "week_id": 11,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ncoig0/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 48,
+    "karma_change": -2,
+    "rank_change": 22,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -1152,9 +1176,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n9jt5t/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   }
 ]
