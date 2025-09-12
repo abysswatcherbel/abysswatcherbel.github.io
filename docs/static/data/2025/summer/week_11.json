@@ -1133,6 +1133,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "96",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nd62c2/beyblade_x_episode_96_discussion/",
+    "mal_id": 56566,
+    "current_rank": 48,
+    "karma_change": 5,
+    "rank_change": 29,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1150,9 +1174,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1naxh6p/koupen_chan_episode_23_discussion/",
     "mal_id": 60534,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": -2,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -1174,9 +1198,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ncoig0/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -2,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -1200,9 +1224,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1n9jt5t/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   }
 ]
