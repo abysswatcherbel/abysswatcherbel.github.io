@@ -1,0 +1,50 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
+    },
+    "title": "Utagoe wa Mille-Feuille",
+    "title_english": "Harmony of Mille-Feuille",
+    "num_episodes": 10,
+    "score": 6.08,
+    "streams": null,
+    "episode": "9",
+    "karma": 17,
+    "comments": 13,
+    "week_id": 12,
+    "studio": [
+      "Jumondou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1neyr0a/utagoe_wa_millefeuille_harmony_of_millefeuille/",
+    "mal_id": 55689,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
+    },
+    "num_episodes": 13,
+    "score": null,
+    "streams": null,
+    "title": "Haigakura",
+    "title_english": "",
+    "episode": "11",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "Typhoon Graphics"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
+    "mal_id": 56420,
+    "current_rank": 2,
+    "karma_change": -8,
+    "rank_change": 62,
+    "season": "summer"
+  }
+]
