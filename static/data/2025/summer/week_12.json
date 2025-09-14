@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.76,
+    "streams": null,
+    "episode": "10",
+    "karma": 76,
+    "comments": 145,
+    "week_id": 12,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nf6cjf/tougen_anki_episode_10_discussion/",
+    "mal_id": 58811,
+    "current_rank": 2,
+    "karma_change": 9,
+    "rank_change": 50,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
     },
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf4tnv/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -8,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -66,7 +90,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1neyr0a/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -8,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "summer"
   }
 ]

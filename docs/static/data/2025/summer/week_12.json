@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 12,
+    "score": 8.32,
+    "streams": null,
+    "episode": "11",
+    "karma": 897,
+    "comments": 203,
+    "week_id": 12,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nf4z4y/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 1,
+    "karma_change": -274,
+    "rank_change": 4,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "April Showers Bring May Flowers",
+    "num_episodes": 13,
+    "score": 6.76,
+    "streams": null,
+    "episode": "11",
+    "karma": 74,
+    "comments": 47,
+    "week_id": 12,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nf4tnv/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 2,
+    "karma_change": -8,
+    "rank_change": 45,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
     },
@@ -18,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1neyr0a/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -42,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -8,
-    "rank_change": 62,
+    "rank_change": 60,
     "season": "summer"
   }
 ]
