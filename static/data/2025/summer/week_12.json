@@ -193,6 +193,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
+    },
+    "title": "Chibi Godzilla no Gyakushuu 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 5,
+    "comments": 3,
+    "week_id": 12,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
+    "mal_id": 61765,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
     },
@@ -210,9 +234,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -8,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   }
 ]
