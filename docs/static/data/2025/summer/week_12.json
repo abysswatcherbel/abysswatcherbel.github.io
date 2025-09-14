@@ -49,6 +49,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1587/149982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1587/149982.jpg"
+    },
+    "title": "Nukitashi the Animation",
+    "title_english": "Nukitashi The Animation",
+    "num_episodes": 11,
+    "score": 7.17,
+    "streams": null,
+    "episode": "9",
+    "karma": 276,
+    "comments": 84,
+    "week_id": 12,
+    "studio": [
+      "Passione"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nfaczp/nukitashi_the_animation_episode_9_discussion/",
+    "mal_id": 57969,
+    "current_rank": 3,
+    "karma_change": -91,
+    "rank_change": 17,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1518/149900l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1518/149900.jpg"
     },
@@ -66,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf9fvf/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -13,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf7lbo/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 13,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf6cjf/tougen_anki_episode_10_discussion/",
     "mal_id": 58811,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 9,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf4tnv/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -8,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -162,7 +186,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1neyr0a/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -186,9 +210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -8,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "summer"
   }
 ]
