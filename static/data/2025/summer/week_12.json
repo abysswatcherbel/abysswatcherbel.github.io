@@ -265,6 +265,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1175",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nfv68t/meitantei_conan_case_closed_episode_1175/",
+    "mal_id": 235,
+    "current_rank": 12,
+    "karma_change": 0,
+    "rank_change": 54,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
     },
@@ -282,7 +306,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -306,9 +330,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -8,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   }
 ]
