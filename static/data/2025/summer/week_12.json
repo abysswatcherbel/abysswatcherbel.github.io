@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1024/150787l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1024/150787.jpg"
+    },
+    "title": "Sono Bisque Doll wa Koi wo Suru Season 2",
+    "title_english": "My Dress-Up Darling Season 2",
+    "num_episodes": 12,
+    "score": 8.35,
+    "streams": null,
+    "episode": "11",
+    "karma": 1520,
+    "comments": 274,
+    "week_id": 12,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ng1yt9/sono_bisque_doll_wa_koi_wo_suru_season_2_my/",
+    "mal_id": 53065,
+    "current_rank": 1,
+    "karma_change": -474,
+    "rank_change": 1,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1669/149732l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1669/149732.jpg"
     },
@@ -18,7 +42,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf7wgv/silent_witch_chinmoku_no_majo_no_kakushigoto/",
     "mal_id": 59459,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -42,9 +66,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf4z4y/yofukashi_no_uta_season_2_call_of_the_night/",
     "mal_id": 58390,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -274,
-    "rank_change": 3,
+    "rank_change": 2,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1823/149858l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1823/149858.jpg"
+    },
+    "title": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
+    "title_english": "Rascal Does Not Dream of Santa Claus",
+    "num_episodes": 13,
+    "score": 8.24,
+    "streams": null,
+    "episode": "11",
+    "karma": 688,
+    "comments": 127,
+    "week_id": 12,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ng1d2g/seishun_buta_yarou_wa_santa_claus_no_yume_wo/",
+    "mal_id": 57433,
+    "current_rank": 4,
+    "karma_change": -143,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -66,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfyyzt/kaijuu_8gou_season_2_kaiju_no_8_season_2_episode/",
     "mal_id": 59177,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -75,
-    "rank_change": 10,
+    "rank_change": 8,
     "season": "summer"
   },
   {
@@ -90,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfaczp/nukitashi_the_animation_episode_9_discussion/",
     "mal_id": 57969,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": -91,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -114,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ng0ggk/bad_girl_episode_11_discussion/",
     "mal_id": 59161,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -30,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "summer"
   },
   {
@@ -138,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfxbzd/anne_shirley_episode_22_discussion/",
     "mal_id": 60334,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -64,
-    "rank_change": 19,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -162,9 +210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfy9mi/kizetsu_yuusha_to_ansatsu_hime_the_shy_hero_and/",
     "mal_id": 60951,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -54,
-    "rank_change": 22,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -186,9 +234,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf9fvf/zutaboro_reijou_wa_ane_no_moto_konyakusha_ni/",
     "mal_id": 59421,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -13,
-    "rank_change": 29,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -210,9 +258,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfzus1/yuusha_party_wo_tsuihou_sareta_shiromadoushi/",
     "mal_id": 59424,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -11,
-    "rank_change": 34,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -234,9 +282,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf7lbo/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 13,
-    "rank_change": 38,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -258,9 +306,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nftb1a/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -7,
-    "rank_change": 35,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -282,9 +330,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf6cjf/tougen_anki_episode_10_discussion/",
     "mal_id": 58811,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 9,
-    "rank_change": 40,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -306,9 +354,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nf4tnv/busu_ni_hanataba_wo_april_showers_bring_may/",
     "mal_id": 53512,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": -8,
-    "rank_change": 34,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -330,9 +378,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfzpaz/fermat_no_ryouri_fermat_kitchen_episode_10/",
     "mal_id": 60697,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": 2,
-    "rank_change": 44,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -354,9 +402,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfoiqg/pok\u00e9mon_horizons_the_series_episode_110_discussion/",
     "mal_id": 53876,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": -3,
-    "rank_change": 44,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -378,7 +426,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1neyr0a/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 16,
+    "current_rank": 18,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -402,7 +450,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfg4pq/princession_orchestra_episode_22_discussion/",
     "mal_id": 59078,
-    "current_rank": 17,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -426,9 +474,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfv68t/meitantei_conan_case_closed_episode_1175/",
     "mal_id": 235,
-    "current_rank": 18,
+    "current_rank": 20,
     "karma_change": 0,
-    "rank_change": 48,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -450,7 +498,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 19,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -474,9 +522,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 20,
+    "current_rank": 22,
     "karma_change": -8,
-    "rank_change": 44,
+    "rank_change": 42,
     "season": "summer"
   }
 ]
