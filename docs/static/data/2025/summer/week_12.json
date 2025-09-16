@@ -676,6 +676,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "24",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ngoxep/koupen_chan_episode_24_discussion/",
+    "mal_id": 60534,
+    "current_rank": 28,
+    "karma_change": 3,
+    "rank_change": 40,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
     },
@@ -693,7 +717,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -717,9 +741,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ngi42u/9_rulers_crown_episode_11_discussion/",
     "mal_id": 58957,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -8,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -741,9 +765,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -8,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   }
 ]
