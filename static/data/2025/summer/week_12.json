@@ -625,6 +625,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.75,
+    "streams": null,
+    "episode": "11",
+    "karma": 0,
+    "comments": 3,
+    "week_id": 12,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ngi42u/9_rulers_crown_episode_11_discussion/",
+    "mal_id": 58957,
+    "current_rank": 27,
+    "karma_change": -8,
+    "rank_change": 36,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
     },
@@ -642,9 +666,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -8,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   }
 ]
