@@ -553,6 +553,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.36,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "32",
+    "karma": 13,
+    "comments": 11,
+    "week_id": 12,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ngei5b/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 24,
+    "karma_change": -8,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -570,9 +594,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfv68t/meitantei_conan_case_closed_episode_1175/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -594,7 +618,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -618,9 +642,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -8,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   }
 ]
