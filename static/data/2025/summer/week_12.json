@@ -1085,6 +1085,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 13,
+    "score": 6.39,
+    "streams": null,
+    "episode": "11",
+    "karma": 7,
+    "comments": 4,
+    "week_id": 12,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nin68a/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 46,
+    "karma_change": 5,
+    "rank_change": 23,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1102,9 +1126,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfv68t/meitantei_conan_case_closed_episode_1175/",
     "mal_id": 235,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -1126,9 +1150,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ngoxep/koupen_chan_episode_24_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 3,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1150,7 +1174,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1174,9 +1198,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ngi42u/9_rulers_crown_episode_11_discussion/",
     "mal_id": 58957,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -8,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "summer"
   },
   {
@@ -1198,9 +1222,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -8,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "summer"
   }
 ]
