@@ -1469,6 +1469,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "",
+    "episode": "23",
+    "karma": 14,
+    "comments": 26,
+    "week_id": 12,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nkfad5/princession_orchestra_episode_23_discussion/",
+    "mal_id": 59078,
+    "current_rank": 62,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -1486,9 +1510,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ngei5b/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -8,
-    "rank_change": -1,
+    "rank_change": -2,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1967/148714l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1967/148714.jpg"
+    },
+    "title": "Kamitsubaki-shi Kensetsuchuu.",
+    "title_english": "Kamitsubaki City Under Construction",
+    "num_episodes": 12,
+    "score": 5.4,
+    "streams": null,
+    "episode": "11",
+    "karma": 10,
+    "comments": 15,
+    "week_id": 12,
+    "studio": [
+      "Shogakukan Music & Digital Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nkesqm/kamitsubakishi_kensetsuchuu_kamitsubaki_city/",
+    "mal_id": 57820,
+    "current_rank": 64,
+    "karma_change": -7,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -1510,9 +1558,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nin68a/osomatsusan_season_4_mr_osomatsu_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 63,
+    "current_rank": 65,
     "karma_change": 5,
-    "rank_change": 6,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -1534,9 +1582,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfv68t/meitantei_conan_case_closed_episode_1175/",
     "mal_id": 235,
-    "current_rank": 64,
+    "current_rank": 66,
     "karma_change": 0,
-    "rank_change": 2,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1558,9 +1606,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ngoxep/koupen_chan_episode_24_discussion/",
     "mal_id": 60534,
-    "current_rank": 64,
+    "current_rank": 66,
     "karma_change": 3,
-    "rank_change": 4,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1582,7 +1630,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nfdhg6/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 66,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1607,9 +1655,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1njj51b/kizu_darake_seijo_yori_houfuku_wo_komete_with/",
     "mal_id": 59961,
-    "current_rank": 67,
+    "current_rank": 69,
     "karma_change": -3,
-    "rank_change": -2,
+    "rank_change": -4,
     "season": "summer"
   },
   {
@@ -1631,9 +1679,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ngi42u/9_rulers_crown_episode_11_discussion/",
     "mal_id": 58957,
-    "current_rank": 68,
+    "current_rank": 70,
     "karma_change": -8,
-    "rank_change": -5,
+    "rank_change": -7,
     "season": "summer"
   },
   {
@@ -1655,9 +1703,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1new78g/haigakura_episode_11_discussion/",
     "mal_id": 56420,
-    "current_rank": 69,
+    "current_rank": 71,
     "karma_change": -8,
-    "rank_change": -5,
+    "rank_change": -7,
     "season": "summer"
   }
 ]
