@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg"
+    },
+    "title": "Yofukashi no Uta Season 2",
+    "title_english": "Call of the Night Season 2",
+    "num_episodes": 12,
+    "score": 8.38,
+    "streams": null,
+    "episode": "12",
+    "karma": 1001,
+    "comments": 205,
+    "week_id": 13,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nl596r/yofukashi_no_uta_season_2_call_of_the_night/",
+    "mal_id": 58390,
+    "current_rank": 1,
+    "karma_change": 104,
+    "rank_change": 7,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1672/148193l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1672/148193.jpg"
+    },
+    "title": "Busu ni Hanataba wo.",
+    "title_english": "April Showers Bring May Flowers",
+    "num_episodes": 13,
+    "score": 6.79,
+    "streams": null,
+    "episode": "12",
+    "karma": 82,
+    "comments": 52,
+    "week_id": 13,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nl598s/busu_ni_hanataba_wo_april_showers_bring_may/",
+    "mal_id": 53512,
+    "current_rank": 2,
+    "karma_change": 8,
+    "rank_change": 47,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
     },
@@ -18,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpmh/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 2,
-    "rank_change": 60,
+    "rank_change": 58,
     "season": "summer"
   },
   {
@@ -42,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
     "mal_id": 56420,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 0,
-    "rank_change": 70,
+    "rank_change": 68,
     "season": "summer"
   },
   {
@@ -68,7 +116,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
