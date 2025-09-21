@@ -1,0 +1,76 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
+    },
+    "title": "Utagoe wa Mille-Feuille",
+    "title_english": "Harmony of Mille-Feuille",
+    "num_episodes": 10,
+    "score": 6.5,
+    "streams": null,
+    "episode": "10",
+    "karma": 19,
+    "comments": 24,
+    "week_id": 13,
+    "studio": [
+      "Jumondou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nkwpmh/utagoe_wa_millefeuille_harmony_of_millefeuille/",
+    "mal_id": 55689,
+    "current_rank": 1,
+    "karma_change": 2,
+    "rank_change": 60,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1214/142185l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg"
+    },
+    "num_episodes": 13,
+    "score": null,
+    "streams": null,
+    "title": "Haigakura",
+    "title_english": "",
+    "episode": "12",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Typhoon Graphics"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
+    "mal_id": 56420,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": 70,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.67,
+    "streams": null,
+    "episode": "10",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Kinema Citrus",
+      "GIFTanimation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
+    "mal_id": 54145,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  }
+]
