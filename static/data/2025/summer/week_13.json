@@ -169,6 +169,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Pokemon (2023)",
+    "title_english": "Pok\u00e9mon Horizons: The Series",
+    "episode": "111",
+    "karma": 40,
+    "comments": 11,
+    "week_id": 13,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nlorid/pok\u00e9mon_horizons_the_series_episode_111_discussion/",
+    "mal_id": 53876,
+    "current_rank": 8,
+    "karma_change": 9,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1866/150935l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1866/150935.jpg"
     },
@@ -186,9 +210,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpmh/utagoe_wa_millefeuille_harmony_of_millefeuille/",
     "mal_id": 55689,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 2,
-    "rank_change": 53,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "97",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nloc7n/beyblade_x_episode_97_discussion/",
+    "mal_id": 56566,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -210,9 +258,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
     "mal_id": 56420,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 63,
+    "rank_change": 61,
     "season": "summer"
   },
   {
@@ -236,7 +284,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
