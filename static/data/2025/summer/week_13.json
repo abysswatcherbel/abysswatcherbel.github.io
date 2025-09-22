@@ -529,6 +529,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.72,
+    "streams": null,
+    "episode": "12",
+    "karma": 6,
+    "comments": 7,
+    "week_id": 13,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nm9u8v/9_rulers_crown_episode_12_discussion/",
+    "mal_id": 58957,
+    "current_rank": 23,
+    "karma_change": 6,
+    "rank_change": 48,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -546,9 +570,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlvug0/meitantei_conan_case_closed_episode_1176/",
     "mal_id": 235,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -2,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -570,7 +594,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nloc7n/beyblade_x_episode_97_discussion/",
     "mal_id": 56566,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -594,9 +618,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
     "mal_id": 56420,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -620,7 +644,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -644,7 +668,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlwjp1/kaijyu_sekai_seifuku_episode_20_discussion/",
     "mal_id": 60070,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -668,7 +692,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlvuoh/nmeneko_episode_19_discussion/",
     "mal_id": 60947,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
