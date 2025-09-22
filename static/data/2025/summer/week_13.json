@@ -241,6 +241,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1176",
+    "karma": 4,
+    "comments": 3,
+    "week_id": 13,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nlvug0/meitantei_conan_case_closed_episode_1176/",
+    "mal_id": 235,
+    "current_rank": 11,
+    "karma_change": -2,
+    "rank_change": 56,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -258,7 +282,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nloc7n/beyblade_x_episode_97_discussion/",
     "mal_id": 56566,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -282,9 +306,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
     "mal_id": 56420,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "summer"
   },
   {
@@ -308,7 +332,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 12,
+    "current_rank": 13,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
+    },
+    "title": "Nmeneko",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "19",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "Kumarba"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nlvuoh/nmeneko_episode_19_discussion/",
+    "mal_id": 60947,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
