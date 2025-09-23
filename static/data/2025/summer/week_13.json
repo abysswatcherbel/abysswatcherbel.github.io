@@ -553,6 +553,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.36,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "33",
+    "karma": 12,
+    "comments": 14,
+    "week_id": 13,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nmfq4h/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 24,
+    "karma_change": -1,
+    "rank_change": 40,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
     },
@@ -570,9 +594,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nm9u8v/9_rulers_crown_episode_12_discussion/",
     "mal_id": 58957,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 6,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -594,9 +618,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlvug0/meitantei_conan_case_closed_episode_1176/",
     "mal_id": 235,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -2,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -618,7 +642,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nloc7n/beyblade_x_episode_97_discussion/",
     "mal_id": 56566,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -642,9 +666,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
     "mal_id": 56420,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -668,7 +692,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -692,7 +716,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlwjp1/kaijyu_sekai_seifuku_episode_20_discussion/",
     "mal_id": 60070,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -716,7 +740,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlvuoh/nmeneko_episode_19_discussion/",
     "mal_id": 60947,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
