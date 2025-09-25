@@ -1157,6 +1157,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
+    },
+    "title": "Nmeneko",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "20",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "Kumarba"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nosm69/nmeneko_episode_20_discussion/",
+    "mal_id": 60947,
+    "current_rank": 49,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
     },
@@ -1198,9 +1222,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nkwpng/haigakura_episode_12_discussion/",
     "mal_id": 56420,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1224,7 +1248,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nksxo3/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1248,7 +1272,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlwjp1/kaijyu_sekai_seifuku_episode_20_discussion/",
     "mal_id": 60070,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1272,7 +1296,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nlvuoh/nmeneko_episode_19_discussion/",
     "mal_id": 60947,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
