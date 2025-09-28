@@ -71,10 +71,6 @@ def karma_rank():
     week = airing_period["week_id"]
     # Pair the two lists; if the right list is shorter, fill with None
     complete_rankings = list(zip_longest(left_rankings, right_rankings))
-    with open(f'static/data/{post_schedule.year}/{season}/week_{week}.json', 'w') as f:
-        # Save the complete rankings to a JSON file for the frontend
-        os.makedirs(os.path.dirname(f.name), exist_ok=True)
-        json.dump(complete_rankings, f)
 
 
     return render_template(
