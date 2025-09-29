@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
+    },
+    "num_episodes": 24,
+    "score": null,
+    "streams": null,
+    "title": "Anne Shirley",
+    "title_english": "Anne Shirley",
+    "episode": "24",
+    "karma": 359,
+    "comments": 166,
+    "week_id": 1,
+    "studio": [
+      "The Answer Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nrv098/anne_shirley_episode_24_discussion_final/",
+    "mal_id": 60334,
+    "current_rank": 1,
+    "karma_change": 148,
+    "rank_change": 27,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
     },
@@ -18,9 +42,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -1,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrsyd5/meitantei_conan_case_closed_episode_1177/",
     "mal_id": 235,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 5,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "fall"
   }
 ]

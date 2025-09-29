@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1177/150344l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1177/150344.jpg"
+    },
+    "title": "Kaijuu 8-gou 2nd Season",
+    "title_english": "Kaiju No. 8 Season 2",
+    "num_episodes": 11,
+    "score": 7.84,
+    "streams": null,
+    "episode": "11",
+    "karma": 850,
+    "comments": 400,
+    "week_id": 1,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nrwsnj/kaijuu_8gou_season_2_kaiju_no_8_season_2_episode/",
+    "mal_id": 59177,
+    "current_rank": 1,
+    "karma_change": 103,
+    "rank_change": 11,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1830/145051l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1830/145051.jpg"
+    },
+    "title": "Yasei no Last Boss ga Arawareta!",
+    "title_english": "A Wild Last Boss Appeared!",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 463,
+    "comments": 235,
+    "week_id": 1,
+    "studio": [
+      "WAO World"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nrwnkf/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
+    "mal_id": 59644,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg"
     },
@@ -18,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrv098/anne_shirley_episode_24_discussion_final/",
     "mal_id": 60334,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 148,
-    "rank_change": 27,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -42,9 +90,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -1,
-    "rank_change": 35,
+    "rank_change": 33,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1104/150590l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1104/150590.jpg"
+    },
+    "title": "Fermat no Ryouri",
+    "title_english": "Fermat Kitchen",
+    "num_episodes": 12,
+    "score": 6.87,
+    "streams": null,
+    "episode": "12",
+    "karma": 53,
+    "comments": 41,
+    "week_id": 1,
+    "studio": [
+      "domerica"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nrxcpp/fermat_no_ryouri_fermat_kitchen_episode_12/",
+    "mal_id": 60697,
+    "current_rank": 5,
+    "karma_change": 18,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -66,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrsyd5/meitantei_conan_case_closed_episode_1177/",
     "mal_id": 235,
-    "current_rank": 3,
+    "current_rank": 6,
     "karma_change": 5,
-    "rank_change": 56,
+    "rank_change": 53,
     "season": "fall"
   }
 ]
