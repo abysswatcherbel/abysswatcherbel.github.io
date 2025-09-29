@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1104/148614l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1104/148614.jpg"
+    },
+    "title": "Hikaru ga Shinda Natsu",
+    "title_english": "The Summer Hikaru Died",
+    "num_episodes": 12,
+    "score": 8.2,
+    "streams": null,
+    "episode": "12",
+    "karma": 991,
+    "comments": 240,
+    "week_id": 1,
+    "studio": [
+      "CygamesPictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ns0fs2/hikaru_ga_shinda_natsu_the_summer_hikaru_died/",
+    "mal_id": 58913,
+    "current_rank": 2,
+    "karma_change": 190,
+    "rank_change": 8,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1177/150344l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1177/150344.jpg"
     },
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrwsnj/kaijuu_8gou_season_2_kaiju_no_8_season_2_episode/",
     "mal_id": 59177,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 103,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -66,7 +90,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrwnkf/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
     "mal_id": 59644,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrv098/anne_shirley_episode_24_discussion_final/",
     "mal_id": 60334,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 148,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -1,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "fall"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrxcpp/fermat_no_ryouri_fermat_kitchen_episode_12/",
     "mal_id": 60697,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 18,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -162,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrsyd5/meitantei_conan_case_closed_episode_1177/",
     "mal_id": 235,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 5,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   }
 ]
