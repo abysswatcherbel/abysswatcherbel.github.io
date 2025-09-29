@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1942/148242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1942/148242.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Shin Samurai-den Yaiba",
+    "title_english": "Yaiba: Samurai Legend",
+    "episode": "24",
+    "karma": 98,
+    "comments": 54,
+    "week_id": 1,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
+    "mal_id": 58812,
+    "current_rank": 1,
+    "karma_change": -1,
+    "rank_change": 36,
+    "season": "fall"
+  }
+]
