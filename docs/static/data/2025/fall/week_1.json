@@ -190,5 +190,29 @@
     "karma_change": 5,
     "rank_change": 51,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1278/149789l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1278/149789.jpg"
+    },
+    "title": "9: Ruler's Crown",
+    "title_english": "",
+    "num_episodes": 13,
+    "score": 5.94,
+    "streams": null,
+    "episode": "13",
+    "karma": 5,
+    "comments": 12,
+    "week_id": 1,
+    "studio": [
+      "PRA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ns6vnn/9_rulers_crown_episode_13_discussion/",
+    "mal_id": 58957,
+    "current_rank": 9,
+    "karma_change": -1,
+    "rank_change": 48,
+    "season": "fall"
   }
 ]
