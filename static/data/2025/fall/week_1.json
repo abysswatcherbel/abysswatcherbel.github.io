@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1823/149858l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1823/149858.jpg"
+    },
+    "title": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
+    "title_english": "Rascal Does Not Dream of Santa Claus",
+    "num_episodes": 13,
+    "score": 8.21,
+    "streams": null,
+    "episode": "13",
+    "karma": 1001,
+    "comments": 207,
+    "week_id": 1,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nryw2u/seishun_buta_yarou_wa_santa_claus_no_yume_wo/",
+    "mal_id": 57433,
+    "current_rank": 1,
+    "karma_change": 186,
+    "rank_change": 8,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1177/150344l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1177/150344.jpg"
     },
@@ -18,9 +42,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrwsnj/kaijuu_8gou_season_2_kaiju_no_8_season_2_episode/",
     "mal_id": 59177,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 103,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -42,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrwnkf/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
     "mal_id": 59644,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -66,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrv098/anne_shirley_episode_24_discussion_final/",
     "mal_id": 60334,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 148,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -1,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrxcpp/fermat_no_ryouri_fermat_kitchen_episode_12/",
     "mal_id": 60697,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 18,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrsyd5/meitantei_conan_case_closed_episode_1177/",
     "mal_id": 235,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 5,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "fall"
   }
 ]
