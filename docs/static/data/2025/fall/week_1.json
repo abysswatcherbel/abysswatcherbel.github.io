@@ -574,5 +574,53 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1083/150814l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1083/150814.jpg"
+    },
+    "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.36,
+    "streams": null,
+    "episode": "9",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nunrgq/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
+    "mal_id": 61239,
+    "current_rank": 25,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1083/150814l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1083/150814.jpg"
+    },
+    "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.36,
+    "streams": null,
+    "episode": "8",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nunrda/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
+    "mal_id": 61239,
+    "current_rank": 26,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
   }
 ]
