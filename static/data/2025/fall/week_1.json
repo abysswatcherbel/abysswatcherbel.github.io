@@ -193,6 +193,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1294/151734l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1294/151734.jpg"
+    },
+    "title": "Towa no Yuugure",
+    "title_english": "Dusk Beyond the End of the World",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 610,
+    "comments": 304,
+    "week_id": 1,
+    "studio": [
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nw7qop/towa_no_yugure_dusk_beyond_the_end_of_the_world/",
+    "mal_id": 61917,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1830/145051l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1830/145051.jpg"
     },
@@ -210,7 +234,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrwnkf/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
     "mal_id": 59644,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -234,9 +258,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsoho8/isekai_mokushiroku_mynoghra_hametsu_no_bunmei_de/",
     "mal_id": 59130,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -86,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -258,7 +282,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nw4vnj/bukiyou_na_senpai_my_awkward_senpai_episode_1/",
     "mal_id": 60531,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -282,9 +306,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrv098/anne_shirley_episode_24_discussion_final/",
     "mal_id": 60334,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 148,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -306,9 +330,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ntkg71/summer_pockets_episode_26_discussion_final/",
     "mal_id": 50694,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 113,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -330,9 +354,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ntkgc9/kijin_gentoushou_sword_of_the_demon_hunter_kijin/",
     "mal_id": 49778,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 66,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -354,7 +378,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nv7l05/mushoku_no_eiyuu_betsu_ni_skill_nanka_iranakattan/",
     "mal_id": 56854,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -378,9 +402,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nss3jv/one_piece_episode_1145_discussion/",
     "mal_id": 21,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -285,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -402,9 +426,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq6dw/game_center_shoujo_to_ibunka_kouryuu_cultural/",
     "mal_id": 59689,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 25,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -426,9 +450,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -1,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -450,9 +474,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nssuc4/hotel_inhumans_episode_13_discussion/",
     "mal_id": 60260,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 5,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -474,9 +498,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrxcpp/fermat_no_ryouri_fermat_kitchen_episode_12/",
     "mal_id": 60697,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 18,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -498,7 +522,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq8pv/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -522,9 +546,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsbz42/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -2,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "fall"
   },
   {
@@ -546,9 +570,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrsyd5/meitantei_conan_case_closed_episode_1177/",
     "mal_id": 235,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 5,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -570,9 +594,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nud8ci/koupen_chan_episode_26_discussion/",
     "mal_id": 60534,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 3,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "fall"
   },
   {
@@ -594,7 +618,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq8um/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -618,9 +642,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ns6vnn/9_rulers_crown_episode_13_discussion/",
     "mal_id": 58957,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -1,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -642,7 +666,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq8s8/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -666,7 +690,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nunrgq/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -690,7 +714,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nunrda/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
