@@ -385,6 +385,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1971/149410l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1971/149410.jpg"
+    },
+    "title": "Taiyou yori mo Mabushii Hoshi",
+    "title_english": "A Star Brighter Than the Sun",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 183,
+    "comments": 91,
+    "week_id": 1,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nw7tx4/taiyou_yori_mo_mabushii_hoshi_a_star_brighter/",
+    "mal_id": 60969,
+    "current_rank": 17,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg"
     },
@@ -402,9 +426,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nss3jv/one_piece_episode_1145_discussion/",
     "mal_id": 21,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -285,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -426,9 +450,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq6dw/game_center_shoujo_to_ibunka_kouryuu_cultural/",
     "mal_id": 59689,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 25,
-    "rank_change": 18,
+    "rank_change": 17,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1904/150649l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1904/150649.jpg"
+    },
+    "title": "Futari Solo Camp",
+    "title_english": "Solo Camping for Two",
+    "num_episodes": 24,
+    "score": 6.58,
+    "streams": null,
+    "episode": "13",
+    "karma": 121,
+    "comments": 52,
+    "week_id": 1,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nw8n1v/futari_solo_camp_solo_camping_for_two_episode_13/",
+    "mal_id": 60665,
+    "current_rank": 20,
+    "karma_change": 2,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -450,9 +498,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrrgfq/shin_samuraiden_yaiba_yaiba_samurai_legend/",
     "mal_id": 58812,
-    "current_rank": 19,
+    "current_rank": 21,
     "karma_change": -1,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -474,9 +522,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nssuc4/hotel_inhumans_episode_13_discussion/",
     "mal_id": 60260,
-    "current_rank": 20,
+    "current_rank": 22,
     "karma_change": 5,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -498,9 +546,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrxcpp/fermat_no_ryouri_fermat_kitchen_episode_12/",
     "mal_id": 60697,
-    "current_rank": 21,
+    "current_rank": 23,
     "karma_change": 18,
-    "rank_change": 29,
+    "rank_change": 27,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "99",
+    "karma": 13,
+    "comments": 13,
+    "week_id": 1,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nw9a0v/beyblade_x_episode_99_discussion/",
+    "mal_id": 56566,
+    "current_rank": 24,
+    "karma_change": 9,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -522,7 +594,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq8pv/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 22,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -546,9 +618,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsbz42/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 23,
+    "current_rank": 26,
     "karma_change": -2,
-    "rank_change": 31,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -570,9 +642,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nrsyd5/meitantei_conan_case_closed_episode_1177/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 27,
     "karma_change": 5,
-    "rank_change": 35,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -594,9 +666,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nud8ci/koupen_chan_episode_26_discussion/",
     "mal_id": 60534,
-    "current_rank": 25,
+    "current_rank": 28,
     "karma_change": 3,
-    "rank_change": 33,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -618,7 +690,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq8um/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 26,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -642,9 +714,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ns6vnn/9_rulers_crown_episode_13_discussion/",
     "mal_id": 58957,
-    "current_rank": 27,
+    "current_rank": 30,
     "karma_change": -1,
-    "rank_change": 30,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -666,7 +738,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nsq8s8/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 28,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -690,7 +762,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nunrgq/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 29,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -714,7 +786,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nunrda/binan_koukou_chikyuu_boueibu_haikara_cute_high/",
     "mal_id": 61239,
-    "current_rank": 30,
+    "current_rank": 33,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
