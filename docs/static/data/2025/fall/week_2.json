@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": null,
+    "episode": "13",
+    "karma": 71,
+    "comments": 87,
+    "week_id": 2,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nx2d4b/tougen_anki_episode_13_discussion/",
+    "mal_id": 58811,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -18,9 +42,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nws92q/catseye_cats_eye_episode_2_discussion/",
     "mal_id": 60347,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -54,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   }
 ]

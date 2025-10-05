@@ -1,6 +1,78 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
+    },
+    "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
+    "title_english": "May I Ask for One Final Thing?",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 996,
+    "comments": 274,
+    "week_id": 2,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nx3zyr/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
+    "mal_id": 59846,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
+    },
+    "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+    "title_english": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 293,
+    "comments": 355,
+    "week_id": 2,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nx3kun/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
+    "mal_id": 60303,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1736/152179l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1736/152179.jpg"
+    },
+    "title": "Shabake",
+    "title_english": "Shabake",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 90,
+    "comments": 33,
+    "week_id": 2,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nx367r/shabake_episode_1_discussion/",
+    "mal_id": 60378,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
     },
@@ -18,9 +90,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nx2d4b/tougen_anki_episode_13_discussion/",
     "mal_id": 58811,
-    "current_rank": 1,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
+    },
+    "title": "Watari-kun no xx ga Houkai Sunzen",
+    "title_english": "Watari-kun's ****** Is about to Collapse",
+    "num_episodes": 13,
+    "score": 6.2,
+    "streams": null,
+    "episode": "14",
+    "karma": 64,
+    "comments": 27,
+    "week_id": 2,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nx3nz5/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
+    "mal_id": 56693,
+    "current_rank": 5,
+    "karma_change": -47,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -42,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nws92q/catseye_cats_eye_episode_2_discussion/",
     "mal_id": 60347,
-    "current_rank": 2,
+    "current_rank": 6,
     "karma_change": -54,
-    "rank_change": 27,
+    "rank_change": 23,
     "season": "fall"
   }
 ]
