@@ -193,6 +193,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
+    },
+    "title": "Hyakushou Kizoku 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "29",
+    "karma": 13,
+    "comments": 5,
+    "week_id": 2,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nxg69z/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
+    "mal_id": 60551,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/150315l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/150315.jpg"
     },
@@ -212,7 +236,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxdykx/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
