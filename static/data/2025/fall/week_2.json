@@ -483,6 +483,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/151136l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/151136.jpg"
+    },
+    "title": "Sozai Saishuka no Isekai Ryokouki",
+    "title_english": "A Gatherer's Adventure in Isekai",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 114,
+    "comments": 135,
+    "week_id": 2,
+    "studio": [
+      "Tatsunoko Production",
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nzmhn2/sozai_saishuka_no_isekai_ryokouki_a_gatherers/",
+    "mal_id": 61174,
+    "current_rank": 21,
+    "karma_change": -73,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1736/152179l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1736/152179.jpg"
     },
@@ -500,7 +525,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nx367r/shabake_episode_1_discussion/",
     "mal_id": 60378,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -524,7 +549,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nx2d4b/tougen_anki_episode_13_discussion/",
     "mal_id": 58811,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -548,9 +573,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nx3nz5/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -47,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -572,9 +597,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nws92q/catseye_cats_eye_episode_2_discussion/",
     "mal_id": 60347,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -54,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -596,9 +621,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nybeyo/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 7,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -620,7 +645,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxg69z/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -644,9 +669,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nyv6h2/koupen_chan_episode_27_discussion/",
     "mal_id": 60534,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -3,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -670,7 +695,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxdykx/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -694,7 +719,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nz172s/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -718,7 +743,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nz176e/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
