@@ -628,6 +628,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1619/151364l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1619/151364.webp"
+    },
+    "title": "Kakuriyo no Yadomeshi Ni",
+    "title_english": "Kakuriyo: Bed and Breakfast for Spirits Season 2",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 58,
+    "comments": 26,
+    "week_id": 2,
+    "studio": [
+      "Gonzo",
+      "Makaria"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o1dvgu/kakuriyo_no_yadomeshi_ni_kakuriyo_bed_breakfast/",
+    "mal_id": 58772,
+    "current_rank": 27,
+    "karma_change": -31,
+    "rank_change": 4,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -645,9 +670,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nws92q/catseye_cats_eye_episode_2_discussion/",
     "mal_id": 60347,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -54,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -669,9 +694,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nybeyo/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 7,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -693,7 +718,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxg69z/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -717,9 +742,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nyv6h2/koupen_chan_episode_27_discussion/",
     "mal_id": 60534,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -3,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -743,7 +768,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxdykx/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -765,7 +790,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o031sf/petitcure_precure_fairies_episode_26_discussion/",
     "mal_id": 61272,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -789,7 +814,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nz172s/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -813,7 +838,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nz176e/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -835,7 +860,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o031p7/petitcure_precure_fairies_episode_25_discussion/",
     "mal_id": 61272,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -857,7 +882,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o031wc/petitcure_precure_fairies_episode_27_discussion/",
     "mal_id": 61272,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
