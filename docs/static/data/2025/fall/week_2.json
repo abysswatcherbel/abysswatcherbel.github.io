@@ -701,6 +701,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 20,
+    "comments": 5,
+    "week_id": 2,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1o26lyd/ganso_bandorichan_ganso_bang_dream_chan_episode_2/",
+    "mal_id": 61107,
+    "current_rank": 30,
+    "karma_change": -2,
+    "rank_change": 5,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -718,9 +740,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nybeyo/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 7,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -742,7 +764,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxg69z/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -766,9 +788,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nyv6h2/koupen_chan_episode_27_discussion/",
     "mal_id": 60534,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -3,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -792,7 +814,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nxdykx/cardfight_vanguard_divinez_deluxe_kesshouhen/",
     "mal_id": 54145,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -814,7 +836,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o031sf/petitcure_precure_fairies_episode_26_discussion/",
     "mal_id": 61272,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -838,7 +860,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nz172s/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -862,7 +884,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nz176e/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -884,7 +906,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o031p7/petitcure_precure_fairies_episode_25_discussion/",
     "mal_id": 61272,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -906,7 +928,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o031wc/petitcure_precure_fairies_episode_27_discussion/",
     "mal_id": 61272,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -928,7 +950,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o21wh2/petitcure_precure_fairies_episode_28_discussion/",
     "mal_id": 61272,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
