@@ -166,5 +166,30 @@
     "karma_change": -8,
     "rank_change": 43,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1864/142437l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1864/142437.jpg"
+    },
+    "title": "Suu-funkan no Yell wo",
+    "title_english": "A Few Moments of Cheers",
+    "num_episodes": 1,
+    "score": 7.22,
+    "streams": null,
+    "episode": "",
+    "karma": 16,
+    "comments": 5,
+    "week_id": 3,
+    "studio": [
+      "Hurray!",
+      "100studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o39rex/suufunkan_no_yell_wo_a_few_moments_of_cheers/",
+    "mal_id": 57915,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
   }
 ]
