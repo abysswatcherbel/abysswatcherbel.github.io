@@ -27,7 +27,13 @@ from util.mal import MalClient
 from exceptions import PostProcessingError, PostUnavailable
 
 
-from pydantic import BaseModel, Field, HttpUrl, field_validator, ValidationError
+from pydantic import (
+    BaseModel,
+    Field,
+    HttpUrl,
+    field_validator,
+    ValidationError,
+)
 
 
 class AnimeTitle(BaseModel):
@@ -67,13 +73,21 @@ class RedditPostDetails(BaseModel):
         url: The URL to the Reddit post
     """
 
-    mal_id: Optional[int] = Field(None, description="MyAnimeList ID for the anime")
-    title: AnimeTitle = Field(..., description="Various title formats for the anime")
-    week_id: int = Field(..., description="Week number in the season", ge=1, le=13)
+    mal_id: Optional[int] = Field(
+        None, description="MyAnimeList ID for the anime"
+    )
+    title: AnimeTitle = Field(
+        ..., description="Various title formats for the anime"
+    )
+    week_id: int = Field(
+        ..., description="Week number in the season", ge=1, le=13
+    )
     episode: str = Field(..., description="Episode number")
     karma: int = Field(..., description="Reddit post karma score")
     comments: int = Field(..., description="Number of comments on the post")
-    upvote_ratio: float = Field(..., description="Upvote ratio", ge=0.0, le=1.0)
+    upvote_ratio: float = Field(
+        ..., description="Upvote ratio", ge=0.0, le=1.0
+    )
     post_id: str = Field(..., description="Reddit post ID")
     url: str = Field(..., description="Reddit post URL")
 
@@ -93,7 +107,9 @@ class KarmaEntry(RedditPostDetails):
     """
 
     mal_stats: Optional[Dict] = Field(None, description="MAL statistics")
-    rank: Optional[int] = Field(None, description="Current rank in karma charts")
+    rank: Optional[int] = Field(
+        None, description="Current rank in karma charts"
+    )
     rank_change: Optional[Union[int, str]] = Field(
         None, description="Change in rank (int or 'new'/'returning')"
     )
@@ -125,7 +141,9 @@ load_dotenv()
 scheduler_instance = None
 
 
-def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"):
+def setup_scheduler(
+    mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
+):
     """
     Sets up a scheduler with MongoDB as a job store.
 
@@ -141,7 +159,9 @@ def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
     """
 
     client = MongoClient(mongo_uri)
-    jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}
+    jobstores = {
+        "default": MongoDBJobStore(client=client, database=mongo_database)
+    }
     executors = {
         "default": ThreadPoolExecutor(10),
         "processpool": ProcessPoolExecutor(3),
@@ -400,7 +420,9 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
         if created_time > two_days_ago:
             season_scheduler = SeasonScheduler(post_time=created_time)
             trigger_time = created_time + timedelta(hours=48)
-            logger.debug(f"Trigger set for post: {submission.url} at {trigger_time}")
+            logger.debug(
+                f"Trigger set for post: {submission.url} at {trigger_time}"
+            )
             posts.append(
                 {
                     "id": submission.id,
@@ -520,8 +542,12 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
         if mal_id
         else {"$or": [{"title": romaji}, {"title_english": english}]}
     )
-    logger.debug(f"Looking for entry on the db with: {json.dumps(query, indent=2)}")
-    mal_doc = col.find_one(query, {"id": 1})  # Check if the show exists on the db
+    logger.debug(
+        f"Looking for entry on the db with: {json.dumps(query, indent=2)}"
+    )
+    mal_doc = col.find_one(
+        query, {"id": 1}
+    )  # Check if the show exists on the db
 
     # If there is a mal_id but no document found, try to fetch the entry from MAL and push it to the db
     if mal_id and not mal_doc:
@@ -611,7 +637,6 @@ def insert_mongo(
         "reddit_id": reddit_id,
         "url": post_details["url"],
     }
-
     logger.info(
         f"Inserting data into MongoDB for MAL ID: {json.dumps(mal_id, indent=2)}"
     )
@@ -624,25 +649,31 @@ def insert_mongo(
 
         # Handle the reddit_karma structure properly to support multiple years and seasons
         try:
-            # Check if the document has the reddit_karma field
-            if "reddit_karma" not in show:
-                # Initialize the reddit_karma object if it doesn't exist
+            # Ensure reddit_karma exists and is a document (not null or other type)
+            rk_value = (show or {}).get("reddit_karma", None)
+            if not isinstance(rk_value, dict):
+                # Initialize reddit_karma as an empty document if missing or null
                 col.update_one(query, {"$set": {"reddit_karma": {}}})
                 show = col.find_one(query)  # Refresh the data
 
             # Check if the year exists in reddit_karma
-            reddit_karma = show.get("reddit_karma") or {}
+            reddit_karma = (show or {}).get("reddit_karma", {})
             if year_str not in reddit_karma:
                 # Initialize the year as an empty object if it doesn't exist
-                col.update_one(query, {"$set": {f"reddit_karma.{year_str}": {}}})
+                col.update_one(
+                    query, {"$set": {f"reddit_karma.{year_str}": {}}}
+                )
                 show = col.find_one(query)  # Refresh the data
 
             # Check if the season exists in the year
-            year_data = show.get("reddit_karma", {}).get(year_str) or {}
+            year_data = ((show or {}).get("reddit_karma", {}) or {}).get(
+                year_str
+            ) or {}
             if season_name not in year_data:
                 # Initialize the season as an empty array if it doesn't exist
                 col.update_one(
-                    query, {"$set": {f"reddit_karma.{year_str}.{season_name}": []}}
+                    query,
+                    {"$set": {f"reddit_karma.{year_str}.{season_name}": []}},
                 )
 
             # Now push the episode data to the season array
@@ -652,7 +683,7 @@ def insert_mongo(
             )
 
             logger.info(
-                f"Updated {update_result.modified_count} documents with {mal_id} | {show.get('title_english')}"
+                f"Updated {update_result.modified_count} documents with {mal_id} | {(show or {}).get('title_english')}"
             )
         except Exception as e:
             logger.error(
@@ -683,7 +714,9 @@ def insert_mongo(
                         reddit_karma[year_str] = {}
                         reddit_karma[year_str][season_name] = [episode_data]
 
-                        col.update_one(query, {"$set": {"reddit_karma": reddit_karma}})
+                        col.update_one(
+                            query, {"$set": {"reddit_karma": reddit_karma}}
+                        )
                         logger.info(
                             f"Added karma data to newly created entry for MAL ID {mal_id}"
                         )
@@ -820,7 +853,9 @@ def get_active_posts(
     for submission in user.submissions.new(limit=50):
 
         # The time the submission was created should be in datetime format
-        created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
+        created_time = datetime.fromtimestamp(
+            submission.created_utc, tz=default_tz
+        )
 
         # Check if the submission was created within the last 48 hours
         if created_time > two_days_ago:
@@ -892,7 +927,9 @@ def get_active_posts(
                     post_details["comments"] = submission.num_comments
                     post_details["episode"] = episode
                     # Time left in hours
-                    post_details["time_left"] = time_left.total_seconds() / 3600
+                    post_details["time_left"] = (
+                        time_left.total_seconds() / 3600
+                    )
 
                     posts.append(post_details)
                     posts.sort(key=lambda x: x["karma"], reverse=True)
@@ -968,7 +1005,9 @@ def get_active_posts(
                                 "updated_at": current_time.strftime(
                                     "%Y-%m-%d %H:%M:%S"
                                 ),
-                                "hourly_karma": [{"hour": hour, "karma": karma}],
+                                "hourly_karma": [
+                                    {"hour": hour, "karma": karma}
+                                ],
                             }
                         )
                         logger.info(
@@ -976,7 +1015,9 @@ def get_active_posts(
                         )
 
             except ValueError:
-                logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
+                logger.error(
+                    f"Error updating hourly data for MAL ID: {mal_id}"
+                )
                 continue
     client.close()
     return posts
@@ -1107,7 +1148,9 @@ def fetch_weekly_posts_reddit(
         start_date = schedule_details.start_date
         end_date = schedule_details.end_date
         for submission in user.submissions.new(limit=100):
-            created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
+            created_time = datetime.fromtimestamp(
+                submission.created_utc, tz=default_tz
+            )
             if created_time >= start_date and created_time <= end_date:
                 title_details, episode = get_title_details(submission.title)
 
@@ -1135,7 +1178,9 @@ def fetch_weekly_posts_reddit(
         return
 
 
-def missing_shows_on_db(shows_reddit: List[Dict], shows_db: List[Dict]) -> List:
+def missing_shows_on_db(
+    shows_reddit: List[Dict], shows_db: List[Dict]
+) -> List:
     """
     Compare shows from Reddit against shows in the database to find which ones are missing.
 
@@ -1168,9 +1213,9 @@ def missing_shows_on_db(shows_reddit: List[Dict], shows_db: List[Dict]) -> List:
     missing_ids = reddit_ids - db_ids
 
     # Filter the reddit_df to only include rows with the missing IDs
-    missing_shows = reddit_df[reddit_df["id"].astype(int).isin(missing_ids)].to_dict(
-        "records"
-    )
+    missing_shows = reddit_df[
+        reddit_df["id"].astype(int).isin(missing_ids)
+    ].to_dict("records")
 
     return missing_shows
 
