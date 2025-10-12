@@ -171,8 +171,7 @@
                 {{ season|capitalize }}
               </div>
               <ul class="weeks-list">
-                {# available_seasons[year][season] is already numerically sorted
-                ascending in Python; just reverse it here #} {% for week in
+                {% for week in
                 available_seasons[year][season]|reverse %}
                 <li>
                   <a
