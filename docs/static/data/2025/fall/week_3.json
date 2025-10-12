@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1364/151767l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1364/151767.jpg"
+    },
+    "title": "Sanda",
+    "title_english": "Sanda",
+    "num_episodes": 0,
+    "score": 7.44,
+    "streams": null,
+    "episode": "2",
+    "karma": 442,
+    "comments": 94,
+    "week_id": 3,
+    "studio": [
+      "Science SARU"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o384sz/sanda_episode_2_discussion/",
+    "mal_id": 59267,
+    "current_rank": 2,
+    "karma_change": -191,
+    "rank_change": 11,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
     },
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o33f4p/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -21,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -66,9 +90,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o35ec3/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 30,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -90,9 +114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o34qkh/tougen_anki_episode_14_discussion/",
     "mal_id": 58811,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -19,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -114,9 +138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o352k6/shabake_episode_2_discussion/",
     "mal_id": 60378,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -39,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o2u29t/catseye_cats_eye_episode_3_discussion/",
     "mal_id": 60347,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -8,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   }
 ]
