@@ -169,6 +169,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Pokemon (2023)",
+    "title_english": "Pok\u00e9mon Horizons: The Series",
+    "episode": "112",
+    "karma": 25,
+    "comments": 14,
+    "week_id": 3,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o3obn7/pok\u00e9mon_horizons_the_series_episode_112_discussion/",
+    "mal_id": 53876,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1864/142437l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1864/142437.jpg"
     },
@@ -187,7 +211,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o39rex/suufunkan_no_yell_wo_a_few_moments_of_cheers/",
     "mal_id": 57915,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -211,9 +235,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -2,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -235,7 +259,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -259,9 +283,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 4,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   }
 ]
