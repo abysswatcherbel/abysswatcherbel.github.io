@@ -363,6 +363,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1282/151476l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1282/151476.jpg"
+    },
+    "title": "Kingdom 6th Season",
+    "title_english": "Kingdom: Season 6",
+    "num_episodes": 0,
+    "score": 8.78,
+    "streams": null,
+    "episode": "2",
+    "karma": 140,
+    "comments": 42,
+    "week_id": 3,
+    "studio": [
+      "Studio Pierrot",
+      "Studio Signpost"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o441ox/kingdom_season_6_episode_2_discussion/",
+    "mal_id": 61517,
+    "current_rank": 16,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1478/151722l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1478/151722.jpg"
     },
@@ -380,9 +405,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3uijp/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -11,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -404,9 +429,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o35ec3/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 30,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -428,9 +453,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o34qkh/tougen_anki_episode_14_discussion/",
     "mal_id": 58811,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -19,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -452,9 +477,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o352k6/shabake_episode_2_discussion/",
     "mal_id": 60378,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -39,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -476,9 +501,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o2u29t/catseye_cats_eye_episode_3_discussion/",
     "mal_id": 60347,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -8,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -500,7 +525,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3obn7/pok\u00e9mon_horizons_the_series_episode_112_discussion/",
     "mal_id": 53876,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -525,7 +550,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o39rex/suufunkan_no_yell_wo_a_few_moments_of_cheers/",
     "mal_id": 57915,
-    "current_rank": 22,
+    "current_rank": 23,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1542/144025l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1542/144025.jpg"
+    },
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "title": "Ninja Batman tai Yakuza League",
+    "title_english": "Batman Ninja vs. Yakuza League",
+    "episode": "",
+    "karma": 14,
+    "comments": 7,
+    "week_id": 3,
+    "studio": [
+      "Kamikaze Douga"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o44184/batman_ninja_vs_yakuza_league_movie_discussion/",
+    "mal_id": 58964,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -549,7 +598,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3tc60/meitantei_conan_case_closed_episode_1178/",
     "mal_id": 235,
-    "current_rank": 23,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -573,9 +622,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 24,
+    "current_rank": 26,
     "karma_change": -2,
-    "rank_change": 31,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -597,7 +646,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 25,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -621,9 +670,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 26,
+    "current_rank": 28,
     "karma_change": 4,
-    "rank_change": 34,
+    "rank_change": 32,
     "season": "fall"
   }
 ]
