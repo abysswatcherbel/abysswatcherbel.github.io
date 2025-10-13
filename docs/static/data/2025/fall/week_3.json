@@ -242,6 +242,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1178",
+    "karma": 12,
+    "comments": 7,
+    "week_id": 3,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o3tc60/meitantei_conan_case_closed_episode_1178/",
+    "mal_id": 235,
+    "current_rank": 11,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
     },
@@ -259,9 +283,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -2,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -283,7 +307,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -307,9 +331,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 4,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   }
 ]
