@@ -484,6 +484,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 6.28,
+    "streams": null,
+    "episode": "2",
+    "karma": 41,
+    "comments": 23,
+    "week_id": 3,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o4d79y/sivis_the_sound_of_heroes_episode_2_discussion/",
+    "mal_id": 62126,
+    "current_rank": 21,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -501,9 +525,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o2u29t/catseye_cats_eye_episode_3_discussion/",
     "mal_id": 60347,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -8,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -525,7 +549,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3obn7/pok\u00e9mon_horizons_the_series_episode_112_discussion/",
     "mal_id": 53876,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -550,7 +574,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o39rex/suufunkan_no_yell_wo_a_few_moments_of_cheers/",
     "mal_id": 57915,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -574,9 +598,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4cm4h/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -3,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -598,7 +622,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o44184/batman_ninja_vs_yakuza_league_movie_discussion/",
     "mal_id": 58964,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -622,7 +646,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3tc60/meitantei_conan_case_closed_episode_1178/",
     "mal_id": 235,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -646,9 +670,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -2,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -670,7 +694,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -694,9 +718,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 4,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   }
 ]
