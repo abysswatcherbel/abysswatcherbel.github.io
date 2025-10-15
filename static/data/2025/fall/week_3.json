@@ -966,6 +966,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1488/150090l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1488/150090.jpg"
+    },
+    "title": "Fureru.",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": 6.89,
+    "streams": null,
+    "episode": "",
+    "karma": 19,
+    "comments": 3,
+    "week_id": 3,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o5snvs/fureru_movie_discussion/",
+    "mal_id": 57448,
+    "current_rank": 41,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1864/142437l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1864/142437.jpg"
     },
@@ -984,7 +1008,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o39rex/suufunkan_no_yell_wo_a_few_moments_of_cheers/",
     "mal_id": 57915,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1008,9 +1032,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4cm4h/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -3,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -1032,7 +1056,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o44184/batman_ninja_vs_yakuza_league_movie_discussion/",
     "mal_id": 58964,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1056,7 +1080,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3tc60/meitantei_conan_case_closed_episode_1178/",
     "mal_id": 235,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1080,9 +1104,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -2,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -1104,7 +1128,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1128,9 +1152,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4ksb8/koupen_chan_episode_28_discussion/",
     "mal_id": 60534,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 3,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -1152,9 +1176,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 4,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1176,7 +1200,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o59kqa/beyblade_x_episode_100_discussion/",
     "mal_id": 56566,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
