@@ -1159,6 +1159,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1967/152249l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1967/152249.jpg"
+    },
+    "title": "2200-nen Neko no Kuni Nippon",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 7,
+    "comments": 4,
+    "week_id": 3,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o68rkw/2200nen_neko_no_kuni_nippon_episode_3_discussion/",
+    "mal_id": 62496,
+    "current_rank": 49,
+    "karma_change": -3,
+    "rank_change": 7,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
     },
@@ -1176,9 +1201,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 4,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -1200,7 +1225,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o59kqa/beyblade_x_episode_100_discussion/",
     "mal_id": 56566,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
