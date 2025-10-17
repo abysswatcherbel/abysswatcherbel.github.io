@@ -1281,6 +1281,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1107/145856l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1107/145856.jpg"
+    },
+    "title": "Nintama Rantarou Movie: Dokutake Ninja Tai Saikyou no Gunshi",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": 6.75,
+    "streams": null,
+    "episode": "",
+    "karma": 15,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "Ajia-do"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o7k1ti/nintama_rantarou_movie_dokutake_ninjatai_saikyou/",
+    "mal_id": 58201,
+    "current_rank": 54,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -1298,9 +1322,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4cm4h/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "fall"
   },
   {
@@ -1322,7 +1346,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o44184/batman_ninja_vs_yakuza_league_movie_discussion/",
     "mal_id": 58964,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1346,7 +1370,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3tc60/meitantei_conan_case_closed_episode_1178/",
     "mal_id": 235,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1371,7 +1395,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6mix8/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -1395,9 +1419,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -2,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   },
   {
@@ -1419,7 +1443,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1443,9 +1467,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4ksb8/koupen_chan_episode_28_discussion/",
     "mal_id": 60534,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 3,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   },
   {
@@ -1468,9 +1492,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o68rkw/2200nen_neko_no_kuni_nippon_episode_3_discussion/",
     "mal_id": 62496,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -3,
-    "rank_change": -5,
+    "rank_change": -6,
     "season": "fall"
   },
   {
@@ -1492,9 +1516,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 4,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "fall"
   },
   {
@@ -1516,7 +1540,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o59kqa/beyblade_x_episode_100_discussion/",
     "mal_id": 56566,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1540,7 +1564,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6tjr2/inazuma_eleven_aratanaru_eiyuutachi_no_joshou/",
     "mal_id": 59710,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1564,7 +1588,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6ogy9/nmeneko_episode_21_discussion/",
     "mal_id": 60947,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
