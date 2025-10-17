@@ -1401,6 +1401,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1453/145195l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1453/145195.webp"
+    },
+    "title": "Inazuma Eleven: Aratanaru Eiyuu-tachi no Joshou",
+    "title_english": "Inazuma Eleven the Movie: Prologue to the New Heroes",
+    "num_episodes": 1,
+    "score": 7.1,
+    "streams": null,
+    "episode": "",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o6tjr2/inazuma_eleven_aratanaru_eiyuutachi_no_joshou/",
+    "mal_id": 59710,
+    "current_rank": 59,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
     },
@@ -1418,7 +1442,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6ogy9/nmeneko_episode_21_discussion/",
     "mal_id": 60947,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
