@@ -1536,6 +1536,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1283/150650l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1283/150650.jpg"
+    },
+    "title": "Lupin the IIIrd: Zenigata to Futari no Lupin",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": 7.24,
+    "streams": null,
+    "episode": "",
+    "karma": 19,
+    "comments": 5,
+    "week_id": 3,
+    "studio": [
+      "Telecom Animation Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o8fcr6/lupin_the_iiird_zenigata_to_2nin_no_lupin_lupin/",
+    "mal_id": 61616,
+    "current_rank": 59,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1488/150090l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1488/150090.jpg"
     },
@@ -1553,7 +1577,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o5snvs/fureru_movie_discussion/",
     "mal_id": 57448,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1578,7 +1602,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o39rex/suufunkan_no_yell_wo_a_few_moments_of_cheers/",
     "mal_id": 57915,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1602,7 +1626,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o7k1ti/nintama_rantarou_movie_dokutake_ninjatai_saikyou/",
     "mal_id": 58201,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1626,9 +1650,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4cm4h/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -3,
-    "rank_change": -9,
+    "rank_change": -10,
     "season": "fall"
   },
   {
@@ -1650,7 +1674,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o44184/batman_ninja_vs_yakuza_league_movie_discussion/",
     "mal_id": 58964,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1674,7 +1698,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3tc60/meitantei_conan_case_closed_episode_1178/",
     "mal_id": 235,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1698,7 +1722,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o7u6mv/ugoku_neko_mukashibanashi_cat_tales_episode_1/",
     "mal_id": 61254,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -1723,7 +1747,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6mix8/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -1745,9 +1769,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o85p8r/ganso_bandorichan_ganso_bang_dream_chan_episode_3/",
     "mal_id": 61107,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -9,
-    "rank_change": -15,
+    "rank_change": -16,
     "season": "fall"
   },
   {
@@ -1769,9 +1793,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3hz3j/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -2,
-    "rank_change": -13,
+    "rank_change": -14,
     "season": "fall"
   },
   {
@@ -1793,7 +1817,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3cupa/princession_orchestra_episode_25_discussion/",
     "mal_id": 59078,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1817,9 +1841,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o4ksb8/koupen_chan_episode_28_discussion/",
     "mal_id": 60534,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 3,
-    "rank_change": -13,
+    "rank_change": -14,
     "season": "fall"
   },
   {
@@ -1842,9 +1866,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o68rkw/2200nen_neko_no_kuni_nippon_episode_3_discussion/",
     "mal_id": 62496,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": -3,
-    "rank_change": -15,
+    "rank_change": -16,
     "season": "fall"
   },
   {
@@ -1866,9 +1890,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o3gmhy/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 4,
-    "rank_change": -12,
+    "rank_change": -13,
     "season": "fall"
   },
   {
@@ -1890,7 +1914,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o59kqa/beyblade_x_episode_100_discussion/",
     "mal_id": 56566,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1914,7 +1938,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6tjr2/inazuma_eleven_aratanaru_eiyuutachi_no_joshou/",
     "mal_id": 59710,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1936,9 +1960,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1o820os/petitcure_precure_fairies_episode_29_discussion/",
     "mal_id": 61272,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 1,
-    "rank_change": -13,
+    "rank_change": -14,
     "season": "fall"
   },
   {
@@ -1960,7 +1984,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6ogy9/nmeneko_episode_21_discussion/",
     "mal_id": 60947,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1985,7 +2009,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o838td/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
