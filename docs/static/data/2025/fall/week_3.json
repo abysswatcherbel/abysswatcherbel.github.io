@@ -1595,6 +1595,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "29",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1o820os/petitcure_precure_fairies_episode_29_discussion/",
+    "mal_id": 61272,
+    "current_rank": 67,
+    "karma_change": 1,
+    "rank_change": -5,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
     },
@@ -1612,7 +1634,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o6ogy9/nmeneko_episode_21_discussion/",
     "mal_id": 60947,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
