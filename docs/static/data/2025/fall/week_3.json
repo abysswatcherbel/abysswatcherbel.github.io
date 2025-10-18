@@ -7,8 +7,11 @@
     "title": "Boku no Hero Academia: Final Season",
     "title_english": "My Hero Academia Final Season",
     "num_episodes": 0,
-    "score": 8.42,
-    "streams": null,
+    "score": 8.53,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "http://www.crunchyroll.com/series-272617"
+    },
     "episode": "2",
     "karma": 2130,
     "comments": 318,
@@ -31,8 +34,11 @@
     "title": "One Punch Man 3",
     "title_english": "One-Punch Man Season 3",
     "num_episodes": 0,
-    "score": 7.05,
-    "streams": null,
+    "score": 6.83,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "1",
     "karma": 1875,
     "comments": 898,
@@ -55,8 +61,11 @@
     "title": "Spy x Family Season 3",
     "title_english": "Spy x Family Season 3",
     "num_episodes": 0,
-    "score": 8.11,
-    "streams": null,
+    "score": 8.14,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 1665,
     "comments": 294,
@@ -104,8 +113,11 @@
     "title": "Isekai Quartet 3",
     "title_english": "Isekai Quartet3",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.64,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "1",
     "karma": 968,
     "comments": 309,
@@ -128,8 +140,11 @@
     "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
     "title_english": "May I Ask for One Final Thing?",
     "num_episodes": 0,
-    "score": 7.83,
-    "streams": null,
+    "score": 7.78,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "3",
     "karma": 793,
     "comments": 209,
@@ -176,8 +191,11 @@
     "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
     "title_english": "My Status as an Assassin Obviously Exceeds the Hero's",
     "num_episodes": 0,
-    "score": 7.44,
-    "streams": null,
+    "score": 7.41,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 691,
     "comments": 420,
@@ -201,7 +219,10 @@
     "title_english": "",
     "num_episodes": 0,
     "score": 8.07,
-    "streams": null,
+    "streams": {
+      "name": "Netflix",
+      "url": "https://www.netflix.com/"
+    },
     "episode": "2",
     "karma": 659,
     "comments": 174,
@@ -224,8 +245,11 @@
     "title": "Yasei no Last Boss ga Arawareta!",
     "title_english": "A Wild Last Boss Appeared!",
     "num_episodes": 0,
-    "score": 7.47,
-    "streams": null,
+    "score": 7.5,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "3",
     "karma": 621,
     "comments": 213,
@@ -248,8 +272,11 @@
     "title": "Gnosia",
     "title_english": "Gnosia",
     "num_episodes": 0,
-    "score": 7.21,
-    "streams": null,
+    "score": 7.16,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "1",
     "karma": 537,
     "comments": 402,
@@ -272,8 +299,11 @@
     "title": "Nageki no Bourei wa Intai shitai Part 2",
     "title_english": "Let This Grieving Soul Retire Cour 2",
     "num_episodes": 0,
-    "score": 7.35,
-    "streams": null,
+    "score": 7.37,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "15",
     "karma": 522,
     "comments": 159,
@@ -296,8 +326,11 @@
     "title": "Tondemo Skill de Isekai Hourou Meshi 2",
     "title_english": "Campfire Cooking in Another World with My Absurd Skill Season 2",
     "num_episodes": 12,
-    "score": 7.76,
-    "streams": null,
+    "score": 7.75,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 460,
     "comments": 185,
@@ -320,7 +353,7 @@
     "title": "Sanda",
     "title_english": "Sanda",
     "num_episodes": 0,
-    "score": 7.44,
+    "score": 7.43,
     "streams": null,
     "episode": "2",
     "karma": 442,
@@ -344,8 +377,11 @@
     "title": "Chitose-kun wa Ramune Bin no Naka",
     "title_english": "Chitose Is in the Ramune Bottle",
     "num_episodes": 13,
-    "score": 7.38,
-    "streams": null,
+    "score": 7.35,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 436,
     "comments": 144,
@@ -368,8 +404,11 @@
     "title": "Fumetsu no Anata e Season 3",
     "title_english": "To Your Eternity Season 3",
     "num_episodes": 22,
-    "score": 8.04,
-    "streams": null,
+    "score": 8.05,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "http://www.crunchyroll.com/series-281206"
+    },
     "episode": "2",
     "karma": 433,
     "comments": 122,
@@ -393,8 +432,11 @@
     "title": "3-nen Z-gumi Ginpachi-sensei",
     "title_english": "Gintama - Mr. Ginpachi's Zany Class",
     "num_episodes": 0,
-    "score": 8.41,
-    "streams": null,
+    "score": 8.37,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 320,
     "comments": 54,
@@ -417,8 +459,11 @@
     "title": "Shuumatsu Touring",
     "title_english": "Touring After the Apocalypse",
     "num_episodes": 0,
-    "score": 6.82,
-    "streams": null,
+    "score": 6.87,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 316,
     "comments": 162,
@@ -442,7 +487,10 @@
     "title_english": "Tojima Wants to Be a Kamen Rider",
     "num_episodes": 0,
     "score": 7.7,
-    "streams": null,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 315,
     "comments": 164,
@@ -465,8 +513,11 @@
     "title": "Chanto Suenai Kyuuketsuki-chan",
     "title_english": "Li'l Miss Vampire Can't Suck Right",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 6.86,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "1",
     "karma": 277,
     "comments": 87,
@@ -489,8 +540,11 @@
     "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
     "title_english": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
     "num_episodes": 0,
-    "score": 6.65,
-    "streams": null,
+    "score": 6.63,
+    "streams": {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/"
+    },
     "episode": "2",
     "karma": 272,
     "comments": 358,
@@ -513,8 +567,11 @@
     "title": "Digimon Beatbreak",
     "title_english": "Digimon Beatbreak",
     "num_episodes": 0,
-    "score": 7.22,
-    "streams": null,
+    "score": 7.21,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 248,
     "comments": 56,
@@ -537,8 +594,11 @@
     "title": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
     "title_english": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
     "num_episodes": 12,
-    "score": 7.06,
-    "streams": null,
+    "score": 7.02,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 238,
     "comments": 133,
@@ -561,8 +621,11 @@
     "title": "Egao no Taenai Shokuba desu.",
     "title_english": "A Mangaka's Weirdly Wonderful Workplace",
     "num_episodes": 0,
-    "score": 6.78,
-    "streams": null,
+    "score": 6.83,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 238,
     "comments": 101,
@@ -585,8 +648,11 @@
     "title": "Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga",
     "title_english": "Hero Without a Class: Who Even Needs Skills?!",
     "num_episodes": 0,
-    "score": 6.54,
-    "streams": null,
+    "score": 6.5,
+    "streams": {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/"
+    },
     "episode": "4",
     "karma": 236,
     "comments": 130,
@@ -609,8 +675,11 @@
     "title": "Tensei Akujo no Kuro Rekishi",
     "title_english": "The Dark History of the Reincarnated Villainess",
     "num_episodes": 12,
-    "score": 6.78,
-    "streams": null,
+    "score": 6.74,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 227,
     "comments": 100,
@@ -633,8 +702,11 @@
     "title": "Yano-kun no Futsuu no Hibi",
     "title_english": "Yano-kun's Ordinary Days",
     "num_episodes": 0,
-    "score": 7.08,
-    "streams": null,
+    "score": 7.09,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "3",
     "karma": 227,
     "comments": 72,
@@ -657,8 +729,11 @@
     "title": "Alma-chan wa Kazoku ni Naritai",
     "title_english": "Alma-chan Wants to Be a Family!",
     "num_episodes": 11,
-    "score": 7.03,
-    "streams": null,
+    "score": 7.09,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 191,
     "comments": 80,
@@ -681,8 +756,11 @@
     "title": "Kimi to Koete Koi ni Naru",
     "title_english": "With You, Our Love Will Make It Through",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.15,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "1",
     "karma": 190,
     "comments": 138,
@@ -729,8 +807,11 @@
     "title": "Mikata ga Yowasugite Hojo Mahou ni Tesshiteita Kyuutei Mahoushi, Tsuihou sarete Saikyou wo Mezashimasu",
     "title_english": "The Banished Court Magician Aims to Become the Strongest",
     "num_episodes": 0,
-    "score": 6.38,
-    "streams": null,
+    "score": 6.4,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 181,
     "comments": 90,
@@ -753,8 +834,11 @@
     "title": "Kikaijikake no Marie",
     "title_english": "Mechanical Marie",
     "num_episodes": 0,
-    "score": 6.84,
-    "streams": null,
+    "score": 6.82,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 173,
     "comments": 71,
@@ -778,8 +862,11 @@
     "title": "Tomodachi no Imouto ga Ore ni dake Uzai",
     "title_english": "My Friend's Little Sister Has It In for Me!",
     "num_episodes": 12,
-    "score": 6.66,
-    "streams": null,
+    "score": 6.59,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 162,
     "comments": 114,
@@ -802,8 +889,11 @@
     "title": "Wandance",
     "title_english": "Wandance",
     "num_episodes": 0,
-    "score": 6.6,
-    "streams": null,
+    "score": 6.36,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/"
+    },
     "episode": "2",
     "karma": 157,
     "comments": 92,
@@ -827,8 +917,11 @@
     "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
     "title_english": "Inexpressive Kashiwada and Expressive Oota",
     "num_episodes": 0,
-    "score": 6.8,
-    "streams": null,
+    "score": 6.77,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 155,
     "comments": 38,
@@ -851,8 +944,11 @@
     "title": "Sawaranaide Kotesashi-kun",
     "title_english": "Hands off: Sawaranaide Kotesashi-kun",
     "num_episodes": 12,
-    "score": 6.51,
-    "streams": null,
+    "score": 6.41,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 147,
     "comments": 51,
@@ -875,8 +971,11 @@
     "title": "Kingdom 6th Season",
     "title_english": "Kingdom: Season 6",
     "num_episodes": 0,
-    "score": 8.78,
-    "streams": null,
+    "score": 8.84,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 140,
     "comments": 42,
@@ -900,8 +999,11 @@
     "title": "Sozai Saishuka no Isekai Ryokouki",
     "title_english": "A Gatherer's Adventure in Isekai",
     "num_episodes": 0,
-    "score": 6.13,
-    "streams": null,
+    "score": 6.09,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "3",
     "karma": 135,
     "comments": 61,
@@ -925,8 +1027,11 @@
     "title": "Kekkon Yubiwa Monogatari II",
     "title_english": "Tales of Wedding Rings Season 2",
     "num_episodes": 0,
-    "score": 6.82,
-    "streams": null,
+    "score": 6.81,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 126,
     "comments": 39,
@@ -973,8 +1078,11 @@
     "title": "Let's Play: Quest-darake no My Life",
     "title_english": "Let's Play",
     "num_episodes": 0,
-    "score": 6.15,
-    "streams": null,
+    "score": 6.17,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "3",
     "karma": 70,
     "comments": 46,
@@ -997,7 +1105,7 @@
     "title": "Ninja to Gokudou",
     "title_english": "Ninja vs. Gokudo",
     "num_episodes": 0,
-    "score": 6.49,
+    "score": 6.47,
     "streams": null,
     "episode": "2",
     "karma": 59,
@@ -1021,8 +1129,11 @@
     "title": "Debu to Love to Ayamachi to!",
     "title_english": "Plus-sized Misadventures in Love!",
     "num_episodes": 0,
-    "score": 6.28,
-    "streams": null,
+    "score": 6.25,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 53,
     "comments": 46,
@@ -1069,8 +1180,11 @@
     "title": "Shabake",
     "title_english": "Shabake",
     "num_episodes": 0,
-    "score": 6.47,
-    "streams": null,
+    "score": 6.4,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 51,
     "comments": 16,
@@ -1093,8 +1207,11 @@
     "title": "SI-VIS: The Sound of Heroes",
     "title_english": "SI-VIS: The Sound of Heroes",
     "num_episodes": 0,
-    "score": 6.28,
-    "streams": null,
+    "score": 6.19,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
     "episode": "2",
     "karma": 41,
     "comments": 23,
@@ -1142,7 +1259,10 @@
     "title_english": "Kakuriyo: Bed and Breakfast for Spirits Season 2",
     "num_episodes": 0,
     "score": 7.15,
-    "streams": null,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "http://www.crunchyroll.com/series-275999"
+    },
     "episode": "3",
     "karma": 39,
     "comments": 26,
@@ -1214,7 +1334,7 @@
     "title": "Ganglion",
     "title_english": "",
     "num_episodes": 0,
-    "score": 6.11,
+    "score": 6.06,
     "streams": null,
     "episode": "2",
     "karma": 21,
@@ -1407,7 +1527,7 @@
     "title": "Heika Watashi wo Wasurete Kudasai",
     "title_english": "Forget That Night, Your Majesty",
     "num_episodes": 0,
-    "score": 6.02,
+    "score": 5.99,
     "streams": null,
     "episode": "1",
     "karma": 11,
@@ -1504,7 +1624,7 @@
     "title": "2200-nen Neko no Kuni Nippon",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
+    "score": 5.78,
     "streams": null,
     "episode": "3",
     "karma": 7,
@@ -1647,7 +1767,7 @@
     "title": "Heika Watashi wo Wasurete Kudasai",
     "title_english": "Forget That Night, Your Majesty",
     "num_episodes": 0,
-    "score": 6.02,
+    "score": 5.99,
     "streams": null,
     "episode": "2",
     "karma": 0,
