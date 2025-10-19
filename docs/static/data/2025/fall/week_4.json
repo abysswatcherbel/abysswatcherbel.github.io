@@ -151,5 +151,29 @@
     "karma_change": 4,
     "rank_change": 47,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1633/146274l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1633/146274.jpg"
+    },
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "title": "Binan Koukou Chikyuu Bouei-bu Eternal Love!",
+    "title_english": "",
+    "episode": "",
+    "karma": 4,
+    "comments": 4,
+    "week_id": 4,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
+    "mal_id": 59406,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
   }
 ]
