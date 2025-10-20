@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1959/151055l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1959/151055.jpg"
+    },
+    "title": "Boku no Hero Academia: Final Season",
+    "title_english": "My Hero Academia Final Season",
+    "num_episodes": 0,
+    "score": 8.53,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "http://www.crunchyroll.com/series-272617"
+    },
+    "episode": "3",
+    "karma": 2931,
+    "comments": 518,
+    "week_id": 4,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o9r0xg/boku_no_hero_academia_final_season_my_hero/",
+    "mal_id": 60098,
+    "current_rank": 1,
+    "karma_change": 801,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
     },
@@ -21,9 +48,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o964a6/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
     "mal_id": 59846,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 28,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -45,9 +72,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o98bzf/sanda_episode_3_discussion/",
     "mal_id": 59267,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -64,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -72,9 +99,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o93pvj/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 82,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -96,9 +123,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o95sop/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -9,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "fall"
   },
   {
@@ -123,9 +150,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o95bo8/shabake_episode_3_discussion/",
     "mal_id": 60378,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 9,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -147,9 +174,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o8ukda/catseye_cats_eye_episode_4_discussion/",
     "mal_id": 60347,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 4,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -171,9 +198,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9lbqj/pok\u00e9mon_horizons_the_series_episode_113_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -195,9 +222,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -6,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "fall"
   },
   {
@@ -219,7 +246,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
