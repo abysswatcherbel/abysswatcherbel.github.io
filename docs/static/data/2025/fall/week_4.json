@@ -154,6 +154,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
+    },
+    "title": "Hyakushou Kizoku 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "31",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
+    "mal_id": 60551,
+    "current_rank": 7,
+    "karma_change": -6,
+    "rank_change": 62,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1633/146274l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1633/146274.jpg"
     },
@@ -171,7 +195,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
