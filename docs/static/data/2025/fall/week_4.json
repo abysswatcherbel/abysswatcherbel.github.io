@@ -106,6 +106,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1478/151722l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1478/151722.jpg"
+    },
+    "title": "Kekkon Yubiwa Monogatari II",
+    "title_english": "Tales of Wedding Rings Season 2",
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
+    "episode": "3",
+    "karma": 121,
+    "comments": 60,
+    "week_id": 4,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o9uof7/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
+    "mal_id": 58515,
+    "current_rank": 5,
+    "karma_change": -5,
+    "rank_change": 39,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
     },
@@ -123,9 +150,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o95sop/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -9,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -150,9 +177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o95bo8/shabake_episode_3_discussion/",
     "mal_id": 60378,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 9,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -174,9 +201,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o8ukda/catseye_cats_eye_episode_4_discussion/",
     "mal_id": 60347,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 4,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -198,9 +225,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9lbqj/pok\u00e9mon_horizons_the_series_episode_113_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -222,9 +249,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -6,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "fall"
   },
   {
@@ -246,9 +273,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1179",
+    "karma": 3,
+    "comments": 3,
+    "week_id": 4,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1o9th75/meitantei_conan_case_closed_episode_1179/",
+    "mal_id": 235,
+    "current_rank": 12,
+    "karma_change": -9,
+    "rank_change": 53,
     "season": "fall"
   }
 ]
