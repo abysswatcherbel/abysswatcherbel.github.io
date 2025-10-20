@@ -378,6 +378,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1282/151476l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1282/151476.jpg"
+    },
+    "title": "Kingdom 6th Season",
+    "title_english": "Kingdom: Season 6",
+    "num_episodes": 0,
+    "score": 8.84,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
+    "episode": "3",
+    "karma": 140,
+    "comments": 48,
+    "week_id": 4,
+    "studio": [
+      "Studio Pierrot",
+      "Studio Signpost"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oa4d99/kingdom_season_6_episode_3_discussion/",
+    "mal_id": 61517,
+    "current_rank": 15,
+    "karma_change": 0,
+    "rank_change": 26,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1363/151886l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1363/151886.jpg"
     },
@@ -398,9 +426,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9v7mh/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -25,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -425,9 +453,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9uof7/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -5,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -449,9 +477,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o95sop/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -9,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -476,9 +504,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o95bo8/shabake_episode_3_discussion/",
     "mal_id": 60378,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 9,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -500,9 +528,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o8ukda/catseye_cats_eye_episode_4_discussion/",
     "mal_id": 60347,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 4,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "fall"
   },
   {
@@ -524,9 +552,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9lbqj/pok\u00e9mon_horizons_the_series_episode_113_discussion/",
     "mal_id": 53876,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -548,7 +576,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmoi/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -572,7 +600,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmlv/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -596,7 +624,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmm6/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -620,7 +648,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmlz/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -644,7 +672,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmjo/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -668,7 +696,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmll/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 25,
+    "current_rank": 26,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1871/115717l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1871/115717.jpg"
+    },
+    "title": "100-nichikan Ikita Wani",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": 5.83,
+    "streams": null,
+    "episode": "",
+    "karma": 9,
+    "comments": 5,
+    "week_id": 4,
+    "studio": [
+      "Toho Interactive Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oa47lh/100nichikan_ikita_wani_the_crocodile_that_lived/",
+    "mal_id": 48352,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -692,9 +744,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 27,
+    "current_rank": 29,
     "karma_change": -6,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -716,7 +768,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 28,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -740,9 +792,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9th75/meitantei_conan_case_closed_episode_1179/",
     "mal_id": 235,
-    "current_rank": 29,
+    "current_rank": 31,
     "karma_change": -9,
-    "rank_change": 36,
+    "rank_change": 34,
     "season": "fall"
   }
 ]
