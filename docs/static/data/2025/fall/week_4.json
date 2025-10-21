@@ -1088,6 +1088,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1498/143396l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1498/143396.webp"
+    },
+    "title": "SutoPuri Movie: Hajimari no Monogatari - Strawberry School Festival!!!",
+    "title_english": "Strawberry Prince the Movie",
+    "num_episodes": 1,
+    "score": 6.17,
+    "streams": null,
+    "episode": "",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oaxw3z/sutopuri_hajimari_no_monogatari_strawberry_school/",
+    "mal_id": 58522,
+    "current_rank": 42,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1633/146274l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1633/146274.jpg"
     },
@@ -1105,7 +1129,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1129,9 +1153,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9th75/meitantei_conan_case_closed_episode_1179/",
     "mal_id": 235,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -9,
-    "rank_change": 21,
+    "rank_change": 20,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "29",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oawkzh/koupen_chan_episode_29_discussion/",
+    "mal_id": 60534,
+    "current_rank": 46,
+    "karma_change": -5,
+    "rank_change": 25,
     "season": "fall"
   }
 ]
