@@ -727,6 +727,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
+    },
+    "title": "Chibi Godzilla no Gyakushuu 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "7",
+    "karma": 6,
+    "comments": 0,
+    "week_id": 4,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oa9bd3/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
+    "mal_id": 61765,
+    "current_rank": 29,
+    "karma_change": 1,
+    "rank_change": 44,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
     },
@@ -744,9 +768,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -6,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -768,7 +792,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -792,9 +816,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9th75/meitantei_conan_case_closed_episode_1179/",
     "mal_id": 235,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -9,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "fall"
   }
 ]
