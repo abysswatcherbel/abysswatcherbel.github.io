@@ -1227,6 +1227,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1661/141440l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1661/141440.jpg"
+    },
+    "title": "i\u2606Ris the Movie: Full Energy!!",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": 6.44,
+    "streams": null,
+    "episode": "",
+    "karma": 9,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "Studio Gokumi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1obz1hm/iris_the_movie_full_energy_movie_discussion/",
+    "mal_id": 53534,
+    "current_rank": 48,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1859/150334l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1859/150334.jpg"
     },
@@ -1244,9 +1268,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oa9bd3/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 1,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -1268,9 +1292,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -6,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -1292,7 +1316,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oaxw3z/sutopuri_hajimari_no_monogatari_strawberry_school/",
     "mal_id": 58522,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1316,7 +1340,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1340,9 +1364,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9th75/meitantei_conan_case_closed_episode_1179/",
     "mal_id": 235,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -9,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -1364,9 +1388,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oawkzh/koupen_chan_episode_29_discussion/",
     "mal_id": 60534,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -5,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   }
 ]
