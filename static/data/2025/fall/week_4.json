@@ -984,6 +984,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1333/151768l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1333/151768.jpg"
+    },
+    "title": "Ganglion",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.06,
+    "streams": null,
+    "episode": "3",
+    "karma": 34,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "studio maf"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ocdqk4/ganglion_episode_3_discussion/",
+    "mal_id": 62378,
+    "current_rank": 38,
+    "karma_change": 13,
+    "rank_change": 20,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
     },
@@ -1004,9 +1028,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oadxan/sivis_the_sound_of_heroes_episode_3_discussion/",
     "mal_id": 62126,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -14,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -1028,9 +1052,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9lbqj/pok\u00e9mon_horizons_the_series_episode_113_discussion/",
     "mal_id": 53876,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 0,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1052,9 +1076,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oad8gc/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 8,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -1076,7 +1100,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmoi/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1100,7 +1124,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmlv/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1124,7 +1148,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmm6/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1148,7 +1172,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmlz/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1172,7 +1196,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmjo/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -1196,7 +1220,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9wmll/yamato_yo_towa_ni_rebel_3199_star_blazers_space/",
     "mal_id": 50855,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1220,9 +1244,39 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oblluq/princession_orchestra_episode_26_discussion/",
     "mal_id": 59078,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 3,
-    "rank_change": 23,
+    "rank_change": 22,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1472/148029l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1472/148029.jpg"
+    },
+    "num_episodes": 5,
+    "score": null,
+    "streams": null,
+    "title": "Miru: Watashi no Mirai",
+    "title_english": "Miru: Paths to My Future",
+    "episode": "1",
+    "karma": 10,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "Studio Hibari",
+      "Shirogumi",
+      "Larx Entertainment",
+      "TriF Studio",
+      "Scooter Films",
+      "Reirs",
+      "LinQ"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ocdhy5/miru_watashi_no_mirai_miru_paths_to_my_future/",
+    "mal_id": 55727,
+    "current_rank": 49,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "fall"
   },
   {
@@ -1244,7 +1298,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oa47lh/100nichikan_ikita_wani_the_crocodile_that_lived/",
     "mal_id": 48352,
-    "current_rank": 48,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1268,7 +1322,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1obz1hm/iris_the_movie_full_energy_movie_discussion/",
     "mal_id": 53534,
-    "current_rank": 49,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1292,9 +1346,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oa9bd3/chibi_godzilla_no_gyakushuu_2025_chibi_godzilla/",
     "mal_id": 61765,
-    "current_rank": 50,
+    "current_rank": 52,
     "karma_change": 1,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -1316,9 +1370,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9iz5q/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 51,
+    "current_rank": 53,
     "karma_change": -6,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1340,7 +1394,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oaxw3z/sutopuri_hajimari_no_monogatari_strawberry_school/",
     "mal_id": 58522,
-    "current_rank": 51,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1364,7 +1418,37 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9a2mt/binan_koukou_chikyuu_boueibu_eternal_love_cute/",
     "mal_id": 59406,
-    "current_rank": 53,
+    "current_rank": 55,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1472/148029l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1472/148029.jpg"
+    },
+    "num_episodes": 5,
+    "score": null,
+    "streams": null,
+    "title": "Miru: Watashi no Mirai",
+    "title_english": "Miru: Paths to My Future",
+    "episode": "",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [
+      "Studio Hibari",
+      "Shirogumi",
+      "Larx Entertainment",
+      "TriF Studio",
+      "Scooter Films",
+      "Reirs",
+      "LinQ"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ocdi0a/miru_watashi_no_mirai_miru_paths_to_my_future/",
+    "mal_id": 55727,
+    "current_rank": 56,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1388,9 +1472,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1o9th75/meitantei_conan_case_closed_episode_1179/",
     "mal_id": 235,
-    "current_rank": 54,
+    "current_rank": 57,
     "karma_change": -9,
-    "rank_change": 11,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1412,9 +1496,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oawkzh/koupen_chan_episode_29_discussion/",
     "mal_id": 60534,
-    "current_rank": 55,
+    "current_rank": 58,
     "karma_change": -5,
-    "rank_change": 16,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -1437,9 +1521,39 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ocb89z/2200nen_neko_no_kuni_nippon_episode_4_discussion/",
     "mal_id": 62496,
-    "current_rank": 56,
+    "current_rank": 59,
     "karma_change": -5,
-    "rank_change": 16,
+    "rank_change": 13,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1472/148029l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1472/148029.jpg"
+    },
+    "num_episodes": 5,
+    "score": null,
+    "streams": null,
+    "title": "Miru: Watashi no Mirai",
+    "title_english": "Miru: Paths to My Future",
+    "episode": "5",
+    "karma": 1,
+    "comments": 0,
+    "week_id": 4,
+    "studio": [
+      "Studio Hibari",
+      "Shirogumi",
+      "Larx Entertainment",
+      "TriF Studio",
+      "Scooter Films",
+      "Reirs",
+      "LinQ"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ocdhz4/miru_watashi_no_mirai_miru_paths_to_my_future/",
+    "mal_id": 55727,
+    "current_rank": 60,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   }
 ]
