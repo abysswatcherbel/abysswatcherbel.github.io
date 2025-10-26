@@ -175,5 +175,77 @@
     "karma_change": -14,
     "rank_change": 44,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1535/133157l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1535/133157.jpg"
+    },
+    "title": "Collar x Malice Movie: Deep Cover",
+    "title_english": "",
+    "num_episodes": 2,
+    "score": 5.72,
+    "streams": null,
+    "episode": "",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1of68ib/collarmalice_deep_cover_collar_x_malice_movie/",
+    "mal_id": 39905,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1725/144268l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1725/144268.jpg"
+    },
+    "title": "Touken Ranbu Kai: Douden Chikashi Haberau Monora",
+    "title_english": "Touken Ranbu Kai Douden",
+    "num_episodes": 1,
+    "score": 6.43,
+    "streams": null,
+    "episode": "",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "domerica"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1of698x/touken_ranbu_kai_douden_chikashi_haberau_monora/",
+    "mal_id": 58894,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1233/121779l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1233/121779.webp"
+    },
+    "title": "Toku: Touken Ranbu - Hanamaru - Setsugetsuka",
+    "title_english": "Touken Ranbu - Hanamaru Season 3",
+    "num_episodes": 3,
+    "score": 7.0,
+    "streams": null,
+    "episode": "",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Doga Kobo"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1of67ou/toku_touken_ranbu_hanamaru_setsugetsuka_yuki_no/",
+    "mal_id": 47777,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
   }
 ]
