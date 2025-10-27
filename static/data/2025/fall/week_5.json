@@ -378,6 +378,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1282/151476l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1282/151476.jpg"
+    },
+    "title": "Kingdom 6th Season",
+    "title_english": "Kingdom: Season 6",
+    "num_episodes": 0,
+    "score": 8.91,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
+    },
+    "episode": "4",
+    "karma": 131,
+    "comments": 31,
+    "week_id": 5,
+    "studio": [
+      "Studio Pierrot",
+      "Studio Signpost"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ofzx25/kingdom_season_6_episode_4_discussion/",
+    "mal_id": 61517,
+    "current_rank": 15,
+    "karma_change": -9,
+    "rank_change": 24,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1363/151886l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1363/151886.jpg"
     },
@@ -398,9 +426,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofr23l/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -5,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -425,9 +453,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofqf91/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -24,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -449,9 +477,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of28l6/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 0,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -473,7 +501,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of14wh/tougen_anki_episode_15_discussion/",
     "mal_id": 58811,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -500,9 +528,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of1rr6/shabake_episode_4_discussion/",
     "mal_id": 60378,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -23,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -524,9 +552,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oer0s5/catseye_cats_eye_episode_5_discussion/",
     "mal_id": 60347,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -14,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -548,9 +576,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofiwjj/pok\u00e9mon_horizons_the_series_episode_114_discussion/",
     "mal_id": 53876,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 3,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -572,7 +600,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of68ib/collarmalice_deep_cover_collar_x_malice_movie/",
     "mal_id": 39905,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -596,9 +624,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofdfrx/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -3,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "fall"
   },
   {
@@ -620,7 +648,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of698x/touken_ranbu_kai_douden_chikashi_haberau_monora/",
     "mal_id": 58894,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -644,7 +672,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of67ou/toku_touken_ranbu_hanamaru_setsugetsuka_yuki_no/",
     "mal_id": 47777,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
