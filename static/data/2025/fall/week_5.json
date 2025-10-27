@@ -202,6 +202,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
+    },
+    "title": "Hyakushou Kizoku 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.47,
+    "streams": null,
+    "episode": "32",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ofdfrx/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
+    "mal_id": 60551,
+    "current_rank": 9,
+    "karma_change": -3,
+    "rank_change": 68,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1725/144268l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1725/144268.jpg"
     },
@@ -219,7 +243,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of698x/touken_ranbu_kai_douden_chikashi_haberau_monora/",
     "mal_id": 58894,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -243,7 +267,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of67ou/toku_touken_ranbu_hanamaru_setsugetsuka_yuki_no/",
     "mal_id": 47777,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
