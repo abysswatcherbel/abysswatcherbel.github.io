@@ -644,6 +644,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1025/150482l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1025/150482.jpg"
+    },
+    "title": "Sawaranaide Kotesashi-kun",
+    "title_english": "Hands off: Sawaranaide Kotesashi-kun",
+    "num_episodes": 12,
+    "score": 6.39,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00365079"
+    },
+    "episode": "4",
+    "karma": 114,
+    "comments": 20,
+    "week_id": 5,
+    "studio": [
+      "Quad"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ogojph/sawaranaide_kotesashikun_hands_off_sawaranaide/",
+    "mal_id": 61142,
+    "current_rank": 25,
+    "karma_change": -38,
+    "rank_change": 11,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1478/151722l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1478/151722.jpg"
     },
@@ -664,9 +691,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofqf91/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -24,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -688,9 +715,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of28l6/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -712,7 +739,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of14wh/tougen_anki_episode_15_discussion/",
     "mal_id": 58811,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -739,9 +766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of1rr6/shabake_episode_4_discussion/",
     "mal_id": 60378,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -23,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -763,9 +790,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oer0s5/catseye_cats_eye_episode_5_discussion/",
     "mal_id": 60347,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -14,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -787,9 +814,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofiwjj/pok\u00e9mon_horizons_the_series_episode_114_discussion/",
     "mal_id": 53876,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 3,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -814,9 +841,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1og8y5w/sivis_the_sound_of_heroes_episode_4_discussion/",
     "mal_id": 62126,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -6,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -838,9 +865,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1og8csq/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -5,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -862,9 +889,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ogcrk1/koupen_chan_episode_30_discussion/",
     "mal_id": 60534,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 5,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -886,7 +913,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of68ib/collarmalice_deep_cover_collar_x_malice_movie/",
     "mal_id": 39905,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -910,9 +937,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofdfrx/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "fall"
   },
   {
@@ -934,7 +961,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of698x/touken_ranbu_kai_douden_chikashi_haberau_monora/",
     "mal_id": 58894,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -958,7 +985,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of67ou/toku_touken_ranbu_hanamaru_setsugetsuka_yuki_no/",
     "mal_id": 47777,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
