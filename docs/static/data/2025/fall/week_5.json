@@ -696,6 +696,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1500/151301l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1500/151301.webp"
+    },
+    "title": "Disney Twisted-Wonderland The Animation: Episode of Heartslabyul",
+    "title_english": "",
+    "num_episodes": 8,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 143,
+    "comments": 132,
+    "week_id": 5,
+    "studio": [
+      "Yumeta Company",
+      "Graphinica"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixu46/disney_twistedwonderland_the_animation_episode_1/",
+    "mal_id": 50139,
+    "current_rank": 27,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1362/151636l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1362/151636.jpg"
     },
@@ -716,9 +741,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofttib/mikata_ga_yowasugite_hojo_mahou_ni_tesshiteita/",
     "mal_id": 61276,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -8,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -743,9 +768,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ogks1x/chanto_suenai_kyuuketsukichan_lil_miss_vampire/",
     "mal_id": 60933,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -42,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -771,9 +796,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofzx25/kingdom_season_6_episode_4_discussion/",
     "mal_id": 61517,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -9,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -799,9 +824,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oglh1g/kikaijikake_no_marie_mechanical_marie_episode_4/",
     "mal_id": 59484,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 1,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -826,9 +851,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofr23l/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -5,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -853,9 +878,41 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ogojph/sawaranaide_kotesashikun_hands_off_sawaranaide/",
     "mal_id": 61142,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -38,
-    "rank_change": 4,
+    "rank_change": 3,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "9",
+    "karma": 109,
+    "comments": 45,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvlr/star_wars_visions_volume_3_black_episode_9/",
+    "mal_id": 60336,
+    "current_rank": 34,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -880,9 +937,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofqf91/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 33,
+    "current_rank": 35,
     "karma_change": -24,
-    "rank_change": 11,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -908,9 +965,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ohho3z/sozai_saishuka_no_isekai_ryokouki_a_gatherers/",
     "mal_id": 61174,
-    "current_rank": 34,
+    "current_rank": 36,
     "karma_change": -28,
-    "rank_change": 9,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -935,9 +992,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oibuel/kimi_to_koete_koi_ni_naru_with_you_our_love_will/",
     "mal_id": 60765,
-    "current_rank": 35,
+    "current_rank": 37,
     "karma_change": -52,
-    "rank_change": 3,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -959,9 +1016,41 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of28l6/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 36,
+    "current_rank": 38,
     "karma_change": 0,
-    "rank_change": 12,
+    "rank_change": 10,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 71,
+    "comments": 23,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvfe/star_wars_visions_volume_3_the_duel_payback/",
+    "mal_id": 60336,
+    "current_rank": 39,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "fall"
   },
   {
@@ -983,7 +1072,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of14wh/tougen_anki_episode_15_discussion/",
     "mal_id": 58811,
-    "current_rank": 37,
+    "current_rank": 40,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1007,9 +1096,41 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oifwbx/ninja_to_gokudou_ninja_vs_gokudo_episode_4/",
     "mal_id": 61067,
-    "current_rank": 38,
+    "current_rank": 41,
     "karma_change": 1,
-    "rank_change": 15,
+    "rank_change": 12,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 38,
+    "comments": 18,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvh0/star_wars_visions_volume_3_the_ninth_jedi_child/",
+    "mal_id": 60336,
+    "current_rank": 42,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -1034,9 +1155,41 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of1rr6/shabake_episode_4_discussion/",
     "mal_id": 60378,
-    "current_rank": 39,
+    "current_rank": 43,
     "karma_change": -23,
-    "rank_change": 11,
+    "rank_change": 7,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "7",
+    "karma": 37,
+    "comments": 13,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvjw/star_wars_visions_volume_3_the_song_of_four_wings/",
+    "mal_id": 60336,
+    "current_rank": 44,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -1061,9 +1214,137 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ohgv5k/debu_to_love_to_ayamachi_to_plussized/",
     "mal_id": 57189,
-    "current_rank": 40,
+    "current_rank": 45,
     "karma_change": -3,
-    "rank_change": 12,
+    "rank_change": 7,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 36,
+    "comments": 6,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvg9/star_wars_visions_volume_3_the_lost_ones_episode/",
+    "mal_id": 60336,
+    "current_rank": 46,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "4",
+    "karma": 33,
+    "comments": 14,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvhk/star_wars_visions_volume_3_yukos_treasure_episode/",
+    "mal_id": 60336,
+    "current_rank": 47,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "5",
+    "karma": 32,
+    "comments": 4,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvi9/star_wars_visions_volume_3_the_smuggler_episode_5/",
+    "mal_id": 60336,
+    "current_rank": 48,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "8",
+    "karma": 31,
+    "comments": 7,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvkt/star_wars_visions_volume_3_bird_of_paradise/",
+    "mal_id": 60336,
+    "current_rank": 49,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -1085,9 +1366,41 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oer0s5/catseye_cats_eye_episode_5_discussion/",
     "mal_id": 60347,
-    "current_rank": 41,
+    "current_rank": 50,
     "karma_change": -14,
-    "rank_change": 10,
+    "rank_change": 1,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1007/151669l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1007/151669.jpg"
+    },
+    "title": "Star Wars: Visions Volume 3",
+    "title_english": "Star Wars: Visions Volume 3",
+    "num_episodes": 9,
+    "score": null,
+    "streams": null,
+    "episode": "6",
+    "karma": 30,
+    "comments": 8,
+    "week_id": 5,
+    "studio": [
+      "Production I.G",
+      "David Production",
+      "Kinema Citrus",
+      "Anima",
+      "Kamikaze Douga",
+      "Trigger",
+      "Wit Studio",
+      "Polygon Pictures",
+      "Project Studio Q"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oixvj0/star_wars_visions_volume_3_the_bounty_hunters/",
+    "mal_id": 60336,
+    "current_rank": 51,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -1109,9 +1422,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofiwjj/pok\u00e9mon_horizons_the_series_episode_114_discussion/",
     "mal_id": 53876,
-    "current_rank": 42,
+    "current_rank": 52,
     "karma_change": 3,
-    "rank_change": 16,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -1136,9 +1449,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1og8y5w/sivis_the_sound_of_heroes_episode_4_discussion/",
     "mal_id": 62126,
-    "current_rank": 43,
+    "current_rank": 53,
     "karma_change": -6,
-    "rank_change": 14,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -1160,9 +1473,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1og8csq/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 44,
+    "current_rank": 54,
     "karma_change": -5,
-    "rank_change": 18,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1184,9 +1497,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oielbt/ganglion_episode_4_discussion/",
     "mal_id": 62378,
-    "current_rank": 45,
+    "current_rank": 55,
     "karma_change": -18,
-    "rank_change": 10,
+    "rank_change": 0,
     "season": "fall"
   },
   {
@@ -1208,9 +1521,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ogcrk1/koupen_chan_episode_30_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 56,
     "karma_change": 5,
-    "rank_change": 36,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -1232,7 +1545,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of68ib/collarmalice_deep_cover_collar_x_malice_movie/",
     "mal_id": 39905,
-    "current_rank": 47,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1256,9 +1569,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofdfrx/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 48,
+    "current_rank": 58,
     "karma_change": -3,
-    "rank_change": 29,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -1280,7 +1593,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of698x/touken_ranbu_kai_douden_chikashi_haberau_monora/",
     "mal_id": 58894,
-    "current_rank": 49,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1304,7 +1617,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of67ou/toku_touken_ranbu_hanamaru_setsugetsuka_yuki_no/",
     "mal_id": 47777,
-    "current_rank": 49,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
