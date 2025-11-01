@@ -1692,6 +1692,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "101",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 5,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ojst5h/beyblade_x_episode_101_discussion/",
+    "mal_id": 56566,
+    "current_rank": 63,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
     },
@@ -1709,9 +1733,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oj1xkz/ugoku_neko_mukashibanashi_cat_tales_episode_3/",
     "mal_id": 61254,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -7,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1733,7 +1757,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of68ib/collarmalice_deep_cover_collar_x_malice_movie/",
     "mal_id": 39905,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1757,9 +1781,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ofdfrx/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -3,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1779,7 +1803,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1oiyxbo/petitcure_precure_fairies_episode_30_discussion/",
     "mal_id": 61272,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1803,7 +1827,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of698x/touken_ranbu_kai_douden_chikashi_haberau_monora/",
     "mal_id": 58894,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1827,7 +1851,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1of67ou/toku_touken_ranbu_hanamaru_setsugetsuka_yuki_no/",
     "mal_id": 47777,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
