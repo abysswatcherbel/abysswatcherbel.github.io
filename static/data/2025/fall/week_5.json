@@ -893,7 +893,10 @@
     "title_english": "",
     "num_episodes": 8,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/"
+    },
     "episode": "1",
     "karma": 143,
     "comments": 132,
@@ -1082,7 +1085,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "9",
     "karma": 109,
     "comments": 45,
@@ -1268,7 +1274,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "1",
     "karma": 71,
     "comments": 23,
@@ -1403,7 +1412,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "3",
     "karma": 38,
     "comments": 18,
@@ -1462,7 +1474,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "7",
     "karma": 37,
     "comments": 13,
@@ -1521,7 +1536,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "2",
     "karma": 36,
     "comments": 6,
@@ -1553,7 +1571,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "4",
     "karma": 33,
     "comments": 14,
@@ -1585,7 +1606,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "5",
     "karma": 32,
     "comments": 4,
@@ -1617,7 +1641,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "8",
     "karma": 31,
     "comments": 7,
@@ -1673,7 +1700,10 @@
     "title_english": "Star Wars: Visions Volume 3",
     "num_episodes": 9,
     "score": null,
-    "streams": null,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/browse/entity-38cebadb-e808-47aa-8223-181fc1416ec1"
+    },
     "episode": "6",
     "karma": 30,
     "comments": 8,
