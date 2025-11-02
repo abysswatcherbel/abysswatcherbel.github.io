@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
+    },
+    "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
+    "title_english": "May I Ask for One Final Thing?",
+    "num_episodes": 0,
+    "score": 7.73,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GW4HM7WQ5"
+    },
+    "episode": "6",
+    "karma": 669,
+    "comments": 197,
+    "week_id": 6,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1okzc8z/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
+    "mal_id": 59846,
+    "current_rank": 1,
+    "karma_change": -101,
+    "rank_change": 3,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
     },
@@ -21,9 +48,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okxa0r/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -24,
-    "rank_change": 17,
+    "rank_change": 16,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
+    },
+    "title": "Watari-kun no xx ga Houkai Sunzen",
+    "title_english": "Watari-kun's ****** Is about to Collapse",
+    "num_episodes": 13,
+    "score": 6.16,
+    "streams": null,
+    "episode": "18",
+    "karma": 82,
+    "comments": 102,
+    "week_id": 6,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1okz0tk/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
+    "mal_id": 56693,
+    "current_rank": 3,
+    "karma_change": -3,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -45,9 +96,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okxr0q/tougen_anki_episode_16_discussion/",
     "mal_id": 58811,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -9,
-    "rank_change": 48,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -69,9 +120,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okpqfq/catseye_cats_eye_episode_6_discussion/",
     "mal_id": 60347,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 16,
-    "rank_change": 58,
+    "rank_change": 56,
     "season": "fall"
   },
   {
@@ -91,9 +142,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 0,
-    "rank_change": 71,
+    "rank_change": 69,
     "season": "fall"
   }
 ]
