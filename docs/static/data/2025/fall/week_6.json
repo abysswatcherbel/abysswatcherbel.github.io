@@ -28,6 +28,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1364/151767l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1364/151767.jpg"
+    },
+    "title": "Sanda",
+    "title_english": "Sanda",
+    "num_episodes": 0,
+    "score": 7.44,
+    "streams": {
+      "name": "Prime",
+      "url": "https://www.amazon.com/gp/video/detail/0RHO5XK5C9V2B2MKW2P61PQSRS"
+    },
+    "episode": "5",
+    "karma": 433,
+    "comments": 149,
+    "week_id": 6,
+    "studio": [
+      "Science SARU"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ol1jjm/sanda_episode_5_discussion/",
+    "mal_id": 59267,
+    "current_rank": 2,
+    "karma_change": 64,
+    "rank_change": 13,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
     },
@@ -48,9 +75,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okxa0r/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -24,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -72,9 +99,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okz0tk/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -3,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -96,9 +123,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okxr0q/tougen_anki_episode_16_discussion/",
     "mal_id": 58811,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -9,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -120,9 +147,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okpqfq/catseye_cats_eye_episode_6_discussion/",
     "mal_id": 60347,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 16,
-    "rank_change": 56,
+    "rank_change": 55,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1736/152179l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1736/152179.jpg"
+    },
+    "title": "Shabake",
+    "title_english": "Shabake",
+    "num_episodes": 0,
+    "score": 6.34,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00362195"
+    },
+    "episode": "5",
+    "karma": 40,
+    "comments": 13,
+    "week_id": 6,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ol12kq/shabake_episode_5_discussion/",
+    "mal_id": 60378,
+    "current_rank": 7,
+    "karma_change": 3,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -142,9 +196,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
-    "rank_change": 69,
+    "rank_change": 67,
     "season": "fall"
   }
 ]
