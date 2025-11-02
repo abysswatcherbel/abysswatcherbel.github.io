@@ -63,7 +63,10 @@
     "title_english": "Gachiakuta",
     "num_episodes": 24,
     "score": 8.02,
-    "streams": null,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta"
+    },
     "episode": "16",
     "karma": 980,
     "comments": 220,
@@ -328,7 +331,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1276/151118.jpg"
     },
     "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
-    "title_english": "My Status as an Assassin Obviously Exceeds the Hero's",
+    "title_english": "AssStats",
     "num_episodes": 0,
     "score": 7.35,
     "streams": {
@@ -355,7 +358,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1206/151772.jpg"
     },
     "title": "Tondemo Skill de Isekai Hourou Meshi 2",
-    "title_english": "Campfire Cooking in Another World with My Absurd Skill Season 2",
+    "title_english": "Campfire Cooking Season 2",
     "num_episodes": 12,
     "score": 7.76,
     "streams": {
@@ -385,7 +388,10 @@
     "title_english": "Sanda",
     "num_episodes": 0,
     "score": 7.44,
-    "streams": null,
+    "streams": {
+      "name": "Prime",
+      "url": "https://www.amazon.com/gp/video/detail/0RHO5XK5C9V2B2MKW2P61PQSRS"
+    },
     "episode": "4",
     "karma": 369,
     "comments": 97,
