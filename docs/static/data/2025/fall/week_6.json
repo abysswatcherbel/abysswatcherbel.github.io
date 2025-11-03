@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1959/151055l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1959/151055.jpg"
+    },
+    "title": "Boku no Hero Academia: Final Season",
+    "title_english": "My Hero Academia Final Season",
+    "num_episodes": 0,
+    "score": 8.76,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G6NQ5DWZ6"
+    },
+    "episode": "5",
+    "karma": 1852,
+    "comments": 344,
+    "week_id": 6,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1olj60i/boku_no_hero_academia_final_season_my_hero/",
+    "mal_id": 60098,
+    "current_rank": 1,
+    "karma_change": -434,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
     },
@@ -21,9 +48,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okzc8z/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
     "mal_id": 59846,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -101,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -48,9 +75,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ol1jjm/sanda_episode_5_discussion/",
     "mal_id": 59267,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 64,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -75,9 +102,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okxa0r/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -24,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -99,9 +126,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okz0tk/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -3,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "fall"
   },
   {
@@ -123,9 +150,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okxr0q/tougen_anki_episode_16_discussion/",
     "mal_id": 58811,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -9,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -147,9 +174,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1okpqfq/catseye_cats_eye_episode_6_discussion/",
     "mal_id": 60347,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 16,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "fall"
   },
   {
@@ -171,9 +198,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olg9h3/pok\u00e9mon_horizons_the_series_episode_115_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 13,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "fall"
   },
   {
@@ -198,9 +225,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ol12kq/shabake_episode_5_discussion/",
     "mal_id": 60378,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 3,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -222,9 +249,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -1,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "fall"
   },
   {
@@ -244,9 +271,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "fall"
   }
 ]
