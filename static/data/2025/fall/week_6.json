@@ -232,6 +232,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1180",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 6,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1olljrg/meitantei_conan_case_closed_episode_1180/",
+    "mal_id": 235,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
     },
@@ -249,9 +273,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -1,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "fall"
   },
   {
@@ -271,9 +295,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "fall"
   }
 ]
