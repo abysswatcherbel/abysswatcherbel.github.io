@@ -181,6 +181,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
+    },
+    "title": "Hyakushou Kizoku 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.47,
+    "streams": null,
+    "episode": "33",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
+    "mal_id": 60551,
+    "current_rank": 8,
+    "karma_change": -1,
+    "rank_change": 66,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
     },
@@ -196,9 +220,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
-    "rank_change": 67,
+    "rank_change": 66,
     "season": "fall"
   }
 ]
