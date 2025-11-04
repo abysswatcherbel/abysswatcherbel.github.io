@@ -969,5 +969,33 @@
     "karma_change": 0,
     "rank_change": 38,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1889/151926l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1889/151926.jpg"
+    },
+    "title": "Heika Watashi wo Wasurete Kudasai",
+    "title_english": "Forget That Night, Your Majesty",
+    "num_episodes": 0,
+    "score": 5.89,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G4PH0WJ8V"
+    },
+    "episode": "4",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1omtfiw/heika_watashi_wo_wasurete_kudasai_forget_that/",
+    "mal_id": 62428,
+    "current_rank": 37,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
   }
 ]
