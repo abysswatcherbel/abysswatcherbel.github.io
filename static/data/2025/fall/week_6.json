@@ -610,6 +610,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 6.09,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
+    "episode": "5",
+    "karma": 14,
+    "comments": 9,
+    "week_id": 6,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1om5k1w/sivis_the_sound_of_heroes_episode_5_discussion/",
+    "mal_id": 62126,
+    "current_rank": 24,
+    "karma_change": -7,
+    "rank_change": 42,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -627,7 +654,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olljrg/meitantei_conan_case_closed_episode_1180/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -651,9 +678,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -1,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -673,9 +700,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   }
 ]
