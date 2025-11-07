@@ -1225,6 +1225,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "4",
+    "karma": 7,
+    "comments": 4,
+    "week_id": 6,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1op04fx/ugoku_neko_mukashibanashi_cat_tales_episode_4/",
+    "mal_id": 61254,
+    "current_rank": 47,
+    "karma_change": 2,
+    "rank_change": 25,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1242,9 +1266,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1onckxc/koupen_chan_episode_31_discussion/",
     "mal_id": 60534,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -3,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -1266,7 +1290,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olljrg/meitantei_conan_case_closed_episode_1180/",
     "mal_id": 235,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1291,7 +1315,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oo4qov/2200nen_neko_no_kuni_nippon_episode_6_discussion/",
     "mal_id": 62496,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1315,9 +1339,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -1,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -1339,7 +1363,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oohukw/nmeneko_episode_22_discussion/",
     "mal_id": 60947,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1361,9 +1385,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -1389,7 +1413,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1omtfiw/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
