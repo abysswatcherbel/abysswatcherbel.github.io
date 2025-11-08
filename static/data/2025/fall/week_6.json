@@ -1338,6 +1338,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 6.7,
+    "streams": null,
+    "episode": "6",
+    "karma": 18,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1opyh6i/ganso_bandorichan_ganso_bang_dream_chan_episode_6/",
+    "mal_id": 61107,
+    "current_rank": 51,
+    "karma_change": -3,
+    "rank_change": 16,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -1355,7 +1377,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oln1ax/princession_orchestra_episode_28_discussion/",
     "mal_id": 59078,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1382,9 +1404,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1om5k1w/sivis_the_sound_of_heroes_episode_5_discussion/",
     "mal_id": 62126,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -7,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -1406,9 +1428,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1op04fx/ugoku_neko_mukashibanashi_cat_tales_episode_4/",
     "mal_id": 61254,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 2,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -1430,9 +1452,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1onckxc/koupen_chan_episode_31_discussion/",
     "mal_id": 60534,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -1454,7 +1476,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olljrg/meitantei_conan_case_closed_episode_1180/",
     "mal_id": 235,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1479,7 +1501,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oo4qov/2200nen_neko_no_kuni_nippon_episode_6_discussion/",
     "mal_id": 62496,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1503,9 +1525,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -1,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1527,7 +1549,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oohukw/nmeneko_episode_22_discussion/",
     "mal_id": 60947,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1549,9 +1571,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1571,9 +1593,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1opupu6/petitcure_precure_fairies_episode_32_discussion/",
     "mal_id": 61272,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1599,7 +1621,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1omtfiw/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
