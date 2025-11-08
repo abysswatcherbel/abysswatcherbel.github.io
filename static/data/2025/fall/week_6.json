@@ -1619,6 +1619,58 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1889/151926l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1889/151926.jpg"
+    },
+    "title": "Heika Watashi wo Wasurete Kudasai",
+    "title_english": "Forget That Night, Your Majesty",
+    "num_episodes": 0,
+    "score": 5.89,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G4PH0WJ8V"
+    },
+    "episode": "5",
+    "karma": 6,
+    "comments": 5,
+    "week_id": 6,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oq9gv0/heika_watashi_wo_wasurete_kudasai_forget_that/",
+    "mal_id": 62428,
+    "current_rank": 62,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "102",
+    "karma": 6,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oq9mkf/beyblade_x_episode_102_discussion/",
+    "mal_id": 56566,
+    "current_rank": 63,
+    "karma_change": 0,
+    "rank_change": 8,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1636,9 +1688,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1onckxc/koupen_chan_episode_31_discussion/",
     "mal_id": 60534,
-    "current_rank": 62,
+    "current_rank": 64,
     "karma_change": -3,
-    "rank_change": 8,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -1660,7 +1712,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olljrg/meitantei_conan_case_closed_episode_1180/",
     "mal_id": 235,
-    "current_rank": 63,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1685,7 +1737,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oo4qov/2200nen_neko_no_kuni_nippon_episode_6_discussion/",
     "mal_id": 62496,
-    "current_rank": 64,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1709,9 +1761,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1olbkpm/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 65,
+    "current_rank": 67,
     "karma_change": -1,
-    "rank_change": 9,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1733,7 +1785,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oohukw/nmeneko_episode_22_discussion/",
     "mal_id": 60947,
-    "current_rank": 66,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1755,9 +1807,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1okqu4e/petitcure_precure_fairies_episode_31_discussion/",
     "mal_id": 61272,
-    "current_rank": 66,
+    "current_rank": 68,
     "karma_change": 0,
-    "rank_change": 9,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1777,9 +1829,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1opupu6/petitcure_precure_fairies_episode_32_discussion/",
     "mal_id": 61272,
-    "current_rank": 66,
+    "current_rank": 68,
     "karma_change": 0,
-    "rank_change": 9,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1805,7 +1857,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1omtfiw/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 66,
+    "current_rank": 68,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
