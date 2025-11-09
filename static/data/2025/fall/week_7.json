@@ -82,6 +82,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1270/145168l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1270/145168.jpg"
+    },
+    "title": "Natsume Yuujinchou Shichi",
+    "title_english": "Natsume's Book of Friends Season 7",
+    "num_episodes": 12,
+    "score": 8.58,
+    "streams": null,
+    "episode": "13",
+    "karma": 67,
+    "comments": 10,
+    "week_id": 7,
+    "studio": [
+      "Shuka"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1or2ish/natsume_yuujinchou_shichi_natsumes_book_of/",
+    "mal_id": 55823,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
     },
@@ -99,9 +123,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqxiwl/tougen_anki_episode_17_discussion/",
     "mal_id": 58811,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 17,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -123,9 +147,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyssf/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -26,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -150,9 +174,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyb7a/shabake_episode_6_discussion/",
     "mal_id": 60378,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 5,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   }
 ]
