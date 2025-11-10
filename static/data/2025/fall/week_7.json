@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1959/151055l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1959/151055.jpg"
+    },
+    "title": "Boku no Hero Academia: Final Season",
+    "title_english": "My Hero Academia Final Season",
+    "num_episodes": 0,
+    "score": 8.79,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G6NQ5DWZ6"
+    },
+    "episode": "6",
+    "karma": 2021,
+    "comments": 264,
+    "week_id": 7,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1orkvoi/boku_no_hero_academia_final_season_my_hero/",
+    "mal_id": 60098,
+    "current_rank": 1,
+    "karma_change": 169,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
     },
@@ -21,9 +48,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqz45g/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
     "mal_id": 59846,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -111,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "fall"
   },
   {
@@ -50,7 +77,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xke/tatsuki_fujimoto_1726_episodes_18_megathread/",
     "mal_id": 62405,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -79,7 +106,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xhg/tatsuki_fujimoto_1726_episode_1_discussion/",
     "mal_id": 62405,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -106,9 +133,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or1cuj/sanda_episode_6_discussion/",
     "mal_id": 59267,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -71,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -135,7 +162,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xj2/tatsuki_fujimoto_1726_episode_8_discussion/",
     "mal_id": 62405,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -162,9 +189,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqwq4r/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 11,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -191,7 +218,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xil/tatsuki_fujimoto_1726_episode_6_discussion/",
     "mal_id": 62405,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -220,7 +247,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xht/tatsuki_fujimoto_1726_episode_3_discussion/",
     "mal_id": 62405,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -249,7 +276,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xie/tatsuki_fujimoto_1726_episode_5_discussion/",
     "mal_id": 62405,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -278,7 +305,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xis/tatsuki_fujimoto_1726_episode_7_discussion/",
     "mal_id": 62405,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -307,7 +334,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xhj/tatsuki_fujimoto_1726_episode_2_discussion/",
     "mal_id": 62405,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -336,7 +363,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or4xi3/tatsuki_fujimoto_1726_episode_4_discussion/",
     "mal_id": 62405,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -360,7 +387,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or2ish/natsume_yuujinchou_shichi_natsumes_book_of/",
     "mal_id": 55823,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -384,9 +411,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqxiwl/tougen_anki_episode_17_discussion/",
     "mal_id": 58811,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 17,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "fall"
   },
   {
@@ -408,9 +435,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyssf/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -26,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -435,9 +462,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyb7a/shabake_episode_6_discussion/",
     "mal_id": 60378,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 5,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -459,9 +486,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orhmww/pok\u00e9mon_horizons_the_series_episode_116_discussion/",
     "mal_id": 53876,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -19,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "fall"
   },
   {
@@ -483,9 +510,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orbfj8/princession_orchestra_episode_29_discussion/",
     "mal_id": 59078,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   }
 ]
