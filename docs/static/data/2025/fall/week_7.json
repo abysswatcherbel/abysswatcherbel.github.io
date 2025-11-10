@@ -615,6 +615,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1282/151476l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1282/151476.jpg"
+    },
+    "title": "Kingdom 6th Season",
+    "title_english": "Kingdom: Season 6",
+    "num_episodes": 0,
+    "score": 8.99,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
+    },
+    "episode": "6",
+    "karma": 136,
+    "comments": 41,
+    "week_id": 7,
+    "studio": [
+      "Studio Pierrot",
+      "Studio Signpost"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1orxppa/kingdom_season_6_episode_6_discussion/",
+    "mal_id": 61517,
+    "current_rank": 23,
+    "karma_change": 18,
+    "rank_change": 15,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1362/151636l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1362/151636.jpg"
     },
@@ -635,9 +663,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orrlbq/mikata_ga_yowasugite_hojo_mahou_ni_tesshiteita/",
     "mal_id": 61276,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -45,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   },
   {
@@ -662,9 +690,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orow2q/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -22,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -689,9 +717,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oroacv/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -2,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -713,7 +741,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or2ish/natsume_yuujinchou_shichi_natsumes_book_of/",
     "mal_id": 55823,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -737,9 +765,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqxiwl/tougen_anki_episode_17_discussion/",
     "mal_id": 58811,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 17,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -761,9 +789,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyssf/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -26,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -788,9 +816,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyb7a/shabake_episode_6_discussion/",
     "mal_id": 60378,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 5,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -812,9 +840,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orhmww/pok\u00e9mon_horizons_the_series_episode_116_discussion/",
     "mal_id": 53876,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -19,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -836,9 +864,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orbfj8/princession_orchestra_episode_29_discussion/",
     "mal_id": 59078,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -860,9 +888,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oroa1l/meitantei_conan_case_closed_episode_1181/",
     "mal_id": 235,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 6,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   }
 ]
