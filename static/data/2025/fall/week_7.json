@@ -1043,6 +1043,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/151136l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/151136.jpg"
+    },
+    "title": "Sozai Saishuka no Isekai Ryokouki",
+    "title_english": "A Gatherer's Adventure in Isekai",
+    "num_episodes": 0,
+    "score": 6.01,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G1XHJV0G7"
+    },
+    "episode": "7",
+    "karma": 90,
+    "comments": 112,
+    "week_id": 7,
+    "studio": [
+      "Tatsunoko Production",
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1otgver/sozai_saishuka_no_isekai_ryokouki_a_gatherers/",
+    "mal_id": 61174,
+    "current_rank": 39,
+    "karma_change": 3,
+    "rank_change": 6,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1270/145168l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1270/145168.jpg"
     },
@@ -1060,7 +1088,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1or2ish/natsume_yuujinchou_shichi_natsumes_book_of/",
     "mal_id": 55823,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1084,9 +1112,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqxiwl/tougen_anki_episode_17_discussion/",
     "mal_id": 58811,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 17,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1108,9 +1136,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyssf/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -26,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -1135,9 +1163,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oqyb7a/shabake_episode_6_discussion/",
     "mal_id": 60378,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 5,
-    "rank_change": 12,
+    "rank_change": 11,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1669/151736l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1669/151736.jpg"
+    },
+    "title": "Debu to Love to Ayamachi to!",
+    "title_english": "Plus-sized Misadventures in Love!",
+    "num_episodes": 0,
+    "score": 6.22,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G9VHN9QGG"
+    },
+    "episode": "6",
+    "karma": 43,
+    "comments": 22,
+    "week_id": 7,
+    "studio": [
+      "Marvy Jack"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1otg3gi/debu_to_love_to_ayamachi_to_plussized/",
+    "mal_id": 57189,
+    "current_rank": 44,
+    "karma_change": 6,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1159,9 +1214,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orhmww/pok\u00e9mon_horizons_the_series_episode_116_discussion/",
     "mal_id": 53876,
-    "current_rank": 43,
+    "current_rank": 45,
     "karma_change": -19,
-    "rank_change": 9,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1186,9 +1241,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1os75ft/sivis_the_sound_of_heroes_episode_6_discussion/",
     "mal_id": 62126,
-    "current_rank": 44,
+    "current_rank": 46,
     "karma_change": 7,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -1210,7 +1265,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1os6s55/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 45,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1234,9 +1289,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1orbfj8/princession_orchestra_episode_29_discussion/",
     "mal_id": 59078,
-    "current_rank": 46,
+    "current_rank": 48,
     "karma_change": 0,
-    "rank_change": 13,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1258,9 +1313,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oroa1l/meitantei_conan_case_closed_episode_1181/",
     "mal_id": 235,
-    "current_rank": 47,
+    "current_rank": 49,
     "karma_change": 6,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "fall"
   }
 ]
