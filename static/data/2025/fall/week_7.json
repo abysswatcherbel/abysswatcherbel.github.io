@@ -1371,5 +1371,29 @@
     "karma_change": 6,
     "rank_change": 14,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "32",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 7,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ou1c2j/koupen_chan_episode_32_discussion/",
+    "mal_id": 60534,
+    "current_rank": 52,
+    "karma_change": 1,
+    "rank_change": 12,
+    "season": "fall"
   }
 ]
