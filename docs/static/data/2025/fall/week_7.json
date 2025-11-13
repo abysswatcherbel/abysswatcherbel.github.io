@@ -1500,5 +1500,29 @@
     "karma_change": 1,
     "rank_change": 8,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
+    },
+    "title": "Hyakushou Kizoku 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.57,
+    "streams": null,
+    "episode": "34",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 7,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oumv8k/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
+    "mal_id": 60551,
+    "current_rank": 57,
+    "karma_change": 3,
+    "rank_change": 10,
+    "season": "fall"
   }
 ]
