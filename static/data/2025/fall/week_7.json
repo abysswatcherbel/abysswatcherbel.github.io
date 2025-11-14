@@ -1507,6 +1507,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "5",
+    "karma": 9,
+    "comments": 3,
+    "week_id": 7,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ov2rj2/ugoku_neko_mukashibanashi_cat_tales_episode_5/",
+    "mal_id": 61254,
+    "current_rank": 57,
+    "karma_change": 2,
+    "rank_change": 4,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1524,9 +1548,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ou1c2j/koupen_chan_episode_32_discussion/",
     "mal_id": 60534,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 1,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -1548,9 +1572,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oumv8k/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 3,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   }
 ]
