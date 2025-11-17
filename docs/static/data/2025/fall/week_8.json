@@ -109,6 +109,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1363/151886l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1363/151886.jpg"
+    },
+    "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
+    "title_english": "Inexpressive Kashiwada and Expressive Oota",
+    "num_episodes": 0,
+    "score": 6.74,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00362007"
+    },
+    "episode": "7",
+    "karma": 122,
+    "comments": 32,
+    "week_id": 8,
+    "studio": [
+      "Studio Polon"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1oxr7bv/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
+    "mal_id": 61209,
+    "current_rank": 5,
+    "karma_change": 23,
+    "rank_change": 44,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1478/151722l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1478/151722.jpg"
     },
@@ -129,9 +156,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oxqlbn/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -153,9 +180,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ox0yu9/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 22,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -177,9 +204,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1owznpd/tougen_anki_episode_18_discussion/",
     "mal_id": 58811,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -3,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -204,9 +231,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ox0h77/shabake_episode_7_discussion/",
     "mal_id": 60378,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 1,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -228,9 +255,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oxii4k/pok\u00e9mon_horizons_the_series_episode_117_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 15,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "fall"
   },
   {
@@ -252,9 +279,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oxqkzv/meitantei_conan_case_closed_episode_1182/",
     "mal_id": 235,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -3,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "fall"
   },
   {
@@ -280,7 +307,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1oxd56z/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -304,7 +331,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1owpn60/beyblade_x_episode_103_discussion/",
     "mal_id": 56566,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
