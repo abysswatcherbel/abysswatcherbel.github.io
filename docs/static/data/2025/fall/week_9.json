@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
+    },
+    "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+    "title_english": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
+    "num_episodes": 0,
+    "score": 6.59,
+    "streams": {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/"
+    },
+    "episode": "8",
+    "karma": 263,
+    "comments": 186,
+    "week_id": 9,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p3186z/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
+    "mal_id": 60303,
+    "current_rank": 1,
+    "karma_change": 8,
+    "rank_change": 16,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.62,
+    "streams": null,
+    "episode": "19",
+    "karma": 50,
+    "comments": 54,
+    "week_id": 9,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p31ueo/tougen_anki_episode_19_discussion/",
+    "mal_id": 58811,
+    "current_rank": 2,
+    "karma_change": -13,
+    "rank_change": 43,
+    "season": "fall"
+  }
+]
