@@ -109,6 +109,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1478/151722l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1478/151722.jpg"
+    },
+    "title": "Kekkon Yubiwa Monogatari II",
+    "title_english": "Tales of Wedding Rings Season 2",
+    "num_episodes": 0,
+    "score": 6.71,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G79H23ZGP"
+    },
+    "episode": "8",
+    "karma": 85,
+    "comments": 33,
+    "week_id": 9,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p3s5bq/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
+    "mal_id": 58515,
+    "current_rank": 5,
+    "karma_change": -7,
+    "rank_change": 34,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
     },
@@ -126,9 +153,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32yf4/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -20,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -150,9 +177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p31ueo/tougen_anki_episode_19_discussion/",
     "mal_id": 58811,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -13,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "fall"
   },
   {
@@ -174,9 +201,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3ixyo/pok\u00e9mon_horizons_the_series_episode_118_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 8,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -201,9 +228,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32hd8/shabake_episode_8_discussion/",
     "mal_id": 60378,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -9,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -225,9 +252,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -5,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "fall"
   },
   {
@@ -253,9 +280,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -2,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   }
 ]
