@@ -110,6 +110,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1011/152084l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1011/152084.jpg"
+    },
+    "title": "Ranma \u00bd (2024) 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 8.04,
+    "streams": {
+      "name": "Netflix",
+      "url": "https://www.netflix.com/title/81171925"
+    },
+    "episode": "8",
+    "karma": 446,
+    "comments": 141,
+    "week_id": 9,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p3ygrq/ranma_\u00bd_2024_season_2_episode_8_discussion/",
+    "mal_id": 60564,
+    "current_rank": 5,
+    "karma_change": 22,
+    "rank_change": 3,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1651/152063l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1651/152063.jpg"
     },
@@ -130,9 +157,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3w33y/nageki_no_bourei_wa_intai_shitai_season_2_let/",
     "mal_id": 60619,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -25,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -157,9 +184,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3xjuc/gnosia_episode_7_discussion/",
     "mal_id": 60427,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -19,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -185,9 +212,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3wifd/fumetsu_no_anata_e_season_3_to_your_eternity/",
     "mal_id": 54703,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -76,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -212,9 +239,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p35i8u/sanda_episode_8_discussion/",
     "mal_id": 59267,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -53,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   },
   {
@@ -239,9 +266,63 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3186z/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 8,
-    "rank_change": 8,
+    "rank_change": 7,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1455/152139l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1455/152139.jpg"
+    },
+    "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
+    "title_english": "Tojima Wants to Be a Kamen Rider",
+    "num_episodes": 0,
+    "score": 7.69,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00364945"
+    },
+    "episode": "8",
+    "karma": 249,
+    "comments": 145,
+    "week_id": 9,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p3ybcc/toujima_tanzaburou_wa_kamen_rider_ni_naritai/",
+    "mal_id": 61159,
+    "current_rank": 11,
+    "karma_change": -53,
+    "rank_change": 5,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1699/151694l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1699/151694.jpg"
+    },
+    "title": "Tomodachi no Imouto ga Ore ni dake Uzai",
+    "title_english": "My Friend's Little Sister Has It In for Me!",
+    "num_episodes": 12,
+    "score": 6.44,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00364756"
+    },
+    "episode": "8",
+    "karma": 176,
+    "comments": 58,
+    "week_id": 9,
+    "studio": [
+      "Blade"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p3z26q/tomodachi_no_imouto_ga_ore_ni_dake_uzai_my/",
+    "mal_id": 47158,
+    "current_rank": 12,
+    "karma_change": 63,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -266,9 +347,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3wt0z/shuumatsu_touring_touring_after_the_apocalypse/",
     "mal_id": 61072,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": 18,
-    "rank_change": 15,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -293,9 +374,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3spxs/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": -15,
-    "rank_change": 21,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -320,9 +401,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3vdkf/mikata_ga_yowasugite_hojo_mahou_ni_tesshiteita/",
     "mal_id": 61276,
-    "current_rank": 12,
+    "current_rank": 15,
     "karma_change": -22,
-    "rank_change": 22,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -347,9 +428,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3s5bq/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 13,
+    "current_rank": 16,
     "karma_change": -7,
-    "rank_change": 26,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -371,9 +452,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32yf4/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 14,
+    "current_rank": 17,
     "karma_change": -20,
-    "rank_change": 29,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -395,9 +476,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p31ueo/tougen_anki_episode_19_discussion/",
     "mal_id": 58811,
-    "current_rank": 15,
+    "current_rank": 18,
     "karma_change": -13,
-    "rank_change": 30,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -419,9 +500,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3ixyo/pok\u00e9mon_horizons_the_series_episode_118_discussion/",
     "mal_id": 53876,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": 8,
-    "rank_change": 35,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -446,9 +527,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32hd8/shabake_episode_8_discussion/",
     "mal_id": 60378,
-    "current_rank": 17,
+    "current_rank": 20,
     "karma_change": -9,
-    "rank_change": 32,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -470,9 +551,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 18,
+    "current_rank": 21,
     "karma_change": -5,
-    "rank_change": 42,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -498,9 +579,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 19,
+    "current_rank": 22,
     "karma_change": -2,
-    "rank_change": 43,
+    "rank_change": 40,
     "season": "fall"
   }
 ]
