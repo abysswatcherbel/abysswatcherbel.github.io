@@ -562,6 +562,57 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 6.05,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
+    "episode": "8",
+    "karma": 17,
+    "comments": 10,
+    "week_id": 9,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p4aoqu/sivis_the_sound_of_heroes_episode_8_discussion/",
+    "mal_id": 62126,
+    "current_rank": 22,
+    "karma_change": 6,
+    "rank_change": 37,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "",
+    "episode": "31",
+    "karma": 15,
+    "comments": 9,
+    "week_id": 9,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p4brbv/princession_orchestra_episode_31_discussion/",
+    "mal_id": 59078,
+    "current_rank": 23,
+    "karma_change": 1,
+    "rank_change": 34,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -579,9 +630,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4a3b1/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 22,
+    "current_rank": 24,
     "karma_change": -6,
-    "rank_change": 34,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -603,9 +654,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 23,
+    "current_rank": 25,
     "karma_change": -5,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -631,9 +682,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 24,
+    "current_rank": 26,
     "karma_change": -2,
-    "rank_change": 38,
+    "rank_change": 36,
     "season": "fall"
   }
 ]
