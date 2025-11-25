@@ -677,6 +677,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1025/150482l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1025/150482.jpg"
+    },
+    "title": "Sawaranaide Kotesashi-kun",
+    "title_english": "Hands off: Sawaranaide Kotesashi-kun",
+    "num_episodes": 12,
+    "score": 6.31,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00365079"
+    },
+    "episode": "8",
+    "karma": 84,
+    "comments": 26,
+    "week_id": 9,
+    "studio": [
+      "Quad"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p4qhv2/sawaranaide_kotesashikun_hands_off_sawaranaide/",
+    "mal_id": 61142,
+    "current_rank": 26,
+    "karma_change": -13,
+    "rank_change": 12,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
     },
@@ -694,9 +721,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32yf4/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -20,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -718,9 +745,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p31ueo/tougen_anki_episode_19_discussion/",
     "mal_id": 58811,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -13,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -742,9 +769,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3ixyo/pok\u00e9mon_horizons_the_series_episode_118_discussion/",
     "mal_id": 53876,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 8,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -769,9 +796,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32hd8/shabake_episode_8_discussion/",
     "mal_id": 60378,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -9,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -796,9 +823,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4aoqu/sivis_the_sound_of_heroes_episode_8_discussion/",
     "mal_id": 62126,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 6,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -820,9 +847,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4brbv/princession_orchestra_episode_31_discussion/",
     "mal_id": 59078,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -844,9 +871,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4a3b1/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -6,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -868,9 +895,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -5,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -896,9 +923,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": -2,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -920,9 +947,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4pack/koupen_chan_episode_34_discussion/",
     "mal_id": 60534,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   }
 ]
