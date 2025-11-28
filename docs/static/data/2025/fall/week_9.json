@@ -993,6 +993,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1500/151301l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1500/151301.webp"
+    },
+    "title": "Disney Twisted-Wonderland The Animation: Episode of Heartslabyul",
+    "title_english": "",
+    "num_episodes": 8,
+    "score": 7.09,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/"
+    },
+    "episode": "5",
+    "karma": 39,
+    "comments": 21,
+    "week_id": 9,
+    "studio": [
+      "Yumeta Company",
+      "Graphinica"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p725sh/disney_twistedwonderland_the_animation_episode_5/",
+    "mal_id": 50139,
+    "current_rank": 38,
+    "karma_change": -14,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1736/152179l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1736/152179.jpg"
     },
@@ -1013,9 +1041,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p32hd8/shabake_episode_8_discussion/",
     "mal_id": 60378,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -9,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -1037,9 +1065,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p6iqfc/ninja_to_gokudou_ninja_vs_gokudo_episode_8/",
     "mal_id": 61067,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -11,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -1064,9 +1092,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p5jc2r/debu_to_love_to_ayamachi_to_plussized/",
     "mal_id": 57189,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -9,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1091,9 +1119,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4aoqu/sivis_the_sound_of_heroes_episode_8_discussion/",
     "mal_id": 62126,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 6,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -1115,9 +1143,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4brbv/princession_orchestra_episode_31_discussion/",
     "mal_id": 59078,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 1,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -1139,9 +1167,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4a3b1/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -6,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -1163,9 +1191,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -5,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -1191,9 +1219,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -2,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1215,9 +1243,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4pack/koupen_chan_episode_34_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   }
 ]
