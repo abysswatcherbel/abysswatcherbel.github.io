@@ -1201,6 +1201,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "7",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p77ywd/ugoku_neko_mukashibanashi_cat_tales_episode_7/",
+    "mal_id": 61254,
+    "current_rank": 46,
+    "karma_change": -6,
+    "rank_change": 12,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
     },
@@ -1218,9 +1242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -5,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -1246,9 +1270,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -2,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -1270,9 +1294,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4pack/koupen_chan_episode_34_discussion/",
     "mal_id": 60534,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   }
 ]
