@@ -1338,6 +1338,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "35",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1p7z6oi/petitcure_precure_fairies_episode_35_discussion/",
+    "mal_id": 61272,
+    "current_rank": 51,
+    "karma_change": 6,
+    "rank_change": 14,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
     },
@@ -1379,9 +1401,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3h8yw/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -5,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1407,9 +1429,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p3kzkf/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -2,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1431,9 +1453,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p4pack/koupen_chan_episode_34_discussion/",
     "mal_id": 60534,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   }
 ]
