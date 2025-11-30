@@ -28,6 +28,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1364/151767l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1364/151767.jpg"
+    },
+    "title": "Sanda",
+    "title_english": "Sanda",
+    "num_episodes": 0,
+    "score": 7.46,
+    "streams": {
+      "name": "Prime",
+      "url": "https://www.amazon.com/gp/video/detail/0RHO5XK5C9V2B2MKW2P61PQSRS"
+    },
+    "episode": "9",
+    "karma": 305,
+    "comments": 82,
+    "week_id": 10,
+    "studio": [
+      "Science SARU"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p92gfg/sanda_episode_9_discussion/",
+    "mal_id": 59267,
+    "current_rank": 2,
+    "karma_change": -7,
+    "rank_change": 13,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
     },
@@ -48,9 +75,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8x38o/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -47,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -72,9 +99,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8yyes/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 13,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -96,9 +123,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8xr1l/tougen_anki_episode_20_discussion/",
     "mal_id": 58811,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "fall"
   },
   {
@@ -123,9 +150,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8yhz3/shabake_episode_9_discussion/",
     "mal_id": 60378,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 9,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   }
 ]
