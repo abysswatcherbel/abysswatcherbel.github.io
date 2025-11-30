@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
+    },
+    "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
+    "title_english": "May I Ask for One Final Thing?",
+    "num_episodes": 0,
+    "score": 7.66,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GW4HM7WQ5"
+    },
+    "episode": "10",
+    "karma": 440,
+    "comments": 177,
+    "week_id": 10,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p8z9im/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
+    "mal_id": 59846,
+    "current_rank": 1,
+    "karma_change": -37,
+    "rank_change": 6,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
     },
@@ -21,9 +48,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8x38o/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -47,
-    "rank_change": 16,
+    "rank_change": 15,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
+    },
+    "title": "Watari-kun no xx ga Houkai Sunzen",
+    "title_english": "Watari-kun's ****** Is about to Collapse",
+    "num_episodes": 13,
+    "score": 6.16,
+    "streams": null,
+    "episode": "22",
+    "karma": 71,
+    "comments": 43,
+    "week_id": 10,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p8yyes/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
+    "mal_id": 56693,
+    "current_rank": 3,
+    "karma_change": 13,
+    "rank_change": 41,
     "season": "fall"
   },
   {
@@ -45,8 +96,35 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8xr1l/tougen_anki_episode_20_discussion/",
     "mal_id": 58811,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 3,
+    "rank_change": 42,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1736/152179l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1736/152179.jpg"
+    },
+    "title": "Shabake",
+    "title_english": "Shabake",
+    "num_episodes": 0,
+    "score": 6.24,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00362195"
+    },
+    "episode": "9",
+    "karma": 46,
+    "comments": 17,
+    "week_id": 10,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p8yhz3/shabake_episode_9_discussion/",
+    "mal_id": 60378,
+    "current_rank": 5,
+    "karma_change": 9,
     "rank_change": 44,
     "season": "fall"
   }
