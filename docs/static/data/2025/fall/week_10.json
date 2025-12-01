@@ -354,6 +354,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1282/151476l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1282/151476.jpg"
+    },
+    "title": "Kingdom 6th Season",
+    "title_english": "Kingdom: Season 6",
+    "num_episodes": 0,
+    "score": 8.99,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
+    },
+    "episode": "9",
+    "karma": 120,
+    "comments": 17,
+    "week_id": 10,
+    "studio": [
+      "Studio Pierrot",
+      "Studio Signpost"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1p9x1dt/kingdom_season_6_episode_9_discussion/",
+    "mal_id": 61517,
+    "current_rank": 14,
+    "karma_change": -23,
+    "rank_change": 14,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1362/151636l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1362/151636.jpg"
     },
@@ -374,9 +402,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9r2fc/mikata_ga_yowasugite_hojo_mahou_ni_tesshiteita/",
     "mal_id": 61276,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -6,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -401,9 +429,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9nvpu/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -428,9 +456,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9ogge/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -25,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -452,9 +480,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8yyes/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 13,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -476,9 +504,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8xr1l/tougen_anki_episode_20_discussion/",
     "mal_id": 58811,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 3,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -503,9 +531,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p8yhz3/shabake_episode_9_discussion/",
     "mal_id": 60378,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 9,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -527,9 +555,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9h2x1/pok\u00e9mon_horizons_the_series_episode_119_discussion/",
     "mal_id": 53876,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -12,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -551,7 +579,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9nvev/meitantei_conan_case_closed_episode_1183/",
     "mal_id": 235,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -575,9 +603,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9ci3d/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -4,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "fall"
   }
 ]
