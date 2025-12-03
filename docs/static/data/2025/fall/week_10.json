@@ -1089,6 +1089,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "105",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pbjpz6/beyblade_x_episode_105_discussion/",
+    "mal_id": 56566,
+    "current_rank": 42,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
     },
@@ -1106,9 +1130,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9ci3d/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -4,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   }
 ]
