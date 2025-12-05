@@ -1297,6 +1297,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "8",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 10,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pd1dtj/ugoku_neko_mukashibanashi_cat_tales_episode_8/",
+    "mal_id": 61254,
+    "current_rank": 50,
+    "karma_change": -3,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1314,7 +1338,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pbjpz6/beyblade_x_episode_105_discussion/",
     "mal_id": 56566,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1338,7 +1362,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pcrmj4/nmeneko_episode_24_discussion/",
     "mal_id": 60947,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1362,9 +1386,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9ci3d/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -4,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   }
 ]
