@@ -1554,5 +1554,27 @@
     "karma_change": -4,
     "rank_change": 2,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "36",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1pdvs7b/petitcure_precure_fairies_episode_36_discussion/",
+    "mal_id": 61272,
+    "current_rank": 60,
+    "karma_change": -6,
+    "rank_change": -1,
+    "season": "fall"
   }
 ]
