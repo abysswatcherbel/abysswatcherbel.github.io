@@ -1362,6 +1362,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 6.71,
+    "streams": null,
+    "episode": "10",
+    "karma": 25,
+    "comments": 3,
+    "week_id": 10,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1pdzl6w/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 52,
+    "karma_change": 12,
+    "rank_change": 5,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
     },
@@ -1382,9 +1404,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pa6bhv/sivis_the_sound_of_heroes_episode_9_discussion/",
     "mal_id": 62126,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 1,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1406,9 +1428,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pb1plk/princession_orchestra_episode_32_discussion/",
     "mal_id": 59078,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -1,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1430,9 +1452,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pa5q00/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 1,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "fall"
   },
   {
@@ -1454,7 +1476,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9nvev/meitantei_conan_case_closed_episode_1183/",
     "mal_id": 235,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1478,9 +1500,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pd1dtj/ugoku_neko_mukashibanashi_cat_tales_episode_8/",
     "mal_id": 61254,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -3,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1502,7 +1524,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pbjpz6/beyblade_x_episode_105_discussion/",
     "mal_id": 56566,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1526,7 +1548,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pcrmj4/nmeneko_episode_24_discussion/",
     "mal_id": 60947,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1550,9 +1572,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1p9ci3d/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": -4,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -1572,9 +1594,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1pdvs7b/petitcure_precure_fairies_episode_36_discussion/",
     "mal_id": 61272,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -6,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "fall"
   }
 ]
