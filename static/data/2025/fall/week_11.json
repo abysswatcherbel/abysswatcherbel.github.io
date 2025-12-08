@@ -28,6 +28,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1697/151793l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1697/151793.jpg"
+    },
+    "title": "Spy x Family Season 3",
+    "title_english": "Spy x Family Season 3",
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G4PH0WXVJ"
+    },
+    "episode": "10",
+    "karma": 1022,
+    "comments": 203,
+    "week_id": 11,
+    "studio": [
+      "Wit Studio",
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pfqpj9/spy_x_family_season_3_episode_10_discussion/",
+    "mal_id": 59027,
+    "current_rank": 2,
+    "karma_change": -212,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
     },
@@ -48,9 +76,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1peznw2/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
     "mal_id": 59846,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 1,
-    "rank_change": 8,
+    "rank_change": 7,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1830/145051l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1830/145051.jpg"
+    },
+    "title": "Yasei no Last Boss ga Arawareta!",
+    "title_english": "A Wild Last Boss Appeared!",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00361955"
+    },
+    "episode": "11",
+    "karma": 402,
+    "comments": 416,
+    "week_id": 11,
+    "studio": [
+      "WAO World"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pfq1yh/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
+    "mal_id": 59644,
+    "current_rank": 4,
+    "karma_change": -160,
+    "rank_change": 3,
     "season": "fall"
   },
   {
@@ -75,9 +130,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pf1vtm/sanda_episode_10_discussion/",
     "mal_id": 59267,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 30,
-    "rank_change": 11,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -102,9 +157,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pexc5v/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 79,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -129,9 +184,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pfoti0/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 23,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -156,9 +211,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pfod0i/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -2,
-    "rank_change": 38,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -180,9 +235,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pezcdk/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 3,
-    "rank_change": 40,
+    "rank_change": 38,
     "season": "fall"
   },
   {
@@ -207,9 +262,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1peyv97/shabake_episode_10_discussion/",
     "mal_id": 60378,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 4,
-    "rank_change": 43,
+    "rank_change": 41,
     "season": "fall"
   },
   {
@@ -231,9 +286,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pey3g4/tougen_anki_episode_21_discussion/",
     "mal_id": 58811,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -10,
-    "rank_change": 40,
+    "rank_change": 38,
     "season": "fall"
   },
   {
@@ -255,7 +310,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1peg2kn/project_sekai_movie_kowareta_sekai_to_utaenai/",
     "mal_id": 59419,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -279,9 +334,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pfevrg/pok\u00e9mon_horizons_the_series_episode_120_discussion/",
     "mal_id": 53876,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -10,
-    "rank_change": 44,
+    "rank_change": 42,
     "season": "fall"
   },
   {
@@ -303,9 +358,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pfo8vz/meitantei_conan_case_closed_episode_1184/",
     "mal_id": 235,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -327,9 +382,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pf4oao/beyblade_x_episode_106_discussion/",
     "mal_id": 56566,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": 0,
-    "rank_change": 53,
+    "rank_change": 51,
     "season": "fall"
   }
 ]
