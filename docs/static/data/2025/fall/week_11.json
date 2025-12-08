@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1959/151055l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1959/151055.jpg"
+    },
+    "title": "Boku no Hero Academia: Final Season",
+    "title_english": "My Hero Academia Final Season",
+    "num_episodes": 0,
+    "score": 8.79,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G6NQ5DWZ6"
+    },
+    "episode": "10",
+    "karma": 1851,
+    "comments": 446,
+    "week_id": 11,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pfkv5a/boku_no_hero_academia_final_season_my_hero/",
+    "mal_id": 60098,
+    "current_rank": 1,
+    "karma_change": -139,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
     },
@@ -21,9 +48,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1peznw2/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
     "mal_id": 59846,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -48,9 +75,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pf1vtm/sanda_episode_10_discussion/",
     "mal_id": 59267,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 30,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -75,9 +102,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pexc5v/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 79,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -99,9 +126,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pezcdk/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 3,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "fall"
   },
   {
@@ -126,9 +153,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1peyv97/shabake_episode_10_discussion/",
     "mal_id": 60378,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 4,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -150,9 +177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pey3g4/tougen_anki_episode_21_discussion/",
     "mal_id": 58811,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -10,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "fall"
   },
   {
@@ -174,7 +201,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1peg2kn/project_sekai_movie_kowareta_sekai_to_utaenai/",
     "mal_id": 59419,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -198,9 +225,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pfevrg/pok\u00e9mon_horizons_the_series_episode_120_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -10,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -222,9 +249,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pf4oao/beyblade_x_episode_106_discussion/",
     "mal_id": 56566,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "fall"
   }
 ]
