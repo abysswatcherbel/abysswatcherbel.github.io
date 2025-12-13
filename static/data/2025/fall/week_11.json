@@ -1437,6 +1437,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
+    },
+    "title": "Monster Strike: Deadverse Reloaded",
+    "title_english": "",
+    "num_episodes": 10,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 8,
+    "comments": 6,
+    "week_id": 11,
+    "studio": [
+      "Yumeta Company"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pjw278/monster_strike_deadverse_reloaded_episode_2/",
+    "mal_id": 62066,
+    "current_rank": 55,
+    "karma_change": 2,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
     },
@@ -1454,9 +1478,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pizx9w/ugoku_neko_mukashibanashi_cat_tales_episode_9/",
     "mal_id": 61254,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 2,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -1476,9 +1500,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1pjtfk8/petitcure_precure_fairies_episode_37_discussion/",
     "mal_id": 61272,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 3,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "fall"
   },
   {
@@ -1500,9 +1524,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pf4oao/beyblade_x_episode_106_discussion/",
     "mal_id": 56566,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1524,9 +1548,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pg6897/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 2,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   }
 ]
