@@ -1461,6 +1461,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "37",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1pjtfk8/petitcure_precure_fairies_episode_37_discussion/",
+    "mal_id": 61272,
+    "current_rank": 56,
+    "karma_change": 3,
+    "rank_change": 13,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1478,9 +1500,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pf4oao/beyblade_x_episode_106_discussion/",
     "mal_id": 56566,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -1502,9 +1524,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pg6897/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 2,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   }
 ]
