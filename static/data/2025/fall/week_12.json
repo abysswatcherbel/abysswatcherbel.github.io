@@ -28,6 +28,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.62,
+    "streams": null,
+    "episode": "22",
+    "karma": 39,
+    "comments": 77,
+    "week_id": 12,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pkuugp/tougen_anki_episode_22_discussion/",
+    "mal_id": 58811,
+    "current_rank": 2,
+    "karma_change": -4,
+    "rank_change": 47,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1889/151926l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1889/151926.jpg"
     },
@@ -49,7 +73,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pkrupe/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
