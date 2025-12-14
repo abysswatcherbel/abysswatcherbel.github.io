@@ -182,5 +182,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "107",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pl06y5/beyblade_x_episode_107_discussion/",
+    "mal_id": 56566,
+    "current_rank": 8,
+    "karma_change": -2,
+    "rank_change": 58,
+    "season": "fall"
   }
 ]
