@@ -1745,6 +1745,30 @@
     "num_episodes": 0,
     "score": null,
     "streams": null,
+    "episode": "26",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "Kumarba"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pkc8m7/nmeneko_episode_26_discussion/",
+    "mal_id": 60947,
+    "current_rank": 66,
+    "karma_change": 1,
+    "rank_change": 1,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1989/149978l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1989/149978.jpg"
+    },
+    "title": "Nmeneko",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
     "episode": "25",
     "karma": 2,
     "comments": 1,
@@ -1754,9 +1778,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pjya89/nmeneko_episode_25_discussion/",
     "mal_id": 60947,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "fall"
   },
   {
@@ -1778,9 +1802,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pg6897/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 2,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "fall"
   }
 ]
