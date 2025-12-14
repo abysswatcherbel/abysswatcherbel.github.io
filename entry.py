@@ -1,4 +1,3 @@
-import json
 import os
 from datetime import datetime, timezone
 from itertools import zip_longest
@@ -31,15 +30,76 @@ freezer = Freezer(app)
 episode_schedule = SeasonScheduler()
 post_schedule = SeasonScheduler(schedule_type="post")
 
+if (
+    post_schedule.year is None
+    or post_schedule.season_number is None
+    or post_schedule.week_id is None
+):
+    raise RuntimeError("Could not determine current post schedule details")
+
 # The Airing Period for the rank
 rank_schedule = episode_schedule.get_schedule_for_date(
     year=post_schedule.year,
     season=post_schedule.season_number,
     week_id=post_schedule.week_id,
 )
-airing_period = episode_schedule.get_airing_period(schedule_details=rank_schedule)
+if rank_schedule is None:
+    raise RuntimeError("Could not determine current episode schedule details")
+
+airing_period = episode_schedule.get_airing_period(
+    schedule_details=rank_schedule
+)
 client = MongoClient(os.getenv("MONGO_URI"))
 available_seasons = get_available_seasons()
+
+
+def _season_to_number(season: str) -> int:
+    season = season.lower()
+    mapping = {"winter": 1, "spring": 2, "summer": 3, "fall": 4}
+    if season not in mapping:
+        abort(404)
+    return mapping[season]
+
+
+def _build_forced_post_schedule(
+    year: int, season: str, week: int
+) -> SeasonScheduler:
+    season_number = _season_to_number(season)
+
+    probe = SeasonScheduler(schedule_type="post")
+    schedule_details = probe.get_schedule_for_date(
+        year=year, season=season_number, week_id=week
+    )
+    if schedule_details is None or schedule_details.week_id is None:
+        abort(404)
+
+    # Use a timestamp inside the requested week that keeps `schedule.year == year`.
+    # This matters for winter week 1 which can start in the previous calendar year.
+    forced_time = (
+        schedule_details.end_date
+        if getattr(schedule_details.end_date, "year", None) == year
+        else schedule_details.start_date
+    )
+
+    return SeasonScheduler(schedule_type="post", post_time=forced_time)
+
+
+def _airing_details_for_week(year: int, season: str, week: int):
+    season_number = _season_to_number(season)
+    schedule_details = episode_schedule.get_schedule_for_date(
+        year=year, season=season_number, week_id=week
+    )
+    if schedule_details is None or schedule_details.week_id is None:
+        abort(404)
+
+    converted_start_date = schedule_details.start_date.strftime("%B, %d")
+    converted_end_date = schedule_details.end_date.strftime("%B, %d")
+
+    return {
+        "airing_period": f"Airing Period: {converted_start_date} - {converted_end_date}",
+        "season": season.lower(),
+        "week_id": week,
+    }
 
 
 @app.route("/current_chart/", endpoint="current_chart")
@@ -67,16 +127,48 @@ def karma_rank():
     # Get the next 15 entries for the right side (if they exist)
     right_rankings = current_shows[15:30]
 
-    season = airing_period["season"]
-    week = airing_period["week_id"]
     # Pair the two lists; if the right list is shorter, fill with None
     complete_rankings = list(zip_longest(left_rankings, right_rankings))
-
 
     return render_template(
         "rank.html.j2",
         complete_rankings=complete_rankings,
         airing_details=airing_period,
+        sum_karma=total_karma,
+        back_symbol=back_symbol,
+        new_entry=new_entry,
+        right_new_entry=right_new_entry,
+    )
+
+
+@app.route("/<int:year>/<season>/<int:week>", endpoint="rank_for_week")
+@app.route("/<int:year>/<season>/<int:week>/", endpoint="rank_for_week_slash")
+def karma_rank_for_week(year: int, season: str, week: int):
+    """Render `rank.html.j2` for an arbitrary (year, season, week).
+
+    Useful when the current chart has already advanced to the next week but you
+    need to review or tweak the HTML for a previous week.
+    """
+
+    forced_schedule = _build_forced_post_schedule(
+        year=year, season=season, week=week
+    )
+    current_shows = get_weekly_change(schedule=forced_schedule)
+    total_karma = sum([show["karma"] for show in current_shows[:15]])
+    total_karma = f"{total_karma:,}"
+
+    left_rankings = current_shows[:15]
+    right_rankings = current_shows[15:30]
+    complete_rankings = list(zip_longest(left_rankings, right_rankings))
+
+    airing_details = _airing_details_for_week(
+        year=year, season=season, week=week
+    )
+
+    return render_template(
+        "rank.html.j2",
+        complete_rankings=complete_rankings,
+        airing_details=airing_details,
         sum_karma=total_karma,
         back_symbol=back_symbol,
         new_entry=new_entry,
@@ -171,11 +263,18 @@ def karma_watch():
                     "$set": {
                         "title": {
                             "$ifNull": [
-                                {"$arrayElemAt": ["$seasonal_data.title_english", 0]},
+                                {
+                                    "$arrayElemAt": [
+                                        "$seasonal_data.title_english",
+                                        0,
+                                    ]
+                                },
                                 {"$arrayElemAt": ["$seasonal_data.title", 0]},
                             ]
                         },
-                        "images": {"$arrayElemAt": ["$seasonal_data.images", 0]},
+                        "images": {
+                            "$arrayElemAt": ["$seasonal_data.images", 0]
+                        },
                     }
                 },
                 {"$unset": "seasonal_data"},
@@ -185,7 +284,10 @@ def karma_watch():
                         "hourly_karma": {
                             "$not": {
                                 "$elemMatch": {
-                                    "karma": {"$type": "double", "$eq": float("nan")}
+                                    "karma": {
+                                        "$type": "double",
+                                        "$eq": float("nan"),
+                                    }
                                 }
                             }
                         },
@@ -234,7 +336,6 @@ def production_committees():
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
 
-
     # Get committee data, which saves a json to /static/data/committees.json
     committee_data = list(db.committees.find({}, {"_id": 0}))
 
@@ -260,7 +361,9 @@ def production_committees():
 @app.route("/previous-weeks.html")
 def previous_weeks():
 
-    return render_template("previous_weeks.html", available_seasons=available_seasons)
+    return render_template(
+        "previous_weeks.html", available_seasons=available_seasons
+    )
 
 
 if __name__ == "__main__":
