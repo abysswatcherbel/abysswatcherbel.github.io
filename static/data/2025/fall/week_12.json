@@ -157,6 +157,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1223/151728l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1223/151728.jpg"
+    },
+    "title": "Hyakushou Kizoku 3rd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.58,
+    "streams": null,
+    "episode": "39",
+    "karma": 11,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [
+      "Pie in the sky"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1plau73/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
+    "mal_id": 60551,
+    "current_rank": 7,
+    "karma_change": 9,
+    "rank_change": 61,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1889/151926l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1889/151926.jpg"
     },
@@ -178,7 +202,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pkrupe/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -202,9 +226,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pl06y5/beyblade_x_episode_107_discussion/",
     "mal_id": 56566,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -2,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "fall"
   }
 ]
