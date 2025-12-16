@@ -562,6 +562,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 6.02,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/"
+    },
+    "episode": "11",
+    "karma": 20,
+    "comments": 7,
+    "week_id": 12,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pm2e3b/sivis_the_sound_of_heroes_episode_11_discussion/",
+    "mal_id": 62126,
+    "current_rank": 22,
+    "karma_change": 3,
+    "rank_change": 38,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -579,9 +606,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pm0bfd/princession_orchestra_episode_34_discussion/",
     "mal_id": 59078,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -1,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -603,9 +630,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pm1sjm/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -4,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "fall"
   },
   {
@@ -627,9 +654,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plau73/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 9,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -655,7 +682,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pkrupe/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -679,7 +706,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plw8fu/koupen_chan_episode_36_discussion/",
     "mal_id": 60534,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -707,7 +734,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pluv6h/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -731,9 +758,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plkca7/meitantei_conan_case_closed_episode_1185/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -8,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "fall"
   },
   {
@@ -755,9 +782,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pl06y5/beyblade_x_episode_107_discussion/",
     "mal_id": 56566,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -2,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -779,7 +806,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plvf34/koupen_chan_episode_35_discussion/",
     "mal_id": 60534,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
