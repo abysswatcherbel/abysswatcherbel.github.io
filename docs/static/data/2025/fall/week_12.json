@@ -1169,6 +1169,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "37",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1po114x/koupen_chan_episode_37_discussion/",
+    "mal_id": 60534,
+    "current_rank": 45,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1186,9 +1210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plkca7/meitantei_conan_case_closed_episode_1185/",
     "mal_id": 235,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -8,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1210,9 +1234,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pl06y5/beyblade_x_episode_107_discussion/",
     "mal_id": 56566,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -2,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -1234,7 +1258,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plvf34/koupen_chan_episode_35_discussion/",
     "mal_id": 60534,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
