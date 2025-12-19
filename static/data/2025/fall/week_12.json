@@ -1438,6 +1438,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "108",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pp7d0i/beyblade_x_episode_108_discussion/",
+    "mal_id": 56566,
+    "current_rank": 55,
+    "karma_change": 2,
+    "rank_change": 11,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1967/152249l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1967/152249.jpg"
     },
@@ -1480,7 +1504,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plw8fu/koupen_chan_episode_36_discussion/",
     "mal_id": 60534,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1508,7 +1532,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pluv6h/heika_watashi_wo_wasurete_kudasai_forget_that/",
     "mal_id": 62428,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1532,7 +1556,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1po114x/koupen_chan_episode_37_discussion/",
     "mal_id": 60534,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1556,9 +1580,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plkca7/meitantei_conan_case_closed_episode_1185/",
     "mal_id": 235,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": -8,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1580,9 +1604,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pl06y5/beyblade_x_episode_107_discussion/",
     "mal_id": 56566,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -2,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   },
   {
@@ -1604,7 +1628,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plvf34/koupen_chan_episode_35_discussion/",
     "mal_id": 60534,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
