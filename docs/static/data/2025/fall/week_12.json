@@ -1563,6 +1563,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "38",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1ppmq1t/petitcure_precure_fairies_episode_38_discussion/",
+    "mal_id": 61272,
+    "current_rank": 60,
+    "karma_change": 0,
+    "rank_change": 5,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1580,9 +1602,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plkca7/meitantei_conan_case_closed_episode_1185/",
     "mal_id": 235,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -8,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -1604,9 +1626,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pl06y5/beyblade_x_episode_107_discussion/",
     "mal_id": 56566,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -2,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -1628,7 +1650,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plvf34/koupen_chan_episode_35_discussion/",
     "mal_id": 60534,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
