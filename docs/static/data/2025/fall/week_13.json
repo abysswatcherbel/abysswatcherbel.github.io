@@ -28,6 +28,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1364/151767l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1364/151767.jpg"
+    },
+    "title": "Sanda",
+    "title_english": "Sanda",
+    "num_episodes": 0,
+    "score": 7.47,
+    "streams": {
+      "name": "Prime",
+      "url": "https://www.amazon.com/gp/video/detail/0RHO5XK5C9V2B2MKW2P61PQSRS"
+    },
+    "episode": "12",
+    "karma": 369,
+    "comments": 101,
+    "week_id": 13,
+    "studio": [
+      "Science SARU"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqrsiq/sanda_episode_12_discussion/",
+    "mal_id": 59267,
+    "current_rank": 2,
+    "karma_change": 61,
+    "rank_change": 12,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1294/151734l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1294/151734.jpg"
     },
@@ -48,9 +75,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nqd6jk/towa_no_yugure_dusk_beyond_the_end_of_the_world/",
     "mal_id": 61917,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 126,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -75,9 +102,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqnalw/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 58,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -99,9 +126,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp6q7/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -7,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -123,9 +150,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqo46e/tougen_anki_episode_23_discussion/",
     "mal_id": 58811,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 26,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -150,9 +177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqovpe/shabake_episode_12_discussion/",
     "mal_id": 60378,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 12,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -174,9 +201,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
     "mal_id": 59078,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -4,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "fall"
   },
   {
@@ -198,7 +225,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp17k/monster_strike_deadverse_reloaded_episode_3/",
     "mal_id": 62066,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
