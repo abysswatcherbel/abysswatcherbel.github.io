@@ -107,6 +107,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1830/145051l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1830/145051.jpg"
+    },
+    "title": "Yasei no Last Boss ga Arawareta!",
+    "title_english": "A Wild Last Boss Appeared!",
+    "num_episodes": 0,
+    "score": 7.53,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00361955"
+    },
+    "episode": "12",
+    "karma": 667,
+    "comments": 286,
+    "week_id": 12,
+    "studio": [
+      "WAO World"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1plm424/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
+    "mal_id": 59644,
+    "current_rank": 5,
+    "karma_change": 15,
+    "rank_change": 1,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1191/152368l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1191/152368.jpg"
     },
@@ -127,9 +154,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ppscwg/watashi_wo_tabetai_hitodenashi_this_monster_wants/",
     "mal_id": 60168,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -33,
-    "rank_change": 0,
+    "rank_change": -1,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1651/152063l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1651/152063.jpg"
+    },
+    "title": "Nageki no Bourei wa Intai shitai Part 2",
+    "title_english": "Let This Grieving Soul Retire Cour 2",
+    "num_episodes": 0,
+    "score": 7.6,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GZJH3D8J9"
+    },
+    "episode": "24",
+    "karma": 610,
+    "comments": 316,
+    "week_id": 12,
+    "studio": [
+      "Zero-G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1plo3wd/nageki_no_bourei_wa_intai_shitai_season_2_let/",
+    "mal_id": 60619,
+    "current_rank": 7,
+    "karma_change": 171,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -154,63 +208,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1plpjvu/gnosia_episode_10_discussion/",
     "mal_id": 60427,
-    "current_rank": 6,
-    "karma_change": -21,
-    "rank_change": 1,
-    "season": "fall"
-  },
-  {
-    "images": {
-      "large": "https://cdn.myanimelist.net/images/anime/1651/152063l.jpg",
-      "medium": "https://cdn.myanimelist.net/images/anime/1651/152063.jpg"
-    },
-    "title": "Nageki no Bourei wa Intai shitai Part 2",
-    "title_english": "Let This Grieving Soul Retire Cour 2",
-    "num_episodes": 0,
-    "score": 7.6,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GZJH3D8J9"
-    },
-    "episode": "24",
-    "karma": 461,
-    "comments": 316,
-    "week_id": 12,
-    "studio": [
-      "Zero-G"
-    ],
-    "url": "https://www.reddit.com/r/anime/comments/1plo3wd/nageki_no_bourei_wa_intai_shitai_season_2_let/",
-    "mal_id": 60619,
-    "current_rank": 7,
-    "karma_change": 22,
-    "rank_change": 2,
-    "season": "fall"
-  },
-  {
-    "images": {
-      "large": "https://cdn.myanimelist.net/images/anime/1830/145051l.jpg",
-      "medium": "https://cdn.myanimelist.net/images/anime/1830/145051.jpg"
-    },
-    "title": "Yasei no Last Boss ga Arawareta!",
-    "title_english": "A Wild Last Boss Appeared!",
-    "num_episodes": 0,
-    "score": 7.53,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00361955"
-    },
-    "episode": "12",
-    "karma": 417,
-    "comments": 286,
-    "week_id": 12,
-    "studio": [
-      "WAO World"
-    ],
-    "url": "https://www.reddit.com/r/anime/comments/1plm424/yasei_no_last_boss_ga_arawareta_a_wild_last_boss/",
-    "mal_id": 59644,
     "current_rank": 8,
-    "karma_change": -235,
-    "rank_change": -2,
+    "karma_change": -21,
+    "rank_change": -1,
     "season": "fall"
   },
   {
