@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1190/151754l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1190/151754.jpg"
+    },
+    "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
+    "title_english": "May I Ask for One Final Thing?",
+    "num_episodes": 0,
+    "score": 7.5,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GW4HM7WQ5"
+    },
+    "episode": "13",
+    "karma": 625,
+    "comments": 297,
+    "week_id": 13,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqpne2/saigo_ni_hitotsu_dake_onegai_shitemo_yoroshii/",
+    "mal_id": 59846,
+    "current_rank": 1,
+    "karma_change": 259,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1294/151734l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1294/151734.jpg"
     },
@@ -21,9 +48,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1nqd6jk/towa_no_yugure_dusk_beyond_the_end_of_the_world/",
     "mal_id": 61917,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 126,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -48,9 +75,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqnalw/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
     "mal_id": 60303,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 58,
-    "rank_change": 16,
+    "rank_change": 15,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1502/150545l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1502/150545.jpg"
+    },
+    "title": "Watari-kun no xx ga Houkai Sunzen",
+    "title_english": "Watari-kun's ****** Is about to Collapse",
+    "num_episodes": 13,
+    "score": 6.16,
+    "streams": null,
+    "episode": "25",
+    "karma": 77,
+    "comments": 58,
+    "week_id": 13,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqp6q7/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
+    "mal_id": 56693,
+    "current_rank": 4,
+    "karma_change": -7,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -72,9 +123,36 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqo46e/tougen_anki_episode_23_discussion/",
     "mal_id": 58811,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 26,
-    "rank_change": 48,
+    "rank_change": 46,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1736/152179l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1736/152179.jpg"
+    },
+    "title": "Shabake",
+    "title_english": "Shabake",
+    "num_episodes": 0,
+    "score": 6.19,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00362195"
+    },
+    "episode": "12",
+    "karma": 44,
+    "comments": 11,
+    "week_id": 13,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqovpe/shabake_episode_12_discussion/",
+    "mal_id": 60378,
+    "current_rank": 6,
+    "karma_change": 12,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -96,9 +174,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
     "mal_id": 59078,
-    "current_rank": 4,
+    "current_rank": 7,
     "karma_change": -4,
-    "rank_change": 54,
+    "rank_change": 51,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
+    },
+    "title": "Monster Strike: Deadverse Reloaded",
+    "title_english": "",
+    "num_episodes": 10,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Yumeta Company"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqp17k/monster_strike_deadverse_reloaded_episode_3/",
+    "mal_id": 62066,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   }
 ]

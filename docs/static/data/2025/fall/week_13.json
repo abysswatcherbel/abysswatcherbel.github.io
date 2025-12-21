@@ -28,6 +28,57 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1163/151246l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1163/151246.jpg"
+    },
+    "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+    "title_english": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/"
+    },
+    "episode": "12",
+    "karma": 306,
+    "comments": 251,
+    "week_id": 13,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqnalw/shinjiteita_nakamatachi_ni_dungeon_okuchi_de/",
+    "mal_id": 60303,
+    "current_rank": 2,
+    "karma_change": 58,
+    "rank_change": 16,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
+    },
+    "title": "Tougen Anki",
+    "title_english": "Tougen Anki",
+    "num_episodes": 0,
+    "score": 6.62,
+    "streams": null,
+    "episode": "23",
+    "karma": 65,
+    "comments": 38,
+    "week_id": 13,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqo46e/tougen_anki_episode_23_discussion/",
+    "mal_id": 58811,
+    "current_rank": 3,
+    "karma_change": 26,
+    "rank_change": 48,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -45,9 +96,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
     "mal_id": 59078,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -4,
-    "rank_change": 56,
+    "rank_change": 54,
     "season": "fall"
   }
 ]
