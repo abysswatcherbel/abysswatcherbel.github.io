@@ -1,0 +1,53 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1294/151734l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1294/151734.jpg"
+    },
+    "title": "Towa no Yuugure",
+    "title_english": "Dusk Beyond the End of the World",
+    "num_episodes": 0,
+    "score": 6.75,
+    "streams": {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/"
+    },
+    "episode": "",
+    "karma": 333,
+    "comments": 182,
+    "week_id": 13,
+    "studio": [
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1nqd6jk/towa_no_yugure_dusk_beyond_the_end_of_the_world/",
+    "mal_id": 61917,
+    "current_rank": 1,
+    "karma_change": 126,
+    "rank_change": 21,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "",
+    "episode": "35",
+    "karma": 13,
+    "comments": 10,
+    "week_id": 13,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
+    "mal_id": 59078,
+    "current_rank": 2,
+    "karma_change": -4,
+    "rank_change": 56,
+    "season": "fall"
+  }
+]
