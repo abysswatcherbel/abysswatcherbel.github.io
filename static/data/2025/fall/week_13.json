@@ -133,6 +133,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1478/151722l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1478/151722.jpg"
+    },
+    "title": "Kekkon Yubiwa Monogatari II",
+    "title_english": "Tales of Wedding Rings Season 2",
+    "num_episodes": 0,
+    "score": 6.58,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G79H23ZGP"
+    },
+    "episode": "12",
+    "karma": 76,
+    "comments": 14,
+    "week_id": 13,
+    "studio": [
+      "Staple Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1prddfe/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
+    "mal_id": 58515,
+    "current_rank": 6,
+    "karma_change": -19,
+    "rank_change": 35,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1474/150666l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1474/150666.jpg"
     },
@@ -150,9 +177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqo46e/tougen_anki_episode_23_discussion/",
     "mal_id": 58811,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 26,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -177,9 +204,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqovpe/shabake_episode_12_discussion/",
     "mal_id": 60378,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 12,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -201,9 +228,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pr8a0v/pok\u00e9mon_horizons_the_series_episode_122_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -17,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -225,9 +252,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
     "mal_id": 59078,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -249,9 +276,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pr213v/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -4,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -273,7 +300,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp17k/monster_strike_deadverse_reloaded_episode_3/",
     "mal_id": 62066,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
