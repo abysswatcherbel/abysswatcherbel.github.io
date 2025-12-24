@@ -324,6 +324,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1617/151874l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1617/151874.webp"
+    },
+    "title": "Egao no Taenai Shokuba desu.",
+    "title_english": "A Mangaka's Weirdly Wonderful Workplace",
+    "num_episodes": 0,
+    "score": 6.92,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00361926"
+    },
+    "episode": "12",
+    "karma": 220,
+    "comments": 94,
+    "week_id": 13,
+    "studio": [
+      "Voil"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1psz43m/egao_no_taenai_shokuba_desu_a_mangakas_weirdly/",
+    "mal_id": 57859,
+    "current_rank": 13,
+    "karma_change": 14,
+    "rank_change": 10,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1681/151599l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1681/151599.jpg"
     },
@@ -344,9 +371,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prht8q/shuumatsu_touring_touring_after_the_apocalypse/",
     "mal_id": 61072,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -371,9 +398,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prjxgq/tomodachi_no_imouto_ga_ore_ni_dake_uzai_my/",
     "mal_id": 47158,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -30,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -395,9 +422,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ps9y44/one_piece_episode_1154_discussion/",
     "mal_id": 21,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -98,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -422,9 +449,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prw4j4/digimon_beatbreak_episode_12_discussion/",
     "mal_id": 61269,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 1,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -450,9 +477,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prm632/kingdom_season_6_episode_12_discussion/",
     "mal_id": 61517,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 7,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -477,9 +504,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prdx3s/kao_ni_denai_kashiwadasan_to_kao_ni_deru_ootakun/",
     "mal_id": 61209,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -3,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -504,9 +531,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1psa3le/sawaranaide_kotesashikun_hands_off_sawaranaide/",
     "mal_id": 61142,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 8,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -532,9 +559,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ps7aq7/kikaijikake_no_marie_mechanical_marie_episode_12/",
     "mal_id": 59484,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -3,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -559,9 +586,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ps7arq/chanto_suenai_kyuuketsukichan_lil_miss_vampire/",
     "mal_id": 60933,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -24,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -586,9 +613,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ps7x63/chichi_wa_eiyuu_haha_wa_seirei_musume_no_watashi/",
     "mal_id": 57888,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -33,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -613,9 +640,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prgf4q/mikata_ga_yowasugite_hojo_mahou_ni_tesshiteita/",
     "mal_id": 61276,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -13,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -637,9 +664,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp6q7/watarikun_no_xx_ga_houkai_sunzen_watarikuns_is/",
     "mal_id": 56693,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -7,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -664,9 +691,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prddfe/kekkon_yubiwa_monogatari_\u2171_tales_of_wedding_rings/",
     "mal_id": 58515,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -19,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -688,9 +715,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqo46e/tougen_anki_episode_23_discussion/",
     "mal_id": 58811,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 26,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -715,9 +742,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqovpe/shabake_episode_12_discussion/",
     "mal_id": 60378,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 12,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -739,9 +766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pr8a0v/pok\u00e9mon_horizons_the_series_episode_122_discussion/",
     "mal_id": 53876,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -17,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -763,7 +790,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pridlj/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -790,9 +817,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pruzdh/sivis_the_sound_of_heroes_episode_12_discussion/",
     "mal_id": 62126,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 4,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -814,9 +841,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
     "mal_id": 59078,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -4,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -838,9 +865,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prue7n/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -6,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -862,9 +889,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pr213v/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -4,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -886,7 +913,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp17k/monster_strike_deadverse_reloaded_episode_3/",
     "mal_id": 62066,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
