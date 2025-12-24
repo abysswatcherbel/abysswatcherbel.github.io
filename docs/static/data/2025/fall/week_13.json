@@ -1025,5 +1025,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "38",
+    "karma": 2,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pt9ch1/koupen_chan_episode_38_discussion/",
+    "mal_id": 60534,
+    "current_rank": 40,
+    "karma_change": 2,
+    "rank_change": 31,
+    "season": "fall"
   }
 ]
