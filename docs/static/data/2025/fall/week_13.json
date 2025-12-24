@@ -824,6 +824,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1669/151736l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1669/151736.jpg"
+    },
+    "title": "Debu to Love to Ayamachi to!",
+    "title_english": "Plus-sized Misadventures in Love!",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G9VHN9QGG"
+    },
+    "episode": "12",
+    "karma": 24,
+    "comments": 44,
+    "week_id": 13,
+    "studio": [
+      "Marvy Jack"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pt1thx/debu_to_love_to_ayamachi_to_plussized/",
+    "mal_id": 57189,
+    "current_rank": 32,
+    "karma_change": -2,
+    "rank_change": 22,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
     },
@@ -844,9 +871,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pruzdh/sivis_the_sound_of_heroes_episode_12_discussion/",
     "mal_id": 62126,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 4,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -868,9 +895,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqcr1h/princession_orchestra_episode_35_discussion/",
     "mal_id": 59078,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -4,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -892,9 +919,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1prue7n/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": -6,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -916,9 +943,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pr213v/hyakushou_kizoku_season_3_hyakusho_kizokuthe/",
     "mal_id": 60551,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -4,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -940,7 +967,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp17k/monster_strike_deadverse_reloaded_episode_3/",
     "mal_id": 62066,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
