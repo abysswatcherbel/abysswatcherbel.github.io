@@ -1109,6 +1109,34 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1889/151926l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1889/151926.jpg"
+    },
+    "title": "Heika Watashi wo Wasurete Kudasai",
+    "title_english": "Forget That Night, Your Majesty",
+    "num_episodes": 0,
+    "score": 5.64,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G4PH0WJ8V"
+    },
+    "episode": "10",
+    "karma": 5,
+    "comments": 5,
+    "week_id": 13,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pu6nki/heika_watashi_wo_wasurete_kudasai_forget_that/",
+    "mal_id": 62428,
+    "current_rank": 43,
+    "karma_change": 1,
+    "rank_change": 23,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
     },
@@ -1126,7 +1154,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pqp17k/monster_strike_deadverse_reloaded_episode_3/",
     "mal_id": 62066,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1151,9 +1179,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pty99f/2200nen_neko_no_kuni_nippon_episode_10_discussion/",
     "mal_id": 62496,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -2,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -1175,7 +1203,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ptzxdc/monster_strike_deadverse_reloaded_episode_4/",
     "mal_id": 62066,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1199,9 +1227,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pt9ch1/koupen_chan_episode_38_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   }
 ]
