@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1191/152368l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1191/152368.jpg"
+    },
+    "title": "Watashi wo Tabetai, Hitodenashi",
+    "title_english": "This Monster Wants to Eat Me",
+    "num_episodes": 13,
+    "score": 7.29,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00362279"
+    },
+    "episode": "13",
+    "karma": 578,
+    "comments": 214,
+    "week_id": 1,
+    "studio": [
+      "Studio Lings"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pvek7b/watashi_wo_tabetai_hitodenashi_this_monster_wants/",
+    "mal_id": 60168,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1388/153772l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1388/153772.jpg"
     },
@@ -18,9 +45,88 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pv74wd/undead_unluck_winterhen_undead_unluck_winter_arc/",
     "mal_id": 59435,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1888/151887l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1888/151887.jpg"
+    },
+    "title": "Chanto Suenai Kyuuketsuki-chan",
+    "title_english": "Li'l Miss Vampire Can't Suck Right",
+    "num_episodes": 0,
+    "score": 6.61,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00362058"
+    },
+    "episode": "12",
+    "karma": 123,
+    "comments": 48,
+    "week_id": 1,
+    "studio": [
+      "feel."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pxrfyu/chanto_suenai_kyuuketsukichan_lil_miss_vampire/",
+    "mal_id": 60933,
+    "current_rank": 3,
+    "karma_change": 33,
+    "rank_change": 24,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1282/151476l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1282/151476.jpg"
+    },
+    "title": "Kingdom 6th Season",
+    "title_english": "Kingdom: Season 6",
+    "num_episodes": 0,
+    "score": 9.05,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
+    },
+    "episode": "13",
+    "karma": 112,
+    "comments": 24,
+    "week_id": 1,
+    "studio": [
+      "Studio Pierrot",
+      "Studio Signpost"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1px5tqd/kingdom_season_6_episode_13_discussion/",
+    "mal_id": 61517,
+    "current_rank": 4,
+    "karma_change": -5,
+    "rank_change": 18,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.39,
+    "streams": null,
+    "episode": "39",
+    "karma": 4,
+    "comments": 2,
+    "week_id": 1,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pxk1ta/koupen_chan_episode_39_discussion/",
+    "mal_id": 60534,
+    "current_rank": 5,
+    "karma_change": 2,
+    "rank_change": 47,
     "season": "winter"
   },
   {
@@ -40,9 +146,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1pvch0j/petitcure_precure_fairies_episode_39_discussion/",
     "mal_id": 61272,
-    "current_rank": 2,
+    "current_rank": 6,
     "karma_change": 0,
-    "rank_change": 48,
+    "rank_change": 42,
     "season": "winter"
   }
 ]
