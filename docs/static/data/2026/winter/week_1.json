@@ -22,5 +22,27 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "39",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1pvch0j/petitcure_precure_fairies_episode_39_discussion/",
+    "mal_id": 61272,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": 48,
+    "season": "winter"
   }
 ]
