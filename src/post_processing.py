@@ -138,7 +138,7 @@ class SeasonalKarmaCollection(BaseModel):
 load_dotenv()
 
 # Declare a global variable for the scheduler instance
-scheduler_instance = None
+scheduler_instance: Optional[BackgroundScheduler] = None
 
 
 def setup_scheduler(
@@ -268,6 +268,10 @@ def update_scheduler(reddit: Reddit) -> None:
     try:
         new_posts = fetch_recent_posts(reddit=reddit)
         # Use the global scheduler_instance here
+        if scheduler_instance is None:
+            raise RuntimeError(
+                "Scheduler instance is not initialized; call setup_scheduler() first"
+            )
         schedule_post_processing(new_posts, reddit, scheduler_instance)
     except Exception as e:
         logger.error(f"Error updating scheduler: {e}", exc_info=True)
@@ -522,9 +526,12 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
     )  # Try to get the MAL id from the body of the post
     title_details, episode = get_title_details(post.title)
     if not week_id:
-        week_id = SeasonScheduler(
+        inferred_week_id = SeasonScheduler(
             post_time=datetime.fromtimestamp(post.created_utc, tz=timezone.utc)
         ).week_id
+        if inferred_week_id is None:
+            raise PostProcessingError("Could not infer week_id for post")
+        week_id = inferred_week_id
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     col = db.seasonals
@@ -546,13 +553,13 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
     )  # Check if the show exists on the db
 
     # If there is a mal_id but no document found, try to fetch the entry from MAL and push it to the db
-    if mal_id and not mal_doc:
+    if mal_id is not None and not mal_doc:
         logger.warning(
             f"Post {post_id} has a MAL ID but no document found in the database. Fetching it and pushing it to the db..."
         )
         try:
             mal = MalClient()
-            entry = mal.fetch_entry_by_id(mal_id)
+            entry = mal.fetch_entry_by_id(int(mal_id))
             if entry:
                 mal.push_to_db(entry)
                 logger.success(
@@ -1019,7 +1026,7 @@ def get_active_posts(
     return posts
 
 
-def get_mal_id_reddit_post(post_body: str) -> Optional[str | int]:
+def get_mal_id_reddit_post(post_body: str) -> Optional[int]:
     """
     Extracts the MyAnimeList ID from a Reddit post body.
 
@@ -1039,16 +1046,13 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[str | int]:
         '12345'
     """
     mal_url = re.search(r"https://myanimelist.net/anime/(\d+)", post_body)
-    mal_id = mal_url.group(1) if mal_url else None
+    if not mal_url:
+        return None
     try:
-        mal_id = int(mal_id)
-    except TypeError:
-        logger.error(f"MAL ID wasn't found")
-        mal_id = None
+        return int(mal_url.group(1))
     except ValueError:
-        logger.error(f"Error converting MAL ID to integer: {mal_id}")
-        mal_id = None
-    return mal_id
+        logger.error(f"Error converting MAL ID to integer: {mal_url.group(1)}")
+        return None
 
 
 def fetch_weekly_posts_db(
@@ -1063,6 +1067,10 @@ def fetch_weekly_posts_db(
     current_week = schedule.week_id
     current_year = schedule.year
     current_season = schedule.season_name
+
+    if current_week is None or current_year is None or current_season is None:
+        logger.error("Could not determine current schedule details")
+        return []
 
     reddit_karma = f"reddit_karma.{current_year}.{current_season}"
     current_data = list(
@@ -1131,18 +1139,43 @@ def fetch_weekly_posts_reddit(
 
     user = reddit.redditor(username)
     posts = []
-    week_id = (
-        schedule.week_id - 1
-        if datetime.now().weekday() in (4, 5, 6)
-        else schedule.week_id
-    )
+
+    if (
+        schedule.week_id is None
+        or schedule.year is None
+        or schedule.season_number is None
+    ):
+        return None
+
+    is_fri_sat_sun = datetime.now().weekday() in (4, 5, 6)
+    if not is_fri_sat_sun:
+        week_id = schedule.week_id
+        schedule_year = schedule.year
+        schedule_season = schedule.season_number
+    else:
+        if schedule.week_id == 1:
+            week_id = 13
+            if schedule.season_number == 1:
+                schedule_year = schedule.year - 1
+                schedule_season = 4
+            else:
+                schedule_year = schedule.year
+                schedule_season = schedule.season_number - 1
+        else:
+            week_id = schedule.week_id - 1
+            schedule_year = schedule.year
+            schedule_season = schedule.season_number
     # Get the current week schedule
     schedule_details = schedule.get_schedule_for_date(
-        year=schedule.year, season=schedule.season_number, week_id=week_id
+        year=schedule_year, season=schedule_season, week_id=week_id
     )
     if schedule_details:
         start_date = schedule_details.start_date
         end_date = schedule_details.end_date
+
+        if start_date is None or end_date is None:
+            return None
+
         for submission in user.submissions.new(limit=100):
             created_time = datetime.fromtimestamp(
                 submission.created_utc, tz=default_tz
