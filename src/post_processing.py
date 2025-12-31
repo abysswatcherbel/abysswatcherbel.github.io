@@ -357,9 +357,7 @@ def process_post(post: Dict, reddit: Reddit) -> None:
         try:
             post_validation = RedditPostDetails(**post_details)
             insert_mongo(post_validation.model_dump())
-            logger.success(
-                f"Successfully processed and inserted post: {post_validation.model_dump_json(indent=2)}"
-            )
+
         except ValidationError as e:
             logger.error(f"Validation error for post {post['id']}: {e}")
     except PostUnavailable:
@@ -406,8 +404,6 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
         "Kusuriya no Hitorigoto • The Apothecary Diaries - Episode 3 discussion" 2024-04-27 15:30:00+00:00
         "Another Anime Discussion Topic" 2024-04-28 12:45:00+00:00
     """
-    # log = setup_logging("fetch_posts")
-    logger.info(f"Fetching recent posts from user: {username}")
 
     user: Redditor = reddit.redditor(username)
     posts = []
