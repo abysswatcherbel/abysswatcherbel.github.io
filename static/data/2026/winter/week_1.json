@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1388/153772l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1388/153772.jpg"
+    },
+    "title": "Undead Unluck: Winter-hen",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "episode": "",
+    "karma": 363,
+    "comments": 87,
+    "week_id": 1,
+    "studio": [
+      "E&H Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1pv74wd/undead_unluck_winterhen_undead_unluck_winter_arc/",
+    "mal_id": 59435,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  }
+]
