@@ -44,7 +44,10 @@ def assign_rank(sorted_entries):
 
     for i in range(1, len(sorted_entries)):
         entry = sorted_entries[i]
-        if entry["karma"] == previous_karma and entry["comments"] == previous_comments:
+        if (
+            entry["karma"] == previous_karma
+            and entry["comments"] == previous_comments
+        ):
             entry["rank"] = current_rank
         else:
             current_rank = i + 1
@@ -64,6 +67,9 @@ def get_weekly_change(schedule: SeasonScheduler):
     current_week = schedule.week_id
     season = schedule.season_name
     year = schedule.year
+
+    if current_week is None or season is None or year is None:
+        raise RuntimeError("Could not determine schedule week/season/year")
 
     reddit_karma = f"reddit_karma.{year}.{season}"
 
@@ -101,11 +107,23 @@ def get_weekly_change(schedule: SeasonScheduler):
     )
 
     # Fetch previous week's data
-    reddit_karma = (
-        f"reddit_karma.{year}.{season}"
-        if last_week != 13
-        else f"reddit_karma.{year}.{schedule._get_season_name(schedule.season_number - 1)}"
-    )
+    if last_week != 13:
+        previous_year = year
+        previous_season = season
+    else:
+        season_number = schedule.season_number
+        if season_number is None:
+            raise RuntimeError("Could not determine schedule season number")
+
+        # Wrap seasons: winter(1) -> fall(4) and adjust year accordingly
+        if season_number == 1:
+            previous_year = year - 1
+            previous_season = schedule._get_season_name(4)
+        else:
+            previous_year = year
+            previous_season = schedule._get_season_name(season_number - 1)
+
+    reddit_karma = f"reddit_karma.{previous_year}.{previous_season}"
     previous_data = list(
         seasonal_entries.aggregate(
             [
@@ -128,12 +146,16 @@ def get_weekly_change(schedule: SeasonScheduler):
     )
 
     # Sort and rank current and previous data
-    current_sorted = sorted(current_data, key=lambda x: (-x["karma"], -x["comments"]))
+    current_sorted = sorted(
+        current_data, key=lambda x: (-x["karma"], -x["comments"])
+    )
     current_sorted = assign_rank(current_sorted)
     for entry in current_sorted:
         entry["current_rank"] = entry.pop("rank", None)
 
-    previous_sorted = sorted(previous_data, key=lambda x: (-x["karma"], -x["comments"]))
+    previous_sorted = sorted(
+        previous_data, key=lambda x: (-x["karma"], -x["comments"])
+    )
     previous_sorted = assign_rank(previous_sorted)
     for entry in previous_sorted:
         entry["previous_rank"] = entry.pop("rank", None)
@@ -161,7 +183,9 @@ def get_weekly_change(schedule: SeasonScheduler):
                 previous_entry["previous_rank"] - current_entry["current_rank"]
             )
         else:
-            rank_change = "new" if current_entry["episode"] == "1" else "returning"
+            rank_change = (
+                "new" if current_entry["episode"] == "1" else "returning"
+            )
 
         merged_entry = {
             **current_entry,
@@ -249,12 +273,17 @@ def get_season_averages(schedule: SeasonScheduler):
     pipeline = [
         {
             "$match": {
-                f"reddit_karma.{year}.{season}": {"$exists": True, "$type": "array"}
+                f"reddit_karma.{year}.{season}": {
+                    "$exists": True,
+                    "$type": "array",
+                }
             }
         },
         {
             "$match": {
-                "$expr": {"$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 2]}
+                "$expr": {
+                    "$gte": [{"$size": f"$reddit_karma.{year}.{season}"}, 2]
+                }
             }
         },
         {
@@ -265,8 +294,12 @@ def get_season_averages(schedule: SeasonScheduler):
                 "title_english": 1,
                 "images": 1,
                 "streams": 1,
-                "average_karma": {"$avg": f"$reddit_karma.{year}.{season}.karma"},
-                "average_comments": {"$avg": f"$reddit_karma.{year}.{season}.comments"},
+                "average_karma": {
+                    "$avg": f"$reddit_karma.{year}.{season}.karma"
+                },
+                "average_comments": {
+                    "$avg": f"$reddit_karma.{year}.{season}.comments"
+                },
                 "max_karma": {"$max": f"$reddit_karma.{year}.{season}.karma"},
                 "min_karma": {"$min": f"$reddit_karma.{year}.{season}.karma"},
                 "total_episodes": {"$size": f"$reddit_karma.{year}.{season}"},
@@ -325,7 +358,9 @@ def update_mal_numbers(
                     "X-MAL-CLIENT-ID": os.getenv("MAL_SECRET"),
                 }
 
-                response = requests.get(url=endpoint, headers=headers, timeout=90)
+                response = requests.get(
+                    url=endpoint, headers=headers, timeout=90
+                )
                 if response.status_code == 200:
                     data = response.json()
                     logger.success(f"Got MAL data for {mal_id}")
@@ -333,12 +368,18 @@ def update_mal_numbers(
                         "score": data.get("mean"),
                         "members": data.get("num_list_users"),
                         "scoring_members": data.get("num_scoring_users"),
-                        "extra_stats": data.get("statistics", {}).get("status"),
+                        "extra_stats": data.get("statistics", {}).get(
+                            "status"
+                        ),
                     }
 
                     collection.update_one(
                         {"id": mal_id, f"{reddit_karma}.week_id": week_id},
-                        {"$set": {f"{reddit_karma}.$.mal_stats": new_statistic}},
+                        {
+                            "$set": {
+                                f"{reddit_karma}.$.mal_stats": new_statistic
+                            }
+                        },
                     )
 
                     collection.update_one(
@@ -352,7 +393,9 @@ def update_mal_numbers(
                     )
 
                 else:
-                    logger.error(f"Error with ID {mal_id}: {response.status_code}")
+                    logger.error(
+                        f"Error with ID {mal_id}: {response.status_code}"
+                    )
             except Exception as e:
                 logger.error(f"Error with ID {mal_id}: {e}")
     client.close()
