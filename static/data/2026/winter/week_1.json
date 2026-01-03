@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1112/150697l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1112/150697.jpg"
+    },
+    "title": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan",
+    "title_english": "Kaguya-sama: Love Is War -Stairway to Adulthood-",
+    "num_episodes": 1,
+    "score": 8.33,
+    "streams": null,
+    "episode": "1",
+    "karma": 1203,
+    "comments": 156,
+    "week_id": 1,
+    "studio": [
+      "A-1 Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q0ffm0/kaguyasama_wa_kokurasetai_otona_e_no_kaidan/",
+    "mal_id": 61903,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1112/150697l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1112/150697.jpg"
+    },
+    "title": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan",
+    "title_english": "Kaguya-sama: Love Is War -Stairway to Adulthood-",
+    "num_episodes": 1,
+    "score": 8.33,
+    "streams": null,
+    "episode": "2",
+    "karma": 1013,
+    "comments": 189,
+    "week_id": 1,
+    "studio": [
+      "A-1 Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q0ffm9/kaguyasama_wa_kokurasetai_otona_e_no_kaidan/",
+    "mal_id": 61903,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1191/152368l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1191/152368.jpg"
     },
@@ -21,7 +69,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pvek7b/watashi_wo_tabetai_hitodenashi_this_monster_wants/",
     "mal_id": 60168,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -45,7 +93,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pv74wd/undead_unluck_winterhen_undead_unluck_winter_arc/",
     "mal_id": 59435,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -72,9 +120,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pxrfyu/chanto_suenai_kyuuketsukichan_lil_miss_vampire/",
     "mal_id": 60933,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 33,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -100,9 +148,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1px5tqd/kingdom_season_6_episode_13_discussion/",
     "mal_id": 61517,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": -5,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "winter"
   },
   {
@@ -124,9 +172,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pxk1ta/koupen_chan_episode_39_discussion/",
     "mal_id": 60534,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 2,
-    "rank_change": 47,
+    "rank_change": 45,
     "season": "winter"
   },
   {
@@ -146,9 +194,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1pvch0j/petitcure_precure_fairies_episode_39_discussion/",
     "mal_id": 61272,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "winter"
   }
 ]
