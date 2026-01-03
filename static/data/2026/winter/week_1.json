@@ -76,6 +76,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1129/152182l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1129/152182.jpg"
+    },
+    "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (\u203bMuri ja Nakatta!?) (2026)",
+    "title_english": "There's No Freaking Way I'll be Your Lover! Unless...",
+    "num_episodes": 5,
+    "score": 7.1,
+    "streams": null,
+    "episode": "16",
+    "karma": 364,
+    "comments": 39,
+    "week_id": 1,
+    "studio": [
+      "studio MOTHER"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q0kf3e/",
+    "mal_id": 62543,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1388/153772l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1388/153772.jpg"
     },
@@ -93,7 +117,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pv74wd/undead_unluck_winterhen_undead_unluck_winter_arc/",
     "mal_id": 59435,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -120,9 +144,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pxrfyu/chanto_suenai_kyuuketsukichan_lil_miss_vampire/",
     "mal_id": 60933,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 33,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   },
   {
@@ -148,9 +172,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1px5tqd/kingdom_season_6_episode_13_discussion/",
     "mal_id": 61517,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -5,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "winter"
   },
   {
@@ -172,9 +196,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pxk1ta/koupen_chan_episode_39_discussion/",
     "mal_id": 60534,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 2,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "winter"
   },
   {
@@ -194,9 +218,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1pvch0j/petitcure_precure_fairies_episode_39_discussion/",
     "mal_id": 61272,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "winter"
   }
 ]
