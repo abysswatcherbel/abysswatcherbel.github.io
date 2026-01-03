@@ -49,33 +49,6 @@
   },
   {
     "images": {
-      "large": "https://cdn.myanimelist.net/images/anime/1191/152368l.jpg",
-      "medium": "https://cdn.myanimelist.net/images/anime/1191/152368.jpg"
-    },
-    "title": "Watashi wo Tabetai, Hitodenashi",
-    "title_english": "This Monster Wants to Eat Me",
-    "num_episodes": 13,
-    "score": 7.29,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00362279"
-    },
-    "episode": "13",
-    "karma": 578,
-    "comments": 214,
-    "week_id": 1,
-    "studio": [
-      "Studio Lings"
-    ],
-    "url": "https://www.reddit.com/r/anime/comments/1pvek7b/watashi_wo_tabetai_hitodenashi_this_monster_wants/",
-    "mal_id": 60168,
-    "current_rank": 3,
-    "karma_change": 0,
-    "rank_change": "returning",
-    "season": "winter"
-  },
-  {
-    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1129/152182l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1129/152182.jpg"
     },
@@ -93,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q0keuh/",
     "mal_id": 62543,
-    "current_rank": 4,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -117,7 +90,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q0kf62/",
     "mal_id": 62543,
-    "current_rank": 5,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -141,7 +114,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q0keyt/",
     "mal_id": 62543,
-    "current_rank": 6,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -165,7 +138,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q0kf3e/",
     "mal_id": 62543,
-    "current_rank": 7,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -189,7 +162,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q0kf3e/",
     "mal_id": 62543,
-    "current_rank": 8,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -213,9 +186,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pv74wd/undead_unluck_winterhen_undead_unluck_winter_arc/",
     "mal_id": 59435,
-    "current_rank": 9,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1419/154458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1419/154458.jpg"
+    },
+    "title": "MF Ghost 3rd Season",
+    "title_english": "MF Ghost Season 3",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 193,
+    "comments": 74,
+    "week_id": 1,
+    "studio": [
+      "Felix Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q15kji/mf_ghost_season_3_episode_1_discussion/",
+    "mal_id": 60602,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "winter"
   },
   {
