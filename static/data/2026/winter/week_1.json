@@ -871,6 +871,30 @@
     "score": null,
     "streams": null,
     "episode": "5",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "Yumeta Company"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q1866f/monster_strike_deadverse_reloaded_episode_5/",
+    "mal_id": 62066,
+    "current_rank": 34,
+    "karma_change": 2,
+    "rank_change": 16,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
+    },
+    "title": "Monster Strike: Deadverse Reloaded",
+    "title_english": "",
+    "num_episodes": 10,
+    "score": null,
+    "streams": null,
+    "episode": "5",
     "karma": 3,
     "comments": 1,
     "week_id": 1,
@@ -879,9 +903,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q1866f/monster_strike_deadverse_reloaded_episode_5/",
     "mal_id": 62066,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 1,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -903,7 +927,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1pwwrt1/meitantei_conan_case_closed_episode_1186/",
     "mal_id": 235,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
