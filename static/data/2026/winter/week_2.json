@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
+    },
+    "title": "Cat's\u2665Eye",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.55,
+    "streams": null,
+    "episode": "8",
+    "karma": 31,
+    "comments": 16,
+    "week_id": 2,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q1tvw8/catseye_cats_eye_episode_8_discussion/",
+    "mal_id": 60347,
+    "current_rank": 1,
+    "karma_change": -3,
+    "rank_change": 26,
+    "season": "winter"
+  }
+]
