@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1062/151911l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1062/151911.jpg"
+    },
+    "title": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+    "title_english": "Sentenced to Be a Hero",
+    "num_episodes": 12,
+    "score": 8.41,
+    "streams": null,
+    "episode": "1",
+    "karma": 2573,
+    "comments": 749,
+    "week_id": 2,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q2u3sf/yuushakei_ni_shosu_choubatsu_yuusha_9004tai_keimu/",
+    "mal_id": 56009,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -18,9 +42,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q1tvw8/catseye_cats_eye_episode_8_discussion/",
     "mal_id": 60347,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -3,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "winter"
   },
   {
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q2qkad/meitantei_conan_case_closed_episode_1187/",
     "mal_id": 235,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 8,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "winter"
   }
 ]
