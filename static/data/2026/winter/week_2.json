@@ -25,6 +25,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1752/150192l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1752/150192.jpg"
+    },
+    "title": "Fate/strange Fake",
+    "title_english": "Fate/strange Fake",
+    "num_episodes": 0,
+    "score": 8.27,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "http://www.crunchyroll.com/series-283702"
+    },
+    "episode": "1",
+    "karma": 1023,
+    "comments": 245,
+    "week_id": 2,
+    "studio": [
+      "A-1 Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q32kvx/fatestrange_fake_episode_1_discussion/",
+    "mal_id": 55830,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -42,9 +69,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q1tvw8/catseye_cats_eye_episode_8_discussion/",
     "mal_id": 60347,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -3,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "winter"
   },
   {
@@ -66,9 +93,34 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q2qkad/meitantei_conan_case_closed_episode_1187/",
     "mal_id": 235,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 8,
-    "rank_change": 35,
+    "rank_change": 34,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
+    },
+    "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 4,
+    "comments": 11,
+    "week_id": 2,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q32bsu/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
+    "mal_id": 61969,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "winter"
   }
 ]
