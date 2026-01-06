@@ -122,5 +122,29 @@
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
+    },
+    "num_episodes": 49,
+    "score": 7.36,
+    "streams": {},
+    "title": "Kimi to Idol Precure\u266a",
+    "title_english": "You and Idol Precure\u266a",
+    "episode": "46",
+    "karma": 4,
+    "comments": 8,
+    "week_id": 2,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q3cjdk/kimi_to_idol_precure_you_and_idol_precure_episode/",
+    "mal_id": 60407,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
   }
 ]
