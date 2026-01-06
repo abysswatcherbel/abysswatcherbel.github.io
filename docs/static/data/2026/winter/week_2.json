@@ -52,6 +52,33 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.06,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00364378"
+    },
+    "episode": "13",
+    "karma": 88,
+    "comments": 26,
+    "week_id": 2,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q3ejhg/digimon_beatbreak_episode_13_discussion/",
+    "mal_id": 61269,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -69,9 +96,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q1tvw8/catseye_cats_eye_episode_8_discussion/",
     "mal_id": 60347,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -3,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "winter"
   },
   {
@@ -93,9 +120,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q2qkad/meitantei_conan_case_closed_episode_1187/",
     "mal_id": 235,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 8,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "winter"
   },
   {
@@ -118,7 +145,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q32bsu/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -142,7 +169,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3cjdk/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
