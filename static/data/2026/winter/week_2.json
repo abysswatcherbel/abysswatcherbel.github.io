@@ -148,6 +148,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1729/153502l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1729/153502.jpg"
+    },
+    "title": "Osananajimi to wa Love Comedy ni Naranai",
+    "title_english": "You Can't Be In a Rom-Com with Your Childhood Friends!",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 388,
+    "comments": 174,
+    "week_id": 2,
+    "studio": [
+      "Tezuka Productions"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q4pr5g/osananajimi_to_wa_lovecom_ni_naranai_you_cant_be/",
+    "mal_id": 61359,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1704/154459l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1704/154459.jpg"
     },
@@ -165,7 +189,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3qovz/majutsushi_kunon_wa_mieteiru_kunon_the_sorcerer/",
     "mal_id": 60810,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -189,7 +213,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3qtll/majutsushi_kunon_wa_mieteiru_kunon_the_sorcerer/",
     "mal_id": 60810,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -213,7 +237,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3qtm3/hanazakari_no_kimitachi_e_hanakimi_episode_1/",
     "mal_id": 58861,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -237,7 +261,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3s2xk/kizoku_tensei_megumareta_umare_kara_saikyou_no/",
     "mal_id": 60692,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -261,7 +285,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3qtmc/hanazakari_no_kimitachi_e_hanakimi_episode_2/",
     "mal_id": 58861,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -288,7 +312,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3ejhg/digimon_beatbreak_episode_13_discussion/",
     "mal_id": 61269,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -312,7 +336,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3s2x9/goumon_baitokun_no_nichijou_the_daily_life_of_a/",
     "mal_id": 61886,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -336,9 +360,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q1tvw8/catseye_cats_eye_episode_8_discussion/",
     "mal_id": 60347,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -3,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "winter"
   },
   {
@@ -360,9 +384,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q2qkad/meitantei_conan_case_closed_episode_1187/",
     "mal_id": 235,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 8,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -385,7 +409,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q32bsu/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -409,7 +433,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3cjdk/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
