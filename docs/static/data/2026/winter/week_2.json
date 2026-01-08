@@ -412,6 +412,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1112/152731l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1112/152731.jpg"
+    },
+    "title": "Arne no Jikenbo",
+    "title_english": "The Case Book of Arne",
+    "num_episodes": 12,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 137,
+    "comments": 82,
+    "week_id": 2,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q5p1yi/arne_no_jikenbo_the_case_book_of_arne_episode_1/",
+    "mal_id": 60255,
+    "current_rank": 18,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1490/152041l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1490/152041.jpg"
     },
@@ -429,7 +453,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3qtmc/hanazakari_no_kimitachi_e_hanakimi_episode_2/",
     "mal_id": 58861,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -453,7 +477,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q5kxpv/yoroishinden_samurai_troopers_episode_1_discussion/",
     "mal_id": 61830,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -480,7 +504,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3ejhg/digimon_beatbreak_episode_13_discussion/",
     "mal_id": 61269,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -504,7 +528,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3s2x9/goumon_baitokun_no_nichijou_the_daily_life_of_a/",
     "mal_id": 61886,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -528,9 +552,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q1tvw8/catseye_cats_eye_episode_8_discussion/",
     "mal_id": 60347,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -3,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -552,9 +576,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q2qkad/meitantei_conan_case_closed_episode_1187/",
     "mal_id": 235,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 8,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -577,7 +601,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q32bsu/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -601,7 +625,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3cjdk/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -625,9 +649,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q5j9n3/koupen_chan_episode_40_discussion/",
     "mal_id": 60534,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -649,9 +673,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q5kbmq/monster_strike_deadverse_reloaded_episode_6/",
     "mal_id": 62066,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -1,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "winter"
   }
 ]
