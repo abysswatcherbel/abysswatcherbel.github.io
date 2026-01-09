@@ -656,6 +656,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.37,
+    "streams": null,
+    "episode": "13",
+    "karma": 3,
+    "comments": 3,
+    "week_id": 2,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q6cmdl/ugoku_neko_mukashibanashi_cat_tales_episode_13/",
+    "mal_id": 61254,
+    "current_rank": 28,
+    "karma_change": -3,
+    "rank_change": 4,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
     },
@@ -673,9 +697,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q5kbmq/monster_strike_deadverse_reloaded_episode_6/",
     "mal_id": 62066,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "winter"
   }
 ]
