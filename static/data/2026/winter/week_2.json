@@ -778,6 +778,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 6.86,
+    "streams": null,
+    "episode": "14",
+    "karma": 7,
+    "comments": 2,
+    "week_id": 2,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1q7bmk8/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 33,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
     },
@@ -796,7 +818,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q32bsu/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -820,7 +842,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q3cjdk/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -844,9 +866,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q5j9n3/koupen_chan_episode_40_discussion/",
     "mal_id": 60534,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "winter"
   },
   {
@@ -868,9 +890,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q6cmdl/ugoku_neko_mukashibanashi_cat_tales_episode_13/",
     "mal_id": 61254,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": -3,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "winter"
   },
   {
@@ -892,9 +914,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q5kbmq/monster_strike_deadverse_reloaded_episode_6/",
     "mal_id": 62066,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": -1,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "winter"
   },
   {
@@ -914,9 +936,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1q77hkx/petitcure_precure_fairies_episode_40_discussion/",
     "mal_id": 61272,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -4,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "winter"
   }
 ]
