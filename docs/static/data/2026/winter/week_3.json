@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "13",
+    "karma": 667,
+    "comments": 133,
+    "week_id": 3,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q8fjkp/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -42,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8dea5/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -66,7 +90,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8d2lg/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -93,9 +117,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q82xkj/catseye_cats_eye_episode_9_discussion/",
     "mal_id": 60347,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 1,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "winter"
   }
 ]
