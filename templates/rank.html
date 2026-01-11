@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>{{ airing_details.season }} Karma Ranks</title>
+        <meta name="description" content="The current /r/anime weekly engagement ranking discussion">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/toolbar.css') }}">
+
+        <script src="{{ url_for('static', filename='scripts/editBanner.js') }}"></script>
+        <script src="{{ url_for('static', filename='scripts/toolbar.js') }}"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            {# Header Section #}
+            <div class="header">
+                <img class="snoo" src="{{ url_for('static', filename='assets/img/snoo.png') }}" alt="Snoo"
+                    loading="lazy">
+                <div class="subheader">
+                    <div class="main-title">
+                        <span>/r/anime weekly engagement ranking &amp; discussion</span>
+                    </div>
+                    <div class="subsubheader">
+                        <div class="airing-period">{{ airing_details.airing_period }}</div>
+                        {# Legend Section #}
+                        <div class="legend">
+                            <div>
+                                <div class="icon">
+                                    <img src="{{ url_for('static', filename='assets/svg/arrow-up.svg') }}"
+                                        alt="Rank Up">
+                                    <img src="{{ url_for('static', filename='assets/svg/arrow-down.svg') }}"
+                                        alt="Rank Down">
+                                </div>
+                                <span>Rank<br>change</span>
+                            </div>
+                            <div>
+                                <div class="icon">
+                                    <img src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
+                                        alt="Caret Up">
+                                    <img src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}"
+                                        alt="Caret Down">
+                                </div>
+                                <span>Karma<br>change</span>
+                            </div>
+                            <div>
+                                <div class="icon" style="color: rgb(252, 103, 43);"><span>M</span></div>
+                                <span>Myanimelist<br>score</span>
+                            </div>
+                            <div>
+                                <span
+                                    style="clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);width: 13px;height: 12px;background-color: white;"></span>
+                                <span>No.of<br>Comments </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="credits">
+                        <div class="pill">Chart: https://abysswatcherbel.github.io/current_chart</div>
+                        <div class="pill">Data: r/anime</div>
+                        <div class="pill">Poster art: r/anime users</div>
+                        <div class="pill">Creator: /u/reddadz</div>
+                        <div class="pill">Editor: /u/abysswatcherbel</div>
+                        <div class="total-karma">
+                            <div class="text-container"><span>K</span> {{ sum_karma }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="week-container">
+                    <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
+                    <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
+                </div>
+            </div>
+
+
+            {# Macros for reusable components #}
+            {% macro rank_change_indicator(change, is_right=false) %}
+            {% if change == 'returning' %}
+            {{ back_symbol | safe }}
+            {% elif change == 'new' %}
+            {% if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif %}
+            {% elif change | int == 0 %}
+            {% if is_right %}
+            <span class="right-rank-change stable">&mdash;</span>
+            {% else %}
+            <span class="rank-change stable">&mdash;</span>
+            {% endif %}
+            {% else %}
+            {% if is_right %}
+            <span class="right-rank-change {% if change | int > 0 %}positive{% else %}negative{% endif %}">
+                <span>
+                    <svg class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
+                        viewBox="0 0 117.7 110">
+                        <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                    </svg>
+                </span>{{ change | int | abs }}
+            </span>
+            {% else %}
+            <span
+                class="rank-change {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}stable{% endif %}">
+                {% if change | int != 0 %}
+                <svg class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
+                    viewBox="0 0 117.7 110">
+                    <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                </svg>{{ change | int | abs }}
+                {% endif %}
+            </span>
+            {% endif %}
+            {% endif %}
+            {% endmacro %}
+
+            {% macro karma_change_indicator(change) %}
+            <svg class="caret {% if change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1"
+                id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;"
+                xml:space="preserve">
+                <g>
+                    <g>
+                        <path
+                            d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z">
+                        </path>
+                    </g>
+                </g>
+            </svg>{{ change | int | abs }}
+            {% endmacro %}
+
+            {% macro get_title(entry) %}
+            {% if entry.title_english %}
+            {{ entry.title_english }}
+            {% else %}
+            {{ entry.title }}
+            {% endif %}
+            {% endmacro %}
+
+            {% macro get_banner_offset(entry) %}
+            {% if entry.banner %}
+            {{ entry.banner.offset }}
+            {% else %}
+            {{ "0px 0px "}}
+            {% endif %}
+            {% endmacro %}
+
+            {# Fallback for missing banner #}
+            {% macro get_fallback_banner(entry) %}
+            {% if entry.images.large %}
+            {{entry.images.large}}
+            {% else %}
+            {{entry.images.medium}}
+            {% endif %}
+            {% endmacro %}
+
+            {% macro get_banner(entry) %}
+            {% if entry.banner %}{{entry.banner.url}}{% else %}{{entry.images.large}}{% endif %}
+            {% endmacro %}
+
+            {# Episode Container #}
+            <div class="episode-container">
+                {% for left, right in complete_rankings %}
+                <div class="row">
+
+                    {# --- LEFT ENTRY --- #}
+                    {% if left %}
+                    <div class="karma-entry">
+
+                        {# 1. Rank Number #}
+                        <div class="ranking">
+                            <span class="rank">{{ left.current_rank }}</span>
+                            {{ rank_change_indicator(left.rank_change) }}
+                        </div>
+
+                        {# 2. Main Banner Area #}
+                        <div class="details"
+                            style="background-image: url({{get_banner(left)}}); background-position: {{get_banner_offset(left)}};">
+
+                            <a href="{{ left.images.large }}" target="_blank" class="external-link"></a>
+
+                            {# Part 1: Karma (Top Left) #}
+                            <div class="part-1">
+                                <span class="karma-change"
+                                    style="display: {% if left.karma_change == 0 %}none{% else %}flex{% endif %};">{{karma_change_indicator(left.karma_change)}}</span>
+                                <span class="karma">{{ left.karma }}</span>
+                            </div>
+
+                            {# Part 2: Title + Bottom Metadata (Chips & Episode) #}
+                            <div class="part-2" style="display: flex; flex-direction: column; justify-content: flex-end;">
+
+                                <span class="title">{{ get_title(left) }}</span>
+
+                                {# Container for Bottom Row: Chips + Episode Number #}
+                                <div class="bottom-metadata" style="display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; margin-top: 4px;">
+
+                                    {# GROUP 1: The Chips (Studio, Score, Comments) #}
+                                    <div class="chips-group" style="display: flex; flex-wrap: wrap; gap: 5px;">
+
+                                        {# Studio #}
+                                        <span class="Studio" style="background-color: #fff; color: #000; padding: 2px 5px; border-radius: 4px; font-size: 0.75rem; font-weight: bold;">
+                                            {{ left.studio | join(',') }}
+                                        </span>
+
+                                        {# Score #}
+                                        <span style="background: rgba(0,0,0,0.7); color: white; padding: 2px 5px; border-radius: 4px; font-size: 0.75rem;">
+                                            {{ left.score }} <span class="neutral" style="color: orange;">M</span>
+                                            <a class="external-link" href="https://myanimelist.net/anime/{{ left.mal_id }}" target="_blank"></a>
+                                        </span>
+
+                                        {# Comments #}
+                                        <div class="comments" style="background: rgba(255,255,255,0.9); color: black; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; position: relative; display: inline-flex;">
+                                            <span>{{ left.comments }}</span>
+                                            {% if left.url %}
+                                            <a href="{{ left.url }}" target="_blank" class="external-link" data-title-english="{{ get_title(left) }}"></a>
+                                            {% else %}
+                                            <a href="#" target="_blank" class="external-link" data-check-fallback="true" data-title-english="{{ get_title(left) }}"></a>
+                                            {% endif %}
+                                        </div>
+
+                                        {# Stream #}
+                                        {% if left.streams.name %}
+                                        <span class="{{ left.streams.name | capitalize}}" style="background: #333; color: white; padding: 2px 5px; border-radius: 4px; font-size: 0.75rem; position: relative;">
+                                            {{ left.streams.name | capitalize}}
+                                            <a class="external-link" href="{{ left.streams.url }}" target="_blank"></a>
+                                        </span>
+                                        {% endif %}
+                                    </div>
+
+                                    {# GROUP 2: The Episode Number (Kept in pod-container for legacy CSS support if needed) #}
+                                    <div class="pod-container">
+                                        <span class="episode-number">
+                                            <span class="poll-blue">E</span>
+                                            {% set ep = left.episode | int(default=0) %}
+                                            {% set total = left.num_episodes | int(default=0) %}
+                                            {{ ep }}
+                                            {% if ep == total and ep != 0 %} (Final) {% endif %}
+                                        </span>
+                                    </div>
+                                </div>
+                                {# End Bottom Metadata #}
+
+                            </div>
+                            {# End Part 2 #}
+
+                            <button class="edit-banner-button">Change or Edit this Banner</button>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {# --- RIGHT ENTRY --- #}
+                    {% if right %}
+                    <div class="karma-entry rightSide">
+                        <div class="details rightBanner"
+                            style="background-image: url('{{ right.images.large }}'); background-position: 0px 0px;">
+                            <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
+
+                            <div class="part-2">
+                                <span class="title rightTitle">{{ get_title(right) }}</span>
+                                <span class="karma rightKarma">{{ right.karma }}</span>
+                                <div class="rightContainer">
+                                    <span class="{{ right.streams.name | capitalize }}-logo">{{ right.streams.name | capitalize}}</span>
+                                    <div class="details-container">
+                                        <div class="comments-wrapper" style="filter: drop-shadow(3px 1px 1px rgba(0, 0, 0, 0.8));">
+                                            <div class="right-comments"><span>{{ right.comments }}</span></div>
+                                        </div>
+                                        <span class="rightEpisode">E {{ right.episode | int }}</span>
+                                        <span class="karma-change rightChange"
+                                            style="display: {% if right.karma_change == 0 %}none{% else %}flex{% endif %};{% if right.karma_change > 0 %}color: rgb(252, 103, 43);{% else %}color: rgb(146, 108, 202);{% endif %}">
+                                            {{ karma_change_indicator(right.karma_change) }}
+                                        </span>
+                                        <div class="right-ranking">
+                                            {{ rank_change_indicator(right.rank_change, true) }}
+                                        </div>
+                                    </div>
+
+                                    <div class="rightRank"><span>{{ right.current_rank }}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="divider"></div>
+                {% endfor %}
+            </div>
+
+        </div>
+        <div id="rightToolbar" class="right-toolbar">
+            <button id="editModeBtn" class="toolbar-btn" title="Edit Mode">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M3 17v-2.5l10-10a1.77 1.77 0 0 1 2.5 2.5l-10 10H3zm1.5-1.5H5l10-10a.25.25 0 1 0-.35-.35l-10 10v.35zm8.12-7.76l1.13-1.12 1.5 1.5-1.12 1.12-1.5-1.5z"
+                        fill="currentColor" />
+                </svg>
+                <span>Edit Mode</span>
+            </button>
+            <button id="saveEditsBtn" class="toolbar-btn" title="Save Edits">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M5 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6.83a2 2 0 0 0-.59-1.41l-2.83-2.83A2 2 0 0 0 13.17 2H5zm0 2h8v2.17a2 2 0 0 0 2 2V16H5V4zm3 8h2v4h-2v-4z"
+                        fill="currentColor" />
+                </svg>
+                <span>Save Edits</span>
+            </button>
+            <button id="saveEditsAsBtn" class="toolbar-btn" title="Save Edits As">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M6 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6zm0 2h8v12H6V4zm2 2h4v2H8V6zm0 3h4v2H8V9zm0 3h4v2H8v-2z"
+                        fill="currentColor" />
+                </svg>
+                <span>Save As</span>
+            </button>
+            <button id="copyHtmlBtn" class="toolbar-btn" title="Copy HTML">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                    <path
+                        d="M7 2a2 2 0 0 0-2 2v2h2V4h8v8h-2v2h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H7zm0 6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2zm2 0h8v10h-8V8zm-2 2v2H5v2h2v2H5v2h2a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H5z"
+                        fill="currentColor" />
+                </svg>
+                <span>Copy HTML</span>
+            </button>
+
+        </div>
+
+
+        <div id="bannerEditorModal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close-button">&times;</span>
+                <h2>Edit Banner Image</h2>
+                <div class="modal-body">
+                    <div class="modal-preview-section">
+                        <div class="preview-controls">
+
+                            <div class="zoom-controls">
+                                <button id="zoomInBtn" title="Zoom In" class="zoom-button">Zoom In</button>
+                                <button id="zoomOutBtn" title="Zoom Out" class="zoom-button">Zoom Out</button>
+
+                            </div>
+                        </div>
+                        <div id="imagePreviewBox" class="image-preview-box">
+                            <div id="previewBackgroundLayer" class="preview-layer"></div>
+                            <div id="previewForegroundLayer" class="preview-layer"></div>
+                        </div>
+                    </div>
+                    <div class="modal-input-area">
+                        <label for="imageUrlInput">Image URL:</label>
+                        <input type="url" id="imageUrlInput" name="imageUrlInput"
+                            placeholder="https://example.com/image.jpg">
+
+                        <label for="bgPositionInput">Background Position:</label>
+                        <input type="text" id="bgPositionInput" name="bgPositionInput"
+                            placeholder="e.g., center center, 0px -50px">
+
+                        <label for="bgSizeInput">Zoom:</label>
+                        <input type="text" id="bgSizeInput" name="bgSizeInput" placeholder="e.g., cover, contain, 100%">
+
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button id="saveBannerChanges" class="modal-button-save">Save Changes</button>
+                    <button id="cancelBannerChanges" class="modal-button-cancel">Cancel</button>
+                    <button id="copyBannerCss" class="modal-button-copy" type="button">Copy Edits</button>
+                    <button id="resetBannerChanges" class="modal-button-reset">Default</button>
+                </div>
+            </div>
+
+
+    </body>
+
+</html>
