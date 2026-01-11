@@ -131,7 +131,7 @@ def karma_rank():
     complete_rankings = list(zip_longest(left_rankings, right_rankings))
 
     return render_template(
-        "rank.html",
+        "rank.html.j2",
         complete_rankings=complete_rankings,
         airing_details=airing_period,
         sum_karma=total_karma,
