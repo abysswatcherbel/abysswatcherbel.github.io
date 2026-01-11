@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 264,
+    "comments": 212,
+    "week_id": 3,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q8dea5/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
+    "mal_id": 60460,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
+    },
+    "title": "Dark Moon: Tsuki no Saidan",
+    "title_english": "Dark Moon: The Blood Altar",
+    "num_episodes": 12,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 72,
+    "comments": 66,
+    "week_id": 3,
+    "studio": [
+      "TROYCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q8d2lg/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
+    "mal_id": 59853,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -21,9 +69,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q82xkj/catseye_cats_eye_episode_9_discussion/",
     "mal_id": 60347,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 1,
-    "rank_change": 38,
+    "rank_change": 36,
     "season": "winter"
   }
 ]
