@@ -73,6 +73,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1031/154235l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1031/154235.jpg"
+    },
+    "title": "Tensei shitara Dragon no Tamago datta",
+    "title_english": "Reincarnated as a Dragon Hatchling",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 221,
+    "comments": 171,
+    "week_id": 3,
+    "studio": [
+      "Felix Film",
+      "Ga-Crew"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q93l7s/tensei_shitara_dragon_no_tamago_datta/",
+    "mal_id": 61207,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -90,7 +115,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8d2lg/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -117,9 +142,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q82xkj/catseye_cats_eye_episode_9_discussion/",
     "mal_id": 60347,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 1,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "winter"
   },
   {
@@ -141,7 +166,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8qcg9/pok\u00e9mon_horizons_the_series_episode_123_discussion/",
     "mal_id": 53876,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -165,7 +190,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8zyn4/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -191,7 +216,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8u3qo/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -218,9 +243,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
     "mal_id": 235,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -7,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "winter"
   }
 ]

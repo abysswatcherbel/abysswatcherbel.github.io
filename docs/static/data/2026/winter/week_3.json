@@ -195,5 +195,32 @@
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "http://www.crunchyroll.com/series-280722"
+    },
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1188",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
+    "mal_id": 235,
+    "current_rank": 9,
+    "karma_change": -7,
+    "rank_change": 33,
+    "season": "winter"
   }
 ]
