@@ -49,6 +49,58 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1219/154541l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1219/154541.jpg"
+    },
+    "title": "Trigun Stargaze",
+    "title_english": "Trigun Stargaze",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 665,
+    "comments": 162,
+    "week_id": 3,
+    "studio": [
+      "Orange"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q96cq5/trigun_stargaze_episode_1_discussion/",
+    "mal_id": 54863,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1140/152364l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1140/152364.jpg"
+    },
+    "title": "Fumetsu no Anata e Season 3",
+    "title_english": "To Your Eternity Season 3",
+    "num_episodes": 22,
+    "score": 7.74,
+    "streams": {
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GG5H5XMWV"
+    },
+    "episode": "14",
+    "karma": 293,
+    "comments": 99,
+    "week_id": 3,
+    "studio": [
+      "Drive",
+      "Studio Massket"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q97e8h/fumetsu_no_anata_e_season_3_to_your_eternity/",
+    "mal_id": 54703,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -66,7 +118,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8dea5/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -91,7 +143,55 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q93l7s/tensei_shitara_dragon_no_tamago_datta/",
     "mal_id": 61207,
-    "current_rank": 4,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1622/154192l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1622/154192.jpg"
+    },
+    "title": "Dead Account",
+    "title_english": "Dead Account",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 156,
+    "comments": 97,
+    "week_id": 3,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q96cpt/dead_account_episode_1_discussion/",
+    "mal_id": 61196,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1387/154934l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1387/154934.jpg"
+    },
+    "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+    "title_english": "A Misanthrope Teaches a Class for Demi-Humans",
+    "num_episodes": 13,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 152,
+    "comments": 97,
+    "week_id": 3,
+    "studio": [
+      "asread."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q9739w/jingai_kyoushitsu_no_ningengirai_kyoushi_a/",
+    "mal_id": 62432,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -115,7 +215,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8d2lg/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 5,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -142,9 +242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q82xkj/catseye_cats_eye_episode_9_discussion/",
     "mal_id": 60347,
-    "current_rank": 6,
+    "current_rank": 10,
     "karma_change": 1,
-    "rank_change": 33,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -166,7 +266,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8qcg9/pok\u00e9mon_horizons_the_series_episode_123_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -190,7 +290,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8zyn4/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 8,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -216,7 +316,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8u3qo/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 9,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -243,9 +343,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
     "mal_id": 235,
-    "current_rank": 10,
+    "current_rank": 14,
     "karma_change": -7,
-    "rank_change": 32,
+    "rank_change": 28,
     "season": "winter"
   }
 ]
