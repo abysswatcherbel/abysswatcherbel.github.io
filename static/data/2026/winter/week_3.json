@@ -452,5 +452,54 @@
     "karma_change": -7,
     "rank_change": 24,
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
+    },
+    "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.84,
+    "streams": null,
+    "episode": "2",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q9asno/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
+    "mal_id": 61969,
+    "current_rank": 18,
+    "karma_change": -2,
+    "rank_change": 26,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "110",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q9b3zw/beyblade_x_episode_110_discussion/",
+    "mal_id": 56566,
+    "current_rank": 20,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
   }
 ]
