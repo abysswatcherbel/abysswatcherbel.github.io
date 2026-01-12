@@ -145,5 +145,31 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 13,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Kinema Citrus",
+      "Gift-o\u2019-Animation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1q8u3qo/cardfight_vanguard_divinez_genma_seisenhen/",
+    "mal_id": 62649,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
   }
 ]
