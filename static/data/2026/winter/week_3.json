@@ -672,6 +672,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1129/151615l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1129/151615.jpg"
+    },
+    "title": "Hikuidori: Ushuu Boro Tobi-gumi",
+    "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 20,
+    "comments": 24,
+    "week_id": 3,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qa33k3/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
+    "mal_id": 61084,
+    "current_rank": 28,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -689,9 +713,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9m5oj/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 16,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "winter"
   },
   {
@@ -713,7 +737,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8zyn4/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -739,7 +763,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q8u3qo/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -766,9 +790,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
     "mal_id": 235,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -7,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "winter"
   },
   {
@@ -791,9 +815,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9asno/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -2,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "winter"
   },
   {
@@ -815,7 +839,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9b3zw/beyblade_x_episode_110_discussion/",
     "mal_id": 56566,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
