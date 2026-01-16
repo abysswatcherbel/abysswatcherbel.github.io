@@ -1109,6 +1109,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.31,
+    "streams": null,
+    "episode": "14",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qckkp1/ugoku_neko_mukashibanashi_cat_tales_episode_14/",
+    "mal_id": 61254,
+    "current_rank": 46,
+    "karma_change": 1,
+    "rank_change": 1,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1129,9 +1153,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
     "mal_id": 235,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -7,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "winter"
   },
   {
@@ -1154,9 +1178,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9asno/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -2,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "winter"
   },
   {
@@ -1178,7 +1202,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9b3zw/beyblade_x_episode_110_discussion/",
     "mal_id": 56566,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
