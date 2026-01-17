@@ -1310,6 +1310,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1374/149826l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1374/149826.webp"
+    },
+    "title": "Lupin the IIIrd the Movie: Fujimi no Ketsuzoku",
+    "title_english": "Lupin the IIIrd the Movie: The Immortal Bloodline",
+    "num_episodes": 1,
+    "score": 6.82,
+    "streams": null,
+    "episode": "",
+    "karma": 12,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "Telecom Animation Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qdbpoz/lupin_the_iiird_the_movie_fujimi_no_ketsuzoku/",
+    "mal_id": 60408,
+    "current_rank": 54,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -1327,7 +1351,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qd329j/princession_orchestra_episode_37_discussion/",
     "mal_id": 59078,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1351,9 +1375,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qa7xf8/koupen_chan_episode_41_discussion/",
     "mal_id": 60534,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 1,
-    "rank_change": -9,
+    "rank_change": -10,
     "season": "winter"
   },
   {
@@ -1375,9 +1399,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qckkp1/ugoku_neko_mukashibanashi_cat_tales_episode_14/",
     "mal_id": 61254,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 1,
-    "rank_change": -9,
+    "rank_change": -10,
     "season": "winter"
   },
   {
@@ -1402,9 +1426,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
     "mal_id": 235,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -7,
-    "rank_change": -15,
+    "rank_change": -16,
     "season": "winter"
   },
   {
@@ -1427,9 +1451,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9asno/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -2,
-    "rank_change": -13,
+    "rank_change": -14,
     "season": "winter"
   },
   {
@@ -1451,7 +1475,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9b3zw/beyblade_x_episode_110_discussion/",
     "mal_id": 56566,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
