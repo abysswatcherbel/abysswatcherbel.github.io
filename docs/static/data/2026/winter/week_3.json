@@ -1748,6 +1748,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.88,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "111",
+    "karma": 5,
+    "comments": 1,
+    "week_id": 3,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qdusan/beyblade_x_episode_111_discussion/",
+    "mal_id": 56566,
+    "current_rank": 72,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1789,9 +1813,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qckkp1/ugoku_neko_mukashibanashi_cat_tales_episode_14/",
     "mal_id": 61254,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 1,
-    "rank_change": -26,
+    "rank_change": -27,
     "season": "winter"
   },
   {
@@ -1813,7 +1837,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qdds1w/prism_rondo_love_through_a_prism_episode_7/",
     "mal_id": 63019,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1837,7 +1861,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qdds20/prism_rondo_love_through_a_prism_episode_8/",
     "mal_id": 63019,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1861,7 +1885,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qdds1l/prism_rondo_love_through_a_prism_episode_5/",
     "mal_id": 63019,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1885,7 +1909,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qdds21/prism_rondo_love_through_a_prism_episode_9/",
     "mal_id": 63019,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1909,7 +1933,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qdds1g/prism_rondo_love_through_a_prism_episode_4/",
     "mal_id": 63019,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1936,9 +1960,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q92zu2/meitantei_conan_case_closed_episode_1188/",
     "mal_id": 235,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": -7,
-    "rank_change": -37,
+    "rank_change": -38,
     "season": "winter"
   },
   {
@@ -1961,9 +1985,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9asno/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": -2,
-    "rank_change": -35,
+    "rank_change": -36,
     "season": "winter"
   },
   {
@@ -1985,7 +2009,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1q9b3zw/beyblade_x_episode_110_discussion/",
     "mal_id": 56566,
-    "current_rank": 81,
+    "current_rank": 82,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
