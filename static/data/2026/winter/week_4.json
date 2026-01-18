@@ -1,6 +1,33 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
+    },
+    "title": "Cat's\u2665Eye",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.54,
+    "streams": {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/"
+    },
+    "episode": "10",
+    "karma": 41,
+    "comments": 12,
+    "week_id": 4,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qea6d8/catseye_cats_eye_episode_10_discussion/",
+    "mal_id": 60347,
+    "current_rank": 1,
+    "karma_change": 9,
+    "rank_change": 52,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1156/153079l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1156/153079.jpg"
     },
@@ -19,7 +46,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qe1wib/omae_wa_mada_gunma_wo_shiranai_reiwaban_you_dont/",
     "mal_id": 62864,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
