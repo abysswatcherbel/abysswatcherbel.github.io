@@ -220,6 +220,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1393/151603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1393/151603.jpg"
+    },
+    "title": "Ao no Miburo: Serizawa Ansatsu-hen",
+    "title_english": "Blue Miburo Season 2",
+    "num_episodes": 0,
+    "score": 6.94,
+    "streams": null,
+    "episode": "4",
+    "karma": 14,
+    "comments": 9,
+    "week_id": 4,
+    "studio": [
+      "Maho Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qf92ws/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
+    "mal_id": 61333,
+    "current_rank": 10,
+    "karma_change": -5,
+    "rank_change": 53,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1862/153881l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1862/153881.jpg"
     },
@@ -237,9 +261,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef60h/prism_rondo_love_through_a_prism_episode_11/",
     "mal_id": 63019,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 4,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "winter"
   },
   {
@@ -261,9 +285,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef620/prism_rondo_love_through_a_prism_episode_19/",
     "mal_id": 63019,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 4,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "winter"
   },
   {
@@ -285,9 +309,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef60w/prism_rondo_love_through_a_prism_episode_13/",
     "mal_id": 63019,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 3,
-    "rank_change": 67,
+    "rank_change": 66,
     "season": "winter"
   },
   {
@@ -311,9 +335,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qf2uwv/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -8,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "winter"
   },
   {
@@ -336,7 +360,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qe1wib/omae_wa_mada_gunma_wo_shiranai_reiwaban_you_dont/",
     "mal_id": 62864,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -360,9 +384,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61b/prism_rondo_love_through_a_prism_episode_15/",
     "mal_id": 63019,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 0,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "winter"
   },
   {
@@ -384,9 +408,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef60o/prism_rondo_love_through_a_prism_episode_12/",
     "mal_id": 63019,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 0,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "winter"
   },
   {
@@ -408,9 +432,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61p/prism_rondo_love_through_a_prism_episode_17/",
     "mal_id": 63019,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 0,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "winter"
   },
   {
@@ -432,9 +456,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61v/prism_rondo_love_through_a_prism_episode_18/",
     "mal_id": 63019,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 0,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "winter"
   },
   {
@@ -456,9 +480,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61i/prism_rondo_love_through_a_prism_episode_16/",
     "mal_id": 63019,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -1,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "winter"
   },
   {
@@ -480,9 +504,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef613/prism_rondo_love_through_a_prism_episode_14/",
     "mal_id": 63019,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -1,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "winter"
   }
 ]
