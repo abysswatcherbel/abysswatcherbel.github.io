@@ -1325,6 +1325,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.28,
+    "streams": null,
+    "episode": "15",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qiv5hz/ugoku_neko_mukashibanashi_cat_tales_episode_15/",
+    "mal_id": 61254,
+    "current_rank": 55,
+    "karma_change": -1,
+    "rank_change": 19,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1862/153881l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1862/153881.jpg"
     },
@@ -1366,9 +1390,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef60o/prism_rondo_love_through_a_prism_episode_12/",
     "mal_id": 63019,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -1390,9 +1414,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61p/prism_rondo_love_through_a_prism_episode_17/",
     "mal_id": 63019,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -1414,9 +1438,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61v/prism_rondo_love_through_a_prism_episode_18/",
     "mal_id": 63019,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -1439,9 +1463,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qi4jv4/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -1463,9 +1487,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef61i/prism_rondo_love_through_a_prism_episode_16/",
     "mal_id": 63019,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -1,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "winter"
   },
   {
@@ -1487,9 +1511,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qef613/prism_rondo_love_through_a_prism_episode_14/",
     "mal_id": 63019,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -1,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "winter"
   }
 ]
