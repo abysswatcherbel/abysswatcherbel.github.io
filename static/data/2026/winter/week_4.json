@@ -8,7 +8,28 @@
     "title_english": "Frieren: Beyond Journey's End Season 2",
     "num_episodes": 10,
     "score": 9.3,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
     "episode": "1",
     "karma": 7011,
     "comments": 1200,
@@ -32,10 +53,24 @@
     "title_english": "Jujutsu Kaisen: The Culling Game Part 1",
     "num_episodes": 0,
     "score": 8.65,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "4",
     "karma": 5193,
     "comments": 1743,
@@ -59,10 +94,20 @@
     "title_english": "Fate/strange Fake",
     "num_episodes": 0,
     "score": 8.49,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "http://www.crunchyroll.com/series-283702"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283702"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 2162,
     "comments": 917,
@@ -86,7 +131,28 @@
     "title_english": "[Oshi No Ko] Season 3",
     "num_episodes": 0,
     "score": 8.45,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 1921,
     "comments": 429,
@@ -110,7 +176,16 @@
     "title_english": "Hell's Paradise Season 2",
     "num_episodes": 0,
     "score": 8.17,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "2",
     "karma": 1869,
     "comments": 263,
@@ -134,10 +209,24 @@
     "title_english": "Sentenced to Be a Hero",
     "num_episodes": 12,
     "score": 8.38,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 1788,
     "comments": 384,
@@ -161,7 +250,24 @@
     "title_english": "You and I Are Polar Opposites",
     "num_episodes": 12,
     "score": 8.1,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "2",
     "karma": 1225,
     "comments": 296,
@@ -185,7 +291,32 @@
     "title_english": "Shiboyugi: Playing Death Games to Put Food on the Table",
     "num_episodes": 11,
     "score": 7.87,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "3",
     "karma": 1025,
     "comments": 324,
@@ -209,7 +340,24 @@
     "title_english": "Journal with Witch",
     "num_episodes": 0,
     "score": 8.23,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 961,
     "comments": 252,
@@ -231,7 +379,12 @@
     },
     "num_episodes": 0,
     "score": 7.7,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-278313"
+      }
+    ],
     "title": "Enen no Shouboutai: San no Shou",
     "title_english": "Fire Force Season 3",
     "episode": "14",
@@ -257,7 +410,36 @@
     "title_english": "Chained Soldier Season 2",
     "num_episodes": 12,
     "score": 7.5,
-    "streams": null,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
     "episode": "3",
     "karma": 676,
     "comments": 98,
@@ -282,10 +464,20 @@
     "title_english": "My Hero Academia: Vigilantes Season 2",
     "num_episodes": 0,
     "score": 7.41,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 641,
     "comments": 103,
@@ -309,7 +501,28 @@
     "title_english": "Tune In to the Midnight Heart",
     "num_episodes": 0,
     "score": 7.23,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 581,
     "comments": 135,
@@ -333,7 +546,12 @@
     "title_english": "Cosmic Princess Kaguya!",
     "num_episodes": 1,
     "score": 8.41,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "",
     "karma": 486,
     "comments": 106,
@@ -358,7 +576,20 @@
     "title_english": "Trigun Stargaze",
     "num_episodes": 0,
     "score": 7.41,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 486,
     "comments": 90,
@@ -382,7 +613,12 @@
     "title_english": "Golden Kamuy Final Season",
     "num_episodes": 0,
     "score": 8.18,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "52",
     "karma": 468,
     "comments": 100,
@@ -406,10 +642,12 @@
     "title_english": "Gnosia",
     "num_episodes": 0,
     "score": 7.48,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00365132"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365132"
+      }
+    ],
     "episode": "14",
     "karma": 465,
     "comments": 177,
@@ -433,7 +671,24 @@
     "title_english": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her",
     "num_episodes": 0,
     "score": 6.74,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 447,
     "comments": 129,
@@ -481,7 +736,28 @@
     "title_english": "The Holy Grail of Eris",
     "num_episodes": 0,
     "score": 7.18,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 408,
     "comments": 122,
@@ -505,10 +781,28 @@
     "title_english": "Tamon's B-Side",
     "num_episodes": 0,
     "score": 7.96,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GRWE89KMR"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      }
+    ],
     "episode": "4",
     "karma": 407,
     "comments": 115,
@@ -532,7 +826,20 @@
     "title_english": "Roll Over and Die",
     "num_episodes": 0,
     "score": 6.71,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 370,
     "comments": 217,
@@ -556,7 +863,28 @@
     "title_english": "'Tis Time for \"Torture,\" Princess Season 2",
     "num_episodes": 0,
     "score": 7.62,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
     "episode": "2",
     "karma": 337,
     "comments": 88,
@@ -580,7 +908,12 @@
     "title_english": "Wash It All Away",
     "num_episodes": 0,
     "score": 6.94,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "3",
     "karma": 308,
     "comments": 145,
@@ -604,7 +937,24 @@
     "title_english": "Kaya-chan Isn't Scary",
     "num_episodes": 12,
     "score": 7.23,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "2",
     "karma": 296,
     "comments": 104,
@@ -628,7 +978,28 @@
     "title_english": "Jack-of-All-Trades, Party of None",
     "num_episodes": 0,
     "score": 6.71,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      }
+    ],
     "episode": "4",
     "karma": 292,
     "comments": 473,
@@ -652,7 +1023,16 @@
     "title_english": "Does It Count If You Lose Your Innocence to an Android?",
     "num_episodes": 8,
     "score": 6.64,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 292,
     "comments": 45,
@@ -700,7 +1080,28 @@
     "title_english": "The Invisible Man and His Soon-to-Be Wife",
     "num_episodes": 0,
     "score": 7.33,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 274,
     "comments": 124,
@@ -724,10 +1125,20 @@
     "title_english": "Tojima Wants to Be a Kamen Rider",
     "num_episodes": 0,
     "score": 7.59,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00364945"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364945"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "15",
     "karma": 271,
     "comments": 126,
@@ -751,7 +1162,12 @@
     "title_english": "Champignon Witch",
     "num_episodes": 0,
     "score": 7.25,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "4",
     "karma": 269,
     "comments": 74,
@@ -776,7 +1192,12 @@
     "title_english": "The Demon King's Daughter Is Too Kind!!",
     "num_episodes": 0,
     "score": 7.24,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "4",
     "karma": 260,
     "comments": 74,
@@ -800,7 +1221,36 @@
     "title_english": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
     "num_episodes": 0,
     "score": 6.97,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
     "episode": "3",
     "karma": 250,
     "comments": 181,
@@ -848,7 +1298,12 @@
     "title_english": "In the Clear Moonlit Dusk",
     "num_episodes": 0,
     "score": 7.55,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "2",
     "karma": 226,
     "comments": 96,
@@ -872,7 +1327,20 @@
     "title_english": "Scum of the Brave",
     "num_episodes": 24,
     "score": 6.57,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      }
+    ],
     "episode": "2",
     "karma": 224,
     "comments": 74,
@@ -896,7 +1364,20 @@
     "title_english": "Reincarnated as a Dragon Hatchling",
     "num_episodes": 0,
     "score": 6.65,
-    "streams": null,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 223,
     "comments": 144,
@@ -921,7 +1402,20 @@
     "title_english": "You Can't Be In a Rom-Com with Your Childhood Friends!",
     "num_episodes": 0,
     "score": 6.56,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 212,
     "comments": 61,
@@ -945,7 +1439,16 @@
     "title_english": "Kunon the Sorcerer Can See",
     "num_episodes": 0,
     "score": 6.66,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "4",
     "karma": 211,
     "comments": 96,
@@ -969,7 +1472,20 @@
     "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
     "num_episodes": 0,
     "score": 6.71,
-    "streams": null,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
     "episode": "2",
     "karma": 198,
     "comments": 177,
@@ -1017,7 +1533,20 @@
     "title_english": "Noble Reincarnation: Born Blessed, So I'll Obtain Ultimate Power",
     "num_episodes": 0,
     "score": 6.38,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 155,
     "comments": 121,
@@ -1041,7 +1570,20 @@
     "title_english": "MF Ghost Season 3",
     "num_episodes": 0,
     "score": 8.05,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "4",
     "karma": 149,
     "comments": 91,
@@ -1065,7 +1607,12 @@
     "title_english": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
     "num_episodes": 12,
     "score": 6.49,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "2",
     "karma": 139,
     "comments": 151,
@@ -1089,7 +1636,12 @@
     "title_english": "An Adventurer's Daily Grind at Age 29",
     "num_episodes": 0,
     "score": 6.35,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "3",
     "karma": 139,
     "comments": 63,
@@ -1113,7 +1665,28 @@
     "title_english": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter",
     "num_episodes": 12,
     "score": 7.07,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      }
+    ],
     "episode": "3",
     "karma": 132,
     "comments": 209,
@@ -1137,7 +1710,16 @@
     "title_english": "Hana-Kimi",
     "num_episodes": 0,
     "score": 7.08,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "4",
     "karma": 131,
     "comments": 44,
@@ -1161,7 +1743,24 @@
     "title_english": "A Gentle Noble's Vacation Recommendation",
     "num_episodes": 0,
     "score": 6.65,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 105,
     "comments": 97,
@@ -1185,7 +1784,12 @@
     "title_english": "A Misanthrope Teaches a Class for Demi-Humans",
     "num_episodes": 13,
     "score": 6.31,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "2",
     "karma": 101,
     "comments": 36,
@@ -1209,7 +1813,24 @@
     "title_english": "Dead Account",
     "num_episodes": 0,
     "score": 6.48,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "2",
     "karma": 81,
     "comments": 56,
@@ -1233,7 +1854,16 @@
     "title_english": "The Case Book of Arne",
     "num_episodes": 12,
     "score": 6.44,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 75,
     "comments": 30,
@@ -1257,10 +1887,24 @@
     "title_english": "Digimon Beatbreak",
     "num_episodes": 0,
     "score": 7.04,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00364378"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
     "episode": "15",
     "karma": 72,
     "comments": 17,
@@ -1284,7 +1928,24 @@
     "title_english": "Dark Moon: The Blood Altar",
     "num_episodes": 12,
     "score": 6.66,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "2",
     "karma": 46,
     "comments": 37,
@@ -1308,7 +1969,12 @@
     "title_english": "",
     "num_episodes": 12,
     "score": 6.48,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "3",
     "karma": 44,
     "comments": 74,
@@ -1332,10 +1998,16 @@
     "title_english": "",
     "num_episodes": 12,
     "score": 6.53,
-    "streams": {
-      "name": "Disney+",
-      "url": "https://www.disneyplus.com/"
-    },
+    "streams": [
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      }
+    ],
     "episode": "10",
     "karma": 41,
     "comments": 12,
@@ -1359,7 +2031,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "",
     "karma": 37,
     "comments": 0,
@@ -1383,10 +2060,20 @@
     "title_english": "Hell Teacher: Jigoku Sensei Nube",
     "num_episodes": 0,
     "score": 6.66,
-    "streams": {
-      "name": "Netflix",
-      "url": "https://www.netflix.com/"
-    },
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      }
+    ],
     "episode": "16",
     "karma": 35,
     "comments": 14,
@@ -1410,7 +2097,24 @@
     "title_english": "The Daily Life of a Part-time Torturer",
     "num_episodes": 12,
     "score": 5.6,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 34,
     "comments": 23,
@@ -1434,10 +2138,12 @@
     "title_english": "",
     "num_episodes": 21,
     "score": 7.23,
-    "streams": {
-      "name": "Anime Digital Network",
-      "url": "https://animedigitalnetwork.fr/"
-    },
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      }
+    ],
     "episode": "15",
     "karma": 32,
     "comments": 9,
@@ -1461,7 +2167,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "20",
     "karma": 29,
     "comments": 23,
@@ -1485,7 +2196,24 @@
     "title_english": "Anyway, I'm Falling in Love with You. Season 2",
     "num_episodes": 0,
     "score": 6.68,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "3",
     "karma": 21,
     "comments": 21,
@@ -1531,10 +2259,20 @@
     "title_english": "SI-VIS: The Sound of Heroes",
     "num_episodes": 0,
     "score": 5.97,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "15",
     "karma": 18,
     "comments": 15,
@@ -1558,7 +2296,16 @@
     "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
     "num_episodes": 0,
     "score": 4.86,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
     "episode": "2",
     "karma": 16,
     "comments": 2,
@@ -1582,7 +2329,24 @@
     "title_english": "Blue Miburo Season 2",
     "num_episodes": 0,
     "score": 6.96,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283916"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "4",
     "karma": 14,
     "comments": 9,
@@ -1606,7 +2370,16 @@
     "title_english": "",
     "num_episodes": 12,
     "score": 5.51,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 13,
     "comments": 6,
@@ -1654,7 +2427,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "11",
     "karma": 7,
     "comments": 1,
@@ -1678,7 +2456,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "19",
     "karma": 7,
     "comments": 1,
@@ -1702,7 +2485,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "13",
     "karma": 6,
     "comments": 1,
@@ -1724,10 +2512,16 @@
     },
     "num_episodes": 0,
     "score": 8.18,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "http://www.crunchyroll.com/series-280722"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "title": "Meitantei Conan",
     "title_english": "Case Closed",
     "episode": "1189",
@@ -1799,7 +2593,12 @@
     },
     "num_episodes": 49,
     "score": 7.24,
-    "streams": {},
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283951"
+      }
+    ],
     "title": "Kimi to Idol Precure\u266a",
     "title_english": "You and Idol Precure\u266a",
     "episode": "48",
@@ -1874,7 +2673,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "15",
     "karma": 3,
     "comments": 2,
@@ -1898,7 +2702,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "12",
     "karma": 3,
     "comments": 1,
@@ -1922,7 +2731,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "17",
     "karma": 3,
     "comments": 1,
@@ -1946,7 +2760,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "18",
     "karma": 3,
     "comments": 1,
@@ -1995,7 +2814,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "16",
     "karma": 2,
     "comments": 1,
@@ -2019,7 +2843,12 @@
     "title_english": "Love Through a Prism",
     "num_episodes": 20,
     "score": 8.52,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "14",
     "karma": 2,
     "comments": 1,
