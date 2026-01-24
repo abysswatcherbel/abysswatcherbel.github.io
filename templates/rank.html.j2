@@ -8,10 +8,10 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/toolbar.css') }}">
-       
+
         <script src="{{ url_for('static', filename='scripts/editBanner.js') }}"></script>
         <script src="{{ url_for('static', filename='scripts/toolbar.js') }}"></script>
-        
+
     </head>
 
     <body>
@@ -19,7 +19,7 @@
             {# Header Section #}
             <div class="header">
             <img class="snoo" src="{{ url_for('static', filename='assets/img/snoo.png') }}" alt="Snoo" loading="lazy">
-                <div class="subheader">    
+                <div class="subheader">
                     <div class="main-title">
                         <span>/r/anime weekly engagement ranking &amp; discussion</span>
                     </div>
@@ -70,7 +70,7 @@
                 <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
             </div>
         </div>
-           
+
 
             {# Macros for reusable components #}
             {% macro rank_change_indicator(change, is_right=false) %}
@@ -209,8 +209,8 @@
                                 <span class="Studio" style="background-color: #fff; color: #000; text-align: center;">
                                     {{ left.studio | join(',') }}
                                 </span>
-                                <span class="{{ left.streams.name | capitalize}}">
-                                    {{ left.streams.name | capitalize}}
+                                <span class="{{ left.streams[0].name | capitalize}}">
+                                    {{ left.streams[0].name | capitalize}}
                                     <a class="external-link" href="{{ left.streams.url }}" target="_blank"></a>
                                 </span>
                             </div>
@@ -224,7 +224,7 @@
                         <div class="details rightBanner"
                             style="background-image: url('{{ right.images.large }}'); background-position: 0px 0px;">
                             <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
-                           
+
                             <div class="part-2">
                                 <span class="title rightTitle">{{ get_title(right) }}</span>
                                 <span class="karma rightKarma">{{ right.karma }}</span>
@@ -245,7 +245,7 @@
                                             {{ rank_change_indicator(right.rank_change, true) }}
                                         </div>
                                 </div>
-                               
+
                                 <div class="rightRank"><span>{{ right.current_rank }}</span></div>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                 <div class="divider"></div>
                 {% endfor %}
             </div>
-            
+
         </div>
         <div id="rightToolbar" class="right-toolbar">
             <button id="editModeBtn" class="toolbar-btn" title="Edit Mode">
@@ -291,10 +291,10 @@
                 </svg>
                 <span>Copy HTML</span>
             </button>
-            
+
         </div>
 
-        
+
         <div id="bannerEditorModal" class="modal">
             <div class="modal-content">
                 <span class="modal-close-button">&times;</span>
@@ -302,11 +302,11 @@
                 <div class="modal-body">
                     <div class="modal-preview-section">
                         <div class="preview-controls">
-                            
+
                             <div class="zoom-controls">
                                 <button id="zoomInBtn" title="Zoom In" class="zoom-button">Zoom In</button>
                                 <button id="zoomOutBtn" title="Zoom Out" class="zoom-button">Zoom Out</button>
-                               
+
                             </div>
                         </div>
                         <div id="imagePreviewBox" class="image-preview-box">
@@ -317,17 +317,17 @@
                     <div class="modal-input-area">
                         <label for="imageUrlInput">Image URL:</label>
                         <input type="url" id="imageUrlInput" name="imageUrlInput" placeholder="https://example.com/image.jpg">
-        
+
                         <label for="bgPositionInput">Background Position:</label>
                         <input type="text" id="bgPositionInput" name="bgPositionInput"
                             placeholder="e.g., center center, 0px -50px">
-        
+
                         <label for="bgSizeInput">Zoom:</label>
                         <input type="text" id="bgSizeInput" name="bgSizeInput" placeholder="e.g., cover, contain, 100%">
-                        
+
                     </div>
-                    
-                   
+
+
             </div>
             <div class="modal-footer">
                 <button id="saveBannerChanges" class="modal-button-save">Save Changes</button>
