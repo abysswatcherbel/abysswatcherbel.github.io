@@ -18,7 +18,8 @@
         <div class="container">
             {# Header Section #}
             <div class="header">
-            <img class="snoo" src="{{ url_for('static', filename='assets/img/snoo.png') }}" alt="Snoo" loading="lazy">
+                <img class="snoo" src="{{ url_for('static', filename='assets/img/snoo.png') }}" alt="Snoo"
+                    loading="lazy">
                 <div class="subheader">
                     <div class="main-title">
                         <span>/r/anime weekly engagement ranking &amp; discussion</span>
@@ -28,15 +29,17 @@
                         {# Legend Section #}
                         <div class="legend">
                             <div>
-                                <div class="icon" >
-                                    <img  src="{{ url_for('static', filename='assets/svg/arrow-up.svg') }}" alt="Rank Up">
-                                    <img  src="{{ url_for('static', filename='assets/svg/arrow-down.svg') }}" alt="Rank Down">
+                                <div class="icon">
+                                    <img src="{{ url_for('static', filename='assets/svg/arrow-up.svg') }}"
+                                        alt="Rank Up">
+                                    <img src="{{ url_for('static', filename='assets/svg/arrow-down.svg') }}"
+                                        alt="Rank Down">
                                 </div>
                                 <span>Rank<br>change</span>
                             </div>
                             <div>
-                                <div class="icon" >
-                                    <img  src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
+                                <div class="icon">
+                                    <img src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
                                         alt="Caret Up">
                                     <img src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}"
                                         alt="Caret Down">
@@ -64,48 +67,48 @@
                             <div class="text-container"><span>K</span> {{ sum_karma }}</div>
                         </div>
                     </div>
+                </div>
+                <div class="week-container">
+                    <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
+                    <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
+                </div>
             </div>
-            <div class="week-container">
-                <span class="season {{ airing_details.season }}">{{ airing_details.season }}</span>
-                <div class="week {{ airing_details.season }}"><span>{{ airing_details.week_id }}</span></div>
-            </div>
-        </div>
 
 
             {# Macros for reusable components #}
             {% macro rank_change_indicator(change, is_right=false) %}
-                {% if change == 'returning' %}
-                    {{ back_symbol | safe }}
-                {% elif change == 'new' %}
-                    {% if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif %}
-                {% elif change | int == 0 %}
-                    {% if is_right %}
-                        <span class="right-rank-change stable">&mdash;</span>
-                    {% else %}
-                        <span class="rank-change stable">&mdash;</span>
+            {% if change == 'returning' %}
+            {{ back_symbol | safe }}
+            {% elif change == 'new' %}
+            {% if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif %}
+            {% elif change | int == 0 %}
+            {% if is_right %}
+            <span class="right-rank-change stable">&mdash;</span>
+            {% else %}
+            <span class="rank-change stable">&mdash;</span>
+            {% endif %}
+            {% else %}
+            {% if is_right %}
+            <span class="right-rank-change {% if change | int > 0 %}positive{% else %}negative{% endif %}">
+                <span>
+                    <svg class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
+                        viewBox="0 0 117.7 110">
+                        <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                    </svg>
+                </span>{{ change | int | abs }}
+            </span>
+            {% else %}
+            <span
+                class="rank-change {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}stable{% endif %}">
+                {% if change | int != 0 %}
+                <svg class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
+                    viewBox="0 0 117.7 110">
+                    <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
+                </svg>{{ change | int | abs }}
                 {% endif %}
-                {% else %}
-                    {% if is_right %}
-                        <span class="right-rank-change {% if change | int > 0 %}positive{% else %}negative{% endif %}">
-                            <span>
-                                <svg class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
-                                    viewBox="0 0 117.7 110">
-                                    <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
-                                </svg>
-                            </span>{{ change | int | abs }}
-                        </span>
-                    {% else %}
-                        <span
-                            class="rank-change {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}stable{% endif %}">
-                            {% if change | int != 0 %}
-                                <svg class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
-                                    viewBox="0 0 117.7 110">
-                                    <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
-                                </svg>{{ change | int | abs }}
-                            {% endif %}
-                        </span>
-                    {% endif %}
-                {% endif %}
+            </span>
+            {% endif %}
+            {% endif %}
             {% endmacro %}
 
             {% macro karma_change_indicator(change) %}
@@ -204,7 +207,8 @@
                             </div>
                             <div class="mal-ratings">
                                 <span>{{ left.score }} <span class="neutral">M</span>
-                                    <a class="external-link" href="https://myanimelist.net/anime/{{ left.mal_id }}" target="_blank"></a>
+                                    <a class="external-link" href="https://myanimelist.net/anime/{{ left.mal_id }}"
+                                        target="_blank"></a>
                                 </span>
                                 <span class="Studio" style="background-color: #fff; color: #000; text-align: center;">
                                     {{ left.studio | join(',') }}
@@ -229,8 +233,13 @@
                                 <span class="title rightTitle">{{ get_title(right) }}</span>
                                 <span class="karma rightKarma">{{ right.karma }}</span>
                                 <div class="rightContainer">
-                                    <span class="{{ right.streams.name | capitalize }}-logo">{{ right.streams.name |
-                                        capitalize}}</span>
+                                    {% if right.streams and right.streams|length > 0 %}
+                                    <span class="{{ right.streams[0].name | capitalize }}-logo">
+                                        {{ right.streams[0].name | capitalize }}
+                                    </span>
+                                    {% else %}
+                              
+                                    {% endif %}
                                     <div class="details-container">
                                         <div class="comments-wrapper"
                                             style="filter: drop-shadow(3px 1px 1px rgba(0, 0, 0, 0.8));">
@@ -244,9 +253,9 @@
                                         <div class="right-ranking">
                                             {{ rank_change_indicator(right.rank_change, true) }}
                                         </div>
-                                </div>
+                                    </div>
 
-                                <div class="rightRank"><span>{{ right.current_rank }}</span></div>
+                                    <div class="rightRank"><span>{{ right.current_rank }}</span></div>
                                 </div>
                             </div>
                         </div>
@@ -316,7 +325,8 @@
                     </div>
                     <div class="modal-input-area">
                         <label for="imageUrlInput">Image URL:</label>
-                        <input type="url" id="imageUrlInput" name="imageUrlInput" placeholder="https://example.com/image.jpg">
+                        <input type="url" id="imageUrlInput" name="imageUrlInput"
+                            placeholder="https://example.com/image.jpg">
 
                         <label for="bgPositionInput">Background Position:</label>
                         <input type="text" id="bgPositionInput" name="bgPositionInput"
@@ -328,14 +338,14 @@
                     </div>
 
 
+                </div>
+                <div class="modal-footer">
+                    <button id="saveBannerChanges" class="modal-button-save">Save Changes</button>
+                    <button id="cancelBannerChanges" class="modal-button-cancel">Cancel</button>
+                    <button id="copyBannerCss" class="modal-button-copy" type="button">Copy Edits</button>
+                    <button id="resetBannerChanges" class="modal-button-reset">Default</button>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button id="saveBannerChanges" class="modal-button-save">Save Changes</button>
-                <button id="cancelBannerChanges" class="modal-button-cancel">Cancel</button>
-                <button id="copyBannerCss" class="modal-button-copy" type="button">Copy Edits</button>
-                <button id="resetBannerChanges" class="modal-button-reset">Default</button>
-            </div>
-        </div>
 
 
     </body>
