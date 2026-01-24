@@ -196,7 +196,6 @@ class MalClient:
 
     def update_score(self, mal_id: int):
 
-
         logger.info(f'Getting mal_details for id: {mal_id}')
 
         url = f"{self.ENTRY_URL}/{mal_id}"
