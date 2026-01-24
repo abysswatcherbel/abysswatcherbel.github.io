@@ -1765,6 +1765,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
+    },
+    "title": "PetitCure: Precure Fairies",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.98,
+    "streams": null,
+    "episode": "41",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1qjo5j4/petitcure_precure_fairies_episode_41_discussion/",
+    "mal_id": 61272,
+    "current_rank": 73,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1477/146764l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1477/146764.jpg"
     },
@@ -1780,7 +1802,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1qjax18/0saiji_start_dash_monogatari_season_2_head_start/",
     "mal_id": 60425,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
