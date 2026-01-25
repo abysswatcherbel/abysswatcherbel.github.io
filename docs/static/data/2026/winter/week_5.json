@@ -1,6 +1,39 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
+    },
+    "title": "Cat's\u2665Eye",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.53,
+    "streams": [
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 33,
+    "comments": 15,
+    "week_id": 5,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qkl26d/catseye_cats_eye_episode_11_discussion/",
+    "mal_id": 60347,
+    "current_rank": 1,
+    "karma_change": -8,
+    "rank_change": 54,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -18,7 +51,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qkicka/beyblade_x_episode_112_discussion/",
     "mal_id": 56566,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
