@@ -243,6 +243,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
+    },
+    "title": "High School! Kimengumi (2026)",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 5.51,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "3",
+    "karma": 9,
+    "comments": 2,
+    "week_id": 5,
+    "studio": [
+      "Seven"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qlbjhr/high_school_kimengumi_episode_3_discussion/",
+    "mal_id": 62804,
+    "current_rank": 8,
+    "karma_change": -4,
+    "rank_change": 58,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -260,9 +293,35 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ql5fav/princession_orchestra_episode_38_discussion/",
     "mal_id": 59078,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Kinema Citrus",
+      "Gift-o\u2019-Animation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qlbems/cardfight_vanguard_divinez_genma_seisenhen/",
+    "mal_id": 62649,
+    "current_rank": 10,
+    "karma_change": -4,
+    "rank_change": 62,
     "season": "winter"
   }
 ]
