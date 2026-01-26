@@ -308,6 +308,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1190",
+    "karma": 9,
+    "comments": 2,
+    "week_id": 5,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qllw7n/meitantei_conan_case_closed_episode_1190/",
+    "mal_id": 235,
+    "current_rank": 10,
+    "karma_change": 4,
+    "rank_change": 61,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -358,7 +391,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ql5fav/princession_orchestra_episode_38_discussion/",
     "mal_id": 59078,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -384,9 +417,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qlbems/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -4,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "winter"
   }
 ]
