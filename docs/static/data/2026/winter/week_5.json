@@ -390,10 +390,20 @@
     "title_english": "To Your Eternity Season 3",
     "num_episodes": 22,
     "score": 7.71,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GG5H5XMWV"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XMWV"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "15",
     "karma": 377,
     "comments": 96,
@@ -722,6 +732,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
       }
     ],
     "episode": "3",
@@ -1155,6 +1169,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
       }
     ],
     "episode": "5",
@@ -1436,7 +1454,12 @@
     "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
     "num_episodes": 0,
     "score": null,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
     "episode": "3",
     "karma": 1,
     "comments": 1,
