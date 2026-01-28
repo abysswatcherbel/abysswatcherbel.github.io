@@ -869,6 +869,9 @@ def get_active_posts(
             # Try to get a valid mal_id from the post body
             mal_id = get_mal_id_reddit_post(submission.selftext)
             if not mal_id:
+                logger.warning(
+                    f"Post {submission.id} has no MAL ID. Skipping..."
+                )
                 continue
 
             # Try to get the number of the episode from the title
@@ -992,6 +995,9 @@ def get_active_posts(
 
                     else:
                         # Document doesn't exist, create a new one
+                        logger.info(
+                            f"No existing hourly tracking found for MAL ID {mal_id}, post {submission.id}. Creating new document..."
+                        )
                         hourly_data.insert_one(
                             {
                                 "mal_id": mal_id,
