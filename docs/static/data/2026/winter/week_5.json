@@ -1693,6 +1693,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
+    },
+    "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.65,
+    "streams": null,
+    "episode": "4",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qoqiz2/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
+    "mal_id": 61969,
+    "current_rank": 50,
+    "karma_change": 0,
+    "rank_change": 31,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
     },
@@ -1717,9 +1742,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qlbems/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -4,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   }
 ]
