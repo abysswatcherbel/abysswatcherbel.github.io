@@ -1693,6 +1693,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "16",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qp8hpj/ugoku_neko_mukashibanashi_cat_tales_episode_16/",
+    "mal_id": 61254,
+    "current_rank": 50,
+    "karma_change": -1,
+    "rank_change": 26,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
     },
@@ -1742,9 +1766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qlbems/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -4,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   }
 ]
