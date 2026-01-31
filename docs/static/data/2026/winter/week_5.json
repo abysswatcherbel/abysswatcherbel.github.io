@@ -2036,6 +2036,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1054/153719l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1054/153719.jpg"
+    },
+    "title": "Douse, Koishite Shimaunda. 2nd Season",
+    "title_english": "Anyway, I'm Falling in Love with You. Season 2",
+    "num_episodes": 0,
+    "score": 6.68,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "4",
+    "karma": 28,
+    "comments": 12,
+    "week_id": 5,
+    "studio": [
+      "Typhoon Graphics"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qqedn7/douse_koishite_shimaunda_season_2_anyway_im/",
+    "mal_id": 61325,
+    "current_rank": 55,
+    "karma_change": 7,
+    "rank_change": 6,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1277/147358l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1277/147358.jpg"
     },
@@ -2058,9 +2099,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qm5eyw/kimi_to_idol_precure_you_and_idol_precure_episode/",
     "mal_id": 60407,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 20,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "winter"
   },
   {
@@ -2103,9 +2144,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qlis1b/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 8,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "winter"
   },
   {
@@ -2127,7 +2168,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qld5y6/pok\u00e9mon_horizons_the_series_episode_124_discussion/",
     "mal_id": 53876,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2164,9 +2205,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qm6354/sivis_the_sound_of_heroes_episode_16_discussion/",
     "mal_id": 62126,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -5,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -2186,9 +2227,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1qq81vl/ganso_bandorichan_ganso_bang_dream_chan_episode/",
     "mal_id": 61107,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": -8,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "winter"
   },
   {
@@ -2210,7 +2251,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qkicka/beyblade_x_episode_112_discussion/",
     "mal_id": 56566,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2243,9 +2284,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qllw7n/meitantei_conan_case_closed_episode_1190/",
     "mal_id": 235,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 4,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "winter"
   },
   {
@@ -2276,9 +2317,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qlbjhr/high_school_kimengumi_episode_3_discussion/",
     "mal_id": 62804,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -4,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -2309,9 +2350,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qmmlij/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -8,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "winter"
   },
   {
@@ -2333,9 +2374,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qnpy8d/koupen_chan_episode_43_discussion/",
     "mal_id": 60534,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -6,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "winter"
   },
   {
@@ -2357,7 +2398,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ql5fav/princession_orchestra_episode_38_discussion/",
     "mal_id": 59078,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2381,7 +2422,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qm1qqt/monster_strike_deadverse_reloaded_episode_7/",
     "mal_id": 62066,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2405,9 +2446,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qp8hpj/ugoku_neko_mukashibanashi_cat_tales_episode_16/",
     "mal_id": 61254,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "winter"
   },
   {
@@ -2430,9 +2471,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qoqiz2/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "winter"
   },
   {
@@ -2452,9 +2493,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1qq45q2/petitcure_precure_fairies_episode_43_discussion/",
     "mal_id": 61272,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": 1,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "winter"
   },
   {
@@ -2483,9 +2524,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qlbems/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -4,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "winter"
   }
 ]
