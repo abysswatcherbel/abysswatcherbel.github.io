@@ -214,9 +214,9 @@
                                     {{ left.studio | join(',') }}
                                 </span>
                                 {% if left.streams and left.streams|length > 0 %}
-                                <span class="{{ left.streams[0].name | capitalize }}-logo">
+                                <div class="{{ left.streams[0].name | capitalize }}-logo">
                                     {{ left.streams[0].name | capitalize }}
-                                </span>
+                                </div>
                                 {% else %}
 
                                 {% endif %}
