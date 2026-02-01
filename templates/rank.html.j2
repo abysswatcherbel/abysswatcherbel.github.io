@@ -213,13 +213,16 @@
                                 <span class="Studio" style="background-color: #fff; color: #000; text-align: center;">
                                     {{ left.studio | join(',') }}
                                 </span>
-                                {% if left.streams and left.streams|length > 0 %}
-                                <div class="{{ left.streams[0].name | capitalize }}-logo">
-                                    {{ left.streams[0].name | capitalize }}
-                                </div>
-                                {% else %}
+                                <div>
+                                    {% if left.streams and left.streams|length > 0 %}
 
-                                {% endif %}
+                                    <span class="{{ left.streams[0].name | capitalize }}-logo">
+                                        {{ left.streams[0].name | capitalize }}
+                                    </span>
+                                    {% else %}
+
+                                    {% endif %}
+                                </div>
                             </div>
                         </div>
                     </div>
