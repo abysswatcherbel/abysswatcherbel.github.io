@@ -46,6 +46,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.7,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-278313"
+      }
+    ],
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "16",
+    "karma": 559,
+    "comments": 89,
+    "week_id": 6,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qrbz9k/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": -70,
+    "rank_change": 9,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -76,9 +105,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrai4f/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 25,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -113,9 +142,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qralfn/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
     "mal_id": 61694,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -10,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "winter"
   },
   {
@@ -154,9 +183,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrafca/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 1,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "winter"
   },
   {
@@ -187,9 +216,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qqziln/catseye_cats_eye_episode_12_discussion/",
     "mal_id": 60347,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 3,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "winter"
   }
 ]
