@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
+    },
+    "title": "Cat's\u2665Eye",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.77,
+    "streams": [
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 36,
+    "comments": 27,
+    "week_id": 6,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qqziln/catseye_cats_eye_episode_12_discussion/",
+    "mal_id": 60347,
+    "current_rank": 1,
+    "karma_change": 3,
+    "rank_change": 53,
+    "season": "winter"
+  }
+]
