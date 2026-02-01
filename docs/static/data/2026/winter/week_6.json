@@ -1,6 +1,51 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1921/154528l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1921/154528.webp"
+    },
+    "title": "Sousou no Frieren 2nd Season",
+    "title_english": "Frieren: Beyond Journey's End Season 2",
+    "num_episodes": 10,
+    "score": 9.27,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "episode": "3",
+    "karma": 4330,
+    "comments": 757,
+    "week_id": 6,
+    "studio": [
+      "Madhouse"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qr7ybi/sousou_no_frieren_season_2_frieren_beyond/",
+    "mal_id": 59978,
+    "current_rank": 1,
+    "karma_change": -369,
+    "rank_change": 0,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1347/151708l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1347/151708.jpg"
     },
@@ -27,9 +72,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qqziln/catseye_cats_eye_episode_12_discussion/",
     "mal_id": 60347,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 3,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "winter"
   }
 ]
