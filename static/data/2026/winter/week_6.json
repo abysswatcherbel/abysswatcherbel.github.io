@@ -220,5 +220,38 @@
     "karma_change": 3,
     "rank_change": 48,
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
+    },
+    "title": "High School! Kimengumi (2026)",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 5.45,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "4",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Seven"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
+    "mal_id": 62804,
+    "current_rank": 7,
+    "karma_change": -8,
+    "rank_change": 56,
+    "season": "winter"
   }
 ]
