@@ -253,5 +253,36 @@
     "karma_change": -8,
     "rank_change": 56,
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
+    "num_episodes": 0,
+    "score": 6.45,
+    "streams": [
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "4",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Kinema Citrus",
+      "Gift-o\u2019-Animation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
+    "mal_id": 62649,
+    "current_rank": 8,
+    "karma_change": -1,
+    "rank_change": 63,
+    "season": "winter"
   }
 ]
