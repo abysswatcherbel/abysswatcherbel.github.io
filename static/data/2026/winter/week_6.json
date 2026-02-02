@@ -292,6 +292,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1191",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 6,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qs1710/meitantei_conan_case_closed_episode_1191/",
+    "mal_id": 235,
+    "current_rank": 9,
+    "karma_change": -8,
+    "rank_change": 54,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -318,9 +351,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
     "mal_id": 62804,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -8,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "winter"
   },
   {
@@ -349,9 +382,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -1,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "winter"
   }
 ]
