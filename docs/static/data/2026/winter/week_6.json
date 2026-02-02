@@ -247,6 +247,51 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1393/151603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1393/151603.jpg"
+    },
+    "title": "Ao no Miburo: Serizawa Ansatsu-hen",
+    "title_english": "Blue Miburo Season 2",
+    "num_episodes": 0,
+    "score": 6.93,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283916"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "6",
+    "karma": 17,
+    "comments": 7,
+    "week_id": 6,
+    "studio": [
+      "Maho Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qry03j/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
+    "mal_id": 61333,
+    "current_rank": 8,
+    "karma_change": -5,
+    "rank_change": 50,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -273,9 +318,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
     "mal_id": 62804,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -8,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "winter"
   },
   {
@@ -304,9 +349,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -1,
-    "rank_change": 62,
+    "rank_change": 61,
     "season": "winter"
   }
 ]
