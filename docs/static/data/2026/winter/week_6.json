@@ -663,6 +663,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 5.97,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "17",
+    "karma": 13,
+    "comments": 19,
+    "week_id": 6,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qslf7c/sivis_the_sound_of_heroes_episode_17_discussion/",
+    "mal_id": 62126,
+    "current_rank": 20,
+    "karma_change": 0,
+    "rank_change": 40,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -689,9 +726,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qs1710/meitantei_conan_case_closed_episode_1191/",
     "mal_id": 235,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -8,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -722,9 +759,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
     "mal_id": 62804,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -8,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "winter"
   },
   {
@@ -753,9 +790,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -1,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "winter"
   }
 ]
