@@ -852,6 +852,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.5,
+    "streams": null,
+    "episode": "44",
+    "karma": 6,
+    "comments": 3,
+    "week_id": 6,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qsvqnv/koupen_chan_episode_44_discussion/",
+    "mal_id": 60534,
+    "current_rank": 25,
+    "karma_change": -1,
+    "rank_change": 41,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -878,9 +902,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qs1710/meitantei_conan_case_closed_episode_1191/",
     "mal_id": 235,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -8,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "winter"
   },
   {
@@ -911,9 +935,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
     "mal_id": 62804,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -8,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "winter"
   },
   {
@@ -942,9 +966,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -1,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   }
 ]
