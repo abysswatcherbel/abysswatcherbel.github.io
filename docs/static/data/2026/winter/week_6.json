@@ -1129,6 +1129,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1112/152731l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1112/152731.jpg"
+    },
+    "title": "Arne no Jikenbo",
+    "title_english": "The Case Book of Arne",
+    "num_episodes": 12,
+    "score": 6.37,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "5",
+    "karma": 73,
+    "comments": 43,
+    "week_id": 6,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1quyssi/arne_no_jikenbo_the_case_book_of_arne_episode_5/",
+    "mal_id": 60255,
+    "current_rank": 33,
+    "karma_change": 4,
+    "rank_change": 14,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1622/154192l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1622/154192.jpg"
     },
@@ -1163,9 +1196,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qs4mbw/dead_account_episode_4_discussion/",
     "mal_id": 61196,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 6,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -1192,9 +1225,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1quuchd/yoroishinden_samurai_troopers_episode_5_discussion/",
     "mal_id": 61830,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 15,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "winter"
   },
   {
@@ -1216,7 +1249,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qsla44/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -1257,9 +1290,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrafca/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 1,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -1290,9 +1323,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qqziln/catseye_cats_eye_episode_12_discussion/",
     "mal_id": 60347,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": 3,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "winter"
   },
   {
@@ -1314,9 +1347,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrtl49/pok\u00e9mon_horizons_the_series_episode_125_discussion/",
     "mal_id": 53876,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": 17,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -1355,9 +1388,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qt0quh/goumon_baitokun_no_nichijou_the_daily_life_of_a/",
     "mal_id": 61886,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 3,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "winter"
   },
   {
@@ -1400,9 +1433,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qry03j/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -5,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "winter"
   },
   {
@@ -1445,9 +1478,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qutkqy/isekai_no_sata_wa_shachiku_shidai_isekai_office/",
     "mal_id": 60226,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -46,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -1482,9 +1515,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qslf7c/sivis_the_sound_of_heroes_episode_17_discussion/",
     "mal_id": 62126,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 0,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "winter"
   },
   {
@@ -1515,9 +1548,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qt1j4x/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 5,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   },
   {
@@ -1539,9 +1572,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qsvqnv/koupen_chan_episode_44_discussion/",
     "mal_id": 60534,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -1,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   },
   {
@@ -1563,9 +1596,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qtkay3/princession_orchestra_episode_39_discussion/",
     "mal_id": 59078,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 1,
-    "rank_change": 22,
+    "rank_change": 21,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
+    },
+    "title": "Monster Strike: Deadverse Reloaded",
+    "title_english": "",
+    "num_episodes": 10,
+    "score": 5.89,
+    "streams": null,
+    "episode": "8",
+    "karma": 1,
+    "comments": 4,
+    "week_id": 6,
+    "studio": [
+      "Yumeta Company"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1quxmkl/monster_strike_deadverse_reloaded_episode_8/",
+    "mal_id": 62066,
+    "current_rank": 47,
+    "karma_change": -3,
+    "rank_change": 21,
     "season": "winter"
   },
   {
@@ -1596,9 +1653,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qs1710/meitantei_conan_case_closed_episode_1191/",
     "mal_id": 235,
-    "current_rank": 46,
+    "current_rank": 48,
     "karma_change": -8,
-    "rank_change": 17,
+    "rank_change": 15,
     "season": "winter"
   },
   {
@@ -1629,9 +1686,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
     "mal_id": 62804,
-    "current_rank": 47,
+    "current_rank": 49,
     "karma_change": -8,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -1660,9 +1717,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 48,
+    "current_rank": 50,
     "karma_change": -1,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "winter"
   }
 ]
