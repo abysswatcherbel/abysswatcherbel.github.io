@@ -1555,6 +1555,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.25,
+    "streams": null,
+    "episode": "17",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qvlpd0/ugoku_neko_mukashibanashi_cat_tales_episode_17/",
+    "mal_id": 61254,
+    "current_rank": 45,
+    "karma_change": 6,
+    "rank_change": 24,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1572,9 +1596,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qsvqnv/koupen_chan_episode_44_discussion/",
     "mal_id": 60534,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -1596,9 +1620,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qtkay3/princession_orchestra_episode_39_discussion/",
     "mal_id": 59078,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -1620,9 +1644,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1quxmkl/monster_strike_deadverse_reloaded_episode_8/",
     "mal_id": 62066,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -3,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -1653,9 +1677,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qs1710/meitantei_conan_case_closed_episode_1191/",
     "mal_id": 235,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": -8,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -1686,9 +1710,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrqpwq/high_school_kimengumi_episode_4_discussion/",
     "mal_id": 62804,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -8,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "winter"
   },
   {
@@ -1711,9 +1735,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qv2h67/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -2,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "winter"
   },
   {
@@ -1742,9 +1766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qrs8su/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   }
 ]
