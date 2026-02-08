@@ -46,6 +46,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.7,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-278313"
+      }
+    ],
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "17",
+    "karma": 565,
+    "comments": 112,
+    "week_id": 7,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qxo15k/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": 6,
+    "rank_change": 12,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -76,9 +105,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qxmihc/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -29,
-    "rank_change": 27,
+    "rank_change": 26,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1988/153962l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1988/153962.jpg"
+    },
+    "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
+    "title_english": "Does It Count If You Lose Your Innocence to an Android?",
+    "num_episodes": 8,
+    "score": 6.57,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "5",
+    "karma": 161,
+    "comments": 19,
+    "week_id": 7,
+    "studio": [
+      "Nyan Pollution"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qxn6ou/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
+    "mal_id": 61694,
+    "current_rank": 4,
+    "karma_change": -12,
+    "rank_change": 32,
     "season": "winter"
   },
   {
@@ -117,9 +183,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qxmiqv/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -9,
-    "rank_change": 49,
+    "rank_change": 47,
     "season": "winter"
   },
   {
@@ -141,7 +207,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qx620b/beyblade_x_episode_114_discussion/",
     "mal_id": 56566,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
