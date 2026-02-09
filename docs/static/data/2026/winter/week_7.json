@@ -149,6 +149,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1781/150871l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1781/150871.webp"
+    },
+    "title": "Hateshinaki Scarlet",
+    "title_english": "Scarlet",
+    "num_episodes": 1,
+    "score": 6.06,
+    "streams": null,
+    "episode": "",
+    "karma": 37,
+    "comments": 29,
+    "week_id": 7,
+    "studio": [
+      "Studio Chizu"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qxw4kc/hateshinaki_scarlet_scarlet_movie_discussion/",
+    "mal_id": 60610,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -183,9 +207,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qxmiqv/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -9,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "winter"
   },
   {
@@ -207,7 +231,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qx620b/beyblade_x_episode_114_discussion/",
     "mal_id": 56566,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
