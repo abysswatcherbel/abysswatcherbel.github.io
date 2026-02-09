@@ -235,5 +235,69 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
+    },
+    "title": "High School! Kimengumi (2026)",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 5.4,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "5",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 7,
+    "studio": [
+      "Seven"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qy2eom/high_school_kimengumi_episode_5_discussion/",
+    "mal_id": 62804,
+    "current_rank": 8,
+    "karma_change": -1,
+    "rank_change": 60,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
+    "num_episodes": 0,
+    "score": 6.44,
+    "streams": [
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "5",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 7,
+    "studio": [
+      "Kinema Citrus",
+      "Gift-o\u2019-Animation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qy2wxm/cardfight_vanguard_divinez_genma_seisenhen/",
+    "mal_id": 62649,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": 61,
+    "season": "winter"
   }
 ]
