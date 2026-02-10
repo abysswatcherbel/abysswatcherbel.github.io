@@ -616,6 +616,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 5.97,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "18",
+    "karma": 13,
+    "comments": 8,
+    "week_id": 7,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1qywe4h/sivis_the_sound_of_heroes_episode_18_discussion/",
+    "mal_id": 62126,
+    "current_rank": 19,
+    "karma_change": 0,
+    "rank_change": 41,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -633,7 +670,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qx620b/beyblade_x_episode_114_discussion/",
     "mal_id": 56566,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -666,9 +703,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2eom/high_school_kimengumi_episode_5_discussion/",
     "mal_id": 62804,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "winter"
   },
   {
@@ -697,9 +734,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2wxm/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "winter"
   }
 ]
