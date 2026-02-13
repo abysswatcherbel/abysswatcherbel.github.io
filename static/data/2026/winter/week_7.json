@@ -1523,6 +1523,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.24,
+    "streams": null,
+    "episode": "18",
+    "karma": 7,
+    "comments": 2,
+    "week_id": 7,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r1uifd/ugoku_neko_mukashibanashi_cat_tales_episode_18/",
+    "mal_id": 61254,
+    "current_rank": 45,
+    "karma_change": -1,
+    "rank_change": 18,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1540,7 +1564,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qx620b/beyblade_x_episode_114_discussion/",
     "mal_id": 56566,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1565,9 +1589,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r1he81/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 1,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -1598,9 +1622,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2eom/high_school_kimengumi_episode_5_discussion/",
     "mal_id": 62804,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -1629,9 +1653,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2wxm/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 0,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   }
 ]
