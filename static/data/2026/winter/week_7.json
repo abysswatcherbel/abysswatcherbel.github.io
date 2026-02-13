@@ -1517,6 +1517,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1637/148197l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1637/148197.jpg"
+    },
+    "title": "Jigoku Sensei Nube (2025)",
+    "title_english": "Hell Teacher: Jigoku Sensei Nube",
+    "num_episodes": 0,
+    "score": 6.67,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      }
+    ],
+    "episode": "19",
+    "karma": 42,
+    "comments": 16,
+    "week_id": 7,
+    "studio": [
+      "Studio Kai"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r22uk8/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
+    "mal_id": 59342,
+    "current_rank": 42,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1289/153952l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1289/153952.jpg"
     },
@@ -1539,9 +1576,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r1375i/yoroishinden_samurai_troopers_episode_6_discussion/",
     "mal_id": 61830,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -16,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -1563,9 +1600,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qyvqrq/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -11,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -1587,7 +1624,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qxw4kc/hateshinaki_scarlet_scarlet_movie_discussion/",
     "mal_id": 60610,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1628,9 +1665,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qxmiqv/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -9,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "winter"
   },
   {
@@ -1652,9 +1689,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy57zu/pok\u00e9mon_horizons_the_series_episode_126_discussion/",
     "mal_id": 53876,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -7,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "winter"
   },
   {
@@ -1697,9 +1734,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy9l38/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 9,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "winter"
   },
   {
@@ -1738,9 +1775,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qzb8jt/goumon_baitokun_no_nichijou_the_daily_life_of_a/",
     "mal_id": 61886,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": -7,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -1767,9 +1804,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r1zsul/ao_no_orchestra_season_2_blue_orchestra_season_2/",
     "mal_id": 56877,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -19,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "winter"
   },
   {
@@ -1804,9 +1841,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qywe4h/sivis_the_sound_of_heroes_episode_18_discussion/",
     "mal_id": 62126,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 0,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "winter"
   },
   {
@@ -1828,9 +1865,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qzhzjq/princession_orchestra_episode_40_discussion/",
     "mal_id": 59078,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 8,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "winter"
   },
   {
@@ -1852,9 +1889,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r058it/koupen_chan_episode_45_discussion/",
     "mal_id": 60534,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 2,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "winter"
   },
   {
@@ -1876,9 +1913,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r1uifd/ugoku_neko_mukashibanashi_cat_tales_episode_18/",
     "mal_id": 61254,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -1,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "winter"
   },
   {
@@ -1900,7 +1937,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qx620b/beyblade_x_episode_114_discussion/",
     "mal_id": 56566,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1925,9 +1962,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r1he81/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 1,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "winter"
   },
   {
@@ -1958,9 +1995,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2eom/high_school_kimengumi_episode_5_discussion/",
     "mal_id": 62804,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -1,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "winter"
   },
   {
@@ -1989,9 +2026,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2wxm/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "winter"
   }
 ]
