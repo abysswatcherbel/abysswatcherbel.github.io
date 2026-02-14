@@ -2362,6 +2362,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.87,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "115",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 7,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r36sh6/beyblade_x_episode_115_discussion/",
+    "mal_id": 56566,
+    "current_rank": 67,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1463/148638l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1463/148638.jpg"
     },
@@ -2377,9 +2401,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1r2p8e1/petitcure_precure_fairies_episode_45_discussion/",
     "mal_id": 61272,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   },
   {
@@ -2410,9 +2434,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2eom/high_school_kimengumi_episode_5_discussion/",
     "mal_id": 62804,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -1,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "winter"
   },
   {
@@ -2441,9 +2465,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1qy2wxm/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 0,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   }
 ]
