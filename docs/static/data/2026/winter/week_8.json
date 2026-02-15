@@ -43,5 +43,120 @@
     "karma_change": -755,
     "rank_change": 0,
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+    "num_episodes": 0,
+    "score": 6.77,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
+    "episode": "6",
+    "karma": 224,
+    "comments": 198,
+    "week_id": 8,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r3u2ah/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
+    "mal_id": 60460,
+    "current_rank": 2,
+    "karma_change": 35,
+    "rank_change": 32,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1988/153962l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1988/153962.jpg"
+    },
+    "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
+    "title_english": "Does It Count If You Lose Your Innocence to an Android?",
+    "num_episodes": 8,
+    "score": 6.56,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "6",
+    "karma": 139,
+    "comments": 22,
+    "week_id": 8,
+    "studio": [
+      "Nyan Pollution"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r3ujnn/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
+    "mal_id": 61694,
+    "current_rank": 3,
+    "karma_change": -22,
+    "rank_change": 36,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
+    },
+    "title": "Dark Moon: Tsuki no Saidan",
+    "title_english": "Dark Moon: The Blood Altar",
+    "num_episodes": 12,
+    "score": 6.56,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "6",
+    "karma": 39,
+    "comments": 27,
+    "week_id": 8,
+    "studio": [
+      "TROYCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r3twox/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
+    "mal_id": 59853,
+    "current_rank": 4,
+    "karma_change": 2,
+    "rank_change": 50,
+    "season": "winter"
   }
 ]
