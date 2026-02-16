@@ -149,6 +149,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 51,
+    "comments": 11,
+    "week_id": 8,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r45nd0/girls_und_panzer_motto_love_love_sakusen_desu/",
+    "mal_id": 61227,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -183,9 +208,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r3twox/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 2,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "winter"
   }
 ]
