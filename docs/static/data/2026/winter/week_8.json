@@ -112,6 +112,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1219/154541l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1219/154541.jpg"
+    },
+    "title": "Trigun Stargaze",
+    "title_english": "Trigun Stargaze",
+    "num_episodes": 0,
+    "score": 7.36,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "6",
+    "karma": 273,
+    "comments": 58,
+    "week_id": 8,
+    "studio": [
+      "Orange"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r4mu4x/trigun_stargaze_episode_6_discussion/",
+    "mal_id": 54863,
+    "current_rank": 4,
+    "karma_change": -18,
+    "rank_change": 17,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -142,9 +179,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r3u2ah/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 35,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -180,9 +217,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4k3vd/tensei_shitara_dragon_no_tamago_datta/",
     "mal_id": 61207,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -42,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "winter"
   },
   {
@@ -217,9 +254,79 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r3ujnn/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
     "mal_id": 61694,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -22,
-    "rank_change": 33,
+    "rank_change": 32,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1387/154934l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1387/154934.jpg"
+    },
+    "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+    "title_english": "A Misanthrope Teaches a Class for Demi-Humans",
+    "num_episodes": 13,
+    "score": 6.26,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "6",
+    "karma": 74,
+    "comments": 27,
+    "week_id": 8,
+    "studio": [
+      "asread."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r4nkhp/jingai_kyoushitsu_no_ningengirai_kyoushi_a/",
+    "mal_id": 62432,
+    "current_rank": 8,
+    "karma_change": -11,
+    "rank_change": 38,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1622/154192l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1622/154192.jpg"
+    },
+    "title": "Dead Account",
+    "title_english": "Dead Account",
+    "num_episodes": 0,
+    "score": 6.42,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "6",
+    "karma": 51,
+    "comments": 22,
+    "week_id": 8,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r4mu5p/dead_account_episode_6_discussion/",
+    "mal_id": 61196,
+    "current_rank": 9,
+    "karma_change": 1,
+    "rank_change": 40,
     "season": "winter"
   },
   {
@@ -242,7 +349,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r45nd0/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 7,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -283,9 +390,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r3twox/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 8,
+    "current_rank": 11,
     "karma_change": 2,
-    "rank_change": 46,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -307,9 +414,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4bwps/pok\u00e9mon_horizons_the_series_episode_127_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 12,
     "karma_change": -2,
-    "rank_change": 46,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -352,9 +459,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4gk7s/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": -2,
-    "rank_change": 46,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -385,9 +492,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49dhe/high_school_kimengumi_episode_6_discussion/",
     "mal_id": 62804,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": 3,
-    "rank_change": 57,
+    "rank_change": 54,
     "season": "winter"
   },
   {
@@ -416,9 +523,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49vdl/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 12,
+    "current_rank": 15,
     "karma_change": 2,
-    "rank_change": 56,
+    "rank_change": 53,
     "season": "winter"
   }
 ]
