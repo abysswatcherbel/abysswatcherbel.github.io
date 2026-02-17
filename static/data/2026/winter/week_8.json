@@ -424,6 +424,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1704/154459l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1704/154459.jpg"
+    },
+    "title": "Majutsushi Kunon wa Mieteiru",
+    "title_english": "Kunon the Sorcerer Can See",
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "8",
+    "karma": 169,
+    "comments": 103,
+    "week_id": 8,
+    "studio": [
+      "Platinum Vision"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r5fgqo/majutsushi_kunon_wa_mieteiru_kunon_the_sorcerer/",
+    "mal_id": 60810,
+    "current_rank": 13,
+    "karma_change": -19,
+    "rank_change": 22,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1031/154235l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1031/154235.jpg"
     },
@@ -455,9 +488,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4k3vd/tensei_shitara_dragon_no_tamago_datta/",
     "mal_id": 61207,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -42,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -492,8 +525,41 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r3ujnn/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
     "mal_id": 61694,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -22,
+    "rank_change": 24,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1490/152041l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1490/152041.jpg"
+    },
+    "title": "Hanazakari no Kimitachi e",
+    "title_english": "Hana-Kimi",
+    "num_episodes": 0,
+    "score": 7.04,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "8",
+    "karma": 112,
+    "comments": 42,
+    "week_id": 8,
+    "studio": [
+      "Signal.MD"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r5fgro/hanazakari_no_kimitachi_e_hanakimi_episode_8/",
+    "mal_id": 58861,
+    "current_rank": 16,
+    "karma_change": -11,
     "rank_change": 25,
     "season": "winter"
   },
@@ -533,9 +599,38 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r53shi/digimon_beatbreak_episode_19_discussion/",
     "mal_id": 61269,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": -3,
-    "rank_change": 28,
+    "rank_change": 26,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1383/151284l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1383/151284.jpg"
+    },
+    "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru",
+    "title_english": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
+    "num_episodes": 12,
+    "score": 6.28,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "6",
+    "karma": 78,
+    "comments": 51,
+    "week_id": 8,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r5g5av/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
+    "mal_id": 62000,
+    "current_rank": 18,
+    "karma_change": 0,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -562,9 +657,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4nkhp/jingai_kyoushitsu_no_ningengirai_kyoushi_a/",
     "mal_id": 62432,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": -11,
-    "rank_change": 30,
+    "rank_change": 27,
     "season": "winter"
   },
   {
@@ -603,9 +698,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4mu5p/dead_account_episode_6_discussion/",
     "mal_id": 61196,
-    "current_rank": 17,
+    "current_rank": 20,
     "karma_change": 1,
-    "rank_change": 32,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -628,7 +723,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r45nd0/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 18,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -669,9 +764,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r3twox/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 19,
+    "current_rank": 22,
     "karma_change": 2,
-    "rank_change": 35,
+    "rank_change": 32,
     "season": "winter"
   },
   {
@@ -693,9 +788,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4bwps/pok\u00e9mon_horizons_the_series_episode_127_discussion/",
     "mal_id": 53876,
-    "current_rank": 20,
+    "current_rank": 23,
     "karma_change": -2,
-    "rank_change": 35,
+    "rank_change": 32,
     "season": "winter"
   },
   {
@@ -738,9 +833,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r4gk7s/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 21,
+    "current_rank": 24,
     "karma_change": -2,
-    "rank_change": 35,
+    "rank_change": 32,
     "season": "winter"
   },
   {
@@ -775,9 +870,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r52ktg/sivis_the_sound_of_heroes_episode_19_discussion/",
     "mal_id": 62126,
-    "current_rank": 22,
+    "current_rank": 25,
     "karma_change": -4,
-    "rank_change": 38,
+    "rank_change": 35,
     "season": "winter"
   },
   {
@@ -808,9 +903,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49dhe/high_school_kimengumi_episode_6_discussion/",
     "mal_id": 62804,
-    "current_rank": 23,
+    "current_rank": 26,
     "karma_change": 3,
-    "rank_change": 45,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -839,9 +934,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49vdl/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 24,
+    "current_rank": 27,
     "karma_change": 2,
-    "rank_change": 44,
+    "rank_change": 41,
     "season": "winter"
   }
 ]
