@@ -1095,6 +1095,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.52,
+    "streams": null,
+    "episode": "46",
+    "karma": 2,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r5o2vc/koupen_chan_episode_46_discussion/",
+    "mal_id": 60534,
+    "current_rank": 32,
+    "karma_change": -6,
+    "rank_change": 31,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
     },
