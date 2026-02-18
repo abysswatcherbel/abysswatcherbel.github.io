@@ -1119,6 +1119,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "",
+    "episode": "20",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r5wz3n/everyday_host_episode_20_discussion/",
+    "mal_id": 60535,
+    "current_rank": 33,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1136,9 +1160,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r5o2vc/koupen_chan_episode_46_discussion/",
     "mal_id": 60534,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -6,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -1167,9 +1191,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49vdl/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 2,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "winter"
   }
 ]
