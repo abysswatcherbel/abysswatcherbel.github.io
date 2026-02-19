@@ -1557,6 +1557,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
+    },
+    "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.61,
+    "streams": null,
+    "episode": "7",
+    "karma": 2,
+    "comments": 9,
+    "week_id": 8,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r7cahc/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
+    "mal_id": 61969,
+    "current_rank": 46,
+    "karma_change": 1,
+    "rank_change": 20,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1574,9 +1599,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r5o2vc/koupen_chan_episode_46_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -6,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "winter"
   },
   {
@@ -1605,9 +1630,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49vdl/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 2,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   }
 ]
