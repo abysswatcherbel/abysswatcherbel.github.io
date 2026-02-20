@@ -1463,6 +1463,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "19",
+    "karma": 10,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1r8087l/ugoku_neko_mukashibanashi_cat_tales_episode_19/",
+    "mal_id": 61254,
+    "current_rank": 43,
+    "karma_change": 3,
+    "rank_change": 21,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
     },
@@ -1493,9 +1517,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r52ktg/sivis_the_sound_of_heroes_episode_19_discussion/",
     "mal_id": 62126,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -4,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "winter"
   },
   {
@@ -1526,7 +1550,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r5hkj5/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1559,9 +1583,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49dhe/high_school_kimengumi_episode_6_discussion/",
     "mal_id": 62804,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 3,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -1583,7 +1607,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r5wz3n/everyday_host_episode_20_discussion/",
     "mal_id": 60535,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1608,9 +1632,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r7cahc/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 1,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "winter"
   },
   {
@@ -1632,9 +1656,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r5o2vc/koupen_chan_episode_46_discussion/",
     "mal_id": 60534,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": -6,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -1663,9 +1687,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1r49vdl/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 2,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "winter"
   }
 ]
