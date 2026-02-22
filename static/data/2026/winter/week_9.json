@@ -1,6 +1,35 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.71,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-278313"
+      }
+    ],
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "19",
+    "karma": 500,
+    "comments": 156,
+    "week_id": 9,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ra1q0e/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 1,
+    "karma_change": 45,
+    "rank_change": 12,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -31,9 +60,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra080m/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -10,
-    "rank_change": 24,
+    "rank_change": 23,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1988/153962l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1988/153962.jpg"
+    },
+    "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
+    "title_english": "Does It Count If You Lose Your Innocence to an Android?",
+    "num_episodes": 8,
+    "score": 6.54,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "7",
+    "karma": 142,
+    "comments": 18,
+    "week_id": 9,
+    "studio": [
+      "Nyan Pollution"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ra1k57/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
+    "mal_id": 61694,
+    "current_rank": 3,
+    "karma_change": 3,
+    "rank_change": 35,
     "season": "winter"
   },
   {
@@ -72,9 +138,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra08ae/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -3,
-    "rank_change": 51,
+    "rank_change": 49,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.79,
+    "streams": null,
+    "title": "Princession Orchestra",
+    "title_english": "",
+    "episode": "42",
+    "karma": 16,
+    "comments": 18,
+    "week_id": 9,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
+    "mal_id": 59078,
+    "current_rank": 5,
+    "karma_change": -1,
+    "rank_change": 55,
     "season": "winter"
   }
 ]
