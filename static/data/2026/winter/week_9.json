@@ -145,6 +145,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 22,
+    "comments": 11,
+    "week_id": 9,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1raanpv/girls_und_panzer_motto_love_love_sakusen_desu/",
+    "mal_id": 61227,
+    "current_rank": 5,
+    "karma_change": -29,
+    "rank_change": 45,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -162,9 +187,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
     "mal_id": 59078,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -1,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "winter"
   }
 ]
