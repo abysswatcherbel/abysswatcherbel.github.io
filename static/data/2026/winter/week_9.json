@@ -67,6 +67,44 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1031/154235l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1031/154235.jpg"
+    },
+    "title": "Tensei shitara Dragon no Tamago datta",
+    "title_english": "Reincarnated as a Dragon Hatchling",
+    "num_episodes": 0,
+    "score": 6.57,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "7",
+    "karma": 151,
+    "comments": 111,
+    "week_id": 9,
+    "studio": [
+      "Felix Film",
+      "Ga-Crew"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1raqm1u/tensei_shitara_dragon_no_tamago_datta/",
+    "mal_id": 61207,
+    "current_rank": 3,
+    "karma_change": 12,
+    "rank_change": 34,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1988/153962l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1988/153962.jpg"
     },
@@ -97,9 +135,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra1k57/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
     "mal_id": 61694,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 3,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "winter"
   },
   {
@@ -138,9 +176,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra08ae/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -3,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "winter"
   },
   {
@@ -162,9 +200,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raht1h/pok\u00e9mon_horizons_the_series_episode_128_discussion/",
     "mal_id": 53876,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 1,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "winter"
   },
   {
@@ -207,9 +245,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ran1jb/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 4,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "winter"
   },
   {
@@ -232,9 +270,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raanpv/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -29,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -256,9 +294,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
     "mal_id": 59078,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -1,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "winter"
   },
   {
@@ -289,9 +327,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rag0d7/high_school_kimengumi_episode_7_discussion/",
     "mal_id": 62804,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 2,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "winter"
   }
 ]
