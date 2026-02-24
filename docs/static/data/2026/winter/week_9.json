@@ -314,6 +314,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.05,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "20",
+    "karma": 124,
+    "comments": 42,
+    "week_id": 9,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rbap0d/digimon_beatbreak_episode_20_discussion/",
+    "mal_id": 61269,
+    "current_rank": 10,
+    "karma_change": 19,
+    "rank_change": 31,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1387/154934l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1387/154934.jpg"
     },
@@ -336,9 +377,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rau9mj/jingai_kyoushitsu_no_ningengirai_kyoushi_a/",
     "mal_id": 62432,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 7,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "winter"
   },
   {
@@ -377,9 +418,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ratdcb/dead_account_episode_7_discussion/",
     "mal_id": 61196,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 9,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "winter"
   },
   {
@@ -418,9 +459,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra08ae/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "winter"
   },
   {
@@ -442,9 +483,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raht1h/pok\u00e9mon_horizons_the_series_episode_128_discussion/",
     "mal_id": 53876,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 1,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "winter"
   },
   {
@@ -487,9 +528,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ran1jb/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 4,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "winter"
   },
   {
@@ -511,7 +552,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rb8sr6/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -536,9 +577,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raanpv/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -29,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "winter"
   },
   {
@@ -560,9 +601,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
     "mal_id": 59078,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -1,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -597,9 +638,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rb9ftr/sivis_the_sound_of_heroes_episode_20_discussion/",
     "mal_id": 62126,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 1,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -630,9 +671,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rag0d7/high_school_kimengumi_episode_7_discussion/",
     "mal_id": 62804,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 2,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "winter"
   }
 ]
