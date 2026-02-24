@@ -567,6 +567,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 5.99,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "20",
+    "karma": 10,
+    "comments": 17,
+    "week_id": 9,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rb9ftr/sivis_the_sound_of_heroes_episode_20_discussion/",
+    "mal_id": 62126,
+    "current_rank": 18,
+    "karma_change": 1,
+    "rank_change": 44,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -593,9 +630,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rag0d7/high_school_kimengumi_episode_7_discussion/",
     "mal_id": 62804,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 2,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "winter"
   }
 ]
