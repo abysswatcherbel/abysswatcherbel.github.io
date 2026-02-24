@@ -742,6 +742,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1260/155016l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1260/155016.jpg"
+    },
+    "title": "Tensui no Sakuna-hime: Kokorowa Inasaku Nisshi",
+    "title_english": "",
+    "num_episodes": 2,
+    "score": 6.67,
+    "streams": null,
+    "episode": "2",
+    "karma": 53,
+    "comments": 11,
+    "week_id": 9,
+    "studio": [
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rbrt01/tensui_no_sakunahime_kokorowa_inasaku_nisshi/",
+    "mal_id": 60294,
+    "current_rank": 22,
+    "karma_change": -10,
+    "rank_change": 25,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -776,9 +800,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra08ae/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -3,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "winter"
   },
   {
@@ -817,9 +841,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rbo4k3/goumon_baitokun_no_nichijou_the_daily_life_of_a/",
     "mal_id": 61886,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 9,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "winter"
   },
   {
@@ -841,9 +865,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raht1h/pok\u00e9mon_horizons_the_series_episode_128_discussion/",
     "mal_id": 53876,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 1,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "winter"
   },
   {
@@ -886,9 +910,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ran1jb/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 4,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "winter"
   },
   {
@@ -910,7 +934,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rb8sr6/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -935,9 +959,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raanpv/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -29,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "winter"
   },
   {
@@ -959,9 +983,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
     "mal_id": 59078,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -1,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "winter"
   },
   {
@@ -992,9 +1016,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rbov1w/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 4,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "winter"
   },
   {
@@ -1029,9 +1053,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rb9ftr/sivis_the_sound_of_heroes_episode_20_discussion/",
     "mal_id": 62126,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 1,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "winter"
   },
   {
@@ -1062,9 +1086,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rag0d7/high_school_kimengumi_episode_7_discussion/",
     "mal_id": 62804,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 2,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "winter"
   }
 ]
