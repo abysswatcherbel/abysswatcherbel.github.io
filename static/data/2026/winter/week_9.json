@@ -494,6 +494,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.5,
+    "streams": null,
+    "episode": "4",
+    "karma": 27,
+    "comments": 18,
+    "week_id": 9,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rb8sr6/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 15,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
     },
@@ -512,9 +536,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1raanpv/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -29,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "winter"
   },
   {
@@ -536,9 +560,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
     "mal_id": 59078,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -1,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -569,9 +593,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rag0d7/high_school_kimengumi_episode_7_discussion/",
     "mal_id": 62804,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 2,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "winter"
   }
 ]
