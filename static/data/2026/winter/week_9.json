@@ -1090,5 +1090,29 @@
     "karma_change": 2,
     "rank_change": 32,
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.51,
+    "streams": null,
+    "episode": "47",
+    "karma": 4,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rcf6s2/koupen_chan_episode_47_discussion/",
+    "mal_id": 60534,
+    "current_rank": 33,
+    "karma_change": 2,
+    "rank_change": 34,
+    "season": "winter"
   }
 ]
