@@ -1483,6 +1483,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.28,
+    "streams": null,
+    "episode": "20",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1reac2r/ugoku_neko_mukashibanashi_cat_tales_episode_20/",
+    "mal_id": 61254,
+    "current_rank": 44,
+    "karma_change": -5,
+    "rank_change": 17,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -1533,9 +1557,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rcf6s2/koupen_chan_episode_47_discussion/",
     "mal_id": 60534,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 2,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "winter"
   },
   {
@@ -1555,7 +1579,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1re5zf9/petitcure_precure_fairies_episode_46_discussion/",
     "mal_id": 61272,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1580,9 +1604,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rds5bn/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -2,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "winter"
   }
 ]
