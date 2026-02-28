@@ -2084,6 +2084,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1054/153719l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1054/153719.jpg"
+    },
+    "title": "Douse, Koishite Shimaunda. 2nd Season",
+    "title_english": "Anyway, I'm Falling in Love with You. Season 2",
+    "num_episodes": 0,
+    "score": 6.55,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "8",
+    "karma": 19,
+    "comments": 19,
+    "week_id": 9,
+    "studio": [
+      "Typhoon Graphics"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rffr99/douse_koishite_shimaunda_season_2_anyway_im/",
+    "mal_id": 61325,
+    "current_rank": 58,
+    "karma_change": 2,
+    "rank_change": 1,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -2101,9 +2142,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ra11yu/princession_orchestra_episode_42_discussion/",
     "mal_id": 59078,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -1,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   },
   {
@@ -2134,9 +2175,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rbov1w/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 4,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "winter"
   },
   {
@@ -2171,9 +2212,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rb9ftr/sivis_the_sound_of_heroes_episode_20_discussion/",
     "mal_id": 62126,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 1,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   },
   {
@@ -2195,9 +2236,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1reac2r/ugoku_neko_mukashibanashi_cat_tales_episode_20/",
     "mal_id": 61254,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -5,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "winter"
   },
   {
@@ -2228,9 +2269,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rag0d7/high_school_kimengumi_episode_7_discussion/",
     "mal_id": 62804,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 2,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "winter"
   },
   {
@@ -2252,9 +2293,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rcf6s2/koupen_chan_episode_47_discussion/",
     "mal_id": 60534,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 2,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "winter"
   },
   {
@@ -2274,7 +2315,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1re5zf9/petitcure_precure_fairies_episode_46_discussion/",
     "mal_id": 61272,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2296,7 +2337,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1rf5unx/petitcure_precure_fairies_episode_47_discussion/",
     "mal_id": 61272,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2321,9 +2362,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rds5bn/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -2,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   }
 ]
