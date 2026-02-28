@@ -2354,6 +2354,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.88,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "117",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rfmui2/beyblade_x_episode_117_discussion/",
+    "mal_id": 56566,
+    "current_rank": 67,
+    "karma_change": 3,
+    "rank_change": 2,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
@@ -2371,9 +2395,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rfj41n/everyday_host_episode_21_discussion/",
     "mal_id": 60535,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -1,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "winter"
   },
   {
@@ -2393,7 +2417,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1re5zf9/petitcure_precure_fairies_episode_46_discussion/",
     "mal_id": 61272,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2415,7 +2439,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1rf5unx/petitcure_precure_fairies_episode_47_discussion/",
     "mal_id": 61272,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2440,9 +2464,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rds5bn/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -2,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "winter"
   }
 ]
