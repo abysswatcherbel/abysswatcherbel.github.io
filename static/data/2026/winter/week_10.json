@@ -1,6 +1,76 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1921/154528l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1921/154528.webp"
+    },
+    "title": "Sousou no Frieren 2nd Season",
+    "title_english": "Frieren: Beyond Journey's End Season 2",
+    "num_episodes": 10,
+    "score": 9.19,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "episode": "6",
+    "karma": 3375,
+    "comments": 933,
+    "week_id": 10,
+    "studio": [
+      "Madhouse"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rg925e/sousou_no_frieren_season_2_frieren_beyond/",
+    "mal_id": 59978,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": 7.06,
+    "streams": null,
+    "episode": "3",
+    "karma": 31,
+    "comments": 5,
+    "week_id": 10,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rgak6z/girls_und_panzer_motto_love_love_sakusen_desu/",
+    "mal_id": 61227,
+    "current_rank": 2,
+    "karma_change": 9,
+    "rank_change": 56,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
     },
@@ -18,7 +88,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rg8qwe/monster_strike_deadverse_reloaded_episode_9/",
     "mal_id": 62066,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
