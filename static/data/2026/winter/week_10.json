@@ -426,6 +426,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.07,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "21",
+    "karma": 110,
+    "comments": 32,
+    "week_id": 10,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rhm41u/digimon_beatbreak_episode_21_discussion/",
+    "mal_id": 61269,
+    "current_rank": 13,
+    "karma_change": -14,
+    "rank_change": 25,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1387/154934l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1387/154934.jpg"
     },
@@ -448,9 +489,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rh5kjp/jingai_kyoushitsu_no_ningengirai_kyoushi_a/",
     "mal_id": 62432,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "winter"
   },
   {
@@ -489,9 +530,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rh5kie/dead_account_episode_8_discussion/",
     "mal_id": 61196,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -5,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "winter"
   },
   {
@@ -513,9 +554,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgteti/pok\u00e9mon_horizons_the_series_episode_129_discussion/",
     "mal_id": 53876,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 7,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "winter"
   },
   {
@@ -554,9 +595,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgbhhj/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -4,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "winter"
   },
   {
@@ -579,9 +620,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgak6z/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 9,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "winter"
   },
   {
@@ -603,9 +644,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rhk88p/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -3,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "winter"
   },
   {
@@ -648,9 +689,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgyf10/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -4,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "winter"
   },
   {
@@ -685,9 +726,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rhkv51/sivis_the_sound_of_heroes_episode_21_discussion/",
     "mal_id": 62126,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 3,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -718,9 +759,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgrcv2/high_school_kimengumi_episode_8_discussion/",
     "mal_id": 62804,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -1,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -742,7 +783,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rg8qwe/monster_strike_deadverse_reloaded_episode_9/",
     "mal_id": 62066,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
