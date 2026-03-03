@@ -655,6 +655,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "21",
+    "karma": 13,
+    "comments": 15,
+    "week_id": 10,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rhkv51/sivis_the_sound_of_heroes_episode_21_discussion/",
+    "mal_id": 62126,
+    "current_rank": 20,
+    "karma_change": 3,
+    "rank_change": 43,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -681,9 +718,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgrcv2/high_school_kimengumi_episode_8_discussion/",
     "mal_id": 62804,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -1,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -705,7 +742,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rg8qwe/monster_strike_deadverse_reloaded_episode_9/",
     "mal_id": 62066,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"

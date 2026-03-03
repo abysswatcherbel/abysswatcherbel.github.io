@@ -586,6 +586,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.5,
+    "streams": null,
+    "episode": "5",
+    "karma": 24,
+    "comments": 14,
+    "week_id": 10,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rhk88p/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 18,
+    "karma_change": -3,
+    "rank_change": 38,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1393/151603l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1393/151603.jpg"
     },
@@ -624,9 +648,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgyf10/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -4,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "winter"
   },
   {
@@ -657,9 +681,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgrcv2/high_school_kimengumi_episode_8_discussion/",
     "mal_id": 62804,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -1,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "winter"
   },
   {
@@ -681,7 +705,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rg8qwe/monster_strike_deadverse_reloaded_episode_9/",
     "mal_id": 62066,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
