@@ -1652,6 +1652,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "21",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 10,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rkip32/ugoku_neko_mukashibanashi_cat_tales_episode_21/",
+    "mal_id": 61254,
+    "current_rank": 49,
+    "karma_change": -2,
+    "rank_change": 15,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1722/155148l.jpg",
       "medium": "https://myanimelist.net/images/anime/1722/155148.jpg"
     },
@@ -1669,7 +1693,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis6n/bakidou_bakidou_the_invincible_samurai_episodes/",
     "mal_id": 58573,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1693,7 +1717,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rivgeo/bakidou_bakidou_the_invincible_samurai_episode_11/",
     "mal_id": 58573,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1717,7 +1741,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rg8qwe/monster_strike_deadverse_reloaded_episode_9/",
     "mal_id": 62066,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1741,7 +1765,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4y/bakidou_bakidou_the_invincible_samurai_episode_5/",
     "mal_id": 58573,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1765,7 +1789,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4t/bakidou_bakidou_the_invincible_samurai_episode_4/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1789,7 +1813,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4p/bakidou_bakidou_the_invincible_samurai_episode_3/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1813,7 +1837,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4h/bakidou_bakidou_the_invincible_samurai_episode_2/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1837,7 +1861,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5k/bakidou_bakidou_the_invincible_samurai_episode_9/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1861,7 +1885,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5i/bakidou_bakidou_the_invincible_samurai_episode_8/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1885,7 +1909,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis52/bakidou_bakidou_the_invincible_samurai_episode_6/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1909,7 +1933,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5a/bakidou_bakidou_the_invincible_samurai_episode_7/",
     "mal_id": 58573,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1933,7 +1957,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4c/bakidou_bakidou_the_invincible_samurai_episode_1/",
     "mal_id": 58573,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -1957,7 +1981,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5q/bakidou_bakidou_the_invincible_samurai_episode_10/",
     "mal_id": 58573,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
