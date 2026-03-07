@@ -2150,6 +2150,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1054/153719l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1054/153719.jpg"
+    },
+    "title": "Douse, Koishite Shimaunda. 2nd Season",
+    "title_english": "Anyway, I'm Falling in Love with You. Season 2",
+    "num_episodes": 0,
+    "score": 6.53,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "9",
+    "karma": 22,
+    "comments": 25,
+    "week_id": 10,
+    "studio": [
+      "Typhoon Graphics"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rln0cv/douse_koishite_shimaunda_season_2_anyway_im/",
+    "mal_id": 61325,
+    "current_rank": 59,
+    "karma_change": 3,
+    "rank_change": 0,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1076/155754l.jpg",
       "medium": "https://myanimelist.net/images/anime/1076/155754.jpg"
     },
@@ -2165,7 +2206,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1rkw4vl/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 63598,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2187,9 +2228,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1rlh7rm/ganso_bandorichan_ganso_bang_dream_chan_episode/",
     "mal_id": 61107,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -14,
-    "rank_change": -5,
+    "rank_change": -6,
     "season": "winter"
   },
   {
@@ -2224,9 +2265,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rhkv51/sivis_the_sound_of_heroes_episode_21_discussion/",
     "mal_id": 62126,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 3,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   },
   {
@@ -2248,7 +2289,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rivgmr/bakidou_bakidou_the_invincible_samurai_episode_13/",
     "mal_id": 58573,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2281,9 +2322,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ri06vj/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -2,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "winter"
   },
   {
@@ -2305,9 +2346,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rhs5fv/koupen_chan_episode_48_discussion/",
     "mal_id": 60534,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 3,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "winter"
   },
   {
@@ -2329,7 +2370,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rivgii/bakidou_bakidou_the_invincible_samurai_episode_12/",
     "mal_id": 58573,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2362,9 +2403,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rgrcv2/high_school_kimengumi_episode_8_discussion/",
     "mal_id": 62804,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": -1,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "winter"
   },
   {
@@ -2386,9 +2427,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rkip32/ugoku_neko_mukashibanashi_cat_tales_episode_21/",
     "mal_id": 61254,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -2,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "winter"
   },
   {
@@ -2410,7 +2451,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis6n/bakidou_bakidou_the_invincible_samurai_episodes/",
     "mal_id": 58573,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2434,7 +2475,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rivgeo/bakidou_bakidou_the_invincible_samurai_episode_11/",
     "mal_id": 58573,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2458,7 +2499,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rg8qwe/monster_strike_deadverse_reloaded_episode_9/",
     "mal_id": 62066,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2482,7 +2523,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4y/bakidou_bakidou_the_invincible_samurai_episode_5/",
     "mal_id": 58573,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2506,7 +2547,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4t/bakidou_bakidou_the_invincible_samurai_episode_4/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2530,7 +2571,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4p/bakidou_bakidou_the_invincible_samurai_episode_3/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2554,7 +2595,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4h/bakidou_bakidou_the_invincible_samurai_episode_2/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2578,7 +2619,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5k/bakidou_bakidou_the_invincible_samurai_episode_9/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2602,7 +2643,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5i/bakidou_bakidou_the_invincible_samurai_episode_8/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2626,7 +2667,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis52/bakidou_bakidou_the_invincible_samurai_episode_6/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2650,7 +2691,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5a/bakidou_bakidou_the_invincible_samurai_episode_7/",
     "mal_id": 58573,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -2672,9 +2713,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1rld9ua/petitcure_precure_fairies_episode_48_discussion/",
     "mal_id": 61272,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
-    "rank_change": -10,
+    "rank_change": -11,
     "season": "winter"
   },
   {
@@ -2696,7 +2737,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis4c/bakidou_bakidou_the_invincible_samurai_episode_1/",
     "mal_id": 58573,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
     "rank_change": "new",
     "season": "winter"
@@ -2720,7 +2761,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1riis5q/bakidou_bakidou_the_invincible_samurai_episode_10/",
     "mal_id": 58573,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
