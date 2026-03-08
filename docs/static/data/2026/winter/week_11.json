@@ -112,6 +112,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1655/155040l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1655/155040.jpg"
+    },
+    "title": "Android wa Keiken Ninzuu ni Hairimasu ka?? Special",
+    "title_english": "Does It Count If You Lose Your Innocence to an Android? Special",
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "episode": "",
+    "karma": 118,
+    "comments": 18,
+    "week_id": 11,
+    "studio": [
+      "Nyan Pollution"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rmn4tt/android_wa_keiken_ninzuu_ni_hairimasu_ka_does_it/",
+    "mal_id": 63330,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -146,9 +170,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmirxq/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -18,
-    "rank_change": 50,
+    "rank_change": 49,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.93,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "",
+    "episode": "22",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rmn379/everyday_host_episode_22_discussion/",
+    "mal_id": 60535,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "winter"
   }
 ]
