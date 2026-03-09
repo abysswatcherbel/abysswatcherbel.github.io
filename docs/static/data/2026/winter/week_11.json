@@ -184,6 +184,51 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1393/151603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1393/151603.jpg"
+    },
+    "title": "Ao no Miburo: Serizawa Ansatsu-hen",
+    "title_english": "Blue Miburo Season 2",
+    "num_episodes": 0,
+    "score": 7.03,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283916"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "11",
+    "karma": 24,
+    "comments": 16,
+    "week_id": 11,
+    "studio": [
+      "Maho Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rn5wlh/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
+    "mal_id": 61333,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": 52,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -218,9 +263,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmirxq/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -18,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "winter"
   },
   {
@@ -249,7 +294,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmzy3w/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -273,7 +318,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmn379/everyday_host_episode_22_discussion/",
     "mal_id": 60535,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -306,9 +351,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmyl66/high_school_kimengumi_episode_9_discussion/",
     "mal_id": 62804,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "winter"
   },
   {
@@ -330,9 +375,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmtw34/monster_strike_deadverse_reloaded_episode_10/",
     "mal_id": 62066,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -2,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "winter"
   }
 ]
