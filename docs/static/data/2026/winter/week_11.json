@@ -225,6 +225,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
+    },
+    "title": "High School! Kimengumi (2026)",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 5.39,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "9",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "Seven"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rmyl66/high_school_kimengumi_episode_9_discussion/",
+    "mal_id": 62804,
+    "current_rank": 7,
+    "karma_change": -4,
+    "rank_change": 61,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
     },
@@ -242,9 +275,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmtw34/monster_strike_deadverse_reloaded_episode_10/",
     "mal_id": 62066,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -2,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "winter"
   }
 ]
