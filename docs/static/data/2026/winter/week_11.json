@@ -201,6 +201,37 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
+    "num_episodes": 0,
+    "score": 6.39,
+    "streams": [
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "7",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "Kinema Citrus",
+      "Gift-o\u2019-Animation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rmzy3w/cardfight_vanguard_divinez_genma_seisenhen/",
+    "mal_id": 62649,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
@@ -218,7 +249,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmn379/everyday_host_episode_22_discussion/",
     "mal_id": 60535,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -251,9 +282,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmyl66/high_school_kimengumi_episode_9_discussion/",
     "mal_id": 62804,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -4,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "winter"
   },
   {
@@ -275,9 +306,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmtw34/monster_strike_deadverse_reloaded_episode_10/",
     "mal_id": 62066,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -2,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "winter"
   }
 ]
