@@ -198,5 +198,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1090/151875l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1090/151875.jpg"
+    },
+    "title": "Monster Strike: Deadverse Reloaded",
+    "title_english": "",
+    "num_episodes": 10,
+    "score": 5.82,
+    "streams": null,
+    "episode": "10",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "Yumeta Company"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rmtw34/monster_strike_deadverse_reloaded_episode_10/",
+    "mal_id": 62066,
+    "current_rank": 7,
+    "karma_change": -2,
+    "rank_change": 65,
+    "season": "winter"
   }
 ]
