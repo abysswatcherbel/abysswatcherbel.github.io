@@ -136,6 +136,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1518/155184l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1518/155184.jpg"
+    },
+    "title": "Evangelion: Housou 30-shuunen Kinen Tokubetsu Kougyou",
+    "title_english": "Evangelion 30th Anniversary Special",
+    "num_episodes": 1,
+    "score": 7.24,
+    "streams": null,
+    "episode": "",
+    "karma": 114,
+    "comments": 40,
+    "week_id": 11,
+    "studio": [
+      "Khara"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rmvw1d/evangelion_broadcast_30th_anniversary_special/",
+    "mal_id": 63392,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -170,9 +194,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmirxq/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -18,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "winter"
   },
   {
@@ -194,7 +218,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmn379/everyday_host_episode_22_discussion/",
     "mal_id": 60535,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -218,9 +242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmtw34/monster_strike_deadverse_reloaded_episode_10/",
     "mal_id": 62066,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -2,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "winter"
   }
 ]
