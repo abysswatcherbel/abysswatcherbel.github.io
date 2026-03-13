@@ -1848,6 +1848,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "22",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rqqt5g/ugoku_neko_mukashibanashi_cat_tales_episode_22/",
+    "mal_id": 61254,
+    "current_rank": 59,
+    "karma_change": -2,
+    "rank_change": 10,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
     },
@@ -1866,7 +1890,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rp0ecf/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1897,7 +1921,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmzy3w/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1921,7 +1945,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmn379/everyday_host_episode_22_discussion/",
     "mal_id": 60535,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
@@ -1954,9 +1978,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmyl66/high_school_kimengumi_episode_9_discussion/",
     "mal_id": 62804,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -4,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "winter"
   },
   {
@@ -1978,9 +2002,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rmtw34/monster_strike_deadverse_reloaded_episode_10/",
     "mal_id": 62066,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -2,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "winter"
   }
 ]
