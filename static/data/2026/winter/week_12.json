@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.93,
+    "streams": null,
+    "title": "Everyday Host",
+    "title_english": "",
+    "episode": "23",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [
+      "Fanworks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
+    "mal_id": 60535,
+    "current_rank": 1,
+    "karma_change": 8,
+    "rank_change": 79,
+    "season": "winter"
+  }
+]
