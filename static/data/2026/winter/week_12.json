@@ -201,6 +201,51 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1393/151603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1393/151603.jpg"
+    },
+    "title": "Ao no Miburo: Serizawa Ansatsu-hen",
+    "title_english": "Blue Miburo Season 2",
+    "num_episodes": 0,
+    "score": 7.06,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283916"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "12",
+    "karma": 16,
+    "comments": 12,
+    "week_id": 12,
+    "studio": [
+      "Maho Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rtf3hd/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
+    "mal_id": 61333,
+    "current_rank": 7,
+    "karma_change": -8,
+    "rank_change": 48,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
@@ -218,9 +263,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
     "mal_id": 60535,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 8,
-    "rank_change": 73,
+    "rank_change": 72,
     "season": "winter"
   },
   {
@@ -251,9 +296,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt88rd/high_school_kimengumi_episode_10_discussion/",
     "mal_id": 62804,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 3,
-    "rank_change": 72,
+    "rank_change": 71,
     "season": "winter"
   },
   {
@@ -282,9 +327,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt8v3a/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -1,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "winter"
   }
 ]
