@@ -174,6 +174,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": 7.12,
+    "streams": null,
+    "episode": "4",
+    "karma": 25,
+    "comments": 9,
+    "week_id": 12,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rtlbyc/girls_und_panzer_operation_more_love_love_girls/",
+    "mal_id": 61227,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -208,9 +233,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rss7fy/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 8,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "winter"
   },
   {
@@ -232,9 +257,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rtbo5t/pok\u00e9mon_horizons_the_series_episode_131_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -8,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "winter"
   },
   {
@@ -277,9 +302,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rtf3hd/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -8,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "winter"
   },
   {
@@ -301,9 +326,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
     "mal_id": 60535,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 8,
-    "rank_change": 71,
+    "rank_change": 70,
     "season": "winter"
   },
   {
@@ -334,9 +359,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt88rd/high_school_kimengumi_episode_10_discussion/",
     "mal_id": 62804,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 3,
-    "rank_change": 70,
+    "rank_change": 69,
     "season": "winter"
   },
   {
@@ -367,9 +392,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rth3nv/meitantei_conan_case_closed_episode_1193/",
     "mal_id": 235,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -2,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "winter"
   },
   {
@@ -398,9 +423,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt8v3a/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -1,
-    "rank_change": 66,
+    "rank_change": 65,
     "season": "winter"
   }
 ]
