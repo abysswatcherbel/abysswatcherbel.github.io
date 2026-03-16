@@ -112,6 +112,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1818/155506l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1818/155506.jpg"
+    },
+    "title": "Marika-chan no Koukando wa Bukkowareteiru",
+    "title_english": "Marika's Love Meter Malfunction",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 35,
+    "comments": 9,
+    "week_id": 12,
+    "studio": [
+      "Studio LEO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rt55ue/marikas_love_meter_malfunction_marikachan_no/",
+    "mal_id": 62983,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1559/154695l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1559/154695.jpg"
     },
@@ -146,9 +170,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rss7fy/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 8,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "winter"
   },
   {
@@ -170,9 +194,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
     "mal_id": 60535,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 8,
-    "rank_change": 75,
+    "rank_change": 74,
     "season": "winter"
   }
 ]
