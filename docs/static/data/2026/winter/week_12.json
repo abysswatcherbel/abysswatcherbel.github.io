@@ -642,6 +642,43 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 5.99,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "22",
+    "karma": 11,
+    "comments": 11,
+    "week_id": 12,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ru1ssb/sivis_the_sound_of_heroes_episode_22_discussion/",
+    "mal_id": 62126,
+    "current_rank": 20,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
@@ -659,9 +696,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
     "mal_id": 60535,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 8,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "winter"
   },
   {
@@ -692,9 +729,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt88rd/high_school_kimengumi_episode_10_discussion/",
     "mal_id": 62804,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 3,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "winter"
   },
   {
@@ -725,9 +762,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rth3nv/meitantei_conan_case_closed_episode_1193/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -2,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -756,9 +793,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt8v3a/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -1,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "winter"
   }
 ]
