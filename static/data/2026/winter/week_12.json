@@ -549,6 +549,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.52,
+    "streams": null,
+    "episode": "7",
+    "karma": 18,
+    "comments": 11,
+    "week_id": 12,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ru15pm/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 17,
+    "karma_change": -6,
+    "rank_change": 39,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -566,9 +590,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rtbo5t/pok\u00e9mon_horizons_the_series_episode_131_discussion/",
     "mal_id": 53876,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -8,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "winter"
   },
   {
@@ -611,9 +635,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rtf3hd/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
     "mal_id": 61333,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -8,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "winter"
   },
   {
@@ -635,9 +659,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
     "mal_id": 60535,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 8,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "winter"
   },
   {
@@ -668,9 +692,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt88rd/high_school_kimengumi_episode_10_discussion/",
     "mal_id": 62804,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 3,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "winter"
   },
   {
@@ -701,9 +725,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rth3nv/meitantei_conan_case_closed_episode_1193/",
     "mal_id": 235,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -2,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -732,9 +756,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt8v3a/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -1,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "winter"
   }
 ]
