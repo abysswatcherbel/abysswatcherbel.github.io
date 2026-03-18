@@ -1135,6 +1135,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.53,
+    "streams": null,
+    "episode": "50",
+    "karma": 8,
+    "comments": 3,
+    "week_id": 12,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rv48hf/koupen_chan_episode_50_discussion/",
+    "mal_id": 60534,
+    "current_rank": 34,
+    "karma_change": 4,
+    "rank_change": 32,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg"
     },
@@ -1152,9 +1176,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rsn6hh/everyday_host_episode_23_discussion/",
     "mal_id": 60535,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 8,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "winter"
   },
   {
@@ -1176,9 +1200,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ruu94r/princession_orchestra_episode_45_discussion/",
     "mal_id": 59078,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -5,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "winter"
   },
   {
@@ -1209,9 +1233,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt88rd/high_school_kimengumi_episode_10_discussion/",
     "mal_id": 62804,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 3,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -1242,9 +1266,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rth3nv/meitantei_conan_case_closed_episode_1193/",
     "mal_id": 235,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": -2,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "winter"
   },
   {
@@ -1267,9 +1291,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ruqd9b/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "winter"
   },
   {
@@ -1298,9 +1322,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt8v3a/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": -1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "winter"
   }
 ]
