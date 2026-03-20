@@ -1630,6 +1630,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1365/152216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1365/152216.jpg"
+    },
+    "title": "Ugoku! Neko Mukashibanashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.26,
+    "streams": null,
+    "episode": "23",
+    "karma": 5,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rx0x6x/ugoku_neko_mukashibanashi_cat_tales_episode_23/",
+    "mal_id": 61254,
+    "current_rank": 49,
+    "karma_change": 4,
+    "rank_change": 28,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
     },
@@ -1656,9 +1680,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt88rd/high_school_kimengumi_episode_10_discussion/",
     "mal_id": 62804,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 3,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "winter"
   },
   {
@@ -1689,9 +1713,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rth3nv/meitantei_conan_case_closed_episode_1193/",
     "mal_id": 235,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -2,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -1714,9 +1738,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ruqd9b/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -1,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "winter"
   },
   {
@@ -1745,9 +1769,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rt8v3a/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -1,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "winter"
   }
 ]
