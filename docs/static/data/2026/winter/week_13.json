@@ -46,6 +46,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.71,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-278313"
+      }
+    ],
+    "title": "Enen no Shouboutai: San no Shou",
+    "title_english": "Fire Force Season 3",
+    "episode": "23",
+    "karma": 546,
+    "comments": 161,
+    "week_id": 13,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rz2l4v/enen_no_shouboutai_san_no_shou_fire_force_season/",
+    "mal_id": 51818,
+    "current_rank": 2,
+    "karma_change": 27,
+    "rank_change": 9,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1151/152479.jpg"
     },
@@ -76,9 +105,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz1a0o/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -24,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "winter"
   },
   {
@@ -117,9 +146,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz14ji/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -3,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "winter"
   },
   {
@@ -142,9 +171,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryh3s6/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -10,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "winter"
   },
   {
@@ -166,7 +195,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
