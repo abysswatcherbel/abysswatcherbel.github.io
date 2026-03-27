@@ -46,6 +46,51 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1979/153329l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1979/153329.jpg"
+    },
+    "title": "[Oshi no Ko] 3rd Season",
+    "title_english": "[Oshi No Ko] Season 3",
+    "num_episodes": 0,
+    "score": 8.6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "11",
+    "karma": 2513,
+    "comments": 1168,
+    "week_id": 13,
+    "studio": [
+      "Doga Kobo"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s3dau9/oshi_no_ko_season_3_episode_11_discussion_final/",
+    "mal_id": 60058,
+    "current_rank": 2,
+    "karma_change": 1112,
+    "rank_change": 3,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
@@ -68,9 +113,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz2l4v/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 27,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "winter"
   },
   {
@@ -121,9 +166,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3cct5/okiraku_ryoushu_no_tanoshii_ryouchi_bouei/",
     "mal_id": 61549,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 43,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "winter"
   },
   {
@@ -158,9 +203,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz1a0o/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -24,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "winter"
   },
   {
@@ -187,9 +232,50 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3a5bp/29sai_dokushin_chuuken_boukensha_no_nichijou_an/",
     "mal_id": 61637,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 20,
-    "rank_change": 37,
+    "rank_change": 36,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1968/152396l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1968/152396.jpg"
+    },
+    "title": "Odayaka Kizoku no Kyuuka no Susume.",
+    "title_english": "A Gentle Noble's Vacation Recommendation",
+    "num_episodes": 0,
+    "score": 6.56,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "12",
+    "karma": 95,
+    "comments": 71,
+    "week_id": 13,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s3dasj/odayaka_kizoku_no_kyuuka_no_susume_a_gentle/",
+    "mal_id": 60071,
+    "current_rank": 7,
+    "karma_change": 35,
+    "rank_change": 40,
     "season": "winter"
   },
   {
@@ -228,9 +314,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz14ji/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -3,
-    "rank_change": 50,
+    "rank_change": 48,
     "season": "winter"
   },
   {
@@ -253,9 +339,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryh3s6/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -10,
-    "rank_change": 48,
+    "rank_change": 46,
     "season": "winter"
   },
   {
@@ -277,7 +363,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
