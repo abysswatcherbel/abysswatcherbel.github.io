@@ -280,6 +280,105 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1637/148197l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1637/148197.jpg"
+    },
+    "title": "Jigoku Sensei Nube (2025)",
+    "title_english": "Hell Teacher: Jigoku Sensei Nube",
+    "num_episodes": 0,
+    "score": 6.69,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      }
+    ],
+    "episode": "26",
+    "karma": 48,
+    "comments": 22,
+    "week_id": 13,
+    "studio": [
+      "Studio Kai"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s3jqiy/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
+    "mal_id": 59342,
+    "current_rank": 8,
+    "karma_change": 16,
+    "rank_change": 45,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": 7.28,
+    "streams": null,
+    "episode": "6",
+    "karma": 34,
+    "comments": 8,
+    "week_id": 13,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s3i9f4/girls_und_panzer_operation_more_love_love_girls/",
+    "mal_id": 61227,
+    "current_rank": 9,
+    "karma_change": 9,
+    "rank_change": 46,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1637/148197l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1637/148197.jpg"
+    },
+    "title": "Jigoku Sensei Nube (2025)",
+    "title_english": "Hell Teacher: Jigoku Sensei Nube",
+    "num_episodes": 0,
+    "score": 6.69,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      }
+    ],
+    "episode": "25",
+    "karma": 33,
+    "comments": 12,
+    "week_id": 13,
+    "studio": [
+      "Studio Kai"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s3jqcr/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
+    "mal_id": 59342,
+    "current_rank": 10,
+    "karma_change": 1,
+    "rank_change": 43,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1735/146986l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
@@ -297,9 +396,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3hme7/princession_orchestra_episode_47_discussion/",
     "mal_id": 59078,
-    "current_rank": 8,
+    "current_rank": 11,
     "karma_change": 14,
-    "rank_change": 59,
+    "rank_change": 56,
     "season": "winter"
   },
   {
@@ -338,9 +437,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz14ji/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 9,
+    "current_rank": 12,
     "karma_change": -3,
-    "rank_change": 47,
+    "rank_change": 44,
     "season": "winter"
   },
   {
@@ -363,9 +462,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryh3s6/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": -10,
-    "rank_change": 45,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -387,7 +486,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
