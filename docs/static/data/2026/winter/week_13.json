@@ -863,6 +863,30 @@
     "streams": null,
     "title": "Beyblade X",
     "title_english": "",
+    "episode": "121",
+    "karma": 2,
+    "comments": 4,
+    "week_id": 13,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s4m6t4/beyblade_x_episode_121_discussion/",
+    "mal_id": 56566,
+    "current_rank": 23,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.89,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
     "episode": "120",
     "karma": 0,
     "comments": 1,
@@ -872,7 +896,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
