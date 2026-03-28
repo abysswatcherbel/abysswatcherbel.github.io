@@ -91,6 +91,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1062/151911l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1062/151911.jpg"
+    },
+    "title": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+    "title_english": "Sentenced to Be a Hero",
+    "num_episodes": 12,
+    "score": 8.14,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 2003,
+    "comments": 936,
+    "week_id": 13,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s47mna/yuushakei_ni_shosu_choubatsu_yuusha_9004tai_keimu/",
+    "mal_id": 56009,
+    "current_rank": 3,
+    "karma_change": 848,
+    "rank_change": 3,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
@@ -113,9 +154,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz2l4v/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 27,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -166,9 +207,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3cct5/okiraku_ryoushu_no_tanoshii_ryouchi_bouei/",
     "mal_id": 61549,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 43,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "winter"
   },
   {
@@ -203,9 +244,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz1a0o/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -24,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "winter"
   },
   {
@@ -232,9 +273,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3a5bp/29sai_dokushin_chuuken_boukensha_no_nichijou_an/",
     "mal_id": 61637,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 20,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "winter"
   },
   {
@@ -273,9 +314,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3dasj/odayaka_kizoku_no_kyuuka_no_susume_a_gentle/",
     "mal_id": 60071,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 35,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "winter"
   },
   {
@@ -310,9 +351,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3jqiy/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
     "mal_id": 59342,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 16,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "winter"
   },
   {
@@ -335,9 +376,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3i9f4/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 9,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "winter"
   },
   {
@@ -372,9 +413,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3jqcr/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
     "mal_id": 59342,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 1,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "winter"
   },
   {
@@ -396,9 +437,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3hme7/princession_orchestra_episode_47_discussion/",
     "mal_id": 59078,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 14,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "winter"
   },
   {
@@ -437,9 +478,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz14ji/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "winter"
   },
   {
@@ -462,9 +503,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryh3s6/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -10,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "winter"
   },
   {
@@ -486,7 +527,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
