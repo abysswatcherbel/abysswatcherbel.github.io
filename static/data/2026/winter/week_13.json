@@ -161,6 +161,105 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1668/148737l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1668/148737.jpg"
+    },
+    "title": "Mato Seihei no Slave 2",
+    "title_english": "Chained Soldier Season 2",
+    "num_episodes": 12,
+    "score": 7.48,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 525,
+    "comments": 126,
+    "week_id": 13,
+    "studio": [
+      "Passione",
+      "Hayabusa Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s4atk6/mato_seihei_no_slave_season_2_chained_soldier/",
+    "mal_id": 58505,
+    "current_rank": 5,
+    "karma_change": 86,
+    "rank_change": 10,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1655/153574l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1655/153574.jpg"
+    },
+    "title": "Eris no Seihai",
+    "title_english": "The Holy Grail of Eris",
+    "num_episodes": 0,
+    "score": 6.99,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 262,
+    "comments": 165,
+    "week_id": 13,
+    "studio": [
+      "Ashi Productions"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s49zbb/eris_no_seihai_the_holy_grail_of_eris_episode_12/",
+    "mal_id": 60151,
+    "current_rank": 6,
+    "karma_change": 30,
+    "rank_change": 15,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1264/153908l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1264/153908.jpg"
     },
@@ -207,9 +306,54 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3cct5/okiraku_ryoushu_no_tanoshii_ryouchi_bouei/",
     "mal_id": 61549,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 43,
-    "rank_change": 24,
+    "rank_change": 22,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1033/152494l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1033/152494.jpg"
+    },
+    "title": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari",
+    "title_english": "The Invisible Man and His Soon-to-Be Wife",
+    "num_episodes": 0,
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 223,
+    "comments": 131,
+    "week_id": 13,
+    "studio": [
+      "Project No.9"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s49z9b/toumei_otoko_to_ningen_onna_sonouchi_fuufu_ni/",
+    "mal_id": 60395,
+    "current_rank": 8,
+    "karma_change": -14,
+    "rank_change": 12,
     "season": "winter"
   },
   {
@@ -244,9 +388,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz1a0o/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 6,
+    "current_rank": 9,
     "karma_change": -24,
-    "rank_change": 17,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -273,9 +417,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3a5bp/29sai_dokushin_chuuken_boukensha_no_nichijou_an/",
     "mal_id": 61637,
-    "current_rank": 7,
+    "current_rank": 10,
     "karma_change": 20,
-    "rank_change": 35,
+    "rank_change": 32,
     "season": "winter"
   },
   {
@@ -310,9 +454,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s495ri/mf_ghost_season_3_episode_13_discussion_final/",
     "mal_id": 60602,
-    "current_rank": 8,
+    "current_rank": 11,
     "karma_change": 17,
-    "rank_change": 37,
+    "rank_change": 34,
     "season": "winter"
   },
   {
@@ -351,9 +495,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3dasj/odayaka_kizoku_no_kyuuka_no_susume_a_gentle/",
     "mal_id": 60071,
-    "current_rank": 9,
+    "current_rank": 12,
     "karma_change": 35,
-    "rank_change": 38,
+    "rank_change": 35,
     "season": "winter"
   },
   {
@@ -388,9 +532,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3jqiy/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
     "mal_id": 59342,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": 16,
-    "rank_change": 43,
+    "rank_change": 40,
     "season": "winter"
   },
   {
@@ -413,9 +557,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3i9f4/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": 9,
-    "rank_change": 44,
+    "rank_change": 41,
     "season": "winter"
   },
   {
@@ -450,9 +594,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3jqcr/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
     "mal_id": 59342,
-    "current_rank": 12,
+    "current_rank": 15,
     "karma_change": 1,
-    "rank_change": 41,
+    "rank_change": 38,
     "season": "winter"
   },
   {
@@ -474,9 +618,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3hme7/princession_orchestra_episode_47_discussion/",
     "mal_id": 59078,
-    "current_rank": 13,
+    "current_rank": 16,
     "karma_change": 14,
-    "rank_change": 54,
+    "rank_change": 51,
     "season": "winter"
   },
   {
@@ -515,9 +659,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz14ji/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 14,
+    "current_rank": 17,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 39,
     "season": "winter"
   },
   {
@@ -540,9 +684,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryh3s6/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 15,
+    "current_rank": 18,
     "karma_change": -10,
-    "rank_change": 40,
+    "rank_change": 37,
     "season": "winter"
   },
   {
@@ -564,7 +708,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
