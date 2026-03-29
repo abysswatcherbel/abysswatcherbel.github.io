@@ -173,6 +173,219 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1752/150192l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1752/150192.jpg"
+    },
+    "title": "Fate/strange Fake",
+    "title_english": "Fate/strange Fake",
+    "num_episodes": 0,
+    "score": 8.49,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283702"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "12",
+    "karma": 1475,
+    "comments": 828,
+    "week_id": 13,
+    "studio": [
+      "A-1 Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzv6p5/fatestrange_fake_episode_12_discussion/",
+    "mal_id": 55830,
+    "current_rank": 5,
+    "karma_change": 30,
+    "rank_change": -1,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1772/154456l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1772/154456.webp"
+    },
+    "title": "Jigokuraku 2nd Season",
+    "title_english": "Hell's Paradise Season 2",
+    "num_episodes": 0,
+    "score": 8.24,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 1402,
+    "comments": 270,
+    "week_id": 13,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0odyd/jigokuraku_season_2_hells_paradise_season_2/",
+    "mal_id": 55825,
+    "current_rank": 6,
+    "karma_change": 256,
+    "rank_change": 1,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1140/154457l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1140/154457.webp"
+    },
+    "title": "Seihantai na Kimi to Boku",
+    "title_english": "You and I Are Polar Opposites",
+    "num_episodes": 12,
+    "score": 8.22,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "11",
+    "karma": 1131,
+    "comments": 303,
+    "week_id": 13,
+    "studio": [
+      "Lapin Track"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0gf38/seihantai_na_kimi_to_boku_you_and_i_are_polar/",
+    "mal_id": 60371,
+    "current_rank": 7,
+    "karma_change": 181,
+    "rank_change": 1,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1791/154233l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1791/154233.jpg"
+    },
+    "title": "Ikoku Nikki",
+    "title_english": "Journal with Witch",
+    "num_episodes": 0,
+    "score": 8.7,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "12",
+    "karma": 907,
+    "comments": 290,
+    "week_id": 13,
+    "studio": [
+      "Shuka"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0ooyn/ikoku_nikki_journal_with_witch_episode_12/",
+    "mal_id": 58788,
+    "current_rank": 8,
+    "karma_change": 95,
+    "rank_change": 1,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1828/155038l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1828/155038.jpg"
+    },
+    "title": "Medalist 2nd Season",
+    "title_english": "Medalist Season 2",
+    "num_episodes": 9,
+    "score": 8.5,
+    "streams": null,
+    "episode": "9",
+    "karma": 655,
+    "comments": 161,
+    "week_id": 13,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzwsfc/medalist_season_2_episode_9_discussion/",
+    "mal_id": 61335,
+    "current_rank": 9,
+    "karma_change": 136,
+    "rank_change": 3,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1592/154049l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1592/154049.jpg"
+    },
+    "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
+    "title_english": "My Hero Academia: Vigilantes Season 2",
+    "num_episodes": 0,
+    "score": 7.34,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 584,
+    "comments": 221,
+    "week_id": 13,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s1hsc1/vigilante_boku_no_hero_academia_illegals_season_2/",
+    "mal_id": 61942,
+    "current_rank": 10,
+    "karma_change": 93,
+    "rank_change": 3,
+    "season": "winter"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
@@ -195,9 +408,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz2l4v/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 5,
+    "current_rank": 11,
     "karma_change": 27,
-    "rank_change": 6,
+    "rank_change": 0,
     "season": "winter"
   },
   {
@@ -249,9 +462,38 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s4atk6/mato_seihei_no_slave_season_2_chained_soldier/",
     "mal_id": 58505,
-    "current_rank": 6,
+    "current_rank": 12,
     "karma_change": 86,
-    "rank_change": 9,
+    "rank_change": 3,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1288/154763l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1288/154763.webp"
+    },
+    "title": "Golden Kamuy: Saishuushou",
+    "title_english": "Golden Kamuy Final Season",
+    "num_episodes": 0,
+    "score": 8.4,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "61",
+    "karma": 408,
+    "comments": 97,
+    "week_id": 13,
+    "studio": [
+      "Brain's Base"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s1jyko/golden_kamuy_saishuushou_golden_kamuy_final/",
+    "mal_id": 55772,
+    "current_rank": 13,
+    "karma_change": 20,
+    "rank_change": 3,
     "season": "winter"
   },
   {
@@ -294,9 +536,203 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s4bns0/tamonkun_ima_docchi_tamons_bside_episode_13/",
     "mal_id": 59047,
-    "current_rank": 7,
+    "current_rank": 14,
     "karma_change": 53,
-    "rank_change": 10,
+    "rank_change": 3,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1455/152139l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1455/152139.jpg"
+    },
+    "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
+    "title_english": "Tojima Wants to Be a Kamen Rider",
+    "num_episodes": 0,
+    "score": 7.77,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364945"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "24",
+    "karma": 390,
+    "comments": 316,
+    "week_id": 13,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzwsbn/toujima_tanzaburou_wa_kamen_rider_ni_naritai/",
+    "mal_id": 61159,
+    "current_rank": 15,
+    "karma_change": 190,
+    "rank_change": 16,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1769/152823l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1769/152823.jpg"
+    },
+    "title": "Mayonaka Heart Tune",
+    "title_english": "Tune In to the Midnight Heart",
+    "num_episodes": 0,
+    "score": 7.26,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 357,
+    "comments": 119,
+    "week_id": 13,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s2ep53/mayonaka_heart_tune_tune_in_to_the_midnight_heart/",
+    "mal_id": 61211,
+    "current_rank": 16,
+    "karma_change": 37,
+    "rank_change": 2,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1140/152364l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1140/152364.jpg"
+    },
+    "title": "Fumetsu no Anata e Season 3",
+    "title_english": "To Your Eternity Season 3",
+    "num_episodes": 22,
+    "score": 7.55,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XMWV"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "20",
+    "karma": 277,
+    "comments": 89,
+    "week_id": 13,
+    "studio": [
+      "Drive",
+      "Studio Massket"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzuvnm/fumetsu_no_anata_e_season_3_to_your_eternity/",
+    "mal_id": 54703,
+    "current_rank": 17,
+    "karma_change": 47,
+    "rank_change": 5,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1940/154234l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1940/154234.jpg"
+    },
+    "title": "Kirei ni Shitemoraemasu ka.",
+    "title_english": "Wash It All Away",
+    "num_episodes": 0,
+    "score": 6.85,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 271,
+    "comments": 143,
+    "week_id": 13,
+    "studio": [
+      "Okuruto Noboru"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s1h0s6/kirei_ni_shitemoraemasu_ka_wash_it_all_away/",
+    "mal_id": 61782,
+    "current_rank": 18,
+    "karma_change": 53,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1272/153326l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1272/153326.jpg"
+    },
+    "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
+    "title_english": "'Tis Time for \"Torture,\" Princess Season 2",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 270,
+    "comments": 91,
+    "week_id": 13,
+    "studio": [
+      "PINE JAM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s1l098/himesama_goumon_no_jikan_desu_season_2_tis_time/",
+    "mal_id": 58524,
+    "current_rank": 19,
+    "karma_change": 8,
+    "rank_change": 0,
     "season": "winter"
   },
   {
@@ -339,9 +775,50 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s49zbb/eris_no_seihai_the_holy_grail_of_eris_episode_12/",
     "mal_id": 60151,
-    "current_rank": 8,
+    "current_rank": 20,
     "karma_change": 30,
-    "rank_change": 13,
+    "rank_change": 1,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1194/153705l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1194/153705.jpg"
+    },
+    "title": "Kaya-chan wa Kowakunai",
+    "title_english": "Kaya-chan Isn't Scary",
+    "num_episodes": 12,
+    "score": 7.28,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "11",
+    "karma": 251,
+    "comments": 261,
+    "week_id": 13,
+    "studio": [
+      "East Fish Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0gf48/kayachan_wa_kowakunai_kayachan_isnt_scary_episode/",
+    "mal_id": 60223,
+    "current_rank": 21,
+    "karma_change": 36,
+    "rank_change": 5,
     "season": "winter"
   },
   {
@@ -392,9 +869,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3cct5/okiraku_ryoushu_no_tanoshii_ryouchi_bouei/",
     "mal_id": 61549,
-    "current_rank": 9,
+    "current_rank": 22,
     "karma_change": 43,
-    "rank_change": 20,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -429,9 +906,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s4btol/omae_gotoki_ga_maou_ni_kateru_to_omouna_to_yuusha/",
     "mal_id": 61587,
-    "current_rank": 10,
+    "current_rank": 23,
     "karma_change": 31,
-    "rank_change": 17,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -474,9 +951,87 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s49z9b/toumei_otoko_to_ningen_onna_sonouchi_fuufu_ni/",
     "mal_id": 60395,
-    "current_rank": 11,
+    "current_rank": 24,
     "karma_change": -14,
-    "rank_change": 9,
+    "rank_change": -4,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1219/154541l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1219/154541.jpg"
+    },
+    "title": "Trigun Stargaze",
+    "title_english": "Trigun Stargaze",
+    "num_episodes": 0,
+    "score": 7.16,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "11",
+    "karma": 220,
+    "comments": 106,
+    "week_id": 13,
+    "studio": [
+      "Orange"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rztpfk/trigun_stargaze_episode_11_discussion/",
+    "mal_id": 54863,
+    "current_rank": 25,
+    "karma_change": 39,
+    "rank_change": 8,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1573/152828l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1573/152828.jpg"
+    },
+    "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.",
+    "title_english": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her",
+    "num_episodes": 0,
+    "score": 6.25,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 208,
+    "comments": 357,
+    "week_id": 13,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s2ep78/yuusha_party_ni_kawaii_ko_ga_ita_node_kokuhaku/",
+    "mal_id": 61983,
+    "current_rank": 26,
+    "karma_change": 7,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -511,9 +1066,251 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz1a0o/hell_mode_yarikomizuki_no_gamer_wa_hai_settei_no/",
     "mal_id": 60460,
-    "current_rank": 12,
+    "current_rank": 27,
     "karma_change": -24,
+    "rank_change": -4,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1704/154459l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1704/154459.jpg"
+    },
+    "title": "Majutsushi Kunon wa Mieteiru",
+    "title_english": "Kunon the Sorcerer Can See",
+    "num_episodes": 0,
+    "score": 6.57,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "13",
+    "karma": 186,
+    "comments": 213,
+    "week_id": 13,
+    "studio": [
+      "Platinum Vision"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0mh0g/majutsushi_kunon_wa_mieteiru_kunon_the_sorcerer/",
+    "mal_id": 60810,
+    "current_rank": 28,
+    "karma_change": 21,
+    "rank_change": 6,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1510/153806l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1510/153806.jpg"
+    },
+    "title": "Isekai no Sata wa Shachiku Shidai",
+    "title_english": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter",
+    "num_episodes": 12,
+    "score": 6.9,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 174,
+    "comments": 155,
+    "week_id": 13,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s2fhqr/isekai_no_sata_wa_shachiku_shidai_isekai_office/",
+    "mal_id": 60226,
+    "current_rank": 29,
+    "karma_change": 46,
     "rank_change": 11,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1341/152829l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1341/152829.jpg"
+    },
+    "title": "Darwin Jihen",
+    "title_english": "The Darwin Incident",
+    "num_episodes": 0,
+    "score": 6.61,
+    "streams": null,
+    "episode": "12",
+    "karma": 173,
+    "comments": 139,
+    "week_id": 13,
+    "studio": [
+      "Bellnox Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s2h50q/darwin_jihen_the_darwin_incident_episode_12/",
+    "mal_id": 58886,
+    "current_rank": 30,
+    "karma_change": 30,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1821/154043l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1821/154043.jpg"
+    },
+    "title": "Yuusha no Kuzu",
+    "title_english": "Scum of the Brave",
+    "num_episodes": 24,
+    "score": 6.53,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 157,
+    "comments": 59,
+    "week_id": 13,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzwsa8/yuusha_no_kuzu_scum_of_the_brave_episode_11/",
+    "mal_id": 61217,
+    "current_rank": 31,
+    "karma_change": 10,
+    "rank_change": 4,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1729/153502l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1729/153502.jpg"
+    },
+    "title": "Osananajimi to wa Love Comedy ni Naranai",
+    "title_english": "You Can't Be In a Rom-Com with Your Childhood Friends!",
+    "num_episodes": 0,
+    "score": 6.44,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "12",
+    "karma": 149,
+    "comments": 100,
+    "week_id": 13,
+    "studio": [
+      "Tezuka Productions"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s1ko6f/osananajimi_to_wa_lovecom_ni_naranai_you_cant_be/",
+    "mal_id": 61359,
+    "current_rank": 32,
+    "karma_change": 14,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1999/154569l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1999/154569.jpg"
+    },
+    "title": "Uruwashi no Yoi no Tsuki",
+    "title_english": "In the Clear Moonlit Dusk",
+    "num_episodes": 0,
+    "score": 7.46,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 147,
+    "comments": 85,
+    "week_id": 13,
+    "studio": [
+      "East Fish Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0fy70/uruwashi_no_yoi_no_tsuki_in_the_clear_moonlit/",
+    "mal_id": 61663,
+    "current_rank": 33,
+    "karma_change": 5,
+    "rank_change": 5,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1629/153722l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1629/153722.jpg"
+    },
+    "title": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
+    "title_english": "Noble Reincarnation: Born Blessed, So I'll Obtain Ultimate Power",
+    "num_episodes": 0,
+    "score": 6.44,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 143,
+    "comments": 230,
+    "week_id": 13,
+    "studio": [
+      "CompTown"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0nxni/kizoku_tensei_megumareta_umare_kara_saikyou_no/",
+    "mal_id": 60692,
+    "current_rank": 34,
+    "karma_change": 42,
+    "rank_change": 9,
     "season": "winter"
   },
   {
@@ -540,9 +1337,88 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3a5bp/29sai_dokushin_chuuken_boukensha_no_nichijou_an/",
     "mal_id": 61637,
-    "current_rank": 13,
+    "current_rank": 35,
     "karma_change": 20,
-    "rank_change": 29,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.1,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "23",
+    "karma": 120,
+    "comments": 77,
+    "week_id": 13,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0apfo/digimon_beatbreak_episode_23_discussion/",
+    "mal_id": 61269,
+    "current_rank": 36,
+    "karma_change": 33,
+    "rank_change": 8,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1031/154235l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1031/154235.jpg"
+    },
+    "title": "Tensei shitara Dragon no Tamago datta",
+    "title_english": "Reincarnated as a Dragon Hatchling",
+    "num_episodes": 0,
+    "score": 6.44,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "11",
+    "karma": 114,
+    "comments": 123,
+    "week_id": 13,
+    "studio": [
+      "Felix Film",
+      "Ga-Crew"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzqxwj/tensei_shitara_dragon_no_tamago_datta/",
+    "mal_id": 61207,
+    "current_rank": 37,
+    "karma_change": 3,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -577,9 +1453,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s495ri/mf_ghost_season_3_episode_13_discussion_final/",
     "mal_id": 60602,
-    "current_rank": 14,
+    "current_rank": 38,
     "karma_change": 17,
-    "rank_change": 31,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1666/150983l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1666/150983.jpg"
+    },
+    "title": "Niwatori Fighter",
+    "title_english": "Rooster Fighter",
+    "num_episodes": 0,
+    "score": 7.24,
+    "streams": null,
+    "episode": "2",
+    "karma": 99,
+    "comments": 32,
+    "week_id": 13,
+    "studio": [
+      "SANZIGEN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0bvlk/rooster_fighter_niwatori_fighter_episode_2/",
+    "mal_id": 59393,
+    "current_rank": 39,
+    "karma_change": -123,
+    "rank_change": -15,
     "season": "winter"
   },
   {
@@ -618,9 +1518,67 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3dasj/odayaka_kizoku_no_kyuuka_no_susume_a_gentle/",
     "mal_id": 60071,
-    "current_rank": 15,
+    "current_rank": 40,
     "karma_change": 35,
-    "rank_change": 32,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1387/154934l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1387/154934.jpg"
+    },
+    "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+    "title_english": "A Misanthrope Teaches a Class for Demi-Humans",
+    "num_episodes": 13,
+    "score": 6.23,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 74,
+    "comments": 79,
+    "week_id": 13,
+    "studio": [
+      "asread."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzufw8/jingai_kyoushitsu_no_ningengirai_kyoushi_a/",
+    "mal_id": 62432,
+    "current_rank": 41,
+    "karma_change": 17,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1383/151284l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1383/151284.jpg"
+    },
+    "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru",
+    "title_english": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
+    "num_episodes": 12,
+    "score": 6.07,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "11",
+    "karma": 54,
+    "comments": 58,
+    "week_id": 13,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0n6q4/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
+    "mal_id": 62000,
+    "current_rank": 42,
+    "karma_change": 4,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -655,9 +1613,83 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3jqiy/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
     "mal_id": 59342,
-    "current_rank": 16,
+    "current_rank": 43,
     "karma_change": 16,
-    "rank_change": 37,
+    "rank_change": 10,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1112/152731l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1112/152731.jpg"
+    },
+    "title": "Arne no Jikenbo",
+    "title_english": "The Case Book of Arne",
+    "num_episodes": 12,
+    "score": 6.17,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "12",
+    "karma": 47,
+    "comments": 50,
+    "week_id": 13,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s2kpl2/arne_no_jikenbo_the_case_book_of_arne_episode_12/",
+    "mal_id": 60255,
+    "current_rank": 44,
+    "karma_change": 12,
+    "rank_change": 6,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1622/154192l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1622/154192.jpg"
+    },
+    "title": "Dead Account",
+    "title_english": "Dead Account",
+    "num_episodes": 0,
+    "score": 6.37,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "11",
+    "karma": 43,
+    "comments": 37,
+    "week_id": 13,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rztphk/dead_account_episode_11_discussion/",
+    "mal_id": 61196,
+    "current_rank": 45,
+    "karma_change": 10,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -680,9 +1712,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3i9f4/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 17,
+    "current_rank": 46,
     "karma_change": 9,
-    "rank_change": 38,
+    "rank_change": 9,
     "season": "winter"
   },
   {
@@ -717,9 +1749,172 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3jqcr/jigoku_sensei_nube_2025_hell_teacher_jigoku/",
     "mal_id": 59342,
-    "current_rank": 18,
+    "current_rank": 47,
     "karma_change": 1,
-    "rank_change": 35,
+    "rank_change": 6,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.53,
+    "streams": null,
+    "episode": "8",
+    "karma": 32,
+    "comments": 16,
+    "week_id": 13,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s08ubq/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 48,
+    "karma_change": 14,
+    "rank_change": 10,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1721/153380l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1721/153380.jpg"
+    },
+    "title": "Goumon Baito-kun no Nichijou",
+    "title_english": "The Daily Life of a Part-time Torturer",
+    "num_episodes": 12,
+    "score": 5.81,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 28,
+    "comments": 30,
+    "week_id": 13,
+    "studio": [
+      "Diomed\u00e9a"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0nxpo/goumon_baitokun_no_nichijou_the_daily_life_of_a/",
+    "mal_id": 61886,
+    "current_rank": 49,
+    "karma_change": 1,
+    "rank_change": 5,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/153952l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/153952.jpg"
+    },
+    "title": "Yoroi Shin Den Samurai Troopers",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.28,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 27,
+    "comments": 65,
+    "week_id": 13,
+    "studio": [
+      "Sunrise"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s2gazm/yoroishinden_samurai_troopers_episode_12/",
+    "mal_id": 61830,
+    "current_rank": 50,
+    "karma_change": 7,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1393/151603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1393/151603.jpg"
+    },
+    "title": "Ao no Miburo: Serizawa Ansatsu-hen",
+    "title_english": "Blue Miburo Season 2",
+    "num_episodes": 0,
+    "score": 7.06,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-283916"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "13",
+    "karma": 26,
+    "comments": 19,
+    "week_id": 13,
+    "studio": [
+      "Maho Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzn8im/ao_no_miburo_serizawa_ansatsuhen_blue_miburo/",
+    "mal_id": 61333,
+    "current_rank": 51,
+    "karma_change": 10,
+    "rank_change": 10,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.42,
+    "streams": null,
+    "title": "Pokemon (2023)",
+    "title_english": "Pok\u00e9mon Horizons: The Series",
+    "episode": "132",
+    "karma": 23,
+    "comments": 9,
+    "week_id": 13,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzjcko/pok\u00e9mon_horizons_the_series_episode_132_discussion/",
+    "mal_id": 53876,
+    "current_rank": 52,
+    "karma_change": 6,
+    "rank_change": 7,
     "season": "winter"
   },
   {
@@ -741,9 +1936,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s3hme7/princession_orchestra_episode_47_discussion/",
     "mal_id": 59078,
-    "current_rank": 19,
+    "current_rank": 53,
     "karma_change": 14,
-    "rank_change": 48,
+    "rank_change": 14,
     "season": "winter"
   },
   {
@@ -782,9 +1977,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s4db74/douse_koishite_shimaunda_season_2_anyway_im/",
     "mal_id": 61325,
-    "current_rank": 20,
+    "current_rank": 54,
     "karma_change": 3,
-    "rank_change": 40,
+    "rank_change": 6,
     "season": "winter"
   },
   {
@@ -823,9 +2018,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1rz14ji/dark_moon_tsuki_no_saidan_dark_moon_the_blood/",
     "mal_id": 59853,
-    "current_rank": 21,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": 35,
+    "rank_change": 1,
     "season": "winter"
   },
   {
@@ -848,9 +2043,112 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryh3s6/girls_und_panzer_operation_more_love_love_girls/",
     "mal_id": 61227,
-    "current_rank": 22,
+    "current_rank": 56,
     "karma_change": -10,
-    "rank_change": 33,
+    "rank_change": -1,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1443/151178l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1443/151178.jpg"
+    },
+    "title": "SI-VIS: The Sound of Heroes",
+    "title_english": "SI-VIS: The Sound of Heroes",
+    "num_episodes": 0,
+    "score": 6.03,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "23",
+    "karma": 12,
+    "comments": 18,
+    "week_id": 13,
+    "studio": [
+      "Studio VOLN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0aeqe/sivis_the_sound_of_heroes_episode_23_discussion/",
+    "mal_id": 62126,
+    "current_rank": 57,
+    "karma_change": 1,
+    "rank_change": 7,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1194",
+    "karma": 8,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzp6uu/meitantei_conan_case_closed_episode_1194/",
+    "mal_id": 235,
+    "current_rank": 58,
+    "karma_change": 6,
+    "rank_change": 12,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1129/151615l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1129/151615.jpg"
+    },
+    "title": "Hikuidori: Ushuu Boro Tobi-gumi",
+    "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
+    "num_episodes": 0,
+    "score": 4.72,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
+    "episode": "10",
+    "karma": 4,
+    "comments": 3,
+    "week_id": 13,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s0oows/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
+    "mal_id": 61084,
+    "current_rank": 59,
+    "karma_change": -8,
+    "rank_change": 4,
     "season": "winter"
   },
   {
@@ -872,9 +2170,73 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s4m6t4/beyblade_x_episode_121_discussion/",
     "mal_id": 56566,
-    "current_rank": 23,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1501/154507l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1501/154507.jpg"
+    },
+    "title": "High School! Kimengumi (2026)",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 5.35,
+    "streams": [
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "11",
+    "karma": 1,
+    "comments": 3,
+    "week_id": 13,
+    "studio": [
+      "Seven"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzgn82/high_school_kimengumi_episode_11_discussion/",
+    "mal_id": 62804,
+    "current_rank": 61,
+    "karma_change": -2,
+    "rank_change": 8,
+    "season": "winter"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
+    },
+    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
+    "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
+    "num_episodes": 0,
+    "score": 6.31,
+    "streams": [
+      {
+        "name": "Ocean Veil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "9",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Kinema Citrus",
+      "Gift-o\u2019-Animation",
+      "Studio Jemi"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1rzhxog/cardfight_vanguard_divinez_genma_seisenhen/",
+    "mal_id": 62649,
+    "current_rank": 62,
+    "karma_change": 1,
+    "rank_change": 9,
     "season": "winter"
   },
   {
@@ -896,7 +2258,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ryhu44/beyblade_x_episode_120_discussion/",
     "mal_id": 56566,
-    "current_rank": 24,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "winter"
