@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1383/151284l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1383/151284.jpg"
+    },
+    "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru",
+    "title_english": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
+    "num_episodes": 12,
+    "score": 6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 80,
+    "comments": 40,
+    "week_id": 1,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s6wp24/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
+    "mal_id": 62000,
+    "current_rank": 1,
+    "karma_change": 26,
+    "rank_change": 41,
+    "season": "spring"
+  }
+]
