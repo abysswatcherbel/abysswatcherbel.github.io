@@ -1,6 +1,104 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1772/154456l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1772/154456.webp"
+    },
+    "title": "Jigokuraku 2nd Season",
+    "title_english": "Hell's Paradise Season 2",
+    "num_episodes": 0,
+    "score": 8.25,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 1580,
+    "comments": 524,
+    "week_id": 1,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s6xxpw/jigokuraku_season_2_hells_paradise_season_2/",
+    "mal_id": 55825,
+    "current_rank": 1,
+    "karma_change": 178,
+    "rank_change": 5,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1791/154233l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1791/154233.jpg"
+    },
+    "title": "Ikoku Nikki",
+    "title_english": "Journal with Witch",
+    "num_episodes": 0,
+    "score": 8.71,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "13",
+    "karma": 1208,
+    "comments": 383,
+    "week_id": 1,
+    "studio": [
+      "Shuka"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s6y935/ikoku_nikki_journal_with_witch_episode_13/",
+    "mal_id": 58788,
+    "current_rank": 2,
+    "karma_change": 301,
+    "rank_change": 6,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1150/155201l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1150/155201.jpg"
+    },
+    "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
+    "title_english": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too: Real World",
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 210,
+    "comments": 131,
+    "week_id": 1,
+    "studio": [
+      "Millepensee"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s6xgmx/i_got_a_cheat_skill_in_another_world_and_became/",
+    "mal_id": 56906,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1383/151284l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1383/151284.jpg"
     },
@@ -23,9 +121,42 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6wp24/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
     "mal_id": 62000,
-    "current_rank": 1,
+    "current_rank": 4,
     "karma_change": 26,
-    "rank_change": 41,
+    "rank_change": 38,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1129/151615l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1129/151615.jpg"
+    },
+    "title": "Hikuidori: Ushuu Boro Tobi-gumi",
+    "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
+    "num_episodes": 0,
+    "score": 4.7,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
+    "episode": "11",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s6ypys/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
+    "mal_id": 61084,
+    "current_rank": 5,
+    "karma_change": -1,
+    "rank_change": 54,
     "season": "spring"
   }
 ]
