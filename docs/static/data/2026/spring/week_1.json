@@ -75,6 +75,72 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1592/154049l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1592/154049.jpg"
+    },
+    "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
+    "title_english": "My Hero Academia: Vigilantes Season 2",
+    "num_episodes": 0,
+    "score": 7.36,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "13",
+    "karma": 553,
+    "comments": 189,
+    "week_id": 1,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s7ri9o/vigilante_boku_no_hero_academia_illegals_season_2/",
+    "mal_id": 61942,
+    "current_rank": 3,
+    "karma_change": -31,
+    "rank_change": 7,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1288/154763l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1288/154763.webp"
+    },
+    "title": "Golden Kamuy: Saishuushou",
+    "title_english": "Golden Kamuy Final Season",
+    "num_episodes": 0,
+    "score": 8.44,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "62",
+    "karma": 419,
+    "comments": 103,
+    "week_id": 1,
+    "studio": [
+      "Brain's Base"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s7sasu/golden_kamuy_saishuushou_golden_kamuy_final/",
+    "mal_id": 55772,
+    "current_rank": 4,
+    "karma_change": 11,
+    "rank_change": 9,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1150/155201l.jpg",
       "medium": "https://myanimelist.net/images/anime/1150/155201.jpg"
     },
@@ -92,7 +158,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6xgmx/i_got_a_cheat_skill_in_another_world_and_became/",
     "mal_id": 56906,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -121,9 +187,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6wp24/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
     "mal_id": 62000,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 26,
-    "rank_change": 38,
+    "rank_change": 36,
     "season": "spring"
   },
   {
@@ -154,9 +220,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6ypys/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -1,
-    "rank_change": 54,
+    "rank_change": 52,
     "season": "spring"
   }
 ]
