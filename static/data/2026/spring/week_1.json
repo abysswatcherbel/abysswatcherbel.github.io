@@ -141,6 +141,51 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1272/153326l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1272/153326.jpg"
+    },
+    "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
+    "title_english": "'Tis Time for \"Torture,\" Princess Season 2",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 324,
+    "comments": 89,
+    "week_id": 1,
+    "studio": [
+      "PINE JAM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s7ushn/himesama_goumon_no_jikan_desu_season_2_tis_time/",
+    "mal_id": 58524,
+    "current_rank": 5,
+    "karma_change": 54,
+    "rank_change": 14,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1150/155201l.jpg",
       "medium": "https://myanimelist.net/images/anime/1150/155201.jpg"
     },
@@ -158,7 +203,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6xgmx/i_got_a_cheat_skill_in_another_world_and_became/",
     "mal_id": 56906,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -187,9 +232,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6wp24/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
     "mal_id": 62000,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 26,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -220,9 +265,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6ypys/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -1,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "spring"
   }
 ]
