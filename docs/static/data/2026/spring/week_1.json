@@ -7,11 +7,11 @@
     "title": "Jigokuraku 2nd Season",
     "title_english": "Hell's Paradise Season 2",
     "num_episodes": 0,
-    "score": 8.25,
+    "score": 8.21,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise"
       },
       {
         "name": "Netflix",
@@ -40,11 +40,11 @@
     "title": "Ikoku Nikki",
     "title_english": "Journal with Witch",
     "num_episodes": 0,
-    "score": 8.71,
+    "score": 8.81,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365571/journal-with-witch"
       },
       {
         "name": "Aniplus Asia",
@@ -81,7 +81,7 @@
     "title": "Koori no Jouheki",
     "title_english": "The Ramparts of Ice",
     "num_episodes": 0,
-    "score": 7.63,
+    "score": 7.64,
     "streams": null,
     "episode": "1",
     "karma": 1018,
@@ -105,7 +105,7 @@
     "title": "Dorohedoro Season 2",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
+    "score": 8.34,
     "streams": null,
     "episode": "1",
     "karma": 892,
@@ -153,7 +153,7 @@
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
     "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
     "num_episodes": 16,
-    "score": null,
+    "score": 8.28,
     "streams": null,
     "episode": "1",
     "karma": 682,
@@ -177,11 +177,11 @@
     "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
     "title_english": "My Hero Academia: Vigilantes Season 2",
     "num_episodes": 0,
-    "score": 7.36,
+    "score": 7.38,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/G79H23ZQ3/my-hero-academia-vigilantes"
       },
       {
         "name": "Ani-One Asia",
@@ -190,6 +190,14 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
       }
     ],
     "episode": "13",
@@ -214,7 +222,7 @@
     "title": "Dorohedoro Season 2",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
+    "score": 8.34,
     "streams": null,
     "episode": "3",
     "karma": 552,
@@ -238,7 +246,7 @@
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
     "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
     "num_episodes": 16,
-    "score": null,
+    "score": 8.28,
     "streams": null,
     "episode": "4",
     "karma": 532,
@@ -262,7 +270,7 @@
     "title": "Dorohedoro Season 2",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
+    "score": 8.34,
     "streams": null,
     "episode": "2",
     "karma": 510,
@@ -286,11 +294,11 @@
     "title": "Golden Kamuy: Saishuushou",
     "title_english": "Golden Kamuy Final Season",
     "num_episodes": 0,
-    "score": 8.44,
+    "score": 8.41,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GY8DWQN5Y/golden-kamuy"
       }
     ],
     "episode": "62",
@@ -315,7 +323,7 @@
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
     "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
     "num_episodes": 16,
-    "score": null,
+    "score": 8.28,
     "streams": null,
     "episode": "2",
     "karma": 406,
@@ -339,7 +347,7 @@
     "title": "Ganbare! Nakamura-kun!!",
     "title_english": "Go For It, Nakamura!",
     "num_episodes": 13,
-    "score": null,
+    "score": 7.74,
     "streams": null,
     "episode": "1",
     "karma": 399,
@@ -363,7 +371,7 @@
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
     "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
     "num_episodes": 16,
-    "score": null,
+    "score": 8.28,
     "streams": null,
     "episode": "3",
     "karma": 386,
@@ -387,11 +395,11 @@
     "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
     "title_english": "'Tis Time for \"Torture,\" Princess Season 2",
     "num_episodes": 0,
-    "score": 7.67,
+    "score": 7.7,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/G1XHJV0KV/tis-time-for-torture-princess"
       },
       {
         "name": "Ani-One Asia",
@@ -404,6 +412,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       },
       {
         "name": "iQIYI",
@@ -432,11 +444,11 @@
     "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.",
     "title_english": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her",
     "num_episodes": 0,
-    "score": 6.2,
+    "score": 6.22,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00355229/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her"
       },
       {
         "name": "Ani-One Asia",
@@ -449,6 +461,14 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
       }
     ],
     "episode": "13",
@@ -473,7 +493,7 @@
     "title": "Reincarnation no Kaben",
     "title_english": "Petals of Reincarnation",
     "num_episodes": 0,
-    "score": 6.59,
+    "score": 6.58,
     "streams": null,
     "episode": "1",
     "karma": 295,
@@ -497,7 +517,7 @@
     "title": "Darwin Jihen",
     "title_english": "The Darwin Incident",
     "num_episodes": 0,
-    "score": 6.6,
+    "score": 7.03,
     "streams": null,
     "episode": "13",
     "karma": 235,
@@ -521,7 +541,7 @@
     "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
     "title_english": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 3",
     "num_episodes": 0,
-    "score": null,
+    "score": 6.75,
     "streams": null,
     "episode": "1",
     "karma": 235,
@@ -546,7 +566,7 @@
     "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
+    "score": 7.12,
     "streams": null,
     "episode": "1",
     "karma": 224,
@@ -570,7 +590,7 @@
     "title": "Kirio Fanclub",
     "title_english": "Kirio Fan Club",
     "num_episodes": 12,
-    "score": 6.25,
+    "score": 6.21,
     "streams": null,
     "episode": "1",
     "karma": 223,
@@ -594,7 +614,7 @@
     "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
     "title_english": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too: Real World",
     "num_episodes": 1,
-    "score": null,
+    "score": 6.69,
     "streams": null,
     "episode": "1",
     "karma": 210,
@@ -618,7 +638,7 @@
     "title": "Ganbare! Nakamura-kun!!",
     "title_english": "Go For It, Nakamura!",
     "num_episodes": 13,
-    "score": null,
+    "score": 7.74,
     "streams": null,
     "episode": "2",
     "karma": 208,
@@ -642,7 +662,7 @@
     "title": "Haibara-kun no Tsuyokute Seishun New Game",
     "title_english": "Haibara's Teenage New Game+",
     "num_episodes": 12,
-    "score": 6.87,
+    "score": 6.88,
     "streams": null,
     "episode": "1",
     "karma": 201,
@@ -666,7 +686,7 @@
     "title": "Maid-san wa Taberu dake",
     "title_english": "The Food Diary of Miss Maid",
     "num_episodes": 0,
-    "score": null,
+    "score": 6.81,
     "streams": null,
     "episode": "1",
     "karma": 195,
@@ -691,7 +711,7 @@
     "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
     "title_english": "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
     "num_episodes": 0,
-    "score": null,
+    "score": 6.43,
     "streams": null,
     "episode": "1",
     "karma": 176,
@@ -715,7 +735,7 @@
     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
     "title_english": "Killed Again, Mr. Detective.",
     "num_episodes": 0,
-    "score": 6.77,
+    "score": 6.76,
     "streams": null,
     "episode": "1",
     "karma": 160,
@@ -739,11 +759,21 @@
     "title": "Chitose-kun wa Ramune Bin no Naka",
     "title_english": "Chitose Is in the Ramune Bottle",
     "num_episodes": 13,
-    "score": 7.22,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00364783"
-    },
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "11",
     "karma": 156,
     "comments": 25,
@@ -766,11 +796,21 @@
     "title": "Chitose-kun wa Ramune Bin no Naka",
     "title_english": "Chitose Is in the Ramune Bottle",
     "num_episodes": 13,
-    "score": 7.22,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00364783"
-    },
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "13",
     "karma": 148,
     "comments": 62,
@@ -793,11 +833,21 @@
     "title": "Chitose-kun wa Ramune Bin no Naka",
     "title_english": "Chitose Is in the Ramune Bottle",
     "num_episodes": 13,
-    "score": 7.22,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GT00364783"
-    },
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "12",
     "karma": 133,
     "comments": 23,
@@ -820,7 +870,7 @@
     "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Season 2",
     "title_english": "The Beginning After the End Season 2",
     "num_episodes": 0,
-    "score": null,
+    "score": 6.14,
     "streams": null,
     "episode": "1",
     "karma": 119,
@@ -844,11 +894,11 @@
     "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru",
     "title_english": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
     "num_episodes": 12,
-    "score": 6,
+    "score": 6.06,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365613/the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom"
       }
     ],
     "episode": "12",
@@ -873,7 +923,7 @@
     "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
     "title_english": "",
     "num_episodes": 0,
-    "score": 4.23,
+    "score": 4.13,
     "streams": null,
     "episode": "1",
     "karma": 15,
@@ -898,7 +948,7 @@
     "title": "Daikenja Riddle no Jikan Gyakkou",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
+    "score": 5.08,
     "streams": null,
     "episode": "1",
     "karma": 7,
@@ -947,15 +997,19 @@
     "title": "Hikuidori: Ushuu Boro Tobi-gumi",
     "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
     "num_episodes": 0,
-    "score": 4.7,
+    "score": 4.68,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365724/oedo-fire-slayer--the-legend-of-phoenix-"
       },
       {
         "name": "Ani-One Asia",
         "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "11",
@@ -980,8 +1034,13 @@
     "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
     "title_english": "",
     "num_episodes": 0,
-    "score": 5.84,
-    "streams": null,
+    "score": 5.67,
+    "streams": [
+      {
+        "name": "OceanVeil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
     "episode": "11",
     "karma": 0,
     "comments": 2,
