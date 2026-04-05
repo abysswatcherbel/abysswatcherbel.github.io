@@ -70,5 +70,29 @@
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
+    },
+    "title": "Snowball Earth",
+    "title_english": "Snowball Earth",
+    "num_episodes": 13,
+    "score": 6.65,
+    "streams": null,
+    "episode": "1",
+    "karma": 237,
+    "comments": 121,
+    "week_id": 2,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sbhu9w/snowball_earth_episode_1_discussion/",
+    "mal_id": 62068,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
   }
 ]
