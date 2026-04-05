@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
+    },
+    "title": "Tensei shitara Slime Datta Ken 4th Season",
+    "title_english": "That Time I Got Reincarnated as a Slime Season 4",
+    "num_episodes": 0,
+    "score": 8.22,
+    "streams": null,
+    "episode": "1",
+    "karma": 1327,
+    "comments": 453,
+    "week_id": 2,
+    "studio": [
+      "8bit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sbg1yj/that_time_i_got_reincarnated_as_a_slime_season_4/",
+    "mal_id": 59970,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1989/154843l.jpg",
       "medium": "https://myanimelist.net/images/anime/1989/154843.jpg"
     },
@@ -18,7 +42,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbf9ut/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -42,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbd6g4/observation_records_of_my_fianc\u00e9e_the/",
     "mal_id": 61687,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
