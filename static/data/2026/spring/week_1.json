@@ -7,11 +7,11 @@
     "title": "Jigokuraku 2nd Season",
     "title_english": "Hell's Paradise Season 2",
     "num_episodes": 0,
-    "score": 8.25,
+    "score": 8.21,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise"
       },
       {
         "name": "Netflix",
@@ -40,11 +40,11 @@
     "title": "Ikoku Nikki",
     "title_english": "Journal with Witch",
     "num_episodes": 0,
-    "score": 8.71,
+    "score": 8.81,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365571/journal-with-witch"
       },
       {
         "name": "Aniplus Asia",
@@ -75,17 +75,113 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1565/154933l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1565/154933.jpg"
+    },
+    "title": "Koori no Jouheki",
+    "title_english": "The Ramparts of Ice",
+    "num_episodes": 0,
+    "score": 7.64,
+    "streams": null,
+    "episode": "1",
+    "karma": 1018,
+    "comments": 334,
+    "week_id": 1,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sakv2y/the_ramparts_of_ice_koori_no_jouheki_episode_1/",
+    "mal_id": 60852,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1603/155354l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1603/155354.jpg"
+    },
+    "title": "Dorohedoro Season 2",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 8.34,
+    "streams": null,
+    "episode": "1",
+    "karma": 892,
+    "comments": 141,
+    "week_id": 1,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9li7w/dorohedoro_season_2_episode_1_discussion/",
+    "mal_id": 57779,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1773/155779l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1773/155779.jpg"
+    },
+    "title": "Dr. Stone: Science Future Part 3",
+    "title_english": "Dr. Stone: Science Future Part 3",
+    "num_episodes": 0,
+    "score": 8.32,
+    "streams": null,
+    "episode": "1",
+    "karma": 783,
+    "comments": 180,
+    "week_id": 1,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1saj9o2/dr_stone_science_future_part_3_episode_1/",
+    "mal_id": 62568,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1176/153626l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1176/153626.jpg"
+    },
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
+    "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
+    "num_episodes": 16,
+    "score": 8.28,
+    "streams": null,
+    "episode": "1",
+    "karma": 682,
+    "comments": 157,
+    "week_id": 1,
+    "studio": [
+      "Lerche"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9hy1d/classroom_of_the_elite_season_4_youkoso/",
+    "mal_id": 59708,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1592/154049l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1592/154049.jpg"
     },
     "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
     "title_english": "My Hero Academia: Vigilantes Season 2",
     "num_episodes": 0,
-    "score": 7.36,
+    "score": 7.38,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/G79H23ZQ3/my-hero-academia-vigilantes"
       },
       {
         "name": "Ani-One Asia",
@@ -94,6 +190,14 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
       }
     ],
     "episode": "13",
@@ -105,9 +209,81 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s7ri9o/vigilante_boku_no_hero_academia_illegals_season_2/",
     "mal_id": 61942,
-    "current_rank": 3,
+    "current_rank": 7,
     "karma_change": -31,
-    "rank_change": 7,
+    "rank_change": 3,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1603/155354l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1603/155354.jpg"
+    },
+    "title": "Dorohedoro Season 2",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 8.34,
+    "streams": null,
+    "episode": "3",
+    "karma": 552,
+    "comments": 92,
+    "week_id": 1,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9li8j/dorohedoro_season_2_episode_3_discussion/",
+    "mal_id": 57779,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1176/153626l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1176/153626.jpg"
+    },
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
+    "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
+    "num_episodes": 16,
+    "score": 8.28,
+    "streams": null,
+    "episode": "4",
+    "karma": 532,
+    "comments": 149,
+    "week_id": 1,
+    "studio": [
+      "Lerche"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9jyca/classroom_of_the_elite_season_4_youkoso/",
+    "mal_id": 59708,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1603/155354l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1603/155354.jpg"
+    },
+    "title": "Dorohedoro Season 2",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 8.34,
+    "streams": null,
+    "episode": "2",
+    "karma": 510,
+    "comments": 37,
+    "week_id": 1,
+    "studio": [
+      "MAPPA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9li85/dorohedoro_season_2_episode_2_discussion/",
+    "mal_id": 57779,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "spring"
   },
   {
@@ -118,11 +294,11 @@
     "title": "Golden Kamuy: Saishuushou",
     "title_english": "Golden Kamuy Final Season",
     "num_episodes": 0,
-    "score": 8.44,
+    "score": 8.41,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GY8DWQN5Y/golden-kamuy"
       }
     ],
     "episode": "62",
@@ -134,9 +310,81 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s7sasu/golden_kamuy_saishuushou_golden_kamuy_final/",
     "mal_id": 55772,
-    "current_rank": 4,
+    "current_rank": 11,
     "karma_change": 11,
-    "rank_change": 9,
+    "rank_change": 2,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1176/153626l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1176/153626.jpg"
+    },
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
+    "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
+    "num_episodes": 16,
+    "score": 8.28,
+    "streams": null,
+    "episode": "2",
+    "karma": 406,
+    "comments": 25,
+    "week_id": 1,
+    "studio": [
+      "Lerche"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9ikra/classroom_of_the_elite_season_4_youkoso/",
+    "mal_id": 59708,
+    "current_rank": 12,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1201/155682l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1201/155682.jpg"
+    },
+    "title": "Ganbare! Nakamura-kun!!",
+    "title_english": "Go For It, Nakamura!",
+    "num_episodes": 13,
+    "score": 7.74,
+    "streams": null,
+    "episode": "1",
+    "karma": 399,
+    "comments": 116,
+    "week_id": 1,
+    "studio": [
+      "Drive"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9qigj/go_for_it_nakamurakun_ganbare_nakamurakun_episode/",
+    "mal_id": 59551,
+    "current_rank": 13,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1176/153626l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1176/153626.jpg"
+    },
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
+    "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
+    "num_episodes": 16,
+    "score": 8.28,
+    "streams": null,
+    "episode": "3",
+    "karma": 386,
+    "comments": 36,
+    "week_id": 1,
+    "studio": [
+      "Lerche"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9j8zk/classroom_of_the_elite_season_4_youkoso/",
+    "mal_id": 59708,
+    "current_rank": 14,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "spring"
   },
   {
@@ -147,11 +395,11 @@
     "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
     "title_english": "'Tis Time for \"Torture,\" Princess Season 2",
     "num_episodes": 0,
-    "score": 7.67,
+    "score": 7.7,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/G1XHJV0KV/tis-time-for-torture-princess"
       },
       {
         "name": "Ani-One Asia",
@@ -164,6 +412,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       },
       {
         "name": "iQIYI",
@@ -179,9 +431,179 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s7ushn/himesama_goumon_no_jikan_desu_season_2_tis_time/",
     "mal_id": 58524,
-    "current_rank": 5,
+    "current_rank": 15,
     "karma_change": 54,
-    "rank_change": 14,
+    "rank_change": 4,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1573/152828l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1573/152828.jpg"
+    },
+    "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.",
+    "title_english": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her",
+    "num_episodes": 0,
+    "score": 6.22,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00355229/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "episode": "13",
+    "karma": 295,
+    "comments": 201,
+    "week_id": 1,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8pzeu/yuusha_party_ni_kawaii_ko_ga_ita_node_kokuhaku/",
+    "mal_id": 61983,
+    "current_rank": 16,
+    "karma_change": 87,
+    "rank_change": 10,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1064/155042l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1064/155042.jpg"
+    },
+    "title": "Reincarnation no Kaben",
+    "title_english": "Petals of Reincarnation",
+    "num_episodes": 0,
+    "score": 6.58,
+    "streams": null,
+    "episode": "1",
+    "karma": 295,
+    "comments": 184,
+    "week_id": 1,
+    "studio": [
+      "BENTEN Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1samcdu/petals_of_reincarnation_reincarnation_no_kaben/",
+    "mal_id": 59443,
+    "current_rank": 17,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1341/152829l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1341/152829.jpg"
+    },
+    "title": "Darwin Jihen",
+    "title_english": "The Darwin Incident",
+    "num_episodes": 0,
+    "score": 7.03,
+    "streams": null,
+    "episode": "13",
+    "karma": 235,
+    "comments": 116,
+    "week_id": 1,
+    "studio": [
+      "Bellnox Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8qzab/darwin_jihen_the_darwin_incident_episode_13/",
+    "mal_id": 58886,
+    "current_rank": 18,
+    "karma_change": 62,
+    "rank_change": 12,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1153/156029l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1153/156029.jpg"
+    },
+    "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
+    "title_english": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 3",
+    "num_episodes": 0,
+    "score": 6.75,
+    "streams": null,
+    "episode": "1",
+    "karma": 235,
+    "comments": 86,
+    "week_id": 1,
+    "studio": [
+      "Studio Gokumi",
+      "AXsiZ"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9li96/reborn_as_a_vending_machine_i_now_wander_the/",
+    "mal_id": 62512,
+    "current_rank": 19,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1871/155068l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1871/155068.jpg"
+    },
+    "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.12,
+    "streams": null,
+    "episode": "1",
+    "karma": 224,
+    "comments": 155,
+    "week_id": 1,
+    "studio": [
+      "TROYCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9nxyl/always_a_catch_nigashita_sakana_wa_ookikatta_ga/",
+    "mal_id": 62893,
+    "current_rank": 20,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1066/155831l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1066/155831.jpg"
+    },
+    "title": "Kirio Fanclub",
+    "title_english": "Kirio Fan Club",
+    "num_episodes": 12,
+    "score": 6.21,
+    "streams": null,
+    "episode": "1",
+    "karma": 223,
+    "comments": 105,
+    "week_id": 1,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1saligv/kirio_fan_club_episode_1_discussion/",
+    "mal_id": 59835,
+    "current_rank": 21,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "spring"
   },
   {
@@ -192,7 +614,7 @@
     "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
     "title_english": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too: Real World",
     "num_episodes": 1,
-    "score": null,
+    "score": 6.69,
     "streams": null,
     "episode": "1",
     "karma": 210,
@@ -203,7 +625,263 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6xgmx/i_got_a_cheat_skill_in_another_world_and_became/",
     "mal_id": 56906,
-    "current_rank": 6,
+    "current_rank": 22,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1201/155682l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1201/155682.jpg"
+    },
+    "title": "Ganbare! Nakamura-kun!!",
+    "title_english": "Go For It, Nakamura!",
+    "num_episodes": 13,
+    "score": 7.74,
+    "streams": null,
+    "episode": "2",
+    "karma": 208,
+    "comments": 74,
+    "week_id": 1,
+    "studio": [
+      "Drive"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9qigw/go_for_it_nakamurakun_ganbare_nakamurakun_episode/",
+    "mal_id": 59551,
+    "current_rank": 23,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1401/156048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1401/156048.jpg"
+    },
+    "title": "Haibara-kun no Tsuyokute Seishun New Game",
+    "title_english": "Haibara's Teenage New Game+",
+    "num_episodes": 12,
+    "score": 6.88,
+    "streams": null,
+    "episode": "1",
+    "karma": 201,
+    "comments": 181,
+    "week_id": 1,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1san63f/haibaras_teenage_new_game_haibarakun_no_tsuyokute/",
+    "mal_id": 61943,
+    "current_rank": 24,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1175/156007l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1175/156007.jpg"
+    },
+    "title": "Maid-san wa Taberu dake",
+    "title_english": "The Food Diary of Miss Maid",
+    "num_episodes": 0,
+    "score": 6.81,
+    "streams": null,
+    "episode": "1",
+    "karma": 195,
+    "comments": 81,
+    "week_id": 1,
+    "studio": [
+      "Magic Bus",
+      "EMT Squared"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8rn61/the_food_diary_of_miss_maid_maidsan_wa_taberu/",
+    "mal_id": 62342,
+    "current_rank": 25,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1632/155095l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1632/155095.jpg"
+    },
+    "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
+    "title_english": "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
+    "num_episodes": 0,
+    "score": 6.43,
+    "streams": null,
+    "episode": "1",
+    "karma": 176,
+    "comments": 153,
+    "week_id": 1,
+    "studio": [
+      "Studio Flad"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8rn6i/the_strongest_job_is_apparently_not_a_hero_or_a/",
+    "mal_id": 62825,
+    "current_rank": 26,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1595/156152l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1595/156152.jpg"
+    },
+    "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
+    "title_english": "Killed Again, Mr. Detective.",
+    "num_episodes": 0,
+    "score": 6.76,
+    "streams": null,
+    "episode": "1",
+    "karma": 160,
+    "comments": 77,
+    "week_id": 1,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sao0in/killed_again_mr_detective_mata_korosarete/",
+    "mal_id": 62964,
+    "current_rank": 27,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1015/151233l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1015/151233.webp"
+    },
+    "title": "Chitose-kun wa Ramune Bin no Naka",
+    "title_english": "Chitose Is in the Ramune Bottle",
+    "num_episodes": 13,
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "11",
+    "karma": 156,
+    "comments": 25,
+    "week_id": 1,
+    "studio": [
+      "feel."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8pieq/chitosekun_wa_ramune_bin_no_naka_chitose_is_in/",
+    "mal_id": 59517,
+    "current_rank": 28,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1015/151233l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1015/151233.webp"
+    },
+    "title": "Chitose-kun wa Ramune Bin no Naka",
+    "title_english": "Chitose Is in the Ramune Bottle",
+    "num_episodes": 13,
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "13",
+    "karma": 148,
+    "comments": 62,
+    "week_id": 1,
+    "studio": [
+      "feel."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8pk9a/chitosekun_wa_ramune_bin_no_naka_chitose_is_in/",
+    "mal_id": 59517,
+    "current_rank": 29,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1015/151233l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1015/151233.webp"
+    },
+    "title": "Chitose-kun wa Ramune Bin no Naka",
+    "title_english": "Chitose Is in the Ramune Bottle",
+    "num_episodes": 13,
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
+    "episode": "12",
+    "karma": 133,
+    "comments": 23,
+    "week_id": 1,
+    "studio": [
+      "feel."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s8piil/chitosekun_wa_ramune_bin_no_naka_chitose_is_in/",
+    "mal_id": 59517,
+    "current_rank": 30,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1738/156028l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1738/156028.jpg"
+    },
+    "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Season 2",
+    "title_english": "The Beginning After the End Season 2",
+    "num_episodes": 0,
+    "score": 6.14,
+    "streams": null,
+    "episode": "1",
+    "karma": 119,
+    "comments": 156,
+    "week_id": 1,
+    "studio": [
+      "Studio A-CAT"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9pb4b/the_beginning_after_the_end_season_2_saikyou_no/",
+    "mal_id": 61831,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -216,11 +894,11 @@
     "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru",
     "title_english": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
     "num_episodes": 12,
-    "score": 6,
+    "score": 6.06,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365613/the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom"
       }
     ],
     "episode": "12",
@@ -232,9 +910,59 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6wp24/akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai/",
     "mal_id": 62000,
-    "current_rank": 7,
+    "current_rank": 32,
     "karma_change": 26,
-    "rank_change": 35,
+    "rank_change": 10,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1056/154990l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1056/154990.jpg"
+    },
+    "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 4.13,
+    "streams": null,
+    "episode": "1",
+    "karma": 15,
+    "comments": 77,
+    "week_id": 1,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sao0iy/monster_eater_mamonogurai_no_boukensha_ore_dake/",
+    "mal_id": 63304,
+    "current_rank": 33,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1764/155312l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1764/155312.jpg"
+    },
+    "title": "Daikenja Riddle no Jikan Gyakkou",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.08,
+    "streams": null,
+    "episode": "1",
+    "karma": 7,
+    "comments": 8,
+    "week_id": 1,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1saa2jh/daikenja_riddle_no_jikan_gyakkou_episode_1/",
+    "mal_id": 63433,
+    "current_rank": 34,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "spring"
   },
   {
@@ -256,7 +984,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s84vtc/koupen_chan_episode_51_discussion/",
     "mal_id": 60534,
-    "current_rank": 8,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -269,15 +997,19 @@
     "title": "Hikuidori: Ushuu Boro Tobi-gumi",
     "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
     "num_episodes": 0,
-    "score": 4.7,
+    "score": 4.68,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365724/oedo-fire-slayer--the-legend-of-phoenix-"
       },
       {
         "name": "Ani-One Asia",
         "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "11",
@@ -289,9 +1021,39 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1s6ypys/hikuidori_ushuu_boro_tobigumi_oedo_fire_slayer/",
     "mal_id": 61084,
-    "current_rank": 9,
+    "current_rank": 36,
     "karma_change": -1,
-    "rank_change": 50,
+    "rank_change": 23,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1115/152470l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1115/152470.jpg"
+    },
+    "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.67,
+    "streams": [
+      {
+        "name": "OceanVeil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "11",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 1,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1s9wdhg/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
+    "mal_id": 61969,
+    "current_rank": 37,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "spring"
   }
 ]
