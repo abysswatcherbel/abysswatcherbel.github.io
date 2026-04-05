@@ -1,39 +1,33 @@
-from praw import Reddit
-from praw.models import Submission, Redditor
-
-from datetime import datetime, timedelta, timezone
-import os
 import json
-from math import ceil
+import os
 import re
-
-from pymongo import MongoClient
+from datetime import datetime, timedelta, timezone
+from math import ceil
+from typing import Dict, List, Optional, Tuple, Union
 
 import pandas as pd
-
-from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.executors.pool import ProcessPoolExecutor, ThreadPoolExecutor
 from apscheduler.jobstores.base import ConflictingIdError
-from apscheduler.triggers.date import DateTrigger
 from apscheduler.jobstores.mongodb import MongoDBJobStore
-from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
-
-from pytz import utc
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.date import DateTrigger
 from dotenv import load_dotenv
-from util.logger_config import logger
-from typing import Dict, List, Tuple, Optional, Union
-
-from util.seasonal_schedule import SeasonScheduler
-from util.mal import MalClient
-from exceptions import PostProcessingError, PostUnavailable
-
-
+from praw import Reddit
+from praw.models import Redditor, Submission
 from pydantic import (
     BaseModel,
     Field,
     HttpUrl,
-    field_validator,
     ValidationError,
+    field_validator,
 )
+from pymongo import MongoClient
+from pytz import utc
+
+from exceptions import PostProcessingError, PostUnavailable
+from util.logger_config import logger
+from util.mal import MalClient
+from util.seasonal_schedule import SeasonScheduler
 
 
 class AnimeTitle(BaseModel):
@@ -73,21 +67,13 @@ class RedditPostDetails(BaseModel):
         url: The URL to the Reddit post
     """
 
-    mal_id: Optional[int] = Field(
-        None, description="MyAnimeList ID for the anime"
-    )
-    title: AnimeTitle = Field(
-        ..., description="Various title formats for the anime"
-    )
-    week_id: int = Field(
-        ..., description="Week number in the season", ge=1, le=13
-    )
+    mal_id: Optional[int] = Field(None, description="MyAnimeList ID for the anime")
+    title: AnimeTitle = Field(..., description="Various title formats for the anime")
+    week_id: int = Field(..., description="Week number in the season", ge=1, le=13)
     episode: str = Field(..., description="Episode number")
     karma: int = Field(..., description="Reddit post karma score")
     comments: int = Field(..., description="Number of comments on the post")
-    upvote_ratio: float = Field(
-        ..., description="Upvote ratio", ge=0.0, le=1.0
-    )
+    upvote_ratio: float = Field(..., description="Upvote ratio", ge=0.0, le=1.0)
     post_id: str = Field(..., description="Reddit post ID")
     url: str = Field(..., description="Reddit post URL")
 
@@ -107,9 +93,7 @@ class KarmaEntry(RedditPostDetails):
     """
 
     mal_stats: Optional[Dict] = Field(None, description="MAL statistics")
-    rank: Optional[int] = Field(
-        None, description="Current rank in karma charts"
-    )
+    rank: Optional[int] = Field(None, description="Current rank in karma charts")
     rank_change: Optional[Union[int, str]] = Field(
         None, description="Change in rank (int or 'new'/'returning')"
     )
@@ -141,9 +125,7 @@ load_dotenv()
 scheduler_instance: Optional[BackgroundScheduler] = None
 
 
-def setup_scheduler(
-    mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"
-):
+def setup_scheduler(mongo_uri=os.getenv("MONGO_URI"), mongo_database="scheduler"):
     """
     Sets up a scheduler with MongoDB as a job store.
 
@@ -159,9 +141,7 @@ def setup_scheduler(
     """
 
     client = MongoClient(mongo_uri)
-    jobstores = {
-        "default": MongoDBJobStore(client=client, database=mongo_database)
-    }
+    jobstores = {"default": MongoDBJobStore(client=client, database=mongo_database)}
     executors = {
         "default": ThreadPoolExecutor(10),
         "processpool": ProcessPoolExecutor(3),
@@ -353,14 +333,16 @@ def process_post(post: Dict, reddit: Reddit) -> None:
     """
 
     try:
-
         post_details: Dict = close_post(
             post_id=post["id"], reddit=reddit, week_id=post["week_id"]
         )
 
         try:
             post_validation = RedditPostDetails(**post_details)
-            insert_mongo(post_validation.model_dump())
+            schedule = SeasonScheduler(
+                post_time=datetime.fromtimestamp(post["created_utc"], tz=timezone.utc)
+            )
+            insert_mongo(post_validation.model_dump(), schedule=schedule)
 
         except ValidationError as e:
             logger.error(f"Validation error for post {post['id']}: {e}")
@@ -420,9 +402,7 @@ def fetch_recent_posts(reddit: Reddit, username="AutoLovepon") -> List[Dict]:
         if created_time > two_days_ago:
             season_scheduler = SeasonScheduler(post_time=created_time)
             trigger_time = created_time + timedelta(hours=48)
-            logger.debug(
-                f"Trigger set for post: {submission.url} at {trigger_time}"
-            )
+            logger.debug(f"Trigger set for post: {submission.url} at {trigger_time}")
             posts.append(
                 {
                     "id": submission.id,
@@ -545,12 +525,8 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
         if mal_id
         else {"$or": [{"title": romaji}, {"title_english": english}]}
     )
-    logger.debug(
-        f"Looking for entry on the db with: {json.dumps(query, indent=2)}"
-    )
-    mal_doc = col.find_one(
-        query, {"id": 1}
-    )  # Check if the show exists on the db
+    logger.debug(f"Looking for entry on the db with: {json.dumps(query, indent=2)}")
+    mal_doc = col.find_one(query, {"id": 1})  # Check if the show exists on the db
 
     # If there is a mal_id but no document found, try to fetch the entry from MAL and push it to the db
     if mal_id is not None and not mal_doc:
@@ -590,7 +566,7 @@ def close_post(post_id, reddit: Reddit, week_id: int) -> Dict:
 def insert_mongo(
     post_details: dict,
     client: MongoClient = MongoClient(os.getenv("MONGO_URI")),
-    schedule=SeasonScheduler(),
+    schedule: Optional[SeasonScheduler] = None,
 ) -> None:
     """
     Inserts post details into the MongoDB database.
@@ -622,6 +598,9 @@ def insert_mongo(
     Returns:
         None
     """
+
+    if schedule is None:
+        schedule = SeasonScheduler()
 
     # Get the database and collection
     db = client.anime
@@ -663,15 +642,11 @@ def insert_mongo(
             reddit_karma = (show or {}).get("reddit_karma", {})
             if year_str not in reddit_karma:
                 # Initialize the year as an empty object if it doesn't exist
-                col.update_one(
-                    query, {"$set": {f"reddit_karma.{year_str}": {}}}
-                )
+                col.update_one(query, {"$set": {f"reddit_karma.{year_str}": {}}})
                 show = col.find_one(query)  # Refresh the data
 
             # Check if the season exists in the year
-            year_data = ((show or {}).get("reddit_karma", {}) or {}).get(
-                year_str
-            ) or {}
+            year_data = ((show or {}).get("reddit_karma", {}) or {}).get(year_str) or {}
             if season_name not in year_data:
                 # Initialize the season as an empty array if it doesn't exist
                 col.update_one(
@@ -717,9 +692,7 @@ def insert_mongo(
                         reddit_karma[year_str] = {}
                         reddit_karma[year_str][season_name] = [episode_data]
 
-                        col.update_one(
-                            query, {"$set": {"reddit_karma": reddit_karma}}
-                        )
+                        col.update_one(query, {"$set": {"reddit_karma": reddit_karma}})
                         logger.info(
                             f"Added karma data to newly created entry for MAL ID {mal_id}"
                         )
@@ -854,11 +827,8 @@ def get_active_posts(
 
     # Get the submissions from AutoLovePon
     for submission in user.submissions.new(limit=50):
-
         # The time the submission was created should be in datetime format
-        created_time = datetime.fromtimestamp(
-            submission.created_utc, tz=default_tz
-        )
+        created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
 
         # Check if the submission was created within the last 48 hours
         if created_time > two_days_ago:
@@ -869,9 +839,7 @@ def get_active_posts(
             # Try to get a valid mal_id from the post body
             mal_id = get_mal_id_reddit_post(submission.selftext)
             if not mal_id:
-                logger.warning(
-                    f"Post {submission.id} has no MAL ID. Skipping..."
-                )
+                logger.warning(f"Post {submission.id} has no MAL ID. Skipping...")
                 continue
 
             # Try to get the number of the episode from the title
@@ -926,16 +894,13 @@ def get_active_posts(
                         )
                         continue
                 else:
-
                     post_details = dict(show)
                     post_details["reddit_url"] = submission.url
                     post_details["karma"] = submission.score
                     post_details["comments"] = submission.num_comments
                     post_details["episode"] = episode
                     # Time left in hours
-                    post_details["time_left"] = (
-                        time_left.total_seconds() / 3600
-                    )
+                    post_details["time_left"] = time_left.total_seconds() / 3600
 
                     posts.append(post_details)
                     posts.sort(key=lambda x: x["karma"], reverse=True)
@@ -1014,9 +979,7 @@ def get_active_posts(
                                 "updated_at": current_time.strftime(
                                     "%Y-%m-%d %H:%M:%S"
                                 ),
-                                "hourly_karma": [
-                                    {"hour": hour, "karma": karma}
-                                ],
+                                "hourly_karma": [{"hour": hour, "karma": karma}],
                             }
                         )
                         logger.info(
@@ -1024,9 +987,7 @@ def get_active_posts(
                         )
 
             except ValueError:
-                logger.error(
-                    f"Error updating hourly data for MAL ID: {mal_id}"
-                )
+                logger.error(f"Error updating hourly data for MAL ID: {mal_id}")
                 continue
     client.close()
     return posts
@@ -1062,9 +1023,12 @@ def get_mal_id_reddit_post(post_body: str) -> Optional[int]:
 
 
 def fetch_weekly_posts_db(
-    schedule: SeasonScheduler = SeasonScheduler(schedule_type="post"),
+    schedule: Optional[SeasonScheduler] = None,
 ) -> List[Dict]:
     """Fetch MAL IDs of all shows airing in the current week."""
+    if schedule is None:
+        schedule = SeasonScheduler(schedule_type="post")
+
     client = MongoClient(os.getenv("MONGO_URI"))
     db = client.anime
     seasonal_entries = db.seasonals
@@ -1108,7 +1072,7 @@ def fetch_weekly_posts_db(
 
 def fetch_weekly_posts_reddit(
     reddit: Reddit = setup_reddit_instance(),
-    schedule: SeasonScheduler = SeasonScheduler(),
+    schedule: Optional[SeasonScheduler] = None,
     username: str = "AutoLovepon",
     default_tz: timezone = timezone.utc,
 ) -> List[Dict] | None:
@@ -1142,6 +1106,9 @@ def fetch_weekly_posts_reddit(
         - Adjusts the week_id based on if  the current day is in Friday to Sunday
         - Fetches up to 100 most recent posts from the user, but it is very unlikely to reach that number.
     """
+
+    if schedule is None:
+        schedule = SeasonScheduler()
 
     user = reddit.redditor(username)
     posts = []
@@ -1183,9 +1150,7 @@ def fetch_weekly_posts_reddit(
             return None
 
         for submission in user.submissions.new(limit=100):
-            created_time = datetime.fromtimestamp(
-                submission.created_utc, tz=default_tz
-            )
+            created_time = datetime.fromtimestamp(submission.created_utc, tz=default_tz)
             if created_time >= start_date and created_time <= end_date:
                 title_details, episode = get_title_details(submission.title)
 
@@ -1205,7 +1170,6 @@ def fetch_weekly_posts_reddit(
                     }
                 )
         if posts:
-
             return posts
         else:
             return []
@@ -1213,9 +1177,7 @@ def fetch_weekly_posts_reddit(
         return
 
 
-def missing_shows_on_db(
-    shows_reddit: List[Dict], shows_db: List[Dict]
-) -> List:
+def missing_shows_on_db(shows_reddit: List[Dict], shows_db: List[Dict]) -> List:
     """
     Compare shows from Reddit against shows in the database to find which ones are missing.
 
@@ -1248,9 +1210,9 @@ def missing_shows_on_db(
     missing_ids = reddit_ids - db_ids
 
     # Filter the reddit_df to only include rows with the missing IDs
-    missing_shows = reddit_df[
-        reddit_df["id"].astype(int).isin(missing_ids)
-    ].to_dict("records")
+    missing_shows = reddit_df[reddit_df["id"].astype(int).isin(missing_ids)].to_dict(
+        "records"
+    )
 
     return missing_shows
 
