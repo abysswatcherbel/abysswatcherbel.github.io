@@ -7,11 +7,11 @@
     "title": "Sousou no Frieren 2nd Season",
     "title_english": "Frieren: Beyond Journey's End Season 2",
     "num_episodes": 10,
-    "score": 8.98,
+    "score": 8.96,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
       },
       {
         "name": "Netflix",
@@ -24,6 +24,14 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
       },
       {
         "name": "iQIYI",
@@ -52,11 +60,11 @@
     "title": "Fate/strange Fake",
     "title_english": "Fate/strange Fake",
     "num_episodes": 0,
-    "score": 8.49,
+    "score": 8.39,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/series-283702"
+        "url": "https://www.crunchyroll.com/series/G4PH0WJQZ/fatestrange-fake"
       },
       {
         "name": "Aniplus TV",
@@ -65,6 +73,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
       }
     ],
     "episode": "13",
@@ -163,11 +175,11 @@
     "title": "Seihantai na Kimi to Boku",
     "title_english": "You and I Are Polar Opposites",
     "num_episodes": 12,
-    "score": 8.24,
+    "score": 8.34,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites"
       },
       {
         "name": "Ani-One Asia",
@@ -180,6 +192,10 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "12",
@@ -398,7 +414,7 @@
     "title": "Shunkashuutou Daikousha: Haru no Mai",
     "title_english": "Agents of the Four Seasons: Dance of Spring",
     "num_episodes": 0,
-    "score": null,
+    "score": 7.74,
     "streams": null,
     "episode": "1",
     "karma": 534,
@@ -571,7 +587,7 @@
     "title": "Fumetsu no Anata e Season 3",
     "title_english": "To Your Eternity Season 3",
     "num_episodes": 22,
-    "score": 7.53,
+    "score": 7.47,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -731,7 +747,7 @@
     "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
     "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
     "num_episodes": 0,
-    "score": 7.16,
+    "score": 7.19,
     "streams": [
       {
         "name": "HIDIVE",
@@ -744,6 +760,10 @@
       {
         "name": "Aniplus TV",
         "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/"
       }
     ],
     "episode": "12",
@@ -768,11 +788,11 @@
     "title": "Kaya-chan wa Kowakunai",
     "title_english": "Kaya-chan Isn't Scary",
     "num_episodes": 12,
-    "score": 7.3,
+    "score": 7.4,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365583/kaya-chan-isnt-scary"
       },
       {
         "name": "Ani-One Asia",
@@ -785,6 +805,10 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "12",
@@ -858,11 +882,11 @@
     "title": "Trigun Stargaze",
     "title_english": "Trigun Stargaze",
     "num_episodes": 0,
-    "score": 6.97,
+    "score": 6.79,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "http://www.crunchyroll.com/series-283376"
       },
       {
         "name": "Ani-One Asia",
@@ -871,6 +895,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "12",
@@ -943,7 +971,7 @@
     "title": "Fumetsu no Anata e Season 3",
     "title_english": "To Your Eternity Season 3",
     "num_episodes": 22,
-    "score": 7.53,
+    "score": 7.47,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1163,11 +1191,11 @@
     "title": "Yuusha no Kuzu",
     "title_english": "Scum of the Brave",
     "num_episodes": 24,
-    "score": 6.57,
+    "score": 6.58,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365730/scum-of-the-brave"
       },
       {
         "name": "Bahamut Anime Crazy",
@@ -1176,6 +1204,10 @@
       {
         "name": "CatchPlay",
         "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
       }
     ],
     "episode": "12",
@@ -1237,11 +1269,11 @@
     "title": "Uruwashi no Yoi no Tsuki",
     "title_english": "In the Clear Moonlit Dusk",
     "num_episodes": 0,
-    "score": 7.46,
+    "score": 7.49,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00334040/in-the-clear-moonlit-dusk"
       }
     ],
     "episode": "12",
@@ -1303,7 +1335,7 @@
     "title": "Tensei shitara Dragon no Tamago datta",
     "title_english": "Reincarnated as a Dragon Hatchling",
     "num_episodes": 0,
-    "score": 6.42,
+    "score": 6.41,
     "streams": [
       {
         "name": "HIDIVE",
@@ -1316,6 +1348,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "12",
@@ -1365,7 +1401,7 @@
     "title": "Digimon Beatbreak",
     "title_english": "Digimon Beatbreak",
     "num_episodes": 0,
-    "score": 7.13,
+    "score": 7.15,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1404,7 +1440,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1320/148690.jpg"
     },
     "num_episodes": 0,
-    "score": null,
+    "score": 7.2,
     "streams": null,
     "title": "Virgin Punk",
     "title_english": "",
@@ -1459,11 +1495,11 @@
     "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
     "title_english": "A Misanthrope Teaches a Class for Demi-Humans",
     "num_episodes": 13,
-    "score": 6.22,
+    "score": 6.49,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365542/a-misanthrope-teaches-a-class-for-demi-humans"
       }
     ],
     "episode": "12",
@@ -1488,7 +1524,7 @@
     "title": "Niwatori Fighter",
     "title_english": "Rooster Fighter",
     "num_episodes": 0,
-    "score": 7.14,
+    "score": 7,
     "streams": null,
     "episode": "3",
     "karma": 67,
@@ -1512,7 +1548,7 @@
     "title": "Dead Account",
     "title_english": "Dead Account",
     "num_episodes": 0,
-    "score": 6.61,
+    "score": 6.62,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1553,7 +1589,7 @@
     "title": "Ao no Miburo: Serizawa Ansatsu-hen",
     "title_english": "Blue Miburo Season 2",
     "num_episodes": 0,
-    "score": 7.18,
+    "score": 7.2,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1572,7 +1608,7 @@
         "url": "https://ani.gamer.com.tw/"
       },
       {
-        "name": "Ocean Veil",
+        "name": "OceanVeil",
         "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
       }
     ],
@@ -1598,11 +1634,11 @@
     "title": "Dark Moon: Tsuki no Saidan",
     "title_english": "Dark Moon: The Blood Altar",
     "num_episodes": 12,
-    "score": 6.46,
+    "score": 6.39,
     "streams": [
       {
         "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/"
+        "url": "https://www.crunchyroll.com/series/GT00365556/dark-moon-the-blood-altar"
       },
       {
         "name": "Ani-One Asia",
@@ -1615,6 +1651,10 @@
       {
         "name": "Bilibili Global",
         "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "12",
@@ -1639,8 +1679,13 @@
     "title": "Meitantei Precure!",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.54,
-    "streams": null,
+    "score": 7.55,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
     "episode": "9",
     "karma": 16,
     "comments": 11,
@@ -1688,7 +1733,7 @@
     "title": "SI-VIS: The Sound of Heroes",
     "title_english": "SI-VIS: The Sound of Heroes",
     "num_episodes": 0,
-    "score": 6.02,
+    "score": 6.38,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1811,7 +1856,7 @@
     "title": "High School! Kimengumi (2026)",
     "title_english": "",
     "num_episodes": 12,
-    "score": 5.72,
+    "score": 5.7,
     "streams": [
       {
         "name": "Anime Digital Network",
@@ -1820,6 +1865,10 @@
       {
         "name": "Bahamut Anime Crazy",
         "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
       }
     ],
     "episode": "12",
@@ -1907,10 +1956,10 @@
     "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
     "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
     "num_episodes": 0,
-    "score": 6.33,
+    "score": 6.3,
     "streams": [
       {
-        "name": "Ocean Veil",
+        "name": "OceanVeil",
         "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
       }
     ],
