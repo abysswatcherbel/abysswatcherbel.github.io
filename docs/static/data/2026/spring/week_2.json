@@ -198,6 +198,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1196",
+    "karma": 4,
+    "comments": 2,
+    "week_id": 2,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sc6x3s/meitantei_conan_case_closed_episode_1196/",
+    "mal_id": 235,
+    "current_rank": 9,
+    "karma_change": 3,
+    "rank_change": 51,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1801/154108l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1801/154108.jpg"
     },
@@ -222,9 +255,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbzn1d/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "spring"
   }
 ]
