@@ -174,6 +174,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1632/155095l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1632/155095.jpg"
+    },
+    "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
+    "title_english": "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
+    "num_episodes": 0,
+    "score": 6.43,
+    "streams": null,
+    "episode": "2",
+    "karma": 187,
+    "comments": 118,
+    "week_id": 2,
+    "studio": [
+      "Studio Flad"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sc9dpp/the_strongest_job_is_apparently_not_a_hero_or_a/",
+    "mal_id": 62825,
+    "current_rank": 8,
+    "karma_change": 11,
+    "rank_change": 28,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -191,7 +215,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbvfuu/rilakkuma_episode_1_discussion/",
     "mal_id": 60153,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -224,9 +248,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sc6x3s/meitantei_conan_case_closed_episode_1196/",
     "mal_id": 235,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 3,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "spring"
   },
   {
@@ -255,9 +279,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbzn1d/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "spring"
   }
 ]
