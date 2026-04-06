@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 8.06,
+    "streams": null,
+    "episode": "1",
+    "karma": 1657,
+    "comments": 587,
+    "week_id": 2,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sc5kln/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg"
     },
@@ -23,9 +47,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbjypc/enen_no_shouboutai_san_no_shou_fire_force_season/",
     "mal_id": 51818,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 865,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "spring"
   },
   {
@@ -47,7 +71,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbg1yj/that_time_i_got_reincarnated_as_a_slime_season_4/",
     "mal_id": 59970,
-    "current_rank": 2,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 7.98,
+    "streams": null,
+    "episode": "1",
+    "karma": 770,
+    "comments": 229,
+    "week_id": 2,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sc5rq6/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -71,7 +119,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbf9ut/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -95,7 +143,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbd6g4/observation_records_of_my_fianc\u00e9e_the/",
     "mal_id": 61687,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -119,7 +167,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbhu9w/snowball_earth_episode_1_discussion/",
     "mal_id": 62068,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -143,7 +191,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbvfuu/rilakkuma_episode_1_discussion/",
     "mal_id": 60153,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -174,9 +222,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sbzn1d/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 0,
-    "rank_change": 55,
+    "rank_change": 53,
     "season": "spring"
   }
 ]
