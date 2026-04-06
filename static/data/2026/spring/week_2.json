@@ -123,5 +123,29 @@
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 19,
+    "comments": 8,
+    "week_id": 2,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sbvfuu/rilakkuma_episode_1_discussion/",
+    "mal_id": 60153,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
   }
 ]
