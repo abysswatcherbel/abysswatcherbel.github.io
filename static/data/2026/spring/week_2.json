@@ -7,8 +7,17 @@
     "title": "Tongari Boushi no Atelier",
     "title_english": "Witch Hat Atelier",
     "num_episodes": 0,
-    "score": 7.51,
-    "streams": null,
+    "score": 8.73,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "1",
     "karma": 4509,
     "comments": 710,
@@ -31,8 +40,21 @@
     "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "title_english": "Re:ZERO -Starting Life in Another World- Season 4",
     "num_episodes": 19,
-    "score": 8.76,
-    "streams": null,
+    "score": 8.73,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 3825,
     "comments": 897,
@@ -55,8 +77,17 @@
     "title": "Tongari Boushi no Atelier",
     "title_english": "Witch Hat Atelier",
     "num_episodes": 0,
-    "score": 7.51,
-    "streams": null,
+    "score": 8.73,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "2",
     "karma": 2572,
     "comments": 655,
@@ -79,8 +110,29 @@
     "title": "Yomi no Tsugai",
     "title_english": "Daemons of the Shadow Realm",
     "num_episodes": 24,
-    "score": 7.98,
-    "streams": null,
+    "score": 8.04,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 2068,
     "comments": 364,
@@ -103,8 +155,49 @@
     "title": "Akane-banashi",
     "title_english": "",
     "num_episodes": 0,
-    "score": 8.05,
-    "streams": null,
+    "score": 8.06,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Laftel",
+        "url": "https://laftel.net/"
+      },
+      {
+        "name": "TrueID",
+        "url": "https://home.trueid.net/"
+      }
+    ],
     "episode": "1",
     "karma": 2063,
     "comments": 414,
@@ -127,7 +220,7 @@
     "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
     "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
     "num_episodes": 0,
-    "score": 8.06,
+    "score": 8.04,
     "streams": null,
     "episode": "1",
     "karma": 1657,
@@ -180,8 +273,21 @@
     "title": "Tensei shitara Slime Datta Ken 4th Season",
     "title_english": "That Time I Got Reincarnated as a Slime Season 4",
     "num_episodes": 0,
-    "score": 8.22,
-    "streams": null,
+    "score": 8.21,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 1327,
     "comments": 453,
@@ -204,8 +310,21 @@
     "title": "Marriagetoxin",
     "title_english": "Marriagetoxin",
     "num_episodes": 0,
-    "score": 7.57,
-    "streams": null,
+    "score": 7.54,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 1245,
     "comments": 335,
@@ -228,8 +347,25 @@
     "title": "Needy Girl Overdose",
     "title_english": "Needy Girl Overdose",
     "num_episodes": 13,
-    "score": 7.26,
-    "streams": null,
+    "score": 7.12,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 1122,
     "comments": 329,
@@ -252,8 +388,13 @@
     "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
     "title_english": "I Made Friends with the Second Prettiest Girl in My Class",
     "num_episodes": 12,
-    "score": 7.61,
-    "streams": null,
+    "score": 7.57,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "1",
     "karma": 976,
     "comments": 284,
@@ -277,7 +418,12 @@
     "title_english": "Gals Can't Be Kind to Otaku!?",
     "num_episodes": 0,
     "score": 7.53,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "1",
     "karma": 960,
     "comments": 301,
@@ -300,7 +446,7 @@
     "title": "Koori no Jouheki",
     "title_english": "The Ramparts of Ice",
     "num_episodes": 0,
-    "score": 7.64,
+    "score": 7.7,
     "streams": null,
     "episode": "2",
     "karma": 912,
@@ -324,8 +470,21 @@
     "title": "Mairimashita! Iruma-kun 4th Season",
     "title_english": "Welcome to Demon School! Iruma-kun Season 4",
     "num_episodes": 24,
-    "score": 7.98,
-    "streams": null,
+    "score": 8.04,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 770,
     "comments": 229,
@@ -348,8 +507,29 @@
     "title": "Dorohedoro Season 2",
     "title_english": "",
     "num_episodes": 0,
-    "score": 8.34,
-    "streams": null,
+    "score": 8.35,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371893/dorohedoro"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "4",
     "karma": 770,
     "comments": 136,
@@ -372,8 +552,21 @@
     "title": "Kanan-sama wa Akumade Choroi",
     "title_english": "Mistress Kanan is Devilishly Easy",
     "num_episodes": 12,
-    "score": 7.2,
-    "streams": null,
+    "score": 7.26,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 768,
     "comments": 193,
@@ -396,8 +589,25 @@
     "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2",
     "title_english": "The Angel Next Door Spoils Me Rotten 2",
     "num_episodes": 12,
-    "score": 8.23,
-    "streams": null,
+    "score": 8.11,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 741,
     "comments": 288,
@@ -420,8 +630,13 @@
     "title": "Liar Game",
     "title_english": "Liar Game",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 6.98,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "1",
     "karma": 696,
     "comments": 342,
@@ -444,7 +659,7 @@
     "title": "Nippon Sangoku",
     "title_english": "Nippon Sangoku: The Three Nations of the Crimson Sun",
     "num_episodes": 0,
-    "score": null,
+    "score": 8.37,
     "streams": null,
     "episode": "1",
     "karma": 690,
@@ -468,8 +683,21 @@
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
     "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
     "num_episodes": 16,
-    "score": 8.28,
-    "streams": null,
+    "score": 8.25,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "5",
     "karma": 666,
     "comments": 141,
@@ -492,8 +720,17 @@
     "title": "Dr. Stone: Science Future Part 3",
     "title_english": "Dr. Stone: Science Future Part 3",
     "num_episodes": 0,
-    "score": 8.32,
-    "streams": null,
+    "score": 8.31,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
     "episode": "2",
     "karma": 620,
     "comments": 231,
@@ -516,8 +753,17 @@
     "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
     "title_english": "The Klutzy Class Monitor and the Girl with the Short Skirt",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.54,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "OceanVeil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
     "episode": "1",
     "karma": 599,
     "comments": 158,
@@ -540,8 +786,25 @@
     "title": "Shunkashuutou Daikousha: Haru no Mai",
     "title_english": "Agents of the Four Seasons: Dance of Spring",
     "num_episodes": 0,
-    "score": 7.74,
-    "streams": null,
+    "score": 7.8,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "2",
     "karma": 579,
     "comments": 166,
@@ -565,10 +828,20 @@
     "title_english": "One Piece",
     "num_episodes": 0,
     "score": 8.73,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "http://www.crunchyroll.com/series-257631"
-    },
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-257631"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80107103"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/en/series/One-Piece/series-826519"
+      }
+    ],
     "episode": "1156",
     "karma": 566,
     "comments": 91,
@@ -591,8 +864,17 @@
     "title": "Himekishi wa Barbaroi no Yome",
     "title_english": "The Warrior Princess and the Barbaric King",
     "num_episodes": 12,
-    "score": 6.96,
-    "streams": null,
+    "score": 6.97,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 538,
     "comments": 286,
@@ -615,8 +897,13 @@
     "title": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
     "title_english": "An Observation Log of My Fianc\u00e9e Who Calls Herself a Villainess",
     "num_episodes": 0,
-    "score": 7.18,
-    "streams": null,
+    "score": 7.21,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "1",
     "karma": 427,
     "comments": 175,
@@ -639,8 +926,21 @@
     "title": "Isekai Nonbiri Nouka 2",
     "title_english": "Farming Life in Another World Season 2",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 7.62,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 393,
     "comments": 166,
@@ -663,8 +963,13 @@
     "title": "Replica datte, Koi wo Suru.",
     "title_english": "Even a Replica Can Fall in Love",
     "num_episodes": 13,
-    "score": 6.86,
-    "streams": null,
+    "score": 6.84,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "1",
     "karma": 371,
     "comments": 176,
@@ -688,7 +993,16 @@
     "title_english": "",
     "num_episodes": 0,
     "score": 7.17,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 312,
     "comments": 101,
@@ -711,8 +1025,21 @@
     "title": "Awajima Hyakkei",
     "title_english": "A Hundred Scenes of Awajima",
     "num_episodes": 12,
-    "score": 6.88,
-    "streams": null,
+    "score": 6.9,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 301,
     "comments": 64,
@@ -735,8 +1062,25 @@
     "title": "Ganbare! Nakamura-kun!!",
     "title_english": "Go For It, Nakamura!",
     "num_episodes": 13,
-    "score": 7.74,
-    "streams": null,
+    "score": 7.81,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "3",
     "karma": 286,
     "comments": 132,
@@ -759,8 +1103,17 @@
     "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.12,
-    "streams": null,
+    "score": 7.24,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "2",
     "karma": 272,
     "comments": 175,
@@ -808,8 +1161,25 @@
     "title": "Snowball Earth",
     "title_english": "Snowball Earth",
     "num_episodes": 13,
-    "score": 6.65,
-    "streams": null,
+    "score": 6.63,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 237,
     "comments": 121,
@@ -832,7 +1202,7 @@
     "title": "Ookii Onnanoko wa Suki desu ka?",
     "title_english": "Do You Like Big Girls?",
     "num_episodes": 0,
-    "score": 6.3,
+    "score": 6.39,
     "streams": null,
     "episode": "1",
     "karma": 223,
@@ -856,8 +1226,21 @@
     "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. Season 2",
     "title_english": "The Most Heretical Last Boss Queen: From Villainess to Savior Season 2",
     "num_episodes": 12,
-    "score": 7.26,
-    "streams": null,
+    "score": 7.28,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 211,
     "comments": 183,
@@ -880,8 +1263,13 @@
     "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
     "title_english": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 3",
     "num_episodes": 0,
-    "score": 6.75,
-    "streams": null,
+    "score": 6.68,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon"
+      }
+    ],
     "episode": "2",
     "karma": 205,
     "comments": 53,
@@ -905,8 +1293,17 @@
     "title": "Hidarikiki no Eren",
     "title_english": "Eren the Southpaw",
     "num_episodes": 13,
-    "score": 6.58,
-    "streams": null,
+    "score": 6.56,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 192,
     "comments": 107,
@@ -930,8 +1327,13 @@
     "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
     "title_english": "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
     "num_episodes": 0,
-    "score": 6.43,
-    "streams": null,
+    "score": 6.44,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371875/the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional"
+      }
+    ],
     "episode": "2",
     "karma": 187,
     "comments": 118,
@@ -955,7 +1357,16 @@
     "title_english": "Kirio Fan Club",
     "num_episodes": 12,
     "score": 6.21,
-    "streams": null,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
     "episode": "2",
     "karma": 186,
     "comments": 78,
@@ -978,8 +1389,13 @@
     "title": "Ingoku Danchi",
     "title_english": "",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 5.69,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 180,
     "comments": 76,
@@ -1002,8 +1418,21 @@
     "title": "Kami no Niwatsuki Kusunoki-tei",
     "title_english": "Kusunoki's Garden of Gods",
     "num_episodes": 12,
-    "score": 7.1,
-    "streams": null,
+    "score": 7.4,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 151,
     "comments": 85,
@@ -1026,8 +1455,13 @@
     "title": "Maid-san wa Taberu dake",
     "title_english": "The Food Diary of Miss Maid",
     "num_episodes": 0,
-    "score": 6.81,
-    "streams": null,
+    "score": 6.77,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00375170/the-food-diary-of-miss-maid"
+      }
+    ],
     "episode": "2",
     "karma": 149,
     "comments": 49,
@@ -1051,8 +1485,13 @@
     "title": "Tadaima, Ojamasaremasu!",
     "title_english": "Pardon the Intrusion, I'm Home!",
     "num_episodes": 0,
-    "score": 6.63,
-    "streams": null,
+    "score": 6.61,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "1",
     "karma": 136,
     "comments": 54,
@@ -1075,8 +1514,17 @@
     "title": "Reincarnation no Kaben",
     "title_english": "Petals of Reincarnation",
     "num_episodes": 0,
-    "score": 6.58,
-    "streams": null,
+    "score": 6.41,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 135,
     "comments": 97,
@@ -1099,8 +1547,21 @@
     "title": "Diamond no Ace: Act II Second Season",
     "title_english": "Ace of Diamond Act II Season 2",
     "num_episodes": 0,
-    "score": 7.52,
-    "streams": null,
+    "score": 8.02,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 129,
     "comments": 30,
@@ -1123,8 +1584,13 @@
     "title": "Haibara-kun no Tsuyokute Seishun New Game",
     "title_english": "Haibara's Teenage New Game+",
     "num_episodes": 12,
-    "score": 6.88,
-    "streams": null,
+    "score": 6.82,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "2",
     "karma": 121,
     "comments": 81,
@@ -1147,11 +1613,17 @@
     "title": "Tensei Akujo no Kuro Rekishi",
     "title_english": "The Dark History of the Reincarnated Villainess",
     "num_episodes": 12,
-    "score": 6.73,
-    "streams": {
-      "name": "Crunchyroll",
-      "url": "https://www.crunchyroll.com/series/GG5H5XQZQ"
-    },
+    "score": 6.72,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQZQ"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      }
+    ],
     "episode": "13",
     "karma": 115,
     "comments": 47,
@@ -1174,8 +1646,13 @@
     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
     "title_english": "Killed Again, Mr. Detective.",
     "num_episodes": 0,
-    "score": 6.76,
-    "streams": null,
+    "score": 6.6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
     "episode": "2",
     "karma": 107,
     "comments": 102,
@@ -1198,8 +1675,13 @@
     "title": "Marika-chan no Koukando wa Bukkowareteiru",
     "title_english": "Marika's Love Meter Malfunction",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 5.66,
+    "streams": [
+      {
+        "name": "OceanVeil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
     "episode": "1",
     "karma": 101,
     "comments": 19,
@@ -1223,7 +1705,20 @@
     "title_english": "Kujima: Why Sing, When You Can Warble?",
     "num_episodes": 12,
     "score": 6.3,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 88,
     "comments": 65,
@@ -1246,7 +1741,7 @@
     "title": "Digimon Beatbreak",
     "title_english": "Digimon Beatbreak",
     "num_episodes": 0,
-    "score": 7.15,
+    "score": 7.16,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1287,8 +1782,25 @@
     "title": "Niwatori Fighter",
     "title_english": "Rooster Fighter",
     "num_episodes": 0,
-    "score": 7,
-    "streams": null,
+    "score": 6.91,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "name": "Adult Swim",
+        "url": "https://www.adultswim.com/"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      }
+    ],
     "episode": "4",
     "karma": 80,
     "comments": 29,
@@ -1311,8 +1823,21 @@
     "title": "Ghost Concert: Missing Songs",
     "title_english": "Ghost Concert: Missing Songs",
     "num_episodes": 12,
-    "score": null,
-    "streams": null,
+    "score": 5.96,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 76,
     "comments": 130,
@@ -1335,8 +1860,13 @@
     "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Season 2",
     "title_english": "The Beginning After the End Season 2",
     "num_episodes": 0,
-    "score": 6.14,
-    "streams": null,
+    "score": 5.98,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end"
+      }
+    ],
     "episode": "2",
     "karma": 75,
     "comments": 112,
@@ -1359,7 +1889,7 @@
     "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
     "title_english": "A Misanthrope Teaches a Class for Demi-Humans",
     "num_episodes": 13,
-    "score": 6.49,
+    "score": 6.54,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1388,8 +1918,13 @@
     "title": "Mahou no Shimai Lulutto Lilly",
     "title_english": "",
     "num_episodes": 0,
-    "score": 6.64,
-    "streams": null,
+    "score": 6.62,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 54,
     "comments": 16,
@@ -1410,7 +1945,7 @@
       "medium": "https://cdn.myanimelist.net/images/anime/1735/146986.jpg"
     },
     "num_episodes": 0,
-    "score": 7.34,
+    "score": 7.31,
     "streams": null,
     "title": "Princession Orchestra",
     "title_english": "",
@@ -1436,7 +1971,7 @@
     "title": "Meitantei Precure!",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.55,
+    "score": 7.54,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1465,8 +2000,17 @@
     "title": "Hyakki Yakoushou",
     "title_english": "",
     "num_episodes": 0,
-    "score": 5.62,
-    "streams": null,
+    "score": 5.59,
+    "streams": [
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 21,
     "comments": 6,
@@ -1490,8 +2034,21 @@
     "title": "Rilakkuma",
     "title_english": "Rilakkuma",
     "num_episodes": 0,
-    "score": null,
-    "streams": null,
+    "score": 6.07,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "1",
     "karma": 19,
     "comments": 8,
@@ -1582,8 +2139,17 @@
     "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
     "title_english": "",
     "num_episodes": 0,
-    "score": 4.13,
-    "streams": null,
+    "score": 3.9,
+    "streams": [
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 4,
     "comments": 14,
@@ -1607,7 +2173,7 @@
     "title": "Hikuidori: Ushuu Boro Tobi-gumi",
     "title_english": "Oedo Fire Slayer: The Legend of Phoenix",
     "num_episodes": 0,
-    "score": 4.68,
+    "score": 5.46,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1699,8 +2265,17 @@
     "title": "Kanojo, Okarishimasu 5th Season",
     "title_english": "Rent-a-Girlfriend Season 5",
     "num_episodes": 0,
-    "score": 6.16,
-    "streams": null,
+    "score": 6.14,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "1",
     "karma": 0,
     "comments": 132,
@@ -1723,7 +2298,7 @@
     "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
     "title_english": "Cardfight!! Vanguard: Divinez Parallactic Clash",
     "num_episodes": 0,
-    "score": 6.3,
+    "score": 6.5,
     "streams": [
       {
         "name": "OceanVeil",
