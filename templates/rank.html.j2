@@ -213,13 +213,18 @@
                                 <span class="Studio" style="background-color: #fff; color: #000; text-align: center;">
                                     {{ left.studio | join(',') }}
                                 </span>
-                                {% if left.streams and left.streams|length > 0 %}
-
-                                <span class="{{ left.streams[0].name | capitalize }}">
-                                    {{ left.streams[0].name | capitalize }}
+                                {% set left_stream_name = none %}
+                                {% if left.streams %}
+                                {% if left.streams is mapping %}
+                                {% set left_stream_name = left.streams.name %}
+                                {% elif left.streams is sequence and left.streams is not string and left.streams|length > 0 %}
+                                {% set left_stream_name = left.streams[0].name %}
+                                {% endif %}
+                                {% endif %}
+                                {% if left_stream_name %}
+                                <span class="{{ left_stream_name | capitalize }}">
+                                    {{ left_stream_name | capitalize }}
                                 </span>
-                                {% else %}
-
                                 {% endif %}
                             </div>
                         </div>
@@ -230,19 +235,25 @@
                     {% if right %}
                     <div class="karma-entry rightSide">
                         <div class="details rightBanner"
-                            style="background-image: url('{{ right.images.large }}'); background-position: 0px 0px;">
-                            <a href="{{ right.images.large }}" target="_blank" class="external-link"></a>
+                            style="background-image: url('{{ get_banner(right) }}'); background-position: {{ get_banner_offset(right) }};">
+                            <a href="{{ get_banner(right) }}" target="_blank" class="external-link"></a>
 
                             <div class="part-2">
                                 <span class="title rightTitle">{{ get_title(right) }}</span>
                                 <span class="karma rightKarma">{{ right.karma }}</span>
                                 <div class="rightContainer">
-                                    {% if right.streams and right.streams|length > 0 %}
-                                    <span class="{{ right.streams[0].name | capitalize }}-logo">
-                                        {{ right.streams[0].name | capitalize }}
+                                    {% set right_stream_name = none %}
+                                    {% if right.streams %}
+                                    {% if right.streams is mapping %}
+                                    {% set right_stream_name = right.streams.name %}
+                                    {% elif right.streams is sequence and right.streams is not string and right.streams|length > 0 %}
+                                    {% set right_stream_name = right.streams[0].name %}
+                                    {% endif %}
+                                    {% endif %}
+                                    {% if right_stream_name %}
+                                    <span class="{{ right_stream_name | capitalize }}-logo">
+                                        {{ right_stream_name | capitalize }}
                                     </span>
-                                    {% else %}
-
                                     {% endif %}
                                     <div class="details-container">
                                         <div class="comments-wrapper"
@@ -251,7 +262,7 @@
                                         </div>
                                         <span class="rightEpisode">E {{ right.episode | int }}</span>
                                         <span class="karma-change rightChange"
-                                            style="display: {% if right.karma_change == 0 %}none{% else %}flex{% endif %};{% if right.karma_change > 0 %}color: rgb(252, 103, 43);{% else %}color: rgb(146, 108, 202);{% endif %}">
+                                            style="display: {% if right.karma_change | int == 0 %}none{% else %}flex{% endif %};{% if right.karma_change | int > 0 %}color: rgb(252, 103, 43);{% else %}color: rgb(146, 108, 202);{% endif %}">
                                             {{ karma_change_indicator(right.karma_change) }}
                                         </span>
                                         <div class="right-ranking">
