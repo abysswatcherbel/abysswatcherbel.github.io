@@ -194,5 +194,53 @@
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.61,
+    "streams": null,
+    "episode": "1",
+    "karma": 81,
+    "comments": 102,
+    "week_id": 3,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1shqtvx/fist_of_the_north_star_hokuto_no_ken_episode_1/",
+    "mal_id": 56646,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.61,
+    "streams": null,
+    "episode": "2",
+    "karma": 47,
+    "comments": 34,
+    "week_id": 3,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1shrog7/fist_of_the_north_star_hokuto_no_ken_episode_2/",
+    "mal_id": 56646,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
   }
 ]
