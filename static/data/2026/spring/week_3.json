@@ -269,6 +269,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.07,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "2",
+    "karma": 9,
+    "comments": 6,
+    "week_id": 3,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1si4wo0/rilakkuma_episode_2_discussion/",
+    "mal_id": 60153,
+    "current_rank": 10,
+    "karma_change": -10,
+    "rank_change": 52,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1764/155312l.jpg",
       "medium": "https://myanimelist.net/images/anime/1764/155312.jpg"
     },
@@ -287,7 +324,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shuezq/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
