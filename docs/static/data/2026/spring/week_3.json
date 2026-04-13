@@ -127,6 +127,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 8.04,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "2",
+    "karma": 523,
+    "comments": 140,
+    "week_id": 3,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sifgl1/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 5,
+    "karma_change": -247,
+    "rank_change": 9,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
       "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
     },
@@ -149,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shlz3d/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -43,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -190,9 +227,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shp4rt/snowball_earth_episode_2_discussion/",
     "mal_id": 62068,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -79,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -214,7 +251,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shpz2t/the_drops_of_god_kami_no_shizuku_episode_1/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -238,7 +275,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shqtvx/fist_of_the_north_star_hokuto_no_ken_episode_1/",
     "mal_id": 56646,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -262,7 +299,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shrog7/fist_of_the_north_star_hokuto_no_ken_episode_2/",
     "mal_id": 56646,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -286,7 +323,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si8pbt/pok\u00e9mon_horizons_the_series_episode_133_discussion/",
     "mal_id": 53876,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -310,7 +347,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shycot/love_live_nijigasaki_high_school_idol_club_final/",
     "mal_id": 60159,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -347,9 +384,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si4wo0/rilakkuma_episode_2_discussion/",
     "mal_id": 60153,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -10,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -378,9 +415,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si96ct/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 4,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -403,7 +440,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si6go5/onegai_aipri_episode_1_discussion/",
     "mal_id": 63352,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -428,7 +465,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shuezq/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
