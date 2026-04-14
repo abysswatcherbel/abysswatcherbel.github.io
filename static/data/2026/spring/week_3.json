@@ -829,6 +829,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1594/154245l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1594/154245.jpg"
+    },
+    "title": "Diamond no Ace: Act II Second Season",
+    "title_english": "Ace of Diamond Act II Season 2",
+    "num_episodes": 0,
+    "score": 8.02,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "2",
+    "karma": 49,
+    "comments": 12,
+    "week_id": 3,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sj9hct/ace_of_the_diamond_act_ii_season_2_diamond_no_ace/",
+    "mal_id": 58877,
+    "current_rank": 25,
+    "karma_change": -80,
+    "rank_change": 22,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
       "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
     },
@@ -846,7 +883,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shrog7/fist_of_the_north_star_hokuto_no_ken_episode_2/",
     "mal_id": 56646,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -875,9 +912,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sj10pp/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 20,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -899,7 +936,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si8pbt/pok\u00e9mon_horizons_the_series_episode_133_discussion/",
     "mal_id": 53876,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -923,7 +960,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shycot/love_live_nijigasaki_high_school_idol_club_final/",
     "mal_id": 60159,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -960,9 +997,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si4wo0/rilakkuma_episode_2_discussion/",
     "mal_id": 60153,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -10,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -991,9 +1028,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si96ct/cardfight_vanguard_divinez_genma_seisenhen/",
     "mal_id": 62649,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 4,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -1021,7 +1058,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sj158g/saioshi_no_gikei_wo_mederu_tame_nagaiki_shimasu/",
     "mal_id": 61969,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1046,7 +1083,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1si6go5/onegai_aipri_episode_1_discussion/",
     "mal_id": 63352,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "new",
     "season": "spring"
@@ -1071,7 +1108,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1shuezq/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1104,9 +1141,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1signz0/meitantei_conan_case_closed_episode_1197/",
     "mal_id": 235,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": -4,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   }
 ]
