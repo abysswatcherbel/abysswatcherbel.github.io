@@ -173,6 +173,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.41,
+    "streams": null,
+    "episode": "3",
+    "karma": 50,
+    "comments": 23,
+    "week_id": 4,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1so5ab5/fist_of_the_north_star_hokuto_no_ken_episode_3/",
+    "mal_id": 56646,
+    "current_rank": 6,
+    "karma_change": 3,
+    "rank_change": 61,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -190,9 +214,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so4g5k/the_drops_of_god_kami_no_shizuku_episode_2/",
     "mal_id": 62981,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -47,
-    "rank_change": 47,
+    "rank_change": 46,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.41,
+    "streams": null,
+    "episode": "4",
+    "karma": 44,
+    "comments": 17,
+    "week_id": 4,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1so64jz/fist_of_the_north_star_hokuto_no_ken_episode_4/",
+    "mal_id": 56646,
+    "current_rank": 8,
+    "karma_change": -3,
+    "rank_change": 59,
     "season": "spring"
   }
 ]
