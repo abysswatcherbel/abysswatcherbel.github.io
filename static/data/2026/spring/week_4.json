@@ -1,6 +1,67 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
+    },
+    "title": "Tensei shitara Slime Datta Ken 4th Season",
+    "title_english": "That Time I Got Reincarnated as a Slime Season 4",
+    "num_episodes": 0,
+    "score": 8.17,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "3",
+    "karma": 951,
+    "comments": 365,
+    "week_id": 4,
+    "studio": [
+      "8bit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1so3ly3/that_time_i_got_reincarnated_as_a_slime_season_4/",
+    "mal_id": 59970,
+    "current_rank": 1,
+    "karma_change": -132,
+    "rank_change": 6,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1026/155965l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1026/155965.jpg"
+    },
+    "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+    "title_english": "Botan Kamiina Fully Blossoms When Drunk",
+    "num_episodes": 12,
+    "score": 7.62,
+    "streams": null,
+    "episode": "2",
+    "karma": 608,
+    "comments": 219,
+    "week_id": 4,
+    "studio": [
+      "Soigne"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1so4g63/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
+    "mal_id": 61186,
+    "current_rank": 2,
+    "karma_change": -15,
+    "rank_change": 15,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1989/154843l.jpg",
       "medium": "https://myanimelist.net/images/anime/1989/154843.jpg"
     },
@@ -35,9 +96,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so2s2j/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": -25,
-    "rank_change": 17,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -64,9 +125,74 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so0en6/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 17,
-    "rank_change": 25,
+    "rank_change": 23,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
+    },
+    "title": "Snowball Earth",
+    "title_english": "Snowball Earth",
+    "num_episodes": 13,
+    "score": 6.63,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "3",
+    "karma": 145,
+    "comments": 83,
+    "week_id": 4,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1so4g50/snowball_earth_episode_3_discussion/",
+    "mal_id": 62068,
+    "current_rank": 5,
+    "karma_change": -13,
+    "rank_change": 38,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 6.18,
+    "streams": null,
+    "episode": "2",
+    "karma": 47,
+    "comments": 17,
+    "week_id": 4,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1so4g5k/the_drops_of_god_kami_no_shizuku_episode_2/",
+    "mal_id": 62981,
+    "current_rank": 6,
+    "karma_change": -47,
+    "rank_change": 47,
     "season": "spring"
   }
 ]
