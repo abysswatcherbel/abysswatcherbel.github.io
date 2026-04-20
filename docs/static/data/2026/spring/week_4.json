@@ -367,6 +367,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1198",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
+    "mal_id": 235,
+    "current_rank": 13,
+    "karma_change": 0,
+    "rank_change": 77,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
