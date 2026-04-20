@@ -38,6 +38,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 8.04,
+    "streams": null,
+    "episode": "3",
+    "karma": 927,
+    "comments": 449,
+    "week_id": 4,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sot2im/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 2,
+    "karma_change": 6,
+    "rank_change": 7,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1026/155965l.jpg",
       "medium": "https://myanimelist.net/images/anime/1026/155965.jpg"
     },
@@ -55,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so4g63/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
     "mal_id": 61186,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -15,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -96,9 +120,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so2s2j/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -25,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -125,9 +149,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so0en6/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 17,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -166,9 +190,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so4g50/snowball_earth_episode_3_discussion/",
     "mal_id": 62068,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -13,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -190,9 +214,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so5ab5/fist_of_the_north_star_hokuto_no_ken_episode_3/",
     "mal_id": 56646,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 3,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "spring"
   },
   {
@@ -214,9 +238,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so4g5k/the_drops_of_god_kami_no_shizuku_episode_2/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -47,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   },
   {
@@ -238,9 +262,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so64jz/fist_of_the_north_star_hokuto_no_ken_episode_4/",
     "mal_id": 56646,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -3,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "spring"
   },
   {
@@ -262,9 +286,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sol48g/pok\u00e9mon_horizons_the_series_episode_134_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 3,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "spring"
   },
   {
@@ -299,9 +323,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sojaww/rilakkuma_episode_3_discussion/",
     "mal_id": 60153,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 1,
-    "rank_change": 70,
+    "rank_change": 69,
     "season": "spring"
   },
   {
@@ -324,9 +348,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -1,
-    "rank_change": 75,
+    "rank_change": 74,
     "season": "spring"
   }
 ]
