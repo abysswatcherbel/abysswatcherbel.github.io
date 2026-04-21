@@ -741,6 +741,47 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1666/150983l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1666/150983.jpg"
+    },
+    "title": "Niwatori Fighter",
+    "title_english": "Rooster Fighter",
+    "num_episodes": 0,
+    "score": 6.87,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "name": "Adult Swim",
+        "url": "https://www.adultswim.com/"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      }
+    ],
+    "episode": "6",
+    "karma": 64,
+    "comments": 27,
+    "week_id": 4,
+    "studio": [
+      "SANZIGEN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1spimjp/rooster_fighter_niwatori_fighter_episode_6/",
+    "mal_id": 59393,
+    "current_rank": 22,
+    "karma_change": 2,
+    "rank_change": 40,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
       "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
     },
@@ -758,9 +799,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so5ab5/fist_of_the_north_star_hokuto_no_ken_episode_3/",
     "mal_id": 56646,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 3,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "spring"
   },
   {
@@ -782,9 +823,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so4g5k/the_drops_of_god_kami_no_shizuku_episode_2/",
     "mal_id": 62981,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -47,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -806,9 +847,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so64jz/fist_of_the_north_star_hokuto_no_ken_episode_4/",
     "mal_id": 56646,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -3,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -835,9 +876,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1spfgmf/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -6,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "spring"
   },
   {
@@ -859,9 +900,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sol48g/pok\u00e9mon_horizons_the_series_episode_134_discussion/",
     "mal_id": 53876,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 3,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "spring"
   },
   {
@@ -896,9 +937,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sojaww/rilakkuma_episode_3_discussion/",
     "mal_id": 60153,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 1,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "spring"
   },
   {
@@ -929,9 +970,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
-    "rank_change": 62,
+    "rank_change": 61,
     "season": "spring"
   },
   {
@@ -954,9 +995,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -1,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   }
 ]
