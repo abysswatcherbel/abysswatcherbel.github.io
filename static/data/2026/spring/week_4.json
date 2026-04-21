@@ -772,6 +772,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.57,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "12",
+    "karma": 35,
+    "comments": 10,
+    "week_id": 4,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1spfgmf/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 24,
+    "karma_change": -6,
+    "rank_change": 45,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -789,9 +818,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sol48g/pok\u00e9mon_horizons_the_series_episode_134_discussion/",
     "mal_id": 53876,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 3,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -826,9 +855,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sojaww/rilakkuma_episode_3_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "spring"
   },
   {
@@ -859,9 +888,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "spring"
   },
   {
@@ -884,9 +913,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -1,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "spring"
   }
 ]
