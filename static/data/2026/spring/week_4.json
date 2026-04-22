@@ -1212,6 +1212,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1099/155721l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1099/155721.jpg"
+    },
+    "title": "Mahou no Shimai Lulutto Lilly",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.71,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "3",
+    "karma": 28,
+    "comments": 12,
+    "week_id": 4,
+    "studio": [
+      "Studio Pierrot"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sqa668/magical_sisters_lulutto_lilly_mahou_no_shimai/",
+    "mal_id": 59176,
+    "current_rank": 39,
+    "karma_change": -23,
+    "rank_change": 25,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1489/155658l.jpg",
       "medium": "https://myanimelist.net/images/anime/1489/155658.jpg"
     },
@@ -1242,9 +1271,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1spw7yl/ghost_concert_missing_songs_episode_3_discussion/",
     "mal_id": 62852,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -19,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -1279,9 +1308,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sojaww/rilakkuma_episode_3_discussion/",
     "mal_id": 60153,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "spring"
   },
   {
@@ -1312,9 +1341,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "spring"
   },
   {
@@ -1337,9 +1366,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -1,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "spring"
   }
 ]
