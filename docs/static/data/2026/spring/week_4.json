@@ -1447,6 +1447,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.52,
+    "streams": null,
+    "episode": "54",
+    "karma": 0,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sr9vb0/koupen_chan_episode_54_discussion/",
+    "mal_id": 60534,
+    "current_rank": 46,
+    "karma_change": -1,
+    "rank_change": 42,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1473,9 +1497,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "spring"
   },
   {
@@ -1498,9 +1522,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "spring"
   }
 ]
