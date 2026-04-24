@@ -1637,6 +1637,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1738/156028l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1738/156028.jpg"
+    },
+    "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Season 2",
+    "title_english": "The Beginning After the End Season 2",
+    "num_episodes": 0,
+    "score": 5.83,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end"
+      }
+    ],
+    "episode": "4",
+    "karma": 59,
+    "comments": 75,
+    "week_id": 4,
+    "studio": [
+      "Studio A-CAT"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ssq6b6/the_beginning_after_the_end_season_2_saikyou_no/",
+    "mal_id": 61831,
+    "current_rank": 51,
+    "karma_change": -17,
+    "rank_change": 8,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
       "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
     },
@@ -1654,9 +1683,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so5ab5/fist_of_the_north_star_hokuto_no_ken_episode_3/",
     "mal_id": 56646,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 3,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -1678,9 +1707,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so4g5k/the_drops_of_god_kami_no_shizuku_episode_2/",
     "mal_id": 62981,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -47,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "spring"
   },
   {
@@ -1715,9 +1744,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1spnvmk/ace_of_the_diamond_act_ii_season_2_diamond_no_ace/",
     "mal_id": 58877,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -2,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -1739,9 +1768,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1so64jz/fist_of_the_north_star_hokuto_no_ken_episode_4/",
     "mal_id": 56646,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -1768,9 +1797,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1spfgmf/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -6,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "spring"
   },
   {
@@ -1792,9 +1821,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sol48g/pok\u00e9mon_horizons_the_series_episode_134_discussion/",
     "mal_id": 53876,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 3,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -1821,9 +1850,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sqa668/magical_sisters_lulutto_lilly_mahou_no_shimai/",
     "mal_id": 59176,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -23,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -1858,9 +1887,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1spw7yl/ghost_concert_missing_songs_episode_3_discussion/",
     "mal_id": 62852,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -19,
-    "rank_change": 10,
+    "rank_change": 9,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1780/154909l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1780/154909.jpg"
+    },
+    "title": "Candy Caries",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 27,
+    "comments": 5,
+    "week_id": 4,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sspu0c/candy_caries_episode_2_discussion/",
+    "mal_id": 63276,
+    "current_rank": 60,
+    "karma_change": 2,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -1895,9 +1948,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sojaww/rilakkuma_episode_3_discussion/",
     "mal_id": 60153,
-    "current_rank": 59,
+    "current_rank": 61,
     "karma_change": 1,
-    "rank_change": 21,
+    "rank_change": 19,
     "season": "spring"
   },
   {
@@ -1929,9 +1982,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1srn8a4/beyond_twilight_hyakki_yakoushou_episode_3/",
     "mal_id": 63469,
-    "current_rank": 60,
+    "current_rank": 62,
     "karma_change": -3,
-    "rank_change": 22,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -1962,9 +2015,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sskx12/rentagirlfriend_season_5_kanojo_okarishimasu/",
     "mal_id": 62485,
-    "current_rank": 61,
+    "current_rank": 63,
     "karma_change": -1195,
-    "rank_change": -55,
+    "rank_change": -57,
     "season": "spring"
   },
   {
@@ -1986,9 +2039,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sr9vb0/koupen_chan_episode_54_discussion/",
     "mal_id": 60534,
-    "current_rank": 62,
+    "current_rank": 64,
     "karma_change": -1,
-    "rank_change": 26,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -2019,9 +2072,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 63,
+    "current_rank": 65,
     "karma_change": 0,
-    "rank_change": 27,
+    "rank_change": 25,
     "season": "spring"
   },
   {
@@ -2044,9 +2097,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 63,
+    "current_rank": 65,
     "karma_change": -1,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "spring"
   }
 ]
