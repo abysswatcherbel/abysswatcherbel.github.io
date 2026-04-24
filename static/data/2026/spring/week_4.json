@@ -1762,6 +1762,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1393/156075l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1393/156075.jpg"
+    },
+    "title": "Kanojo, Okarishimasu 5th Season",
+    "title_english": "Rent-a-Girlfriend Season 5",
+    "num_episodes": 0,
+    "score": 6.06,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "3",
+    "karma": 0,
+    "comments": 176,
+    "week_id": 4,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1sskx12/rentagirlfriend_season_5_kanojo_okarishimasu/",
+    "mal_id": 62485,
+    "current_rank": 56,
+    "karma_change": -1195,
+    "rank_change": -50,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1779,9 +1812,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sr9vb0/koupen_chan_episode_54_discussion/",
     "mal_id": 60534,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -1,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -1812,9 +1845,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -1837,9 +1870,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -1,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "spring"
   }
 ]
