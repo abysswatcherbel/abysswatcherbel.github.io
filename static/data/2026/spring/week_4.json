@@ -2030,6 +2030,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.52,
+    "streams": null,
+    "episode": "55",
+    "karma": 2,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1stb4es/koupen_chan_episode_55_discussion/",
+    "mal_id": 60534,
+    "current_rank": 64,
+    "karma_change": 1,
+    "rank_change": 24,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1393/156075l.jpg",
       "medium": "https://myanimelist.net/images/anime/1393/156075.jpg"
     },
@@ -2056,9 +2080,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sskx12/rentagirlfriend_season_5_kanojo_okarishimasu/",
     "mal_id": 62485,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -1195,
-    "rank_change": -58,
+    "rank_change": -59,
     "season": "spring"
   },
   {
@@ -2080,9 +2104,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sr9vb0/koupen_chan_episode_54_discussion/",
     "mal_id": 60534,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -1,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -2113,9 +2137,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "spring"
   },
   {
@@ -2138,9 +2162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": -1,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "spring"
   }
 ]
