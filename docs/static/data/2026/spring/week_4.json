@@ -2284,6 +2284,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "61",
+    "karma": 9,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1stwezs/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 72,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1056/154990l.jpg",
       "medium": "https://myanimelist.net/images/anime/1056/154990.jpg"
     },
@@ -2311,9 +2335,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1stpis6/monster_eater_mamonogurai_no_boukensha_ore_dake/",
     "mal_id": 63304,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": -4,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -2345,9 +2369,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1srn8a4/beyond_twilight_hyakki_yakoushou_episode_3/",
     "mal_id": 63469,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": -3,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -2369,9 +2393,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1stb4es/koupen_chan_episode_55_discussion/",
     "mal_id": 60534,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 1,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "spring"
   },
   {
@@ -2391,9 +2415,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1sti9r5/ganso_bandorichan_ganso_bang_dream_chan_episode/",
     "mal_id": 61107,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": -6,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "spring"
   },
   {
@@ -2424,9 +2448,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sskx12/rentagirlfriend_season_5_kanojo_okarishimasu/",
     "mal_id": 62485,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": -1195,
-    "rank_change": -70,
+    "rank_change": -71,
     "season": "spring"
   },
   {
@@ -2448,9 +2472,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sr9vb0/koupen_chan_episode_54_discussion/",
     "mal_id": 60534,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": -1,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "spring"
   },
   {
@@ -2481,9 +2505,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sov860/meitantei_conan_case_closed_episode_1198/",
     "mal_id": 235,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": 0,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "spring"
   },
   {
@@ -2506,9 +2530,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sogljf/onegai_aipri_episode_2_discussion/",
     "mal_id": 63352,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": -1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "spring"
   }
 ]
