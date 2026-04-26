@@ -1,6 +1,47 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1989/154843l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1989/154843.jpg"
+    },
+    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2",
+    "title_english": "The Angel Next Door Spoils Me Rotten 2",
+    "num_episodes": 12,
+    "score": 7.94,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "4",
+    "karma": 486,
+    "comments": 138,
+    "week_id": 5,
+    "studio": [
+      "Project No.9"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1suhf0z/the_angel_next_door_spoils_me_rotten_season_2/",
+    "mal_id": 56876,
+    "current_rank": 1,
+    "karma_change": -86,
+    "rank_change": 14,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
       "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
     },
@@ -23,9 +64,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suf43b/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -60,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -45,9 +86,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1su6ogh/rezero_starting_break_time_from_zero_season_4/",
     "mal_id": 63830,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -16,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "spring"
   },
   {
@@ -69,7 +110,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1su3rar/beyblade_x_episode_123_discussion/",
     "mal_id": 56566,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
