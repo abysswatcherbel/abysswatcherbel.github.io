@@ -7,7 +7,7 @@
     "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "title_english": "Re:ZERO -Starting Life in Another World- Season 4",
     "num_episodes": 19,
-    "score": 8.8,
+    "score": 8.9,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -44,7 +44,7 @@
     "title": "Tongari Boushi no Atelier",
     "title_english": "Witch Hat Atelier",
     "num_episodes": 0,
-    "score": 8.73,
+    "score": 8.7,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -77,7 +77,7 @@
     "title": "Yomi no Tsugai",
     "title_english": "Daemons of the Shadow Realm",
     "num_episodes": 24,
-    "score": 8.06,
+    "score": 8.04,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -122,8 +122,21 @@
     "title": "Tsue to Tsurugi no Wistoria Season 2",
     "title_english": "Wistoria: Wand and Sword Season 2",
     "num_episodes": 0,
-    "score": 8.01,
-    "streams": null,
+    "score": 8.07,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "2",
     "karma": 1068,
     "comments": 382,
@@ -147,7 +160,7 @@
     "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
     "title_english": "I Made Friends with the Second Prettiest Girl in My Class",
     "num_episodes": 12,
-    "score": 7.59,
+    "score": 7.69,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -176,7 +189,7 @@
     "title": "Akane-banashi",
     "title_english": "",
     "num_episodes": 0,
-    "score": 8.01,
+    "score": 7.95,
     "streams": [
       {
         "name": "Netflix",
@@ -241,7 +254,7 @@
     "title": "Marriagetoxin",
     "title_english": "Marriagetoxin",
     "num_episodes": 0,
-    "score": 7.6,
+    "score": 7.62,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -278,7 +291,7 @@
     "title": "Tensei shitara Slime Datta Ken 4th Season",
     "title_english": "That Time I Got Reincarnated as a Slime Season 4",
     "num_episodes": 0,
-    "score": 8.17,
+    "score": 8.15,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -315,8 +328,17 @@
     "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
     "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
     "num_episodes": 0,
-    "score": 8.04,
-    "streams": null,
+    "score": 8,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
     "episode": "3",
     "karma": 927,
     "comments": 449,
@@ -339,8 +361,13 @@
     "title": "Koori no Jouheki",
     "title_english": "The Ramparts of Ice",
     "num_episodes": 0,
-    "score": 7.72,
-    "streams": null,
+    "score": 7.75,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
     "episode": "4",
     "karma": 861,
     "comments": 398,
@@ -363,7 +390,7 @@
     "title": "Dorohedoro Season 2",
     "title_english": "",
     "num_episodes": 0,
-    "score": 8.35,
+    "score": 8.39,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -408,7 +435,7 @@
     "title": "Nippon Sangoku",
     "title_english": "Nippon Sangoku: The Three Nations of the Crimson Sun",
     "num_episodes": 0,
-    "score": 8.43,
+    "score": 8.46,
     "streams": null,
     "episode": "3",
     "karma": 744,
@@ -432,7 +459,7 @@
     "title": "Otaku ni Yasashii Gal wa Inai!?",
     "title_english": "Gals Can't Be Kind to Otaku!?",
     "num_episodes": 0,
-    "score": 7.59,
+    "score": 7.61,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -461,8 +488,21 @@
     "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
     "title_english": "Botan Kamiina Fully Blossoms When Drunk",
     "num_episodes": 12,
-    "score": 7.62,
-    "streams": null,
+    "score": 7.66,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371890/botan-kamiina-fully-blossoms-when-drunk"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "2",
     "karma": 608,
     "comments": 219,
@@ -485,7 +525,7 @@
     "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2",
     "title_english": "The Angel Next Door Spoils Me Rotten 2",
     "num_episodes": 12,
-    "score": 8.04,
+    "score": 7.94,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -526,7 +566,7 @@
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
     "title_english": "Classroom of the Elite 4th Season: Second Year, First Semester",
     "num_episodes": 16,
-    "score": 8.21,
+    "score": 8.17,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -637,7 +677,7 @@
     "title": "Shunkashuutou Daikousha: Haru no Mai",
     "title_english": "Agents of the Four Seasons: Dance of Spring",
     "num_episodes": 0,
-    "score": 7.79,
+    "score": 7.76,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -715,7 +755,7 @@
     "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
     "title_english": "The Klutzy Class Monitor and the Girl with the Short Skirt",
     "num_episodes": 0,
-    "score": 7.51,
+    "score": 7.49,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -749,7 +789,16 @@
     "title_english": "I Want to End this Love Game",
     "num_episodes": 0,
     "score": 7.28,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371779/i-want-to-end-this-love-game"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
     "episode": "2",
     "karma": 470,
     "comments": 116,
@@ -772,7 +821,7 @@
     "title": "Kanan-sama wa Akumade Choroi",
     "title_english": "Mistress Kanan is Devilishly Easy",
     "num_episodes": 12,
-    "score": 7.15,
+    "score": 7.08,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -809,7 +858,7 @@
     "title": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
     "title_english": "An Observation Log of My Fianc\u00e9e Who Calls Herself a Villainess",
     "num_episodes": 0,
-    "score": 7.27,
+    "score": 7.28,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -838,7 +887,7 @@
     "title": "Liar Game",
     "title_english": "Liar Game",
     "num_episodes": 0,
-    "score": 6.84,
+    "score": 6.58,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -867,7 +916,7 @@
     "title": "Re:Zero kara Hajimeru Break Time 4th Season",
     "title_english": "Re:ZERO ~Starting Break Time From Zero~ Season 4",
     "num_episodes": 0,
-    "score": 6.73,
+    "score": 6.92,
     "streams": null,
     "episode": "2",
     "karma": 320,
@@ -889,7 +938,7 @@
     "title": "Himekishi wa Barbaroi no Yome",
     "title_english": "The Warrior Princess and the Barbaric King",
     "num_episodes": 12,
-    "score": 6.95,
+    "score": 6.93,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -922,7 +971,7 @@
     "title": "Replica datte, Koi wo Suru.",
     "title_english": "Even a Replica Can Fall in Love",
     "num_episodes": 13,
-    "score": 6.92,
+    "score": 6.9,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -951,8 +1000,13 @@
     "title": "Megami \"Isekai Tensei Nani ni Naritai desu ka\" Ore \"Yuusha no Rokkotsu de\"",
     "title_english": "My Ribdiculous Reincarnation",
     "num_episodes": 0,
-    "score": 6.26,
-    "streams": null,
+    "score": 6.36,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371665/my-ribdiculous-reincarnation"
+      }
+    ],
     "episode": "3",
     "karma": 261,
     "comments": 91,
@@ -976,7 +1030,7 @@
     "title": "Isekai Nonbiri Nouka 2",
     "title_english": "Farming Life in Another World Season 2",
     "num_episodes": 0,
-    "score": 7.61,
+    "score": 7.56,
     "streams": [
       {
         "name": "HIDIVE",
@@ -1013,8 +1067,17 @@
     "title": "Yowayowa Sensei",
     "title_english": "Yowayowa Teacher",
     "num_episodes": 12,
-    "score": 6.61,
-    "streams": null,
+    "score": 6.58,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
     "episode": "2",
     "karma": 246,
     "comments": 78,
@@ -1037,8 +1100,21 @@
     "title": "Kuroneko to Majo no Kyoushitsu",
     "title_english": "The Classroom of a Black Cat and a Witch",
     "num_episodes": 0,
-    "score": 6.84,
-    "streams": null,
+    "score": 6.81,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00374357/the-classroom-of-a-black-cat-and-a-witch"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 238,
     "comments": 57,
@@ -1061,7 +1137,7 @@
     "title": "Kill Ao",
     "title_english": "Kill Blue",
     "num_episodes": 12,
-    "score": 7.41,
+    "score": 7.54,
     "streams": null,
     "episode": "2",
     "karma": 227,
@@ -1085,7 +1161,7 @@
     "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.32,
+    "score": 7.31,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1118,7 +1194,7 @@
     "title": "Awajima Hyakkei",
     "title_english": "A Hundred Scenes of Awajima",
     "num_episodes": 12,
-    "score": 6.86,
+    "score": 6.95,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1155,7 +1231,7 @@
     "title": "Ganbare! Nakamura-kun!!",
     "title_english": "Go For It, Nakamura!",
     "num_episodes": 13,
-    "score": 7.81,
+    "score": 7.8,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1196,7 +1272,7 @@
     "title": "Mao",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.16,
+    "score": 7.14,
     "streams": [
       {
         "name": "Ani-One Asia",
@@ -1266,7 +1342,7 @@
     "title": "Kirio Fanclub",
     "title_english": "Kirio Fan Club",
     "num_episodes": 12,
-    "score": 6.21,
+    "score": 6.22,
     "streams": [
       {
         "name": "HIDIVE",
@@ -1366,7 +1442,7 @@
     "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
     "title_english": "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
     "num_episodes": 0,
-    "score": 6.44,
+    "score": 6.35,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1436,7 +1512,7 @@
     "title": "Snowball Earth",
     "title_english": "Snowball Earth",
     "num_episodes": 13,
-    "score": 6.63,
+    "score": 6.61,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1477,7 +1553,7 @@
     "title": "Haibara-kun no Tsuyokute Seishun New Game",
     "title_english": "Haibara's Teenage New Game+",
     "num_episodes": 12,
-    "score": 6.76,
+    "score": 6.7,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1507,7 +1583,12 @@
     "title_english": "Mission: Yozakura Family Season 2",
     "num_episodes": 0,
     "score": 7.69,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 134,
     "comments": 36,
@@ -1530,7 +1611,7 @@
     "title": "Hidarikiki no Eren",
     "title_english": "Eren the Southpaw",
     "num_episodes": 13,
-    "score": 6.48,
+    "score": 6.4,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1564,7 +1645,7 @@
     "title": "Kami no Niwatsuki Kusunoki-tei",
     "title_english": "Kusunoki's Garden of Gods",
     "num_episodes": 12,
-    "score": 7.41,
+    "score": 7.43,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1631,7 +1712,7 @@
     "title": "Ichijouma Mankitsugurashi!",
     "title_english": "",
     "num_episodes": 0,
-    "score": 6.58,
+    "score": 6.52,
     "streams": null,
     "episode": "2",
     "karma": 109,
@@ -1655,7 +1736,7 @@
     "title": "Reincarnation no Kaben",
     "title_english": "Petals of Reincarnation",
     "num_episodes": 0,
-    "score": 6.28,
+    "score": 6.19,
     "streams": [
       {
         "name": "HIDIVE",
@@ -1688,7 +1769,7 @@
     "title": "Digimon Beatbreak",
     "title_english": "Digimon Beatbreak",
     "num_episodes": 0,
-    "score": 7.17,
+    "score": 7.18,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1753,7 +1834,7 @@
     "title": "Marika-chan no Koukando wa Bukkowareteiru",
     "title_english": "Marika's Love Meter Malfunction",
     "num_episodes": 0,
-    "score": 5.56,
+    "score": 5.43,
     "streams": [
       {
         "name": "OceanVeil",
@@ -1782,7 +1863,7 @@
     "title": "Ingoku Danchi",
     "title_english": "",
     "num_episodes": 0,
-    "score": 5.62,
+    "score": 5.53,
     "streams": [
       {
         "name": "Bahamut Anime Crazy",
@@ -1811,7 +1892,7 @@
     "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
     "title_english": "",
     "num_episodes": 4,
-    "score": 7.33,
+    "score": 7.12,
     "streams": null,
     "episode": "7",
     "karma": 66,
@@ -1836,7 +1917,7 @@
     "title": "Niwatori Fighter",
     "title_english": "Rooster Fighter",
     "num_episodes": 0,
-    "score": 6.87,
+    "score": 6.85,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1877,7 +1958,7 @@
     "title": "Tadaima, Ojamasaremasu!",
     "title_english": "Pardon the Intrusion, I'm Home!",
     "num_episodes": 0,
-    "score": 6.55,
+    "score": 6.53,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1906,7 +1987,7 @@
     "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Season 2",
     "title_english": "The Beginning After the End Season 2",
     "num_episodes": 0,
-    "score": 5.83,
+    "score": 5.76,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1935,7 +2016,7 @@
     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
     "title_english": "Killed Again, Mr. Detective.",
     "num_episodes": 0,
-    "score": 6.47,
+    "score": 6.35,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -1964,7 +2045,7 @@
     "title": "Hokuto no Ken: Fist of the North Star",
     "title_english": "",
     "num_episodes": 0,
-    "score": 6.41,
+    "score": 6.39,
     "streams": null,
     "episode": "3",
     "karma": 50,
@@ -2026,7 +2107,16 @@
     "title_english": "The Drops of God",
     "num_episodes": 24,
     "score": 6.18,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 47,
     "comments": 17,
@@ -2049,7 +2139,7 @@
     "title": "Diamond no Ace: Act II Second Season",
     "title_english": "Ace of Diamond Act II Season 2",
     "num_episodes": 0,
-    "score": 8.06,
+    "score": 8.08,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -2086,7 +2176,7 @@
     "title": "Hokuto no Ken: Fist of the North Star",
     "title_english": "",
     "num_episodes": 0,
-    "score": 6.41,
+    "score": 6.39,
     "streams": null,
     "episode": "4",
     "karma": 44,
@@ -2110,7 +2200,7 @@
     "title": "Meitantei Precure!",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.57,
+    "score": 7.6,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -2163,7 +2253,7 @@
     "title": "Mahou no Shimai Lulutto Lilly",
     "title_english": "",
     "num_episodes": 0,
-    "score": 6.71,
+    "score": 6.77,
     "streams": [
       {
         "name": "Bahamut Anime Crazy",
@@ -2192,7 +2282,7 @@
     "title": "Ghost Concert: Missing Songs",
     "title_english": "Ghost Concert: Missing Songs",
     "num_episodes": 12,
-    "score": 5.8,
+    "score": 5.65,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -2253,7 +2343,7 @@
     "title": "Rilakkuma",
     "title_english": "Rilakkuma",
     "num_episodes": 0,
-    "score": 6.03,
+    "score": 6.1,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -2314,7 +2404,7 @@
     "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
     "title_english": "",
     "num_episodes": 0,
-    "score": 3.9,
+    "score": 3.89,
     "streams": [
       {
         "name": "Ani-One Asia",
@@ -2348,7 +2438,7 @@
     "title": "Hyakki Yakoushou",
     "title_english": "",
     "num_episodes": 0,
-    "score": 5.41,
+    "score": 5.38,
     "streams": [
       {
         "name": "Ani-One Asia",
@@ -2382,7 +2472,7 @@
     "title": "Koupen-chan",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.52,
+    "score": 7.53,
     "streams": null,
     "episode": "55",
     "karma": 2,
@@ -2406,7 +2496,7 @@
     "title": "Ganzo! Bandori-chan",
     "title_english": "BanG Dream-chan",
     "num_episodes": 52,
-    "score": 6.89,
+    "score": 6.92,
     "streams": null,
     "episode": "29",
     "karma": 1,
@@ -2428,7 +2518,7 @@
     "title": "Kanojo, Okarishimasu 5th Season",
     "title_english": "Rent-a-Girlfriend Season 5",
     "num_episodes": 0,
-    "score": 6.06,
+    "score": 5.97,
     "streams": [
       {
         "name": "Crunchyroll",
@@ -2461,7 +2551,7 @@
     "title": "Koupen-chan",
     "title_english": "",
     "num_episodes": 0,
-    "score": 7.52,
+    "score": 7.53,
     "streams": null,
     "episode": "54",
     "karma": 0,
