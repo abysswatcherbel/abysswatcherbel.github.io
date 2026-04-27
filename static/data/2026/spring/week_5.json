@@ -259,6 +259,47 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1457/155524l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1457/155524.jpg"
+    },
+    "title": "Shunkashuutou Daikousha: Haru no Mai",
+    "title_english": "Agents of the Four Seasons: Dance of Spring",
+    "num_episodes": 0,
+    "score": 7.76,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "5",
+    "karma": 479,
+    "comments": 153,
+    "week_id": 5,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1svgtts/agents_of_the_four_seasons_dance_of_spring/",
+    "mal_id": 61443,
+    "current_rank": 7,
+    "karma_change": -20,
+    "rank_change": 12,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
       "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
     },
@@ -289,9 +330,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sv8kun/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -64,
-    "rank_change": 13,
+    "rank_change": 12,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1681/154996l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1681/154996.jpg"
+    },
+    "title": "Kanan-sama wa Akumade Choroi",
+    "title_english": "Mistress Kanan is Devilishly Easy",
+    "num_episodes": 12,
+    "score": 7.08,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "4",
+    "karma": 396,
+    "comments": 111,
+    "week_id": 5,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1svg1o7/mistress_kanan_is_devilishly_easy_kanansama_wa/",
+    "mal_id": 61501,
+    "current_rank": 9,
+    "karma_change": -71,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -318,9 +396,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suf43b/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -60,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -340,9 +418,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1su6ogh/rezero_starting_break_time_from_zero_season_4/",
     "mal_id": 63830,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -16,
-    "rank_change": 17,
+    "rank_change": 15,
     "season": "spring"
   },
   {
@@ -364,9 +442,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svdr8v/kill_blue_kill_ao_episode_3_discussion/",
     "mal_id": 62391,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 3,
-    "rank_change": 23,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -397,9 +475,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svbnwl/yowayowa_teacher_yowayowa_sensei_episode_3/",
     "mal_id": 60444,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -80,
-    "rank_change": 20,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -426,9 +504,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svcase/the_strongest_job_is_apparently_not_a_hero_or_a/",
     "mal_id": 62825,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": -10,
-    "rank_change": 30,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -459,9 +537,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svfq84/mao_episode_4_discussion/",
     "mal_id": 62048,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": -55,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -500,9 +578,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suieez/snowball_earth_episode_4_discussion/",
     "mal_id": 62068,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": -17,
-    "rank_change": 30,
+    "rank_change": 28,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1974/156105l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1974/156105.jpg"
+    },
+    "title": "Kami no Niwatsuki Kusunoki-tei",
+    "title_english": "Kusunoki's Garden of Gods",
+    "num_episodes": 12,
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "4",
+    "karma": 99,
+    "comments": 34,
+    "week_id": 5,
+    "studio": [
+      "Juvenage"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1svgtup/kusunokis_garden_of_gods_kami_no_niwatsuki/",
+    "mal_id": 62050,
+    "current_rank": 17,
+    "karma_change": -16,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -524,9 +639,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suk2e9/fist_of_the_north_star_hokuto_no_ken_episode_5/",
     "mal_id": 56646,
-    "current_rank": 15,
+    "current_rank": 18,
     "karma_change": 7,
-    "rank_change": 50,
+    "rank_change": 47,
     "season": "spring"
   },
   {
@@ -557,9 +672,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suj86w/the_drops_of_god_kami_no_shizuku_episode_3/",
     "mal_id": 62981,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": -4,
-    "rank_change": 47,
+    "rank_change": 44,
     "season": "spring"
   },
   {
@@ -581,9 +696,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suwlyb/pok\u00e9mon_horizons_the_series_episode_135_discussion/",
     "mal_id": 53876,
-    "current_rank": 17,
+    "current_rank": 20,
     "karma_change": 2,
-    "rank_change": 50,
+    "rank_change": 47,
     "season": "spring"
   },
   {
@@ -618,9 +733,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suxs75/rilakkuma_episode_4_discussion/",
     "mal_id": 60153,
-    "current_rank": 18,
+    "current_rank": 21,
     "karma_change": 1,
-    "rank_change": 53,
+    "rank_change": 50,
     "season": "spring"
   },
   {
@@ -643,7 +758,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svbqlr/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 19,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -667,7 +782,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1su3rar/beyblade_x_episode_123_discussion/",
     "mal_id": 56566,
-    "current_rank": 20,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -700,9 +815,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sv9ogf/meitantei_conan_case_closed_episode_1199/",
     "mal_id": 235,
-    "current_rank": 21,
+    "current_rank": 24,
     "karma_change": 2,
-    "rank_change": 58,
+    "rank_change": 55,
     "season": "spring"
   },
   {
@@ -725,9 +840,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sveijn/onegai_aipri_episode_3_discussion/",
     "mal_id": 63352,
-    "current_rank": 22,
+    "current_rank": 25,
     "karma_change": 1,
-    "rank_change": 57,
+    "rank_change": 54,
     "season": "spring"
   }
 ]
