@@ -704,6 +704,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "28",
+    "karma": 83,
+    "comments": 36,
+    "week_id": 5,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1svvsod/digimon_beatbreak_episode_28_discussion/",
+    "mal_id": 61269,
+    "current_rank": 20,
+    "karma_change": -7,
+    "rank_change": 32,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1178/155933l.jpg",
       "medium": "https://myanimelist.net/images/anime/1178/155933.jpg"
     },
@@ -721,9 +762,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svi29l/ichijyoma_mankitsu_gurashi_episode_3_discussion/",
     "mal_id": 62018,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -36,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -745,9 +786,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suk2e9/fist_of_the_north_star_hokuto_no_ken_episode_5/",
     "mal_id": 56646,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 7,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "spring"
   },
   {
@@ -778,9 +819,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suj86w/the_drops_of_god_kami_no_shizuku_episode_3/",
     "mal_id": 62981,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -4,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -802,9 +843,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suwlyb/pok\u00e9mon_horizons_the_series_episode_135_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 2,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "spring"
   },
   {
@@ -831,9 +872,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svu7rw/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -14,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   },
   {
@@ -868,9 +909,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suxs75/rilakkuma_episode_4_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   },
   {
@@ -893,7 +934,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svbqlr/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -917,7 +958,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1su3rar/beyblade_x_episode_123_discussion/",
     "mal_id": 56566,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -950,9 +991,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sv9ogf/meitantei_conan_case_closed_episode_1199/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 2,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "spring"
   },
   {
@@ -975,9 +1016,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sveijn/onegai_aipri_episode_3_discussion/",
     "mal_id": 63352,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 1,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   }
 ]
