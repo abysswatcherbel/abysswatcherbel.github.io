@@ -1176,6 +1176,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1099/155721l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1099/155721.jpg"
+    },
+    "title": "Mahou no Shimai Lulutto Lilly",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.77,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "4",
+    "karma": 23,
+    "comments": 6,
+    "week_id": 5,
+    "studio": [
+      "Studio Pierrot"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1swolcf/magical_sisters_lulutto_lilly_mahou_no_shimai/",
+    "mal_id": 59176,
+    "current_rank": 35,
+    "karma_change": -5,
+    "rank_change": 33,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
     },
@@ -1198,9 +1227,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svu7rw/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": -14,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -1235,9 +1264,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1suxs75/rilakkuma_episode_4_discussion/",
     "mal_id": 60153,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 1,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "spring"
   },
   {
@@ -1272,9 +1301,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1swan7h/ghost_concert_missing_songs_episode_4_discussion/",
     "mal_id": 62852,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": -21,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -1297,7 +1326,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1svbqlr/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1321,9 +1350,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1swmbxi/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -4,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -1345,7 +1374,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1su3rar/beyblade_x_episode_123_discussion/",
     "mal_id": 56566,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1378,9 +1407,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sv9ogf/meitantei_conan_case_closed_episode_1199/",
     "mal_id": 235,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 2,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -1403,9 +1432,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1sveijn/onegai_aipri_episode_3_discussion/",
     "mal_id": 63352,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 1,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   }
 ]
