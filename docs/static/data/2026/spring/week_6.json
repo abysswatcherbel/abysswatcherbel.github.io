@@ -1,6 +1,43 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1026/155965l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1026/155965.jpg"
+    },
+    "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+    "title_english": "Botan Kamiina Fully Blossoms When Drunk",
+    "num_episodes": 12,
+    "score": 7.68,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371890/botan-kamiina-fully-blossoms-when-drunk"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "4",
+    "karma": 579,
+    "comments": 249,
+    "week_id": 6,
+    "studio": [
+      "Soigne"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t0wtl7/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
+    "mal_id": 61186,
+    "current_rank": 1,
+    "karma_change": -36,
+    "rank_change": 13,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1989/154843l.jpg",
       "medium": "https://myanimelist.net/images/anime/1989/154843.jpg"
     },
@@ -35,9 +72,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0v6e5/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -106,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "spring"
   },
   {
@@ -64,9 +101,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0svia/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 34,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -88,9 +125,83 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0dfjh/tensei_shitara_slime_datta_ken_movie_sokai_no/",
     "mal_id": 59971,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
+    },
+    "title": "Snowball Earth",
+    "title_english": "Snowball Earth",
+    "num_episodes": 13,
+    "score": 6.64,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "5",
+    "karma": 142,
+    "comments": 57,
+    "week_id": 6,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t0w5n2/snowball_earth_episode_5_discussion/",
+    "mal_id": 62068,
+    "current_rank": 5,
+    "karma_change": 14,
+    "rank_change": 41,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 6.13,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "4",
+    "karma": 34,
+    "comments": 17,
+    "week_id": 6,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t0wtko/the_drops_of_god_kami_no_shizuku_episode_4/",
+    "mal_id": 62981,
+    "current_rank": 6,
+    "karma_change": -9,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -112,9 +223,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0fmph/beyblade_x_episode_124_discussion/",
     "mal_id": 56566,
-    "current_rank": 4,
+    "current_rank": 7,
     "karma_change": -3,
-    "rank_change": 73,
+    "rank_change": 70,
     "season": "spring"
   }
 ]
