@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1273/156615l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1273/156615.jpg"
+    },
+    "title": "Boku no Hero Academia: More",
+    "title_english": "My Hero Academia: More",
+    "num_episodes": 1,
+    "score": 7.77,
+    "streams": null,
+    "episode": "1",
+    "karma": 1380,
+    "comments": 457,
+    "week_id": 6,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t1m81r/my_hero_academia_more_boku_no_hero_academia_more/",
+    "mal_id": 63130,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1026/155965l.jpg",
       "medium": "https://myanimelist.net/images/anime/1026/155965.jpg"
     },
@@ -31,9 +55,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0wtl7/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
     "mal_id": 61186,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -36,
-    "rank_change": 13,
+    "rank_change": 12,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 8.04,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "5",
+    "karma": 457,
+    "comments": 120,
+    "week_id": 6,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t1m7hk/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 3,
+    "karma_change": 45,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -72,9 +133,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0v6e5/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -106,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -101,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0svia/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 34,
-    "rank_change": 22,
+    "rank_change": 20,
     "season": "spring"
   },
   {
@@ -125,7 +186,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0dfjh/tensei_shitara_slime_datta_ken_movie_sokai_no/",
     "mal_id": 59971,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -166,9 +227,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0w5n2/snowball_earth_episode_5_discussion/",
     "mal_id": 62068,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 14,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "spring"
   },
   {
@@ -190,9 +251,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0xnny/fist_of_the_north_star_hokuto_no_ken_episode_6/",
     "mal_id": 56646,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -11,
-    "rank_change": 55,
+    "rank_change": 53,
     "season": "spring"
   },
   {
@@ -223,9 +284,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0wtko/the_drops_of_god_kami_no_shizuku_episode_4/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -9,
-    "rank_change": 56,
+    "rank_change": 54,
     "season": "spring"
   },
   {
@@ -247,9 +308,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1c7g8/pok\u00e9mon_horizons_the_series_episode_136_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 0,
-    "rank_change": 57,
+    "rank_change": 55,
     "season": "spring"
   },
   {
@@ -284,9 +345,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1bk7k/rilakkuma_episode_5_discussion/",
     "mal_id": 60153,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -2,
-    "rank_change": 63,
+    "rank_change": 61,
     "season": "spring"
   },
   {
@@ -308,9 +369,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0fmph/beyblade_x_episode_124_discussion/",
     "mal_id": 56566,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -3,
-    "rank_change": 67,
+    "rank_change": 65,
     "season": "spring"
   },
   {
@@ -333,9 +394,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t18vpz/onegai_aipri_episode_4_discussion/",
     "mal_id": 63352,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -1,
-    "rank_change": 68,
+    "rank_change": 66,
     "season": "spring"
   }
 ]
