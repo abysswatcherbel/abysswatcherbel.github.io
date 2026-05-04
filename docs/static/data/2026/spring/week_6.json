@@ -352,6 +352,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1200",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t1nfll/meitantei_conan_case_closed_episode_1200/",
+    "mal_id": 235,
+    "current_rank": 12,
+    "karma_change": 6,
+    "rank_change": 66,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -369,9 +402,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0fmph/beyblade_x_episode_124_discussion/",
     "mal_id": 56566,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "spring"
   },
   {
@@ -394,9 +427,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t18vpz/onegai_aipri_episode_4_discussion/",
     "mal_id": 63352,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -1,
-    "rank_change": 66,
+    "rank_change": 65,
     "season": "spring"
   }
 ]
