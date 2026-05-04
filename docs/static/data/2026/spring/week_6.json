@@ -1,6 +1,51 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1171/156397l.webp",
+      "medium": "https://myanimelist.net/images/anime/1171/156397.webp"
+    },
+    "title": "Yomi no Tsugai",
+    "title_english": "Daemons of the Shadow Realm",
+    "num_episodes": 24,
+    "score": 8.03,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "5",
+    "karma": 1536,
+    "comments": 563,
+    "week_id": 6,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t1sccz/daemons_of_the_shadow_realm_yomi_no_tsugai/",
+    "mal_id": 62001,
+    "current_rank": 1,
+    "karma_change": 43,
+    "rank_change": 2,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1273/156615l.jpg",
       "medium": "https://myanimelist.net/images/anime/1273/156615.jpg"
     },
@@ -18,9 +63,74 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1m81r/my_hero_academia_more_boku_no_hero_academia_more/",
     "mal_id": 63130,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1162/155669l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1162/155669.jpg"
+    },
+    "title": "Akane-banashi",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.91,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Anime Digital Network",
+        "url": "https://animedigitalnetwork.fr/"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Aniverse",
+        "url": "https://www.amazon.de/b/?_encoding=UTF8&benefitId=aniversede&node=3010075031"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Laftel",
+        "url": "https://laftel.net/"
+      },
+      {
+        "name": "TrueID",
+        "url": "https://home.trueid.net/"
+      }
+    ],
+    "episode": "5",
+    "karma": 813,
+    "comments": 181,
+    "week_id": 6,
+    "studio": [
+      "Zexcs"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t1ta85/akanebanashi_episode_5_discussion/",
+    "mal_id": 62164,
+    "current_rank": 3,
+    "karma_change": -19,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -55,9 +165,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0wtl7/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
     "mal_id": 61186,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -36,
-    "rank_change": 12,
+    "rank_change": 10,
     "season": "spring"
   },
   {
@@ -92,9 +202,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1m7hk/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 45,
-    "rank_change": 18,
+    "rank_change": 16,
     "season": "spring"
   },
   {
@@ -133,9 +243,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0v6e5/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": -106,
-    "rank_change": 14,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -162,9 +272,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0svia/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 34,
-    "rank_change": 20,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -186,9 +296,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1rkbm/kill_blue_kill_ao_episode_4_discussion/",
     "mal_id": 62391,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -38,
-    "rank_change": 27,
+    "rank_change": 25,
     "season": "spring"
   },
   {
@@ -219,9 +329,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1pco8/yowayowa_teacher_yowayowa_sensei_episode_4/",
     "mal_id": 60444,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 6,
-    "rank_change": 33,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -243,7 +353,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0dfjh/tensei_shitara_slime_datta_ken_movie_sokai_no/",
     "mal_id": 59971,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -284,9 +394,42 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0w5n2/snowball_earth_episode_5_discussion/",
     "mal_id": 62068,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 14,
-    "rank_change": 37,
+    "rank_change": 35,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1738/156386l.webp",
+      "medium": "https://myanimelist.net/images/anime/1738/156386.webp"
+    },
+    "title": "Mao",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.09,
+    "streams": [
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "5",
+    "karma": 140,
+    "comments": 48,
+    "week_id": 6,
+    "studio": [
+      "Sunrise"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t1tl8m/mao_episode_5_discussion/",
+    "mal_id": 62048,
+    "current_rank": 12,
+    "karma_change": -4,
+    "rank_change": 31,
     "season": "spring"
   },
   {
@@ -313,9 +456,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1q2r4/the_strongest_job_is_apparently_not_a_hero_or_a/",
     "mal_id": 62825,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": -13,
-    "rank_change": 31,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -337,9 +480,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0xnny/fist_of_the_north_star_hokuto_no_ken_episode_6/",
     "mal_id": 56646,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": -11,
-    "rank_change": 50,
+    "rank_change": 47,
     "season": "spring"
   },
   {
@@ -370,9 +513,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0wtko/the_drops_of_god_kami_no_shizuku_episode_4/",
     "mal_id": 62981,
-    "current_rank": 12,
+    "current_rank": 15,
     "karma_change": -9,
-    "rank_change": 51,
+    "rank_change": 48,
     "season": "spring"
   },
   {
@@ -394,9 +537,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1c7g8/pok\u00e9mon_horizons_the_series_episode_136_discussion/",
     "mal_id": 53876,
-    "current_rank": 13,
+    "current_rank": 16,
     "karma_change": 0,
-    "rank_change": 52,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -431,9 +574,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1bk7k/rilakkuma_episode_5_discussion/",
     "mal_id": 60153,
-    "current_rank": 14,
+    "current_rank": 17,
     "karma_change": -2,
-    "rank_change": 58,
+    "rank_change": 55,
     "season": "spring"
   },
   {
@@ -464,9 +607,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1nfll/meitantei_conan_case_closed_episode_1200/",
     "mal_id": 235,
-    "current_rank": 15,
+    "current_rank": 18,
     "karma_change": 6,
-    "rank_change": 63,
+    "rank_change": 60,
     "season": "spring"
   },
   {
@@ -498,9 +641,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1pct3/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": 0,
-    "rank_change": 59,
+    "rank_change": 56,
     "season": "spring"
   },
   {
@@ -522,9 +665,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0fmph/beyblade_x_episode_124_discussion/",
     "mal_id": 56566,
-    "current_rank": 17,
+    "current_rank": 20,
     "karma_change": -3,
-    "rank_change": 60,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -547,9 +690,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t18vpz/onegai_aipri_episode_4_discussion/",
     "mal_id": 63352,
-    "current_rank": 18,
+    "current_rank": 21,
     "karma_change": -1,
-    "rank_change": 61,
+    "rank_change": 58,
     "season": "spring"
   }
 ]
