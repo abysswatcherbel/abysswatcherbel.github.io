@@ -1388,6 +1388,31 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1392/156024l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1392/156024.jpg"
+    },
+    "title": "Komekami! Girls",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 12,
+    "comments": 14,
+    "week_id": 6,
+    "studio": [
+      "Daily Plan.net",
+      "SO-DO Creative"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t4dgd7/komekami_girls_episode_1_discussion/",
+    "mal_id": 63709,
+    "current_rank": 42,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1418,9 +1443,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1bk7k/rilakkuma_episode_5_discussion/",
     "mal_id": 60153,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -2,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -1451,9 +1476,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1nfll/meitantei_conan_case_closed_episode_1200/",
     "mal_id": 235,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 6,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "spring"
   },
   {
@@ -1485,9 +1510,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t1pct3/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -1509,9 +1534,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t3jcav/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -4,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -1533,9 +1558,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t0fmph/beyblade_x_episode_124_discussion/",
     "mal_id": 56566,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -3,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -1558,9 +1583,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t18vpz/onegai_aipri_episode_4_discussion/",
     "mal_id": 63352,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -1,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "spring"
   }
 ]
