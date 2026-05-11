@@ -262,5 +262,30 @@
     "karma_change": 6,
     "rank_change": 56,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+    },
+    "title": "Onegai AiPri",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "5",
+    "karma": 0,
+    "comments": 0,
+    "week_id": 7,
+    "studio": [
+      "OLM",
+      "Dongwoo A&E"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t7no7c/onegai_aipri_episode_5_discussion/",
+    "mal_id": 63352,
+    "current_rank": 9,
+    "karma_change": 0,
+    "rank_change": 70,
+    "season": "spring"
   }
 ]
