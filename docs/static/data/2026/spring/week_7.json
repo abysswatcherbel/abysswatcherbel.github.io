@@ -1271,6 +1271,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1541/152560l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1541/152560.jpg"
+    },
+    "title": "Meikyuu no Shiori",
+    "title_english": "Labyrinth",
+    "num_episodes": 1,
+    "score": 6.08,
+    "streams": null,
+    "episode": "",
+    "karma": 12,
+    "comments": 8,
+    "week_id": 7,
+    "studio": [
+      "SANZIGEN"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1t9qcbg/meikyuu_no_shiori_labyrinth_us_theatre_release/",
+    "mal_id": 61964,
+    "current_rank": 38,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1288,9 +1312,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t8bphq/beyblade_x_episode_125_discussion/",
     "mal_id": 56566,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": 5,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "spring"
   },
   {
@@ -1325,9 +1349,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t7qdrv/rilakkuma_episode_6_discussion/",
     "mal_id": 60153,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -5,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -1358,9 +1382,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t82ipz/meitantei_conan_case_closed_episode_1201/",
     "mal_id": 235,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -7,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -1392,9 +1416,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t84ha8/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -6,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -1417,9 +1441,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t7no7c/onegai_aipri_episode_5_discussion/",
     "mal_id": 63352,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": 0,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   }
 ]
