@@ -1456,6 +1456,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "65",
+    "karma": 12,
+    "comments": 3,
+    "week_id": 7,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tadpur/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 44,
+    "karma_change": 11,
+    "rank_change": 33,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1473,9 +1497,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t8bphq/beyblade_x_episode_125_discussion/",
     "mal_id": 56566,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 5,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -1510,9 +1534,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t7qdrv/rilakkuma_episode_6_discussion/",
     "mal_id": 60153,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -5,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "spring"
   },
   {
@@ -1543,9 +1567,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t82ipz/meitantei_conan_case_closed_episode_1201/",
     "mal_id": 235,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -7,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "spring"
   },
   {
@@ -1577,9 +1601,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t84ha8/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -6,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "spring"
   },
   {
@@ -1602,9 +1626,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1t7no7c/onegai_aipri_episode_5_discussion/",
     "mal_id": 63352,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   }
 ]
