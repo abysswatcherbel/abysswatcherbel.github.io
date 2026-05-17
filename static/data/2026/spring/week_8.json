@@ -186,6 +186,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.36,
+    "streams": null,
+    "episode": "8",
+    "karma": 34,
+    "comments": 20,
+    "week_id": 8,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1te0pzs/fist_of_the_north_star_hokuto_no_ken_episode_8/",
+    "mal_id": 56646,
+    "current_rank": 6,
+    "karma_change": -12,
+    "rank_change": 59,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -212,9 +236,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdzvhg/the_drops_of_god_kami_no_shizuku_episode_6/",
     "mal_id": 62981,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -24,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "spring"
   },
   {
@@ -237,9 +261,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
-    "rank_change": 78,
+    "rank_change": 77,
     "season": "spring"
   }
 ]
