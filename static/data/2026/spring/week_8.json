@@ -30,6 +30,47 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1989/154843l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1989/154843.jpg"
+    },
+    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2",
+    "title_english": "The Angel Next Door Spoils Me Rotten 2",
+    "num_episodes": 12,
+    "score": 7.77,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "7",
+    "karma": 337,
+    "comments": 99,
+    "week_id": 8,
+    "studio": [
+      "Project No.9"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tdy6mw/the_angel_next_door_spoils_me_rotten_season_2/",
+    "mal_id": 56876,
+    "current_rank": 2,
+    "karma_change": -21,
+    "rank_change": 22,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -48,9 +89,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
-    "rank_change": 83,
+    "rank_change": 82,
     "season": "spring"
   }
 ]

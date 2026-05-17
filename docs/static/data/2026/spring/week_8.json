@@ -1,6 +1,35 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
+    },
+    "title": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
+    "title_english": "An Observation Log of My Fianc\u00e9e Who Calls Herself a Villainess",
+    "num_episodes": 0,
+    "score": 7.33,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "7",
+    "karma": 351,
+    "comments": 194,
+    "week_id": 8,
+    "studio": [
+      "Ashi Productions"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tdvsbp/an_observation_log_of_my_fianc\u00e9e_who_calls/",
+    "mal_id": 61687,
+    "current_rank": 1,
+    "karma_change": -15,
+    "rank_change": 21,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -19,9 +48,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
-    "rank_change": 84,
+    "rank_change": 83,
     "season": "spring"
   }
 ]
