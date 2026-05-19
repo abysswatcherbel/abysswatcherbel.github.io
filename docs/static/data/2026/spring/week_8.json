@@ -604,6 +604,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1230/155783l.webp",
+      "medium": "https://myanimelist.net/images/anime/1230/155783.webp"
+    },
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
+    "title_english": "Mission: Yozakura Family Season 2",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "6",
+    "karma": 125,
+    "comments": 20,
+    "week_id": 8,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tfijv2/mission_yozakura_family_season_2_yozakurasan_chi/",
+    "mal_id": 60055,
+    "current_rank": 17,
+    "karma_change": 9,
+    "rank_change": 32,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
       "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
     },
@@ -638,9 +667,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdzvg4/snowball_earth_episode_7_discussion/",
     "mal_id": 62068,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -24,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -675,9 +704,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1teyj44/kusunokis_garden_of_gods_kami_no_niwatsuki/",
     "mal_id": 62050,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 12,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "spring"
   },
   {
@@ -699,9 +728,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tezo24/ichijyoma_mankitsu_gurashi_episode_6_discussion/",
     "mal_id": 62018,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 3,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -740,9 +769,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tfdhcp/digimon_beatbreak_episode_31_discussion/",
     "mal_id": 61269,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -11,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -781,9 +810,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tfeokv/rooster_fighter_niwatori_fighter_episode_10/",
     "mal_id": 59393,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -1,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -810,9 +839,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tfbm1s/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 2,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "spring"
   },
   {
@@ -834,9 +863,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1te0pzs/fist_of_the_north_star_hokuto_no_ken_episode_8/",
     "mal_id": 56646,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -12,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   },
   {
@@ -867,9 +896,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdzvhg/the_drops_of_god_kami_no_shizuku_episode_6/",
     "mal_id": 62981,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -24,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -904,9 +933,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1teey10/rilakkuma_episode_7_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "spring"
   },
   {
@@ -938,9 +967,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tet5oh/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 1,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -963,9 +992,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   }
 ]
