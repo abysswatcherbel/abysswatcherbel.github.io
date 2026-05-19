@@ -706,6 +706,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "16",
+    "karma": 35,
+    "comments": 15,
+    "week_id": 8,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tfbm1s/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 20,
+    "karma_change": 2,
+    "rank_change": 49,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
       "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
     },
@@ -723,9 +752,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1te0pzs/fist_of_the_north_star_hokuto_no_ken_episode_8/",
     "mal_id": 56646,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -12,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "spring"
   },
   {
@@ -756,9 +785,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdzvhg/the_drops_of_god_kami_no_shizuku_episode_6/",
     "mal_id": 62981,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -24,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   },
   {
@@ -793,9 +822,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1teey10/rilakkuma_episode_7_discussion/",
     "mal_id": 60153,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "spring"
   },
   {
@@ -827,9 +856,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tet5oh/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 1,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "spring"
   },
   {
@@ -852,9 +881,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "spring"
   }
 ]
