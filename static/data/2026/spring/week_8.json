@@ -946,6 +946,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1818/155506l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1818/155506.jpg"
+    },
+    "title": "Marika-chan no Koukando wa Bukkowareteiru",
+    "title_english": "Marika's Love Meter Malfunction",
+    "num_episodes": 0,
+    "score": 5.35,
+    "streams": [
+      {
+        "name": "OceanVeil",
+        "url": "https://oceanveil.net/ad?agn=2&src=8&pattern=MAL&url=/lp"
+      }
+    ],
+    "episode": "6",
+    "karma": 58,
+    "comments": 17,
+    "week_id": 8,
+    "studio": [
+      "Studio LEO"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tfttp6/marikas_love_meter_malfunction_marikachan_no/",
+    "mal_id": 62983,
+    "current_rank": 27,
+    "karma_change": 1,
+    "rank_change": 37,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1594/154245l.jpg",
       "medium": "https://myanimelist.net/images/anime/1594/154245.jpg"
     },
@@ -976,9 +1005,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tfk8jv/ace_of_the_diamond_act_ii_season_2_diamond_no_ace/",
     "mal_id": 58877,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -17,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -1005,9 +1034,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tfbm1s/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 2,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -1029,9 +1058,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1te0pzs/fist_of_the_north_star_hokuto_no_ken_episode_8/",
     "mal_id": 56646,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -12,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -1062,9 +1091,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdzvhg/the_drops_of_god_kami_no_shizuku_episode_6/",
     "mal_id": 62981,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -24,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   },
   {
@@ -1099,9 +1128,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tfsu4e/ghost_concert_missing_songs_episode_7_discussion/",
     "mal_id": 62852,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -8,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -1136,9 +1165,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1teey10/rilakkuma_episode_7_discussion/",
     "mal_id": 60153,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "spring"
   },
   {
@@ -1170,9 +1199,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tet5oh/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 1,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "spring"
   },
   {
@@ -1195,9 +1224,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "spring"
   }
 ]
