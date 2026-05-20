@@ -1457,6 +1457,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "66",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tgwjf0/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 43,
+    "karma_change": -11,
+    "rank_change": 33,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -1474,9 +1498,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tg0j2k/koupen_chan_episode_57_discussion/",
     "mal_id": 60534,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -2,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "spring"
   },
   {
@@ -1499,9 +1523,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   }
 ]
