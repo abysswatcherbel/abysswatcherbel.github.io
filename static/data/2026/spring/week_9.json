@@ -1,6 +1,35 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
+    },
+    "title": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
+    "title_english": "An Observation Log of My Fianc\u00e9e Who Calls Herself a Villainess",
+    "num_episodes": 0,
+    "score": 7.38,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "8",
+    "karma": 405,
+    "comments": 224,
+    "week_id": 9,
+    "studio": [
+      "Ashi Productions"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tkibtw/an_observation_log_of_my_fianc\u00e9e_who_calls/",
+    "mal_id": 61687,
+    "current_rank": 1,
+    "karma_change": 54,
+    "rank_change": 20,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -18,9 +47,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tke6xo/koupen_chan_episode_58_discussion/",
     "mal_id": 60534,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
-    "rank_change": 77,
+    "rank_change": 76,
     "season": "spring"
   }
 ]
