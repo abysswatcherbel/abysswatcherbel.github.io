@@ -2401,6 +2401,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": 7.12,
+    "streams": null,
+    "episode": "",
+    "karma": 9,
+    "comments": 4,
+    "week_id": 8,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tk2797/girls_und_panzer_operation_more_love_love_girls/",
+    "mal_id": 61227,
+    "current_rank": 73,
+    "karma_change": -6,
+    "rank_change": 1,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -2431,9 +2456,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1teey10/rilakkuma_episode_7_discussion/",
     "mal_id": 60153,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "spring"
   },
   {
@@ -2465,9 +2490,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tjrouh/monster_eater_mamonogurai_no_boukensha_ore_dake/",
     "mal_id": 63304,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": -4,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "spring"
   },
   {
@@ -2499,9 +2524,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tet5oh/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "spring"
   },
   {
@@ -2523,9 +2548,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tgwjf0/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": -11,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "spring"
   },
   {
@@ -2547,9 +2572,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tg0j2k/koupen_chan_episode_57_discussion/",
     "mal_id": 60534,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": -2,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "spring"
   },
   {
@@ -2572,9 +2597,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tdfs6f/onegai_aipri_episode_6_discussion/",
     "mal_id": 63352,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": 0,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "spring"
   },
   {
@@ -2597,9 +2622,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tjzfa6/onegai_aipri_episode_7_discussion/",
     "mal_id": 63352,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "spring"
   }
 ]
