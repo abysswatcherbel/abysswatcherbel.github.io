@@ -108,6 +108,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 8.17,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "8",
+    "karma": 477,
+    "comments": 170,
+    "week_id": 9,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tlcu3n/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 4,
+    "karma_change": -451,
+    "rank_change": 3,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
       "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
     },
@@ -130,9 +167,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tkibtw/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 54,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "spring"
   },
   {
@@ -171,9 +208,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tkkq79/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -49,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -212,9 +249,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tklqla/snowball_earth_episode_8_discussion/",
     "mal_id": 62068,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 5,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "spring"
   },
   {
@@ -236,9 +273,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tknglq/fist_of_the_north_star_hokuto_no_ken_episode_9/",
     "mal_id": 56646,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 15,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "spring"
   },
   {
@@ -269,9 +306,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tkmlky/the_drops_of_god_kami_no_shizuku_episode_7/",
     "mal_id": 62981,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 21,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "spring"
   },
   {
@@ -293,7 +330,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tl7o6i/pok\u00e9mon_horizons_the_series_episode_137_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -317,9 +354,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tko55a/koupen_chan_episode_59_discussion/",
     "mal_id": 60534,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 5,
-    "rank_change": 68,
+    "rank_change": 67,
     "season": "spring"
   },
   {
@@ -354,9 +391,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tl1p57/rilakkuma_episode_8_discussion/",
     "mal_id": 60153,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -3,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "spring"
   },
   {
@@ -378,9 +415,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tke6xo/koupen_chan_episode_58_discussion/",
     "mal_id": 60534,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
-    "rank_change": 66,
+    "rank_change": 65,
     "season": "spring"
   }
 ]
