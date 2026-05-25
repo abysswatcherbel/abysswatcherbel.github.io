@@ -267,6 +267,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.2,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "8",
+    "karma": 1,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tl1p57/rilakkuma_episode_8_discussion/",
+    "mal_id": 60153,
+    "current_rank": 9,
+    "karma_change": -3,
+    "rank_change": 65,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -284,9 +321,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tke6xo/koupen_chan_episode_58_discussion/",
     "mal_id": 60534,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "spring"
   }
 ]
