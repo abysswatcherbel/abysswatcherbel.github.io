@@ -243,6 +243,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
+    },
+    "num_episodes": 0,
+    "score": 7.46,
+    "streams": null,
+    "title": "Pokemon (2023)",
+    "title_english": "Pok\u00e9mon Horizons: The Series",
+    "episode": "137",
+    "karma": 21,
+    "comments": 7,
+    "week_id": 9,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tl7o6i/pok\u00e9mon_horizons_the_series_episode_137_discussion/",
+    "mal_id": 53876,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
     },
@@ -260,9 +284,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tko55a/koupen_chan_episode_59_discussion/",
     "mal_id": 60534,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 5,
-    "rank_change": 70,
+    "rank_change": 69,
     "season": "spring"
   },
   {
@@ -297,9 +321,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tl1p57/rilakkuma_episode_8_discussion/",
     "mal_id": 60153,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -3,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "spring"
   },
   {
@@ -321,9 +345,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tke6xo/koupen_chan_episode_58_discussion/",
     "mal_id": 60534,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 68,
+    "rank_change": 67,
     "season": "spring"
   }
 ]
