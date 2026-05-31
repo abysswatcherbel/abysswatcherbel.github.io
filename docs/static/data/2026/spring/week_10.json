@@ -216,5 +216,29 @@
     "karma_change": -4,
     "rank_change": 57,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.35,
+    "streams": null,
+    "episode": "10",
+    "karma": 30,
+    "comments": 27,
+    "week_id": 10,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tr6ldc/fist_of_the_north_star_hokuto_no_ken_episode_10/",
+    "mal_id": 56646,
+    "current_rank": 7,
+    "karma_change": -19,
+    "rank_change": 53,
+    "season": "spring"
   }
 ]
