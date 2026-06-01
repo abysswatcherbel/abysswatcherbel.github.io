@@ -243,6 +243,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.2,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "9",
+    "karma": 3,
+    "comments": 2,
+    "week_id": 10,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1trlcqj/rilakkuma_episode_9_discussion/",
+    "mal_id": 60153,
+    "current_rank": 8,
+    "karma_change": 2,
+    "rank_change": 71,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -261,7 +298,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trh452/onegai_aipri_episode_8_discussion/",
     "mal_id": 63352,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
