@@ -215,6 +215,68 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1364/155774l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1364/155774.jpg"
+    },
+    "title": "Yowayowa Sensei",
+    "title_english": "Yowayowa Teacher",
+    "num_episodes": 12,
+    "score": 6.47,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
+    "episode": "8",
+    "karma": 127,
+    "comments": 37,
+    "week_id": 10,
+    "studio": [
+      "Brain's Base"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1trzcxw/yowayowa_teacher_yowayowa_sensei_episode_8/",
+    "mal_id": 60444,
+    "current_rank": 7,
+    "karma_change": -11,
+    "rank_change": 32,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1632/155095l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1632/155095.jpg"
+    },
+    "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
+    "title_english": "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
+    "num_episodes": 0,
+    "score": 6.11,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371875/the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional"
+      }
+    ],
+    "episode": "10",
+    "karma": 102,
+    "comments": 41,
+    "week_id": 10,
+    "studio": [
+      "Studio Flad"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ts02lv/the_strongest_job_is_apparently_not_a_hero_or_a/",
+    "mal_id": 62825,
+    "current_rank": 8,
+    "karma_change": 10,
+    "rank_change": 39,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
       "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
     },
@@ -249,9 +311,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tr4qry/snowball_earth_episode_9_discussion/",
     "mal_id": 62068,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -26,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -282,9 +344,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tr5hzu/the_drops_of_god_kami_no_shizuku_episode_8/",
     "mal_id": 62981,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 55,
+    "rank_change": 53,
     "season": "spring"
   },
   {
@@ -306,9 +368,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tr6ldc/fist_of_the_north_star_hokuto_no_ken_episode_10/",
     "mal_id": 56646,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -19,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -330,9 +392,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trqt85/pok\u00e9mon_horizons_the_series_episode_138_discussion/",
     "mal_id": 53876,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 0,
-    "rank_change": 56,
+    "rank_change": 54,
     "season": "spring"
   },
   {
@@ -363,7 +425,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trxg4x/meitantei_conan_case_closed_episode_1202/",
     "mal_id": 235,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -400,9 +462,43 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trlcqj/rilakkuma_episode_9_discussion/",
     "mal_id": 60153,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 67,
+    "rank_change": 65,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1764/155312l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1764/155312.jpg"
+    },
+    "title": "Daikenja Riddle no Jikan Gyakkou",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 4.12,
+    "streams": [
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "9",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1trzi2r/the_great_sage_ryddel_and_the_hands_of_time/",
+    "mal_id": 63433,
+    "current_rank": 15,
+    "karma_change": -3,
+    "rank_change": 61,
     "season": "spring"
   },
   {
@@ -425,7 +521,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trh452/onegai_aipri_episode_8_discussion/",
     "mal_id": 63352,
-    "current_rank": 13,
+    "current_rank": 16,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
