@@ -706,6 +706,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.24,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "33",
+    "karma": 54,
+    "comments": 15,
+    "week_id": 10,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tsjd7n/digimon_beatbreak_episode_33_discussion/",
+    "mal_id": 61269,
+    "current_rank": 20,
+    "karma_change": -18,
+    "rank_change": 31,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
     },
@@ -728,9 +769,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tshi2k/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 18,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "spring"
   },
   {
@@ -761,9 +802,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tr5hzu/the_drops_of_god_kami_no_shizuku_episode_8/",
     "mal_id": 62981,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -4,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   },
   {
@@ -785,9 +826,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tr6ldc/fist_of_the_north_star_hokuto_no_ken_episode_10/",
     "mal_id": 56646,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -19,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -809,9 +850,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trqt85/pok\u00e9mon_horizons_the_series_episode_138_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -842,7 +883,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trxg4x/meitantei_conan_case_closed_episode_1202/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -879,9 +920,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trlcqj/rilakkuma_episode_9_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 2,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "spring"
   },
   {
@@ -913,9 +954,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trzi2r/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -3,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -938,7 +979,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1trh452/onegai_aipri_episode_8_discussion/",
     "mal_id": 63352,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
