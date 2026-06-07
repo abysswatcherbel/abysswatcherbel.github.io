@@ -27,5 +27,46 @@
     "karma_change": 35,
     "rank_change": 20,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1989/154843l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1989/154843.jpg"
+    },
+    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2",
+    "title_english": "The Angel Next Door Spoils Me Rotten 2",
+    "num_episodes": 12,
+    "score": 7.49,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "10",
+    "karma": 323,
+    "comments": 134,
+    "week_id": 11,
+    "studio": [
+      "Project No.9"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1txmn5s/the_angel_next_door_spoils_me_rotten_season_2/",
+    "mal_id": 56876,
+    "current_rank": 2,
+    "karma_change": 47,
+    "rank_change": 22,
+    "season": "spring"
   }
 ]

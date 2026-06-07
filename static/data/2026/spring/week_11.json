@@ -1,6 +1,80 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
+    },
+    "title": "Tensei shitara Slime Datta Ken 4th Season",
+    "title_english": "That Time I Got Reincarnated as a Slime Season 4",
+    "num_episodes": 0,
+    "score": 8.12,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "9",
+    "karma": 933,
+    "comments": 318,
+    "week_id": 11,
+    "studio": [
+      "8bit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1txng71/that_time_i_got_reincarnated_as_a_slime_season_4/",
+    "mal_id": 59970,
+    "current_rank": 1,
+    "karma_change": 74,
+    "rank_change": 3,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1026/155965l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1026/155965.jpg"
+    },
+    "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+    "title_english": "Botan Kamiina Fully Blossoms When Drunk",
+    "num_episodes": 12,
+    "score": 7.87,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371890/botan-kamiina-fully-blossoms-when-drunk"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "9",
+    "karma": 654,
+    "comments": 318,
+    "week_id": 11,
+    "studio": [
+      "Soigne"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1txoacr/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
+    "mal_id": 61186,
+    "current_rank": 2,
+    "karma_change": 106,
+    "rank_change": 13,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
       "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
     },
@@ -23,9 +97,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txkc2y/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 35,
-    "rank_change": 20,
+    "rank_change": 18,
     "season": "spring"
   },
   {
@@ -64,9 +138,83 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txmn5s/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 47,
-    "rank_change": 22,
+    "rank_change": 20,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
+    },
+    "title": "Snowball Earth",
+    "title_english": "Snowball Earth",
+    "num_episodes": 13,
+    "score": 6.63,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "10",
+    "karma": 106,
+    "comments": 47,
+    "week_id": 11,
+    "studio": [
+      "Studio KAI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1txoae6/snowball_earth_episode_10_discussion/",
+    "mal_id": 62068,
+    "current_rank": 5,
+    "karma_change": 25,
+    "rank_change": 48,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 5.98,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "9",
+    "karma": 24,
+    "comments": 11,
+    "week_id": 11,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1txoab6/the_drops_of_god_kami_no_shizuku_episode_9/",
+    "mal_id": 62981,
+    "current_rank": 6,
+    "karma_change": -9,
+    "rank_change": 65,
     "season": "spring"
   }
 ]
