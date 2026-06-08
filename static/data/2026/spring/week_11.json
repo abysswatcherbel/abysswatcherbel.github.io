@@ -38,6 +38,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 7.88,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
+    "episode": "9",
+    "karma": 706,
+    "comments": 456,
+    "week_id": 11,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tycsld/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 2,
+    "karma_change": -13,
+    "rank_change": 7,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1026/155965l.jpg",
       "medium": "https://myanimelist.net/images/anime/1026/155965.jpg"
     },
@@ -68,9 +101,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoacr/botan_kamiina_fully_blossoms_when_drunk_kamiina/",
     "mal_id": 61186,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 106,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "spring"
   },
   {
@@ -97,9 +130,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txkc2y/an_observation_log_of_my_fianc\u00e9e_who_calls/",
     "mal_id": 61687,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 35,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "spring"
   },
   {
@@ -138,9 +171,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txmn5s/the_angel_next_door_spoils_me_rotten_season_2/",
     "mal_id": 56876,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 47,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "spring"
   },
   {
@@ -179,9 +212,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoae6/snowball_earth_episode_10_discussion/",
     "mal_id": 62068,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 25,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "spring"
   },
   {
@@ -203,9 +236,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txpal5/fist_of_the_north_star_hokuto_no_ken_episode_11/",
     "mal_id": 56646,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 1,
-    "rank_change": 66,
+    "rank_change": 65,
     "season": "spring"
   },
   {
@@ -236,9 +269,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoab6/the_drops_of_god_kami_no_shizuku_episode_9/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -9,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "spring"
   },
   {
@@ -260,9 +293,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty5x9u/pok\u00e9mon_horizons_the_series_episode_139_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -2,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "spring"
   },
   {
@@ -297,9 +330,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty323b/rilakkuma_episode_10_discussion/",
     "mal_id": 60153,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -1,
-    "rank_change": 73,
+    "rank_change": 72,
     "season": "spring"
   },
   {
@@ -322,9 +355,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty0c8x/onegai_aipri_episode_9_discussion/",
     "mal_id": 63352,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 74,
+    "rank_change": 73,
     "season": "spring"
   }
 ]
