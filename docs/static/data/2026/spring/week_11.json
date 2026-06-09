@@ -787,6 +787,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.59,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "19",
+    "karma": 21,
+    "comments": 10,
+    "week_id": 11,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tyyp8z/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 23,
+    "karma_change": -16,
+    "rank_change": 46,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -804,9 +833,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty5x9u/pok\u00e9mon_horizons_the_series_episode_139_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -2,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -841,9 +870,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty323b/rilakkuma_episode_10_discussion/",
     "mal_id": 60153,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -1,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -875,9 +904,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tygu0u/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -1,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   },
   {
@@ -900,9 +929,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty0c8x/onegai_aipri_episode_9_discussion/",
     "mal_id": 63352,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "spring"
   }
 ]
