@@ -604,6 +604,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1716/153989l.webp",
+      "medium": "https://myanimelist.net/images/anime/1716/153989.webp"
+    },
+    "title": "Kuroneko to Majo no Kyoushitsu",
+    "title_english": "The Classroom of a Black Cat and a Witch",
+    "num_episodes": 0,
+    "score": 6.6,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00374357/the-classroom-of-a-black-cat-and-a-witch"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "9",
+    "karma": 147,
+    "comments": 48,
+    "week_id": 11,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tzeghu/the_classroom_of_a_black_cat_and_a_witch_kuroneko/",
+    "mal_id": 62171,
+    "current_rank": 17,
+    "karma_change": -1,
+    "rank_change": 20,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1738/156386l.webp",
       "medium": "https://myanimelist.net/images/anime/1738/156386.webp"
     },
@@ -630,9 +667,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tykrze/mao_episode_10_discussion/",
     "mal_id": 62048,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 9,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -659,9 +696,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tz54xh/mission_yozakura_family_season_2_yozakurasan_chi/",
     "mal_id": 60055,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -700,9 +737,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoae6/snowball_earth_episode_10_discussion/",
     "mal_id": 62068,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 25,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "spring"
   },
   {
@@ -729,9 +766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyhdch/the_strongest_job_is_apparently_not_a_hero_or_a/",
     "mal_id": 62825,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -8,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "spring"
   },
   {
@@ -759,9 +796,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tzcyci/the_food_diary_of_miss_maid_maidsan_wa_taberu/",
     "mal_id": 62342,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 5,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -796,9 +833,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tylvak/kusunokis_garden_of_gods_kami_no_niwatsuki/",
     "mal_id": 62050,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -8,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -837,9 +874,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tz0itc/digimon_beatbreak_episode_34_discussion/",
     "mal_id": 61269,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 19,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "spring"
   },
   {
@@ -861,9 +898,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tymsjt/ichijyoma_mankitsu_gurashi_episode_9_discussion/",
     "mal_id": 62018,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -7,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -898,9 +935,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tz712o/ace_of_the_diamond_act_ii_season_2_diamond_no_ace/",
     "mal_id": 58877,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 18,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -922,9 +959,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txpal5/fist_of_the_north_star_hokuto_no_ken_episode_11/",
     "mal_id": 56646,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 1,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   },
   {
@@ -946,7 +983,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyjqze/detective_conan_the_goldstar_answer_meitantei/",
     "mal_id": 64359,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -979,9 +1016,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoab6/the_drops_of_god_kami_no_shizuku_episode_9/",
     "mal_id": 62981,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -9,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "spring"
   },
   {
@@ -1008,9 +1045,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyyp8z/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -16,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "spring"
   },
   {
@@ -1032,8 +1069,45 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty5x9u/pok\u00e9mon_horizons_the_series_episode_139_discussion/",
     "mal_id": 53876,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -2,
+    "rank_change": 42,
+    "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1489/155658l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1489/155658.jpg"
+    },
+    "title": "Ghost Concert: Missing Songs",
+    "title_english": "Ghost Concert: Missing Songs",
+    "num_episodes": 12,
+    "score": 5.41,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "10",
+    "karma": 11,
+    "comments": 9,
+    "week_id": 11,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tzfdsc/ghost_concert_missing_songs_episode_10_discussion/",
+    "mal_id": 62852,
+    "current_rank": 32,
+    "karma_change": -5,
     "rank_change": 43,
     "season": "spring"
   },
@@ -1069,9 +1143,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty323b/rilakkuma_episode_10_discussion/",
     "mal_id": 60153,
-    "current_rank": 31,
+    "current_rank": 33,
     "karma_change": -1,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -1103,9 +1177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tygu0u/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 32,
+    "current_rank": 34,
     "karma_change": -1,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -1128,9 +1202,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty0c8x/onegai_aipri_episode_9_discussion/",
     "mal_id": 63352,
-    "current_rank": 33,
+    "current_rank": 35,
     "karma_change": 0,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "spring"
   }
 ]
