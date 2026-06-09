@@ -682,6 +682,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.14,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "34",
+    "karma": 73,
+    "comments": 26,
+    "week_id": 11,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1tz0itc/digimon_beatbreak_episode_34_discussion/",
+    "mal_id": 61269,
+    "current_rank": 19,
+    "karma_change": 19,
+    "rank_change": 39,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1178/155933l.jpg",
       "medium": "https://myanimelist.net/images/anime/1178/155933.jpg"
     },
@@ -699,9 +740,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tymsjt/ichijyoma_mankitsu_gurashi_episode_9_discussion/",
     "mal_id": 62018,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -7,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -723,9 +764,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txpal5/fist_of_the_north_star_hokuto_no_ken_episode_11/",
     "mal_id": 56646,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 1,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "spring"
   },
   {
@@ -747,7 +788,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyjqze/detective_conan_the_goldstar_answer_meitantei/",
     "mal_id": 64359,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -780,9 +821,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoab6/the_drops_of_god_kami_no_shizuku_episode_9/",
     "mal_id": 62981,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -9,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "spring"
   },
   {
@@ -809,9 +850,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyyp8z/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -16,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   },
   {
@@ -833,9 +874,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty5x9u/pok\u00e9mon_horizons_the_series_episode_139_discussion/",
     "mal_id": 53876,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -2,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "spring"
   },
   {
@@ -870,9 +911,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty323b/rilakkuma_episode_10_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -1,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "spring"
   },
   {
@@ -904,9 +945,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tygu0u/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -1,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "spring"
   },
   {
@@ -929,9 +970,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty0c8x/onegai_aipri_episode_9_discussion/",
     "mal_id": 63352,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "spring"
   }
 ]
