@@ -1685,6 +1685,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "69",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u1g8ig/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 51,
+    "karma_change": 0,
+    "rank_change": 30,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1715,9 +1739,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty323b/rilakkuma_episode_10_discussion/",
     "mal_id": 60153,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -1,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "spring"
   },
   {
@@ -1739,7 +1763,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u02gxm/koupen_chan_episode_61_discussion/",
     "mal_id": 60534,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1773,9 +1797,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tygu0u/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -1,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   },
   {
@@ -1797,7 +1821,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u0yndv/koupen_chan_episode_62_discussion/",
     "mal_id": 60534,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1822,9 +1846,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty0c8x/onegai_aipri_episode_9_discussion/",
     "mal_id": 63352,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "spring"
   }
 ]
