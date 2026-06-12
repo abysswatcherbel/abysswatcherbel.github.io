@@ -1430,6 +1430,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1393/156075l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1393/156075.jpg"
+    },
+    "title": "Kanojo, Okarishimasu 5th Season",
+    "title_english": "Rent-a-Girlfriend Season 5",
+    "num_episodes": 0,
+    "score": 5.77,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "10",
+    "karma": 52,
+    "comments": 71,
+    "week_id": 11,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u21ke0/rentagirlfriend_season_5_kanojo_okarishimasu/",
+    "mal_id": 62485,
+    "current_rank": 42,
+    "karma_change": -2,
+    "rank_change": 15,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1199/156106l.jpg",
       "medium": "https://myanimelist.net/images/anime/1199/156106.jpg"
     },
@@ -1452,9 +1485,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u1ccw7/pardon_the_intrusion_im_home_tadaima/",
     "mal_id": 63014,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -9,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "spring"
   },
   {
@@ -1481,9 +1514,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tzgn5n/marikas_love_meter_malfunction_marikachan_no/",
     "mal_id": 62983,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -3,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "spring"
   },
   {
@@ -1505,9 +1538,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txpal5/fist_of_the_north_star_hokuto_no_ken_episode_11/",
     "mal_id": 56646,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 1,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "spring"
   },
   {
@@ -1529,7 +1562,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyjqze/detective_conan_the_goldstar_answer_meitantei/",
     "mal_id": 64359,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1562,9 +1595,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1txoab6/the_drops_of_god_kami_no_shizuku_episode_9/",
     "mal_id": 62981,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -9,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -1591,9 +1624,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tyyp8z/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -16,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "spring"
   },
   {
@@ -1615,9 +1648,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty5x9u/pok\u00e9mon_horizons_the_series_episode_139_discussion/",
     "mal_id": 53876,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": -2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -1644,9 +1677,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tzoe7f/magical_sisters_lulutto_lilly_mahou_no_shimai/",
     "mal_id": 59176,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -7,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -1681,9 +1714,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tzfdsc/ghost_concert_missing_songs_episode_10_discussion/",
     "mal_id": 62852,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -5,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "spring"
   },
   {
@@ -1715,9 +1748,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u14hjc/beyond_twilight_hyakki_yakoushou_episode_10/",
     "mal_id": 63469,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "spring"
   },
   {
@@ -1739,9 +1772,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u1g8ig/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -1776,9 +1809,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty323b/rilakkuma_episode_10_discussion/",
     "mal_id": 60153,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -1,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "spring"
   },
   {
@@ -1800,7 +1833,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u02gxm/koupen_chan_episode_61_discussion/",
     "mal_id": 60534,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1834,9 +1867,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1tygu0u/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -1,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "spring"
   },
   {
@@ -1858,7 +1891,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u0yndv/koupen_chan_episode_62_discussion/",
     "mal_id": 60534,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1883,9 +1916,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ty0c8x/onegai_aipri_episode_9_discussion/",
     "mal_id": 63352,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "spring"
   }
 ]
