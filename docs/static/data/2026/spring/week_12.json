@@ -277,6 +277,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1899/156600l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1899/156600.jpg"
+    },
+    "title": "Kill Ao",
+    "title_english": "Kill Blue",
+    "num_episodes": 12,
+    "score": 7.48,
+    "streams": null,
+    "episode": "10",
+    "karma": 121,
+    "comments": 43,
+    "week_id": 12,
+    "studio": [
+      "Cue"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u4sh1m/kill_blue_kill_ao_episode_10_discussion/",
+    "mal_id": 62391,
+    "current_rank": 9,
+    "karma_change": -40,
+    "rank_change": 23,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
       "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
     },
@@ -311,9 +335,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u3xx3l/snowball_earth_episode_11_discussion/",
     "mal_id": 62068,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -15,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "spring"
   },
   {
@@ -335,9 +359,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u3zlxa/fist_of_the_north_star_hokuto_no_ken_episode_12/",
     "mal_id": 56646,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -359,9 +383,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4hmbn/pok\u00e9mon_horizons_the_series_episode_140_discussion/",
     "mal_id": 53876,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 3,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "spring"
   },
   {
@@ -392,9 +416,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u3yr39/the_drops_of_god_kami_no_shizuku_episode_10/",
     "mal_id": 62981,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -7,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -425,7 +449,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4ok3j/meitantei_conan_case_closed_episode_1203/",
     "mal_id": 235,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -459,9 +483,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4qjbb/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 0,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "spring"
   },
   {
@@ -496,9 +520,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4d3cy/rilakkuma_episode_11_discussion/",
     "mal_id": 60153,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -2,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "spring"
   }
 ]
