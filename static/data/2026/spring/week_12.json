@@ -854,6 +854,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1018/150416l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1018/150416.jpg"
+    },
+    "title": "Osomatsu-san 4th Season",
+    "title_english": "Mr. Osomatsu 4th Season",
+    "num_episodes": 13,
+    "score": 6.26,
+    "streams": null,
+    "episode": "13",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u50au8/mr_osomatsu_season_4_osomatsusan_season_4_episode/",
+    "mal_id": 58996,
+    "current_rank": 25,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
