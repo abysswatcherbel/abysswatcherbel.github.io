@@ -240,5 +240,42 @@
     "karma_change": -7,
     "rank_change": 55,
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.25,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "11",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u4d3cy/rilakkuma_episode_11_discussion/",
+    "mal_id": 60153,
+    "current_rank": 8,
+    "karma_change": -2,
+    "rank_change": 64,
+    "season": "spring"
   }
 ]
