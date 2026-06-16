@@ -814,6 +814,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1594/154245l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1594/154245.jpg"
+    },
+    "title": "Diamond no Ace: Act II Second Season",
+    "title_english": "Ace of Diamond Act II Season 2",
+    "num_episodes": 0,
+    "score": 8.1,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "11",
+    "karma": 51,
+    "comments": 25,
+    "week_id": 12,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u5g5u5/ace_of_the_diamond_act_ii_season_2_diamond_no_ace/",
+    "mal_id": 58877,
+    "current_rank": 23,
+    "karma_change": -7,
+    "rank_change": 30,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
       "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
     },
@@ -831,9 +868,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u3zlxa/fist_of_the_north_star_hokuto_no_ken_episode_12/",
     "mal_id": 56646,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "spring"
   },
   {
@@ -855,9 +892,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4hmbn/pok\u00e9mon_horizons_the_series_episode_140_discussion/",
     "mal_id": 53876,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 3,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "spring"
   },
   {
@@ -884,9 +921,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u57usu/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -1,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "spring"
   },
   {
@@ -917,9 +954,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u3yr39/the_drops_of_god_kami_no_shizuku_episode_10/",
     "mal_id": 62981,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -7,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "spring"
   },
   {
@@ -941,9 +978,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u5fhux/koupen_chan_episode_63_discussion/",
     "mal_id": 60534,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "spring"
   },
   {
@@ -974,7 +1011,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4ok3j/meitantei_conan_case_closed_episode_1203/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1008,9 +1045,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4qjbb/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "spring"
   },
   {
@@ -1032,7 +1069,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u50au8/mr_osomatsu_season_4_osomatsusan_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1069,9 +1106,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4d3cy/rilakkuma_episode_11_discussion/",
     "mal_id": 60153,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -2,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "spring"
   }
 ]
