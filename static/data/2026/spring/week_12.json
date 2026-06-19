@@ -1764,6 +1764,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1780/154909l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1780/154909.jpg"
+    },
+    "title": "Candy Caries",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.54,
+    "streams": null,
+    "episode": "10",
+    "karma": 12,
+    "comments": 4,
+    "week_id": 12,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1u8edht/candy_caries_episode_10_discussion/",
+    "mal_id": 63276,
+    "current_rank": 53,
+    "karma_change": -1,
+    "rank_change": 12,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1781,7 +1805,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u5nl1l/beyblade_x_episode_127_discussion/",
     "mal_id": 56566,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1815,9 +1839,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u7d4hk/beyond_twilight_hyakki_yakoushou_episode_11/",
     "mal_id": 63469,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -6,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "spring"
   },
   {
@@ -1839,9 +1863,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u5fhux/koupen_chan_episode_63_discussion/",
     "mal_id": 60534,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 1,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "spring"
   },
   {
@@ -1872,7 +1896,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4ok3j/meitantei_conan_case_closed_episode_1203/",
     "mal_id": 235,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1906,9 +1930,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4qjbb/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "spring"
   },
   {
@@ -1930,7 +1954,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u50au8/mr_osomatsu_season_4_osomatsusan_season_4_episode/",
     "mal_id": 58996,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -1967,9 +1991,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1u4d3cy/rilakkuma_episode_11_discussion/",
     "mal_id": 60153,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -2,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "spring"
   }
 ]
