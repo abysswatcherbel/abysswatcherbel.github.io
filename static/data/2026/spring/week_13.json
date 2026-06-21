@@ -39,5 +39,34 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1769/153376l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1769/153376.jpg"
+    },
+    "title": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
+    "title_english": "An Observation Log of My Fianc\u00e9e Who Calls Herself a Villainess",
+    "num_episodes": 0,
+    "score": 7.71,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 390,
+    "comments": 221,
+    "week_id": 13,
+    "studio": [
+      "Ashi Productions"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ua1jlx/an_observation_log_of_my_fianc\u00e9e_who_calls/",
+    "mal_id": 61687,
+    "current_rank": 2,
+    "karma_change": 69,
+    "rank_change": 19,
+    "season": "spring"
   }
 ]
