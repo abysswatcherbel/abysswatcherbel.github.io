@@ -227,6 +227,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1581/156641l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1581/156641.jpg"
+    },
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.4,
+    "streams": null,
+    "episode": "13",
+    "karma": 36,
+    "comments": 17,
+    "week_id": 13,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ua5z55/fist_of_the_north_star_hokuto_no_ken_episode_13/",
+    "mal_id": 56646,
+    "current_rank": 7,
+    "karma_change": 5,
+    "rank_change": 51,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -253,9 +277,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ua56yx/the_drops_of_god_kami_no_shizuku_episode_11/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -1,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "spring"
   }
 ]
