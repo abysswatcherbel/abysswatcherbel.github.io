@@ -799,6 +799,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "71",
+    "karma": 4,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ub8zlg/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 23,
+    "karma_change": 4,
+    "rank_change": 50,
+    "season": "spring"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -829,9 +853,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uaj2wz/rilakkuma_episode_12_discussion/",
     "mal_id": 60153,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 2,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "spring"
   },
   {
@@ -862,9 +886,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uaucnt/meitantei_conan_case_closed_episode_1204/",
     "mal_id": 235,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 1,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "spring"
   },
   {
@@ -887,7 +911,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uaf5ch/onegai_aipri_episode_11_discussion/",
     "mal_id": 63352,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "spring"
@@ -921,9 +945,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uaw4yz/the_great_sage_ryddel_and_the_hands_of_time/",
     "mal_id": 63433,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "spring"
   }
 ]
