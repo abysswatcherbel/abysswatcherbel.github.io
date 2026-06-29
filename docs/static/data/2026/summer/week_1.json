@@ -186,6 +186,47 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1755/154935l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1755/154935.jpg"
+    },
+    "title": "Needy Girl Overdose",
+    "title_english": "Needy Girl Overdose",
+    "num_episodes": 13,
+    "score": 6.95,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus Asia",
+        "url": "https://www.aniplus-asia.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "13",
+    "karma": 349,
+    "comments": 161,
+    "week_id": 1,
+    "studio": [
+      "Yostar Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uh8054/needy_girl_overdose_episode_13_discussion_final/",
+    "mal_id": 62913,
+    "current_rank": 6,
+    "karma_change": 88,
+    "rank_change": 20,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1878/157796l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1878/157796.jpg"
     },
@@ -203,7 +244,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh2nnu/the_cat_and_the_dragon_neko_to_ryuu_episode_1/",
     "mal_id": 61048,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -227,9 +268,50 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh4b1s/kill_blue_kill_ao_episode_12_discussion_final/",
     "mal_id": 62391,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 58,
-    "rank_change": 27,
+    "rank_change": 26,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1821/154043l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1821/154043.jpg"
+    },
+    "title": "Yuusha no Kuzu",
+    "title_english": "Scum of the Brave",
+    "num_episodes": 24,
+    "score": 6.86,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365730/scum-of-the-brave"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "CatchPlay",
+        "url": "https://www.catchplay.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "24",
+    "karma": 209,
+    "comments": 138,
+    "week_id": 1,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uh8asw/yuusha_no_kuzu_scum_of_the_brave_episode_24/",
+    "mal_id": 61217,
+    "current_rank": 9,
+    "karma_change": 39,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -260,9 +342,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh298x/yowayowa_teacher_yowayowa_sensei_episode_12/",
     "mal_id": 60444,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 27,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -301,9 +383,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5v4/snowball_earth_episode_13_discussion_final/",
     "mal_id": 62068,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 14,
-    "rank_change": 31,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -334,9 +416,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh67f8/mao_episode_13_discussion/",
     "mal_id": 62048,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -3,
-    "rank_change": 29,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -358,9 +440,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": 8,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -391,9 +473,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 6,
-    "rank_change": 46,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -428,9 +510,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": 4,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -461,9 +543,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh0fot/meitantei_conan_case_closed_episode_1205/",
     "mal_id": 235,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": 3,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -485,7 +567,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh7pdd/beyblade_x_episode_128_discussion/",
     "mal_id": 56566,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -510,9 +592,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 16,
+    "current_rank": 18,
     "karma_change": -1,
-    "rank_change": 50,
+    "rank_change": 48,
     "season": "summer"
   }
 ]
