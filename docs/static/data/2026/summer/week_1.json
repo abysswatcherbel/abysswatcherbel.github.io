@@ -108,6 +108,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 8.14,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "13",
+    "karma": 399,
+    "comments": 139,
+    "week_id": 1,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ugz893/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 4,
+    "karma_change": -130,
+    "rank_change": 12,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
       "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
     },
@@ -142,9 +179,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5v4/snowball_earth_episode_13_discussion_final/",
     "mal_id": 62068,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 14,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -166,9 +203,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 8,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -199,9 +236,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 6,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -236,9 +273,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 4,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "summer"
   },
   {
@@ -261,9 +298,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -1,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "summer"
   }
 ]
