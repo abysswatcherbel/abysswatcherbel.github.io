@@ -108,6 +108,47 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1457/155524l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1457/155524.jpg"
+    },
+    "title": "Shunkashuutou Daikousha: Haru no Mai",
+    "title_english": "Agents of the Four Seasons: Dance of Spring",
+    "num_episodes": 0,
+    "score": 7.75,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "14",
+    "karma": 406,
+    "comments": 279,
+    "week_id": 1,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uh78yy/agents_of_the_four_seasons_dance_of_spring/",
+    "mal_id": 61443,
+    "current_rank": 4,
+    "karma_change": 30,
+    "rank_change": 15,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
       "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
     },
@@ -138,9 +179,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugz893/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -130,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "summer"
   },
   {
@@ -162,7 +203,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh2nnu/the_cat_and_the_dragon_neko_to_ryuu_episode_1/",
     "mal_id": 61048,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -186,9 +227,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh4b1s/kill_blue_kill_ao_episode_12_discussion_final/",
     "mal_id": 62391,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 58,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -219,9 +260,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh298x/yowayowa_teacher_yowayowa_sensei_episode_12/",
     "mal_id": 60444,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -4,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -260,9 +301,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5v4/snowball_earth_episode_13_discussion_final/",
     "mal_id": 62068,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 14,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -293,9 +334,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh67f8/mao_episode_13_discussion/",
     "mal_id": 62048,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -3,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -317,9 +358,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 8,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -350,9 +391,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 6,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -387,9 +428,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 4,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -420,9 +461,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh0fot/meitantei_conan_case_closed_episode_1205/",
     "mal_id": 235,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 3,
-    "rank_change": 52,
+    "rank_change": 51,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.88,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "128",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uh7pdd/beyblade_x_episode_128_discussion/",
+    "mal_id": 56566,
+    "current_rank": 15,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -445,9 +510,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": -1,
-    "rank_change": 52,
+    "rank_change": 50,
     "season": "summer"
   }
 ]
