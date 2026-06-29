@@ -75,6 +75,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 7.83,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
+    "episode": "12",
+    "karma": 633,
+    "comments": 347,
+    "week_id": 1,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ugyajz/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": 9,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
       "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
     },
@@ -109,9 +142,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5v4/snowball_earth_episode_13_discussion_final/",
     "mal_id": 62068,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 14,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -133,9 +166,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 8,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -166,9 +199,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 6,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "summer"
   },
   {
@@ -203,9 +236,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 4,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "summer"
   },
   {
@@ -228,9 +261,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -1,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "summer"
   }
 ]
