@@ -170,5 +170,30 @@
     "karma_change": 6,
     "rank_change": 53,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+    },
+    "title": "Onegai AiPri",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.92,
+    "streams": null,
+    "episode": "12",
+    "karma": 0,
+    "comments": 0,
+    "week_id": 1,
+    "studio": [
+      "OLM",
+      "Dongwoo A&E"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
+    "mal_id": 63352,
+    "current_rank": 6,
+    "karma_change": -1,
+    "rank_change": 60,
+    "season": "summer"
   }
 ]
