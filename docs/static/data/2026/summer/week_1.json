@@ -145,6 +145,63 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/157796l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/157796.jpg"
+    },
+    "title": "Neko to Ryuu",
+    "title_english": "The Cat and the Dragon",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 306,
+    "comments": 181,
+    "week_id": 1,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uh2nnu/the_cat_and_the_dragon_neko_to_ryuu_episode_1/",
+    "mal_id": 61048,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1364/155774l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1364/155774.jpg"
+    },
+    "title": "Yowayowa Sensei",
+    "title_english": "Yowayowa Teacher",
+    "num_episodes": 12,
+    "score": 6.68,
+    "streams": [
+      {
+        "name": "HIDIVE",
+        "url": "https://www.hidive.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
+    "episode": "12",
+    "karma": 144,
+    "comments": 54,
+    "week_id": 1,
+    "studio": [
+      "Brain's Base"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uh298x/yowayowa_teacher_yowayowa_sensei_episode_12/",
+    "mal_id": 60444,
+    "current_rank": 6,
+    "karma_change": -4,
+    "rank_change": 29,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1786/156390l.jpg",
       "medium": "https://myanimelist.net/images/anime/1786/156390.jpg"
     },
@@ -179,9 +236,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5v4/snowball_earth_episode_13_discussion_final/",
     "mal_id": 62068,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 14,
-    "rank_change": 35,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -203,9 +260,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 8,
-    "rank_change": 46,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -236,9 +293,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 6,
-    "rank_change": 51,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -273,9 +330,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 4,
-    "rank_change": 56,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -306,9 +363,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh0fot/meitantei_conan_case_closed_episode_1205/",
     "mal_id": 235,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": 3,
-    "rank_change": 56,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -331,9 +388,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -1,
-    "rank_change": 56,
+    "rank_change": 54,
     "season": "summer"
   }
 ]
