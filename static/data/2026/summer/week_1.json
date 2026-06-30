@@ -564,6 +564,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
+    },
+    "title": "Girls & Panzer: Motto Love Love Sakusen desu!",
+    "title_english": "",
+    "num_episodes": 4,
+    "score": 7.21,
+    "streams": null,
+    "episode": "",
+    "karma": 46,
+    "comments": 6,
+    "week_id": 1,
+    "studio": [
+      "Actas",
+      "P.A. Works"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ui2q20/girls_und_panzer_operation_more_love_love_girls/",
+    "mal_id": 61227,
+    "current_rank": 17,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1594/154245l.jpg",
       "medium": "https://myanimelist.net/images/anime/1594/154245.jpg"
     },
@@ -594,9 +619,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uhsfcs/ace_of_the_diamond_act_ii_season_2_diamond_no_ace/",
     "mal_id": 58877,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 11,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -618,9 +643,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 8,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -647,9 +672,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uhk24w/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 3,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "summer"
   },
   {
@@ -680,9 +705,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 6,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -717,9 +742,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 4,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -750,9 +775,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh0fot/meitantei_conan_case_closed_episode_1205/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 3,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -774,9 +799,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uhfjp2/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -798,7 +823,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh7pdd/beyblade_x_episode_128_discussion/",
     "mal_id": 56566,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -823,9 +848,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uhzid0/onegai_aipri_episode_13_discussion/",
     "mal_id": 63352,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -848,9 +873,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "summer"
   }
 ]
