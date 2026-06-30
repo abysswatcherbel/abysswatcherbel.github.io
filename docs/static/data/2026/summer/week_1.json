@@ -390,6 +390,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1230/155783l.webp",
+      "medium": "https://myanimelist.net/images/anime/1230/155783.webp"
+    },
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
+    "title_english": "Mission: Yozakura Family Season 2",
+    "num_episodes": 0,
+    "score": 7.65,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "12",
+    "karma": 111,
+    "comments": 54,
+    "week_id": 1,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uhqekp/mission_yozakura_family_season_2_yozakurasan_chi/",
+    "mal_id": 60055,
+    "current_rank": 12,
+    "karma_change": 27,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1738/156386l.webp",
       "medium": "https://myanimelist.net/images/anime/1738/156386.webp"
     },
@@ -416,9 +445,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh67f8/mao_episode_13_discussion/",
     "mal_id": 62048,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -440,9 +469,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugb4mr/fist_of_the_north_star_hokuto_no_ken_episode_14/",
     "mal_id": 56646,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 8,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -469,9 +498,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uhk24w/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 3,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -502,9 +531,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uga5xg/the_drops_of_god_kami_no_shizuku_episode_12/",
     "mal_id": 62981,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 6,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -539,9 +568,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ugopkd/rilakkuma_episode_13_discussion/",
     "mal_id": 60153,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 4,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -572,9 +601,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh0fot/meitantei_conan_case_closed_episode_1205/",
     "mal_id": 235,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 3,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -596,9 +625,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uhfjp2/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 0,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -620,7 +649,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uh7pdd/beyblade_x_episode_128_discussion/",
     "mal_id": 56566,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -645,9 +674,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -1,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   }
 ]
