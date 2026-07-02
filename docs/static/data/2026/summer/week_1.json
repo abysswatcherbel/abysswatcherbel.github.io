@@ -932,6 +932,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.55,
+    "streams": null,
+    "episode": "65",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 1,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ujlw5g/koupen_chan_episode_65_discussion/",
+    "mal_id": 60534,
+    "current_rank": 30,
+    "karma_change": -7,
+    "rank_change": 32,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -950,9 +974,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uglzam/onegai_aipri_episode_12_discussion/",
     "mal_id": 63352,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -1,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   }
 ]
