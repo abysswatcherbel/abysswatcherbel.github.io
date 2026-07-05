@@ -110,6 +110,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 6.77,
+    "streams": null,
+    "episode": "1",
+    "karma": 292,
+    "comments": 147,
+    "week_id": 2,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1umm4gk/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
     },
@@ -128,7 +152,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umje9o/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -152,7 +176,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umj8sj/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -185,9 +209,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -3,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   }
 ]
