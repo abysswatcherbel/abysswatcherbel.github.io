@@ -110,6 +110,55 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
+    },
+    "title": "Ushiro no Shoumen Kamui-san",
+    "title_english": "KAMUI: He's Behind You",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 136,
+    "comments": 74,
+    "week_id": 2,
+    "studio": [
+      "Zero-G",
+      "ZG-R"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1umje9o/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
+    "mal_id": 63468,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 108,
+    "comments": 61,
+    "week_id": 2,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1umj8sj/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -136,9 +185,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -3,
-    "rank_change": 39,
+    "rank_change": 37,
     "season": "summer"
   }
 ]
