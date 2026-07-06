@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/158340l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/158340.jpg"
+    },
+    "title": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
+    "title_english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 3953,
+    "comments": 620,
+    "week_id": 2,
+    "studio": [
+      "Studio Bind"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1un66mq/mushoku_tensei_jobless_reincarnation_season_3/",
+    "mal_id": 59193,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1527/158340l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1527/158340.jpg"
+    },
+    "title": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
+    "title_english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 3344,
+    "comments": 856,
+    "week_id": 2,
+    "studio": [
+      "Studio Bind"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1un6q1u/mushoku_tensei_jobless_reincarnation_season_3/",
+    "mal_id": 59193,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
       "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
     },
@@ -31,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umgw1w/that_time_i_got_reincarnated_as_a_slime_season_4/",
     "mal_id": 59970,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 108,
-    "rank_change": 3,
+    "rank_change": 1,
     "season": "summer"
   },
   {
@@ -55,7 +103,31 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umemyt/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 2,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1544/157046l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1544/157046.jpg"
+    },
+    "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
+    "title_english": "Skeleton Knight in Another World II",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 492,
+    "comments": 173,
+    "week_id": 2,
+    "studio": [
+      "Aura Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1un6q1o/skeleton_knight_in_another_world_season_2/",
+    "mal_id": 60522,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -92,9 +164,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1un5o6t/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 3,
+    "current_rank": 6,
     "karma_change": 6,
-    "rank_change": 9,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -116,7 +188,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umfd1e/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 4,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -140,7 +212,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhtc8/draw_this_then_die_kore_kaite_shine_episode_1/",
     "mal_id": 61280,
-    "current_rank": 5,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -164,7 +236,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umm4gk/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 6,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -189,7 +261,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umje9o/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 7,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -213,7 +285,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umj8sj/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 8,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -237,7 +309,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umyk4m/pok\u00e9mon_horizons_the_series_episode_142_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -270,9 +342,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 34,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -307,9 +379,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umvbdd/rilakkuma_episode_14_discussion/",
     "mal_id": 60153,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": -5,
-    "rank_change": 36,
+    "rank_change": 33,
     "season": "summer"
   }
 ]
