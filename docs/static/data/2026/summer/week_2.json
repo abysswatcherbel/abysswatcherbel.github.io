@@ -636,6 +636,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.59,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "23",
+    "karma": 26,
+    "comments": 16,
+    "week_id": 2,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1unpl2q/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 25,
+    "karma_change": -1,
+    "rank_change": 18,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -653,7 +682,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umyk4m/pok\u00e9mon_horizons_the_series_episode_142_discussion/",
     "mal_id": 53876,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -686,9 +715,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -3,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -710,9 +739,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unlliy/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 4,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -747,9 +776,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umvbdd/rilakkuma_episode_14_discussion/",
     "mal_id": 60153,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -5,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   }
 ]
