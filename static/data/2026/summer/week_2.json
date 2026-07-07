@@ -505,6 +505,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1961/158686l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1961/158686.jpg"
+    },
+    "title": "Tetsunabe no Jan!",
+    "title_english": "Iron Wok Jan!",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 168,
+    "comments": 117,
+    "week_id": 2,
+    "studio": [
+      "TROYCA"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1unxehf/iron_wok_jan_tetsunabe_no_jan_episode_1_discussion/",
+    "mal_id": 63100,
+    "current_rank": 20,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
     },
@@ -523,7 +547,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umje9o/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -547,7 +571,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umj8sj/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -571,7 +595,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1une92y/the_ogres_bride_oni_no_hanayome_episode_1/",
     "mal_id": 61814,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -604,9 +628,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unchy1/mao_episode_14_discussion/",
     "mal_id": 62048,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -7,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "summer"
   },
   {
@@ -628,7 +652,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unwwwr/lets_go_kaikigumi_episode_1_discussion/",
     "mal_id": 62683,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -653,7 +677,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1une93e/the_dukes_son_claims_he_wont_love_me_yet_showers/",
     "mal_id": 63537,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -694,7 +718,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unr7ec/digimon_beatbreak_episode_37_discussion/",
     "mal_id": 61269,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -718,7 +742,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1un9zl6/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -747,9 +771,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unpl2q/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -1,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -771,7 +795,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umyk4m/pok\u00e9mon_horizons_the_series_episode_142_discussion/",
     "mal_id": 53876,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -804,9 +828,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -3,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "summer"
   },
   {
@@ -828,9 +852,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unlliy/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 4,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "summer"
   },
   {
@@ -865,9 +889,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umvbdd/rilakkuma_episode_14_discussion/",
     "mal_id": 60153,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -5,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   }
 ]
