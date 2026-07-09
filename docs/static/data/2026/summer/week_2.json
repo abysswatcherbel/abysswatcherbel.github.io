@@ -1126,6 +1126,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1017/158603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1017/158603.jpg"
+    },
+    "title": "Honoo no Toukyuujo: Dodge Danko",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 52,
+    "comments": 19,
+    "week_id": 2,
+    "studio": [
+      "Cue"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1upnw1m/dodgeball_girl_danko_honoo_no_toukyuujo_dodge/",
+    "mal_id": 62031,
+    "current_rank": 44,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
     },
@@ -1148,9 +1172,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unpl2q/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -1,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -1172,7 +1196,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umyk4m/pok\u00e9mon_horizons_the_series_episode_142_discussion/",
     "mal_id": 53876,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1205,9 +1229,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -3,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "summer"
   },
   {
@@ -1229,9 +1253,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unlliy/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 4,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1254,9 +1278,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uo7ft1/onegai_aipri_episode_14_discussion/",
     "mal_id": 63352,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 2,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -1291,9 +1315,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umvbdd/rilakkuma_episode_14_discussion/",
     "mal_id": 60153,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -5,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "summer"
   }
 ]
