@@ -1611,6 +1611,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 6.99,
+    "streams": null,
+    "episode": "40",
+    "karma": 20,
+    "comments": 0,
+    "week_id": 2,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1urpujv/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 64,
+    "karma_change": 6,
+    "rank_change": -18,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -1637,9 +1659,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umhnv8/the_drops_of_god_kami_no_shizuku_episode_13/",
     "mal_id": 62981,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -3,
-    "rank_change": -20,
+    "rank_change": -21,
     "season": "summer"
   },
   {
@@ -1661,9 +1683,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ur176v/candy_caries_episode_13_discussion/",
     "mal_id": 63276,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 3,
-    "rank_change": -20,
+    "rank_change": -21,
     "season": "summer"
   },
   {
@@ -1685,9 +1707,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1unlliy/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 4,
-    "rank_change": -18,
+    "rank_change": -19,
     "season": "summer"
   },
   {
@@ -1710,9 +1732,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uo7ft1/onegai_aipri_episode_14_discussion/",
     "mal_id": 63352,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 2,
-    "rank_change": -14,
+    "rank_change": -15,
     "season": "summer"
   },
   {
@@ -1747,9 +1769,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1umvbdd/rilakkuma_episode_14_discussion/",
     "mal_id": 60153,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -5,
-    "rank_change": -21,
+    "rank_change": -22,
     "season": "summer"
   }
 ]
