@@ -110,6 +110,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 7.3,
+    "streams": null,
+    "episode": "2",
+    "karma": 261,
+    "comments": 169,
+    "week_id": 3,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ussts8/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 5,
+    "karma_change": -31,
+    "rank_change": 34,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7,
+    "streams": null,
+    "episode": "2",
+    "karma": 96,
+    "comments": 33,
+    "week_id": 3,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ussou2/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 6,
+    "karma_change": -12,
+    "rank_change": 50,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1591/157071l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1591/157071.jpg"
     },
@@ -128,7 +176,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usjl4r/bungo_stray_dogs_wan_season_2_episode_2_discussion/",
     "mal_id": 62883,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -161,9 +209,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usr3zr/the_drops_of_god_kami_no_shizuku_episode_14/",
     "mal_id": 62981,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 16,
-    "rank_change": 66,
+    "rank_change": 64,
     "season": "summer"
   },
   {
@@ -185,7 +233,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -210,7 +258,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
