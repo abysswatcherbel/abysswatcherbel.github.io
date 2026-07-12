@@ -62,6 +62,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
+    },
+    "title": "Kore Kaite Shine",
+    "title_english": "Draw This, Then Die!",
+    "num_episodes": 12,
+    "score": 7.47,
+    "streams": null,
+    "episode": "2",
+    "karma": 327,
+    "comments": 109,
+    "week_id": 3,
+    "studio": [
+      "Shin-Ei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1usrjpi/draw_this_then_die_kore_kaite_shine_episode_2/",
+    "mal_id": 61280,
+    "current_rank": 3,
+    "karma_change": 18,
+    "rank_change": 33,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
     },
@@ -79,9 +103,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usonfd/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 1,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -104,9 +128,42 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usjl4r/bungo_stray_dogs_wan_season_2_episode_2_discussion/",
     "mal_id": 62883,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 5.87,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "14",
+    "karma": 35,
+    "comments": 7,
+    "week_id": 3,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1usr3zr/the_drops_of_god_kami_no_shizuku_episode_14/",
+    "mal_id": 62981,
+    "current_rank": 6,
+    "karma_change": 16,
+    "rank_change": 66,
     "season": "summer"
   },
   {
@@ -128,7 +185,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -153,7 +210,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
