@@ -1,6 +1,54 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
+    },
+    "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+    "title_english": "The Frontier Lord Begins with Zero Subjects",
+    "num_episodes": 0,
+    "score": 7.03,
+    "streams": null,
+    "episode": "2",
+    "karma": 479,
+    "comments": 371,
+    "week_id": 3,
+    "studio": [
+      "animation studio42"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1usnupa/the_frontier_lord_begins_with_zero_subjects/",
+    "mal_id": 62078,
+    "current_rank": 1,
+    "karma_change": -14,
+    "rank_change": 21,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
+    },
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "title_english": "I Became a Legend After My 10 Year-Long Last Stand.",
+    "num_episodes": 0,
+    "score": 6.84,
+    "streams": null,
+    "episode": "2",
+    "karma": 316,
+    "comments": 182,
+    "week_id": 3,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1usonfd/i_became_a_legend_after_my_10_yearlong_last_stand/",
+    "mal_id": 62617,
+    "current_rank": 2,
+    "karma_change": 1,
+    "rank_change": 31,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1591/157071l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1591/157071.jpg"
     },
@@ -19,7 +67,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usjl4r/bungo_stray_dogs_wan_season_2_episode_2_discussion/",
     "mal_id": 62883,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -43,7 +91,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -68,7 +116,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
