@@ -134,6 +134,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
+    },
+    "title": "Ushiro no Shoumen Kamui-san",
+    "title_english": "KAMUI: He's Behind You",
+    "num_episodes": 0,
+    "score": 6.16,
+    "streams": null,
+    "episode": "2",
+    "karma": 121,
+    "comments": 46,
+    "week_id": 3,
+    "studio": [
+      "Zero-G",
+      "ZG-R"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1usw5hu/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
+    "mal_id": 63468,
+    "current_rank": 6,
+    "karma_change": -15,
+    "rank_change": 49,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
     },
@@ -151,9 +176,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ussou2/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -12,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -176,7 +201,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usjl4r/bungo_stray_dogs_wan_season_2_episode_2_discussion/",
     "mal_id": 62883,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -209,9 +234,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usr3zr/the_drops_of_god_kami_no_shizuku_episode_14/",
     "mal_id": 62981,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 16,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "summer"
   },
   {
@@ -233,7 +258,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -258,7 +283,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
