@@ -38,6 +38,51 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1171/156397l.webp",
+      "medium": "https://myanimelist.net/images/anime/1171/156397.webp"
+    },
+    "title": "Yomi no Tsugai",
+    "title_english": "Daemons of the Shadow Realm",
+    "num_episodes": 24,
+    "score": 7.88,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "14",
+    "karma": 1310,
+    "comments": 244,
+    "week_id": 3,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1utmghq/daemons_of_the_shadow_realm_yomi_no_tsugai/",
+    "mal_id": 62001,
+    "current_rank": 2,
+    "karma_change": 116,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
       "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
     },
@@ -64,7 +109,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utfika/ascendance_of_a_bookworm_adopted_daughter_of_an/",
     "mal_id": 57466,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -88,9 +133,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usnupa/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -14,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -125,9 +170,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utggf7/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -6,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -149,9 +194,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usrjpi/draw_this_then_die_kore_kaite_shine_episode_2/",
     "mal_id": 61280,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 18,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -173,9 +218,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utk7vc/the_cat_and_the_dragon_neko_to_ryuu_episode_3/",
     "mal_id": 61048,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 5,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -197,9 +242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usonfd/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -221,9 +266,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utjnk0/black_torch_episode_2_discussion/",
     "mal_id": 61169,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -71,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -245,9 +290,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ussts8/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -31,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -270,9 +315,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usw5hu/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -15,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -294,9 +339,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ussou2/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -12,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -319,7 +364,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usjl4r/bungo_stray_dogs_wan_season_2_episode_2_discussion/",
     "mal_id": 62883,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -352,9 +397,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usr3zr/the_drops_of_god_kami_no_shizuku_episode_14/",
     "mal_id": 62981,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 16,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "summer"
   },
   {
@@ -376,7 +421,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -400,9 +445,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utkypq/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -31,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   },
   {
@@ -425,7 +470,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -462,9 +507,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ut5w1c/rilakkuma_episode_15_discussion/",
     "mal_id": 60153,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": 8,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "summer"
   },
   {
@@ -495,7 +540,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
