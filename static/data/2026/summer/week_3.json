@@ -332,6 +332,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1068/157997l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1068/157997.jpg"
+    },
+    "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
+    "title_english": "Shiboyugi: Playing Death Games to Put Food on the Table: 44 - Cloudy Beach",
+    "num_episodes": 1,
+    "score": null,
+    "streams": null,
+    "episode": "",
+    "karma": 407,
+    "comments": 119,
+    "week_id": 3,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uvcscd/shiboyugi_playing_death_games_to_put_food_on_the/",
+    "mal_id": 63819,
+    "current_rank": 13,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
       "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
     },
@@ -362,9 +386,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utggf7/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -6,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -386,9 +410,57 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utt182/rich_girl_caretaker_im_secretly_the_caregiver_of/",
     "mal_id": 62876,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 80,
-    "rank_change": 21,
+    "rank_change": 20,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1544/157046l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1544/157046.jpg"
+    },
+    "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
+    "title_english": "Skeleton Knight in Another World II",
+    "num_episodes": 0,
+    "score": 7.07,
+    "streams": null,
+    "episode": "2",
+    "karma": 379,
+    "comments": 128,
+    "week_id": 3,
+    "studio": [
+      "Aura Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uvdzhq/skeleton_knight_in_another_world_season_2/",
+    "mal_id": 60522,
+    "current_rank": 16,
+    "karma_change": -113,
+    "rank_change": 7,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1551/157170l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1551/157170.jpg"
+    },
+    "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+    "title_english": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
+    "num_episodes": 0,
+    "score": 7.07,
+    "streams": null,
+    "episode": "2",
+    "karma": 375,
+    "comments": 300,
+    "week_id": 3,
+    "studio": [
+      "Studio Comet"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uvd8ht/a_livid_ladys_guide_to_getting_even_how_i_crushed/",
+    "mal_id": 62289,
+    "current_rank": 17,
+    "karma_change": 46,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -410,9 +482,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usrjpi/draw_this_then_die_kore_kaite_shine_episode_2/",
     "mal_id": 61280,
-    "current_rank": 15,
+    "current_rank": 18,
     "karma_change": 18,
-    "rank_change": 21,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -434,9 +506,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utk7vc/the_cat_and_the_dragon_neko_to_ryuu_episode_3/",
     "mal_id": 61048,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": 5,
-    "rank_change": 18,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -458,9 +530,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uvbrt5/the_world_is_dancing_world_is_dancing_episode_3/",
     "mal_id": 63347,
-    "current_rank": 17,
+    "current_rank": 20,
     "karma_change": -91,
-    "rank_change": 7,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -482,9 +554,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usonfd/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 18,
+    "current_rank": 21,
     "karma_change": 1,
-    "rank_change": 15,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -506,7 +578,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utqdn5/hanaorisan_still_wants_to_fight_in_the_next_life/",
     "mal_id": 62535,
-    "current_rank": 19,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -530,9 +602,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utjnk0/black_torch_episode_2_discussion/",
     "mal_id": 61169,
-    "current_rank": 20,
+    "current_rank": 23,
     "karma_change": -71,
-    "rank_change": 9,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -555,9 +627,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utoajx/grow_up_show_sunflower_circus_grow_up_show/",
     "mal_id": 62051,
-    "current_rank": 21,
+    "current_rank": 24,
     "karma_change": 12,
-    "rank_change": 21,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -579,9 +651,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ussts8/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 22,
+    "current_rank": 25,
     "karma_change": -31,
-    "rank_change": 17,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -603,9 +675,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utt17d/magilumiere_magical_girls_inc_season_2/",
     "mal_id": 60552,
-    "current_rank": 23,
+    "current_rank": 26,
     "karma_change": 7,
-    "rank_change": 23,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -627,9 +699,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utpk39/magical_girl_lyrical_nanoha_exceeds_gun_blaze/",
     "mal_id": 60637,
-    "current_rank": 24,
+    "current_rank": 27,
     "karma_change": -13,
-    "rank_change": 24,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -651,9 +723,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uueyef/the_worlds_strongest_rearguard_sekai_saikyou_no/",
     "mal_id": 62435,
-    "current_rank": 25,
+    "current_rank": 28,
     "karma_change": -38,
-    "rank_change": 22,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -688,7 +760,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uujgfm/one_piece_episode_1169_discussion/",
     "mal_id": 21,
-    "current_rank": 26,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -725,9 +797,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuhv01/the_classroom_of_a_black_cat_and_a_witch_kuroneko/",
     "mal_id": 62171,
-    "current_rank": 27,
+    "current_rank": 30,
     "karma_change": -43,
-    "rank_change": 23,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -749,9 +821,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuaas8/iron_wok_jan_tetsunabe_no_jan_episode_2_discussion/",
     "mal_id": 63100,
-    "current_rank": 28,
+    "current_rank": 31,
     "karma_change": -32,
-    "rank_change": 24,
+    "rank_change": 21,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1417/157798l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1417/157798.jpg"
+    },
+    "title": "Suterare Seijo no Isekai Gohan Tabi: Kakure Skill de Camping Car wo Shoukan shimashita",
+    "title_english": "The Forsaken Saintess and her Foodie Roadtrip in Another World",
+    "num_episodes": 0,
+    "score": 6.71,
+    "streams": null,
+    "episode": "2",
+    "karma": 121,
+    "comments": 48,
+    "week_id": 3,
+    "studio": [
+      "EMT Squared"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uvdd7p/the_forsaken_saintess_and_her_foodie_road_trip_in/",
+    "mal_id": 63752,
+    "current_rank": 32,
+    "karma_change": -31,
+    "rank_change": 22,
     "season": "summer"
   },
   {
@@ -774,9 +870,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usw5hu/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 29,
+    "current_rank": 33,
     "karma_change": -15,
-    "rank_change": 26,
+    "rank_change": 22,
     "season": "summer"
   },
   {
@@ -798,9 +894,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utpk46/the_ogres_bride_oni_no_hanayome_episode_2/",
     "mal_id": 61814,
-    "current_rank": 30,
+    "current_rank": 34,
     "karma_change": -2,
-    "rank_change": 27,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -822,9 +918,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ussou2/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 31,
+    "current_rank": 35,
     "karma_change": -12,
-    "rank_change": 25,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -847,9 +943,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utpoug/the_dukes_son_claims_he_wont_love_me_yet_showers/",
     "mal_id": 63537,
-    "current_rank": 32,
+    "current_rank": 36,
     "karma_change": 11,
-    "rank_change": 30,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -888,9 +984,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uu3nur/digimon_beatbreak_episode_38_discussion/",
     "mal_id": 61269,
-    "current_rank": 33,
+    "current_rank": 37,
     "karma_change": 18,
-    "rank_change": 31,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -912,9 +1008,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uufr50/lets_go_kaikigumi_episode_2_discussion/",
     "mal_id": 62683,
-    "current_rank": 34,
+    "current_rank": 38,
     "karma_change": -21,
-    "rank_change": 27,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -936,9 +1032,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uukps3/anime_azurlane_slow_ahead_season_2_azur_lane/",
     "mal_id": 56613,
-    "current_rank": 35,
+    "current_rank": 39,
     "karma_change": -58,
-    "rank_change": 24,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -961,7 +1057,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usjl4r/bungo_stray_dogs_wan_season_2_episode_2_discussion/",
     "mal_id": 62883,
-    "current_rank": 36,
+    "current_rank": 40,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -990,9 +1086,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uu1tyo/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 37,
+    "current_rank": 41,
     "karma_change": 9,
-    "rank_change": 31,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1023,9 +1119,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usr3zr/the_drops_of_god_kami_no_shizuku_episode_14/",
     "mal_id": 62981,
-    "current_rank": 38,
+    "current_rank": 42,
     "karma_change": 16,
-    "rank_change": 34,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1111/158814l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1111/158814.jpg"
+    },
+    "title": "Sword Art Online: Unanswered//butterfly",
+    "title_english": "",
+    "num_episodes": 1,
+    "score": 6.44,
+    "streams": null,
+    "episode": "",
+    "karma": 30,
+    "comments": 7,
+    "week_id": 3,
+    "studio": [
+      "Polygon Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uvck01/unansweredbutterfly_sword_art_online/",
+    "mal_id": 63736,
+    "current_rank": 43,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -1047,7 +1167,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 39,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -1071,9 +1191,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utkypq/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 40,
+    "current_rank": 45,
     "karma_change": -31,
-    "rank_change": 26,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1096,7 +1216,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 41,
+    "current_rank": 46,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1133,9 +1253,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ut5w1c/rilakkuma_episode_15_discussion/",
     "mal_id": 60153,
-    "current_rank": 42,
+    "current_rank": 47,
     "karma_change": 8,
-    "rank_change": 34,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -1166,7 +1286,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 43,
+    "current_rank": 48,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1190,7 +1310,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuoi9t/beyblade_x_episode_129_discussion/",
     "mal_id": 56566,
-    "current_rank": 44,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
