@@ -8,7 +8,24 @@
     "title_english": "Mushoku Tensei: Jobless Reincarnation Season 3",
     "num_episodes": 0,
     "score": 8.95,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "3",
     "karma": 3609,
     "comments": 1415,
@@ -162,7 +179,16 @@
     "title_english": "You and I Are Polar Opposites Season 2",
     "num_episodes": 0,
     "score": 8.35,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 1282,
     "comments": 283,
@@ -186,7 +212,12 @@
     "title_english": "Grand Blue Dreaming Season 3",
     "num_episodes": 0,
     "score": 8.4,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
     "episode": "2",
     "karma": 734,
     "comments": 113,
@@ -449,7 +480,24 @@
     "title_english": "Skeleton Knight in Another World II",
     "num_episodes": 0,
     "score": 7.07,
-    "streams": null,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Bilibili Global",
+        "url": "https://www.bilibili.tv/en/index"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
     "episode": "2",
     "karma": 379,
     "comments": 128,

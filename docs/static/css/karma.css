@@ -73,7 +73,7 @@ body.edit-mode .editable-text[contenteditable="true"]:focus {
 
 /* Episode container */
 .episode-container {
-    background-color: var(--secondary-bg);
+    background-color: #161617;
 }
 
 .row {
@@ -87,7 +87,7 @@ body.edit-mode .editable-text[contenteditable="true"]:focus {
 .episode-container>.divider {
     height: 10px;
     width: 877px;
-    background-color: var(--dark-bg);
+    background-color: #65676a;
     position: relative;
     clip-path: polygon(0% 0%, 75% 0%, 77% 50%, 75% 100%, 0% 100%);
     box-shadow: inset 0px 8px 15px -4px black;

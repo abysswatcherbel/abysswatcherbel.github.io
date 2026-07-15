@@ -5,7 +5,7 @@
     height: 2%;
     width: 100%;
     justify-content: space-between;
-    background-color: #0b132b;
+    background-color: #26272a;
 }
 
 .subheader{
@@ -16,7 +16,7 @@
 .credits {
     height: 100%;
     flex-wrap: nowrap;
-    background-color: #1a2a6c;
+    background-color: #31343d;
     justify-content: space-between;
     align-items: center;
     /* gap: 5px; */
@@ -55,7 +55,7 @@
 .header .airing-period {
     display: flex;
     flex-wrap: wrap;
-    background-color: #1a2a6c;
+    background-color: #3a3e4b;
     font-size: 11px;
     font-weight: bold;
     font-style: italic;
@@ -132,13 +132,13 @@
 }
 
 .week.summer {
-    background-color: var(--summer-bg);
-    color: var(--summer-text);
+    background-color: #26272a;
+    color: #72747a;
 }
 
 .season.summer {
-    color: var(--summer-contrast-text);
-    background-color: var(--summer-contrast-bg);
+    color: #a2a098;
+    background-color: #31343d;
     display: flex;
 }
 
@@ -182,14 +182,14 @@
 }
 
 .total-karma .text-container>span {
-    color: var(--spring-text);
+    color: #545950;
     margin-top: auto;
     margin-bottom: auto;
 }
 
  .total-karma .text-container {
     margin-top: 0px;
-    color: var(--secondary-bg);
+    color: #3f4e64;
     margin-right: 5px;
 }
 
@@ -199,5 +199,5 @@
     font-style: italic;
     font-weight: bold;
     border-radius: 100px;
-  
+
 }
