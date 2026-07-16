@@ -1630,6 +1630,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "74",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uwm429/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 61,
+    "karma_change": -2,
+    "rank_change": 13,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1656,7 +1680,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1680,7 +1704,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuoi9t/beyblade_x_episode_129_discussion/",
     "mal_id": 56566,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
