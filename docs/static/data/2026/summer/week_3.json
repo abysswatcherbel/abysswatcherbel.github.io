@@ -1568,6 +1568,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1704/150419l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1704/150419.jpg"
+    },
+    "title": "ChaO",
+    "title_english": "ChaO",
+    "num_episodes": 1,
+    "score": 7.11,
+    "streams": null,
+    "episode": "",
+    "karma": 14,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "Studio 4\u00b0C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uwnhww/chao_movie_discussion/",
+    "mal_id": 60774,
+    "current_rank": 59,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1015/158799l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1015/158799.jpg"
     },
@@ -1586,7 +1610,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1623,9 +1647,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ut5w1c/rilakkuma_episode_15_discussion/",
     "mal_id": 60153,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": 8,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1647,9 +1671,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwm429/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -2,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -1680,7 +1704,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1704,7 +1728,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuoi9t/beyblade_x_episode_129_discussion/",
     "mal_id": 56566,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
