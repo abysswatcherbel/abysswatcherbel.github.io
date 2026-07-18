@@ -1743,6 +1743,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1891/158352l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1891/158352.jpg"
+    },
+    "title": "Mebius Dust",
+    "title_english": "Mebius Dust",
+    "num_episodes": 0,
+    "score": 5.76,
+    "streams": null,
+    "episode": "2",
+    "karma": 32,
+    "comments": 30,
+    "week_id": 3,
+    "studio": [
+      "Doga Kobo"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uy5dgk/mebius_dust_episode_2_discussion/",
+    "mal_id": 63802,
+    "current_rank": 65,
+    "karma_change": -53,
+    "rank_change": -5,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1111/158814l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1111/158814.jpg"
     },
@@ -1760,7 +1784,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uvck01/unansweredbutterfly_sword_art_online/",
     "mal_id": 63736,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1784,7 +1808,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usifl0/babies_of_bread_pan_no_akachan_episode_1/",
     "mal_id": 64210,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -1808,9 +1832,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1utkypq/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -31,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -1830,7 +1854,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1uw7r67/loca_movie_discussion/",
     "mal_id": 62942,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1854,9 +1878,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwbbqz/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -12,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "summer"
   },
   {
@@ -1878,9 +1902,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uxdohr/candy_caries_episode_14_discussion/",
     "mal_id": 63276,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -4,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1902,7 +1926,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwnhww/chao_movie_discussion/",
     "mal_id": 60774,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1927,7 +1951,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1964,9 +1988,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ut5w1c/rilakkuma_episode_15_discussion/",
     "mal_id": 60153,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 8,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -1986,9 +2010,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1uy2d2y/ganso_bandorichan_ganso_bang_dream_chan_episode/",
     "mal_id": 61107,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": -11,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "summer"
   },
   {
@@ -2010,9 +2034,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwm429/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": -2,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -2043,7 +2067,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2067,7 +2091,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuoi9t/beyblade_x_episode_129_discussion/",
     "mal_id": 56566,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
