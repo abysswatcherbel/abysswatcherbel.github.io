@@ -1947,6 +1947,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.01,
+    "streams": null,
+    "episode": "41",
+    "karma": 9,
+    "comments": 0,
+    "week_id": 3,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1uy2d2y/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 73,
+    "karma_change": -11,
+    "rank_change": -2,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
       "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
     },
@@ -1964,9 +1986,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwm429/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": -2,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "summer"
   },
   {
@@ -1997,7 +2019,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2021,7 +2043,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuoi9t/beyblade_x_episode_129_discussion/",
     "mal_id": 56566,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
