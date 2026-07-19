@@ -1973,6 +1973,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1591/157071l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1591/157071.jpg"
+    },
+    "title": "Bungou Stray Dogs Wan! 2",
+    "title_english": "Bungo Stray Dogs Wan! 2",
+    "num_episodes": 0,
+    "score": 7.09,
+    "streams": null,
+    "episode": "3",
+    "karma": 21,
+    "comments": 5,
+    "week_id": 3,
+    "studio": [
+      "Bones",
+      "Nomad"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uyikco/bungo_stray_dogs_wan_season_2_episode_3_discussion/",
+    "mal_id": 62883,
+    "current_rank": 74,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1158/153603l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1158/153603.jpg"
     },
@@ -1988,7 +2013,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1uw7r67/loca_movie_discussion/",
     "mal_id": 62942,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2012,9 +2037,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwbbqz/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": -12,
-    "rank_change": -6,
+    "rank_change": -7,
     "season": "summer"
   },
   {
@@ -2036,9 +2061,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uxdohr/candy_caries_episode_14_discussion/",
     "mal_id": 63276,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": -4,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "summer"
   },
   {
@@ -2060,7 +2085,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwnhww/chao_movie_discussion/",
     "mal_id": 60774,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2085,7 +2110,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1usi4oa/bananya_athome_party_ona_discussion/",
     "mal_id": 64519,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2122,9 +2147,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ut5w1c/rilakkuma_episode_15_discussion/",
     "mal_id": 60153,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 8,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "summer"
   },
   {
@@ -2144,9 +2169,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1uy2d2y/ganso_bandorichan_ganso_bang_dream_chan_episode/",
     "mal_id": 61107,
-    "current_rank": 80,
+    "current_rank": 81,
     "karma_change": -11,
-    "rank_change": -9,
+    "rank_change": -10,
     "season": "summer"
   },
   {
@@ -2168,9 +2193,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uwm429/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 81,
+    "current_rank": 82,
     "karma_change": -2,
-    "rank_change": -7,
+    "rank_change": -8,
     "season": "summer"
   },
   {
@@ -2201,7 +2226,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uthoap/meitantei_conan_case_closed_episode_1206/",
     "mal_id": 235,
-    "current_rank": 82,
+    "current_rank": 83,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2225,7 +2250,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uuoi9t/beyblade_x_episode_129_discussion/",
     "mal_id": 56566,
-    "current_rank": 83,
+    "current_rank": 84,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
