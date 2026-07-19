@@ -38,6 +38,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
+    },
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "title_english": "The Elusive Samurai Season 2",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 641,
+    "comments": 93,
+    "week_id": 4,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz3yo1/the_elusive_samurai_season_2_nige_jouzu_no/",
+    "mal_id": 60059,
+    "current_rank": 2,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
     },
@@ -55,9 +79,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uyzyme/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -77,
-    "rank_change": 18,
+    "rank_change": 17,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
+    },
+    "title": "Kore Kaite Shine",
+    "title_english": "Draw This, Then Die!",
+    "num_episodes": 12,
+    "score": 7.55,
+    "streams": null,
+    "episode": "3",
+    "karma": 360,
+    "comments": 106,
+    "week_id": 4,
+    "studio": [
+      "Shin-Ei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz43j4/draw_this_then_die_kore_kaite_shine_episode_3/",
+    "mal_id": 61280,
+    "current_rank": 4,
+    "karma_change": 33,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -79,9 +127,57 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz0mo7/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -25,
-    "rank_change": 31,
+    "rank_change": 29,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 7.27,
+    "streams": null,
+    "episode": "3",
+    "karma": 234,
+    "comments": 108,
+    "week_id": 4,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz4t3t/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 6,
+    "karma_change": -27,
+    "rank_change": 35,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.02,
+    "streams": null,
+    "episode": "3",
+    "karma": 77,
+    "comments": 31,
+    "week_id": 4,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz4t4j/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 7,
+    "karma_change": -19,
+    "rank_change": 52,
     "season": "summer"
   },
   {
@@ -112,9 +208,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 4,
+    "current_rank": 8,
     "karma_change": -5,
-    "rank_change": 65,
+    "rank_change": 61,
     "season": "summer"
   },
   {
@@ -136,9 +232,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 5,
+    "current_rank": 9,
     "karma_change": -10,
-    "rank_change": 67,
+    "rank_change": 63,
     "season": "summer"
   }
 ]
