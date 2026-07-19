@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
+    },
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "title_english": "I Became a Legend After My 10 Year-Long Last Stand.",
+    "num_episodes": 0,
+    "score": 6.77,
+    "streams": null,
+    "episode": "3",
+    "karma": 291,
+    "comments": 133,
+    "week_id": 4,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz0mo7/i_became_a_legend_after_my_10_yearlong_last_stand/",
+    "mal_id": 62617,
+    "current_rank": 2,
+    "karma_change": -25,
+    "rank_change": 32,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1713/158586l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1713/158586.jpg"
     },
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -10,
-    "rank_change": 70,
+    "rank_change": 69,
     "season": "summer"
   }
 ]
