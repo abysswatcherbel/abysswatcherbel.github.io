@@ -158,6 +158,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
+    },
+    "title": "Ushiro no Shoumen Kamui-san",
+    "title_english": "KAMUI: He's Behind You",
+    "num_episodes": 0,
+    "score": 6.15,
+    "streams": null,
+    "episode": "3",
+    "karma": 86,
+    "comments": 24,
+    "week_id": 4,
+    "studio": [
+      "Zero-G",
+      "ZG-R"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz7sgp/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
+    "mal_id": 63468,
+    "current_rank": 7,
+    "karma_change": -35,
+    "rank_change": 50,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
     },
@@ -175,9 +200,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz4t4j/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -19,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -208,9 +233,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -5,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "summer"
   },
   {
@@ -232,9 +257,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -10,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "summer"
   }
 ]
