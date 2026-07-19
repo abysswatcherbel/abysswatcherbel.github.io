@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
+    },
+    "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+    "title_english": "The Frontier Lord Begins with Zero Subjects",
+    "num_episodes": 0,
+    "score": 7.03,
+    "streams": null,
+    "episode": "3",
+    "karma": 402,
+    "comments": 201,
+    "week_id": 4,
+    "studio": [
+      "animation studio42"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uyzyme/the_frontier_lord_begins_with_zero_subjects/",
+    "mal_id": 62078,
+    "current_rank": 1,
+    "karma_change": -77,
+    "rank_change": 19,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1713/158586l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1713/158586.jpg"
+    },
+    "title": "Pan no Akachan (TV)",
+    "title_english": "Babies of Bread",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 13,
+    "comments": 2,
+    "week_id": 4,
+    "studio": [
+      "CHOCOLATE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
+    "mal_id": 64210,
+    "current_rank": 2,
+    "karma_change": -10,
+    "rank_change": 70,
+    "season": "summer"
+  }
+]
