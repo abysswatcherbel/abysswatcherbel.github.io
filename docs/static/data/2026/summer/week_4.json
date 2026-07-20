@@ -204,6 +204,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1878/157796l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1878/157796.jpg"
+    },
+    "title": "Neko to Ryuu",
+    "title_english": "The Cat and the Dragon",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": null,
+    "episode": "4",
+    "karma": 279,
+    "comments": 155,
+    "week_id": 4,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uzw1ob/the_cat_and_the_dragon_neko_to_ryuu_episode_4/",
+    "mal_id": 61048,
+    "current_rank": 8,
+    "karma_change": -40,
+    "rank_change": 24,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
     },
@@ -221,9 +245,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz4t3t/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -27,
-    "rank_change": 33,
+    "rank_change": 32,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1965/158363l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1965/158363.webp"
+    },
+    "title": "Black Torch",
+    "title_english": "Black Torch",
+    "num_episodes": 0,
+    "score": 7.33,
+    "streams": null,
+    "episode": "3",
+    "karma": 228,
+    "comments": 201,
+    "week_id": 4,
+    "studio": [
+      "100studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uzvdas/black_torch_episode_3_discussion/",
+    "mal_id": 61169,
+    "current_rank": 10,
+    "karma_change": -55,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -246,9 +294,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz7sgp/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 9,
+    "current_rank": 11,
     "karma_change": -35,
-    "rank_change": 48,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -270,9 +318,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz4t4j/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": -19,
-    "rank_change": 49,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -303,9 +351,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 11,
+    "current_rank": 13,
     "karma_change": -5,
-    "rank_change": 58,
+    "rank_change": 56,
     "season": "summer"
   },
   {
@@ -327,7 +375,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uziyi8/pok\u00e9mon_horizons_the_series_episode_143_discussion/",
     "mal_id": 53876,
-    "current_rank": 12,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -351,9 +399,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": -10,
-    "rank_change": 59,
+    "rank_change": 57,
     "season": "summer"
   },
   {
@@ -384,9 +432,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzthlc/meitantei_conan_case_closed_episode_1207/",
     "mal_id": 235,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": 3,
-    "rank_change": 69,
+    "rank_change": 67,
     "season": "summer"
   },
   {
@@ -421,9 +469,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzhsk3/rilakkuma_episode_16_discussion/",
     "mal_id": 60153,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": -5,
-    "rank_change": 65,
+    "rank_change": 63,
     "season": "summer"
   }
 ]
