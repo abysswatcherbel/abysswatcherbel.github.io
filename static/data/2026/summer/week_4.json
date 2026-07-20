@@ -1,6 +1,51 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1171/156397l.webp",
+      "medium": "https://myanimelist.net/images/anime/1171/156397.webp"
+    },
+    "title": "Yomi no Tsugai",
+    "title_english": "Daemons of the Shadow Realm",
+    "num_episodes": 24,
+    "score": 7.87,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "15",
+    "karma": 1296,
+    "comments": 263,
+    "week_id": 4,
+    "studio": [
+      "Bones Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uzzotl/daemons_of_the_shadow_realm_yomi_no_tsugai/",
+    "mal_id": 62001,
+    "current_rank": 1,
+    "karma_change": -14,
+    "rank_change": 5,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
       "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
     },
@@ -31,8 +76,32 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz2a8d/tensei_shitara_slime_datta_ken_season_4_that_time/",
     "mal_id": 59970,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -413,
+    "rank_change": 1,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1368/158227l.webp",
+      "medium": "https://cdn.myanimelist.net/images/anime/1368/158227.webp"
+    },
+    "title": "Tenmaku no Jaadugar",
+    "title_english": "Jaadugar: A Witch in Mongolia",
+    "num_episodes": 0,
+    "score": 8.42,
+    "streams": null,
+    "episode": "4",
+    "karma": 1044,
+    "comments": 306,
+    "week_id": 4,
+    "studio": [
+      "Science SARU"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uzzosb/jaadugar_a_witch_in_mongolia_tenmaku_no_jaadugar/",
+    "mal_id": 61483,
+    "current_rank": 3,
+    "karma_change": -303,
     "rank_change": 2,
     "season": "summer"
   },
@@ -64,9 +133,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzs71l/ascendance_of_a_bookworm_adopted_daughter_of_an/",
     "mal_id": 57466,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": 59,
-    "rank_change": 13,
+    "rank_change": 11,
     "season": "summer"
   },
   {
@@ -88,7 +157,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz3yo1/the_elusive_samurai_season_2_nige_jouzu_no/",
     "mal_id": 60059,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -125,9 +194,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzsd9u/welcome_to_demon_school_irumakun_season_4/",
     "mal_id": 60310,
-    "current_rank": 4,
+    "current_rank": 6,
     "karma_change": 21,
-    "rank_change": 20,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -149,9 +218,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uyzyme/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": -77,
-    "rank_change": 15,
+    "rank_change": 13,
     "season": "summer"
   },
   {
@@ -173,9 +242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz43j4/draw_this_then_die_kore_kaite_shine_episode_3/",
     "mal_id": 61280,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 33,
-    "rank_change": 25,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -197,9 +266,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz0mo7/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -25,
-    "rank_change": 27,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -221,9 +290,34 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzw1ob/the_cat_and_the_dragon_neko_to_ryuu_episode_4/",
     "mal_id": 61048,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -40,
-    "rank_change": 24,
+    "rank_change": 22,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1329/158716l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1329/158716.jpg"
+    },
+    "title": "Grow Up Show: Himawari no Circus-dan",
+    "title_english": "Grow Up Show: Sunflower Circus",
+    "num_episodes": 0,
+    "score": 7.14,
+    "streams": null,
+    "episode": "3",
+    "karma": 260,
+    "comments": 69,
+    "week_id": 4,
+    "studio": [
+      "A-1 Pictures",
+      "Psyde Kick Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1uzzoqx/grow_up_show_sunflower_circus_grow_up_show/",
+    "mal_id": 62051,
+    "current_rank": 11,
+    "karma_change": -10,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -245,9 +339,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz4t3t/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 9,
+    "current_rank": 12,
     "karma_change": -27,
-    "rank_change": 32,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -269,9 +363,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzvdas/black_torch_episode_3_discussion/",
     "mal_id": 61169,
-    "current_rank": 10,
+    "current_rank": 13,
     "karma_change": -55,
-    "rank_change": 27,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -294,9 +388,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz7sgp/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 11,
+    "current_rank": 14,
     "karma_change": -35,
-    "rank_change": 46,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -318,9 +412,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz4t4j/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 12,
+    "current_rank": 15,
     "karma_change": -19,
-    "rank_change": 47,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -351,9 +445,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 13,
+    "current_rank": 16,
     "karma_change": -5,
-    "rank_change": 56,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -375,7 +469,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uziyi8/pok\u00e9mon_horizons_the_series_episode_143_discussion/",
     "mal_id": 53876,
-    "current_rank": 14,
+    "current_rank": 17,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -399,9 +493,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzwt15/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 15,
+    "current_rank": 18,
     "karma_change": -5,
-    "rank_change": 58,
+    "rank_change": 55,
     "season": "summer"
   },
   {
@@ -423,9 +517,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 16,
+    "current_rank": 19,
     "karma_change": -10,
-    "rank_change": 56,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -456,9 +550,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzthlc/meitantei_conan_case_closed_episode_1207/",
     "mal_id": 235,
-    "current_rank": 17,
+    "current_rank": 20,
     "karma_change": 3,
-    "rank_change": 66,
+    "rank_change": 63,
     "season": "summer"
   },
   {
@@ -493,9 +587,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzhsk3/rilakkuma_episode_16_discussion/",
     "mal_id": 60153,
-    "current_rank": 18,
+    "current_rank": 21,
     "karma_change": -5,
-    "rank_change": 62,
+    "rank_change": 59,
     "season": "summer"
   }
 ]
