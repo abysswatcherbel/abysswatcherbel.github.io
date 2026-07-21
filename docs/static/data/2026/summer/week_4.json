@@ -1016,6 +1016,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1380/158715l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1380/158715.jpg"
+    },
+    "title": "Azur Lane: Bisoku Zenshin! Ni!!",
+    "title_english": "Azur Lane: Slow Ahead! Season 2",
+    "num_episodes": 0,
+    "score": 6.73,
+    "streams": null,
+    "episode": "3",
+    "karma": 47,
+    "comments": 7,
+    "week_id": 4,
+    "studio": [
+      "Studio CANDY BOX"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v0vjmr/anime_azurlane_slow_ahead_season_2_azur_lane/",
+    "mal_id": 56613,
+    "current_rank": 37,
+    "karma_change": 1,
+    "rank_change": 28,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -1042,9 +1066,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 37,
+    "current_rank": 38,
     "karma_change": -5,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -1066,7 +1090,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uziyi8/pok\u00e9mon_horizons_the_series_episode_143_discussion/",
     "mal_id": 53876,
-    "current_rank": 38,
+    "current_rank": 39,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1090,9 +1114,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzwt15/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": -5,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "summer"
   },
   {
@@ -1114,9 +1138,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -10,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -1147,9 +1171,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzthlc/meitantei_conan_case_closed_episode_1207/",
     "mal_id": 235,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -1171,9 +1195,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v0m7xh/babies_of_bread_pan_no_akachan_episode_3/",
     "mal_id": 64210,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -17,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -1195,9 +1219,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v090ou/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -1,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -1232,9 +1256,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzhsk3/rilakkuma_episode_16_discussion/",
     "mal_id": 60153,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -5,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   }
 ]
