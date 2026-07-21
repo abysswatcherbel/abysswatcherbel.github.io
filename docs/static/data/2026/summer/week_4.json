@@ -630,6 +630,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.62,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "25",
+    "karma": 60,
+    "comments": 52,
+    "week_id": 4,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v0dcbf/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 24,
+    "karma_change": 25,
+    "rank_change": 44,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -656,9 +685,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -5,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -680,7 +709,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uziyi8/pok\u00e9mon_horizons_the_series_episode_143_discussion/",
     "mal_id": 53876,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -704,9 +733,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzwt15/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -5,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -728,9 +757,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -10,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -761,9 +790,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzthlc/meitantei_conan_case_closed_episode_1207/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 3,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -785,9 +814,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v090ou/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -1,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "summer"
   },
   {
@@ -822,9 +851,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzhsk3/rilakkuma_episode_16_discussion/",
     "mal_id": 60153,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": -5,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "summer"
   }
 ]
