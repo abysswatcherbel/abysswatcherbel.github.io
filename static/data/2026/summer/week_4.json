@@ -1284,6 +1284,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1017/158603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1017/158603.jpg"
+    },
+    "title": "Honoo no Toukyuujo: Dodge Danko",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.33,
+    "streams": null,
+    "episode": "3",
+    "karma": 41,
+    "comments": 11,
+    "week_id": 4,
+    "studio": [
+      "Cue"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v2cxn0/dodgeball_girl_danko_honoo_no_toukyuujo_dodge/",
+    "mal_id": 62031,
+    "current_rank": 47,
+    "karma_change": -7,
+    "rank_change": 17,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -1310,9 +1334,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz342j/the_drops_of_god_kami_no_shizuku_episode_15/",
     "mal_id": 62981,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -5,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1334,7 +1358,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uziyi8/pok\u00e9mon_horizons_the_series_episode_143_discussion/",
     "mal_id": 53876,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1358,9 +1382,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzwt15/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": -5,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -1382,9 +1406,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uz03hx/babies_of_bread_pan_no_akachan_episode_2/",
     "mal_id": 64210,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -10,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1415,9 +1439,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzthlc/meitantei_conan_case_closed_episode_1207/",
     "mal_id": 235,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 3,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -1439,9 +1463,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v0m7xh/babies_of_bread_pan_no_akachan_episode_3/",
     "mal_id": 64210,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -17,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -1463,9 +1487,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v090ou/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -1,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -1500,9 +1524,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzhsk3/rilakkuma_episode_16_discussion/",
     "mal_id": 60153,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -5,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   }
 ]
