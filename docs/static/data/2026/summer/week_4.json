@@ -1943,6 +1943,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.13,
+    "streams": null,
+    "episode": "42",
+    "karma": 11,
+    "comments": 1,
+    "week_id": 4,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1v4debo/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 72,
+    "karma_change": 2,
+    "rank_change": 9,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -1969,9 +1991,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzthlc/meitantei_conan_case_closed_episode_1207/",
     "mal_id": 235,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 3,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -1993,9 +2015,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v0m7xh/babies_of_bread_pan_no_akachan_episode_3/",
     "mal_id": 64210,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": -17,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "summer"
   },
   {
@@ -2017,9 +2039,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v090ou/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": -1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -2054,9 +2076,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1uzhsk3/rilakkuma_episode_16_discussion/",
     "mal_id": 60153,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": -5,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -2079,7 +2101,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v3foy9/perfect_addiction_episode_3_discussion/",
     "mal_id": 63514,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
