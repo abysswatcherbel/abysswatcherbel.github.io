@@ -110,6 +110,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 7.26,
+    "streams": null,
+    "episode": "4",
+    "karma": 259,
+    "comments": 165,
+    "week_id": 5,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5i0dg/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 5,
+    "karma_change": 25,
+    "rank_change": 36,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
     },
@@ -127,9 +151,34 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5cbqv/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -46,
-    "rank_change": 29,
+    "rank_change": 28,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
+    },
+    "title": "Ushiro no Shoumen Kamui-san",
+    "title_english": "KAMUI: He's Behind You",
+    "num_episodes": 0,
+    "score": 6.17,
+    "streams": null,
+    "episode": "4",
+    "karma": 81,
+    "comments": 24,
+    "week_id": 5,
+    "studio": [
+      "Zero-G",
+      "ZG-R"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5i0ro/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
+    "mal_id": 63468,
+    "current_rank": 7,
+    "karma_change": -5,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -151,9 +200,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5gevr/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -10,
-    "rank_change": 55,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -175,7 +224,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v4xerp/ansatsu_kyoushitsu_movie_minna_no_jikan/",
     "mal_id": 62421,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -208,9 +257,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5eshb/the_drops_of_god_kami_no_shizuku_episode_16/",
     "mal_id": 62981,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -14,
-    "rank_change": 63,
+    "rank_change": 61,
     "season": "summer"
   }
 ]
