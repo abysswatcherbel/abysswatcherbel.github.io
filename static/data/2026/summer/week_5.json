@@ -1,6 +1,67 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
+    },
+    "title": "Tensei shitara Slime Datta Ken 4th Season",
+    "title_english": "That Time I Got Reincarnated as a Slime Season 4",
+    "num_episodes": 0,
+    "score": 8.13,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "16",
+    "karma": 1060,
+    "comments": 375,
+    "week_id": 5,
+    "studio": [
+      "8bit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5e03p/tensei_shitara_slime_datta_ken_season_4_that_time/",
+    "mal_id": 59970,
+    "current_rank": 1,
+    "karma_change": -17,
+    "rank_change": 6,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
+    },
+    "title": "Kore Kaite Shine",
+    "title_english": "Draw This, Then Die!",
+    "num_episodes": 12,
+    "score": 7.58,
+    "streams": null,
+    "episode": "4",
+    "karma": 378,
+    "comments": 172,
+    "week_id": 5,
+    "studio": [
+      "Shin-Ei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5ewdf/draw_this_then_die_kore_kaite_shine_episode_4/",
+    "mal_id": 61280,
+    "current_rank": 2,
+    "karma_change": 18,
+    "rank_change": 24,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
     },
@@ -18,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5bifo/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 1,
+    "current_rank": 3,
     "karma_change": -50,
-    "rank_change": 22,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -42,9 +103,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5cbqv/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 2,
+    "current_rank": 4,
     "karma_change": -46,
-    "rank_change": 32,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -66,9 +127,42 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v4xerp/ansatsu_kyoushitsu_movie_minna_no_jikan/",
     "mal_id": 62421,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 5.85,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "16",
+    "karma": 16,
+    "comments": 4,
+    "week_id": 5,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5eshb/the_drops_of_god_kami_no_shizuku_episode_16/",
+    "mal_id": 62981,
+    "current_rank": 6,
+    "karma_change": -14,
+    "rank_change": 65,
     "season": "summer"
   }
 ]

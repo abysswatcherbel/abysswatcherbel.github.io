@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
+    },
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "title_english": "I Became a Legend After My 10 Year-Long Last Stand.",
+    "num_episodes": 0,
+    "score": 6.7,
+    "streams": null,
+    "episode": "4",
+    "karma": 245,
+    "comments": 118,
+    "week_id": 5,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5cbqv/i_became_a_legend_after_my_10_yearlong_last_stand/",
+    "mal_id": 62617,
+    "current_rank": 2,
+    "karma_change": -46,
+    "rank_change": 32,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1198/154288l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1198/154288.jpg"
     },
@@ -42,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v4xerp/ansatsu_kyoushitsu_movie_minna_no_jikan/",
     "mal_id": 62421,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
