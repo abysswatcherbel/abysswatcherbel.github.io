@@ -38,6 +38,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
+    },
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "title_english": "The Elusive Samurai Season 2",
+    "num_episodes": 0,
+    "score": 7.62,
+    "streams": null,
+    "episode": "2",
+    "karma": 540,
+    "comments": 70,
+    "week_id": 5,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5fje9/the_elusive_samurai_season_2_nige_jouzu_no/",
+    "mal_id": 60059,
+    "current_rank": 2,
+    "karma_change": -101,
+    "rank_change": 15,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
     },
@@ -55,9 +79,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5ewdf/draw_this_then_die_kore_kaite_shine_episode_4/",
     "mal_id": 61280,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 18,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -79,9 +103,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5bifo/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -50,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -103,9 +127,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5cbqv/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -46,
-    "rank_change": 30,
+    "rank_change": 29,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.02,
+    "streams": null,
+    "episode": "4",
+    "karma": 67,
+    "comments": 30,
+    "week_id": 5,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v5gevr/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 6,
+    "karma_change": -10,
+    "rank_change": 55,
     "season": "summer"
   },
   {
@@ -127,7 +175,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v4xerp/ansatsu_kyoushitsu_movie_minna_no_jikan/",
     "mal_id": 62421,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -160,9 +208,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5eshb/the_drops_of_god_kami_no_shizuku_episode_16/",
     "mal_id": 62981,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": -14,
-    "rank_change": 65,
+    "rank_change": 63,
     "season": "summer"
   }
 ]
