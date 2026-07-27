@@ -95,6 +95,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 8.11,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "17",
+    "karma": 396,
+    "comments": 124,
+    "week_id": 5,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v64o97/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 4,
+    "karma_change": -24,
+    "rank_change": 18,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
     },
@@ -112,9 +149,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5ewdf/draw_this_then_die_kore_kaite_shine_episode_4/",
     "mal_id": 61280,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 18,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -136,9 +173,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5bifo/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -50,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -160,9 +197,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5i0dg/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 25,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "summer"
   },
   {
@@ -184,9 +221,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5cbqv/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -46,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -209,9 +246,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5i0ro/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -5,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -233,9 +270,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5gevr/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -10,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -257,7 +294,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v4xerp/ansatsu_kyoushitsu_movie_minna_no_jikan/",
     "mal_id": 62421,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -290,9 +327,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5eshb/the_drops_of_god_kami_no_shizuku_episode_16/",
     "mal_id": 62981,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -14,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "summer"
   },
   {
@@ -327,9 +364,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5tshp/rilakkuma_episode_17_discussion/",
     "mal_id": 60153,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 3,
-    "rank_change": 71,
+    "rank_change": 70,
     "season": "summer"
   }
 ]
