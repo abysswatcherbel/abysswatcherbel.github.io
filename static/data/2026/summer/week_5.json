@@ -711,6 +711,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1491/157799l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1491/157799.jpg"
+    },
+    "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+    "title_english": "Saved by the Ice Cold Prince's Embrace",
+    "num_episodes": 0,
+    "score": 5.66,
+    "streams": null,
+    "episode": "3",
+    "karma": 15,
+    "comments": 6,
+    "week_id": 5,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v6nl4z/saved_by_the_ice_cold_princes_embrace_migawari/",
+    "mal_id": 63878,
+    "current_rank": 27,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1112/158450l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1112/158450.jpg"
     },
@@ -728,9 +753,59 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v69a9g/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -4,
-    "rank_change": 48,
+    "rank_change": 47,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1491/157799l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1491/157799.jpg"
+    },
+    "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+    "title_english": "Saved by the Ice Cold Prince's Embrace",
+    "num_episodes": 0,
+    "score": 5.66,
+    "streams": null,
+    "episode": "1",
+    "karma": 10,
+    "comments": 2,
+    "week_id": 5,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v6njoj/saved_by_the_ice_cold_princes_embrace_migawari/",
+    "mal_id": 63878,
+    "current_rank": 29,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1491/157799l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1491/157799.jpg"
+    },
+    "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+    "title_english": "Saved by the Ice Cold Prince's Embrace",
+    "num_episodes": 0,
+    "score": 5.66,
+    "streams": null,
+    "episode": "2",
+    "karma": 9,
+    "comments": 1,
+    "week_id": 5,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v6njyk/saved_by_the_ice_cold_princes_embrace_migawari/",
+    "mal_id": 63878,
+    "current_rank": 30,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "summer"
   },
   {
@@ -765,9 +840,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5tshp/rilakkuma_episode_17_discussion/",
     "mal_id": 60153,
-    "current_rank": 28,
+    "current_rank": 31,
     "karma_change": 3,
-    "rank_change": 55,
+    "rank_change": 52,
     "season": "summer"
   },
   {
@@ -789,9 +864,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v6lkgk/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 29,
+    "current_rank": 32,
     "karma_change": 2,
-    "rank_change": 53,
+    "rank_change": 50,
     "season": "summer"
   }
 ]
