@@ -1043,5 +1043,29 @@
     "karma_change": 2,
     "rank_change": 44,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1713/158586l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1713/158586.jpg"
+    },
+    "title": "Pan no Akachan (TV)",
+    "title_english": "Babies of Bread",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "4",
+    "karma": 4,
+    "comments": 0,
+    "week_id": 5,
+    "studio": [
+      "CHOCOLATE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1v6zsna/babies_of_bread_pan_no_akachan_episode_4/",
+    "mal_id": 64210,
+    "current_rank": 39,
+    "karma_change": -2,
+    "rank_change": 42,
+    "season": "summer"
   }
 ]
