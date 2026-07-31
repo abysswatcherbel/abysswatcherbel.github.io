@@ -1846,6 +1846,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1780/154909l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1780/154909.jpg"
+    },
+    "title": "Candy Caries",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.48,
+    "streams": null,
+    "episode": "16",
+    "karma": 15,
+    "comments": 2,
+    "week_id": 5,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1va3x8e/candy_caries_episode_16_discussion/",
+    "mal_id": 63276,
+    "current_rank": 68,
+    "karma_change": 0,
+    "rank_change": 8,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1112/158450l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1112/158450.jpg"
     },
@@ -1863,9 +1887,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v69a9g/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -4,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -1887,9 +1911,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v915f9/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -1912,7 +1936,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v8y1fs/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1937,7 +1961,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v6njoj/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -1962,7 +1986,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v6njyk/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1999,9 +2023,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v5tshp/rilakkuma_episode_17_discussion/",
     "mal_id": 60153,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 3,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -2023,9 +2047,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v6lkgk/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 2,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -2047,7 +2071,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v7oqai/beyblade_x_episode_130_discussion/",
     "mal_id": 56566,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2071,9 +2095,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v6zsna/babies_of_bread_pan_no_akachan_episode_4/",
     "mal_id": 64210,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": -2,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -2096,9 +2120,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1v9vpwy/perfect_addiction_episode_4_discussion/",
     "mal_id": 63514,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 1,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "summer"
   }
 ]
