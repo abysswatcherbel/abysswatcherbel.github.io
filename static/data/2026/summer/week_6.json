@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
+    },
+    "title": "Kore Kaite Shine",
+    "title_english": "Draw This, Then Die!",
+    "num_episodes": 12,
+    "score": 7.63,
+    "streams": null,
+    "episode": "5",
+    "karma": 333,
+    "comments": 165,
+    "week_id": 6,
+    "studio": [
+      "Shin-Ei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vbu93l/draw_this_then_die_kore_kaite_shine_episode_5/",
+    "mal_id": 61280,
+    "current_rank": 1,
+    "karma_change": -45,
+    "rank_change": 24,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
     },
@@ -18,9 +42,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vbr1ie/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -68,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -42,9 +66,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vbrv51/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -29,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -67,9 +91,42 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vbepga/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 0,
     "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 5.84,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "17",
+    "karma": 28,
+    "comments": 8,
+    "week_id": 6,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vbu951/the_drops_of_god_kami_no_shizuku_episode_17/",
+    "mal_id": 62981,
+    "current_rank": 5,
+    "karma_change": 12,
+    "rank_change": 68,
     "season": "summer"
   }
 ]

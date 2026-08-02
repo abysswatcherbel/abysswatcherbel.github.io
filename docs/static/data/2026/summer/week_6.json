@@ -25,6 +25,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
+    },
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "title_english": "I Became a Legend After My 10 Year-Long Last Stand.",
+    "num_episodes": 0,
+    "score": 6.64,
+    "streams": null,
+    "episode": "5",
+    "karma": 216,
+    "comments": 122,
+    "week_id": 6,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vbrv51/i_became_a_legend_after_my_10_yearlong_last_stand/",
+    "mal_id": 62617,
+    "current_rank": 2,
+    "karma_change": -29,
+    "rank_change": 39,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1832/153628l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1832/153628.jpg"
     },
@@ -43,7 +67,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vbepga/girls_und_panzer_motto_love_love_sakusen_desu/",
     "mal_id": 61227,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
