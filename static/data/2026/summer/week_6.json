@@ -622,6 +622,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.66,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "27",
+    "karma": 33,
+    "comments": 13,
+    "week_id": 6,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vd4rrx/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 24,
+    "karma_change": -15,
+    "rank_change": 44,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -648,9 +677,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vbu951/the_drops_of_god_kami_no_shizuku_episode_17/",
     "mal_id": 62981,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 12,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "summer"
   },
   {
@@ -672,7 +701,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vcc8cp/pok\u00e9mon_horizons_the_series_episode_144_discussion/",
     "mal_id": 53876,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -696,9 +725,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vco95d/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 8,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -733,9 +762,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vc90pi/rilakkuma_episode_18_discussion/",
     "mal_id": 60153,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 6,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "summer"
   },
   {
@@ -766,9 +795,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vcl1gy/meitantei_conan_case_closed_episode_1209/",
     "mal_id": 235,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -9,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   }
 ]
