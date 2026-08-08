@@ -2137,6 +2137,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.15,
+    "streams": null,
+    "episode": "44",
+    "karma": 11,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1vh3qh7/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 80,
+    "karma_change": -5,
+    "rank_change": -5,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1809/158105l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1809/158105.jpg"
     },
@@ -2155,9 +2177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vg6wvq/perfect_addiction_episode_5_discussion/",
     "mal_id": 63514,
-    "current_rank": 80,
+    "current_rank": 81,
     "karma_change": 7,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -2179,9 +2201,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vfczw3/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 81,
+    "current_rank": 82,
     "karma_change": -3,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "summer"
   },
   {
@@ -2212,9 +2234,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vcl1gy/meitantei_conan_case_closed_episode_1209/",
     "mal_id": 235,
-    "current_rank": 82,
+    "current_rank": 83,
     "karma_change": -9,
-    "rank_change": -8,
+    "rank_change": -9,
     "season": "summer"
   },
   {
@@ -2237,9 +2259,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vf9w4v/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 83,
+    "current_rank": 84,
     "karma_change": -6,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "summer"
   }
 ]
