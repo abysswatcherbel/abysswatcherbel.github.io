@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
+    },
+    "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+    "title_english": "The Frontier Lord Begins with Zero Subjects",
+    "num_episodes": 0,
+    "score": 6.93,
+    "streams": null,
+    "episode": "6",
+    "karma": 279,
+    "comments": 172,
+    "week_id": 7,
+    "studio": [
+      "animation studio42"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vi0r2d/the_frontier_lord_begins_with_zero_subjects/",
+    "mal_id": 62078,
+    "current_rank": 1,
+    "karma_change": -5,
+    "rank_change": 28,
+    "season": "summer"
+  }
+]
