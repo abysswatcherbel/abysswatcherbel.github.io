@@ -132,13 +132,13 @@
 }
 
 .week.summer {
-    background-color: #26272a;
-    color: #72747a;
+    background-color: var(--summer-bg);
+    color: var(--summer-text);
 }
 
 .season.summer {
-    color: #a2a098;
-    background-color: #31343d;
+    color: var(--summer-contrast-text);
+    background-color: var(--summer-contrast-bg);
     display: flex;
 }
 
