@@ -374,5 +374,29 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1167/158432l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1167/158432.jpg"
+    },
+    "title": "Hokuto no Ken: Kenougun Zako-tachi no Banka Part 2",
+    "title_english": "Elegy for the Henchmen: Fist of the North Star Part 2",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "13",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 7,
+    "studio": [
+      "Doraku"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vilrvp/animatica_elegy_for_the_henchmen_fist_of_the/",
+    "mal_id": 64378,
+    "current_rank": 15,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
   }
 ]
