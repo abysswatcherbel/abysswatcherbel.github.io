@@ -621,6 +621,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.66,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "28",
+    "karma": 27,
+    "comments": 16,
+    "week_id": 7,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vjcx6i/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 24,
+    "karma_change": -6,
+    "rank_change": 47,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
       "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
     },
@@ -647,9 +676,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vi3vvj/the_drops_of_god_kami_no_shizuku_episode_18/",
     "mal_id": 62981,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -6,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   },
   {
@@ -671,9 +700,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1viwvbc/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -8,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -696,7 +725,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifap5/onegai_aipri_episode_16_discussion/",
     "mal_id": 63352,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -721,7 +750,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifazc/onegai_aipri_episode_18_discussion/",
     "mal_id": 63352,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -758,9 +787,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vii6eb/rilakkuma_episode_19_discussion/",
     "mal_id": 60153,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -5,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "summer"
   },
   {
@@ -783,7 +812,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifatz/onegai_aipri_episode_17_discussion/",
     "mal_id": 63352,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -807,7 +836,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vjc25f/koupen_chan_episode_66_discussion/",
     "mal_id": 60534,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -832,7 +861,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifajc/onegai_aipri_episode_15_discussion/",
     "mal_id": 63352,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -856,7 +885,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipkan/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -880,7 +909,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vilrvp/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -904,7 +933,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipk4l/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -928,7 +957,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipk0w/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -952,7 +981,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipk7q/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
