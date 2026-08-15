@@ -1850,6 +1850,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.16,
+    "streams": null,
+    "episode": "45",
+    "karma": 17,
+    "comments": 1,
+    "week_id": 7,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1vna9lz/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 68,
+    "karma_change": 6,
+    "rank_change": 19,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1780/154909l.jpg",
       "medium": "https://myanimelist.net/images/anime/1780/154909.jpg"
     },
@@ -1867,9 +1889,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vmiayh/candy_caries_episode_18_discussion/",
     "mal_id": 63276,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 1,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1891,9 +1913,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1viwvbc/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -8,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -1915,7 +1937,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vl9qpp/koupen_chan_episode_68_discussion/",
     "mal_id": 60534,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1940,7 +1962,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifap5/onegai_aipri_episode_16_discussion/",
     "mal_id": 63352,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1964,9 +1986,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vmh5el/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -1,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1989,7 +2011,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifazc/onegai_aipri_episode_18_discussion/",
     "mal_id": 63352,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2013,7 +2035,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vjqclo/koupen_chan_episode_67_discussion/",
     "mal_id": 60534,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2050,9 +2072,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vii6eb/rilakkuma_episode_19_discussion/",
     "mal_id": 60153,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": -5,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "summer"
   },
   {
@@ -2075,7 +2097,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifatz/onegai_aipri_episode_17_discussion/",
     "mal_id": 63352,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2099,7 +2121,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vjc25f/koupen_chan_episode_66_discussion/",
     "mal_id": 60534,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2123,7 +2145,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vkivjr/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2148,7 +2170,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vifajc/onegai_aipri_episode_15_discussion/",
     "mal_id": 63352,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2172,7 +2194,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipkan/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2197,9 +2219,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vlgzsi/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 81,
+    "current_rank": 82,
     "karma_change": 1,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -2222,9 +2244,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vmdo9x/perfect_addiction_episode_6_discussion/",
     "mal_id": 63514,
-    "current_rank": 82,
+    "current_rank": 83,
     "karma_change": -7,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "summer"
   },
   {
@@ -2246,7 +2268,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vilrvp/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 83,
+    "current_rank": 84,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2270,7 +2292,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipk4l/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 84,
+    "current_rank": 85,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2294,7 +2316,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipk0w/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 85,
+    "current_rank": 86,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2318,7 +2340,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vn7skh/koupen_chan_episode_69_discussion/",
     "mal_id": 60534,
-    "current_rank": 86,
+    "current_rank": 87,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2342,7 +2364,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vipk7q/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 86,
+    "current_rank": 87,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
