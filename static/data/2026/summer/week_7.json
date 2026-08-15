@@ -2252,6 +2252,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.56,
+    "streams": null,
+    "episode": "69",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 7,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vn7skh/koupen_chan_episode_69_discussion/",
+    "mal_id": 60534,
+    "current_rank": 84,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1167/158432l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1167/158432.jpg"
     },
