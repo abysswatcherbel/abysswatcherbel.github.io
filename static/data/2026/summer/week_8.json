@@ -22,5 +22,29 @@
     "karma_change": 49,
     "rank_change": 32,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
+    },
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "title_english": "I Became a Legend After My 10 Year-Long Last Stand.",
+    "num_episodes": 0,
+    "score": 6.49,
+    "streams": null,
+    "episode": "7",
+    "karma": 188,
+    "comments": 109,
+    "week_id": 8,
+    "studio": [
+      "Gekkou"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vo86rh/i_became_a_legend_after_my_10_yearlong_last_stand/",
+    "mal_id": 62617,
+    "current_rank": 2,
+    "karma_change": 8,
+    "rank_change": 41,
+    "season": "summer"
   }
 ]
