@@ -38,6 +38,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
+    },
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "title_english": "The Elusive Samurai Season 2",
+    "num_episodes": 0,
+    "score": 7.61,
+    "streams": null,
+    "episode": "5",
+    "karma": 366,
+    "comments": 34,
+    "week_id": 8,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vobb0l/the_elusive_samurai_season_2_nige_jouzu_no/",
+    "mal_id": 60059,
+    "current_rank": 2,
+    "karma_change": 67,
+    "rank_change": 25,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
     },
@@ -55,9 +79,57 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vo7eik/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 49,
-    "rank_change": 31,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 7.25,
+    "streams": null,
+    "episode": "7",
+    "karma": 257,
+    "comments": 221,
+    "week_id": 8,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1voc6yn/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 4,
+    "karma_change": -19,
+    "rank_change": 30,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
+    },
+    "title": "Kore Kaite Shine",
+    "title_english": "Draw This, Then Die!",
+    "num_episodes": 12,
+    "score": 7.67,
+    "streams": null,
+    "episode": "7",
+    "karma": 200,
+    "comments": 50,
+    "week_id": 8,
+    "studio": [
+      "Shin-Ei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1voba0d/draw_this_then_die_kore_kaite_shine_episode_7/",
+    "mal_id": 61280,
+    "current_rank": 5,
+    "karma_change": -114,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -79,9 +151,58 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vo86rh/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 3,
+    "current_rank": 6,
     "karma_change": 8,
-    "rank_change": 40,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
+    },
+    "title": "Ushiro no Shoumen Kamui-san",
+    "title_english": "KAMUI: He's Behind You",
+    "num_episodes": 0,
+    "score": 6.21,
+    "streams": null,
+    "episode": "7",
+    "karma": 60,
+    "comments": 17,
+    "week_id": 8,
+    "studio": [
+      "Zero-G",
+      "ZG-R"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1voc70g/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
+    "mal_id": 63468,
+    "current_rank": 7,
+    "karma_change": -8,
+    "rank_change": 54,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.05,
+    "streams": null,
+    "episode": "7",
+    "karma": 55,
+    "comments": 34,
+    "week_id": 8,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1voc41z/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 8,
+    "karma_change": -3,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -112,9 +233,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1voah3w/the_drops_of_god_kami_no_shizuku_episode_19/",
     "mal_id": 62981,
-    "current_rank": 4,
+    "current_rank": 9,
     "karma_change": -4,
-    "rank_change": 68,
+    "rank_change": 63,
     "season": "summer"
   }
 ]
