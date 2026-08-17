@@ -134,6 +134,28 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1014/156363l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1014/156363.jpg"
+    },
+    "title": "Re:Zero kara Hajimeru Break Time 4th Season",
+    "title_english": "Re:ZERO ~Starting Break Time From Zero~ Season 4",
+    "num_episodes": 0,
+    "score": 7.25,
+    "streams": null,
+    "episode": "12",
+    "karma": 198,
+    "comments": 7,
+    "week_id": 8,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1vonn47/rezero_starting_break_time_from_zero_season_4/",
+    "mal_id": 63830,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
     },
@@ -151,9 +173,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vo86rh/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 8,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -176,9 +198,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1voc70g/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -8,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -200,9 +222,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1voc41z/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -3,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -233,9 +255,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1voah3w/the_drops_of_god_kami_no_shizuku_episode_19/",
     "mal_id": 62981,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "summer"
   }
 ]
