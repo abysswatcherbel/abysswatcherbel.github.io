@@ -259,5 +259,42 @@
     "karma_change": -4,
     "rank_change": 62,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.49,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "20",
+    "karma": 7,
+    "comments": 2,
+    "week_id": 8,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vop076/rilakkuma_episode_20_discussion/",
+    "mal_id": 60153,
+    "current_rank": 11,
+    "karma_change": -1,
+    "rank_change": 72,
+    "season": "summer"
   }
 ]
