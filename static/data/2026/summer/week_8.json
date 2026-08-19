@@ -1147,6 +1147,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.58,
+    "streams": null,
+    "episode": "71",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vqmfqn/koupen_chan_episode_71_discussion/",
+    "mal_id": 60534,
+    "current_rank": 42,
+    "karma_change": 8,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1177,9 +1201,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vop076/rilakkuma_episode_20_discussion/",
     "mal_id": 60153,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -1,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -1201,7 +1225,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vpg03h/beyblade_x_episode_131_discussion/",
     "mal_id": 56566,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
