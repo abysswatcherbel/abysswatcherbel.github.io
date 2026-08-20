@@ -1650,6 +1650,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "79",
+    "karma": 7,
+    "comments": 2,
+    "week_id": 8,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vs1b32/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 60,
+    "karma_change": -3,
+    "rank_change": 18,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -1668,9 +1692,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vqtlob/onegai_aipri_episode_19_discussion/",
     "mal_id": 63352,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 2,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -1692,7 +1716,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vpg03h/beyblade_x_episode_131_discussion/",
     "mal_id": 56566,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1717,9 +1741,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vrqa30/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   }
 ]
