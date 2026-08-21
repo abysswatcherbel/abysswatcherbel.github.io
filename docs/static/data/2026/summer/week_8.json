@@ -1460,6 +1460,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1017/158603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1017/158603.jpg"
+    },
+    "title": "Honoo no Toukyuujo: Dodge Danko",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.3,
+    "streams": null,
+    "episode": "7",
+    "karma": 25,
+    "comments": 9,
+    "week_id": 8,
+    "studio": [
+      "Cue"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vs4kca/dodgeball_girl_danko_honoo_no_toukyuujo_dodge/",
+    "mal_id": 62031,
+    "current_rank": 54,
+    "karma_change": -9,
+    "rank_change": 14,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -1477,7 +1501,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vou95i/pok\u00e9mon_horizons_the_series_episode_145_discussion/",
     "mal_id": 53876,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1501,9 +1525,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vrruwk/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -3,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -1534,9 +1558,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1voah3w/the_drops_of_god_kami_no_shizuku_episode_19/",
     "mal_id": 62981,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -4,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1558,9 +1582,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vp3pa4/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -1,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -1582,9 +1606,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vqqdlq/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 11,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -1606,9 +1630,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vqmfqn/koupen_chan_episode_71_discussion/",
     "mal_id": 60534,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 8,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "summer"
   },
   {
@@ -1643,9 +1667,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vop076/rilakkuma_episode_20_discussion/",
     "mal_id": 60153,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -1,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "summer"
   },
   {
@@ -1667,9 +1691,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vs1b32/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -3,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -1692,9 +1716,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vqtlob/onegai_aipri_episode_19_discussion/",
     "mal_id": 63352,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 2,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1716,7 +1740,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vpg03h/beyblade_x_episode_131_discussion/",
     "mal_id": 56566,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1741,9 +1765,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vrqa30/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -1,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   }
 ]
