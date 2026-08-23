@@ -38,6 +38,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
+    },
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "title_english": "The Elusive Samurai Season 2",
+    "num_episodes": 0,
+    "score": 7.61,
+    "streams": null,
+    "episode": "6",
+    "karma": 311,
+    "comments": 57,
+    "week_id": 9,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vukoy3/the_elusive_samurai_season_2_nige_jouzu_no/",
+    "mal_id": 60059,
+    "current_rank": 2,
+    "karma_change": -55,
+    "rank_change": 22,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
     },
@@ -55,9 +79,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuggxs/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -44,
-    "rank_change": 25,
+    "rank_change": 24,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 7.25,
+    "streams": null,
+    "episode": "8",
+    "karma": 269,
+    "comments": 209,
+    "week_id": 9,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vulda6/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 4,
+    "karma_change": 12,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -79,9 +127,58 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuh9oy/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 3,
+    "current_rank": 5,
     "karma_change": -20,
-    "rank_change": 42,
+    "rank_change": 40,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1071/158366l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1071/158366.jpg"
+    },
+    "title": "Ushiro no Shoumen Kamui-san",
+    "title_english": "KAMUI: He's Behind You",
+    "num_episodes": 0,
+    "score": 6.21,
+    "streams": null,
+    "episode": "8",
+    "karma": 71,
+    "comments": 18,
+    "week_id": 9,
+    "studio": [
+      "Zero-G",
+      "ZG-R"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vul9ff/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
+    "mal_id": 63468,
+    "current_rank": 6,
+    "karma_change": 11,
+    "rank_change": 58,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.05,
+    "streams": null,
+    "episode": "8",
+    "karma": 62,
+    "comments": 32,
+    "week_id": 9,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vul8ht/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 7,
+    "karma_change": 7,
+    "rank_change": 58,
     "season": "summer"
   },
   {
@@ -112,9 +209,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vujmym/the_drops_of_god_kami_no_shizuku_episode_20/",
     "mal_id": 62981,
-    "current_rank": 4,
+    "current_rank": 8,
     "karma_change": 14,
-    "rank_change": 74,
+    "rank_change": 70,
     "season": "summer"
   }
 ]
