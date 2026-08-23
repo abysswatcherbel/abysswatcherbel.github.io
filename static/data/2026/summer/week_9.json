@@ -1,6 +1,43 @@
 [
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
+    },
+    "title": "Tensei shitara Slime Datta Ken 4th Season",
+    "title_english": "That Time I Got Reincarnated as a Slime Season 4",
+    "num_episodes": 0,
+    "score": 8.15,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "19",
+    "karma": 1150,
+    "comments": 780,
+    "week_id": 9,
+    "studio": [
+      "8bit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vuishe/tensei_shitara_slime_datta_ken_season_4_that_time/",
+    "mal_id": 59970,
+    "current_rank": 1,
+    "karma_change": -19,
+    "rank_change": 3,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
     },
@@ -18,9 +55,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuggxs/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -44,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -42,9 +79,42 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuh9oy/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -20,
-    "rank_change": 43,
+    "rank_change": 42,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1045/155698l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1045/155698.jpg"
+    },
+    "title": "Kami no Shizuku",
+    "title_english": "The Drops of God",
+    "num_episodes": 24,
+    "score": 5.82,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      }
+    ],
+    "episode": "20",
+    "karma": 32,
+    "comments": 7,
+    "week_id": 9,
+    "studio": [
+      "Satelight"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vujmym/the_drops_of_god_kami_no_shizuku_episode_20/",
+    "mal_id": 62981,
+    "current_rank": 4,
+    "karma_change": 14,
+    "rank_change": 74,
     "season": "summer"
   }
 ]
