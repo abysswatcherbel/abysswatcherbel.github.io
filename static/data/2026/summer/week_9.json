@@ -687,6 +687,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "80",
+    "karma": 6,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vvpppg/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 26,
+    "karma_change": -1,
+    "rank_change": 57,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -717,9 +741,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuy7p7/rilakkuma_episode_21_discussion/",
     "mal_id": 60153,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -3,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "summer"
   }
 ]
