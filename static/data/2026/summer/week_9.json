@@ -38,6 +38,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 7.78,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
+    "episode": "19",
+    "karma": 573,
+    "comments": 249,
+    "week_id": 9,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vv7t8t/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 2,
+    "karma_change": -54,
+    "rank_change": 15,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
     },
@@ -55,9 +88,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vukoy3/the_elusive_samurai_season_2_nige_jouzu_no/",
     "mal_id": 60059,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -55,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -79,9 +112,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuggxs/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -44,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -103,9 +136,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vulda6/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 12,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "summer"
   },
   {
@@ -127,9 +160,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuh9oy/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -20,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -152,9 +185,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vul9ff/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 11,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "summer"
   },
   {
@@ -176,9 +209,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vul8ht/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 7,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "summer"
   },
   {
@@ -209,9 +242,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vujmym/the_drops_of_god_kami_no_shizuku_episode_20/",
     "mal_id": 62981,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 14,
-    "rank_change": 70,
+    "rank_change": 69,
     "season": "summer"
   },
   {
@@ -233,9 +266,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vv2ha2/pok\u00e9mon_horizons_the_series_episode_146_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 3,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "summer"
   },
   {
@@ -270,9 +303,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuy7p7/rilakkuma_episode_21_discussion/",
     "mal_id": 60153,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -3,
-    "rank_change": 73,
+    "rank_change": 72,
     "season": "summer"
   }
 ]
