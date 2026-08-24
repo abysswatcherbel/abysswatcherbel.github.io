@@ -1,6 +1,43 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1275/158595l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1275/158595.jpg"
+    },
+    "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
+    "title_english": "Bleach: Thousand-Year Blood War - The Calamity",
+    "num_episodes": 0,
+    "score": 9.03,
+    "streams": [
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      }
+    ],
+    "episode": "5",
+    "karma": 2866,
+    "comments": 1688,
+    "week_id": 9,
+    "studio": [
+      "Pierrot Films"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vve70i/bleach_thousandyear_blood_war_the_calamity_bleach/",
+    "mal_id": 60636,
+    "current_rank": 1,
+    "karma_change": 1583,
+    "rank_change": 2,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1695/156389l.jpg",
       "medium": "https://myanimelist.net/images/anime/1695/156389.jpg"
     },
@@ -31,9 +68,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuishe/tensei_shitara_slime_datta_ken_season_4_that_time/",
     "mal_id": 59970,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -19,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "summer"
   },
   {
@@ -64,9 +101,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vv7t8t/ascendance_of_a_bookworm_adopted_daughter_of_an/",
     "mal_id": 57466,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -54,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -88,9 +125,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vukoy3/the_elusive_samurai_season_2_nige_jouzu_no/",
     "mal_id": 60059,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": -55,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -112,9 +149,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuggxs/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -44,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "summer"
   },
   {
@@ -136,9 +173,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vulda6/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 12,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -160,9 +197,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vvbvit/the_cat_and_the_dragon_neko_to_ryuu_episode_9/",
     "mal_id": 61048,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -18,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -184,9 +221,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuh9oy/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -20,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -208,9 +245,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vvbwdu/black_torch_episode_8_discussion/",
     "mal_id": 61169,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 2,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -233,9 +270,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vul9ff/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 11,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -257,9 +294,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vul8ht/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 7,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -290,9 +327,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vujmym/the_drops_of_god_kami_no_shizuku_episode_20/",
     "mal_id": 62981,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 14,
-    "rank_change": 67,
+    "rank_change": 66,
     "season": "summer"
   },
   {
@@ -314,9 +351,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vv2ha2/pok\u00e9mon_horizons_the_series_episode_146_discussion/",
     "mal_id": 53876,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 3,
-    "rank_change": 62,
+    "rank_change": 61,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1112/158450l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1112/158450.jpg"
+    },
+    "title": "Iwamoto-senpai no Suisen",
+    "title_english": "Recommendations from Iwamoto-Senpai",
+    "num_episodes": 0,
+    "score": 5.76,
+    "streams": null,
+    "episode": "8",
+    "karma": 13,
+    "comments": 4,
+    "week_id": 9,
+    "studio": [
+      "Studio Deen"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vvdb7v/recommendations_from_iwamotosenpai_iwamotosenpai/",
+    "mal_id": 63324,
+    "current_rank": 14,
+    "karma_change": 1,
+    "rank_change": 66,
     "season": "summer"
   },
   {
@@ -347,7 +408,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vva3g5/meitantei_conan_case_closed_episode_1210/",
     "mal_id": 235,
-    "current_rank": 13,
+    "current_rank": 15,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -384,9 +445,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuy7p7/rilakkuma_episode_21_discussion/",
     "mal_id": 60153,
-    "current_rank": 14,
+    "current_rank": 16,
     "karma_change": -3,
-    "rank_change": 69,
+    "rank_change": 67,
     "season": "summer"
   }
 ]
