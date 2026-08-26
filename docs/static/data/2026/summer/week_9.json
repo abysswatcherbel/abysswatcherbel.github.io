@@ -1121,6 +1121,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.58,
+    "streams": null,
+    "episode": "73",
+    "karma": 5,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vwq0or/koupen_chan_episode_73_discussion/",
+    "mal_id": 60534,
+    "current_rank": 41,
+    "karma_change": -1,
+    "rank_change": 45,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1151,9 +1175,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuy7p7/rilakkuma_episode_21_discussion/",
     "mal_id": 60153,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -1176,9 +1200,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vvueya/onegai_aipri_episode_20_discussion/",
     "mal_id": 63352,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -4,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   }
 ]
