@@ -1587,6 +1587,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1167/158432l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1167/158432.jpg"
+    },
+    "title": "Hokuto no Ken: Kenougun Zako-tachi no Banka Part 2",
+    "title_english": "Elegy for the Henchmen: Fist of the North Star Part 2",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "20",
+    "karma": 5,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "Doraku"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1vymh1u/animatica_elegy_for_the_henchmen_fist_of_the/",
+    "mal_id": 64378,
+    "current_rank": 58,
+    "karma_change": -6,
+    "rank_change": 23,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1617,9 +1641,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vuy7p7/rilakkuma_episode_21_discussion/",
     "mal_id": 60153,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": -3,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -1642,9 +1666,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vvueya/onegai_aipri_episode_20_discussion/",
     "mal_id": 63352,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -4,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1667,9 +1691,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1vxze59/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -3,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   }
 ]
