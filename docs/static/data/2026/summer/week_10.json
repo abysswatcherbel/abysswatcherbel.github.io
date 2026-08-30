@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
+    },
+    "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+    "title_english": "The Frontier Lord Begins with Zero Subjects",
+    "num_episodes": 0,
+    "score": 6.86,
+    "streams": null,
+    "episode": "9",
+    "karma": 298,
+    "comments": 139,
+    "week_id": 10,
+    "studio": [
+      "animation studio42"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w0qp0l/the_frontier_lord_begins_with_zero_subjects/",
+    "mal_id": 62078,
+    "current_rank": 1,
+    "karma_change": 14,
+    "rank_change": 26,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1014/156363l.jpg",
       "medium": "https://myanimelist.net/images/anime/1014/156363.jpg"
     },
@@ -16,7 +40,7 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1w0be2o/rezero_starting_break_time_from_zero_season_4/",
     "mal_id": 63830,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
