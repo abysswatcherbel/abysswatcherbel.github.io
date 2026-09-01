@@ -1157,5 +1157,29 @@
     "karma_change": -4,
     "rank_change": 35,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.87,
+    "streams": null,
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "132",
+    "karma": 7,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w2o7dg/beyblade_x_episode_132_discussion/",
+    "mal_id": 56566,
+    "current_rank": 42,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
   }
 ]
