@@ -1473,5 +1473,30 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+    },
+    "title": "Onegai AiPri",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.05,
+    "streams": null,
+    "episode": "21",
+    "karma": 7,
+    "comments": 1,
+    "week_id": 10,
+    "studio": [
+      "OLM",
+      "Dongwoo A&E"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w3ng3o/onegai_aipri_episode_21_discussion/",
+    "mal_id": 63352,
+    "current_rank": 53,
+    "karma_change": 4,
+    "rank_change": 30,
+    "season": "summer"
   }
 ]
