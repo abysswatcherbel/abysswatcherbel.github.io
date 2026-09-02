@@ -1334,6 +1334,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1017/158603l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1017/158603.jpg"
+    },
+    "title": "Honoo no Toukyuujo: Dodge Danko",
+    "title_english": "",
+    "num_episodes": 12,
+    "score": 6.38,
+    "streams": null,
+    "episode": "9",
+    "karma": 24,
+    "comments": 11,
+    "week_id": 10,
+    "studio": [
+      "Cue"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w3myxs/dodgeball_girl_danko_honoo_no_toukyuujo_dodge/",
+    "mal_id": 62031,
+    "current_rank": 49,
+    "karma_change": -7,
+    "rank_change": 19,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1112/158450l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1112/158450.jpg"
     },
@@ -1351,9 +1375,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w1ncyr/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -1388,9 +1412,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w18exm/rilakkuma_episode_22_discussion/",
     "mal_id": 60153,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 8,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -1421,9 +1445,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w1k84x/meitantei_conan_case_closed_episode_1211/",
     "mal_id": 235,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -4,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1445,7 +1469,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w2o7dg/beyblade_x_episode_132_discussion/",
     "mal_id": 56566,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
