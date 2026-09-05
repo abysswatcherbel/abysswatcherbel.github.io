@@ -2041,6 +2041,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.18,
+    "streams": null,
+    "episode": "48",
+    "karma": 8,
+    "comments": 0,
+    "week_id": 10,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1w6715h/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 75,
+    "karma_change": -3,
+    "rank_change": 3,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -2058,7 +2080,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w2o7dg/beyblade_x_episode_132_discussion/",
     "mal_id": 56566,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2083,9 +2105,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w3ng3o/onegai_aipri_episode_21_discussion/",
     "mal_id": 63352,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 4,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -2108,9 +2130,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w4bimg/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": 5,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "summer"
   },
   {
@@ -2132,9 +2154,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w3s7x5/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": -5,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "summer"
   }
 ]
