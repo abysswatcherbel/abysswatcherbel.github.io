@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1891/158566.jpg"
+    },
+    "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+    "title_english": "The Frontier Lord Begins with Zero Subjects",
+    "num_episodes": 0,
+    "score": 6.79,
+    "streams": null,
+    "episode": "10",
+    "karma": 253,
+    "comments": 248,
+    "week_id": 11,
+    "studio": [
+      "animation studio42"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w74igy/the_frontier_lord_begins_with_zero_subjects/",
+    "mal_id": 62078,
+    "current_rank": 1,
+    "karma_change": -45,
+    "rank_change": 27,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1056/151350l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1056/151350.jpg"
     },
@@ -18,7 +42,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6qi5f/cocoon_one_summer_of_girlhood_cocoon_aru_natsu_no/",
     "mal_id": 55779,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -42,7 +66,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6s1zz/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
