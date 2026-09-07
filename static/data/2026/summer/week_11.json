@@ -345,6 +345,39 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
+    },
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/series-263367"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      }
+    ],
+    "title": "Meitantei Conan",
+    "title_english": "Case Closed",
+    "episode": "1212",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 11,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w7yb1m/meitantei_conan_case_closed_episode_1212/",
+    "mal_id": 235,
+    "current_rank": 14,
+    "karma_change": -4,
+    "rank_change": 66,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -363,9 +396,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7ks10/onegai_aipri_episode_22_discussion/",
     "mal_id": 63352,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -7,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "summer"
   },
   {
@@ -400,9 +433,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7mg58/rilakkuma_episode_23_discussion/",
     "mal_id": 60153,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": -12,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "summer"
   }
 ]
