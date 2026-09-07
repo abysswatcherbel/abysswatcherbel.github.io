@@ -310,5 +310,42 @@
     "karma_change": -7,
     "rank_change": 71,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.52,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "23",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w7mg58/rilakkuma_episode_23_discussion/",
+    "mal_id": 60153,
+    "current_rank": 13,
+    "karma_change": -12,
+    "rank_change": 66,
+    "season": "summer"
   }
 ]
