@@ -536,6 +536,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.13,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "46",
+    "karma": 70,
+    "comments": 22,
+    "week_id": 11,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1w8kegn/digimon_beatbreak_episode_46_discussion/",
+    "mal_id": 61269,
+    "current_rank": 20,
+    "karma_change": -19,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1009/159343l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1009/159343.jpg"
     },
@@ -553,7 +594,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8auhu/kaiju_no_8_narumis_week_at_work_kaijuu_8gou/",
     "mal_id": 63138,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -577,9 +618,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w866m2/the_ogres_bride_oni_no_hanayome_episode_10/",
     "mal_id": 61814,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -9,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -602,9 +643,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w79bff/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -14,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -626,9 +667,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w79bd7/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 7,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -651,9 +692,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w866jc/the_dukes_son_claims_he_wont_love_me_yet_showers/",
     "mal_id": 63537,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 3,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -675,7 +716,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6qi5f/cocoon_one_summer_of_girlhood_cocoon_aru_natsu_no/",
     "mal_id": 55779,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -699,9 +740,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7rm1z/pok\u00e9mon_horizons_the_series_episode_148_discussion/",
     "mal_id": 53876,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -2,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -728,9 +769,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8ikit/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -16,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "summer"
   },
   {
@@ -761,9 +802,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w77otl/the_drops_of_god_kami_no_shizuku_episode_22/",
     "mal_id": 62981,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -10,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -785,9 +826,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w81kwz/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "summer"
   },
   {
@@ -809,7 +850,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6s1zz/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -842,9 +883,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7yb1m/meitantei_conan_case_closed_episode_1212/",
     "mal_id": 235,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": -4,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "summer"
   },
   {
@@ -867,9 +908,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7ks10/onegai_aipri_episode_22_discussion/",
     "mal_id": 63352,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -7,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   },
   {
@@ -904,9 +945,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7mg58/rilakkuma_episode_23_discussion/",
     "mal_id": 60153,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -12,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -928,7 +969,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8e862/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
