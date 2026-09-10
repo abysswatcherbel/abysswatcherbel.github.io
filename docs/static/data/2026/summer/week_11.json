@@ -1312,6 +1312,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1158/158138l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1158/158138.jpg"
+    },
+    "title": "Sora wa Akai Kawa no Hotori",
+    "title_english": "Red River",
+    "num_episodes": 0,
+    "score": 5.81,
+    "streams": null,
+    "episode": "10",
+    "karma": 59,
+    "comments": 47,
+    "week_id": 11,
+    "studio": [
+      "Tatsunoko Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wav31a/red_river_sora_wa_akai_kawa_no_hotori_episode_10/",
+    "mal_id": 63489,
+    "current_rank": 48,
+    "karma_change": -1,
+    "rank_change": 15,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1024/158581l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1024/158581.jpg"
     },
@@ -1329,9 +1353,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8qi91/lets_go_kaikigumi_episode_10_discussion/",
     "mal_id": 62683,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 13,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -1354,9 +1378,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w866jc/the_dukes_son_claims_he_wont_love_me_yet_showers/",
     "mal_id": 63537,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 3,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1378,9 +1402,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w91bqr/anime_azurlane_slow_ahead_season_2_azur_lane/",
     "mal_id": 56613,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 11,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -1402,7 +1426,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6qi5f/cocoon_one_summer_of_girlhood_cocoon_aru_natsu_no/",
     "mal_id": 55779,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1426,9 +1450,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7rm1z/pok\u00e9mon_horizons_the_series_episode_148_discussion/",
     "mal_id": 53876,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": -2,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "summer"
   },
   {
@@ -1455,9 +1479,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8ikit/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -16,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "summer"
   },
   {
@@ -1479,9 +1503,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wa25eg/dodgeball_girl_danko_honoo_no_toukyuujo_dodge/",
     "mal_id": 62031,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -1512,9 +1536,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w77otl/the_drops_of_god_kami_no_shizuku_episode_22/",
     "mal_id": 62981,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -10,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1536,9 +1560,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w81kwz/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "summer"
   },
   {
@@ -1560,9 +1584,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1war47r/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -5,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -1584,7 +1608,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6s1zz/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1608,9 +1632,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w9q9q1/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 5,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -1641,9 +1665,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7yb1m/meitantei_conan_case_closed_episode_1212/",
     "mal_id": 235,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -4,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "summer"
   },
   {
@@ -1666,9 +1690,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wanypq/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -1,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -1691,9 +1715,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7ks10/onegai_aipri_episode_22_discussion/",
     "mal_id": 63352,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -7,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -1728,9 +1752,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7mg58/rilakkuma_episode_23_discussion/",
     "mal_id": 60153,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -12,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1752,7 +1776,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8e862/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
