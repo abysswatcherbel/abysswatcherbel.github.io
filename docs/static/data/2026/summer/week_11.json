@@ -1981,6 +1981,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.18,
+    "streams": null,
+    "episode": "49",
+    "karma": 11,
+    "comments": 1,
+    "week_id": 11,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1wcioy7/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 73,
+    "karma_change": 3,
+    "rank_change": 9,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1809/158105l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1809/158105.jpg"
     },
@@ -1999,9 +2021,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wbl4l5/perfect_addiction_episode_10_discussion/",
     "mal_id": 63514,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": -1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -2023,7 +2045,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w6s1zz/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2047,9 +2069,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w9q9q1/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 5,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "summer"
   },
   {
@@ -2080,9 +2102,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7yb1m/meitantei_conan_case_closed_episode_1212/",
     "mal_id": 235,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": -4,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "summer"
   },
   {
@@ -2105,9 +2127,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wanypq/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 77,
+    "current_rank": 78,
     "karma_change": -1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "summer"
   },
   {
@@ -2130,9 +2152,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7ks10/onegai_aipri_episode_22_discussion/",
     "mal_id": 63352,
-    "current_rank": 78,
+    "current_rank": 79,
     "karma_change": -7,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "summer"
   },
   {
@@ -2167,9 +2189,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w7mg58/rilakkuma_episode_23_discussion/",
     "mal_id": 60153,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": -12,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "summer"
   },
   {
@@ -2191,7 +2213,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1w8e862/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 79,
+    "current_rank": 80,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
