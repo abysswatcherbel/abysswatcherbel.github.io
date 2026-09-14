@@ -38,6 +38,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 7.75,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
+    "episode": "21",
+    "karma": 566,
+    "comments": 264,
+    "week_id": 12,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1we82e4/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 2,
+    "karma_change": -76,
+    "rank_change": 13,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
     },
@@ -55,9 +88,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdkhhw/the_elusive_samurai_season_2_nige_jouzu_no/",
     "mal_id": 60059,
-    "current_rank": 2,
+    "current_rank": 3,
     "karma_change": -57,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "summer"
   },
   {
@@ -79,9 +112,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdjn35/draw_this_then_die_kore_kaite_shine_episode_10/",
     "mal_id": 61280,
-    "current_rank": 3,
+    "current_rank": 4,
     "karma_change": 45,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -103,9 +136,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdgeul/the_frontier_lord_begins_with_zero_subjects/",
     "mal_id": 62078,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": -1,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -127,9 +160,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdl99o/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 5,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -151,9 +184,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdh7bx/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -8,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -176,9 +209,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdl7bz/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -2,
-    "rank_change": 55,
+    "rank_change": 54,
     "season": "summer"
   },
   {
@@ -200,9 +233,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdl8a8/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 3,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "summer"
   },
   {
@@ -224,9 +257,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1we3ka6/pok\u00e9mon_horizons_the_series_episode_149_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -8,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "summer"
   },
   {
@@ -257,9 +290,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdjn5k/the_drops_of_god_kami_no_shizuku_episode_23/",
     "mal_id": 62981,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 3,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "summer"
   },
   {
@@ -294,9 +327,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdyc6i/rilakkuma_episode_24_discussion/",
     "mal_id": 60153,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 7,
-    "rank_change": 76,
+    "rank_change": 75,
     "season": "summer"
   },
   {
@@ -319,9 +352,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 5,
-    "rank_change": 74,
+    "rank_change": 73,
     "season": "summer"
   }
 ]
