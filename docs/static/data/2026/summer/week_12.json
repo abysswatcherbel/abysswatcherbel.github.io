@@ -658,6 +658,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.66,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "33",
+    "karma": 25,
+    "comments": 9,
+    "week_id": 12,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1weutg9/meitantei_precure_star_detective_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 25,
+    "karma_change": 1,
+    "rank_change": 46,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1112/158450l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1112/158450.jpg"
     },
@@ -675,9 +704,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wedfrm/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 8,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -699,9 +728,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1we3ka6/pok\u00e9mon_horizons_the_series_episode_149_discussion/",
     "mal_id": 53876,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -8,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -732,9 +761,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdjn5k/the_drops_of_god_kami_no_shizuku_episode_23/",
     "mal_id": 62981,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 3,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -756,7 +785,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wei0t1/beyblade_x_episode_133_discussion/",
     "mal_id": 56566,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -793,9 +822,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdyc6i/rilakkuma_episode_24_discussion/",
     "mal_id": 60153,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": 7,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "summer"
   },
   {
@@ -818,9 +847,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 5,
-    "rank_change": 56,
+    "rank_change": 55,
     "season": "summer"
   },
   {
@@ -842,9 +871,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wepv3r/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 5,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "summer"
   }
 ]
