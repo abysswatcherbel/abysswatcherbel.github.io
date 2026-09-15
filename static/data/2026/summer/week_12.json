@@ -707,6 +707,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1380/157378l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1380/157378.jpg"
+    },
+    "title": "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha",
+    "title_english": "The World's Strongest Rearguard",
+    "num_episodes": 12,
+    "score": 5.61,
+    "streams": null,
+    "episode": "11",
+    "karma": 66,
+    "comments": 34,
+    "week_id": 12,
+    "studio": [
+      "Maho Film"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wf738n/the_worlds_strongest_rearguard_sekai_saikyou_no/",
+    "mal_id": 62435,
+    "current_rank": 26,
+    "karma_change": -2,
+    "rank_change": 37,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1009/159343l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1009/159343.jpg"
     },
@@ -724,9 +748,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1we9og9/kaiju_no_8_narumis_week_at_work_kaijuu_8gou/",
     "mal_id": 63138,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -4,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "summer"
   },
   {
@@ -748,9 +772,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdl8a8/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 3,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "summer"
   },
   {
@@ -772,9 +796,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wf23xx/lets_go_kaikigumi_episode_11_discussion/",
     "mal_id": 62683,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -12,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -797,9 +821,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wehw10/the_dukes_son_claims_he_wont_love_me_yet_showers/",
     "mal_id": 63537,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -9,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -826,9 +850,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1weutg9/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 1,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -850,9 +874,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wedfrm/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 8,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -874,9 +898,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1we3ka6/pok\u00e9mon_horizons_the_series_episode_149_discussion/",
     "mal_id": 53876,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": -8,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "summer"
   },
   {
@@ -907,9 +931,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdjn5k/the_drops_of_god_kami_no_shizuku_episode_23/",
     "mal_id": 62981,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -931,7 +955,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wei0t1/beyblade_x_episode_133_discussion/",
     "mal_id": 56566,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -968,9 +992,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdyc6i/rilakkuma_episode_24_discussion/",
     "mal_id": 60153,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 7,
-    "rank_change": 53,
+    "rank_change": 52,
     "season": "summer"
   },
   {
@@ -993,9 +1017,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 5,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -1017,9 +1041,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wepv3r/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 5,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "summer"
   }
 ]
