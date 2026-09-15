@@ -1210,6 +1210,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.59,
+    "streams": null,
+    "episode": "75",
+    "karma": 6,
+    "comments": 2,
+    "week_id": 12,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wfh7yy/koupen_chan_episode_75_discussion/",
+    "mal_id": 60534,
+    "current_rank": 44,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -1228,9 +1252,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 5,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "summer"
   },
   {
@@ -1252,9 +1276,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wepv3r/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 5,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "summer"
   },
   {
@@ -1276,7 +1300,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfefxv/koupen_chan_episode_74_discussion/",
     "mal_id": 60534,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
