@@ -1495,6 +1495,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1996/158323l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1996/158323.jpg"
+    },
+    "title": "Yoroi Shin Den Samurai Troopers Part 2",
+    "title_english": "Yoroi-Shinden Samurai Troopers Part 2",
+    "num_episodes": 0,
+    "score": 6.3,
+    "streams": null,
+    "episode": "11",
+    "karma": 17,
+    "comments": 7,
+    "week_id": 12,
+    "studio": [
+      "Sunrise"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wh2zgg/yoroi_shin_den_samurai_troopers_part_2/",
+    "mal_id": 63047,
+    "current_rank": 55,
+    "karma_change": 6,
+    "rank_change": 24,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1167/158432l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1167/158432.jpg"
     },
@@ -1512,9 +1536,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wg2o3h/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 2,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1536,7 +1560,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wei0t1/beyblade_x_episode_133_discussion/",
     "mal_id": 56566,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1573,9 +1597,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdyc6i/rilakkuma_episode_24_discussion/",
     "mal_id": 60153,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 7,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -1597,7 +1621,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfh7yy/koupen_chan_episode_75_discussion/",
     "mal_id": 60534,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1622,9 +1646,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 5,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -1646,9 +1670,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wepv3r/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 5,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1670,7 +1694,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfefxv/koupen_chan_episode_74_discussion/",
     "mal_id": 60534,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
