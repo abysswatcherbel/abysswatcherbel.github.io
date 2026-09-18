@@ -1685,6 +1685,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1780/154909l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1780/154909.jpg"
+    },
+    "title": "Candy Caries",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.46,
+    "streams": null,
+    "episode": "23",
+    "karma": 21,
+    "comments": 3,
+    "week_id": 12,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wi40xb/candy_caries_episode_23_discussion/",
+    "mal_id": 63276,
+    "current_rank": 61,
+    "karma_change": 7,
+    "rank_change": 17,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -1702,9 +1726,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1we3ka6/pok\u00e9mon_horizons_the_series_episode_149_discussion/",
     "mal_id": 53876,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -8,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "summer"
   },
   {
@@ -1735,9 +1759,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdjn5k/the_drops_of_god_kami_no_shizuku_episode_23/",
     "mal_id": 62981,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 3,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -1759,9 +1783,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wg9o6l/dodgeball_girl_danko_honoo_no_toukyuujo_dodge/",
     "mal_id": 62031,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -3,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "summer"
   },
   {
@@ -1783,9 +1807,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wh2zgg/yoroi_shin_den_samurai_troopers_part_2/",
     "mal_id": 63047,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 6,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -1805,9 +1829,9 @@
     "studio": [],
     "url": "https://www.reddit.com/r/anime/comments/1wi2v4z/thunder_3_episode_11_discussion/",
     "mal_id": 63418,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -4,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "summer"
   },
   {
@@ -1830,9 +1854,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1whx9i4/perfect_addiction_episode_11_discussion/",
     "mal_id": 63514,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 0,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -1854,9 +1878,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wg2o3h/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 2,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -1878,7 +1902,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wei0t1/beyblade_x_episode_133_discussion/",
     "mal_id": 56566,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1915,9 +1939,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdyc6i/rilakkuma_episode_24_discussion/",
     "mal_id": 60153,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 7,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -1939,7 +1963,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfh7yy/koupen_chan_episode_75_discussion/",
     "mal_id": 60534,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1964,9 +1988,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 5,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "summer"
   },
   {
@@ -1988,9 +2012,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wepv3r/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 5,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -2012,7 +2036,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfefxv/koupen_chan_episode_74_discussion/",
     "mal_id": 60534,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
