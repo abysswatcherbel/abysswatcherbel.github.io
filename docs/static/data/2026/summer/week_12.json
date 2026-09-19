@@ -1885,6 +1885,28 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1992/150237l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1992/150237.jpg"
+    },
+    "title": "Ganzo! Bandori-chan",
+    "title_english": "BanG Dream-chan",
+    "num_episodes": 52,
+    "score": 7.18,
+    "streams": null,
+    "episode": "50",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 12,
+    "studio": [],
+    "url": "https://www.reddit.com/r/anime/comments/1withqw/ganso_bandorichan_ganso_bang_dream_chan_episode/",
+    "mal_id": 61107,
+    "current_rank": 69,
+    "karma_change": -3,
+    "rank_change": 11,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1809/158105l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1809/158105.jpg"
     },
@@ -1927,9 +1949,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wg2o3h/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": 2,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -1951,7 +1973,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wei0t1/beyblade_x_episode_133_discussion/",
     "mal_id": 56566,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1988,9 +2010,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdyc6i/rilakkuma_episode_24_discussion/",
     "mal_id": 60153,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": 7,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "summer"
   },
   {
@@ -2012,7 +2034,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfh7yy/koupen_chan_episode_75_discussion/",
     "mal_id": 60534,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -2037,9 +2059,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wdx21a/onegai_aipri_episode_23_discussion/",
     "mal_id": 63352,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 5,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "summer"
   },
   {
@@ -2061,9 +2083,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wepv3r/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 5,
-    "rank_change": 13,
+    "rank_change": 12,
     "season": "summer"
   },
   {
@@ -2085,7 +2107,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wfefxv/koupen_chan_episode_74_discussion/",
     "mal_id": 60534,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
