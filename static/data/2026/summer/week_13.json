@@ -301,6 +301,31 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+    },
+    "title": "Onegai AiPri",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.07,
+    "streams": null,
+    "episode": "24",
+    "karma": 6,
+    "comments": 0,
+    "week_id": 13,
+    "studio": [
+      "OLM",
+      "Dongwoo A&E"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wkcerv/onegai_aipri_episode_24_discussion/",
+    "mal_id": 63352,
+    "current_rank": 12,
+    "karma_change": 1,
+    "rank_change": 68,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
     },
@@ -318,7 +343,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80j9/ghost_meets_gal_episode_1_discussion/",
     "mal_id": 64718,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -342,7 +367,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80sv/ghost_meets_gal_episode_3_discussion/",
     "mal_id": 64718,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
