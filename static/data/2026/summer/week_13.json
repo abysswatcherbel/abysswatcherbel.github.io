@@ -237,5 +237,114 @@
     "karma_change": 22,
     "rank_change": 60,
     "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.53,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "25",
+    "karma": 7,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wk82dy/rilakkuma_episode_25_discussion/",
+    "mal_id": 60153,
+    "current_rank": 10,
+    "karma_change": 0,
+    "rank_change": 67,
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
+    },
+    "title": "Ghost Meets Gal!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "2",
+    "karma": 7,
+    "comments": 0,
+    "week_id": 13,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wk80qk/ghost_meets_gal_episode_2_discussion/",
+    "mal_id": 64718,
+    "current_rank": 11,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
+    },
+    "title": "Ghost Meets Gal!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 5,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wk80j9/ghost_meets_gal_episode_1_discussion/",
+    "mal_id": 64718,
+    "current_rank": 12,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "summer"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
+    },
+    "title": "Ghost Meets Gal!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "3",
+    "karma": 5,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wk80sv/ghost_meets_gal_episode_3_discussion/",
+    "mal_id": 64718,
+    "current_rank": 13,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
   }
 ]
