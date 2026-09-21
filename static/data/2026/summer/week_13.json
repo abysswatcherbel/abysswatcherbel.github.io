@@ -249,6 +249,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1329/158716l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1329/158716.jpg"
+    },
+    "title": "Grow Up Show: Himawari no Circus-dan",
+    "title_english": "Grow Up Show: Sunflower Circus",
+    "num_episodes": 0,
+    "score": 7.18,
+    "streams": null,
+    "episode": "12",
+    "karma": 199,
+    "comments": 73,
+    "week_id": 13,
+    "studio": [
+      "A-1 Pictures",
+      "Psyde Kick Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wkqb3s/grow_up_show_sunflower_circus_grow_up_show/",
+    "mal_id": 62051,
+    "current_rank": 9,
+    "karma_change": 12,
+    "rank_change": 29,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1371/154308l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1371/154308.jpg"
     },
@@ -266,9 +291,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wjr247/i_became_a_legend_after_my_10_yearlong_last_stand/",
     "mal_id": 62617,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 47,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "summer"
   },
   {
@@ -290,9 +315,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wklnsj/black_torch_episode_12_discussion_final/",
     "mal_id": 61169,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 37,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "summer"
   },
   {
@@ -323,9 +348,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkpl9x/mao_episode_25_discussion/",
     "mal_id": 62048,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 14,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "summer"
   },
   {
@@ -348,9 +373,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wjv1vc/kamui_hes_behind_you_ushiro_no_shoumen_kamuisan/",
     "mal_id": 63468,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 7,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "summer"
   },
   {
@@ -372,9 +397,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkjax1/kaiju_no_8_narumis_week_at_work_kaijuu_8gou/",
     "mal_id": 63138,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": -6,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -396,9 +421,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wjv1t2/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -7,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "summer"
   },
   {
@@ -429,9 +454,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wjtf1z/the_drops_of_god_kami_no_shizuku_episode_24/",
     "mal_id": 62981,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 22,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "summer"
   },
   {
@@ -453,9 +478,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkd85q/pok\u00e9mon_horizons_the_series_episode_150_discussion/",
     "mal_id": 53876,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": 17,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "summer"
   },
   {
@@ -477,9 +502,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkn1bc/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -9,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "summer"
   },
   {
@@ -510,7 +535,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkju9c/meitantei_conan_case_closed_episode_1213/",
     "mal_id": 235,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -547,9 +572,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk82dy/rilakkuma_episode_25_discussion/",
     "mal_id": 60153,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 0,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "summer"
   },
   {
@@ -571,7 +596,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80qk/ghost_meets_gal_episode_2_discussion/",
     "mal_id": 64718,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -596,9 +621,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkcerv/onegai_aipri_episode_24_discussion/",
     "mal_id": 63352,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 1,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "summer"
   },
   {
@@ -620,7 +645,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80j9/ghost_meets_gal_episode_1_discussion/",
     "mal_id": 64718,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -644,7 +669,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80sv/ghost_meets_gal_episode_3_discussion/",
     "mal_id": 64718,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
