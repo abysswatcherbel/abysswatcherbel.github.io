@@ -805,6 +805,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.6,
+    "streams": null,
+    "episode": "77",
+    "karma": 8,
+    "comments": 1,
+    "week_id": 13,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wlfer2/koupen_chan_episode_77_discussion/",
+    "mal_id": 60534,
+    "current_rank": 30,
+    "karma_change": 5,
+    "rank_change": 52,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -835,9 +859,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk82dy/rilakkuma_episode_25_discussion/",
     "mal_id": 60153,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "summer"
   },
   {
@@ -859,7 +883,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80qk/ghost_meets_gal_episode_2_discussion/",
     "mal_id": 64718,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -883,9 +907,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wl5j3a/koupen_chan_episode_76_discussion/",
     "mal_id": 60534,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 3,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "summer"
   },
   {
@@ -907,9 +931,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkz9gf/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 1,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "summer"
   },
   {
@@ -932,9 +956,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkcerv/onegai_aipri_episode_24_discussion/",
     "mal_id": 63352,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 1,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "summer"
   },
   {
@@ -956,7 +980,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80j9/ghost_meets_gal_episode_1_discussion/",
     "mal_id": 64718,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -980,7 +1004,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80sv/ghost_meets_gal_episode_3_discussion/",
     "mal_id": 64718,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
