@@ -1280,6 +1280,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1996/158323l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1996/158323.jpg"
+    },
+    "title": "Yoroi Shin Den Samurai Troopers Part 2",
+    "title_english": "Yoroi-Shinden Samurai Troopers Part 2",
+    "num_episodes": 0,
+    "score": 6.26,
+    "streams": null,
+    "episode": "12",
+    "karma": 17,
+    "comments": 32,
+    "week_id": 13,
+    "studio": [
+      "Sunrise"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wnc6cw/yoroi_shin_den_samurai_troopers_part_2/",
+    "mal_id": 63047,
+    "current_rank": 47,
+    "karma_change": 0,
+    "rank_change": 24,
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1112/158450l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1112/158450.jpg"
     },
@@ -1297,9 +1321,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkn1bc/recommendations_from_iwamotosenpai_iwamotosenpai/",
     "mal_id": 63324,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -9,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "summer"
   },
   {
@@ -1330,7 +1354,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkju9c/meitantei_conan_case_closed_episode_1213/",
     "mal_id": 235,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1355,7 +1379,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wn91al/saved_by_the_ice_cold_princes_embrace_migawari/",
     "mal_id": 63878,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1379,9 +1403,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wmb8ll/animatica_elegy_for_the_henchmen_fist_of_the/",
     "mal_id": 64378,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 1,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -1403,9 +1427,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wlfer2/koupen_chan_episode_77_discussion/",
     "mal_id": 60534,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 5,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "summer"
   },
   {
@@ -1440,9 +1464,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk82dy/rilakkuma_episode_25_discussion/",
     "mal_id": 60153,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1464,7 +1488,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80qk/ghost_meets_gal_episode_2_discussion/",
     "mal_id": 64718,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1488,9 +1512,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wl5j3a/koupen_chan_episode_76_discussion/",
     "mal_id": 60534,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 3,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "summer"
   },
   {
@@ -1512,9 +1536,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkz9gf/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -1537,9 +1561,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkcerv/onegai_aipri_episode_24_discussion/",
     "mal_id": 63352,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 1,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "summer"
   },
   {
@@ -1561,7 +1585,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80j9/ghost_meets_gal_episode_1_discussion/",
     "mal_id": 64718,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -1585,7 +1609,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80sv/ghost_meets_gal_episode_3_discussion/",
     "mal_id": 64718,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
