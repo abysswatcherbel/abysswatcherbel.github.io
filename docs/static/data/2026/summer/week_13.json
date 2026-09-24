@@ -1337,6 +1337,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1491/157799l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1491/157799.jpg"
+    },
+    "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+    "title_english": "Saved by the Ice Cold Prince's Embrace",
+    "num_episodes": 0,
+    "score": 5.56,
+    "streams": null,
+    "episode": "12",
+    "karma": 8,
+    "comments": 2,
+    "week_id": 13,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wn91al/saved_by_the_ice_cold_princes_embrace_migawari/",
+    "mal_id": 63878,
+    "current_rank": 49,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "summer"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1167/158432l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1167/158432.jpg"
     },
@@ -1378,9 +1403,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wlfer2/koupen_chan_episode_77_discussion/",
     "mal_id": 60534,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": 5,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "summer"
   },
   {
@@ -1415,9 +1440,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk82dy/rilakkuma_episode_25_discussion/",
     "mal_id": 60153,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": 0,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "summer"
   },
   {
@@ -1439,7 +1464,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80qk/ghost_meets_gal_episode_2_discussion/",
     "mal_id": 64718,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
@@ -1463,9 +1488,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wl5j3a/koupen_chan_episode_76_discussion/",
     "mal_id": 60534,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 3,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "summer"
   },
   {
@@ -1487,9 +1512,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkz9gf/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": 1,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "summer"
   },
   {
@@ -1512,9 +1537,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wkcerv/onegai_aipri_episode_24_discussion/",
     "mal_id": 63352,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": 1,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "summer"
   },
   {
@@ -1536,7 +1561,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80j9/ghost_meets_gal_episode_1_discussion/",
     "mal_id": 64718,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "new",
     "season": "summer"
@@ -1560,7 +1585,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wk80sv/ghost_meets_gal_episode_3_discussion/",
     "mal_id": 64718,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "summer"
