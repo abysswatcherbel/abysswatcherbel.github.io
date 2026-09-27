@@ -1,0 +1,35 @@
+[
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1281/156496l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1281/156496.jpg"
+    },
+    "title": "Yani Neko",
+    "title_english": "Chainsmoker Cat",
+    "num_episodes": 0,
+    "score": 7.09,
+    "streams": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "name": "Ani-One Asia",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      }
+    ],
+    "episode": "12",
+    "karma": 753,
+    "comments": 233,
+    "week_id": 1,
+    "studio": [
+      "Bibury Animation Studios"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wplw1n/chainsmoker_cat_yani_neko_episode_12_discussion/",
+    "mal_id": 63403,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  }
+]
