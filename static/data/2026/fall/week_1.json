@@ -116,5 +116,53 @@
     "karma_change": 86,
     "rank_change": 20,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1289/156329l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1289/156329.jpg"
+    },
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "title_english": "The Elusive Samurai Season 2",
+    "num_episodes": 0,
+    "score": 7.57,
+    "streams": null,
+    "episode": "11",
+    "karma": 287,
+    "comments": 69,
+    "week_id": 1,
+    "studio": [
+      "CloverWorks"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wq09k9/the_elusive_samurai_season_2_nige_jouzu_no/",
+    "mal_id": 60059,
+    "current_rank": 5,
+    "karma_change": -59,
+    "rank_change": 16,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1534/156314l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1534/156314.jpg"
+    },
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "title_english": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+    "num_episodes": 0,
+    "score": 7.19,
+    "streams": null,
+    "episode": "13",
+    "karma": 251,
+    "comments": 204,
+    "week_id": 1,
+    "studio": [
+      "Yokohama Animation Lab"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wq18rb/hell_mode_the_hardcore_gamer_dominates_in_another/",
+    "mal_id": 63817,
+    "current_rank": 6,
+    "karma_change": -1,
+    "rank_change": 23,
+    "season": "fall"
   }
 ]
