@@ -95,6 +95,39 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1371/155054l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1371/155054.jpg"
+    },
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+    "title_english": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+    "num_episodes": 0,
+    "score": 7.73,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      }
+    ],
+    "episode": "23",
+    "karma": 653,
+    "comments": 364,
+    "week_id": 1,
+    "studio": [
+      "Wit Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wqmabb/ascendance_of_a_bookworm_adopted_daughter_of_an/",
+    "mal_id": 57466,
+    "current_rank": 4,
+    "karma_change": 3,
+    "rank_change": 10,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
     },
@@ -112,9 +145,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wpzepd/draw_this_then_die_kore_kaite_shine_episode_12/",
     "mal_id": 61280,
-    "current_rank": 4,
+    "current_rank": 5,
     "karma_change": 86,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -136,9 +169,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq09k9/the_elusive_samurai_season_2_nige_jouzu_no/",
     "mal_id": 60059,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -59,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -160,9 +193,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq18rb/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -1,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -184,7 +217,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2dmd/my_stepmother_and_stepsisters_arent_wicked_ibitte/",
     "mal_id": 62102,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -208,9 +241,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqgptn/pok\u00e9mon_horizons_the_series_episode_151_discussion/",
     "mal_id": 53876,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -20,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -232,7 +265,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2948/beyblade_x_episode_134_discussion/",
     "mal_id": 56566,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -257,9 +290,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq97zu/onegai_aipri_episode_25_discussion/",
     "mal_id": 63352,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 0,
-    "rank_change": 61,
+    "rank_change": 60,
     "season": "fall"
   },
   {
@@ -281,9 +314,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqk9ao/ghost_meets_gal_episode_4_discussion/",
     "mal_id": 64718,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -1,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "fall"
   }
 ]
