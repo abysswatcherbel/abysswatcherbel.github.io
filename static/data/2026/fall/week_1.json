@@ -472,6 +472,30 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "85",
+    "karma": 8,
+    "comments": 2,
+    "week_id": 1,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wr37j1/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 18,
+    "karma_change": 2,
+    "rank_change": 51,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -489,7 +513,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2948/beyblade_x_episode_134_discussion/",
     "mal_id": 56566,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -514,9 +538,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq97zu/onegai_aipri_episode_25_discussion/",
     "mal_id": 63352,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 0,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   },
   {
@@ -538,9 +562,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqk9ao/ghost_meets_gal_episode_4_discussion/",
     "mal_id": 64718,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -1,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "fall"
   }
 ]
