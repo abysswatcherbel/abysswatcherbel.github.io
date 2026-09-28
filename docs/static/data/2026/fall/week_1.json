@@ -128,6 +128,43 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1434/154048l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1434/154048.jpg"
+    },
+    "title": "Mairimashita! Iruma-kun 4th Season",
+    "title_english": "Welcome to Demon School! Iruma-kun Season 4",
+    "num_episodes": 24,
+    "score": 8.11,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Bahamut Anime Crazy",
+        "url": "https://ani.gamer.com.tw/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "24",
+    "karma": 440,
+    "comments": 196,
+    "week_id": 1,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wqos2e/welcome_to_demon_school_irumakun_season_4/",
+    "mal_id": 60310,
+    "current_rank": 5,
+    "karma_change": 108,
+    "rank_change": 17,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1649/154997l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1649/154997.jpg"
     },
@@ -145,9 +182,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wpzepd/draw_this_then_die_kore_kaite_shine_episode_12/",
     "mal_id": 61280,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 86,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -169,9 +206,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq09k9/the_elusive_samurai_season_2_nige_jouzu_no/",
     "mal_id": 60059,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -59,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -193,9 +230,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq18rb/hell_mode_the_hardcore_gamer_dominates_in_another/",
     "mal_id": 63817,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -1,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -217,7 +254,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2dmd/my_stepmother_and_stepsisters_arent_wicked_ibitte/",
     "mal_id": 62102,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -241,9 +278,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqnp93/kaiju_no_8_narumis_week_at_work_kaijuu_8gou/",
     "mal_id": 63138,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 7,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -265,9 +302,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqgptn/pok\u00e9mon_horizons_the_series_episode_151_discussion/",
     "mal_id": 53876,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": -20,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -298,9 +335,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqo986/meitantei_conan_case_closed_episode_1214/",
     "mal_id": 235,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   },
   {
@@ -322,7 +359,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2948/beyblade_x_episode_134_discussion/",
     "mal_id": 56566,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -347,9 +384,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq97zu/onegai_aipri_episode_25_discussion/",
     "mal_id": 63352,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 0,
-    "rank_change": 58,
+    "rank_change": 57,
     "season": "fall"
   },
   {
@@ -371,9 +408,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqk9ao/ghost_meets_gal_episode_4_discussion/",
     "mal_id": 64718,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -1,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "fall"
   }
 ]
