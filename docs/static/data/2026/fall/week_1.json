@@ -391,6 +391,47 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1776/151242l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1776/151242.jpg"
+    },
+    "title": "Digimon Beatbreak",
+    "title_english": "Digimon Beatbreak",
+    "num_episodes": 0,
+    "score": 7.43,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364378"
+      },
+      {
+        "name": "Anime Generation",
+        "url": "https://www.primevideo.com/gp/video/offers?benefitId=yamatoit"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "name": "Shahid",
+        "url": "https://shahid.mbc.net/"
+      }
+    ],
+    "episode": "49",
+    "karma": 102,
+    "comments": 59,
+    "week_id": 1,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wr9487/digimon_beatbreak_episode_49_discussion/",
+    "mal_id": 61269,
+    "current_rank": 15,
+    "karma_change": 31,
+    "rank_change": 34,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1009/159343l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1009/159343.jpg"
     },
@@ -408,9 +449,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqnp93/kaiju_no_8_narumis_week_at_work_kaijuu_8gou/",
     "mal_id": 63138,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 7,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "fall"
   },
   {
@@ -437,9 +478,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wr7cyt/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -1,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -461,9 +502,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqgptn/pok\u00e9mon_horizons_the_series_episode_151_discussion/",
     "mal_id": 53876,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -20,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -494,9 +535,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqo986/meitantei_conan_case_closed_episode_1214/",
     "mal_id": 235,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": 0,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -518,9 +559,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wr37j1/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": 2,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -542,7 +583,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2948/beyblade_x_episode_134_discussion/",
     "mal_id": 56566,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -566,7 +607,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wr4aku/plannosaurus_gachi_koseibutsubu_episode_12/",
     "mal_id": 63641,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -591,9 +632,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq97zu/onegai_aipri_episode_25_discussion/",
     "mal_id": 63352,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 0,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -615,9 +656,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqk9ao/ghost_meets_gal_episode_4_discussion/",
     "mal_id": 64718,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -1,
-    "rank_change": 51,
+    "rank_change": 50,
     "season": "fall"
   }
 ]
