@@ -746,6 +746,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1158/158138l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1158/158138.jpg"
+    },
+    "title": "Sora wa Akai Kawa no Hotori",
+    "title_english": "Red River",
+    "num_episodes": 0,
+    "score": 5.7,
+    "streams": null,
+    "episode": "13",
+    "karma": 58,
+    "comments": 35,
+    "week_id": 1,
+    "studio": [
+      "Tatsunoko Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wtgm38/red_river_sora_wa_akai_kawa_no_hotori_episode_13/",
+    "mal_id": 63489,
+    "current_rank": 27,
+    "karma_change": 2,
+    "rank_change": 25,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1905/159716l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1905/159716.jpg"
     },
@@ -763,7 +787,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ws7kvu/umayuru_full_gate_episode_1_discussion/",
     "mal_id": 64867,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -792,9 +816,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wr7cyt/meitantei_precure_star_detective_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -1,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -816,9 +840,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqgptn/pok\u00e9mon_horizons_the_series_episode_151_discussion/",
     "mal_id": 53876,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -20,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -849,9 +873,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqo986/meitantei_conan_case_closed_episode_1214/",
     "mal_id": 235,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 0,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -873,9 +897,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wr37j1/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 2,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -897,9 +921,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wrhi9g/koupen_chan_episode_78_discussion/",
     "mal_id": 60534,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 2,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -921,7 +945,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq2948/beyblade_x_episode_134_discussion/",
     "mal_id": 56566,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -945,7 +969,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wr4aku/plannosaurus_gachi_koseibutsubu_episode_12/",
     "mal_id": 63641,
-    "current_rank": 34,
+    "current_rank": 35,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -970,9 +994,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wq97zu/onegai_aipri_episode_25_discussion/",
     "mal_id": 63352,
-    "current_rank": 35,
+    "current_rank": 36,
     "karma_change": 0,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -994,9 +1018,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wqk9ao/ghost_meets_gal_episode_4_discussion/",
     "mal_id": 64718,
-    "current_rank": 36,
+    "current_rank": 37,
     "karma_change": -1,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   }
 ]
