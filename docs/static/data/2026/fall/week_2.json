@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
+    },
+    "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+    "title_english": "Steel Ball Run: JoJo's Bizarre Adventure",
+    "num_episodes": 0,
+    "score": 9.06,
+    "streams": null,
+    "episode": "3",
+    "karma": 1052,
+    "comments": 228,
+    "week_id": 2,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wvo607/steel_ball_run_jojo_no_kimyou_na_bouken_steel/",
+    "mal_id": 61469,
+    "current_rank": 1,
+    "karma_change": 9,
+    "rank_change": 5,
+    "season": "fall"
+  }
+]
