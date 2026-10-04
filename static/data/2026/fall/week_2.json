@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1028/160277l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1028/160277.jpg"
+    },
+    "title": "Kusuriya no Hitorigoto 3rd Season",
+    "title_english": "The Apothecary Diaries Season 3",
+    "num_episodes": 0,
+    "score": 7.74,
+    "streams": null,
+    "episode": "1",
+    "karma": 2621,
+    "comments": 639,
+    "week_id": 2,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wvw3bs/the_apothecary_diaries_season_3_kusuriya_no/",
+    "mal_id": 61987,
+    "current_rank": 1,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
       "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
     },
@@ -18,9 +42,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wvo607/steel_ball_run_jojo_no_kimyou_na_bouken_steel/",
     "mal_id": 61469,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": 9,
-    "rank_change": 5,
+    "rank_change": 4,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1321/159720l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1321/159720.jpg"
+    },
+    "title": "Tokyo Revengers: Santen Sensou-hen",
+    "title_english": "Tokyo Revengers: War of the Three Titan Arc",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 113,
+    "comments": 43,
+    "week_id": 2,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wvw7dw/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
+    "mal_id": 59088,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "fall"
   }
 ]
