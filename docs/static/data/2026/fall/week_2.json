@@ -142,5 +142,30 @@
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+    },
+    "title": "Onegai AiPri",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.08,
+    "streams": null,
+    "episode": "26",
+    "karma": 1,
+    "comments": 0,
+    "week_id": 2,
+    "studio": [
+      "OLM",
+      "Dongwoo A&E"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ww56fy/onegai_aipri_episode_26_discussion/",
+    "mal_id": 63352,
+    "current_rank": 7,
+    "karma_change": -5,
+    "rank_change": 41,
+    "season": "fall"
   }
 ]
