@@ -167,5 +167,29 @@
     "karma_change": -5,
     "rank_change": 41,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
+    },
+    "title": "Ghost Meets Gal!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.08,
+    "streams": null,
+    "episode": "5",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 2,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1ww7ujg/ghost_meets_gal_episode_5_discussion/",
+    "mal_id": 64718,
+    "current_rank": 8,
+    "karma_change": -4,
+    "rank_change": 41,
+    "season": "fall"
   }
 ]
