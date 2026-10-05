@@ -514,6 +514,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1630/160103l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1630/160103.jpg"
+    },
+    "title": "Pan Dorobou",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 13,
+    "comments": 5,
+    "week_id": 2,
+    "studio": [
+      "Shin-Ei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wwv0fw/pan_dorobo_episode_1_discussion/",
+    "mal_id": 62039,
+    "current_rank": 22,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -540,9 +564,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwl6d0/meitantei_conan_case_closed_episode_1215/",
     "mal_id": 235,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 3,
-    "rank_change": 20,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -577,7 +601,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwaapf/rilakkuma_episode_26_discussion/",
     "mal_id": 60153,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -602,9 +626,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww56fy/onegai_aipri_episode_26_discussion/",
     "mal_id": 63352,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -5,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -626,9 +650,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww7ujg/ghost_meets_gal_episode_5_discussion/",
     "mal_id": 64718,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": -4,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   }
 ]
