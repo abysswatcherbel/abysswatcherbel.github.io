@@ -121,6 +121,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1827/160110l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1827/160110.jpg"
+    },
+    "title": "Keroro Gunsou\u2606",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 65,
+    "comments": 28,
+    "week_id": 2,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wwb0h0/sgt_frog_keroro_gunsou_episode_1_discussion/",
+    "mal_id": 63157,
+    "current_rank": 6,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1332/160147l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1332/160147.jpg"
     },
@@ -138,9 +162,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wvxmmy/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.54,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "26",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 2,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wwaapf/rilakkuma_episode_26_discussion/",
+    "mal_id": 60153,
+    "current_rank": 8,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -163,9 +224,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww56fy/onegai_aipri_episode_26_discussion/",
     "mal_id": 63352,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": -5,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -187,9 +248,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww7ujg/ghost_meets_gal_episode_5_discussion/",
     "mal_id": 64718,
-    "current_rank": 8,
+    "current_rank": 10,
     "karma_change": -4,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "fall"
   }
 ]
