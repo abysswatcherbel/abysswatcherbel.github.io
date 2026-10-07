@@ -937,6 +937,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
+    },
+    "title": "Mahou no Shimai Lulutto Lilly Part 2",
+    "title_english": "Magical Sisters Lulutto Lilly Part 2",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "13",
+    "karma": 13,
+    "comments": 4,
+    "week_id": 2,
+    "studio": [
+      "Studio Pierrot"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1wxzir3/magical_sisters_luluttolilly_mahou_no_shimai/",
+    "mal_id": 63667,
+    "current_rank": 39,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/7/75199l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/7/75199.jpg"
     },
@@ -963,9 +987,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwl6d0/meitantei_conan_case_closed_episode_1215/",
     "mal_id": 235,
-    "current_rank": 39,
+    "current_rank": 40,
     "karma_change": 3,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -987,9 +1011,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwzgu3/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 40,
+    "current_rank": 41,
     "karma_change": -2,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1024,7 +1048,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwaapf/rilakkuma_episode_26_discussion/",
     "mal_id": 60153,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1049,9 +1073,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww56fy/onegai_aipri_episode_26_discussion/",
     "mal_id": 63352,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -5,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   },
   {
@@ -1073,9 +1097,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww7ujg/ghost_meets_gal_episode_5_discussion/",
     "mal_id": 64718,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -4,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   }
 ]
