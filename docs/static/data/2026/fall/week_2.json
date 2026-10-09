@@ -1403,6 +1403,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1529/159518l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1529/159518.jpg"
+    },
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
+    "num_episodes": 0,
+    "score": 6.59,
+    "streams": null,
+    "episode": "2",
+    "karma": 7,
+    "comments": 7,
+    "week_id": 2,
+    "studio": [
+      "M.S.C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x00gnr/the_prince_of_tennis_ii_u17_world_cup_final/",
+    "mal_id": 62534,
+    "current_rank": 58,
+    "karma_change": -4,
+    "rank_change": -17,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
       "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
     },
@@ -1420,9 +1444,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwzgu3/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -2,
-    "rank_change": -15,
+    "rank_change": -16,
     "season": "fall"
   },
   {
@@ -1457,7 +1481,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1wwaapf/rilakkuma_episode_26_discussion/",
     "mal_id": 60153,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1482,9 +1506,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww56fy/onegai_aipri_episode_26_discussion/",
     "mal_id": 63352,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -5,
-    "rank_change": -12,
+    "rank_change": -13,
     "season": "fall"
   },
   {
@@ -1506,9 +1530,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1ww7ujg/ghost_meets_gal_episode_5_discussion/",
     "mal_id": 64718,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -4,
-    "rank_change": -12,
+    "rank_change": -13,
     "season": "fall"
   }
 ]
