@@ -1562,6 +1562,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/146981l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/146981.jpg"
+    },
+    "title": "Koupen-chan",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.6,
+    "streams": null,
+    "episode": "79",
+    "karma": 0,
+    "comments": 1,
+    "week_id": 2,
+    "studio": [
+      "Lesprit"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x0djo3/koupen_chan_episode_79_discussion/",
+    "mal_id": 60534,
+    "current_rank": 64,
+    "karma_change": -8,
+    "rank_change": -20,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
     },
