@@ -1,6 +1,30 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1028/160277l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1028/160277.jpg"
+    },
+    "title": "Kusuriya no Hitorigoto 3rd Season",
+    "title_english": "The Apothecary Diaries Season 3",
+    "num_episodes": 0,
+    "score": 8.66,
+    "streams": null,
+    "episode": "2",
+    "karma": 2123,
+    "comments": 513,
+    "week_id": 3,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x1nnsi/the_apothecary_diaries_season_3_kusuriya_no/",
+    "mal_id": 61987,
+    "current_rank": 1,
+    "karma_change": -498,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
       "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
     },
@@ -18,9 +42,57 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x1fpx9/steel_ball_run_jojo_no_kimyou_na_bouken_steel/",
     "mal_id": 61469,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -96,
-    "rank_change": 2,
+    "rank_change": 1,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1172/159893l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1172/159893.jpg"
+    },
+    "title": "Hotaru no Yomeiri",
+    "title_english": "Firefly Wedding",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 505,
+    "comments": 199,
+    "week_id": 3,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x1nuix/firefly_wedding_hotaru_no_yomeiri_episode_1/",
+    "mal_id": 63293,
+    "current_rank": 3,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1531/159988l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1531/159988.jpg"
+    },
+    "title": "Toaru Anbu no Item",
+    "title_english": "A Certain Dark Item",
+    "num_episodes": 0,
+    "score": null,
+    "streams": null,
+    "episode": "1",
+    "karma": 504,
+    "comments": 277,
+    "week_id": 3,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x1ogcp/a_certain_dark_item_toaru_anbu_no_item_episode_1/",
+    "mal_id": 61014,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": "new",
     "season": "fall"
   },
   {
@@ -42,7 +114,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x17vyu/tanuki_kitsune_tanuki_to_kitsune_episode_1/",
     "mal_id": 64028,
-    "current_rank": 2,
+    "current_rank": 5,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"

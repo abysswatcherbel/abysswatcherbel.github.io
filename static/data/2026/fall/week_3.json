@@ -97,6 +97,54 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1332/160147l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1332/160147.jpg"
+    },
+    "title": "Tougen Anki: Nikko Kegon no Taki-hen",
+    "title_english": "Tougen Anki: Nikko Kegon Falls Arc",
+    "num_episodes": 0,
+    "score": 7.28,
+    "streams": null,
+    "episode": "2",
+    "karma": 65,
+    "comments": 26,
+    "week_id": 3,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x1p9hb/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
+    "mal_id": 63181,
+    "current_rank": 5,
+    "karma_change": 3,
+    "rank_change": 53,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.07,
+    "streams": null,
+    "episode": "14",
+    "karma": 60,
+    "comments": 46,
+    "week_id": 3,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x1q2ja/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 6,
+    "karma_change": -6,
+    "rank_change": 47,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1504/159679l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1504/159679.jpg"
     },
@@ -114,7 +162,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x17vyu/tanuki_kitsune_tanuki_to_kitsune_episode_1/",
     "mal_id": 64028,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
