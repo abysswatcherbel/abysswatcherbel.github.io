@@ -169,6 +169,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
+    },
+    "title": "Ghost Meets Gal!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.07,
+    "streams": null,
+    "episode": "6",
+    "karma": 10,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x1zow4/ghost_meets_gal_episode_6_discussion/",
+    "mal_id": 64718,
+    "current_rank": 8,
+    "karma_change": 10,
+    "rank_change": 61,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1504/159679l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1504/159679.jpg"
     },
@@ -186,7 +210,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x17vyu/tanuki_kitsune_tanuki_to_kitsune_episode_1/",
     "mal_id": 64028,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -211,9 +235,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x1wat9/onegai_aipri_episode_27_discussion/",
     "mal_id": 63352,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 5,
-    "rank_change": 59,
+    "rank_change": 58,
     "season": "fall"
   }
 ]
