@@ -1497,6 +1497,31 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1782/158664l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1782/158664.jpg"
+    },
+    "title": "Kizu darake Seijo yori Houfuku wo Komete Season 2",
+    "title_english": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
+    "num_episodes": 0,
+    "score": 6.4,
+    "streams": null,
+    "episode": "2",
+    "karma": 13,
+    "comments": 2,
+    "week_id": 3,
+    "studio": [
+      "Imagica Infos",
+      "Imageworks Studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x6izpn/with_vengeance_sincerely_your_broken_saintess/",
+    "mal_id": 64180,
+    "current_rank": 63,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
     },
@@ -1514,9 +1539,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x1zow4/ghost_meets_gal_episode_6_discussion/",
     "mal_id": 64718,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 10,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   },
   {
@@ -1538,7 +1563,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x17vyu/tanuki_kitsune_tanuki_to_kitsune_episode_1/",
     "mal_id": 64028,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -1571,9 +1596,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x2d8db/meitantei_conan_case_closed_episode_1216/",
     "mal_id": 235,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -5,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "fall"
   },
   {
@@ -1596,9 +1621,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x1wat9/onegai_aipri_episode_27_discussion/",
     "mal_id": 63352,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 5,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -1620,9 +1645,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x4yazn/battle_spirits_re_zekkai_no_ku_episode_2/",
     "mal_id": 63818,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": -8,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "fall"
   },
   {
@@ -1644,9 +1669,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x5w8ii/the_prince_of_tennis_ii_u17_world_cup_final/",
     "mal_id": 62534,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": -3,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   },
   {
@@ -1668,9 +1693,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x2rjzs/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -2,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   },
   {
@@ -1705,9 +1730,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x226b2/rilakkuma_episode_27_discussion/",
     "mal_id": 60153,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -1,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   }
 ]
