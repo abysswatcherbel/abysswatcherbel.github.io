@@ -22,5 +22,29 @@
     "karma_change": -159,
     "rank_change": 1,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1321/159720l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1321/159720.jpg"
+    },
+    "title": "Tokyo Revengers: Santen Sensou-hen",
+    "title_english": "Tokyo Revengers: War of the Three Titan Arc",
+    "num_episodes": 0,
+    "score": 7.79,
+    "streams": null,
+    "episode": "3",
+    "karma": 63,
+    "comments": 23,
+    "week_id": 4,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x7f8un/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
+    "mal_id": 59088,
+    "current_rank": 2,
+    "karma_change": -20,
+    "rank_change": 47,
+    "season": "fall"
   }
 ]
