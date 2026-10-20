@@ -505,6 +505,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.69,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "38",
+    "karma": 25,
+    "comments": 11,
+    "week_id": 4,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x8qskw/star_detective_precure_meitantei_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 22,
+    "karma_change": -8,
+    "rank_change": 42,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1827/160110l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1827/160110.jpg"
     },
@@ -522,9 +551,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x77u/sgt_frog_keroro_gunsou_episode_3_discussion/",
     "mal_id": 63157,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -13,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -546,9 +575,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ur71/ghost_meets_gal_episode_7_discussion/",
     "mal_id": 64718,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -3,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -570,9 +599,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8mrwv/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 1,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   },
   {
@@ -607,9 +636,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x72t/rilakkuma_episode_28_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   },
   {
@@ -632,9 +661,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7rwwh/onegai_aipri_episode_28_discussion/",
     "mal_id": 63352,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": -6,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   }
 ]
