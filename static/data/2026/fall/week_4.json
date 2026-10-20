@@ -991,6 +991,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
+    },
+    "title": "Mahou no Shimai Lulutto Lilly Part 2",
+    "title_english": "Magical Sisters Lulutto Lilly Part 2",
+    "num_episodes": 0,
+    "score": 6.64,
+    "streams": null,
+    "episode": "15",
+    "karma": 11,
+    "comments": 5,
+    "week_id": 4,
+    "studio": [
+      "Studio Pierrot"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x9edpy/magical_sisters_luluttolilly_mahou_no_shimai/",
+    "mal_id": 63667,
+    "current_rank": 42,
+    "karma_change": -9,
+    "rank_change": 25,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
     },
@@ -1008,9 +1032,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ur71/ghost_meets_gal_episode_7_discussion/",
     "mal_id": 64718,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -3,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -1032,9 +1056,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8mrwv/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": 1,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -1069,9 +1093,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x72t/rilakkuma_episode_28_discussion/",
     "mal_id": 60153,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 1,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -1094,9 +1118,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7rwwh/onegai_aipri_episode_28_discussion/",
     "mal_id": 63352,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -6,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   }
 ]
