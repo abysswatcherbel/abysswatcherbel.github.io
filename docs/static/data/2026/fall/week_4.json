@@ -241,6 +241,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1295/158726l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1295/158726.jpg"
+    },
+    "title": "Ao Ashi Season 2",
+    "title_english": "Aoashi Season 2",
+    "num_episodes": 0,
+    "score": 8.18,
+    "streams": null,
+    "episode": "3",
+    "karma": 260,
+    "comments": 66,
+    "week_id": 4,
+    "studio": [
+      "TMS Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x8ykby/aoashi_season_2_episode_3_discussion/",
+    "mal_id": 61603,
+    "current_rank": 11,
+    "karma_change": -71,
+    "rank_change": 12,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1454/156338l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1454/156338.jpg"
     },
@@ -258,9 +282,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x89ove/a_tale_of_the_secret_saint_tensei_shita_daiseijo/",
     "mal_id": 61153,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -14,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -282,9 +306,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8emkg/magical_explorer_magicalexplorer_episode_4/",
     "mal_id": 56733,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -38,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -306,9 +330,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8cg3g/im_looking_for_a_zombie_zombie_sagashitemasu/",
     "mal_id": 62524,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -330,9 +354,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8gsbb/magic_repo_man_dumped_by_my_party_ill_cash_in/",
     "mal_id": 62922,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 15,
-    "rank_change": 24,
+    "rank_change": 23,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1807/160135l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1807/160135.jpg"
+    },
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+    "title_english": "Mission: Yozakura Family Season 2 Part 2",
+    "num_episodes": 0,
+    "score": 7.49,
+    "streams": null,
+    "episode": "14",
+    "karma": 98,
+    "comments": 24,
+    "week_id": 4,
+    "studio": [
+      "SILVER LINK."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x8z5ib/mission_yozakura_family_season_2_part_2/",
+    "mal_id": 64503,
+    "current_rank": 16,
+    "karma_change": -5,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -354,9 +402,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8cf8y/the_seven_knights_of_the_marronnier_kingdom/",
     "mal_id": 64326,
-    "current_rank": 15,
+    "current_rank": 17,
     "karma_change": -21,
-    "rank_change": 27,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -378,9 +426,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ky16/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 16,
+    "current_rank": 18,
     "karma_change": 15,
-    "rank_change": 37,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -402,9 +450,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x860io/the_vermilion_mask_shuiro_no_kamen_episode_2/",
     "mal_id": 61999,
-    "current_rank": 17,
+    "current_rank": 19,
     "karma_change": -43,
-    "rank_change": 24,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -426,9 +474,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7f8un/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
     "mal_id": 59088,
-    "current_rank": 18,
+    "current_rank": 20,
     "karma_change": -20,
-    "rank_change": 31,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -450,9 +498,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7k51c/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 19,
+    "current_rank": 21,
     "karma_change": -3,
-    "rank_change": 33,
+    "rank_change": 31,
     "season": "fall"
   },
   {
@@ -474,9 +522,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8dui5/vertex_force_episode_3_discussion/",
     "mal_id": 63764,
-    "current_rank": 20,
+    "current_rank": 22,
     "karma_change": -28,
-    "rank_change": 31,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -498,9 +546,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8cy66/pok\u00e9mon_horizons_the_series_episode_153_discussion/",
     "mal_id": 53876,
-    "current_rank": 21,
+    "current_rank": 23,
     "karma_change": 9,
-    "rank_change": 45,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -522,9 +570,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8fq6x/horror_collector_kyoufu_collector_episode_2/",
     "mal_id": 63053,
-    "current_rank": 22,
+    "current_rank": 24,
     "karma_change": -32,
-    "rank_change": 32,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -551,9 +599,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8qskw/star_detective_precure_meitantei_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 23,
+    "current_rank": 25,
     "karma_change": -8,
-    "rank_change": 41,
+    "rank_change": 39,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1296/159929l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1296/159929.jpg"
+    },
+    "title": "Diamond no Ace: Act II Second Season Part 2",
+    "title_english": "Ace of Diamond Act II Season 2 Part 2",
+    "num_episodes": 0,
+    "score": 7.77,
+    "streams": null,
+    "episode": "15",
+    "karma": 25,
+    "comments": 9,
+    "week_id": 4,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1x8ykct/ace_of_the_diamond_act_ii_season_2_part_2_diamond/",
+    "mal_id": 64505,
+    "current_rank": 26,
+    "karma_change": -21,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -575,9 +647,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x77u/sgt_frog_keroro_gunsou_episode_3_discussion/",
     "mal_id": 63157,
-    "current_rank": 24,
+    "current_rank": 27,
     "karma_change": -13,
-    "rank_change": 39,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -599,9 +671,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ur71/ghost_meets_gal_episode_7_discussion/",
     "mal_id": 64718,
-    "current_rank": 25,
+    "current_rank": 28,
     "karma_change": -3,
-    "rank_change": 45,
+    "rank_change": 42,
     "season": "fall"
   },
   {
@@ -623,9 +695,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8mrwv/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 26,
+    "current_rank": 29,
     "karma_change": 1,
-    "rank_change": 50,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -660,9 +732,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x72t/rilakkuma_episode_28_discussion/",
     "mal_id": 60153,
-    "current_rank": 27,
+    "current_rank": 30,
     "karma_change": 1,
-    "rank_change": 50,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -685,9 +757,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7rwwh/onegai_aipri_episode_28_discussion/",
     "mal_id": 63352,
-    "current_rank": 28,
+    "current_rank": 31,
     "karma_change": -6,
-    "rank_change": 45,
+    "rank_change": 42,
     "season": "fall"
   }
 ]
