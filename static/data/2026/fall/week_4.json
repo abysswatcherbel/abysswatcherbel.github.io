@@ -1556,6 +1556,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1465/153763l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1465/153763.jpg"
+    },
+    "title": "Dark Machine: The Animation",
+    "title_english": "Dark Machine: The Animation",
+    "num_episodes": 0,
+    "score": 5.99,
+    "streams": null,
+    "episode": "2",
+    "karma": 18,
+    "comments": 14,
+    "week_id": 4,
+    "studio": [
+      "Production +h."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xazr1y/dark_machine_the_animation_episode_2_discussion/",
+    "mal_id": 59415,
+    "current_rank": 65,
+    "karma_change": -31,
+    "rank_change": -8,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
     },
@@ -1573,9 +1597,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x9edpy/magical_sisters_luluttolilly_mahou_no_shimai/",
     "mal_id": 63667,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -9,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -1597,9 +1621,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ur71/ghost_meets_gal_episode_7_discussion/",
     "mal_id": 64718,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": -3,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "fall"
   },
   {
@@ -1621,9 +1645,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xau08l/battle_spirits_re_zekkai_no_ku_episode_3/",
     "mal_id": 63818,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 1,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -1645,9 +1669,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8mrwv/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1682,9 +1706,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x72t/rilakkuma_episode_28_discussion/",
     "mal_id": 60153,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": 1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1707,9 +1731,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7rwwh/onegai_aipri_episode_28_discussion/",
     "mal_id": 63352,
-    "current_rank": 70,
+    "current_rank": 71,
     "karma_change": -6,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   }
 ]
