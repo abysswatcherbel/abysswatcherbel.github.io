@@ -1286,6 +1286,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1158/158138l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1158/158138.jpg"
+    },
+    "title": "Sora wa Akai Kawa no Hotori",
+    "title_english": "Red River",
+    "num_episodes": 0,
+    "score": 5.66,
+    "streams": null,
+    "episode": "16",
+    "karma": 49,
+    "comments": 25,
+    "week_id": 4,
+    "studio": [
+      "Tatsunoko Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xayi4k/red_river_sora_wa_akai_kawa_no_hotori_episode_16/",
+    "mal_id": 63489,
+    "current_rank": 54,
+    "karma_change": -9,
+    "rank_change": 1,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1498/159767l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1498/159767.jpg"
     },
@@ -1303,9 +1327,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x96xzt/now_that_i_can_control_reality_with_a_mouse/",
     "mal_id": 63381,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": 16,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -1327,9 +1351,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8dui5/vertex_force_episode_3_discussion/",
     "mal_id": 63764,
-    "current_rank": 55,
+    "current_rank": 56,
     "karma_change": -28,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "fall"
   },
   {
@@ -1351,9 +1375,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xav8m9/suikoden_the_anime_genso_suikoden_episode_3/",
     "mal_id": 61140,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -46,
-    "rank_change": -9,
+    "rank_change": -10,
     "season": "fall"
   },
   {
@@ -1376,9 +1400,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x95rqb/hotel_inhumans_season_2_episode_3_discussion/",
     "mal_id": 62590,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": -15,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "fall"
   },
   {
@@ -1400,9 +1424,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x91ko0/umayuru_full_gate_episode_4_discussion/",
     "mal_id": 64867,
-    "current_rank": 58,
+    "current_rank": 59,
     "karma_change": -3,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "fall"
   },
   {
@@ -1424,9 +1448,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8cy66/pok\u00e9mon_horizons_the_series_episode_153_discussion/",
     "mal_id": 53876,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": 9,
-    "rank_change": 7,
+    "rank_change": 6,
     "season": "fall"
   },
   {
@@ -1448,9 +1472,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8fq6x/horror_collector_kyoufu_collector_episode_2/",
     "mal_id": 63053,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -32,
-    "rank_change": -6,
+    "rank_change": -7,
     "season": "fall"
   },
   {
@@ -1477,9 +1501,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8qskw/star_detective_precure_meitantei_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": -8,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1501,9 +1525,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8ykct/ace_of_the_diamond_act_ii_season_2_part_2_diamond/",
     "mal_id": 64505,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -21,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "fall"
   },
   {
@@ -1525,9 +1549,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x77u/sgt_frog_keroro_gunsou_episode_3_discussion/",
     "mal_id": 63157,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -13,
-    "rank_change": 0,
+    "rank_change": -1,
     "season": "fall"
   },
   {
@@ -1549,9 +1573,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x9edpy/magical_sisters_luluttolilly_mahou_no_shimai/",
     "mal_id": 63667,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -9,
-    "rank_change": 3,
+    "rank_change": 2,
     "season": "fall"
   },
   {
@@ -1573,9 +1597,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ur71/ghost_meets_gal_episode_7_discussion/",
     "mal_id": 64718,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -3,
-    "rank_change": 5,
+    "rank_change": 4,
     "season": "fall"
   },
   {
@@ -1597,9 +1621,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xau08l/battle_spirits_re_zekkai_no_ku_episode_3/",
     "mal_id": 63818,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": 1,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1621,9 +1645,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8mrwv/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 67,
+    "current_rank": 68,
     "karma_change": 1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1658,9 +1682,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x72t/rilakkuma_episode_28_discussion/",
     "mal_id": 60153,
-    "current_rank": 68,
+    "current_rank": 69,
     "karma_change": 1,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1683,9 +1707,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7rwwh/onegai_aipri_episode_28_discussion/",
     "mal_id": 63352,
-    "current_rank": 69,
+    "current_rank": 70,
     "karma_change": -6,
-    "rank_change": 4,
+    "rank_change": 3,
     "season": "fall"
   }
 ]
