@@ -1701,6 +1701,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1529/159518l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1529/159518.jpg"
+    },
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
+    "num_episodes": 0,
+    "score": 6.65,
+    "streams": null,
+    "episode": "4",
+    "karma": 15,
+    "comments": 6,
+    "week_id": 4,
+    "studio": [
+      "M.S.C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xbr6ol/the_prince_of_tennis_ii_u17_world_cup_final/",
+    "mal_id": 62534,
+    "current_rank": 71,
+    "karma_change": 11,
+    "rank_change": 4,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
     },
@@ -1718,9 +1742,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x9edpy/magical_sisters_luluttolilly_mahou_no_shimai/",
     "mal_id": 63667,
-    "current_rank": 71,
+    "current_rank": 72,
     "karma_change": -9,
-    "rank_change": -4,
+    "rank_change": -5,
     "season": "fall"
   },
   {
@@ -1742,9 +1766,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7ur71/ghost_meets_gal_episode_7_discussion/",
     "mal_id": 64718,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": -3,
-    "rank_change": -2,
+    "rank_change": -3,
     "season": "fall"
   },
   {
@@ -1766,9 +1790,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xau08l/battle_spirits_re_zekkai_no_ku_episode_3/",
     "mal_id": 63818,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": 1,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "fall"
   },
   {
@@ -1790,9 +1814,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x8mrwv/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 1,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -1827,9 +1851,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7x72t/rilakkuma_episode_28_discussion/",
     "mal_id": 60153,
-    "current_rank": 75,
+    "current_rank": 76,
     "karma_change": 1,
-    "rank_change": 2,
+    "rank_change": 1,
     "season": "fall"
   },
   {
@@ -1852,9 +1876,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1x7rwwh/onegai_aipri_episode_28_discussion/",
     "mal_id": 63352,
-    "current_rank": 76,
+    "current_rank": 77,
     "karma_change": -6,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   }
 ]
