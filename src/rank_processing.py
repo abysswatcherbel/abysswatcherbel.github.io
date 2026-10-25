@@ -15,6 +15,53 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 
+MAX_WEEKLY_POSTS_PER_SERIES = 3
+
+
+def _is_episode_zero(entry: dict) -> bool:
+    """Return true for episode-zero/megathread rows.
+
+    The Reddit title parser historically stored the Cyberpunk megathread as an
+    empty episode, while the template rendered that value as episode 0.
+    """
+    episode = str(entry.get("episode") or "").strip()
+    return episode in {"", "0", "0.0"}
+
+
+def select_weekly_ranking_entries(
+    entries: List[dict],
+    max_per_series: int = MAX_WEEKLY_POSTS_PER_SERIES,
+) -> List[dict]:
+    """Sort entries, exclude megathreads, and keep at most three per series."""
+    if max_per_series < 1:
+        raise ValueError("max_per_series must be at least 1")
+
+    sorted_entries = sorted(
+        entries,
+        key=lambda entry: (-entry.get("karma", 0), -entry.get("comments", 0)),
+    )
+    selected = []
+    series_counts = {}
+    for entry in sorted_entries:
+        if _is_episode_zero(entry):
+            continue
+
+        series_key = entry.get("mal_id")
+        if series_key is None:
+            series_key = (
+                entry.get("title_english"),
+                entry.get("title"),
+            )
+        count = series_counts.get(series_key, 0)
+        if count >= max_per_series:
+            continue
+
+        selected.append(entry)
+        series_counts[series_key] = count + 1
+
+    return selected
+
+
 class KarmaRankEntry(BaseModel):
     rank: int
     title: str
@@ -146,22 +193,22 @@ def get_weekly_change(schedule: SeasonScheduler):
     )
 
     # Sort and rank current and previous data
-    current_sorted = sorted(
-        current_data, key=lambda x: (-x["karma"], -x["comments"])
-    )
+    current_sorted = select_weekly_ranking_entries(current_data)
     current_sorted = assign_rank(current_sorted)
     for entry in current_sorted:
         entry["current_rank"] = entry.pop("rank", None)
 
-    previous_sorted = sorted(
-        previous_data, key=lambda x: (-x["karma"], -x["comments"])
-    )
+    previous_sorted = select_weekly_ranking_entries(previous_data)
     previous_sorted = assign_rank(previous_sorted)
     for entry in previous_sorted:
         entry["previous_rank"] = entry.pop("rank", None)
 
     # Build previous week lookup
-    previous_dict = {entry["mal_id"]: entry for entry in previous_sorted}
+    previous_dict = {}
+    for entry in previous_sorted:
+        # When a batch release has multiple eligible posts, compare against
+        # the series' highest-ranked entry from the previous week.
+        previous_dict.setdefault(entry["mal_id"], entry)
 
     # Merge data and compute changes
     merged_data = []

@@ -25,6 +25,11 @@ app.config["DEBUG"] = True
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 app.config["FREEZER_RELATIVE_URLS_PRETTY"] = True  # For pretty URLs
 app.config["FREEZER_DEFAULT_MIMETYPE"] = "text/html"
+# Keep generated ranking pages readable by removing indentation-only output
+# around Jinja control blocks.
+app.jinja_env.trim_blocks = True
+app.jinja_env.lstrip_blocks = True
+app.jinja_env.keep_trailing_newline = True
 freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()

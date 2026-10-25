@@ -76,19 +76,19 @@
 
 
             {# Macros for reusable components #}
-            {% macro rank_change_indicator(change, is_right=false) %}
-            {% if change == 'returning' %}
+            {% macro rank_change_indicator(change, is_right=false) -%}
+            {%- if change == 'returning' -%}
             {{ back_symbol | safe }}
-            {% elif change == 'new' %}
-            {% if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif %}
-            {% elif change | int == 0 %}
-            {% if is_right %}
+            {%- elif change == 'new' -%}
+            {%- if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif -%}
+            {%- elif change | int == 0 -%}
+            {%- if is_right %}
             <span class="right-rank-change stable">&mdash;</span>
-            {% else %}
+            {%- else %}
             <span class="rank-change stable">&mdash;</span>
-            {% endif %}
-            {% else %}
-            {% if is_right %}
+            {%- endif %}
+            {%- else %}
+            {%- if is_right %}
             <span class="right-rank-change {% if change | int > 0 %}positive{% else %}negative{% endif %}">
                 <span>
                     <svg class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
@@ -97,21 +97,21 @@
                     </svg>
                 </span>{{ change | int | abs }}
             </span>
-            {% else %}
+            {%- else %}
             <span
                 class="rank-change {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}stable{% endif %}">
-                {% if change | int != 0 %}
+                {%- if change | int != 0 %}
                 <svg class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
                     viewBox="0 0 117.7 110">
                     <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
                 </svg>{{ change | int | abs }}
-                {% endif %}
+                {%- endif %}
             </span>
-            {% endif %}
-            {% endif %}
-            {% endmacro %}
+            {%- endif %}
+            {%- endif %}
+            {%- endmacro %}
 
-            {% macro karma_change_indicator(change) %}
+            {% macro karma_change_indicator(change) -%}
             <svg class="caret {% if change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1"
                 id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                 y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;"
@@ -124,36 +124,36 @@
                     </g>
                 </g>
             </svg>{{ change | int | abs }}
-            {% endmacro %}
+            {%- endmacro %}
 
-            {% macro get_title(entry) %}
-            {% if entry.title_english %}
+            {% macro get_title(entry) -%}
+            {%- if entry.title_english -%}
             {{ entry.title_english }}
-            {% else %}
+            {%- else -%}
             {{ entry.title }}
-            {% endif %}
-            {% endmacro %}
+            {%- endif -%}
+            {%- endmacro %}
 
-            {% macro get_banner_offset(entry) %}
-            {% if entry.banner %}
+            {% macro get_banner_offset(entry) -%}
+            {%- if entry.banner -%}
             {{ entry.banner.offset }}
-            {% else %}
-            {{ "0px 0px "}}
-            {% endif %}
-            {% endmacro %}
+            {%- else -%}
+            {{ "0px 0px" }}
+            {%- endif -%}
+            {%- endmacro %}
 
             {# Fallback for missing banner #}
-            {% macro get_fallback_banner(entry) %}
-            {% if entry.images.large %}
-            {{entry.images.large}}
-            {% else %}
-            {{entry.images.medium}}
-            {% endif %}
-            {% endmacro %}
+            {% macro get_fallback_banner(entry) -%}
+            {%- if entry.images.large -%}
+            {{ entry.images.large }}
+            {%- else -%}
+            {{ entry.images.medium }}
+            {%- endif -%}
+            {%- endmacro %}
 
-            {% macro get_banner(entry) %}
-            {% if entry.banner %}{{entry.banner.url}}{% else %}{{entry.images.large}}{% endif %}
-            {% endmacro %}
+            {% macro get_banner(entry) -%}
+            {%- if entry.banner %}{{ entry.banner.url }}{% else %}{{ entry.images.large }}{% endif -%}
+            {%- endmacro %}
 
             {# Episode Container #}
             <div class="episode-container">
