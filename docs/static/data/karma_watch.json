@@ -1440896,7 +1440896,7 @@
         "title_english": "",
         "episode": "29",
         "created_at": "2026-10-23 22:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1441077,6 +1441077,10 @@
             {
                 "hour": 45.0,
                 "karma": 6
+            },
+            {
+                "hour": 46.0,
+                "karma": 7
             }
         ],
         "images": {
@@ -1441094,7 +1441098,7 @@
         "title_english": "",
         "episode": "8",
         "created_at": "2026-10-24 00:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1441267,6 +1441271,10 @@
             {
                 "hour": 43.0,
                 "karma": 4
+            },
+            {
+                "hour": 44.0,
+                "karma": 4
             }
         ],
         "images": {
@@ -1441284,7 +1441292,7 @@
         "title_english": "",
         "episode": "4",
         "created_at": "2026-10-24 02:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1441449,6 +1441457,10 @@
             {
                 "hour": 41.0,
                 "karma": 20
+            },
+            {
+                "hour": 42.0,
+                "karma": 23
             }
         ],
         "images": {
@@ -1441466,7 +1441478,7 @@
         "title_english": "Rilakkuma",
         "episode": "29",
         "created_at": "2026-10-24 02:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1441631,6 +1441643,10 @@
             {
                 "hour": 41.0,
                 "karma": 7
+            },
+            {
+                "hour": 42.0,
+                "karma": 6
             }
         ],
         "images": {
@@ -1441648,7 +1441664,7 @@
         "title_english": "Pok\u00e9mon Horizons: The Series",
         "episode": "154",
         "created_at": "2026-10-24 04:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1441805,6 +1441821,10 @@
             {
                 "hour": 39.0,
                 "karma": 27
+            },
+            {
+                "hour": 40.0,
+                "karma": 28
             }
         ],
         "images": {
@@ -1441822,7 +1441842,7 @@
         "title_english": "The Vermilion Mask",
         "episode": "3",
         "created_at": "2026-10-24 10:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1441955,6 +1441975,10 @@
             {
                 "hour": 32.0,
                 "karma": 58
+            },
+            {
+                "hour": 33.0,
+                "karma": 58
             }
         ],
         "images": {
@@ -1441972,7 +1441996,7 @@
         "title_english": "A Wild Last Boss Appeared! Season 2",
         "episode": "5",
         "created_at": "2026-10-24 14:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1442089,6 +1442113,10 @@
             {
                 "hour": 28.0,
                 "karma": 397
+            },
+            {
+                "hour": 29.0,
+                "karma": 397
             }
         ],
         "images": {
@@ -1442106,7 +1442134,7 @@
         "title_english": "Romelia War Chronicle",
         "episode": "4",
         "created_at": "2026-10-24 14:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1442223,6 +1442251,10 @@
             {
                 "hour": 29.0,
                 "karma": 514
+            },
+            {
+                "hour": 30.0,
+                "karma": 522
             }
         ],
         "images": {
@@ -1442240,7 +1442272,7 @@
         "title_english": "A Tale of the Secret Saint",
         "episode": "5",
         "created_at": "2026-10-24 14:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1442357,6 +1442389,10 @@
             {
                 "hour": 29.0,
                 "karma": 277
+            },
+            {
+                "hour": 30.0,
+                "karma": 275
             }
         ],
         "images": {
@@ -1442374,7 +1442410,7 @@
         "title_english": "#I'm Looking For a Zombie",
         "episode": "4",
         "created_at": "2026-10-24 16:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1442483,6 +1442519,10 @@
             {
                 "hour": 27.0,
                 "karma": 168
+            },
+            {
+                "hour": 28.0,
+                "karma": 167
             }
         ],
         "images": {
@@ -1442500,7 +1442540,7 @@
         "title_english": "The Seven Knights of the Marronnier Kingdom",
         "episode": "4",
         "created_at": "2026-10-24 16:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1442609,6 +1442649,10 @@
             {
                 "hour": 27.0,
                 "karma": 78
+            },
+            {
+                "hour": 28.0,
+                "karma": 73
             }
         ],
         "images": {
@@ -1442626,7 +1442670,7 @@
         "title_english": "Black Clover Season 2",
         "episode": "4",
         "created_at": "2026-10-24 16:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1442735,6 +1442779,10 @@
             {
                 "hour": 27.0,
                 "karma": 445
+            },
+            {
+                "hour": 28.0,
+                "karma": 454
             }
         ],
         "images": {
@@ -1442752,7 +1442800,7 @@
         "title_english": "Magical\u2605Explorer",
         "episode": "5",
         "created_at": "2026-10-24 17:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1442857,6 +1442905,10 @@
             {
                 "hour": 25.0,
                 "karma": 211
+            },
+            {
+                "hour": 26.0,
+                "karma": 211
             }
         ],
         "images": {
@@ -1442874,7 +1442926,7 @@
         "title_english": "Vertex Force",
         "episode": "4",
         "created_at": "2026-10-24 17:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1442979,6 +1443031,10 @@
             {
                 "hour": 26.0,
                 "karma": 45
+            },
+            {
+                "hour": 27.0,
+                "karma": 42
             }
         ],
         "images": {
@@ -1442996,7 +1443052,7 @@
         "title_english": "Horror Collector",
         "episode": "3",
         "created_at": "2026-10-24 18:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443097,6 +1443153,10 @@
             {
                 "hour": 25.0,
                 "karma": 23
+            },
+            {
+                "hour": 26.0,
+                "karma": 24
             }
         ],
         "images": {
@@ -1443114,7 +1443174,7 @@
         "title_english": "Ranma \u00bd (2024) Season 3",
         "episode": "4",
         "created_at": "2026-10-24 18:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443215,6 +1443275,10 @@
             {
                 "hour": 25.0,
                 "karma": 310
+            },
+            {
+                "hour": 26.0,
+                "karma": 321
             }
         ],
         "images": {
@@ -1443232,7 +1443296,7 @@
         "title_english": "Even the Student Council Has Its Holes!",
         "episode": "4",
         "created_at": "2026-10-24 18:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443333,6 +1443397,10 @@
             {
                 "hour": 25.0,
                 "karma": 825
+            },
+            {
+                "hour": 26.0,
+                "karma": 835
             }
         ],
         "images": {
@@ -1443350,7 +1443418,7 @@
         "title_english": "Magic Repo Man: Dumped by My Party, I'll Cash In With a Cute Support Fairy to Become the Strongest!",
         "episode": "4",
         "created_at": "2026-10-24 19:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443447,6 +1443515,10 @@
             {
                 "hour": 24.0,
                 "karma": 157
+            },
+            {
+                "hour": 25.0,
+                "karma": 158
             }
         ],
         "images": {
@@ -1443464,7 +1443536,7 @@
         "title_english": "",
         "episode": "89",
         "created_at": "2026-10-24 23:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443545,6 +1443617,10 @@
             {
                 "hour": 20.0,
                 "karma": 3
+            },
+            {
+                "hour": 21.0,
+                "karma": 1
             }
         ],
         "images": {
@@ -1443562,7 +1443638,7 @@
         "title_english": "",
         "episode": "39",
         "created_at": "2026-10-25 02:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1443631,6 +1443707,10 @@
             {
                 "hour": 16.0,
                 "karma": 34
+            },
+            {
+                "hour": 17.0,
+                "karma": 29
             }
         ],
         "images": {
@@ -1443648,7 +1443728,7 @@
         "title_english": "Mission: Yozakura Family Season 2 Part 2",
         "episode": "15",
         "created_at": "2026-10-25 09:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1443689,6 +1443769,10 @@
             {
                 "hour": 9.0,
                 "karma": 58
+            },
+            {
+                "hour": 10.0,
+                "karma": 63
             }
         ],
         "images": {
@@ -1443706,7 +1443790,7 @@
         "title_english": "Blue Box Season 2",
         "episode": "4",
         "created_at": "2026-10-25 09:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443747,6 +1443831,10 @@
             {
                 "hour": 10.0,
                 "karma": 299
+            },
+            {
+                "hour": 11.0,
+                "karma": 319
             }
         ],
         "images": {
@@ -1443764,7 +1443852,7 @@
         "title_english": "Ace of Diamond Act II Season 2 Part 2",
         "episode": "16",
         "created_at": "2026-10-25 10:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443801,6 +1443889,10 @@
             {
                 "hour": 9.0,
                 "karma": 24
+            },
+            {
+                "hour": 10.0,
+                "karma": 22
             }
         ],
         "images": {
@@ -1443818,7 +1443910,7 @@
         "title_english": "Aoashi Season 2",
         "episode": "4",
         "created_at": "2026-10-25 10:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443855,6 +1443947,10 @@
             {
                 "hour": 9.0,
                 "karma": 157
+            },
+            {
+                "hour": 10.0,
+                "karma": 179
             }
         ],
         "images": {
@@ -1443872,7 +1443968,7 @@
         "title_english": "",
         "episode": "5",
         "created_at": "2026-10-25 13:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1443897,6 +1443993,10 @@
             {
                 "hour": 6.0,
                 "karma": 12
+            },
+            {
+                "hour": 7.0,
+                "karma": 12
             }
         ],
         "images": {
@@ -1443914,7 +1444014,7 @@
         "title_english": "Full Clearing Another World under a Goddess with Zero Believers",
         "episode": "3",
         "created_at": "2026-10-25 15:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1443931,6 +1444031,10 @@
             {
                 "hour": 3.0,
                 "karma": 84
+            },
+            {
+                "hour": 4.0,
+                "karma": 97
             }
         ],
         "images": {
@@ -1443948,7 +1444052,7 @@
         "title_english": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fianc\u00e9",
         "episode": "4",
         "created_at": "2026-10-25 15:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1443965,6 +1444069,10 @@
             {
                 "hour": 3.0,
                 "karma": 65
+            },
+            {
+                "hour": 4.0,
+                "karma": 71
             }
         ],
         "images": {
@@ -1443982,7 +1444090,7 @@
         "title_english": "Overgeared",
         "episode": "5",
         "created_at": "2026-10-25 15:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1443999,6 +1444107,10 @@
             {
                 "hour": 3.0,
                 "karma": 234
+            },
+            {
+                "hour": 4.0,
+                "karma": 275
             }
         ],
         "images": {
@@ -1444016,7 +1444128,7 @@
         "title_english": "",
         "episode": "4",
         "created_at": "2026-10-25 15:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1444033,6 +1444145,10 @@
             {
                 "hour": 3.0,
                 "karma": 29
+            },
+            {
+                "hour": 4.0,
+                "karma": 37
             }
         ],
         "images": {
@@ -1444050,7 +1444166,7 @@
         "title_english": "Uncle's Obsession with Cute Things",
         "episode": "4",
         "created_at": "2026-10-25 15:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444067,6 +1444183,10 @@
             {
                 "hour": 4.0,
                 "karma": 26
+            },
+            {
+                "hour": 5.0,
+                "karma": 28
             }
         ],
         "images": {
@@ -1444084,7 +1444204,7 @@
         "title_english": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
         "episode": "4",
         "created_at": "2026-10-25 15:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444101,6 +1444221,10 @@
             {
                 "hour": 4.0,
                 "karma": 212
+            },
+            {
+                "hour": 5.0,
+                "karma": 246
             }
         ],
         "images": {
@@ -1444118,7 +1444242,7 @@
         "title_english": "Dragon Ball Super: Beerus",
         "episode": "3",
         "created_at": "2026-10-25 16:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1444131,6 +1444255,10 @@
             {
                 "hour": 2.0,
                 "karma": 58
+            },
+            {
+                "hour": 3.0,
+                "karma": 89
             }
         ],
         "images": {
@@ -1444148,7 +1444276,7 @@
         "title_english": "Hotel Inhumans Season 2",
         "episode": "4",
         "created_at": "2026-10-25 16:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444161,6 +1444289,10 @@
             {
                 "hour": 3.0,
                 "karma": 19
+            },
+            {
+                "hour": 4.0,
+                "karma": 21
             }
         ],
         "images": {
@@ -1444178,7 +1444310,7 @@
         "title_english": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
         "episode": "5",
         "created_at": "2026-10-25 16:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444191,6 +1444323,10 @@
             {
                 "hour": 3.0,
                 "karma": 57
+            },
+            {
+                "hour": 4.0,
+                "karma": 69
             }
         ],
         "images": {
@@ -1444208,7 +1444344,7 @@
         "title_english": "I'm Dating a Dark Summoner",
         "episode": "4",
         "created_at": "2026-10-25 17:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444217,6 +1444353,10 @@
             {
                 "hour": 2.0,
                 "karma": 107
+            },
+            {
+                "hour": 3.0,
+                "karma": 151
             }
         ],
         "images": {
@@ -1444234,7 +1444374,7 @@
         "title_english": "My Girlfriend's Friend",
         "episode": "4",
         "created_at": "2026-10-25 17:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444243,6 +1444383,10 @@
             {
                 "hour": 2.0,
                 "karma": 19
+            },
+            {
+                "hour": 3.0,
+                "karma": 24
             }
         ],
         "images": {
@@ -1444260,7 +1444404,7 @@
         "title_english": "From Far Away",
         "episode": "4",
         "created_at": "2026-10-25 17:00:02",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1444269,6 +1444413,10 @@
             {
                 "hour": 2.0,
                 "karma": 23
+            },
+            {
+                "hour": 3.0,
+                "karma": 30
             }
         ],
         "images": {
@@ -1444286,11 +1444434,15 @@
         "title_english": "",
         "episode": "2",
         "created_at": "2026-10-25 18:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
                 "karma": 11
+            },
+            {
+                "hour": 2.0,
+                "karma": 29
             }
         ],
         "images": {
@@ -1444308,11 +1444460,37 @@
         "title_english": "",
         "episode": "1",
         "created_at": "2026-10-25 18:00:03",
-        "updated_at": "2026-10-25 18:00:03",
+        "updated_at": "2026-10-25 19:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
                 "karma": 12
+            },
+            {
+                "hour": 2.0,
+                "karma": 33
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1460/153740l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1460/153740.jpg"
+        }
+    },
+    {
+        "mal_id": 61440,
+        "reddit_id": "1xf8az5",
+        "week_id": 5,
+        "season": "fall",
+        "year": 2026,
+        "title": "",
+        "title_english": "",
+        "episode": "3",
+        "created_at": "2026-10-25 19:00:02",
+        "updated_at": "2026-10-25 19:00:02",
+        "hourly_karma": [
+            {
+                "hour": 2.0,
+                "karma": 30
             }
         ],
         "images": {
