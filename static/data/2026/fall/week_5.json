@@ -70,5 +70,53 @@
     "karma_change": -27,
     "rank_change": 17,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.08,
+    "streams": null,
+    "episode": "16",
+    "karma": 75,
+    "comments": 35,
+    "week_id": 5,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xdixbo/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 4,
+    "karma_change": 0,
+    "rank_change": 45,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1332/160147l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1332/160147.jpg"
+    },
+    "title": "Tougen Anki: Nikko Kegon no Taki-hen",
+    "title_english": "Tougen Anki: Nikko Kegon Falls Arc",
+    "num_episodes": 0,
+    "score": 7.33,
+    "streams": null,
+    "episode": "4",
+    "karma": 56,
+    "comments": 21,
+    "week_id": 5,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xdi3yi/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
+    "mal_id": 63181,
+    "current_rank": 5,
+    "karma_change": -6,
+    "rank_change": 49,
+    "season": "fall"
   }
 ]
