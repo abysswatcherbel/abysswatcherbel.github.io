@@ -121,6 +121,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1299/159977l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1299/159977.jpg"
+    },
+    "title": "Shuiro no Kamen",
+    "title_english": "The Vermilion Mask",
+    "num_episodes": 0,
+    "score": 7.1,
+    "streams": null,
+    "episode": "3",
+    "karma": 58,
+    "comments": 40,
+    "week_id": 5,
+    "studio": [
+      "100studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xe4acr/the_vermilion_mask_shuiro_no_kamen_episode_3/",
+    "mal_id": 61999,
+    "current_rank": 6,
+    "karma_change": -10,
+    "rank_change": 45,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1332/160147l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1332/160147.jpg"
     },
@@ -138,9 +162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdi3yi/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -6,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -162,9 +186,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdxmmk/pok\u00e9mon_horizons_the_series_episode_154_discussion/",
     "mal_id": 53876,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": -3,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "fall"
   },
   {
@@ -186,9 +210,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdvc0t/sgt_frog_keroro_gunsou_episode_4_discussion/",
     "mal_id": 63157,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "fall"
   },
   {
@@ -223,9 +247,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdvbw2/rilakkuma_episode_29_discussion/",
     "mal_id": 60153,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 5,
-    "rank_change": 68,
+    "rank_change": 67,
     "season": "fall"
   },
   {
@@ -248,9 +272,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdq0r5/onegai_aipri_episode_29_discussion/",
     "mal_id": 63352,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 6,
-    "rank_change": 69,
+    "rank_change": 68,
     "season": "fall"
   },
   {
@@ -272,9 +296,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdsswz/ghost_meets_gal_episode_8_discussion/",
     "mal_id": 64718,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -2,
-    "rank_change": 62,
+    "rank_change": 61,
     "season": "fall"
   }
 ]
