@@ -1076,6 +1076,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
+    },
+    "title": "Mahou no Shimai Lulutto Lilly Part 2",
+    "title_english": "Magical Sisters Lulutto Lilly Part 2",
+    "num_episodes": 0,
+    "score": 6.64,
+    "streams": null,
+    "episode": "16",
+    "karma": 27,
+    "comments": 3,
+    "week_id": 5,
+    "studio": [
+      "Studio Pierrot"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xg8bfw/magical_sisters_luluttolilly_mahou_no_shimai/",
+    "mal_id": 63667,
+    "current_rank": 45,
+    "karma_change": 16,
+    "rank_change": 27,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1905/159716l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1905/159716.jpg"
     },
@@ -1093,9 +1117,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xf0kre/umayuru_full_gate_episode_5_discussion/",
     "mal_id": 64867,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": -11,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1117,9 +1141,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xee9if/horror_collector_kyoufu_collector_episode_3/",
     "mal_id": 63053,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -2,
-    "rank_change": 19,
+    "rank_change": 18,
     "season": "fall"
   },
   {
@@ -1141,9 +1165,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdvc0t/sgt_frog_keroro_gunsou_episode_4_discussion/",
     "mal_id": 63157,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": 0,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -1178,9 +1202,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdvbw2/rilakkuma_episode_29_discussion/",
     "mal_id": 60153,
-    "current_rank": 48,
+    "current_rank": 49,
     "karma_change": 5,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   },
   {
@@ -1203,9 +1227,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdq0r5/onegai_aipri_episode_29_discussion/",
     "mal_id": 63352,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 6,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -1227,9 +1251,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xelduj/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -1251,9 +1275,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdsswz/ghost_meets_gal_episode_8_discussion/",
     "mal_id": 64718,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -2,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   }
 ]
