@@ -1452228,7 +1452228,7 @@
         "title_english": "Red River",
         "episode": "17",
         "created_at": "2026-10-27 18:00:03",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1452417,6 +1452417,10 @@
             {
                 "hour": 46.0,
                 "karma": 65
+            },
+            {
+                "hour": 47.0,
+                "karma": 63
             }
         ],
         "images": {
@@ -1452434,7 +1452438,7 @@
         "title_english": "Dark Machine: The Animation",
         "episode": "3",
         "created_at": "2026-10-27 19:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1452619,6 +1452623,10 @@
             {
                 "hour": 46.0,
                 "karma": 20
+            },
+            {
+                "hour": 47.0,
+                "karma": 18
             }
         ],
         "images": {
@@ -1452636,7 +1452644,7 @@
         "title_english": "The Detective Is Already Dead Season 2",
         "episode": "4",
         "created_at": "2026-10-28 14:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1452745,6 +1452753,10 @@
             {
                 "hour": 26.0,
                 "karma": 32
+            },
+            {
+                "hour": 27.0,
+                "karma": 32
             }
         ],
         "images": {
@@ -1452762,7 +1452774,7 @@
         "title_english": "The World's Strongest Witch",
         "episode": "4",
         "created_at": "2026-10-28 14:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1452871,6 +1452883,10 @@
             {
                 "hour": 27.0,
                 "karma": 429
+            },
+            {
+                "hour": 28.0,
+                "karma": 439
             }
         ],
         "images": {
@@ -1452888,7 +1452904,7 @@
         "title_english": "Sasaki and Peeps Season 2",
         "episode": "4",
         "created_at": "2026-10-28 14:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1452997,6 +1453013,10 @@
             {
                 "hour": 27.0,
                 "karma": 221
+            },
+            {
+                "hour": 28.0,
+                "karma": 225
             }
         ],
         "images": {
@@ -1453014,7 +1453034,7 @@
         "title_english": "Reincarnated as a Sword Season 2",
         "episode": "5",
         "created_at": "2026-10-28 16:00:03",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1453115,6 +1453135,10 @@
             {
                 "hour": 24.0,
                 "karma": 562
+            },
+            {
+                "hour": 25.0,
+                "karma": 565
             }
         ],
         "images": {
@@ -1453132,7 +1453156,7 @@
         "title_english": "Magic Knight Rayearth (2026)",
         "episode": "4",
         "created_at": "2026-10-28 16:00:03",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1453233,6 +1453257,10 @@
             {
                 "hour": 24.0,
                 "karma": 200
+            },
+            {
+                "hour": 25.0,
+                "karma": 195
             }
         ],
         "images": {
@@ -1453250,7 +1453278,7 @@
         "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
         "episode": "5",
         "created_at": "2026-10-28 17:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1453347,6 +1453375,10 @@
             {
                 "hour": 24.0,
                 "karma": 7
+            },
+            {
+                "hour": 25.0,
+                "karma": 8
             }
         ],
         "images": {
@@ -1453364,7 +1453396,7 @@
         "title_english": "A Returner's Magic Should Be Special Season 2",
         "episode": "4",
         "created_at": "2026-10-28 18:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1453457,6 +1453489,10 @@
             {
                 "hour": 23.0,
                 "karma": 135
+            },
+            {
+                "hour": 24.0,
+                "karma": 139
             }
         ],
         "images": {
@@ -1453474,7 +1453510,7 @@
         "title_english": "Dandivine",
         "episode": "4",
         "created_at": "2026-10-28 18:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1453567,6 +1453603,10 @@
             {
                 "hour": 23.0,
                 "karma": 33
+            },
+            {
+                "hour": 24.0,
+                "karma": 35
             }
         ],
         "images": {
@@ -1453584,7 +1453624,7 @@
         "title_english": "FX Fighter Kurumi-chan",
         "episode": "5",
         "created_at": "2026-10-29 13:00:02",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1453601,6 +1453641,10 @@
             {
                 "hour": 3.0,
                 "karma": 111
+            },
+            {
+                "hour": 4.0,
+                "karma": 130
             }
         ],
         "images": {
@@ -1453618,16 +1453662,108 @@
         "title_english": "The Ramparts of Ice Season 2",
         "episode": "5",
         "created_at": "2026-10-29 16:00:03",
-        "updated_at": "2026-10-29 16:00:03",
+        "updated_at": "2026-10-29 17:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
                 "karma": 53
+            },
+            {
+                "hour": 1.0,
+                "karma": 130
             }
         ],
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1963/159754l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1963/159754.jpg"
+        }
+    },
+    {
+        "mal_id": 64254,
+        "reddit_id": "1xipm58",
+        "week_id": 5,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Iceblade Sorcerer Shall Rule the World II",
+        "title_english": "The Iceblade Sorcerer Shall Rule the World II",
+        "episode": "4",
+        "created_at": "2026-10-29 17:00:03",
+        "updated_at": "2026-10-29 17:00:03",
+        "hourly_karma": [
+            {
+                "hour": 0.0,
+                "karma": 1
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1190/159644l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1190/159644.jpg"
+        }
+    },
+    {
+        "mal_id": 64180,
+        "reddit_id": "1xiotit",
+        "week_id": 5,
+        "season": "fall",
+        "year": 2026,
+        "title": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
+        "title_english": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
+        "episode": "5",
+        "created_at": "2026-10-29 17:00:03",
+        "updated_at": "2026-10-29 17:00:03",
+        "hourly_karma": [
+            {
+                "hour": 0.0,
+                "karma": 0
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1782/158664l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1782/158664.jpg"
+        }
+    },
+    {
+        "mal_id": 62615,
+        "reddit_id": "1xio2dq",
+        "week_id": 5,
+        "season": "fall",
+        "year": 2026,
+        "title": "Tetsuryou! Meet with Tetsudou Musume",
+        "title_english": "Tetsuryou! Meet with Tetsudou Musume",
+        "episode": "4",
+        "created_at": "2026-10-29 17:00:03",
+        "updated_at": "2026-10-29 17:00:03",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 5
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1618/160107l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1618/160107.jpg"
+        }
+    },
+    {
+        "mal_id": 59741,
+        "reddit_id": "1xio0cr",
+        "week_id": 5,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Exiled Heavy Knight Knows How to Game the System",
+        "title_english": "The Exiled Heavy Knight Knows How to Game the System",
+        "episode": "18",
+        "created_at": "2026-10-29 17:00:03",
+        "updated_at": "2026-10-29 17:00:03",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 54
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1322/158711l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1322/158711.jpg"
         }
     }
 ]
