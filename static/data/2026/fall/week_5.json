@@ -1340,6 +1340,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1465/153763l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1465/153763.jpg"
+    },
+    "title": "Dark Machine: The Animation",
+    "title_english": "Dark Machine: The Animation",
+    "num_episodes": 0,
+    "score": 5.99,
+    "streams": null,
+    "episode": "3",
+    "karma": 19,
+    "comments": 13,
+    "week_id": 5,
+    "studio": [
+      "Production +h."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xh08pk/dark_machine_the_animation_episode_3_discussion/",
+    "mal_id": 59415,
+    "current_rank": 56,
+    "karma_change": 1,
+    "rank_change": 13,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1370,9 +1394,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdvbw2/rilakkuma_episode_29_discussion/",
     "mal_id": 60153,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 5,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -1395,9 +1419,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdq0r5/onegai_aipri_episode_29_discussion/",
     "mal_id": 63352,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 6,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   },
   {
@@ -1419,9 +1443,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xelduj/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 57,
+    "current_rank": 58,
     "karma_change": 1,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -1443,9 +1467,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdsswz/ghost_meets_gal_episode_8_discussion/",
     "mal_id": 64718,
-    "current_rank": 59,
+    "current_rank": 60,
     "karma_change": -2,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   },
   {
@@ -1467,9 +1491,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xgu6fp/battle_spirits_re_zekkai_no_ku_episode_4/",
     "mal_id": 63818,
-    "current_rank": 60,
+    "current_rank": 61,
     "karma_change": -2,
-    "rank_change": 14,
+    "rank_change": 13,
     "season": "fall"
   }
 ]
