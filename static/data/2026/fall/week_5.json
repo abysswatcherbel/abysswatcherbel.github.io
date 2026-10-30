@@ -1485,6 +1485,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1529/159518l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1529/159518.jpg"
+    },
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
+    "num_episodes": 0,
+    "score": 6.65,
+    "streams": null,
+    "episode": "5",
+    "karma": 8,
+    "comments": 3,
+    "week_id": 5,
+    "studio": [
+      "M.S.C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xhs71e/the_prince_of_tennis_ii_u17_world_cup_final/",
+    "mal_id": 62534,
+    "current_rank": 62,
+    "karma_change": -7,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1515,9 +1539,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdvbw2/rilakkuma_episode_29_discussion/",
     "mal_id": 60153,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 5,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -1540,9 +1564,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdq0r5/onegai_aipri_episode_29_discussion/",
     "mal_id": 63352,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 6,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -1564,9 +1588,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xelduj/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": 1,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1588,9 +1612,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xdsswz/ghost_meets_gal_episode_8_discussion/",
     "mal_id": 64718,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": -2,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1612,9 +1636,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xgu6fp/battle_spirits_re_zekkai_no_ku_episode_4/",
     "mal_id": 63818,
-    "current_rank": 66,
+    "current_rank": 67,
     "karma_change": -2,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   }
 ]
