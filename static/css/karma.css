@@ -130,7 +130,7 @@ body.edit-mode .editable-text[contenteditable="true"]:focus {
     font-size: 25px;
 }
 
-.karma-entry .ranking .rank-change svg.arrow {
+.karma-entry .ranking .rank-change .arrow {
     width: 15px;
     margin-right: 2px;
 }
@@ -697,7 +697,7 @@ body.edit-mode .edit-banner-button {
 
 }
 
-.right-ranking .right-rank-change svg.arrow {
+.right-ranking .right-rank-change .arrow {
     width: 10px;
     height: 10px;
 

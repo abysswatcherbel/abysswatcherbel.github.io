@@ -11,7 +11,6 @@ from src.rank_processing import (
     get_weekly_change,
 )
 from src.post_processing import get_active_posts, main
-from static.assets import back_symbol, new_entry, right_new_entry
 from util.seasonal_schedule import SeasonScheduler
 from util.logger_config import logger
 import json
@@ -19,7 +18,7 @@ import json
 load_dotenv()
 
 app = Flask(__name__)
-app.config["FREEZER_RELATIVE_URLS"] = True  # For proper relative paths
+app.config["FREEZER_RELATIVE_URLS"] = False
 app.config["FREEZER_DESTINATION"] = "docs"  # GitHub Pages default folder
 app.config["DEBUG"] = True
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -30,6 +29,14 @@ app.config["FREEZER_DEFAULT_MIMETYPE"] = "text/html"
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 app.jinja_env.keep_trailing_newline = True
+
+
+def static_asset(filename: str) -> str:
+    """Return a depth-independent URL for a static site asset."""
+    return f"/static/{filename.lstrip('/')}"
+
+
+app.jinja_env.globals["static_asset"] = static_asset
 freezer = Freezer(app)
 
 episode_schedule = SeasonScheduler()
@@ -140,9 +147,6 @@ def karma_rank():
         complete_rankings=complete_rankings,
         airing_details=airing_period,
         sum_karma=total_karma,
-        back_symbol=back_symbol,
-        new_entry=new_entry,
-        right_new_entry=right_new_entry,
     )
 
 
@@ -175,9 +179,6 @@ def karma_rank_for_week(year: int, season: str, week: int):
         complete_rankings=complete_rankings,
         airing_details=airing_details,
         sum_karma=total_karma,
-        back_symbol=back_symbol,
-        new_entry=new_entry,
-        right_new_entry=right_new_entry,
     )
 
 

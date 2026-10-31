@@ -80,6 +80,35 @@ graph TD
     style Q fill:#orange,stroke:#333,stroke-width:1px
 ```
 
+## Maintenance commands
+
+Run these from the repository root. With no season arguments they target the
+current ranking season. Start with `--dry-run` to inspect the selected records.
+
+```bash
+# Refresh top-level MAL scores and the current week's MAL snapshots
+python -m scripts.update_mal_scores --dry-run
+python -m scripts.update_mal_scores
+
+# Fill only missing/null legal streaming links
+python -m scripts.backfill_streaming --dry-run
+python -m scripts.backfill_streaming
+```
+
+Historical seasons can be selected explicitly. Add `--week` when a MAL snapshot
+should also be attached to that week's episode records:
+
+```bash
+python -m scripts.update_mal_scores --year 2026 --season fall --week 5
+python -m scripts.backfill_streaming --year 2026 --season fall
+```
+
+`backfill_streaming` leaves existing stream data untouched by default. Use
+`--all` only when every streaming entry for the season should be refreshed. It
+prefers r/anime Holo season data and fills missing catalog entries through
+AniList's legal streaming links. If Holo has not published the season file yet,
+the command falls back to AniList automatically.
+
 ## Recommended Projects & Resources
 
 - **Animetrics**

@@ -5,12 +5,12 @@
         <title>{{ airing_details.season }} Karma Ranks</title>
         <meta name="description" content="The current /r/anime weekly engagement ranking discussion">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/karma.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/toolbar.css') }}">
+        <link rel="stylesheet" href="{{ static_asset('css/karma.css') }}">
+        <link rel="stylesheet" href="{{ static_asset('css/modal.css') }}">
+        <link rel="stylesheet" href="{{ static_asset('css/toolbar.css') }}">
 
-        <script src="{{ url_for('static', filename='scripts/editBanner.js') }}"></script>
-        <script src="{{ url_for('static', filename='scripts/toolbar.js') }}"></script>
+        <script src="{{ static_asset('scripts/editBanner.js') }}"></script>
+        <script src="{{ static_asset('scripts/toolbar.js') }}"></script>
 
     </head>
 
@@ -18,7 +18,7 @@
         <div class="container">
             {# Header Section #}
             <div class="header">
-                <img class="snoo" src="{{ url_for('static', filename='assets/img/snoo.png') }}" alt="Snoo"
+                <img class="snoo" src="{{ static_asset('assets/img/snoo.png') }}" alt="Snoo"
                     loading="lazy">
                 <div class="subheader">
                     <div class="main-title">
@@ -30,18 +30,18 @@
                         <div class="legend">
                             <div>
                                 <div class="icon">
-                                    <img src="{{ url_for('static', filename='assets/svg/arrow-up.svg') }}"
+                                    <img src="{{ static_asset('assets/svg/arrow-up.svg') }}"
                                         alt="Rank Up">
-                                    <img src="{{ url_for('static', filename='assets/svg/arrow-down.svg') }}"
+                                    <img src="{{ static_asset('assets/svg/arrow-down.svg') }}"
                                         alt="Rank Down">
                                 </div>
                                 <span>Rank<br>change</span>
                             </div>
                             <div>
                                 <div class="icon">
-                                    <img src="{{ url_for('static', filename='assets/svg/caret-up.svg') }}"
+                                    <img src="{{ static_asset('assets/svg/caret-up.svg') }}"
                                         alt="Caret Up">
-                                    <img src="{{ url_for('static', filename='assets/svg/caret-down.svg') }}"
+                                    <img src="{{ static_asset('assets/svg/caret-down.svg') }}"
                                         alt="Caret Down">
                                 </div>
                                 <span>Karma<br>change</span>
@@ -78,9 +78,9 @@
             {# Macros for reusable components #}
             {% macro rank_change_indicator(change, is_right=false) -%}
             {%- if change == 'returning' -%}
-            {{ back_symbol | safe }}
+            <img class="returning-icon" src="{{ static_asset('assets/svg/returning.svg') }}" alt="Returning">
             {%- elif change == 'new' -%}
-            {%- if is_right %}{{ right_new_entry | safe }}{% else %}{{ new_entry | safe }}{% endif -%}
+            <span class="{% if is_right %}right-{% endif %}rank-change new-entry" style="display: initial;">+</span>
             {%- elif change | int == 0 -%}
             {%- if is_right %}
             <span class="right-rank-change stable">&mdash;</span>
@@ -91,20 +91,18 @@
             {%- if is_right %}
             <span class="right-rank-change {% if change | int > 0 %}positive{% else %}negative{% endif %}">
                 <span>
-                    <svg class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
-                        viewBox="0 0 117.7 110">
-                        <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
-                    </svg>
+                    <img class="arrow {% if change | int < 0 %}negative{% else %}positive{% endif %}"
+                        src="{{ static_asset('assets/svg/arrow-' ~ ('up' if change | int > 0 else 'down') ~ '.svg') }}"
+                        alt="">
                 </span>{{ change | int | abs }}
             </span>
             {%- else %}
             <span
                 class="rank-change {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}stable{% endif %}">
                 {%- if change | int != 0 %}
-                <svg class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
-                    viewBox="0 0 117.7 110">
-                    <polygon points="60,0 0,58 40,58 40,110 80,110 80,58 120,58"></polygon>
-                </svg>{{ change | int | abs }}
+                <img class="arrow {% if change | int > 0 %}positive{% elif change | int < 0 %}negative{% else %}neutral{% endif %}"
+                    src="{{ static_asset('assets/svg/arrow-' ~ ('up' if change | int > 0 else 'down') ~ '.svg') }}"
+                    alt="">{{ change | int | abs }}
                 {%- endif %}
             </span>
             {%- endif %}
@@ -112,18 +110,9 @@
             {%- endmacro %}
 
             {% macro karma_change_indicator(change) -%}
-            <svg class="caret {% if change | int > 0 %}caret-up{% else %}caret-down{% endif %}" version="1.1"
-                id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                y="0px" viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;"
-                xml:space="preserve">
-                <g>
-                    <g>
-                        <path
-                            d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z">
-                        </path>
-                    </g>
-                </g>
-            </svg>{{ change | int | abs }}
+            <img class="caret {% if change | int > 0 %}caret-up{% else %}caret-down{% endif %}"
+                src="{{ static_asset('assets/svg/caret-' ~ ('up' if change | int > 0 else 'down') ~ '.svg') }}"
+                alt="">{{ change | int | abs }}
             {%- endmacro %}
 
             {% macro get_title(entry) -%}
@@ -286,35 +275,19 @@
         </div>
         <div id="rightToolbar" class="right-toolbar">
             <button id="editModeBtn" class="toolbar-btn" title="Edit Mode">
-                <svg width="20" height="20" viewBox="0 0 20 20">
-                    <path
-                        d="M3 17v-2.5l10-10a1.77 1.77 0 0 1 2.5 2.5l-10 10H3zm1.5-1.5H5l10-10a.25.25 0 1 0-.35-.35l-10 10v.35zm8.12-7.76l1.13-1.12 1.5 1.5-1.12 1.12-1.5-1.5z"
-                        fill="currentColor" />
-                </svg>
+                <img class="toolbar-icon" src="{{ static_asset('assets/svg/edit.svg') }}" alt="">
                 <span>Edit Mode</span>
             </button>
             <button id="saveEditsBtn" class="toolbar-btn" title="Save Edits">
-                <svg width="20" height="20" viewBox="0 0 20 20">
-                    <path
-                        d="M5 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6.83a2 2 0 0 0-.59-1.41l-2.83-2.83A2 2 0 0 0 13.17 2H5zm0 2h8v2.17a2 2 0 0 0 2 2V16H5V4zm3 8h2v4h-2v-4z"
-                        fill="currentColor" />
-                </svg>
+                <img class="toolbar-icon" src="{{ static_asset('assets/svg/save.svg') }}" alt="">
                 <span>Save Edits</span>
             </button>
             <button id="saveEditsAsBtn" class="toolbar-btn" title="Save Edits As">
-                <svg width="20" height="20" viewBox="0 0 20 20">
-                    <path
-                        d="M6 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6zm0 2h8v12H6V4zm2 2h4v2H8V6zm0 3h4v2H8V9zm0 3h4v2H8v-2z"
-                        fill="currentColor" />
-                </svg>
+                <img class="toolbar-icon" src="{{ static_asset('assets/svg/save-as.svg') }}" alt="">
                 <span>Save As</span>
             </button>
             <button id="copyHtmlBtn" class="toolbar-btn" title="Copy HTML">
-                <svg width="20" height="20" viewBox="0 0 20 20">
-                    <path
-                        d="M7 2a2 2 0 0 0-2 2v2h2V4h8v8h-2v2h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H7zm0 6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2zm2 0h8v10h-8V8zm-2 2v2H5v2h2v2H5v2h2a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H5z"
-                        fill="currentColor" />
-                </svg>
+                <img class="toolbar-icon" src="{{ static_asset('assets/svg/copy.svg') }}" alt="">
                 <span>Copy HTML</span>
             </button>
 
