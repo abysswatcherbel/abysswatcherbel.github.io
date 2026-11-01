@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
+    },
+    "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+    "title_english": "Steel Ball Run: JoJo's Bizarre Adventure",
+    "num_episodes": 0,
+    "score": 9.04,
+    "streams": {
+      "name": "netflix",
+      "service": "Netflix",
+      "url": "https://www.netflix.com/title/82116553",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 909,
+    "comments": 311,
+    "week_id": 6,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xj9fg5/steel_ball_run_jojo_no_kimyou_na_bouken_steel/",
+    "mal_id": 61469,
+    "current_rank": 1,
+    "karma_change": 86,
+    "rank_change": 3,
+    "season": "fall"
+  }
+]
