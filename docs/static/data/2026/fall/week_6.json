@@ -204,6 +204,31 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+    },
+    "title": "Onegai AiPri",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.09,
+    "streams": null,
+    "episode": "30",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "OLM",
+      "Dongwoo A&E"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xjrbl1/onegai_aipri_episode_30_discussion/",
+    "mal_id": 63352,
+    "current_rank": 8,
+    "karma_change": -3,
+    "rank_change": 64,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -226,7 +251,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
