@@ -40,6 +40,12 @@ def main() -> int:
     if args.year is None and args.season is None and week is None:
         week = schedule.week_id
 
+    mode = "dry run" if args.dry_run else "database update"
+    week_text = f", week {week}" if week is not None else ""
+    print(
+        f"Starting MAL score {mode} for {season} {year}{week_text}...",
+        flush=True,
+    )
     summary = update_mal_scores(
         mongo_uri=os.environ["MONGO_URI"],
         mal_client_id=os.getenv("MAL_SECRET", ""),
@@ -49,7 +55,9 @@ def main() -> int:
         missing_only=args.missing_only,
         dry_run=args.dry_run,
         limit=args.limit,
+        progress=lambda message: print(message, flush=True),
     )
+    print("MAL score update finished.", flush=True)
     print(json.dumps(summary, indent=2, default=str))
     return 1 if summary["failed"] else 0
 

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import time
+from collections.abc import Callable
 from datetime import datetime, timezone
 from typing import Any
 
@@ -123,7 +124,12 @@ class MalApiClient:
         self.session = requests.Session()
         self.session.headers.update({"X-MAL-CLIENT-ID": client_id})
 
-    def fetch_score(self, mal_id: int) -> dict[str, Any]:
+    def fetch_score(
+        self,
+        mal_id: int,
+        *,
+        progress: Callable[[str], None] | None = None,
+    ) -> dict[str, Any]:
         fields = ",".join(
             (
                 "id",
@@ -146,6 +152,11 @@ class MalApiClient:
                 return response.json()
             if attempt < 2:
                 retry_after = min(int(response.headers.get("Retry-After", "10")), 60)
+                if progress is not None:
+                    progress(
+                        f"MAL rate limit reached for {mal_id}; "
+                        f"retrying in {retry_after}s (attempt {attempt + 2}/3)"
+                    )
                 time.sleep(retry_after)
         response.raise_for_status()
         raise AssertionError("unreachable")
@@ -161,8 +172,11 @@ def update_mal_scores(
     missing_only: bool = False,
     dry_run: bool = False,
     limit: int | None = None,
+    progress: Callable[[str], None] | None = None,
 ) -> dict[str, Any]:
     year, season = validate_season(year, season)
+    report = progress or (lambda _message: None)
+    report("Connecting to MongoDB...")
     client = MongoClient(mongo_uri)
     collection = client.anime.seasonals
     query: dict[str, Any] = season_scope(year, season)
@@ -174,9 +188,11 @@ def update_mal_scores(
             ]
         }
 
+    report(f"Finding anime for {season} {year}...")
     ids = sorted(int(value) for value in collection.distinct("id", query) if value)
     if limit is not None:
         ids = ids[:limit]
+    report(f"Selected {len(ids)} anime record(s).")
     summary: dict[str, Any] = {
         "selected": len(ids),
         "updated": 0,
@@ -192,9 +208,11 @@ def update_mal_scores(
     mal = MalApiClient(mal_client_id)
     episode_path = f"reddit_karma.{year}.{season}"
     try:
-        for mal_id in ids:
+        for position, mal_id in enumerate(ids, start=1):
+            prefix = f"[{position}/{len(ids)}]"
             try:
-                data = mal.fetch_score(mal_id)
+                report(f"{prefix} Fetching MAL {mal_id}...")
+                data = mal.fetch_score(mal_id, progress=report)
                 now = datetime.now(timezone.utc)
                 statistic = {
                     "score": data.get("mean"),
@@ -223,10 +241,16 @@ def update_mal_scores(
                         array_filters=[{"episode.week_id": week}],
                     )
                 summary["updated"] += 1
+                title = data.get("title") or f"MAL {mal_id}"
+                report(
+                    f"{prefix} Updated {title}: "
+                    f"score={data.get('mean')}, members={data.get('num_list_users')}"
+                )
                 time.sleep(0.25)
             except Exception as error:
                 summary["failed"] += 1
                 summary["errors"].append(f"{mal_id}: {error}")
+                report(f"{prefix} Failed MAL {mal_id}: {error}")
     finally:
         client.close()
     return summary
