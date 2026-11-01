@@ -95,6 +95,18 @@ python -m scripts.backfill_streaming --dry-run
 python -m scripts.backfill_streaming
 ```
 
+Audit the current ranking week for episode discussions that were never finalized:
+
+```bash
+python -m scripts.check_missing_shows
+python -m scripts.check_missing_shows --post https://www.reddit.com/r/anime/comments/POST_ID/title/
+python -m scripts.check_missing_shows --year 2026 --season fall --week 5
+```
+
+The checker is read-only, ignores episode 0 megathreads, and reports both posts
+that were never tracked and posts whose hourly tracking reached 48 hours but was
+not copied into the seasonal ranking data.
+
 Historical seasons can be selected explicitly. Add `--week` when a MAL snapshot
 should also be attached to that week's episode records:
 
