@@ -117,6 +117,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1321/159720l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1321/159720.jpg"
+    },
+    "title": "Tokyo Revengers: Santen Sensou-hen",
+    "title_english": "Tokyo Revengers: War of the Three Titan Arc",
+    "num_episodes": 0,
+    "score": 7.81,
+    "streams": {
+      "name": "hulu",
+      "service": "Hulu",
+      "url": "https://www.hulu.com/series/1a195a35-e19c-4e36-b609-3b1c451f6ce4",
+      "logo": null
+    },
+    "episode": "5",
+    "karma": 71,
+    "comments": 50,
+    "week_id": 6,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xjkzs1/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
+    "mal_id": 59088,
+    "current_rank": 5,
+    "karma_change": -30,
+    "rank_change": 39,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
     },
@@ -139,9 +168,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjk5cb/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": -20,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -168,9 +197,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjjmvo/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -3,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -197,7 +226,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
