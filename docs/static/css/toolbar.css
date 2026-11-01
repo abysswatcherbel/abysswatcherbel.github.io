@@ -47,17 +47,19 @@
     box-shadow: 0 3px 18px rgba(24, 64, 200, 0.16);
 }
 
-.toolbar-btn.active svg {
-    color: #fff; }
+.toolbar-btn.active .toolbar-icon {
+    filter: brightness(0) invert(1);
+}
 
-.toolbar-btn svg {
+.toolbar-btn .toolbar-icon {
     display: inline-block;
     vertical-align: middle;
-    color: #4180e8;
+    width: 20px;
+    height: 20px;
 }
 
 
-.toolbar-btn.active svg {
+.toolbar-btn.active .toolbar-icon {
   animation: spin 0.8s linear;
 }
 @keyframes spin {

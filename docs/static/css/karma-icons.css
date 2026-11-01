@@ -38,13 +38,9 @@ span[class="rank-change neutral"] {
     background-size: contain;
 }
 
-.caret-up {
-    fill: var(--positive-color);
-    transform: rotate(180deg);
-}
-
+.caret-up,
 .caret-down {
-    fill: var(--negative-color);
+    transform: none;
 }
 
 .arrow {
@@ -55,11 +51,12 @@ span[class="rank-change neutral"] {
     background-size: contain;
 }
 
-svg.arrow.positive {
-    fill: #fc672b;
+.arrow.positive,
+.arrow.negative {
+    transform: none;
 }
 
-svg.arrow.negative {
-    fill: #926cca;
-    transform: rotate(180deg);
+.returning-icon {
+    width: 20px;
+    height: 20px;
 }
