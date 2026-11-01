@@ -117,6 +117,64 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+    },
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "title_english": "Sorry About My Little Brothers",
+    "num_episodes": 24,
+    "score": 7.09,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00371926/",
+      "logo": null
+    },
+    "episode": "17",
+    "karma": 55,
+    "comments": 41,
+    "week_id": 6,
+    "studio": [
+      "Lay-duce"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xjk5cb/please_excuse_my_younger_brothers_uchi_no/",
+    "mal_id": 63061,
+    "current_rank": 5,
+    "karma_change": -20,
+    "rank_change": 44,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1332/160147l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1332/160147.jpg"
+    },
+    "title": "Tougen Anki: Nikko Kegon no Taki-hen",
+    "title_english": "Tougen Anki: Nikko Kegon Falls Arc",
+    "num_episodes": 0,
+    "score": 7.32,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki",
+      "logo": null
+    },
+    "episode": "5",
+    "karma": 53,
+    "comments": 21,
+    "week_id": 6,
+    "studio": [
+      "Studio Hibari"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xjjmvo/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
+    "mal_id": 63181,
+    "current_rank": 6,
+    "karma_change": -3,
+    "rank_change": 50,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -139,7 +197,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 5,
+    "current_rank": 7,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
