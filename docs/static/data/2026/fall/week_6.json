@@ -204,6 +204,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1827/160110l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1827/160110.jpg"
+    },
+    "title": "Keroro Gunsou\u2606",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.41,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00383995/",
+      "logo": null
+    },
+    "episode": "5",
+    "karma": 11,
+    "comments": 5,
+    "week_id": 6,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xjwuzz/sgt_frog_keroro_gunsou_episode_5_discussion/",
+    "mal_id": 63157,
+    "current_rank": 8,
+    "karma_change": -10,
+    "rank_change": 60,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
     },
@@ -226,9 +255,46 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xju5ht/ghost_meets_gal_episode_9_discussion/",
     "mal_id": 64718,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -1,
-    "rank_change": 66,
+    "rank_change": 65,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
+    },
+    "title": "Rilakkuma",
+    "title_english": "Rilakkuma",
+    "num_episodes": 0,
+    "score": 6.58,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "name": "Aniplus TV",
+        "url": "http://www.aniplustv.com/"
+      },
+      {
+        "name": "Muse Asia",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg"
+      }
+    ],
+    "episode": "30",
+    "karma": 3,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xjwutt/rilakkuma_episode_30_discussion/",
+    "mal_id": 60153,
+    "current_rank": 10,
+    "karma_change": -5,
+    "rank_change": 61,
     "season": "fall"
   },
   {
@@ -251,9 +317,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjrbl1/onegai_aipri_episode_30_discussion/",
     "mal_id": 63352,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -3,
-    "rank_change": 63,
+    "rank_change": 62,
     "season": "fall"
   },
   {
@@ -280,7 +346,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 10,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
