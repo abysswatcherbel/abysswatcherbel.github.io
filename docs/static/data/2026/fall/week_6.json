@@ -204,6 +204,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1800/159261l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1800/159261.jpg"
+    },
+    "title": "Ghost Meets Gal!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 5.98,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLMeyOW8qY3fA",
+      "logo": null
+    },
+    "episode": "9",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xju5ht/ghost_meets_gal_episode_9_discussion/",
+    "mal_id": 64718,
+    "current_rank": 8,
+    "karma_change": -1,
+    "rank_change": 66,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
       "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
     },
@@ -222,9 +251,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjrbl1/onegai_aipri_episode_30_discussion/",
     "mal_id": 63352,
-    "current_rank": 8,
+    "current_rank": 9,
     "karma_change": -3,
-    "rank_change": 64,
+    "rank_change": 63,
     "season": "fall"
   },
   {
@@ -251,7 +280,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
