@@ -349,6 +349,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1498/159735l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1498/159735.jpg"
+    },
+    "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
+    "title_english": "Magic Repo Man: Dumped by My Party, I'll Cash In With a Cute Support Fairy to Become the Strongest!",
+    "num_episodes": 0,
+    "score": 6.26,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00385867/magic-repo-man-dumped-by-my-party-ill-cash-in-with-a-cute-support-fairy-to-become-the-strongest",
+      "logo": null
+    },
+    "episode": "5",
+    "karma": 144,
+    "comments": 199,
+    "week_id": 6,
+    "studio": [
+      "SynergySP"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xkgxw8/magic_repo_man_dumped_by_my_party_ill_cash_in/",
+    "mal_id": 62922,
+    "current_rank": 13,
+    "karma_change": -19,
+    "rank_change": 22,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1678/160198l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1678/160198.jpg"
     },
@@ -371,9 +400,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xkchf5/the_seven_knights_of_the_marronnier_kingdom/",
     "mal_id": 64326,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 13,
-    "rank_change": 35,
+    "rank_change": 34,
     "season": "fall"
   },
   {
@@ -400,9 +429,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjkzs1/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
     "mal_id": 59088,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": -30,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -429,9 +458,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xk5tn5/the_vermilion_mask_shuiro_no_kamen_episode_4/",
     "mal_id": 61999,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 1,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -458,9 +487,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjk5cb/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 16,
+    "current_rank": 17,
     "karma_change": -20,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -487,9 +516,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjjmvo/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 17,
+    "current_rank": 18,
     "karma_change": -3,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "fall"
   },
   {
@@ -516,9 +545,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xkdysv/vertex_force_episode_5_discussion/",
     "mal_id": 63764,
-    "current_rank": 18,
+    "current_rank": 19,
     "karma_change": -8,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -545,9 +574,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xk07k8/pok\u00e9mon_horizons_the_series_episode_155_discussion/",
     "mal_id": 53876,
-    "current_rank": 19,
+    "current_rank": 20,
     "karma_change": -3,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -574,9 +603,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xkft6s/horror_collector_kyoufu_collector_episode_4/",
     "mal_id": 63053,
-    "current_rank": 20,
+    "current_rank": 21,
     "karma_change": -3,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -603,9 +632,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjwuzz/sgt_frog_keroro_gunsou_episode_5_discussion/",
     "mal_id": 63157,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": -10,
-    "rank_change": 47,
+    "rank_change": 46,
     "season": "fall"
   },
   {
@@ -632,9 +661,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xju5ht/ghost_meets_gal_episode_9_discussion/",
     "mal_id": 64718,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": -1,
-    "rank_change": 52,
+    "rank_change": 51,
     "season": "fall"
   },
   {
@@ -669,9 +698,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjwutt/rilakkuma_episode_30_discussion/",
     "mal_id": 60153,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -5,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -694,9 +723,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjrbl1/onegai_aipri_episode_30_discussion/",
     "mal_id": 63352,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -3,
-    "rank_change": 49,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -723,7 +752,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
