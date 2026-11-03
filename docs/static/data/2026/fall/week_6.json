@@ -756,5 +756,34 @@
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/@odekake-kozame",
+      "logo": null
+    },
+    "episode": "90",
+    "karma": 1,
+    "comments": 1,
+    "week_id": 6,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xkmuh3/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 26,
+    "karma_change": -5,
+    "rank_change": 46,
+    "season": "fall"
   }
 ]
