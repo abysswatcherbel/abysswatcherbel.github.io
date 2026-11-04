@@ -1465226,7 +1465226,7 @@
         "title_english": "",
         "episode": "5",
         "created_at": "2026-11-02 18:00:03",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1465403,6 +1465403,10 @@
             {
                 "hour": 43.0,
                 "karma": 93
+            },
+            {
+                "hour": 44.0,
+                "karma": 95
             }
         ],
         "images": {
@@ -1465420,7 +1465424,7 @@
         "title_english": "Playing Sister",
         "episode": "2",
         "created_at": "2026-11-03 10:00:04",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 19.0,
@@ -1465533,6 +1465537,10 @@
             {
                 "hour": 46.0,
                 "karma": 15
+            },
+            {
+                "hour": 47.0,
+                "karma": 18
             }
         ],
         "images": {
@@ -1465550,7 +1465558,7 @@
         "title_english": "Nia Liston: The Merciless Maiden",
         "episode": "5",
         "created_at": "2026-11-03 13:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1465651,6 +1465659,10 @@
             {
                 "hour": 24.0,
                 "karma": 421
+            },
+            {
+                "hour": 25.0,
+                "karma": 423
             }
         ],
         "images": {
@@ -1465668,7 +1465680,7 @@
         "title_english": "The Cold Sato-san is Only Sweet to Me",
         "episode": "5",
         "created_at": "2026-11-03 14:00:03",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1465765,6 +1465777,10 @@
             {
                 "hour": 23.0,
                 "karma": 136
+            },
+            {
+                "hour": 24.0,
+                "karma": 140
             }
         ],
         "images": {
@@ -1465782,7 +1465798,7 @@
         "title_english": "",
         "episode": "5",
         "created_at": "2026-11-03 15:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1465875,6 +1465891,10 @@
             {
                 "hour": 22.0,
                 "karma": 5
+            },
+            {
+                "hour": 23.0,
+                "karma": 3
             }
         ],
         "images": {
@@ -1465892,7 +1465912,7 @@
         "title_english": "Super Psychic Policeman Chojo",
         "episode": "5",
         "created_at": "2026-11-03 15:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1465985,6 +1466005,10 @@
             {
                 "hour": 22.0,
                 "karma": 90
+            },
+            {
+                "hour": 23.0,
+                "karma": 92
             }
         ],
         "images": {
@@ -1466002,7 +1466026,7 @@
         "title_english": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
         "episode": "5",
         "created_at": "2026-11-03 16:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1466091,6 +1466115,10 @@
             {
                 "hour": 21.0,
                 "karma": 636
+            },
+            {
+                "hour": 22.0,
+                "karma": 643
             }
         ],
         "images": {
@@ -1466108,7 +1466136,7 @@
         "title_english": "Suikoden: The Anime",
         "episode": "5",
         "created_at": "2026-11-03 16:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1466197,6 +1466225,10 @@
             {
                 "hour": 22.0,
                 "karma": 46
+            },
+            {
+                "hour": 23.0,
+                "karma": 47
             }
         ],
         "images": {
@@ -1466214,7 +1466246,7 @@
         "title_english": "Chitose Is in the Ramune Bottle Part 2",
         "episode": "17",
         "created_at": "2026-11-03 17:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1466299,6 +1466331,10 @@
             {
                 "hour": 20.0,
                 "karma": 124
+            },
+            {
+                "hour": 21.0,
+                "karma": 120
             }
         ],
         "images": {
@@ -1466316,7 +1466352,7 @@
         "title_english": "Red River",
         "episode": "18",
         "created_at": "2026-11-03 18:00:02",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1466397,6 +1466433,10 @@
             {
                 "hour": 19.0,
                 "karma": 49
+            },
+            {
+                "hour": 20.0,
+                "karma": 49
             }
         ],
         "images": {
@@ -1466414,7 +1466454,7 @@
         "title_english": "Dark Machine: The Animation",
         "episode": "4",
         "created_at": "2026-11-03 19:00:03",
-        "updated_at": "2026-11-04 13:00:03",
+        "updated_at": "2026-11-04 14:00:02",
         "hourly_karma": [
             {
                 "hour": 1.0,
@@ -1466491,11 +1466531,81 @@
             {
                 "hour": 19.0,
                 "karma": 16
+            },
+            {
+                "hour": 20.0,
+                "karma": 14
             }
         ],
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1465/153763l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1465/153763.jpg"
+        }
+    },
+    {
+        "mal_id": 52480,
+        "reddit_id": "1xnoa39",
+        "week_id": 6,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Detective Is Already Dead Season 2",
+        "title_english": "The Detective Is Already Dead Season 2",
+        "episode": "5",
+        "created_at": "2026-11-04 14:00:02",
+        "updated_at": "2026-11-04 14:00:02",
+        "hourly_karma": [
+            {
+                "hour": 0.0,
+                "karma": 6
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1414/160406l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1414/160406.jpg"
+        }
+    },
+    {
+        "mal_id": 64084,
+        "reddit_id": "1xnnmd3",
+        "week_id": 6,
+        "season": "fall",
+        "year": 2026,
+        "title": "The World's Strongest Witch",
+        "title_english": "The World's Strongest Witch",
+        "episode": "5",
+        "created_at": "2026-11-04 14:00:02",
+        "updated_at": "2026-11-04 14:00:02",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 50
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1341/159753l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1341/159753.jpg"
+        }
+    },
+    {
+        "mal_id": 58518,
+        "reddit_id": "1xnnmc6",
+        "week_id": 6,
+        "season": "fall",
+        "year": 2026,
+        "title": "Sasaki and Peeps Season 2",
+        "title_english": "Sasaki and Peeps Season 2",
+        "episode": "5",
+        "created_at": "2026-11-04 14:00:02",
+        "updated_at": "2026-11-04 14:00:02",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 23
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1655/159979l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1655/159979.jpg"
         }
     }
 ]
