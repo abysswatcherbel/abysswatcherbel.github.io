@@ -1157,6 +1157,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1372/155197l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1372/155197.jpg"
+    },
+    "title": "Oneechan Gokko",
+    "title_english": "Playing Sister",
+    "num_episodes": 3,
+    "score": 7.3,
+    "streams": null,
+    "episode": "2",
+    "karma": 18,
+    "comments": 7,
+    "week_id": 6,
+    "studio": [
+      "Studio Gohan"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xm02lf/playing_sister_oneechan_gokko_episode_2_discussion/",
+    "mal_id": 63396,
+    "current_rank": 41,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
     },
@@ -1179,9 +1203,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xlh4jm/magical_sisters_luluttolilly_mahou_no_shimai/",
     "mal_id": 63667,
-    "current_rank": 41,
+    "current_rank": 42,
     "karma_change": -12,
-    "rank_change": 24,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -1208,9 +1232,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjwuzz/sgt_frog_keroro_gunsou_episode_5_discussion/",
     "mal_id": 63157,
-    "current_rank": 42,
+    "current_rank": 43,
     "karma_change": -10,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -1237,9 +1261,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xju5ht/ghost_meets_gal_episode_9_discussion/",
     "mal_id": 64718,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -1,
-    "rank_change": 31,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -1274,9 +1298,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjwutt/rilakkuma_episode_30_discussion/",
     "mal_id": 60153,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -5,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -1299,9 +1323,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjrbl1/onegai_aipri_episode_30_discussion/",
     "mal_id": 63352,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -3,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -1328,7 +1352,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1357,9 +1381,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xkmuh3/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": -5,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   }
 ]
