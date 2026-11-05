@@ -1389,6 +1389,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1465/153763l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1465/153763.jpg"
+    },
+    "title": "Dark Machine: The Animation",
+    "title_english": "Dark Machine: The Animation",
+    "num_episodes": 0,
+    "score": 5.67,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/@DarkMachineGame",
+      "logo": null
+    },
+    "episode": "4",
+    "karma": 20,
+    "comments": 6,
+    "week_id": 6,
+    "studio": [
+      "Production +h."
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xn0lfy/dark_machine_the_animation_episode_4_discussion/",
+    "mal_id": 59415,
+    "current_rank": 49,
+    "karma_change": 1,
+    "rank_change": 20,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1372/155197l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1372/155197.jpg"
     },
@@ -1406,7 +1435,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xm02lf/playing_sister_oneechan_gokko_episode_2_discussion/",
     "mal_id": 63396,
-    "current_rank": 49,
+    "current_rank": 50,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1435,9 +1464,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xlh4jm/magical_sisters_luluttolilly_mahou_no_shimai/",
     "mal_id": 63667,
-    "current_rank": 50,
+    "current_rank": 51,
     "karma_change": -12,
-    "rank_change": 15,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -1464,9 +1493,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjwuzz/sgt_frog_keroro_gunsou_episode_5_discussion/",
     "mal_id": 63157,
-    "current_rank": 51,
+    "current_rank": 52,
     "karma_change": -10,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1493,9 +1522,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xmuieo/battle_spirits_re_zekkai_no_ku_episode_5/",
     "mal_id": 63818,
-    "current_rank": 52,
+    "current_rank": 53,
     "karma_change": 2,
-    "rank_change": 23,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -1522,9 +1551,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xju5ht/ghost_meets_gal_episode_9_discussion/",
     "mal_id": 64718,
-    "current_rank": 53,
+    "current_rank": 54,
     "karma_change": -1,
-    "rank_change": 21,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -1559,9 +1588,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjwutt/rilakkuma_episode_30_discussion/",
     "mal_id": 60153,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -5,
-    "rank_change": 17,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -1584,9 +1613,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjrbl1/onegai_aipri_episode_30_discussion/",
     "mal_id": 63352,
-    "current_rank": 54,
+    "current_rank": 55,
     "karma_change": -3,
-    "rank_change": 18,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -1613,7 +1642,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1642,9 +1671,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xkmuh3/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 56,
+    "current_rank": 57,
     "karma_change": -5,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   }
 ]
