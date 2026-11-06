@@ -1766,6 +1766,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1529/159518l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1529/159518.jpg"
+    },
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
+    "num_episodes": 0,
+    "score": 6.64,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G65VP3106/the-prince-of-tennis-ii",
+      "logo": null
+    },
+    "episode": "6",
+    "karma": 2,
+    "comments": 2,
+    "week_id": 6,
+    "studio": [
+      "M.S.C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xns2bz/the_prince_of_tennis_ii_u17_world_cup_final/",
+    "mal_id": 62534,
+    "current_rank": 62,
+    "karma_change": -6,
+    "rank_change": 8,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
     },
@@ -1788,7 +1817,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xjc1ge/beyblade_x_episode_137_discussion/",
     "mal_id": 56566,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -1817,9 +1846,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xkmuh3/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -5,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   }
 ]
