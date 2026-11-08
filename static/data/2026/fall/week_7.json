@@ -249,5 +249,29 @@
     "karma_change": 4,
     "rank_change": 40,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1360/160091l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1360/160091.jpg"
+    },
+    "title": "Aoki Denshou Welsh & Shedar",
+    "title_english": "Welsh & Shedar",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "2",
+    "karma": 28,
+    "comments": 8,
+    "week_id": 7,
+    "studio": [
+      "Studio Massket"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xpmoer/welsh_shedar_aoki_denshou_welsh_shedar_episode_2/",
+    "mal_id": 65009,
+    "current_rank": 10,
+    "karma_change": -13,
+    "rank_change": 45,
+    "season": "fall"
   }
 ]
