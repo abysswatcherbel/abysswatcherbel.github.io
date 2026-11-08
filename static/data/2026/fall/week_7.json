@@ -117,6 +117,30 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1551/158889l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1551/158889.jpg"
+    },
+    "title": "Demons' Crest",
+    "title_english": "Devils' Crest",
+    "num_episodes": 0,
+    "score": 6.55,
+    "streams": null,
+    "episode": "1",
+    "karma": 100,
+    "comments": 39,
+    "week_id": 7,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xpkmvt/devils_crest_demons_crest_episode_1_discussion/",
+    "mal_id": 63045,
+    "current_rank": 5,
+    "karma_change": 0,
+    "rank_change": "new",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1321/159720l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1321/159720.jpg"
     },
@@ -139,9 +163,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpi19l/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
     "mal_id": 59088,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 11,
-    "rank_change": 38,
+    "rank_change": 37,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1551/158889l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1551/158889.jpg"
+    },
+    "title": "Demons' Crest",
+    "title_english": "Devils' Crest",
+    "num_episodes": 0,
+    "score": 6.55,
+    "streams": null,
+    "episode": "2",
+    "karma": 77,
+    "comments": 58,
+    "week_id": 7,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xpkmzn/devils_crest_demons_crest_episode_2_discussion/",
+    "mal_id": 63045,
+    "current_rank": 7,
+    "karma_change": 0,
+    "rank_change": "returning",
     "season": "fall"
   },
   {
@@ -168,9 +216,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xph877/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 6,
+    "current_rank": 8,
     "karma_change": 2,
-    "rank_change": 41,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -197,9 +245,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpgfem/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 7,
+    "current_rank": 9,
     "karma_change": 4,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "fall"
   }
 ]
