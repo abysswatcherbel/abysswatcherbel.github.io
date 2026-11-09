@@ -233,6 +233,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1666/160106l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1666/160106.jpg"
+    },
+    "title": "Magical\u2605Explorer",
+    "title_english": "Magical\u2605Explorer",
+    "num_episodes": 0,
+    "score": 6.87,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00384003/magical-explorer",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 230,
+    "comments": 78,
+    "week_id": 7,
+    "studio": [
+      "White Fox"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xqaivk/magical_explorer_magicalexplorer_episode_7/",
+    "mal_id": 56733,
+    "current_rank": 9,
+    "karma_change": 8,
+    "rank_change": 15,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1551/158889l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1551/158889.jpg"
     },
@@ -250,7 +279,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpkmvt/devils_crest_demons_crest_episode_1_discussion/",
     "mal_id": 63045,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -279,9 +308,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpi19l/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
     "mal_id": 59088,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 11,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -303,7 +332,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpkmzn/devils_crest_demons_crest_episode_2_discussion/",
     "mal_id": 63045,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -332,9 +361,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xq8ew4/the_seven_knights_of_the_marronnier_kingdom/",
     "mal_id": 64326,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -14,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -361,9 +390,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xq2f3p/the_vermilion_mask_shuiro_no_kamen_episode_5/",
     "mal_id": 61999,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 2,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -390,9 +419,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xph877/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 14,
+    "current_rank": 15,
     "karma_change": 2,
-    "rank_change": 33,
+    "rank_change": 32,
     "season": "fall"
   },
   {
@@ -419,9 +448,38 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpgfem/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 15,
+    "current_rank": 16,
     "karma_change": 4,
-    "rank_change": 34,
+    "rank_change": 33,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1026/160012l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1026/160012.jpg"
+    },
+    "title": "Vertex Force",
+    "title_english": "Vertex Force",
+    "num_episodes": 0,
+    "score": 5.68,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00365619/vertex-force",
+      "logo": null
+    },
+    "episode": "6",
+    "karma": 37,
+    "comments": 58,
+    "week_id": 7,
+    "studio": [
+      "Shogakukan Music & Digital Entertainment"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xq9t2y/vertex_force_episode_6_discussion/",
+    "mal_id": 63764,
+    "current_rank": 17,
+    "karma_change": 1,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -443,9 +501,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpmoer/welsh_shedar_aoki_denshou_welsh_shedar_episode_2/",
     "mal_id": 65009,
-    "current_rank": 16,
+    "current_rank": 18,
     "karma_change": -13,
-    "rank_change": 39,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -472,9 +530,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpypnd/pok\u00e9mon_horizons_the_series_episode_156_discussion/",
     "mal_id": 53876,
-    "current_rank": 17,
+    "current_rank": 19,
     "karma_change": -4,
-    "rank_change": 42,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -501,9 +559,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xptg6u/sgt_frog_keroro_gunsou_episode_6_discussion/",
     "mal_id": 63157,
-    "current_rank": 18,
+    "current_rank": 20,
     "karma_change": 3,
-    "rank_change": 47,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -538,9 +596,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpuns6/rilakkuma_episode_31_discussion/",
     "mal_id": 60153,
-    "current_rank": 19,
+    "current_rank": 21,
     "karma_change": 1,
-    "rank_change": 50,
+    "rank_change": 48,
     "season": "fall"
   },
   {
@@ -567,9 +625,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xppy4y/beyblade_x_episode_138_discussion/",
     "mal_id": 56566,
-    "current_rank": 20,
+    "current_rank": 22,
     "karma_change": 1,
-    "rank_change": 52,
+    "rank_change": 50,
     "season": "fall"
   },
   {
@@ -592,9 +650,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpoupn/onegai_aipri_episode_31_discussion/",
     "mal_id": 63352,
-    "current_rank": 21,
+    "current_rank": 23,
     "karma_change": -3,
-    "rank_change": 48,
+    "rank_change": 46,
     "season": "fall"
   }
 ]
