@@ -1229,6 +1229,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.83,
+    "streams": {
+      "name": "netflix",
+      "service": "Netflix",
+      "url": "https://www.netflix.com/title/81924739",
+      "logo": null
+    },
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "139",
+    "karma": 7,
+    "comments": 2,
+    "week_id": 7,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xr3m1c/beyblade_x_episode_139_discussion/",
+    "mal_id": 56566,
+    "current_rank": 44,
+    "karma_change": 6,
+    "rank_change": 28,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1259,9 +1288,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpuns6/rilakkuma_episode_31_discussion/",
     "mal_id": 60153,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 1,
-    "rank_change": 25,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -1288,9 +1317,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqpkbb/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 2,
-    "rank_change": 27,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -1317,9 +1346,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xppy4y/beyblade_x_episode_138_discussion/",
     "mal_id": 56566,
-    "current_rank": 46,
+    "current_rank": 47,
     "karma_change": 1,
-    "rank_change": 26,
+    "rank_change": 25,
     "season": "fall"
   },
   {
@@ -1342,9 +1371,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpoupn/onegai_aipri_episode_31_discussion/",
     "mal_id": 63352,
-    "current_rank": 47,
+    "current_rank": 48,
     "karma_change": -3,
-    "rank_change": 22,
+    "rank_change": 21,
     "season": "fall"
   }
 ]
