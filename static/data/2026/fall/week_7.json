@@ -465,6 +465,64 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1624/159991l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1624/159991.jpg"
+    },
+    "title": "Dragon Ball Super: Beerus",
+    "title_english": "Dragon Ball Super: Beerus",
+    "num_episodes": 0,
+    "score": 8.24,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00389311/dragon-ball-super-beerus",
+      "logo": null
+    },
+    "episode": "5",
+    "karma": 211,
+    "comments": 77,
+    "week_id": 7,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xr1eic/dragon_ball_super_beerus_episode_5_discussion/",
+    "mal_id": 63367,
+    "current_rank": 17,
+    "karma_change": -4,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1533/159859l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1533/159859.jpg"
+    },
+    "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+    "title_english": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+    "num_episodes": 0,
+    "score": 7.38,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 204,
+    "comments": 60,
+    "week_id": 7,
+    "studio": [
+      "GeyeG Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xr0e3i/as_a_reincarnated_aristocrat_ill_use_my_appraisal/",
+    "mal_id": 60601,
+    "current_rank": 18,
+    "karma_change": -2,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1498/159735l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1498/159735.jpg"
     },
@@ -487,9 +545,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqdy1x/magic_repo_man_dumped_by_my_party_ill_cash_in/",
     "mal_id": 62922,
-    "current_rank": 17,
+    "current_rank": 19,
     "karma_change": 36,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -516,9 +574,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqzrds/even_though_im_a_super_timid_noble_girl_i/",
     "mal_id": 62753,
-    "current_rank": 18,
+    "current_rank": 20,
     "karma_change": -15,
-    "rank_change": 13,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -540,7 +598,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpkmvt/devils_crest_demons_crest_episode_1_discussion/",
     "mal_id": 63045,
-    "current_rank": 19,
+    "current_rank": 21,
     "karma_change": 0,
     "rank_change": "new",
     "season": "fall"
@@ -569,9 +627,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqu8w1/mission_yozakura_family_season_2_part_2/",
     "mal_id": 64503,
-    "current_rank": 20,
+    "current_rank": 22,
     "karma_change": -8,
-    "rank_change": 19,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -598,9 +656,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpi19l/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
     "mal_id": 59088,
-    "current_rank": 21,
+    "current_rank": 23,
     "karma_change": 11,
-    "rank_change": 22,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -627,9 +685,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqzs3g/tank_chair_episode_6_discussion/",
     "mal_id": 63751,
-    "current_rank": 22,
+    "current_rank": 24,
     "karma_change": -2,
-    "rank_change": 19,
+    "rank_change": 17,
     "season": "fall"
   },
   {
@@ -651,7 +709,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpkmzn/devils_crest_demons_crest_episode_2_discussion/",
     "mal_id": 63045,
-    "current_rank": 23,
+    "current_rank": 25,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -680,9 +738,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xq8ew4/the_seven_knights_of_the_marronnier_kingdom/",
     "mal_id": 64326,
-    "current_rank": 24,
+    "current_rank": 26,
     "karma_change": -14,
-    "rank_change": 16,
+    "rank_change": 14,
     "season": "fall"
   },
   {
@@ -709,9 +767,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xq2f3p/the_vermilion_mask_shuiro_no_kamen_episode_5/",
     "mal_id": 61999,
-    "current_rank": 25,
+    "current_rank": 27,
     "karma_change": 2,
-    "rank_change": 21,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -738,9 +796,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xph877/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 26,
+    "current_rank": 28,
     "karma_change": 2,
-    "rank_change": 21,
+    "rank_change": 19,
     "season": "fall"
   },
   {
@@ -767,9 +825,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpgfem/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 27,
+    "current_rank": 29,
     "karma_change": 4,
-    "rank_change": 22,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -796,9 +854,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqz58g/uncles_obsession_with_cute_things_ojisan_wa/",
     "mal_id": 62907,
-    "current_rank": 28,
+    "current_rank": 30,
     "karma_change": 4,
-    "rank_change": 25,
+    "rank_change": 23,
     "season": "fall"
   },
   {
@@ -825,8 +883,38 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqu4n3/ace_of_the_diamond_act_ii_season_2_part_2_diamond/",
     "mal_id": 64505,
-    "current_rank": 29,
+    "current_rank": 31,
     "karma_change": -11,
+    "rank_change": 20,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1903/159928l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1903/159928.jpg"
+    },
+    "title": "Hotel Inhumans 2nd Season",
+    "title_english": "Hotel Inhumans Season 2",
+    "num_episodes": 0,
+    "score": 6.86,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GXJHM3G08/hotel-inhumans",
+      "logo": null
+    },
+    "episode": "6",
+    "karma": 39,
+    "comments": 22,
+    "week_id": 7,
+    "studio": [
+      "Bridge",
+      "Aisle"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xr0ra7/hotel_inhumans_season_2_episode_6_discussion/",
+    "mal_id": 62590,
+    "current_rank": 32,
+    "karma_change": -4,
     "rank_change": 22,
     "season": "fall"
   },
@@ -854,9 +942,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xq9t2y/vertex_force_episode_6_discussion/",
     "mal_id": 63764,
-    "current_rank": 30,
+    "current_rank": 33,
     "karma_change": 1,
-    "rank_change": 27,
+    "rank_change": 24,
     "season": "fall"
   },
   {
@@ -883,9 +971,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqblem/horror_collector_kyoufu_collector_episode_5/",
     "mal_id": 63053,
-    "current_rank": 31,
+    "current_rank": 34,
     "karma_change": 11,
-    "rank_change": 30,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -907,9 +995,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpmoer/welsh_shedar_aoki_denshou_welsh_shedar_episode_2/",
     "mal_id": 65009,
-    "current_rank": 32,
+    "current_rank": 35,
     "karma_change": -13,
-    "rank_change": 23,
+    "rank_change": 20,
     "season": "fall"
   },
   {
@@ -936,7 +1024,7 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqmier/star_detective_precure_meitantei_precure_episode/",
     "mal_id": 63042,
-    "current_rank": 33,
+    "current_rank": 36,
     "karma_change": 0,
     "rank_change": "returning",
     "season": "fall"
@@ -965,9 +1053,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpypnd/pok\u00e9mon_horizons_the_series_episode_156_discussion/",
     "mal_id": 53876,
-    "current_rank": 34,
+    "current_rank": 37,
     "karma_change": -4,
-    "rank_change": 25,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -994,9 +1082,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqwvl1/umayuru_full_gate_episode_7_discussion/",
     "mal_id": 64867,
-    "current_rank": 35,
+    "current_rank": 38,
     "karma_change": -5,
-    "rank_change": 25,
+    "rank_change": 22,
     "season": "fall"
   },
   {
@@ -1023,9 +1111,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xptg6u/sgt_frog_keroro_gunsou_episode_6_discussion/",
     "mal_id": 63157,
-    "current_rank": 36,
+    "current_rank": 39,
     "karma_change": 3,
-    "rank_change": 29,
+    "rank_change": 26,
     "season": "fall"
   },
   {
@@ -1060,9 +1148,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpuns6/rilakkuma_episode_31_discussion/",
     "mal_id": 60153,
-    "current_rank": 37,
+    "current_rank": 40,
     "karma_change": 1,
-    "rank_change": 32,
+    "rank_change": 29,
     "season": "fall"
   },
   {
@@ -1089,9 +1177,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqpkbb/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 38,
+    "current_rank": 41,
     "karma_change": 2,
-    "rank_change": 34,
+    "rank_change": 31,
     "season": "fall"
   },
   {
@@ -1118,9 +1206,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xppy4y/beyblade_x_episode_138_discussion/",
     "mal_id": 56566,
-    "current_rank": 39,
+    "current_rank": 42,
     "karma_change": 1,
-    "rank_change": 33,
+    "rank_change": 30,
     "season": "fall"
   },
   {
@@ -1143,9 +1231,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpoupn/onegai_aipri_episode_31_discussion/",
     "mal_id": 63352,
-    "current_rank": 40,
+    "current_rank": 43,
     "karma_change": -3,
-    "rank_change": 29,
+    "rank_change": 26,
     "season": "fall"
   }
 ]
