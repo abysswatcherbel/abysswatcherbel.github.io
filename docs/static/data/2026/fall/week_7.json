@@ -798,6 +798,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1905/159716l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1905/159716.jpg"
+    },
+    "title": "Umayuru: Full Gate!",
+    "title_english": "",
+    "num_episodes": 26,
+    "score": 6.91,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLNoVytAHV6zA",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 21,
+    "comments": 6,
+    "week_id": 7,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xqwvl1/umayuru_full_gate_episode_7_discussion/",
+    "mal_id": 64867,
+    "current_rank": 29,
+    "karma_change": -5,
+    "rank_change": 31,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1827/160110l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1827/160110.jpg"
     },
@@ -820,9 +849,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xptg6u/sgt_frog_keroro_gunsou_episode_6_discussion/",
     "mal_id": 63157,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": 3,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -857,9 +886,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpuns6/rilakkuma_episode_31_discussion/",
     "mal_id": 60153,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 1,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "fall"
   },
   {
@@ -886,9 +915,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xqpkbb/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 2,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -915,9 +944,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xppy4y/beyblade_x_episode_138_discussion/",
     "mal_id": 56566,
-    "current_rank": 32,
+    "current_rank": 33,
     "karma_change": 1,
-    "rank_change": 40,
+    "rank_change": 39,
     "season": "fall"
   },
   {
@@ -940,9 +969,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpoupn/onegai_aipri_episode_31_discussion/",
     "mal_id": 63352,
-    "current_rank": 33,
+    "current_rank": 34,
     "karma_change": -3,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   }
 ]
