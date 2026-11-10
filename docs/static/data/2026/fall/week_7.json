@@ -624,6 +624,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "40",
+    "karma": 25,
+    "comments": 7,
+    "week_id": 7,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xqmier/star_detective_precure_meitantei_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 23,
+    "karma_change": 0,
+    "rank_change": "returning",
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -646,9 +675,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpypnd/pok\u00e9mon_horizons_the_series_episode_156_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -4,
-    "rank_change": 36,
+    "rank_change": 35,
     "season": "fall"
   },
   {
@@ -675,9 +704,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xptg6u/sgt_frog_keroro_gunsou_episode_6_discussion/",
     "mal_id": 63157,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": 3,
-    "rank_change": 41,
+    "rank_change": 40,
     "season": "fall"
   },
   {
@@ -712,9 +741,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpuns6/rilakkuma_episode_31_discussion/",
     "mal_id": 60153,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 1,
-    "rank_change": 44,
+    "rank_change": 43,
     "season": "fall"
   },
   {
@@ -741,9 +770,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xppy4y/beyblade_x_episode_138_discussion/",
     "mal_id": 56566,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 1,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -766,9 +795,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xpoupn/onegai_aipri_episode_31_discussion/",
     "mal_id": 63352,
-    "current_rank": 27,
+    "current_rank": 28,
     "karma_change": -3,
-    "rank_change": 42,
+    "rank_change": 41,
     "season": "fall"
   }
 ]
