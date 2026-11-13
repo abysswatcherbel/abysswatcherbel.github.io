@@ -1484192,7 +1484192,7 @@
         "title_english": "FX Fighter Kurumi-chan",
         "episode": "7",
         "created_at": "2026-11-12 13:00:03",
-        "updated_at": "2026-11-12 14:00:03",
+        "updated_at": "2026-11-13 22:00:03",
         "hourly_karma": [
             {
                 "hour": 0.0,
@@ -1484201,11 +1484201,345 @@
             {
                 "hour": 1.0,
                 "karma": 67
+            },
+            {
+                "hour": 33.0,
+                "karma": 305
             }
         ],
         "images": {
             "large": "https://cdn.myanimelist.net/images/anime/1928/160253l.jpg",
             "medium": "https://cdn.myanimelist.net/images/anime/1928/160253.jpg"
+        }
+    },
+    {
+        "mal_id": 63352,
+        "reddit_id": "1xvjm7f",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "",
+        "title_english": "",
+        "episode": "32",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 1.0,
+                "karma": 1
+            }
+        ],
+        "images": {
+            "large": "https://myanimelist.net/images/anime/1705/155680l.jpg",
+            "medium": "https://myanimelist.net/images/anime/1705/155680.jpg"
+        }
+    },
+    {
+        "mal_id": 59088,
+        "reddit_id": "1xvdbuj",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Tokyo Revengers: War of the Three Titan Arc",
+        "title_english": "Tokyo Revengers: War of the Three Titan Arc",
+        "episode": "7",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 5.0,
+                "karma": 40
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1321/159720l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1321/159720.jpg"
+        }
+    },
+    {
+        "mal_id": 63061,
+        "reddit_id": "1xvcggp",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Sorry About My Little Brothers",
+        "title_english": "Sorry About My Little Brothers",
+        "episode": "19",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 5.0,
+                "karma": 44
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1902/156345l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1902/156345.jpg"
+        }
+    },
+    {
+        "mal_id": 63181,
+        "reddit_id": "1xvbnxt",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Tougen Anki: Nikko Kegon Falls Arc",
+        "title_english": "Tougen Anki: Nikko Kegon Falls Arc",
+        "episode": "7",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 6.0,
+                "karma": 30
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1332/160147l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1332/160147.jpg"
+        }
+    },
+    {
+        "mal_id": 61014,
+        "reddit_id": "1xvavhg",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "A Certain Dark Item",
+        "title_english": "A Certain Dark Item",
+        "episode": "6",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 6.0,
+                "karma": 199
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1531/159988l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1531/159988.jpg"
+        }
+    },
+    {
+        "mal_id": 61987,
+        "reddit_id": "1xva5e1",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Apothecary Diaries Season 3",
+        "title_english": "The Apothecary Diaries Season 3",
+        "episode": "7",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 7.0,
+                "karma": 964
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1028/160277l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1028/160277.jpg"
+        }
+    },
+    {
+        "mal_id": 63293,
+        "reddit_id": "1xva5co",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Firefly Wedding",
+        "title_english": "Firefly Wedding",
+        "episode": "6",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 7.0,
+                "karma": 165
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1172/159893l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1172/159893.jpg"
+        }
+    },
+    {
+        "mal_id": 63045,
+        "reddit_id": "1xv7clc",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Devils' Crest",
+        "title_english": "Devils' Crest",
+        "episode": "3",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 9.0,
+                "karma": 40
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1551/158889l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1551/158889.jpg"
+        }
+    },
+    {
+        "mal_id": 65009,
+        "reddit_id": "1xv40a2",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Welsh & Shedar",
+        "title_english": "Welsh & Shedar",
+        "episode": "3",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 12.0,
+                "karma": 12
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1360/160091l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1360/160091.jpg"
+        }
+    },
+    {
+        "mal_id": 61469,
+        "reddit_id": "1xv408v",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Steel Ball Run: JoJo's Bizarre Adventure",
+        "title_english": "Steel Ball Run: JoJo's Bizarre Adventure",
+        "episode": "9",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 12.0,
+                "karma": 618
+            }
+        ],
+        "images": {
+            "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
+            "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
+        }
+    },
+    {
+        "mal_id": 64254,
+        "reddit_id": "1xui43i",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Iceblade Sorcerer Shall Rule the World II",
+        "title_english": "The Iceblade Sorcerer Shall Rule the World II",
+        "episode": "6",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 29.0,
+                "karma": 78
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1190/159644l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1190/159644.jpg"
+        }
+    },
+    {
+        "mal_id": 64180,
+        "reddit_id": "1xuhc18",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
+        "title_english": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
+        "episode": "7",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 29.0,
+                "karma": 11
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1782/158664l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1782/158664.jpg"
+        }
+    },
+    {
+        "mal_id": 62615,
+        "reddit_id": "1xugp3x",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "Tetsuryou! Meet with Tetsudou Musume",
+        "title_english": "Tetsuryou! Meet with Tetsudou Musume",
+        "episode": "6",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 30.0,
+                "karma": 62
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1618/160107l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1618/160107.jpg"
+        }
+    },
+    {
+        "mal_id": 59741,
+        "reddit_id": "1xugg6x",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Exiled Heavy Knight Knows How to Game the System",
+        "title_english": "The Exiled Heavy Knight Knows How to Game the System",
+        "episode": "20",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 30.0,
+                "karma": 276
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1322/158711l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1322/158711.jpg"
+        }
+    },
+    {
+        "mal_id": 64534,
+        "reddit_id": "1xufss2",
+        "week_id": 8,
+        "season": "fall",
+        "year": 2026,
+        "title": "The Ramparts of Ice Season 2",
+        "title_english": "The Ramparts of Ice Season 2",
+        "episode": "7",
+        "created_at": "2026-11-13 22:00:03",
+        "updated_at": "2026-11-13 22:00:03",
+        "hourly_karma": [
+            {
+                "hour": 30.0,
+                "karma": 633
+            }
+        ],
+        "images": {
+            "large": "https://cdn.myanimelist.net/images/anime/1963/159754l.jpg",
+            "medium": "https://cdn.myanimelist.net/images/anime/1963/159754.jpg"
         }
     }
 ]
