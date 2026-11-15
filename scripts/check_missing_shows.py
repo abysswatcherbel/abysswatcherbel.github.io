@@ -14,6 +14,8 @@ from pymongo import MongoClient
 from util.maintenance import extract_mal_id, validate_season
 from util.missing_shows import (
     audit_reddit_posts,
+    build_episode_record,
+    estimate_hour_48_karma,
     extract_episode,
     extract_reddit_post_id,
     is_rankable_episode,
@@ -29,7 +31,8 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Compare r/anime episode discussions with hourly tracking and finalized "
-            "seasonal ranking records. This command is read-only."
+            "seasonal ranking records. This command is read-only unless --fix or "
+            "--fix-force is used."
         )
     )
     parser.add_argument("--year", type=int)
@@ -46,6 +49,22 @@ def parse_args() -> argparse.Namespace:
         help="Print finalized and pending posts as well as missing posts.",
     )
     parser.add_argument("--json", action="store_true", dest="as_json")
+    parser.add_argument(
+        "--fix",
+        action="store_true",
+        help=(
+            "Insert missing finalized posts using their tracked hour-48 karma. "
+            "Posts without a complete snapshot are skipped."
+        ),
+    )
+    parser.add_argument(
+        "--fix-force",
+        action="store_true",
+        help=(
+            "Repair even without an exact hour-48 snapshot, marking karma as "
+            "estimated and using the latest snapshot or current Reddit score."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -71,6 +90,9 @@ def post_details(submission: Any) -> dict[str, Any] | None:
         "episode": extract_episode(submission.title),
         "created_utc": int(submission.created_utc),
         "url": f"https://www.reddit.com{submission.permalink}",
+        "comments": int(submission.num_comments),
+        "upvote_ratio": float(submission.upvote_ratio),
+        "current_karma": int(submission.score),
     }
 
 
@@ -125,6 +147,142 @@ def fetch_posts(
     return posts, year, season, week
 
 
+def repair_missing_posts(
+    mongo_uri: str,
+    *,
+    year: int,
+    season: str,
+    week: int,
+    missing: list[dict[str, Any]],
+    force: bool = False,
+) -> dict[str, Any]:
+    summary: dict[str, Any] = {
+        "attempted": len(missing),
+        "fixed": 0,
+        "already_finalized": 0,
+        "estimated": 0,
+        "skipped": [],
+    }
+    path = f"reddit_karma.{year}.{season}"
+    client = MongoClient(mongo_uri)
+    try:
+        collection = client.anime.seasonals
+        watch_collection = client.anime.karma_watch
+        growth_ratio_cache: dict[float, list[float]] = {}
+        for post in missing:
+            reddit_id = str(post["reddit_id"])
+            mal_id = post.get("mal_id")
+            if mal_id is None:
+                reason = "Reddit post has no MAL ID"
+                summary["skipped"].append({"reddit_id": reddit_id, "reason": reason})
+                print(f"SKIPPED {reddit_id}: {reason}", flush=True)
+                continue
+
+            repair_post = {**post, "week_id": week}
+            snapshot_hour = post.get("expected_karma_hour")
+            snapshot_karma = post.get("expected_karma")
+            if (
+                force
+                and snapshot_karma is not None
+                and snapshot_hour is not None
+                and float(snapshot_hour or 0) != 48
+            ):
+                hour = float(snapshot_hour)
+                if hour not in growth_ratio_cache:
+                    ratios = []
+                    history_query = {
+                        "year": year,
+                        "season": season,
+                        "hourly_karma": {
+                            "$all": [
+                                {"$elemMatch": {"hour": hour}},
+                                {"$elemMatch": {"hour": 48.0}},
+                            ]
+                        },
+                    }
+                    for history in watch_collection.find(
+                        history_query, {"_id": 0, "hourly_karma": 1}
+                    ):
+                        values = {
+                            float(item.get("hour")): item.get("karma")
+                            for item in history.get("hourly_karma", [])
+                        }
+                        at_snapshot = values.get(hour)
+                        at_48 = values.get(48.0)
+                        if (
+                            at_snapshot is not None
+                            and at_snapshot > 0
+                            and at_48 is not None
+                        ):
+                            ratios.append(at_48 / at_snapshot)
+                    growth_ratio_cache[hour] = ratios
+
+                try:
+                    estimate, multiplier, sample_size = estimate_hour_48_karma(
+                        snapshot_karma=int(snapshot_karma),
+                        growth_ratios=growth_ratio_cache[hour],
+                        current_karma=post.get("current_karma"),
+                    )
+                    repair_post.update(
+                        {
+                            "estimated_48h_karma": estimate,
+                            "karma_estimation_multiplier": round(multiplier, 4),
+                            "karma_estimation_sample_size": sample_size,
+                        }
+                    )
+                except ValueError:
+                    # build_episode_record retains its explicit latest/current fallback.
+                    pass
+            try:
+                episode_record = build_episode_record(repair_post, force=force)
+            except (TypeError, ValueError) as error:
+                summary["skipped"].append(
+                    {"reddit_id": reddit_id, "reason": str(error)}
+                )
+                print(f"SKIPPED {reddit_id}: {error}", flush=True)
+                continue
+
+            result = collection.update_one(
+                {
+                    "id": int(mal_id),
+                    f"{path}.reddit_id": {"$ne": reddit_id},
+                },
+                {"$push": {path: episode_record}},
+            )
+            if result.modified_count:
+                summary["fixed"] += 1
+                if episode_record.get("karma_estimated"):
+                    summary["estimated"] += 1
+                estimate = " estimated" if episode_record.get("karma_estimated") else ""
+                snapshot = episode_record.get("karma_snapshot_hour")
+                source = episode_record.get("karma_source")
+                multiplier = episode_record.get("karma_estimation_multiplier")
+                provenance = (
+                    f", source={source}"
+                    + (f", snapshot_hour={snapshot}" if snapshot is not None else "")
+                    + (f", multiplier={multiplier}" if multiplier is not None else "")
+                    if estimate
+                    else ""
+                )
+                print(
+                    f"FIXED {reddit_id}: {post['title']} "
+                    f"(karma={episode_record['karma']}{estimate}{provenance})",
+                    flush=True,
+                )
+            elif collection.count_documents(
+                {"id": int(mal_id), f"{path}.reddit_id": reddit_id}, limit=1
+            ):
+                summary["already_finalized"] += 1
+                print(f"ALREADY FINALIZED {reddit_id}", flush=True)
+            else:
+                reason = f"MAL {mal_id} is not present in seasonals"
+                summary["skipped"].append({"reddit_id": reddit_id, "reason": reason})
+                print(f"SKIPPED {reddit_id}: {reason}", flush=True)
+    finally:
+        client.close()
+    return summary
+
+
 def database_state(
     mongo_uri: str,
     *,
@@ -173,6 +331,38 @@ def main() -> int:
     counts = Counter(result["status"] for result in results)
     missing = [result for result in results if result["status"] in MISSING_STATUSES]
 
+    fix_summary = None
+    if args.fix_force:
+        print(
+            "FORCE MODE: non-48-hour karma values will be stored as estimates.",
+            flush=True,
+        )
+    if (args.fix or args.fix_force) and missing:
+        print(f"Repairing {len(missing)} missing post(s)...", flush=True)
+        fix_summary = repair_missing_posts(
+            os.environ["MONGO_URI"],
+            year=year,
+            season=season,
+            week=week,
+            missing=missing,
+            force=args.fix_force,
+        )
+        finalized, watch_entries = database_state(
+            os.environ["MONGO_URI"],
+            year=year,
+            season=season,
+            reddit_ids=reddit_ids,
+        )
+        results = audit_reddit_posts(
+            posts,
+            finalized_ids=finalized,
+            watch_entries=watch_entries,
+        )
+        counts = Counter(result["status"] for result in results)
+        missing = [
+            result for result in results if result["status"] in MISSING_STATUSES
+        ]
+
     report = {
         "year": year,
         "season": season,
@@ -181,6 +371,8 @@ def main() -> int:
         "counts": dict(sorted(counts.items())),
         "missing": missing,
     }
+    if fix_summary is not None:
+        report["fix"] = fix_summary
     if args.as_json:
         if args.include_ok:
             report["posts"] = results
@@ -188,11 +380,16 @@ def main() -> int:
     else:
         visible = results if args.include_ok else missing
         for result in visible:
-            karma = (
-                f", expected karma {result['expected_karma']}"
-                if result["expected_karma"] is not None
-                else ""
-            )
+            karma = ""
+            if result["expected_karma"] is not None:
+                snapshot_hour = result.get("expected_karma_hour")
+                if float(snapshot_hour or 0) == 48:
+                    karma = f", hour-48 karma {result['expected_karma']}"
+                else:
+                    karma = (
+                        f", latest karma {result['expected_karma']} "
+                        f"at hour {snapshot_hour}"
+                    )
             print(
                 f"{result['status'].upper()}: {result['title']} "
                 f"[{result['reddit_id']}, {result['age_hours']}h old{karma}]"
@@ -202,6 +399,15 @@ def main() -> int:
             f"Summary: checked={len(results)}, missing={len(missing)}, "
             + ", ".join(f"{key}={value}" for key, value in sorted(counts.items()))
         )
+        if fix_summary is not None:
+            print(
+                "Fix summary: "
+                f"attempted={fix_summary['attempted']}, "
+                f"fixed={fix_summary['fixed']}, "
+                f"estimated={fix_summary['estimated']}, "
+                f"already_finalized={fix_summary['already_finalized']}, "
+                f"skipped={len(fix_summary['skipped'])}"
+            )
     return 1 if missing else 0
 
 

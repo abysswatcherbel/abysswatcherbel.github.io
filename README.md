@@ -101,11 +101,20 @@ Audit the current ranking week for episode discussions that were never finalized
 python -m scripts.check_missing_shows
 python -m scripts.check_missing_shows --post https://www.reddit.com/r/anime/comments/POST_ID/title/
 python -m scripts.check_missing_shows --year 2026 --season fall --week 5
+python -m scripts.check_missing_shows --fix
+python -m scripts.check_missing_shows --fix-force
 ```
 
 The checker is read-only, ignores episode 0 megathreads, and reports both posts
 that were never tracked and posts whose hourly tracking reached 48 hours but was
-not copied into the seasonal ranking data.
+not copied into the seasonal ranking data. Pass `--fix` to insert repairable
+missing posts with their recorded hour-48 karma; writes are duplicate-safe, and
+posts without a complete 48-hour snapshot are left unchanged.
+Use `--fix-force` when an estimated result is acceptable. It projects the latest
+snapshot to hour 48 using the median growth curve from completed posts in the
+same season, capped by the current Reddit score. If no curve is available it
+falls back to the latest snapshot or current score. The estimate source,
+snapshot hour, multiplier, and historical sample size are stored with the entry.
 
 Historical seasons can be selected explicitly. Add `--week` when a MAL snapshot
 should also be attached to that week's episode records:
