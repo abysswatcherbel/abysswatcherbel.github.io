@@ -32,22 +32,38 @@ For a production-only environment:
 uv sync --locked --no-dev --managed-python
 ```
 
-## systemd service
+## systemd user service
 
-The committed `karma.service` synchronizes the locked production dependencies
-before startup and then runs `.venv/bin/python` directly. It does not load shell
-startup files or activate Conda.
+The committed `karma.service` is a user unit. It synchronizes the locked
+production dependencies before startup and then runs `.venv/bin/python`
+directly. It does not need root at runtime, load shell startup files, or activate
+Conda.
 
 ```bash
-sudo install -m 0644 karma.service /etc/systemd/system/karma-tracker.service
-sudo systemctl daemon-reload
-sudo systemctl enable karma-tracker.service
-sudo systemctl restart karma-tracker.service
-sudo systemctl status karma-tracker.service
+install -Dm644 karma.service ~/.config/systemd/user/karma-tracker.service
+systemctl --user daemon-reload
+systemctl --user enable --now karma-tracker.service
+systemctl --user status karma-tracker.service
 ```
 
 After changing dependencies, restart the service; `ExecStartPre` will reconcile
 `.venv` with the committed lockfile before the application starts.
+
+For the service to start during boot and remain active after logout, enable user
+lingering once:
+
+```bash
+loginctl show-user "$USER" -p Linger
+sudo loginctl enable-linger "$USER"
+```
+
+When migrating from the old system unit, stop it before starting this user unit
+to avoid running two schedulers:
+
+```bash
+sudo systemctl disable --now karma-tracker.service
+systemctl --user enable --now karma-tracker.service
+```
 
 ## Features
 

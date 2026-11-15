@@ -1,20 +1,16 @@
 [Unit]
 Description=Reddit Karma Tracker App
-Wants=network-online.target
-After=network-online.target
 
 [Service]
 Type=simple
-User=joaompessoa
-Group=joaompessoa
-WorkingDirectory=/home/joaompessoa/karma_track
-Environment="PATH=/home/joaompessoa/karma_track/.venv/bin:/home/joaompessoa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+WorkingDirectory=%h/karma_track
+Environment="PATH=%h/karma_track/.venv/bin:%h/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 Environment="UV_NO_PROGRESS=1"
-ExecStartPre=/home/joaompessoa/.local/bin/uv sync --locked --no-dev --managed-python
-ExecStart=/home/joaompessoa/karma_track/.venv/bin/python /home/joaompessoa/karma_track/entry.py run
+ExecStartPre=%h/.local/bin/uv sync --locked --no-dev --managed-python
+ExecStart=%h/karma_track/.venv/bin/python %h/karma_track/entry.py run
 Restart=on-failure
 RestartSec=5
 SyslogIdentifier=karma-tracker
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
