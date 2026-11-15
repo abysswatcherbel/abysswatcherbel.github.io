@@ -3,6 +3,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from math import ceil
+from threading import Event
 from typing import Dict, List, Optional, Tuple, Union
 
 import pandas as pd
@@ -1225,8 +1226,7 @@ def main():
 
     print("Scheduler is running... Press Ctrl+C to exit.")
     try:
-        while True:
-            pass
+        Event().wait()
     except KeyboardInterrupt:
         print("Shutting down scheduler...")
         scheduler.shutdown()
