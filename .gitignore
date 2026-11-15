@@ -1,6 +1,8 @@
 .env
 .idea
 .vscode
+.venv/
+.uv-cache/
 /src/logs/*
 /*/__pycache__
 *.pyc
@@ -17,6 +19,8 @@ __pycache__
 
 *.sh
 *.service
+!hourly_update.sh
+!karma.service
 
 package-lock.json
 package.json

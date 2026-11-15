@@ -11,6 +11,44 @@ The **Anime Karma Rankings** is a full-stack Python project designed to process 
 
 This project was created to automate the tracking and ranking of anime discussions made on r/anime, a half a decade tradition, which historically was made by hand by members of the community.
 
+## Local setup with uv
+
+The project uses Python 3.12 and [uv](https://docs.astral.sh/uv/) for Python,
+dependency, virtual-environment, and lockfile management. Conda is not required.
+
+```bash
+uv python install 3.12
+uv sync --locked --managed-python
+uv run python -m unittest discover -s tests
+```
+
+`uv sync` creates the project environment at `.venv`. Application dependencies
+are recorded in `pyproject.toml`, while `uv.lock` provides reproducible versions.
+Use `uv add PACKAGE` and commit both files when adding or updating a dependency.
+
+For a production-only environment:
+
+```bash
+uv sync --locked --no-dev --managed-python
+```
+
+## systemd service
+
+The committed `karma.service` synchronizes the locked production dependencies
+before startup and then runs `.venv/bin/python` directly. It does not load shell
+startup files or activate Conda.
+
+```bash
+sudo install -m 0644 karma.service /etc/systemd/system/karma-tracker.service
+sudo systemctl daemon-reload
+sudo systemctl enable karma-tracker.service
+sudo systemctl restart karma-tracker.service
+sudo systemctl status karma-tracker.service
+```
+
+After changing dependencies, restart the service; `ExecStartPre` will reconcile
+`.venv` with the committed lockfile before the application starts.
+
 ## Features
 
 - **Reddit Post Processing:**  
@@ -87,22 +125,22 @@ current ranking season. Start with `--dry-run` to inspect the selected records.
 
 ```bash
 # Refresh top-level MAL scores and the current week's MAL snapshots
-python -m scripts.update_mal_scores --dry-run
-python -m scripts.update_mal_scores
+uv run --locked python -m scripts.update_mal_scores --dry-run
+uv run --locked python -m scripts.update_mal_scores
 
 # Fill only missing/null legal streaming links
-python -m scripts.backfill_streaming --dry-run
-python -m scripts.backfill_streaming
+uv run --locked python -m scripts.backfill_streaming --dry-run
+uv run --locked python -m scripts.backfill_streaming
 ```
 
 Audit the current ranking week for episode discussions that were never finalized:
 
 ```bash
-python -m scripts.check_missing_shows
-python -m scripts.check_missing_shows --post https://www.reddit.com/r/anime/comments/POST_ID/title/
-python -m scripts.check_missing_shows --year 2026 --season fall --week 5
-python -m scripts.check_missing_shows --fix
-python -m scripts.check_missing_shows --fix-force
+uv run --locked python -m scripts.check_missing_shows
+uv run --locked python -m scripts.check_missing_shows --post https://www.reddit.com/r/anime/comments/POST_ID/title/
+uv run --locked python -m scripts.check_missing_shows --year 2026 --season fall --week 5
+uv run --locked python -m scripts.check_missing_shows --fix
+uv run --locked python -m scripts.check_missing_shows --fix-force
 ```
 
 The checker is read-only, ignores episode 0 megathreads, and reports both posts
@@ -120,8 +158,8 @@ Historical seasons can be selected explicitly. Add `--week` when a MAL snapshot
 should also be attached to that week's episode records:
 
 ```bash
-python -m scripts.update_mal_scores --year 2026 --season fall --week 5
-python -m scripts.backfill_streaming --year 2026 --season fall
+uv run --locked python -m scripts.update_mal_scores --year 2026 --season fall --week 5
+uv run --locked python -m scripts.backfill_streaming --year 2026 --season fall
 ```
 
 `backfill_streaming` leaves existing stream data untouched by default. Use
