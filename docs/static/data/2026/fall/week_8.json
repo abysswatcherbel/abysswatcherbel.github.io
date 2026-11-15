@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "images": {
+      "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
+    },
+    "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+    "title_english": "Steel Ball Run: JoJo's Bizarre Adventure",
+    "num_episodes": 0,
+    "score": 9.03,
+    "streams": {
+      "name": "netflix",
+      "service": "Netflix",
+      "url": "https://www.netflix.com/title/82116553",
+      "logo": null
+    },
+    "episode": "9",
+    "karma": 892,
+    "comments": 293,
+    "week_id": 8,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xv408v/steel_ball_run_jojo_no_kimyou_na_bouken_steel/",
+    "mal_id": 61469,
+    "current_rank": 1,
+    "karma_change": 77,
+    "rank_change": 3,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1360/160091l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1360/160091.jpg"
+    },
+    "title": "Aoki Denshou Welsh & Shedar",
+    "title_english": "Welsh & Shedar",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "3",
+    "karma": 14,
+    "comments": 3,
+    "week_id": 8,
+    "studio": [
+      "Studio Massket"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xv40a2/welsh_shedar_aoki_denshou_welsh_shedar_episode_3/",
+    "mal_id": 65009,
+    "current_rank": 2,
+    "karma_change": -14,
+    "rank_change": 57,
+    "season": "fall"
+  }
+]
