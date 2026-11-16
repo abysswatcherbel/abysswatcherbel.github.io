@@ -228,6 +228,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1827/160110l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1827/160110.jpg"
+    },
+    "title": "Keroro Gunsou\u2606",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 6.51,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00383995/",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 24,
+    "comments": 4,
+    "week_id": 8,
+    "studio": [
+      "Bandai Namco Pictures"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xvp6g4/sgt_frog_keroro_gunsou_episode_7_discussion/",
+    "mal_id": 63157,
+    "current_rank": 9,
+    "karma_change": 10,
+    "rank_change": 58,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1360/160091l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1360/160091.jpg"
     },
@@ -245,9 +274,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xv40a2/welsh_shedar_aoki_denshou_welsh_shedar_episode_3/",
     "mal_id": 65009,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": -14,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -270,9 +299,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvjm7f/onegai_aipri_episode_32_discussion/",
     "mal_id": 63352,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 1,
-    "rank_change": 65,
+    "rank_change": 64,
     "season": "fall"
   }
 ]
