@@ -228,6 +228,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1299/159977l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1299/159977.jpg"
+    },
+    "title": "Shuiro no Kamen",
+    "title_english": "The Vermilion Mask",
+    "num_episodes": 0,
+    "score": 6.9,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/watch/GE00384363JAJP",
+      "logo": null
+    },
+    "episode": "6",
+    "karma": 50,
+    "comments": 34,
+    "week_id": 8,
+    "studio": [
+      "100studio"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xvyc5d/the_vermilion_mask_shuiro_no_kamen_episode_6/",
+    "mal_id": 61999,
+    "current_rank": 9,
+    "karma_change": -11,
+    "rank_change": 38,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -250,9 +279,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvu9df/pok\u00e9mon_horizons_the_series_episode_157_discussion/",
     "mal_id": 53876,
-    "current_rank": 9,
+    "current_rank": 10,
     "karma_change": 12,
-    "rank_change": 54,
+    "rank_change": 53,
     "season": "fall"
   },
   {
@@ -279,9 +308,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvp6g4/sgt_frog_keroro_gunsou_episode_7_discussion/",
     "mal_id": 63157,
-    "current_rank": 10,
+    "current_rank": 11,
     "karma_change": 10,
-    "rank_change": 57,
+    "rank_change": 56,
     "season": "fall"
   },
   {
@@ -303,9 +332,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xv40a2/welsh_shedar_aoki_denshou_welsh_shedar_episode_3/",
     "mal_id": 65009,
-    "current_rank": 11,
+    "current_rank": 12,
     "karma_change": -14,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   },
   {
@@ -340,9 +369,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvqdlo/rilakkuma_episode_32_discussion/",
     "mal_id": 60153,
-    "current_rank": 12,
+    "current_rank": 13,
     "karma_change": -3,
-    "rank_change": 60,
+    "rank_change": 59,
     "season": "fall"
   },
   {
@@ -365,9 +394,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvjm7f/onegai_aipri_episode_32_discussion/",
     "mal_id": 63352,
-    "current_rank": 13,
+    "current_rank": 14,
     "karma_change": 1,
-    "rank_change": 62,
+    "rank_change": 61,
     "season": "fall"
   }
 ]
