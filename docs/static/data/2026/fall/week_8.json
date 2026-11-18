@@ -1210,6 +1210,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1315/159864l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1315/159864.jpg"
+    },
+    "title": "Mahou no Shimai Lulutto Lilly Part 2",
+    "title_english": "Magical Sisters Lulutto Lilly Part 2",
+    "num_episodes": 0,
+    "score": 6.75,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLKPsuBIKuejMR6v7XCBOMy7Xesql1re66",
+      "logo": null
+    },
+    "episode": "19",
+    "karma": 15,
+    "comments": 4,
+    "week_id": 8,
+    "studio": [
+      "Studio Pierrot"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xxcoqd/magical_sisters_luluttolilly_mahou_no_shimai/",
+    "mal_id": 63667,
+    "current_rank": 42,
+    "karma_change": -6,
+    "rank_change": 23,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1360/160091l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1360/160091.jpg"
     },
@@ -1227,9 +1256,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xv40a2/welsh_shedar_aoki_denshou_welsh_shedar_episode_3/",
     "mal_id": 65009,
-    "current_rank": 43,
+    "current_rank": 44,
     "karma_change": -14,
-    "rank_change": 16,
+    "rank_change": 15,
     "season": "fall"
   },
   {
@@ -1264,9 +1293,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvqdlo/rilakkuma_episode_32_discussion/",
     "mal_id": 60153,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": -3,
-    "rank_change": 28,
+    "rank_change": 27,
     "season": "fall"
   },
   {
@@ -1289,9 +1318,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvjm7f/onegai_aipri_episode_32_discussion/",
     "mal_id": 63352,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 1,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   }
 ]
