@@ -1757,6 +1757,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1529/159518l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1529/159518.jpg"
+    },
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
+    "num_episodes": 0,
+    "score": 6.63,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G65VP3106/the-prince-of-tennis-ii",
+      "logo": null
+    },
+    "episode": "8",
+    "karma": 8,
+    "comments": 2,
+    "week_id": 8,
+    "studio": [
+      "M.S.C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1xzj2fu/the_prince_of_tennis_ii_u17_world_cup_final/",
+    "mal_id": 62534,
+    "current_rank": 62,
+    "karma_change": 1,
+    "rank_change": 8,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
       "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
     },
@@ -1779,9 +1808,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xy8c7o/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 3,
-    "rank_change": 11,
+    "rank_change": 10,
     "season": "fall"
   },
   {
@@ -1808,9 +1837,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xylwjq/battle_spirits_re_zekkai_no_ku_episode_7/",
     "mal_id": 63818,
-    "current_rank": 63,
+    "current_rank": 64,
     "karma_change": -6,
-    "rank_change": 6,
+    "rank_change": 5,
     "season": "fall"
   },
   {
@@ -1845,9 +1874,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvqdlo/rilakkuma_episode_32_discussion/",
     "mal_id": 60153,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": -3,
-    "rank_change": 8,
+    "rank_change": 7,
     "season": "fall"
   },
   {
@@ -1870,9 +1899,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvjm7f/onegai_aipri_episode_32_discussion/",
     "mal_id": 63352,
-    "current_rank": 65,
+    "current_rank": 66,
     "karma_change": 1,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   }
 ]
