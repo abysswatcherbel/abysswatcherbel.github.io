@@ -2049,6 +2049,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.83,
+    "streams": {
+      "name": "netflix",
+      "service": "Netflix",
+      "url": "https://www.netflix.com/title/81924739",
+      "logo": null
+    },
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "140",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 8,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y0kwa4/beyblade_x_episode_140_discussion/",
+    "mal_id": 56566,
+    "current_rank": 72,
+    "karma_change": -3,
+    "rank_change": -1,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1135/159762l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1135/159762.jpg"
     },
@@ -2071,9 +2100,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xylwjq/battle_spirits_re_zekkai_no_ku_episode_7/",
     "mal_id": 63818,
-    "current_rank": 72,
+    "current_rank": 73,
     "karma_change": -6,
-    "rank_change": -3,
+    "rank_change": -4,
     "season": "fall"
   },
   {
@@ -2108,9 +2137,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvqdlo/rilakkuma_episode_32_discussion/",
     "mal_id": 60153,
-    "current_rank": 73,
+    "current_rank": 74,
     "karma_change": -3,
-    "rank_change": -1,
+    "rank_change": -2,
     "season": "fall"
   },
   {
@@ -2133,9 +2162,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1xvjm7f/onegai_aipri_episode_32_discussion/",
     "mal_id": 63352,
-    "current_rank": 74,
+    "current_rank": 75,
     "karma_change": 1,
-    "rank_change": 1,
+    "rank_change": 0,
     "season": "fall"
   }
 ]
