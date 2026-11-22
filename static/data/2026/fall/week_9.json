@@ -27,5 +27,29 @@
     "karma_change": -192,
     "rank_change": 1,
     "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1551/158889l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1551/158889.jpg"
+    },
+    "title": "Demons' Crest",
+    "title_english": "Devils' Crest",
+    "num_episodes": 0,
+    "score": 6.56,
+    "streams": null,
+    "episode": "4",
+    "karma": 59,
+    "comments": 51,
+    "week_id": 9,
+    "studio": [
+      "Production I.G"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y11pxl/devils_crest_demons_crest_episode_4_discussion/",
+    "mal_id": 63045,
+    "current_rank": 2,
+    "karma_change": 7,
+    "rank_change": 48,
+    "season": "fall"
   }
 ]
