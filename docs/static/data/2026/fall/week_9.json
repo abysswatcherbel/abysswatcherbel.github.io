@@ -1,6 +1,35 @@
 [
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1028/160277l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1028/160277.jpg"
+    },
+    "title": "Kusuriya no Hitorigoto 3rd Season",
+    "title_english": "The Apothecary Diaries Season 3",
+    "num_episodes": 0,
+    "score": 8.6,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
+      "logo": null
+    },
+    "episode": "8",
+    "karma": 1575,
+    "comments": 505,
+    "week_id": 9,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y15omu/the_apothecary_diaries_season_3_kusuriya_no/",
+    "mal_id": 61987,
+    "current_rank": 1,
+    "karma_change": -307,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1448/154111l.jpg",
       "medium": "https://myanimelist.net/images/anime/1448/154111.jpg"
     },
@@ -23,9 +52,67 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y0xth4/steel_ball_run_jojo_no_kimyou_na_bouken_steel/",
     "mal_id": 61469,
-    "current_rank": 1,
+    "current_rank": 2,
     "karma_change": -192,
-    "rank_change": 1,
+    "rank_change": 0,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1531/159988l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1531/159988.jpg"
+    },
+    "title": "Toaru Anbu no Item",
+    "title_english": "A Certain Dark Item",
+    "num_episodes": 0,
+    "score": 7.41,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00383991/a-certain-dark-item",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 339,
+    "comments": 137,
+    "week_id": 9,
+    "studio": [
+      "J.C.Staff"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y16ers/a_certain_dark_item_toaru_anbu_no_item_episode_7/",
+    "mal_id": 61014,
+    "current_rank": 3,
+    "karma_change": -17,
+    "rank_change": 14,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1172/159893l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1172/159893.jpg"
+    },
+    "title": "Hotaru no Yomeiri",
+    "title_english": "Firefly Wedding",
+    "num_episodes": 0,
+    "score": 7.74,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GT00383999",
+      "logo": null
+    },
+    "episode": "7",
+    "karma": 262,
+    "comments": 100,
+    "week_id": 9,
+    "studio": [
+      "David Production"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y15ol1/firefly_wedding_hotaru_no_yomeiri_episode_7/",
+    "mal_id": 63293,
+    "current_rank": 4,
+    "karma_change": -51,
+    "rank_change": 16,
     "season": "fall"
   },
   {
@@ -47,9 +134,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y11pxl/devils_crest_demons_crest_episode_4_discussion/",
     "mal_id": 63045,
-    "current_rank": 2,
+    "current_rank": 5,
     "karma_change": 7,
-    "rank_change": 48,
+    "rank_change": 45,
     "season": "fall"
   }
 ]
