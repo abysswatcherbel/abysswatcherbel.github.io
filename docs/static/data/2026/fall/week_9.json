@@ -117,6 +117,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1321/159720l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1321/159720.jpg"
+    },
+    "title": "Tokyo Revengers: Santen Sensou-hen",
+    "title_english": "Tokyo Revengers: War of the Three Titan Arc",
+    "num_episodes": 0,
+    "score": 7.82,
+    "streams": {
+      "name": "hulu",
+      "service": "Hulu",
+      "url": "https://www.hulu.com/series/1a195a35-e19c-4e36-b609-3b1c451f6ce4",
+      "logo": null
+    },
+    "episode": "8",
+    "karma": 62,
+    "comments": 42,
+    "week_id": 9,
+    "studio": [
+      "LIDENFILMS"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y18q30/tokyo_revengers_war_of_the_three_titans_arc_tokyo/",
+    "mal_id": 59088,
+    "current_rank": 5,
+    "karma_change": -17,
+    "rank_change": 38,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1551/158889l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1551/158889.jpg"
     },
@@ -134,9 +163,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y11pxl/devils_crest_demons_crest_episode_4_discussion/",
     "mal_id": 63045,
-    "current_rank": 5,
+    "current_rank": 6,
     "karma_change": 7,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -163,9 +192,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y17x3a/please_excuse_my_younger_brothers_uchi_no/",
     "mal_id": 63061,
-    "current_rank": 6,
+    "current_rank": 7,
     "karma_change": -11,
-    "rank_change": 38,
+    "rank_change": 37,
     "season": "fall"
   },
   {
@@ -192,9 +221,33 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y177pn/tougen_anki_nikko_kegon_falls_arc_tougen_anki/",
     "mal_id": 63181,
-    "current_rank": 7,
+    "current_rank": 8,
     "karma_change": 0,
-    "rank_change": 44,
+    "rank_change": 43,
+    "season": "fall"
+  },
+  {
+    "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1360/160091l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1360/160091.jpg"
+    },
+    "title": "Aoki Denshou Welsh & Shedar",
+    "title_english": "Welsh & Shedar",
+    "num_episodes": 0,
+    "score": 6.27,
+    "streams": null,
+    "episode": "4",
+    "karma": 22,
+    "comments": 2,
+    "week_id": 9,
+    "studio": [
+      "Studio Massket"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y18r5n/welsh_shedar_aoki_denshou_welsh_shedar_episode_4/",
+    "mal_id": 65009,
+    "current_rank": 9,
+    "karma_change": 8,
+    "rank_change": 59,
     "season": "fall"
   }
 ]
