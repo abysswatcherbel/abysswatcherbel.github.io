@@ -576,6 +576,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1706/154944l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1706/154944.jpg"
+    },
+    "title": "Meitantei Precure!",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": 7.67,
+    "streams": [
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00369409/star-detective-precure"
+      }
+    ],
+    "episode": "42",
+    "karma": 33,
+    "comments": 25,
+    "week_id": 9,
+    "studio": [
+      "Toei Animation"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y2d26w/star_detective_precure_meitantei_precure_episode/",
+    "mal_id": 63042,
+    "current_rank": 21,
+    "karma_change": 5,
+    "rank_change": 41,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1751/160122l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1751/160122.jpg"
     },
@@ -598,9 +627,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y227bg/horror_collector_kyoufu_collector_episode_7/",
     "mal_id": 63053,
-    "current_rank": 21,
+    "current_rank": 22,
     "karma_change": 8,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "fall"
   },
   {
@@ -622,9 +651,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y18r5n/welsh_shedar_aoki_denshou_welsh_shedar_episode_4/",
     "mal_id": 65009,
-    "current_rank": 22,
+    "current_rank": 23,
     "karma_change": 8,
-    "rank_change": 46,
+    "rank_change": 45,
     "season": "fall"
   },
   {
@@ -651,9 +680,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1njo1/pok\u00e9mon_horizons_the_series_episode_158_discussion/",
     "mal_id": 53876,
-    "current_rank": 23,
+    "current_rank": 24,
     "karma_change": -14,
-    "rank_change": 37,
+    "rank_change": 36,
     "season": "fall"
   },
   {
@@ -680,9 +709,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1k2gb/sgt_frog_keroro_gunsou_episode_8_discussion/",
     "mal_id": 63157,
-    "current_rank": 24,
+    "current_rank": 25,
     "karma_change": -13,
-    "rank_change": 39,
+    "rank_change": 38,
     "season": "fall"
   },
   {
@@ -705,9 +734,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1bizz/onegai_aipri_episode_33_discussion/",
     "mal_id": 63352,
-    "current_rank": 25,
+    "current_rank": 26,
     "karma_change": 5,
-    "rank_change": 50,
+    "rank_change": 49,
     "season": "fall"
   },
   {
@@ -742,9 +771,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1l8tg/rilakkuma_episode_33_discussion/",
     "mal_id": 60153,
-    "current_rank": 26,
+    "current_rank": 27,
     "karma_change": 0,
-    "rank_change": 48,
+    "rank_change": 47,
     "season": "fall"
   }
 ]
