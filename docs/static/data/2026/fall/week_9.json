@@ -1235,6 +1235,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1394/145458l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1394/145458.jpg"
+    },
+    "num_episodes": 0,
+    "score": 6.83,
+    "streams": {
+      "name": "netflix",
+      "service": "Netflix",
+      "url": "https://www.netflix.com/title/81924739",
+      "logo": null
+    },
+    "title": "Beyblade X",
+    "title_english": "",
+    "episode": "141",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "OLM"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y2wkvi/beyblade_x_episode_141_discussion/",
+    "mal_id": 56566,
+    "current_rank": 44,
+    "karma_change": 0,
+    "rank_change": 28,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
       "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
     },
@@ -1294,9 +1323,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1l8tg/rilakkuma_episode_33_discussion/",
     "mal_id": 60153,
-    "current_rank": 45,
+    "current_rank": 46,
     "karma_change": 0,
-    "rank_change": 29,
+    "rank_change": 28,
     "season": "fall"
   }
 ]
