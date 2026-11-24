@@ -1235,6 +1235,35 @@
   },
   {
     "images": {
+      "large": "https://myanimelist.net/images/anime/1635/156342l.jpg",
+      "medium": "https://myanimelist.net/images/anime/1635/156342.jpg"
+    },
+    "title": "Odekake Kozame 2nd Season",
+    "title_english": "",
+    "num_episodes": 0,
+    "score": null,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/@odekake-kozame",
+      "logo": null
+    },
+    "episode": "93",
+    "karma": 4,
+    "comments": 1,
+    "week_id": 9,
+    "studio": [
+      "ENGI"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y2vh09/little_sharks_day_out_season_2_odekake_kozame/",
+    "mal_id": 63125,
+    "current_rank": 44,
+    "karma_change": -2,
+    "rank_change": 27,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://myanimelist.net/images/anime/1956/155696l.jpg",
       "medium": "https://myanimelist.net/images/anime/1956/155696.jpg"
     },
@@ -1265,9 +1294,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1l8tg/rilakkuma_episode_33_discussion/",
     "mal_id": 60153,
-    "current_rank": 44,
+    "current_rank": 45,
     "karma_change": 0,
-    "rank_change": 30,
+    "rank_change": 29,
     "season": "fall"
   }
 ]
