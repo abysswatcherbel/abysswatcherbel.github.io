@@ -774,6 +774,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1905/159716l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1905/159716.jpg"
+    },
+    "title": "Umayuru: Full Gate!",
+    "title_english": "",
+    "num_episodes": 26,
+    "score": 6.91,
+    "streams": {
+      "name": "youtube",
+      "service": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLNoVytAHV6zA",
+      "logo": null
+    },
+    "episode": "9",
+    "karma": 21,
+    "comments": 3,
+    "week_id": 9,
+    "studio": [
+      "AtoriE"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y2nrlw/umayuru_full_gate_episode_9_discussion/",
+    "mal_id": 64867,
+    "current_rank": 28,
+    "karma_change": 6,
+    "rank_change": 38,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1703/137216l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1703/137216.jpg"
     },
@@ -796,9 +825,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1njo1/pok\u00e9mon_horizons_the_series_episode_158_discussion/",
     "mal_id": 53876,
-    "current_rank": 28,
+    "current_rank": 29,
     "karma_change": -14,
-    "rank_change": 32,
+    "rank_change": 31,
     "season": "fall"
   },
   {
@@ -825,9 +854,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1k2gb/sgt_frog_keroro_gunsou_episode_8_discussion/",
     "mal_id": 63157,
-    "current_rank": 29,
+    "current_rank": 30,
     "karma_change": -13,
-    "rank_change": 34,
+    "rank_change": 33,
     "season": "fall"
   },
   {
@@ -850,9 +879,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1bizz/onegai_aipri_episode_33_discussion/",
     "mal_id": 63352,
-    "current_rank": 30,
+    "current_rank": 31,
     "karma_change": 5,
-    "rank_change": 45,
+    "rank_change": 44,
     "season": "fall"
   },
   {
@@ -887,9 +916,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1l8tg/rilakkuma_episode_33_discussion/",
     "mal_id": 60153,
-    "current_rank": 31,
+    "current_rank": 32,
     "karma_change": 0,
-    "rank_change": 43,
+    "rank_change": 42,
     "season": "fall"
   }
 ]
