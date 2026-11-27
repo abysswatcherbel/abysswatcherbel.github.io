@@ -1729,6 +1729,35 @@
   },
   {
     "images": {
+      "large": "https://cdn.myanimelist.net/images/anime/1529/159518l.jpg",
+      "medium": "https://cdn.myanimelist.net/images/anime/1529/159518.jpg"
+    },
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title_english": "The Prince of Tennis II U-17 World Cup: Final Member Selection Match",
+    "num_episodes": 0,
+    "score": 6.63,
+    "streams": {
+      "name": "crunchyroll",
+      "service": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/series/G65VP3106/the-prince-of-tennis-ii",
+      "logo": null
+    },
+    "episode": "9",
+    "karma": 5,
+    "comments": 3,
+    "week_id": 9,
+    "studio": [
+      "M.S.C"
+    ],
+    "url": "https://www.reddit.com/r/anime/comments/1y5b4at/the_prince_of_tennis_ii_u17_world_cup_final/",
+    "mal_id": 62534,
+    "current_rank": 61,
+    "karma_change": -3,
+    "rank_change": 9,
+    "season": "fall"
+  },
+  {
+    "images": {
       "large": "https://cdn.myanimelist.net/images/anime/1135/159762l.jpg",
       "medium": "https://cdn.myanimelist.net/images/anime/1135/159762.jpg"
     },
@@ -1751,9 +1780,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y4eqrw/battle_spirits_re_zekkai_no_ku_episode_8/",
     "mal_id": 63818,
-    "current_rank": 61,
+    "current_rank": 62,
     "karma_change": 2,
-    "rank_change": 12,
+    "rank_change": 11,
     "season": "fall"
   },
   {
@@ -1780,9 +1809,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y2wkvi/beyblade_x_episode_141_discussion/",
     "mal_id": 56566,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": 0,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   },
   {
@@ -1809,9 +1838,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y2vh09/little_sharks_day_out_season_2_odekake_kozame/",
     "mal_id": 63125,
-    "current_rank": 62,
+    "current_rank": 63,
     "karma_change": -2,
-    "rank_change": 9,
+    "rank_change": 8,
     "season": "fall"
   },
   {
@@ -1846,9 +1875,9 @@
     ],
     "url": "https://www.reddit.com/r/anime/comments/1y1l8tg/rilakkuma_episode_33_discussion/",
     "mal_id": 60153,
-    "current_rank": 64,
+    "current_rank": 65,
     "karma_change": 0,
-    "rank_change": 10,
+    "rank_change": 9,
     "season": "fall"
   }
 ]
